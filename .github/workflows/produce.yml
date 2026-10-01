@@ -19,6 +19,9 @@ on:
         description: "업로드 없이 영상만 만들기 (결과물은 Artifacts에서 받기)"
         type: boolean
         default: false
+      script:
+        description: "대본 JSON 경로 (예: examples/taiwan-taxi.json) - 주면 수집·취재를 건너뛰고 이 대본으로 렌더링"
+        default: ""
 
 permissions:
   contents: write
@@ -67,6 +70,17 @@ jobs:
           path: ~/.cache/huggingface
           key: hf-qwen3tts-1.7b-customvoice-whisper-small-v1
 
+      - name: 커뮤니티 접속 점검 (시험 실행 때만)
+        if: inputs.dry_run
+        continue-on-error: true
+        run: |
+          python - <<'PY'
+          import collections, scrape
+          posts, warns = scrape.collect()
+          print("수집:", dict(collections.Counter(p["board"] for p in posts)))
+          for w in warns: print("경고:", w)
+          PY
+
       - name: 제작·업로드
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
@@ -74,7 +88,8 @@ jobs:
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           PYTHONUNBUFFERED: "1"
-        run: python run.py --slot "${{ inputs.slot || 'auto' }}" ${{ inputs.dry_run && '--dry-run' || '' }}
+          SCRIPT: ${{ inputs.script }}
+        run: python run.py --slot "${{ inputs.slot || 'auto' }}" ${{ inputs.dry_run && '--dry-run' || '' }} ${SCRIPT:+--script "$SCRIPT"}
 
       - name: 기록 저장
         if: always()
