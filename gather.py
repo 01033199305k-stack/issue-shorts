@@ -21,6 +21,8 @@ import scrape
 REPO = Path(__file__).resolve().parent
 KST = dt.timezone(dt.timedelta(hours=9))
 NEWS = re.compile(r"(n\.news\.naver\.com|news\.|v\.daum\.net|\.co\.kr|youtube\.com/watch|youtu\.be)")
+# 커뮤니티 자체 이미지·첨부 서버는 뉴스가 아니다 (dcimg*.dcinside.co.kr/viewimage.php 등)
+NOT_NEWS = re.compile(r"(dcinside|dcimg|theqoo|fmkorea|dogdrip|viewimage|\.(jpe?g|png|gif|webp|mp4)(\?|$))", re.I)
 
 
 def used_posts() -> set[str]:
@@ -54,7 +56,8 @@ def main() -> int:
     used = used_posts()
     ranked = [p for p in scrape.rank(posts) if p["url"] not in used][:20]
     for p in ranked[:12]:
-        links = [l for l in scrape.post_body(p["url"]).get("links", []) if NEWS.search(l)][:3]
+        links = [l for l in scrape.post_body(p["url"]).get("links", [])
+                 if NEWS.search(l) and not NOT_NEWS.search(l)][:3]
         p["news"] = [{"url": l, "headline": headline(l)} for l in links]
     out = {"generated_at": dt.datetime.now(KST).isoformat(timespec="minutes"),
            "warnings": warns, "posts": ranked}
