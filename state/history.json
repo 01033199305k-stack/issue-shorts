@@ -1,1 +1,37 @@
-[]
+[
+ {
+  "key": "2026-10-01-evening",
+  "slot": "evening",
+  "publish_at": "2026-10-01T17:00:00+09:00",
+  "started": "2026-10-01T23:00:22.302134+09:00",
+  "duration": 41.07,
+  "matches": [
+   1.0,
+   1.0,
+   0.81,
+   1.0,
+   0.84,
+   0.96,
+   1.0,
+   1.0
+  ],
+  "sfx": 8,
+  "title": "네이버랑 같은 값? 카카오 멤버십 월 4900원 출시 #shorts",
+  "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=467167&_dcbest=1&page=1",
+  "facts_used": [
+   "카카오 10월 1일 카카오멤버십 출시, 월 4900원, 9개 서비스 연계 [뉴스웨이·헤럴드경제·뉴시스 2026.10.1]",
+   "선물하기·톡딜 결제 0.5~5% 적립, 월 최대 2만 포인트 [뉴스웨이·블로터]",
+   "신규 가입 시 4900원 상당 주식 1종·멜론 캐시 6000원 [뉴스웨이·헤럴드경제]",
+   "이모티콘 플러스·톡클라우드 130GB 중 월 택1 [뉴스웨이]",
+   "네이버플러스 월 4900원, 쿠팡 와우 월 7890원 [뉴시스·스마트경제·한경 2024.4.12]",
+   "초기 소규모 이용자 대상 선착순 판매 [머니투데이 2026.9.21·뉴스웨이]"
+  ],
+  "slug": "2026-10-01_evening_kakao-membership-4900",
+  "late": true,
+  "video_id": "VghHOuABIXE",
+  "url": "https://youtube.com/shorts/VghHOuABIXE",
+  "privacy": "private",
+  "scheduled_for": null,
+  "seconds": 570
+ }
+]
