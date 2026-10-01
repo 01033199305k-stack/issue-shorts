@@ -149,8 +149,12 @@ def main() -> int:
         print("[5/5] dry-run: 업로드 생략 ->", video)
     else:
         import upload
-        print("[5/5] 유튜브 업로드 (예약 공개)")
-        res = upload.upload(str(video), yt["title"], yt["description"], yt["tags"], publish_at)
+        # 회차 시각보다 90분 넘게 늦었으면 공개하지 않고 비공개로만 둔다 (운영자가 스튜디오에서 판단)
+        late = dt.datetime.now(KST) - publish_at > dt.timedelta(minutes=90)
+        print("[5/5] 유튜브 업로드 " + ("(회차 시각을 넘겨 비공개로만)" if late else "(예약 공개)"))
+        res = upload.upload(str(video), yt["title"], yt["description"], yt["tags"], publish_at,
+                            private_only=late)
+        record["late"] = late
         record.update({"video_id": res["id"], "url": res["url"], "privacy": res["privacy"],
                        "scheduled_for": res["publish_at"]})
         print(f"  {res}")

@@ -1,0 +1,38 @@
+# 커뮤니티 인기글 수집 → inbox/latest.json.
+# 대본을 쓰는 클라우드 예약 작업(04:00·14:00 KST)은 커뮤니티 사이트에 직접 접속하지 못해서(보안 프록시)
+# 접속이 되는 Actions 러너가 미리 모아 둔다. GitHub 예약 실행은 늦기도 해서 1시간 30분 먼저 돈다.
+name: gather
+
+on:
+  schedule:
+    - cron: "30 17 * * *"   # 02:30 KST
+    - cron: "30 3 * * *"    # 12:30 KST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: gather
+  cancel-in-progress: false
+
+jobs:
+  gather:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: python gather.py
+      - name: 저장
+        run: |
+          git config user.name "issue-shorts-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add inbox
+          git diff --cached --quiet && exit 0
+          git commit -q -m "inbox: $(TZ=Asia/Seoul date +'%F %H:%M')"
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done

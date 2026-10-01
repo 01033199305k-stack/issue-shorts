@@ -17,21 +17,25 @@ TZ=Asia/Seoul date +"%Y-%m-%d %H"
 
 ## 1. 후보 모으기
 
+이 클라우드 환경은 커뮤니티 사이트에 직접 접속하지 못한다(보안 프록시가 막음, WebFetch 도 마찬가지).
+그래서 GitHub Actions 가 02:30·12:30 KST 에 인기글을 모아 `inbox/latest.json` 에 올려 둔다.
+
 ```bash
-python3 scrape.py > /tmp/ranked.json 2> /tmp/scrape_warn.txt; cat /tmp/scrape_warn.txt
-```
-- 결과는 댓글 수·여러 커뮤니티 동시 화제 점수(`score`, `also_on`)로 정렬된 인기글 목록이다.
-- 실패하거나 10개 미만이면 WebFetch 로 직접 목록을 본다: https://gall.dcinside.com/board/lists/?id=dcbest , https://theqoo.net/hot (제목·URL·댓글 수).
-- 이미 다룬 글은 뺀다: `state/history.json` 의 `source_post`, `scripts/*.json` 의 `source_post`, 최근 제목과 같은 사건.
-- 상위 후보 8개의 본문과 본문 속 링크(뉴스·영상)를 본다:
-```bash
+git pull origin main
 python3 - <<'PY'
-import json, scrape
-for p in json.load(open('/tmp/ranked.json'))[:8]:
-    b = scrape.post_body(p['url'])
-    print('##', p['board'], p['comments'], p['title'], p['url']); print(b['text'][:600]); print('links:', b['links'])
+import json
+d = json.load(open('inbox/latest.json'))
+print('수집 시각:', d['generated_at'], '| 경고:', d['warnings'])
+for i, p in enumerate(d['posts'], 1):
+    print(f"[{i}] {p['board']} 댓글{p['comments']} 점수{p['score']} 동시화제{p.get('also_on')} {p['title']}")
+    print('    ' + p['url'])
+    for n in p.get('news', []):
+        print('    뉴스:', n['headline'], n['url'])
 PY
 ```
+- `score` 는 댓글 수(게시판 안 백분위) + 여러 커뮤니티 동시 화제 가산점이다. 위에서부터 본다.
+- 이미 다룬 글은 이미 빠져 있다. 그래도 `state/history.json`·`scripts/*.json` 의 `title` 과 같은 사건이면 뺀다.
+- `generated_at` 이 6시간보다 오래됐으면(수집 실패) WebSearch 로 "오늘 커뮤니티 화제", "실시간 베스트 논란" 같은 검색을 해서 후보를 직접 찾는다.
 
 ## 2. 소재 고르기와 취재
 
@@ -47,7 +51,9 @@ PY
 - 연예인 사생활·열애·루머, 확인 안 된 의혹.
 - 성적인 내용, 미성년자가 얽힌 사건, 의료·투자 조언.
 
-취재: WebSearch 로 핵심 키워드와 언론 보도를 찾고, WebFetch 로 기사 본문을 확인한다. 날짜·숫자·발언은 기사 원문 그대로. 확인하지 못한 디테일은 버린다.
+취재: WebSearch 로 핵심 키워드와 언론 보도를 찾는다. 후보에 붙은 `뉴스` 제목·URL 을 검색어로 쓰면 빠르다.
+WebFetch 는 대부분 막혀 있으니 한 번 시도해서 `EGRESS_BLOCKED` 면 WebSearch 결과만으로 확인한다.
+날짜·숫자·발언은 보도에 나온 그대로 쓰고, 둘 이상의 보도에서 같은 내용을 확인한 것만 '확인된 사실'로 친다. 확인하지 못한 디테일은 버린다.
 취재 메모(확인된 사실 + 출처 매체·날짜·URL, 직접 인용 가능한 발언, 주의할 점)를 정리해 대본 JSON 의 `brief` 필드에 넣는다.
 
 적합한 후보가 하나도 없으면 4번의 '건너뛰기' 형식으로 끝낸다.

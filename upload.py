@@ -36,11 +36,15 @@ def access_token() -> str:
 
 
 def upload(video_path: str, title: str, description: str, tags: list[str],
-           publish_at: dt.datetime | None) -> dict:
-    """publish_at: aware datetime; None or past -> public now."""
+           publish_at: dt.datetime | None, private_only: bool = False) -> dict:
+    """publish_at: aware datetime; None or past -> public now.
+    private_only: park it as private with no schedule (the slot was missed by
+    hours - the operator decides in YouTube Studio)."""
     now = dt.datetime.now(dt.timezone.utc)
     status = {"selfDeclaredMadeForKids": False}
-    if publish_at and publish_at > now + dt.timedelta(minutes=10):
+    if private_only:
+        status["privacyStatus"] = "private"
+    elif publish_at and publish_at > now + dt.timedelta(minutes=10):
         status["privacyStatus"] = "private"
         status["publishAt"] = publish_at.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
     else:

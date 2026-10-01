@@ -4,8 +4,10 @@
 PC가 꺼져 있어도 돈다. 유료 API 없이 Claude 구독 + GitHub Actions(무료)로만 돈다.
 
 ```
+02:30 / 12:30 KST  GitHub Actions(gather): 커뮤니티 인기글 수집 → inbox/latest.json
+                   디시 실베·더쿠 HOT (에펨·개드립은 러너 IP 차단), 댓글 수 + 동시 화제 가산점
 04:00 / 14:00 KST  Claude 클라우드 예약 작업 (Claude 구독, ROUTINE.md 를 따름)
-  1. 커뮤니티 인기글 수집   디시 실베·더쿠 HOT (+에펨·개드립은 접속되면), 댓글 수 + 동시 화제 가산점
+  1. inbox 후보 읽기        (클라우드 환경은 커뮤니티에 직접 접속 못 함)
   2. 소재 선택·취재         웹 검색으로 언론 보도 확인
   3. 음슴체 대본 + 카드 JSON → rules.py 검사 → scripts/YYYY-MM-DD-<회차>.json 푸시
 그 푸시로 GitHub Actions(produce) 시작
@@ -14,6 +16,8 @@ PC가 꺼져 있어도 돈다. 유료 API 없이 Claude 구독 + GitHub Actions(
 05:30 / 15:30 KST  watchdog: 대본·영상이 없으면 실패 메일
 07:30 / 17:00      유튜브가 공개로 전환
 ```
+
+회차 시각보다 90분 넘게 늦게 만들어진 영상은 공개하지 않고 **비공개**로만 올린다 (스튜디오에서 직접 판단).
 
 ## 검수 (예약 공개 + 폰 확인)
 
@@ -62,6 +66,8 @@ API 키로 돌리는 예전 방식(`python run.py`, editor.py)도 남아 있다.
 | 파일 | 하는 일 |
 |---|---|
 | `scrape.py` | 커뮤니티 4곳 인기글 목록·본문 |
+| `gather.py` | 인기글 순위 + 본문 속 뉴스 제목 → `inbox/latest.json` (공개 저장소라 본문·기사 원문은 안 올림) |
+| `.github/workflows/gather.yml` | 02:30·12:30 KST 수집 |
 | `ROUTINE.md` | 클라우드 예약 작업이 매번 따르는 지침 (소재 기준·취재·음슴체·카드·검사·푸시) |
 | `rules.py` | 대본 JSON 형식과 검사 (`python rules.py <파일>`) |
 | `editor.py` | (선택) Claude API 로 취재·대본 - API 키가 있을 때만 |
