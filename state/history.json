@@ -33,5 +33,47 @@
   "privacy": "private",
   "scheduled_for": null,
   "seconds": 570
+ },
+ {
+  "key": "2026-10-02-morning",
+  "slot": "morning",
+  "publish_at": "2026-10-02T07:30:00+09:00",
+  "started": "2026-10-02T04:31:41.916304+09:00",
+  "duration": 47.53,
+  "matches": [
+   0.81,
+   1.0,
+   0.96,
+   0.86,
+   0.84,
+   0.94,
+   0.97,
+   1.0,
+   0.98,
+   0.94,
+   0.94,
+   0.9,
+   1.0
+  ],
+  "sfx": 12,
+  "illustrations": 4,
+  "cuts": 13,
+  "title": "적발되니 역고소? 삼성 반도체 주거지원금 에어비앤비 의혹 #shorts",
+  "source_post": "https://theqoo.net/hot/4362222415",
+  "facts_used": [
+   "삼성전자 DS부문 저연차 주거지원: 10평(33㎡) 미만 거주 시 월 최대 70만 원 [세계일보 2026.9.10, 다수 매체 9.8]",
+   "일부 직원 면적 축소 기재·관리비를 월세로 바꿔 서류 제출 의혹 [세계일보 2026.9.10, 네이트 경유 다수 9.8]",
+   "지원금으로 구한 방을 에어비앤비·셰어하우스로 재임대 [알파경제 단독, YTN 지금이뉴스]",
+   "조사 대상 110명 넘음 [알파경제, 세계일보 '100명 넘게']",
+   "일부가 로펌 변호사 부모 앞세워 개인정보보호법 위반 역고소 으름장 [알파경제, YTN 지금이뉴스]",
+   "삼성 측: 조사 중, 1000명 징계설 사실 아님 [알파경제, 팝콘뉴스, kpenews]"
+  ],
+  "slug": "2026-10-02_morning_samsung-housing-airbnb-countersue",
+  "late": false,
+  "video_id": "dGZ7t_eV_kc",
+  "url": "https://youtube.com/shorts/dGZ7t_eV_kc",
+  "privacy": "private",
+  "scheduled_for": "2026-10-01T22:30:00Z",
+  "seconds": 1261
  }
 ]
