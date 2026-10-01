@@ -58,10 +58,14 @@ jobs:
           python-version: "3.12"
           cache: pip
 
+      # torch·torchaudio 는 CPU 빌드 짝으로 먼저 깐다. PyPI 의 리눅스 torchaudio 는 CUDA 빌드라
+      # GPU 없는 러너에서 libcudart 를 못 찾아 죽는다 (2026-10-01 첫 실행). 뒤 설치가 이 둘을 바꾸지 못하게 고정
       - name: 파이썬 패키지
         run: |
-          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
-          pip install -q -r requirements.txt
+          pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
+          pip freeze | grep -iE '^(torch|torchaudio)==' > /tmp/torch-cpu.txt
+          pip install -q -r requirements.txt -c /tmp/torch-cpu.txt
+          python -c "import torch, torchaudio; print('torch', torch.__version__, 'torchaudio', torchaudio.__version__)"
 
       # 음성 모델(Qwen3-TTS 1.7B, 약 3.5GB)과 자막 타이밍용 whisper small
       - name: 모델 캐시

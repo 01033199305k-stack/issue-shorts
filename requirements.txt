@@ -5,4 +5,4 @@ numpy
 soundfile
 faster-whisper
 qwen-tts
-# torch(CPU)는 워크플로에서 --index-url https://download.pytorch.org/whl/cpu 로 따로 설치
+# torch·torchaudio(CPU 빌드)는 워크플로에서 --index-url https://download.pytorch.org/whl/cpu 로 먼저 설치하고 고정한다
