@@ -142,7 +142,7 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
   -5px -5px 0 #fff, 5px -5px 0 #fff, -5px 5px 0 #fff, 5px 5px 0 #fff, 0 6px 0 #fff, 0 -6px 0 #fff, 6px 0 0 #fff, -6px 0 0 #fff; }
 .tx.small { color:#333; font-size:52px; }
 .tx.red { color:#e01e1e; font-size:120px; text-shadow:0 6px 0 rgba(0,0,0,.15); }
-.tx.stamp { color:#e01e1e; border:16px solid #e01e1e; border-radius:26px; padding:8px 44px 0; font-size:170px; }
+.tx.stamp { color:#e01e1e; border:14px solid #e01e1e; border-radius:24px; padding:8px 40px 0; font-size:150px; }
 .tx.bubble { color:#111; background:#fff; border:7px solid #111; border-radius:46px; padding:20px 40px 12px;
   font-size:72px; box-shadow:0 8px 0 rgba(0,0,0,.15); }
 .tx.row { color:#111; background:#fff; border:6px solid #111; border-radius:20px; padding:16px 32px 8px;
@@ -321,7 +321,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path) -> t
             else:
                 style = it.get("style", "label")
                 text = str(it.get("text", ""))
-                base = {"big": 150, "label": 84, "small": 52, "red": 120, "stamp": 170, "bubble": 72, "row": 64}.get(style, 84)
+                base = {"big": 150, "label": 84, "small": 52, "red": 120, "stamp": 150, "bubble": 72, "row": 64}.get(style, 84)
                 longest = max((len(x) for x in text.split("\n")), default=1)
                 fs = min(base, int(960 / (0.74 * max(1, longest))))
                 lines = max(1, text.count("\n") + 1)
@@ -332,6 +332,11 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path) -> t
                     d["num"] = n
                 parts.append(f'<div class="it tx {style}" style="width:{w}px;height:{h}px;font-size:{fs}px;'
                              f'z-index:{Z["text"]};display:flex;align-items:center;justify-content:center">{esc(text)}</div>')
+            # keep the item inside the panel: below the credit line, above the caption box
+            # (drop starts 420 px above its resting place, so clamping the rest position is enough)
+            if d["h"] < PANEL_H - 200:
+                d["y"] = min(max(d["y"], d["h"] / 2 + 44), PANEL_H - 150 - d["h"] / 2)
+            d["x"] = min(max(d["x"], d["w"] / 2 + 10), W - d["w"] / 2 - 10) if d["w"] < W - 20 else W / 2
             data.append(d)
         scenes_html.append(f'<div class="sc">{"".join(parts)}</div>')
         scenes_data.append({"start": st, "end": en, "items": data, "bg": BG.get(bg_key, BG["white"]),

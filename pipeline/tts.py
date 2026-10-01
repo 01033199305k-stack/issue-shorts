@@ -172,6 +172,28 @@ def synthesize(
     display = display or text
     gen = _gen_qwen if engine == "qwen" else _gen_voicebox
 
+    # Same sentence, same voice settings -> reuse the take (re-renders and retries skip TTS)
+    import hashlib
+    import shutil
+    key = hashlib.sha1(json.dumps([engine, voice, instruct, speed, seed, text, display],
+                                  ensure_ascii=False).encode()).hexdigest()[:20]
+    cdir = Path(__file__).resolve().parent.parent / "cache" / "tts"
+    if (cdir / f"{key}.json").exists() and (cdir / f"{key}.wav").exists():
+        meta = json.loads((cdir / f"{key}.json").read_text(encoding="utf-8"))
+        shutil.copyfile(cdir / f"{key}.wav", out_wav)
+        return TTSResult(out_wav, [Word(*w) for w in meta["words"]], meta["duration"], meta["match"])
+    res = _synthesize_fresh(text, out_wav, gen=gen, voice=voice, instruct=instruct, speed=speed,
+                            display=display, seed=seed, head_pad=head_pad, tail_pad=tail_pad)
+    cdir.mkdir(parents=True, exist_ok=True)
+    shutil.copyfile(out_wav, cdir / f"{key}.wav")
+    (cdir / f"{key}.json").write_text(json.dumps(
+        {"words": [[w.text, w.start, w.end] for w in res.words], "duration": res.duration, "match": res.match},
+        ensure_ascii=False), encoding="utf-8")
+    return res
+
+
+def _synthesize_fresh(text, out_wav, *, gen, voice, instruct, speed, display, seed, head_pad, tail_pad) -> TTSResult:
+
     best = None
     for take in range(MAX_TAKES):
         raw = out_wav.with_suffix(f".take{take}.wav")
