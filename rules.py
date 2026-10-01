@@ -13,7 +13,7 @@ SFX = ["none", "whoosh", "dudung", "punch", "exclaim", "stamp", "question", "abs
 KINDS = ["scene", "number", "quote", "stamp", "list"]
 THEMES = ["night", "alert", "money", "cold", "warm"]
 CARD_FIELDS = ["kind", "theme", "emoji", "label", "sub", "value", "lines", "who", "word", "head", "items"]
-NEEDS = {"scene": ["emoji"], "number": ["value"], "quote": ["lines"], "stamp": ["word"], "list": ["items"]}
+NEEDS = {"scene": ["emoji"], "number": ["value"], "quote": ["lines"], "stamp": ["word"], "list": ["head", "items"]}
 
 CARD_SCHEMA = {
     "type": "object", "additionalProperties": False,
