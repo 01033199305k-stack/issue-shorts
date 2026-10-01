@@ -1,27 +1,26 @@
-# 하루 두 편: 07:30·17:00 KST 공개.
-# 공개 시각보다 3시간 먼저 만들어 유튜브에 '예약 공개'로 올린다 → 러너가 늦게 떠도 공개 시각은 유튜브가 지킨다.
-# 그 사이가 검수 시간이다 (유튜브 스튜디오 앱에서 미리 보고, 문제 있으면 삭제).
-# 한 시간 뒤 재시도 실행은 이미 올린 회차면 바로 끝난다 (state/history.json).
+# 대본 → 영상 → 유튜브 예약 공개.
+# 대본은 Claude 구독으로 도는 클라우드 예약 작업(ROUTINE.md)이 04:00·14:00 KST 에 scripts/ 로 푸시한다.
+# 그 푸시가 이 워크플로를 깨운다. 영상은 07:30·17:00 KST 예약 공개로 올라가고, 그 사이가 검수 시간이다
+# (유튜브 스튜디오 앱 → 예약됨 → 미리 보고 문제 있으면 삭제).
 name: produce
 
 on:
-  schedule:
-    - cron: "30 19 * * *"   # 04:30 KST - 07:30 회차 제작
-    - cron: "30 20 * * *"   # 05:30 KST - 07:30 회차 재시도
-    - cron: "0 5 * * *"     # 14:00 KST - 17:00 회차 제작
-    - cron: "0 6 * * *"     # 15:00 KST - 17:00 회차 재시도
+  push:
+    branches: [main, "claude/**"]
+    paths: ["scripts/*.json"]
   workflow_dispatch:
     inputs:
+      script:
+        description: "대본 JSON 경로 (예: examples/taiwan-taxi.json, scripts/2026-10-02-morning.json)"
+        required: true
+        default: examples/taiwan-taxi.json
       slot:
-        description: "morning(07:30) / evening(17:00) / auto(시계 기준)"
+        description: "morning(07:30) / evening(17:00) / auto(파일 이름 또는 시계 기준)"
         default: auto
       dry_run:
         description: "업로드 없이 영상만 만들기 (결과물은 Artifacts에서 받기)"
         type: boolean
-        default: false
-      script:
-        description: "대본 JSON 경로 (예: examples/taiwan-taxi.json) - 주면 수집·취재를 건너뛰고 이 대본으로 렌더링"
-        default: ""
+        default: true
 
 permissions:
   contents: write
@@ -38,23 +37,42 @@ jobs:
     steps:
       - uses: actions/checkout@v4
         with:
-          ref: main
+          fetch-depth: 0
 
-      # 바탕화면 '효과음 모음'에서 가져온 효과음은 출처가 불분명해 공개 저장소에 두지 않는다
+      - name: 대본 찾기
+        id: find
+        env:
+          BEFORE: ${{ github.event.before }}
+          INPUT_SCRIPT: ${{ inputs.script }}
+        run: |
+          if [ -n "$INPUT_SCRIPT" ]; then
+            files="$INPUT_SCRIPT"
+          elif [ -n "$BEFORE" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ]; then
+            files=$(git diff --name-only --diff-filter=AM "$BEFORE" HEAD -- 'scripts/*.json')
+          else
+            files=$(git diff-tree --no-commit-id --name-only --diff-filter=AM -r HEAD -- 'scripts/*.json')
+          fi
+          echo "대본: $files"
+          echo "files=$(echo $files)" >> "$GITHUB_OUTPUT"
+
       - name: 효과음 받기 (비공개 저장소)
+        if: steps.find.outputs.files != ''
         uses: actions/checkout@v4
         with:
           repository: ${{ github.repository_owner }}/issue-shorts-assets
           ssh-key: ${{ secrets.ASSETS_DEPLOY_KEY }}
           path: _assets
-      - run: mkdir -p assets/sfx && cp _assets/sfx/*.wav assets/sfx/
+      - if: steps.find.outputs.files != ''
+        run: mkdir -p assets/sfx && cp _assets/sfx/*.wav assets/sfx/
 
       - name: 시스템 패키지 (ffmpeg, 이모지·한글 글꼴)
+        if: steps.find.outputs.files != ''
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg sox fonts-noto-color-emoji fonts-noto-cjk >/dev/null
 
       - uses: actions/setup-python@v5
+        if: steps.find.outputs.files != ''
         with:
           python-version: "3.12"
           cache: pip
@@ -62,6 +80,7 @@ jobs:
       # torch·torchaudio 는 CPU 빌드 짝으로 먼저 깐다. PyPI 의 리눅스 torchaudio 는 CUDA 빌드라
       # GPU 없는 러너에서 libcudart 를 못 찾아 죽는다 (2026-10-01 첫 실행). 뒤 설치가 이 둘을 바꾸지 못하게 고정
       - name: 파이썬 패키지
+        if: steps.find.outputs.files != ''
         run: |
           pip install -q torch torchaudio --index-url https://download.pytorch.org/whl/cpu
           pip freeze | grep -iE '^(torch|torchaudio)==' > /tmp/torch-cpu.txt
@@ -70,51 +89,47 @@ jobs:
 
       # 음성 모델(Qwen3-TTS 1.7B, 약 3.5GB)과 자막 타이밍용 whisper small
       - name: 모델 캐시
+        if: steps.find.outputs.files != ''
         uses: actions/cache@v4
         with:
           path: ~/.cache/huggingface
           key: hf-qwen3tts-1.7b-customvoice-whisper-small-v1
 
-      - name: 커뮤니티 접속 점검 (시험 실행 때만)
-        if: inputs.dry_run
-        continue-on-error: true
-        run: |
-          python - <<'PY'
-          import collections, scrape
-          posts, warns = scrape.collect()
-          print("수집:", dict(collections.Counter(p["board"] for p in posts)))
-          for w in warns: print("경고:", w)
-          PY
-
-      - name: 제작·업로드
+      - name: 영상 제작·예약 업로드
+        if: steps.find.outputs.files != ''
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           PYTHONUNBUFFERED: "1"
-          SCRIPT: ${{ inputs.script }}
-        run: python run.py --slot "${{ inputs.slot || 'auto' }}" ${{ inputs.dry_run && '--dry-run' || '' }} ${SCRIPT:+--script "$SCRIPT"}
+          FILES: ${{ steps.find.outputs.files }}
+          SLOT: ${{ inputs.slot || 'auto' }}
+          DRY: ${{ inputs.dry_run && '--dry-run' || '' }}
+        run: |
+          for f in $FILES; do
+            echo "=== $f"
+            python run.py --script "$f" --slot "$SLOT" $DRY
+          done
 
-      - name: 기록 저장
-        if: always()
+      - name: 기록 저장 (main)
+        if: always() && steps.find.outputs.files != ''
         run: |
           git config user.name "issue-shorts-bot"
           git config user.email "actions@users.noreply.github.com"
           git add state
           git diff --cached --quiet && exit 0
           git commit -q -m "state: $(date -u +%FT%TZ)"
-          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+          # 클라우드 작업이 claude/** 브랜치에 올렸어도 대본·기록이 main 에 남게 main 위로 올린다
+          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
 
       - name: 결과물 보관 (7일)
-        if: always()
+        if: always() && steps.find.outputs.files != ''
         uses: actions/upload-artifact@v4
         with:
           name: output-${{ github.run_id }}
           path: |
             output/*/video.mp4
             output/*/script.json
-            output/*/brief.txt
             output/*/record.json
             output/*/cards/*.png
           retention-days: 7

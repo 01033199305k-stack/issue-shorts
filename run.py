@@ -1,10 +1,10 @@
 """One slot, end to end: scrape -> research -> write -> cards -> voice/render
 -> upload (scheduled) -> record.
 
-    python run.py                      # slot from the clock (KST): before noon = 07:30, else 17:00
-    python run.py --slot evening       # force a slot
-    python run.py --dry-run            # everything but the upload
-    python run.py --script x.json      # skip scrape/editor, render this script
+    python run.py --script scripts/2026-10-02-morning.json   # what the workflow runs: the cloud
+                                       # routine wrote this script; date+slot come from the name
+    python run.py --script x.json --slot evening --dry-run    # render any script, no upload
+    python run.py                      # API path: scrape + editor.py (needs ANTHROPIC_API_KEY)
 
 Slots are idempotent: a slot that already has a video in state/history.json
 exits 0, so the retry cron an hour later is harmless.
@@ -12,6 +12,7 @@ exits 0, so the retry cron an hour later is harmless.
 import argparse
 import datetime as dt
 import json
+import re
 import sys
 import time
 from pathlib import Path
@@ -33,11 +34,12 @@ def save_history(rows: list[dict]) -> None:
     HISTORY.write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
 
 
-def pick_slot(name: str | None, now: dt.datetime) -> tuple[str, dt.datetime]:
+def pick_slot(name: str | None, now: dt.datetime, day: str | None = None) -> tuple[str, dt.datetime]:
     if not name or name == "auto":
         name = "morning" if now.hour < 12 else "evening"
     h, m = SLOTS[name]
-    return name, now.replace(hour=h, minute=m, second=0, microsecond=0)
+    base = dt.datetime.strptime(day, "%Y-%m-%d").replace(tzinfo=KST) if day else now
+    return name, base.replace(hour=h, minute=m, second=0, microsecond=0)
 
 
 def gather(history: list[dict]) -> tuple[list[dict], list[str]]:
@@ -61,11 +63,17 @@ def main() -> int:
     ap.add_argument("--slot", default="auto")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--script")
+    ap.add_argument("--date", help="KST publish date YYYY-MM-DD (default: from the script name, else today)")
     args = ap.parse_args()
 
     cfg = yaml.safe_load((REPO / "config.yaml").read_text(encoding="utf-8"))
     now = dt.datetime.now(KST)
-    slot, publish_at = pick_slot(args.slot, now)
+    day, slot_name = args.date, args.slot
+    m = re.search(r"(\d{4}-\d{2}-\d{2})-(morning|evening)\.json$", args.script or "")
+    if m:
+        day = day or m.group(1)
+        slot_name = m.group(2) if slot_name in (None, "auto") else slot_name
+    slot, publish_at = pick_slot(slot_name, now, day)
     key = f"{publish_at:%Y-%m-%d}-{slot}"
     history = load_history()
     if not args.dry_run and any(h.get("key") == key and h.get("video_id") for h in history):
@@ -77,7 +85,18 @@ def main() -> int:
 
     if args.script:
         script = json.loads(Path(args.script).read_text(encoding="utf-8"))
-        brief, usage = "(script given)", []
+        brief, usage = script.get("brief", "(written by the cloud routine)"), []
+        if script.get("skip"):
+            print(f"{key}: 예약 작업이 소재를 건너뜀 - {script.get('skip_reason')}")
+            if not args.dry_run:
+                record.update({"skipped": script.get("skip_reason", "")})
+                history.append(record)
+                save_history(history)
+            return 0
+        from rules import validate
+        problems = validate(script)
+        if problems:
+            raise RuntimeError("대본 검사 실패: " + " | ".join(problems))
     else:
         import editor
         print("[1/5] 커뮤니티 수집")

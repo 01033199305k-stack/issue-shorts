@@ -1,0 +1,34 @@
+# 감시: 회차마다 대본과 영상이 제때 나왔는지 본다. 없으면 실패 → GitHub 가 메일로 알린다.
+# 대본은 04:00·14:00 KST 클라우드 예약 작업이, 영상은 그 푸시로 produce 가 만든다 (보통 30분 안에 끝남).
+name: watchdog
+
+on:
+  schedule:
+    - cron: "30 20 * * *"   # 05:30 KST - 07:30 회차 점검
+    - cron: "30 6 * * *"    # 15:30 KST - 17:00 회차 점검
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: 이번 회차 점검
+        run: |
+          D=$(TZ=Asia/Seoul date +%F); H=$(TZ=Asia/Seoul date +%H)
+          if [ "$H" -lt 12 ]; then S=morning; else S=evening; fi
+          f="scripts/$D-$S.json"
+          if [ ! -f "$f" ]; then
+            echo "::error::$f 없음 - 클라우드 예약 작업(대본)이 안 돌았거나 실패했습니다. https://claude.ai/code/routines 에서 실행 기록을 확인하세요."
+            exit 1
+          fi
+          python3 - "$D-$S" <<'PY'
+          import json, sys
+          key = sys.argv[1]
+          rows = [r for r in json.load(open("state/history.json")) if r.get("key") == key]
+          if not rows:
+              print(f"::error::{key} 대본은 있는데 영상 기록이 없음 - produce 실행을 확인하세요.")
+              sys.exit(1)
+          r = rows[-1]
+          print("건너뜀:" if r.get("skipped") else "업로드:", r.get("skipped") or r.get("url"), r.get("title", ""))
+          PY

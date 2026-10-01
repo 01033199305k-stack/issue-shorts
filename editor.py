@@ -10,13 +10,12 @@ import os
 
 import anthropic
 
+from rules import SCRIPT_SCHEMA, validate  # noqa: F401  (validate re-exported for run.py)
+
 MODEL = os.environ.get("EDITOR_MODEL", "claude-opus-5-5")
 EFFORT = os.environ.get("EDITOR_EFFORT", "medium")
 BETAS = ["server-side-fallback-2026-07-01"]
 
-SFX = ["none", "whoosh", "dudung", "punch", "exclaim", "stamp", "question", "absurd"]
-KINDS = ["scene", "number", "quote", "stamp", "list"]
-THEMES = ["night", "alert", "money", "cold", "warm"]
 
 RESEARCH_SYSTEM = """너는 한국 유튜브 쇼츠 채널의 편집장이다. 레퍼런스 채널은 @군림보다. 그날 커뮤니티에서 가장 시끄러운 이야기를 35~45초 안에 '어이없는 포인트' 중심으로 비틀어 전한다.
 
@@ -118,43 +117,6 @@ skip: 취재 메모가 "선택: 없음"이거나 사실이 부족하면 true와 
 문체 예시 (대만 택시 편, 실제 방송분):
 """ + json.dumps(STYLE_EXAMPLE, ensure_ascii=False, indent=1)
 
-CARD_SCHEMA = {
-    "type": "object", "additionalProperties": False,
-    "properties": {
-        "kind": {"type": "string", "enum": KINDS},
-        "theme": {"type": "string", "enum": THEMES},
-        "emoji": {"type": "string"}, "label": {"type": "string"}, "sub": {"type": "string"},
-        "value": {"type": "string"}, "lines": {"type": "array", "items": {"type": "string"}},
-        "who": {"type": "string"}, "word": {"type": "string"}, "head": {"type": "string"},
-        "items": {"type": "array", "items": {"type": "string"}},
-    },
-    "required": ["kind", "theme", "emoji", "label", "sub", "value", "lines", "who", "word", "head", "items"],
-}
-
-SCRIPT_SCHEMA = {
-    "type": "object", "additionalProperties": False,
-    "properties": {
-        "skip": {"type": "boolean"}, "skip_reason": {"type": "string"},
-        "slug": {"type": "string"},
-        "title_lines": {"type": "array", "items": {"type": "string"}},
-        "credit": {"type": "string"},
-        "segments": {"type": "array", "items": {
-            "type": "object", "additionalProperties": False,
-            "properties": {"text": {"type": "string"}, "say": {"type": "string"},
-                           "sfx": {"type": "string", "enum": SFX}, "card": CARD_SCHEMA},
-            "required": ["text", "say", "sfx", "card"]}},
-        "youtube": {"type": "object", "additionalProperties": False,
-                    "properties": {"title": {"type": "string"}, "description": {"type": "string"},
-                                   "tags": {"type": "array", "items": {"type": "string"}}},
-                    "required": ["title", "description", "tags"]},
-        "source_post": {"type": "string"},
-        "facts_used": {"type": "array", "items": {"type": "string"}},
-    },
-    "required": ["skip", "skip_reason", "slug", "title_lines", "credit", "segments",
-                 "youtube", "source_post", "facts_used"],
-}
-
-
 def _client():
     return anthropic.Anthropic(max_retries=4)
 
@@ -219,25 +181,3 @@ def write(brief: str) -> tuple[dict, list[dict]]:
 def cost_usd(usage: list[dict]) -> float:
     # Claude Opus 5.5 list price: $4 / $20 per MTok; web search $10 per 1,000.
     return round(sum(u["input"] * 4e-6 + u["output"] * 20e-6 + u["searches"] * 0.01 for u in usage), 3)
-
-
-def validate(script: dict) -> list[str]:
-    """Problems that would break the render or the format; empty = fine."""
-    p = []
-    if len(script.get("title_lines") or []) != 2:
-        p.append("title_lines must have exactly 2 lines")
-    segs = script.get("segments") or []
-    if not 5 <= len(segs) <= 10:
-        p.append(f"{len(segs)} segments (want 7-9)")
-    total = sum(len(s["say"] or s["text"]) for s in segs)
-    if not 180 <= total <= 460:
-        p.append(f"narration {total} chars (want 260-360)")
-    for i, s in enumerate(segs):
-        c = s["card"]
-        need = {"scene": ["emoji"], "number": ["value"], "quote": ["lines"],
-                "stamp": ["word"], "list": ["items"]}[c["kind"]]
-        if any(not c.get(f) for f in need):
-            p.append(f"segment {i}: {c['kind']} card missing {need}")
-        if s["say"] and len(s["say"].split()) < max(1, len(s["text"].split()) // 2):
-            p.append(f"segment {i}: say/text word counts diverge")
-    return p

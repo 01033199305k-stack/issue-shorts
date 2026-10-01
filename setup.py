@@ -87,7 +87,7 @@ def main():
     target = repo()
     print(f"저장소: {target}  (엔터 = 건너뛰기)\n")
 
-    key = getpass.getpass("Anthropic API 키 (sk-ant-...): ").strip()
+    key = getpass.getpass("Anthropic API 키 - 구독 예약 작업으로 대본을 쓰면 필요 없음, 엔터로 건너뛰기: ").strip()
     if key:
         set_secret("ANTHROPIC_API_KEY", key, target)
 
