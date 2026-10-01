@@ -63,6 +63,19 @@ def _score(title: str, words: list[str]) -> float | None:
     return hit - (1.5 if group else 0) - len(title) / 200
 
 
+def _trim(path: Path, pad: int = 6) -> None:
+    """Cut the transparent margin off the 800x800 canvas so the layout sees
+    the drawing's real shape (a wide court bench, a tall standing person)."""
+    from PIL import Image
+    with Image.open(path) as im:
+        im = im.convert("RGBA")
+        box = im.getchannel("A").point(lambda a: 255 if a > 8 else 0).getbbox()
+        if not box:
+            return
+        l, t, r, b = box
+        im.crop((max(0, l - pad), max(0, t - pad), min(im.width, r + pad), min(im.height, b + pad))).save(path)
+
+
 class Picker:
     """One per video: tracks the 20-illustration licence limit."""
 
@@ -103,6 +116,7 @@ class Picker:
             _, title, url = max(scored, key=lambda r: r[0])
             try:
                 path.write_bytes(_get(url, timeout=30))
+                _trim(path)
             except Exception as ex:
                 print(f"    illust: download failed {url}: {ex}")
                 return None

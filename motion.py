@@ -28,13 +28,14 @@ W, H, FPS = 1080, 1920, 30
 PANEL_TOP, PANEL_H = 520, 845
 LEAD = 0.18          # visuals land a hair before the voice (J-cut) - late visuals feel slow
 
-POS = {  # centre points in panel coordinates (1080 x 845); captions own y > ~700
-    "center": (540, 360), "left": (290, 380), "right": (790, 380),
-    "top": (540, 200), "bottom": (540, 560),
-    "top-left": (270, 200), "top-right": (810, 200),
-    "bottom-left": (270, 560), "bottom-right": (810, 560),
+POS = {  # centre points in panel coordinates (1080 x 845); the caption box owns y > ~650
+    "center": (540, 395), "left": (290, 405), "right": (790, 405),
+    "top": (540, 112), "bottom": (540, 575),
+    "top-left": (270, 130), "top-right": (810, 130),
+    "bottom-left": (270, 575), "bottom-right": (810, 575),
 }
-SIZE = {"s": 250, "m": 400, "l": 560, "xl": 680}
+SIZE = {"s": 240, "m": 390, "l": 520, "xl": 640}
+Z = {"illust": 1, "crowd": 1, "emoji": 2, "text": 3}   # words always sit on top of pictures
 BG = {
     "white": "#ffffff",
     "sky": "linear-gradient(180deg,#bfe3ff 0%,#eaf6ff 100%)",
@@ -174,7 +175,8 @@ function fmtNum(v, dec) { const s = v.toFixed(dec); const [a, b] = s.split('.');
   return a.replace(/\B(?=(\d{3})+(?!\d))/g, ',') + (b ? '.' + b : ''); }
 
 function item(el, d, t, s) {
-  const t0 = s.start + d.at * (s.end - s.start) - D.lead;
+  // items that open the scene start 0.14 s before the cut, so the cut lands on them mid-pop
+  const t0 = s.start + d.at * (s.end - s.start) - D.lead - (d.at < 0.05 ? 0.14 : 0);
   const p = (t - t0) / 0.42, life = t - t0;
   let x = d.x, y = d.y, sc = 1, rot = d.rot || 0, op = 1;
   if (p <= 0) { el.style.opacity = 0; return; }
@@ -254,6 +256,23 @@ def _num(text: str):
     return {"pre": m.group(1), "v": v, "dec": dec, "post": m.group(3)}
 
 
+def _fit(path, side: int) -> tuple[int, int]:
+    """Box for an illustration: the long edge is `side`, but a wide image may
+    grow to 1.6x side in width so it is not shrunk to a sliver."""
+    try:
+        from PIL import Image
+        with Image.open(path) as im:
+            bbox = im.getbbox() if im.mode in ("RGBA", "LA") else None
+            w, h = (bbox[2] - bbox[0], bbox[3] - bbox[1]) if bbox else im.size
+    except Exception:
+        return side, side
+    ar = w / max(1, h)
+    if ar >= 1:
+        bw = int(min(side * 1.6, side * ar))
+        return bw, int(bw / ar)
+    return int(side * ar), side
+
+
 def title_size(lines) -> int:
     longest = max(len(l) for l in lines)
     return max(64, min(130, int(1000 / (0.76 * max(1, longest)))))
@@ -280,9 +299,11 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path) -> t
                     typ = d["type"] = "emoji" if it.get("emoji") else "text"
                     it = dict(it, text=it.get("emoji") or it.get("label") or "", style="label")
             if typ == "illust":
-                side = SIZE.get(it.get("size", "m"), 400)
-                d.update(w=side, h=side)
-                parts.append(f'<div class="it" style="width:{side}px;height:{side}px"><img src="{file_url(path)}"></div>')
+                side = SIZE.get(it.get("size", "m"), 390)
+                w, h = _fit(path, side)
+                d.update(w=w, h=h)
+                parts.append(f'<div class="it" style="width:{w}px;height:{h}px;z-index:{Z[typ]}">'
+                             f'<img src="{file_url(path)}"></div>')
             elif typ == "crowd":
                 n = max(2, min(40, int(it.get("count", 10))))
                 cols = min(n, 10 if n > 20 else 6 if n > 6 else n)
@@ -291,12 +312,12 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path) -> t
                 d.update(w=cols * cell, h=rows * cell)
                 kids = "".join(f'<img src="{file_url(path)}" style="width:{cell}px;height:{cell}px;object-fit:contain;'
                                f'position:absolute;left:{(k % cols) * cell}px;top:{(k // cols) * cell}px">' for k in range(n))
-                parts.append(f'<div class="it" style="width:{d["w"]}px;height:{d["h"]}px">{kids}</div>')
+                parts.append(f'<div class="it" style="width:{d["w"]}px;height:{d["h"]}px;z-index:{Z["crowd"]}">{kids}</div>')
             elif typ == "emoji":
                 side = int(SIZE.get(it.get("size", "m"), 400) * 0.8)
                 d.update(w=side, h=side)
-                parts.append(f'<div class="it emo" style="width:{side}px;height:{side}px;font-size:{int(side * .82)}px">'
-                             f'{esc(it.get("text", ""))}</div>')
+                parts.append(f'<div class="it emo" style="width:{side}px;height:{side}px;font-size:{int(side * .82)}px;'
+                             f'z-index:{Z["emoji"]}">{esc(it.get("text", ""))}</div>')
             else:
                 style = it.get("style", "label")
                 text = str(it.get("text", ""))
@@ -310,7 +331,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path) -> t
                 if style in ("big", "red") and (n := _num(text)) and fx in ("pop", "zoom", "shake", "drop"):
                     d["num"] = n
                 parts.append(f'<div class="it tx {style}" style="width:{w}px;height:{h}px;font-size:{fs}px;'
-                             f'display:flex;align-items:center;justify-content:center">{esc(text)}</div>')
+                             f'z-index:{Z["text"]};display:flex;align-items:center;justify-content:center">{esc(text)}</div>')
             data.append(d)
         scenes_html.append(f'<div class="sc">{"".join(parts)}</div>')
         scenes_data.append({"start": st, "end": en, "items": data, "bg": BG.get(bg_key, BG["white"]),
