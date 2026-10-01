@@ -22,9 +22,19 @@ LIMIT = 20
 
 
 def _get(url: str, timeout: int = 20) -> bytes:
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
-    with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read()
+    """The site answers bursts with 503/429 - back off and retry, and pace every request."""
+    import time
+    import urllib.error
+    for attempt in range(4):
+        time.sleep(0.6 if attempt == 0 else 3 * attempt)
+        req = urllib.request.Request(url, headers={"User-Agent": UA})
+        try:
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                return r.read()
+        except urllib.error.HTTPError as ex:
+            if ex.code not in (429, 500, 502, 503, 504) or attempt == 3:
+                raise
+    raise RuntimeError("unreachable")
 
 
 def search(query: str) -> list[tuple[str, str]]:
