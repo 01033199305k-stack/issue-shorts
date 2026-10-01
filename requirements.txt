@@ -5,4 +5,5 @@ numpy
 soundfile
 faster-whisper
 qwen-tts
+playwright        # 모션 프레임 촬영 (크롬은 러너에 있는 것을 쓴다 - playwright install 불필요)
 # torch·torchaudio(CPU 빌드)는 워크플로에서 --index-url https://download.pytorch.org/whl/cpu 로 먼저 설치하고 고정한다

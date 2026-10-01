@@ -67,6 +67,9 @@ def main() -> int:
     args = ap.parse_args()
 
     cfg = yaml.safe_load((REPO / "config.yaml").read_text(encoding="utf-8"))
+    local = REPO / "config.local.yaml"     # PC 시험용 덮어쓰기 (gitignore) - 예: engine: voicebox
+    if local.exists():
+        cfg.update(yaml.safe_load(local.read_text(encoding="utf-8")) or {})
     now = dt.datetime.now(KST)
     day, slot_name = args.date, args.slot
     m = re.search(r"(\d{4}-\d{2}-\d{2})-(morning|evening)\.json$", args.script or "")
@@ -123,23 +126,13 @@ def main() -> int:
     (out_dir / "script.json").write_text(json.dumps(script, ensure_ascii=False, indent=1), encoding="utf-8")
     (out_dir / "brief.txt").write_text(brief, encoding="utf-8")
 
-    print("[4/5] 카드 + 음성 + 렌더")
-    import make_cards
-    cards = [s["card"] for s in script["segments"]]
-    pngs = make_cards.render_cards(script["title_lines"], script["credit"], cards, out_dir / "cards")
-    card_problems = make_cards.check_cards(pngs)
-    if card_problems:
-        print("  카드 경고:", card_problems)
-        record["card_warnings"] = card_problems
-
+    print("[4/5] 음성 + 모션 렌더 (군림보식 패널 + いらすとや)")
     from pipeline.render import render
-    segments = [{"text": s["text"], "say": s.get("say") or s["text"], "sfx": s.get("sfx", ""),
-                 "photo": str(p)} for s, p in zip(script["segments"], pngs)]
     video = out_dir / "video.mp4"
-    stats = render(segments, cfg, REPO, out_dir / "work", video)
+    stats = render(script, cfg, REPO, out_dir / "work", video)
     record.update(stats)
     print(f"  {stats}")
-    if not 15 <= stats["duration"] <= 59:
+    if not 15 <= stats["duration"] <= 70:
         raise RuntimeError(f"영상 길이 {stats['duration']}s - 쇼츠 범위 밖")
 
     yt = script["youtube"]

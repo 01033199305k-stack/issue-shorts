@@ -15,6 +15,50 @@ THEMES = ["night", "alert", "money", "cold", "warm"]
 CARD_FIELDS = ["kind", "theme", "emoji", "label", "sub", "value", "lines", "who", "word", "head", "items"]
 NEEDS = {"scene": ["emoji"], "number": ["value"], "quote": ["lines"], "stamp": ["word"], "list": ["head", "items"]}
 
+# v2 visual (motion.py): いらすとや scenes built up item by item
+V_TYPES = ["illust", "text", "emoji", "crowd"]
+V_STYLES = ["big", "label", "small", "red", "stamp", "bubble", "row"]
+V_POS = ["center", "left", "right", "top", "bottom", "top-left", "top-right", "bottom-left", "bottom-right"]
+V_FX = ["pop", "drop", "slide-left", "slide-right", "zoom", "fade", "shake", "stamp", "run-left", "run-right"]
+V_BG = ["white", "sky", "beach", "room", "city", "paper", "night", "red"]
+V_SIZE = ["s", "m", "l", "xl"]
+
+
+def _check_visual(i: int, v: dict) -> list[str]:
+    p = []
+    if v.get("bg", "white") not in V_BG:
+        p.append(f"segment {i}: bg {v.get('bg')!r} not in {V_BG}")
+    items = v.get("items") or []
+    if not 1 <= len(items) <= 6:
+        p.append(f"segment {i}: visual needs 1-6 items (has {len(items)})")
+    for j, it in enumerate(items):
+        tag = f"segment {i} item {j}"
+        typ = it.get("type")
+        if typ not in V_TYPES:
+            p.append(f"{tag}: type {typ!r} not in {V_TYPES}")
+            continue
+        q = it.get("q", "")
+        if typ in ("illust", "crowd") and not (any(str(x).strip() for x in q) if isinstance(q, list) else str(q).strip()):
+            p.append(f"{tag}: {typ} needs q (いらすとや search words in Japanese, or a list of alternatives)")
+        if typ in ("text", "emoji") and not str(it.get("text", "")).strip():
+            p.append(f"{tag}: {typ} needs text")
+        if typ == "text" and it.get("style", "label") not in V_STYLES:
+            p.append(f"{tag}: style {it.get('style')!r} not in {V_STYLES}")
+        if typ == "text" and len(str(it.get("text", ""))) > 16:
+            p.append(f"{tag}: text too long for the panel (max 16): {it.get('text')!r}")
+        if it.get("pos", "center") not in V_POS:
+            p.append(f"{tag}: pos {it.get('pos')!r} not in {V_POS}")
+        if it.get("fx", "pop") not in V_FX:
+            p.append(f"{tag}: fx {it.get('fx')!r} not in {V_FX}")
+        if it.get("size", "m") not in V_SIZE:
+            p.append(f"{tag}: size {it.get('size')!r} not in {V_SIZE}")
+        try:
+            if not 0 <= float(it.get("at", 0)) <= 0.9:
+                p.append(f"{tag}: at must be 0-0.9 (fraction of the sentence)")
+        except (TypeError, ValueError):
+            p.append(f"{tag}: at must be a number")
+    return p
+
 CARD_SCHEMA = {
     "type": "object", "additionalProperties": False,
     "properties": {
@@ -74,16 +118,22 @@ def validate(script: dict) -> list[str]:
     if len(script["credit"]) > 44:
         p.append(f"credit is {len(script['credit'])} chars (max 40)")
     segs = script["segments"]
-    if not 6 <= len(segs) <= 10:
-        p.append(f"{len(segs)} segments (want 7-9)")
+    if not 6 <= len(segs) <= 15:
+        p.append(f"{len(segs)} segments (want 10-14: one picture per sentence)")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
     if not 220 <= total <= 420:
-        p.append(f"narration {total} chars (want 260-360)")
+        p.append(f"narration {total} chars (want 260-380)")
+    queries = {json.dumps(it.get("q"), ensure_ascii=False) for s in segs for it in (s.get("visual") or {}).get("items", [])
+               if it.get("type") in ("illust", "crowd") and it.get("q")}
+    if len(queries) > 20:
+        p.append(f"{len(queries)} different illustrations - いらすとや licence allows 20 per video")
     for i, s in enumerate(segs):
-        for k in ("text", "say", "sfx", "card"):
+        for k in ("text", "say", "sfx"):
             if k not in s:
                 p.append(f"segment {i}: missing {k}")
-        if any(k not in s for k in ("text", "say", "sfx", "card")):
+        if "visual" not in s and "card" not in s:
+            p.append(f"segment {i}: missing visual")
+        if any(k not in s for k in ("text", "say", "sfx")) or ("visual" not in s and "card" not in s):
             continue
         if s["sfx"] not in SFX:
             p.append(f"segment {i}: sfx {s['sfx']!r} not in {SFX}")
@@ -93,6 +143,9 @@ def validate(script: dict) -> list[str]:
             p.append(f"segment {i}: say/text word counts diverge (same content, same order)")
         if re.search(r"[0-9A-Za-z]", s["say"]) and not re.search(r"[0-9A-Za-z]", s["text"]):
             p.append(f"segment {i}: say has digits/latin that text lacks")
+        if "visual" in s:
+            p += _check_visual(i, s["visual"])
+            continue
         c = s["card"]
         missing = [f for f in CARD_FIELDS if f not in c]
         if missing:

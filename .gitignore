@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 ranked.json
 err.txt
+config.local.yaml
+cache/

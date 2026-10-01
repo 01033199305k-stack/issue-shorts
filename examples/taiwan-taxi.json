@@ -1,4 +1,7 @@
 {
+ "skip": false,
+ "skip_reason": "",
+ "slug": "taiwan-taxi-test",
  "title_lines": [
   "한국인이니까 또 사라?",
   "대만 택시 황당 불기소"
@@ -6,159 +9,402 @@
  "credit": "자료: JTBC 사건반장(2026.9.30) · AI 음성",
  "segments": [
   {
-   "text": "300만 원짜리 캐리어 박살 냈는데 불기소 나옴. 이유가 뭐냐면, 한국인은 또 사면 된다는 거임.",
-   "say": "삼백만 원짜리 캐리어 박살 냈는데 불기소 나옴. 이유가 뭐냐면, 한국인은 또 사면 된다는 거임.",
+   "text": "300만 원짜리 캐리어 박살 냈는데 불기소 나옴.",
+   "say": "삼백만 원짜리 캐리어 박살 냈는데 불기소 나옴.",
    "sfx": "dudung",
-   "card": {
-    "kind": "number",
-    "theme": "alert",
-    "value": "300만 원",
-    "label": "캐리어 박살 내고",
-    "sub": "결과는 불기소",
-    "emoji": "",
-    "who": "",
-    "word": "",
-    "head": "",
-    "lines": [],
-    "items": []
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": "スーツケース",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "300만 원",
+      "style": "big",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "불기소",
+      "style": "stamp",
+      "pos": "bottom-right",
+      "at": 0.7,
+      "fx": "stamp"
+     }
+    ]
    }
   },
   {
-   "text": "JTBC 사건반장에 들어온 제보임. 대만 사는 한국인이 앱으로 택시 부름.",
-   "say": "제이티비씨 사건반장에 들어온 제보임. 대만 사는 한국인이 앱으로 택시 부름.",
-   "sfx": "whoosh",
-   "card": {
-    "kind": "scene",
-    "theme": "night",
-    "emoji": "📱🚕",
-    "label": "대만 사는 한국인",
-    "sub": "앱으로 택시 호출",
-    "value": "",
-    "who": "",
-    "word": "",
-    "head": "",
-    "lines": [],
-    "items": []
+   "text": "근데 그 이유가 더 어이없음.",
+   "say": "근데 그 이유가 더 어이없음.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "考える 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.35,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "이유가 뭐길래?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
    }
   },
   {
-   "text": "트렁크에 짐 싣고 친구 데리러 간 사이, 한국인인 거 알아챈 기사가 캐리어를 바닥에 내던짐.",
+   "text": "대만 사는 한국인이 앱으로 택시를 부름.",
+   "say": "대만 사는 한국인이 앱으로 택시를 부름.",
    "sfx": "whoosh",
-   "card": {
-    "kind": "scene",
-    "theme": "alert",
-    "emoji": "🧳💥",
-    "label": "한국인인 걸 알자마자",
-    "sub": "트렁크 짐을 바닥으로",
-    "value": "",
-    "who": "",
-    "word": "",
-    "head": "",
-    "lines": [],
-    "items": []
-   },
-   "say": "트렁크에 짐 싣고 친구 데리러 간 사이, 한국인인 거 알아챈 기사가 캐리어를 바닥에 내던짐."
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": "スマートフォン 男性",
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": "タクシー",
+      "pos": "right",
+      "size": "l",
+      "at": 0.45,
+      "fx": "slide-left"
+     }
+    ]
+   }
   },
   {
-   "text": "그것도 하나에 45kg짜리를, 연달아서 던짐.",
-   "say": "그것도 하나에 사십오 킬로짜리를, 연달아서 던짐.",
+   "text": "트렁크에 짐 싣고, 친구 데리러 간 사이.",
+   "say": "트렁크에 짐 싣고, 친구 데리러 간 사이.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": "スーツケース",
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "illust",
+      "q": "走る 男性",
+      "pos": "right",
+      "size": "l",
+      "at": 0.4,
+      "fx": "run-right"
+     }
+    ]
+   }
+  },
+  {
+   "text": "한국인인 거 알아챈 기사가, 캐리어를 바닥에 내던짐.",
+   "say": "한국인인 거 알아챈 기사가, 캐리어를 바닥에 내던짐.",
    "sfx": "punch",
-   "card": {
-    "kind": "number",
-    "theme": "alert",
-    "value": "45kg",
-    "label": "개당 무게",
-    "sub": "그걸 연달아 투척",
-    "emoji": "",
-    "who": "",
-    "word": "",
-    "head": "",
-    "lines": [],
-    "items": []
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "タクシー 乗車拒否",
+       "タクシー 運転手"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": "スーツケース",
+      "pos": "right",
+      "size": "m",
+      "at": 0.55,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "shake"
+     }
+    ]
    }
   },
   {
-   "text": "경찰 앞에서 한 말이 더 가관임. 한국이 진짜 싫다, 배신자 나라.",
+   "text": "그것도 하나에 45kg짜리를, 연달아서.",
+   "say": "그것도 하나에 사십오 킬로짜리를, 연달아서.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "45kg",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "crowd",
+      "q": "スーツケース",
+      "count": 3,
+      "pos": "center",
+      "dy": 140,
+      "at": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰 앞에서 한 말이 더 가관임.",
+   "say": "경찰 앞에서 한 말이 더 가관임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": "警察官",
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "タクシー 運転手"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.4,
+      "fx": "shake"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.55,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "한국이 진짜 싫다, 배신자 나라.",
+   "say": "한국이 진짜 싫다, 배신자 나라.",
    "sfx": "exclaim",
-   "card": {
-    "kind": "quote",
-    "theme": "alert",
-    "lines": [
-     "한국이 진짜 싫다",
-     "배신자 나라!"
-    ],
-    "who": "경찰 앞에서 기사 발언 (제보자 주장)",
-    "emoji": "",
-    "label": "",
-    "sub": "",
-    "value": "",
-    "word": "",
-    "head": "",
-    "items": []
-   },
-   "say": "경찰 앞에서 한 말이 더 가관임. 한국이 진짜 싫다, 배신자 나라."
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "text",
+      "text": "한국이 진짜 싫다",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "배신자 나라!",
+      "style": "bubble",
+      "pos": "bottom",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
   },
   {
    "text": "노트북까지 다 망가졌는데, 결과는 불기소.",
+   "say": "노트북까지 다 망가졌는데, 결과는 불기소.",
    "sfx": "stamp",
-   "card": {
-    "kind": "stamp",
-    "theme": "cold",
-    "word": "불기소",
-    "sub": "노트북까지 망가졌는데",
-    "emoji": "",
-    "label": "",
-    "value": "",
-    "who": "",
-    "head": "",
-    "lines": [],
-    "items": []
-   },
-   "say": "노트북까지 다 망가졌는데, 결과는 불기소."
-  },
-  {
-   "text": "사유가 진짜 어이없음. 기사가 반성하고 있고, 한국인한테는 쉽게 다시 살 수 있는 수준이라는 취지였다 함.",
-   "sfx": "question",
-   "card": {
-    "kind": "list",
-    "theme": "cold",
-    "head": "불기소 사유 (취지)",
+   "visual": {
+    "bg": "white",
     "items": [
-     "① 기사가 반성하고 있음",
-     "② 한국인은 쉽게 다시 살 수 있는 수준"
-    ],
-    "emoji": "",
-    "label": "",
-    "sub": "",
-    "value": "",
-    "who": "",
-    "word": "",
-    "lines": []
-   },
-   "say": "사유가 진짜 어이없음. 기사가 반성하고 있고, 한국인한테는 쉽게 다시 살 수 있는 수준이라는 취지였다 함."
+     {
+      "type": "illust",
+      "q": "壊れた パソコン",
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "불기소",
+      "style": "stamp",
+      "pos": "right",
+      "at": 0.6,
+      "fx": "stamp"
+     }
+    ]
+   }
   },
   {
-   "text": "결국 보상은 한 푼도 못 받고 끝남. 이거 납득 되는 사람?",
+   "text": "자, 그 이유가 공개됨.",
+   "say": "자, 그 이유가 공개됨.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": "裁判官",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "불기소 사유",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "기사가 반성하고 있고, 한국인한테는 쉽게 다시 살 수 있는 수준이라는 취지였다 함.",
+   "say": "기사가 반성하고 있고, 한국인한테는 쉽게 다시 살 수 있는 수준이라는 취지였다 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "① 기사가 반성하고 있음",
+      "style": "row",
+      "pos": "center",
+      "dy": -110,
+      "at": 0.0,
+      "fx": "slide-left"
+     },
+     {
+      "type": "text",
+      "text": "② 한국인은 또 살 수 있음",
+      "style": "row",
+      "pos": "center",
+      "dy": 60,
+      "at": 0.45,
+      "fx": "slide-left"
+     },
+     {
+      "type": "illust",
+      "q": "お金持ち",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "결국 보상은 한 푼도 못 받고 끝남.",
+   "say": "결국 보상은 한 푼도 못 받고 끝남.",
    "sfx": "absurd",
-   "card": {
-    "kind": "number",
-    "theme": "warm",
-    "value": "보상 0원",
-    "label": "그대로 종결",
-    "sub": "이거 납득 되는 사람?",
-    "emoji": "",
-    "who": "",
-    "word": "",
-    "head": "",
-    "lines": [],
-    "items": []
-   },
-   "say": "결국 보상은 한 푼도 못 받고 끝남. 이거 납득 되는 사람?"
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "보상 0원",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 男性",
+       "悩む 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "dy": 90,
+      "at": 0.3,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이거 납득 되는 사람?",
+   "say": "이거 납득 되는 사람?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
   }
  ],
- "skip": false,
- "skip_reason": "",
- "slug": "taiwan-taxi-test",
  "youtube": {
   "title": "한국인이니까 또 사라? 대만 택시기사 황당 불기소 #shorts",
   "description": "대만에서 한국인 승객의 캐리어(300만 원 이상)를 내던진 택시기사가 불기소 처분을 받았습니다.\n불기소 사유는 기사가 반성하고 있고, 한국인에게는 쉽게 다시 살 수 있는 수준이라는 취지였다고 합니다.\n제보자는 보상을 받지 못했습니다.\n\n출처: JTBC 사건반장 https://www.youtube.com/watch?v=v9BTQiFwTqA\n※ AI 음성으로 제작했습니다.\n#대만 #택시 #불기소 #사건반장 #이슈",

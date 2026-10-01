@@ -97,9 +97,11 @@ def mux_final(
     out_path = Path(out_path)
     out_path.parent.mkdir(parents=True, exist_ok=True)
 
-    sub = f"subtitles='{_filter_path(ass_path)}'"
-    if fonts_dir and Path(fonts_dir).exists():
-        sub += f":fontsdir='{_filter_path(fonts_dir)}'"
+    sub = ""
+    if ass_path:
+        sub = f"subtitles='{_filter_path(ass_path)}'"
+        if fonts_dir and Path(fonts_dir).exists():
+            sub += f":fontsdir='{_filter_path(fonts_dir)}'"
 
     cmd = ["ffmpeg", "-y", "-i", str(video_path), "-i", str(narration_path)]
     steps: list[str] = []
@@ -121,12 +123,14 @@ def mux_final(
     else:
         mix_labels.append("[1:a]")
 
-    for n, (at, path) in enumerate(sfx or []):
+    for n, entry in enumerate(sfx or []):
+        at, path = entry[0], entry[1]
+        gain = entry[2] if len(entry) > 2 else sfx_gain_db
         if not Path(path).exists():
             continue
         cmd += ["-i", str(path)]
         ms = max(0, int(at * 1000))
-        steps.append(f"[{idx}:a]adelay={ms}|{ms},volume={sfx_gain_db}dB[sx{n}]")
+        steps.append(f"[{idx}:a]adelay={ms}|{ms},volume={gain}dB[sx{n}]")
         mix_labels.append(f"[sx{n}]")
         idx += 1
 
@@ -138,10 +142,14 @@ def mux_final(
     else:
         steps.append(f"{mix_labels[0]}loudnorm=I=-14:TP=-1.5:LRA=11[a]")
 
-    graph = f"[0:v]{sub}[v];" + ";".join(steps)
+    if sub:
+        graph = f"[0:v]{sub}[v];" + ";".join(steps)
+        vmap, vcodec = "[v]", ["-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p"]
+    else:   # captions already drawn into the frames - keep the video stream as is
+        graph = ";".join(steps)
+        vmap, vcodec = "0:v", ["-c:v", "copy"]
     cmd += ["-filter_complex", graph,
-            "-map", "[v]", "-map", "[a]",
-            "-c:v", "libx264", "-preset", "medium", "-crf", "19", "-pix_fmt", "yuv420p",
+            "-map", vmap, "-map", "[a]", *vcodec,
             "-c:a", "aac", "-b:a", "192k", "-movflags", "+faststart", "-shortest",
             str(out_path)]
     run(cmd)
