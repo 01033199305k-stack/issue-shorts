@@ -1,0 +1,22 @@
+# issue-shorts 채널 설정 - 군림보 레퍼런스, 커뮤니티 인기글, 소희 썰톤
+engine: qwen            # qwen = qwen-tts 직접 실행(GitHub Actions) / voicebox = PC의 Voicebox 앱
+voice: Sohee            # Qwen3-TTS CustomVoice 한국어 프리셋 (voicebox 엔진이면 프로필 ID)
+instruct: "커뮤니티 썰 푸는 유튜버처럼, 어이없다는 듯 흥분해서 억양을 크게 오르내리며 빠르고 생동감 있게"
+speed: 1.2              # 썰톤은 쉼이 길어서 1.12배로는 46초가 나왔다
+
+# 카드: 제목띠(0~535px)는 고정, 패널만 천천히 확대/축소
+zoom_target: 1.06
+pin_top: 535
+
+# 자막: 74px 블랙한산스 기준 한 줄 ~12자 - 무조건 2줄 이하
+fontsize: 74
+caption_words: 6
+caption_line_chars: 11
+
+bgm: assets/bgm/sneaking_around.mp3   # OpenGameArt CC0
+sfx_dir: assets/sfx                   # 비공개 저장소(issue-shorts-assets)에서 받아 온다
+transition_sfx: whoosh
+
+brand:
+  accent: "#FFE14D"
+  ink: "#000000"

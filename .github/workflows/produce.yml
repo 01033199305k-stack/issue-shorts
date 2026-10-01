@@ -1,0 +1,101 @@
+# 하루 두 편: 07:30·17:00 KST 공개.
+# 공개 시각보다 3시간 먼저 만들어 유튜브에 '예약 공개'로 올린다 → 러너가 늦게 떠도 공개 시각은 유튜브가 지킨다.
+# 그 사이가 검수 시간이다 (유튜브 스튜디오 앱에서 미리 보고, 문제 있으면 삭제).
+# 한 시간 뒤 재시도 실행은 이미 올린 회차면 바로 끝난다 (state/history.json).
+name: produce
+
+on:
+  schedule:
+    - cron: "30 19 * * *"   # 04:30 KST - 07:30 회차 제작
+    - cron: "30 20 * * *"   # 05:30 KST - 07:30 회차 재시도
+    - cron: "0 5 * * *"     # 14:00 KST - 17:00 회차 제작
+    - cron: "0 6 * * *"     # 15:00 KST - 17:00 회차 재시도
+  workflow_dispatch:
+    inputs:
+      slot:
+        description: "morning(07:30) / evening(17:00) / auto(시계 기준)"
+        default: auto
+      dry_run:
+        description: "업로드 없이 영상만 만들기 (결과물은 Artifacts에서 받기)"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: produce
+  cancel-in-progress: false
+
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 80
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      # 바탕화면 '효과음 모음'에서 가져온 효과음은 출처가 불분명해 공개 저장소에 두지 않는다
+      - name: 효과음 받기 (비공개 저장소)
+        uses: actions/checkout@v4
+        with:
+          repository: ${{ github.repository_owner }}/issue-shorts-assets
+          ssh-key: ${{ secrets.ASSETS_DEPLOY_KEY }}
+          path: _assets
+      - run: mkdir -p assets/sfx && cp _assets/sfx/*.wav assets/sfx/
+
+      - name: 시스템 패키지 (ffmpeg, 이모지·한글 글꼴)
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg sox fonts-noto-color-emoji fonts-noto-cjk >/dev/null
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 파이썬 패키지
+        run: |
+          pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          pip install -q -r requirements.txt
+
+      # 음성 모델(Qwen3-TTS 1.7B, 약 3.5GB)과 자막 타이밍용 whisper small
+      - name: 모델 캐시
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/huggingface
+          key: hf-qwen3tts-1.7b-customvoice-whisper-small-v1
+
+      - name: 제작·업로드
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
+          YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
+          YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          PYTHONUNBUFFERED: "1"
+        run: python run.py --slot "${{ inputs.slot || 'auto' }}" ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: 기록 저장
+        if: always()
+        run: |
+          git config user.name "issue-shorts-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add state
+          git diff --cached --quiet && exit 0
+          git commit -q -m "state: $(date -u +%FT%TZ)"
+          for i in 1 2 3; do git pull -q --rebase && git push -q && break; sleep 5; done
+
+      - name: 결과물 보관 (7일)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: output-${{ github.run_id }}
+          path: |
+            output/*/video.mp4
+            output/*/script.json
+            output/*/brief.txt
+            output/*/record.json
+            output/*/cards/*.png
+          retention-days: 7
+          if-no-files-found: ignore

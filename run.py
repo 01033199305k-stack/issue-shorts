@@ -1,0 +1,149 @@
+"""One slot, end to end: scrape -> research -> write -> cards -> voice/render
+-> upload (scheduled) -> record.
+
+    python run.py                      # slot from the clock (KST): before noon = 07:30, else 17:00
+    python run.py --slot evening       # force a slot
+    python run.py --dry-run            # everything but the upload
+    python run.py --script x.json      # skip scrape/editor, render this script
+
+Slots are idempotent: a slot that already has a video in state/history.json
+exits 0, so the retry cron an hour later is harmless.
+"""
+import argparse
+import datetime as dt
+import json
+import sys
+import time
+from pathlib import Path
+
+import yaml
+
+REPO = Path(__file__).resolve().parent
+KST = dt.timezone(dt.timedelta(hours=9))
+SLOTS = {"morning": (7, 30), "evening": (17, 0)}
+HISTORY = REPO / "state" / "history.json"
+
+
+def load_history() -> list[dict]:
+    return json.loads(HISTORY.read_text(encoding="utf-8")) if HISTORY.exists() else []
+
+
+def save_history(rows: list[dict]) -> None:
+    HISTORY.parent.mkdir(parents=True, exist_ok=True)
+    HISTORY.write_text(json.dumps(rows, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def pick_slot(name: str | None, now: dt.datetime) -> tuple[str, dt.datetime]:
+    if not name or name == "auto":
+        name = "morning" if now.hour < 12 else "evening"
+    h, m = SLOTS[name]
+    return name, now.replace(hour=h, minute=m, second=0, microsecond=0)
+
+
+def gather(history: list[dict]) -> tuple[list[dict], list[str]]:
+    import scrape
+    posts, warns = scrape.collect()
+    for w in warns:
+        print("  WARN", w)
+    if not posts:
+        raise RuntimeError("커뮤니티 4곳 모두 수집 실패: " + " | ".join(warns))
+    used = {h.get("source_post") for h in history}
+    ranked = [p for p in scrape.rank(posts) if p["url"] not in used][:15]
+    for p in ranked[:8]:
+        b = scrape.post_body(p["url"])
+        p["body"], p["links"] = b["text"], b["links"]
+    return ranked, warns
+
+
+def main() -> int:
+    sys.stdout.reconfigure(encoding="utf-8")
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--slot", default="auto")
+    ap.add_argument("--dry-run", action="store_true")
+    ap.add_argument("--script")
+    args = ap.parse_args()
+
+    cfg = yaml.safe_load((REPO / "config.yaml").read_text(encoding="utf-8"))
+    now = dt.datetime.now(KST)
+    slot, publish_at = pick_slot(args.slot, now)
+    key = f"{publish_at:%Y-%m-%d}-{slot}"
+    history = load_history()
+    if not args.dry_run and any(h.get("key") == key and h.get("video_id") for h in history):
+        print(f"{key}: 이미 업로드됨 - 종료")
+        return 0
+    print(f"slot {key} -> publish {publish_at:%Y-%m-%d %H:%M} KST")
+    t0 = time.time()
+    record = {"key": key, "slot": slot, "publish_at": publish_at.isoformat(), "started": now.isoformat()}
+
+    if args.script:
+        script = json.loads(Path(args.script).read_text(encoding="utf-8"))
+        brief, usage = "(script given)", []
+    else:
+        import editor
+        print("[1/5] 커뮤니티 수집")
+        candidates, warns = gather(history)
+        record["scrape_warnings"] = warns
+        recent = [h.get("title", "") for h in history[-30:]]
+        print(f"[2/5] 취재 (후보 {len(candidates)}개)")
+        brief, usage = editor.research(candidates, recent)
+        print(brief[:1500])
+        print("[3/5] 대본")
+        script, u2 = editor.write(brief)
+        usage += u2
+        record["cost_usd"] = editor.cost_usd(usage)
+        if script.get("skip"):
+            raise RuntimeError("편집 AI가 소재를 고르지 못함: " + script.get("skip_reason", ""))
+        problems = editor.validate(script)
+        if problems:
+            print("  대본 경고:", problems)
+            record["script_warnings"] = problems
+
+    slug = f"{publish_at:%Y-%m-%d}_{slot}_{script.get('slug') or 'short'}"
+    out_dir = REPO / "output" / slug
+    out_dir.mkdir(parents=True, exist_ok=True)
+    (out_dir / "script.json").write_text(json.dumps(script, ensure_ascii=False, indent=1), encoding="utf-8")
+    (out_dir / "brief.txt").write_text(brief, encoding="utf-8")
+
+    print("[4/5] 카드 + 음성 + 렌더")
+    import make_cards
+    cards = [s["card"] for s in script["segments"]]
+    pngs = make_cards.render_cards(script["title_lines"], script["credit"], cards, out_dir / "cards")
+    card_problems = make_cards.check_cards(pngs)
+    if card_problems:
+        print("  카드 경고:", card_problems)
+        record["card_warnings"] = card_problems
+
+    from pipeline.render import render
+    segments = [{"text": s["text"], "say": s.get("say") or s["text"], "sfx": s.get("sfx", ""),
+                 "photo": str(p)} for s, p in zip(script["segments"], pngs)]
+    video = out_dir / "video.mp4"
+    stats = render(segments, cfg, REPO, out_dir / "work", video)
+    record.update(stats)
+    print(f"  {stats}")
+    if not 15 <= stats["duration"] <= 59:
+        raise RuntimeError(f"영상 길이 {stats['duration']}s - 쇼츠 범위 밖")
+
+    yt = script["youtube"]
+    record.update({"title": yt["title"], "source_post": script.get("source_post"),
+                   "facts_used": script.get("facts_used"), "slug": slug})
+    if args.dry_run:
+        print("[5/5] dry-run: 업로드 생략 ->", video)
+    else:
+        import upload
+        print("[5/5] 유튜브 업로드 (예약 공개)")
+        res = upload.upload(str(video), yt["title"], yt["description"], yt["tags"], publish_at)
+        record.update({"video_id": res["id"], "url": res["url"], "privacy": res["privacy"],
+                       "scheduled_for": res["publish_at"]})
+        print(f"  {res}")
+    record["seconds"] = round(time.time() - t0)
+    if not args.dry_run:
+        history.append(record)
+        save_history(history)
+    (out_dir / "record.json").write_text(json.dumps(record, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("done:", json.dumps({k: record.get(k) for k in ("key", "title", "url", "duration", "cost_usd", "seconds")},
+                              ensure_ascii=False))
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())

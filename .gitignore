@@ -1,0 +1,6 @@
+output/
+assets/sfx/
+__pycache__/
+*.pyc
+ranked.json
+err.txt
