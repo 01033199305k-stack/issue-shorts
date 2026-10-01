@@ -1,0 +1,511 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "samsung-housing-airbnb-countersue",
+ "title_lines": [
+  "적발되니 역고소?",
+  "삼성 월세깡 의혹"
+ ],
+ "credit": "자료: 알파경제·세계일보·YTN · AI 음성",
+ "segments": [
+  {
+   "text": "회사가 월세 대줬더니, 그 방으로 에어비앤비 돌렸다는 의혹 터짐.",
+   "say": "회사가 월세 대줬더니, 그 방으로 에어비앤비 돌렸다는 의혹 터짐.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "アパート",
+       "マンション"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "월세 지원",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "drop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "民泊",
+       "スーツケース"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.55,
+      "fx": "slide-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 걸리고 나서 반응이 더 어이없음.",
+   "say": "근데 걸리고 나서 반응이 더 어이없음.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "考える 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "반응이 뭐길래?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.35,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "삼성전자 반도체 부문엔 저연차 직원 주거지원 제도가 있음.",
+   "say": "삼성전자 반도체 부문엔 저연차 직원 주거지원 제도가 있음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "半導体",
+       "工場"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "会社員 男性",
+       "サラリーマン",
+       "ビジネスマン"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.45,
+      "fx": "slide-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "10평 미만 원룸에 살면 월 최대 70만 원을 지원해 줌.",
+   "say": "십 평 미만 원룸에 살면 월 최대 칠십만 원을 지원해 줌.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "월 70만 원",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "ワンルーム",
+       "アパート"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "drop",
+      "dy": 60
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 일부는 집 면적을 줄여 적거나, 관리비를 월세로 바꿔 서류를 냈다 함.",
+   "say": "근데 일부는 집 면적을 줄여 적거나, 관리비를 월세로 바꿔 서류를 냈다 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "書類",
+       "契約書"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 면적 줄여 적기",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "slide-left",
+      "dy": -110
+     },
+     {
+      "type": "text",
+      "text": "② 관리비→월세",
+      "style": "row",
+      "pos": "center",
+      "at": 0.6,
+      "fx": "slide-left",
+      "dy": 60
+     }
+    ]
+   }
+  },
+  {
+   "text": "그렇게 구한 방을 에어비앤비나 셰어하우스로 다시 임대했다는 보도까지 나옴.",
+   "say": "그렇게 구한 방을 에어비앤비나 셰어하우스로 다시 임대했다는 보도까지 나옴.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "民泊",
+       "スーツケース"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "シェアハウス",
+       "アパート"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.45,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top",
+      "size": "s",
+      "at": 0.7,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "조사 대상에 오른 직원만 110명이 넘는다 함.",
+   "say": "조사 대상에 오른 직원만 백십 명이 넘는다 함.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "110명+",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "crowd",
+      "q": [
+       "会社員 男性",
+       "サラリーマン",
+       "ビジネスマン"
+      ],
+      "count": 12,
+      "pos": "center",
+      "dy": 140,
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 걸린 뒤 반응이 공개됨.",
+   "say": "자, 걸린 뒤 반응이 공개됨.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "虫眼鏡",
+       "調査"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "적발 후 반응",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "일부 직원이 대형 로펌 변호사인 부모를 앞세웠다 함.",
+   "say": "일부 직원이 대형 로펌 변호사인 부모를 앞세웠다 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "会社員 男性",
+       "サラリーマン",
+       "ビジネスマン"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "弁護士",
+       "裁判官"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.45,
+      "fx": "slide-left"
+     },
+     {
+      "type": "emoji",
+      "text": "💼",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "회사가 조사하면서 개인정보보호법을 어겼다고, 역고소하겠다고 으름장 놓음.",
+   "say": "회사가 조사하면서 개인정보보호법을 어겼다고, 역고소하겠다고 으름장 놓음.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "弁護士",
+       "裁判官"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "개인정보 위반!",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "역고소",
+      "style": "stamp",
+      "pos": "right",
+      "at": 0.6,
+      "fx": "stamp"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.75,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "삼성 측은 아직 조사 중이고, 1000명 징계설은 사실이 아니라고 선 그음.",
+   "say": "삼성 측은 아직 조사 중이고, 천 명 징계설은 사실이 아니라고 선 그음.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "記者会見",
+       "ビジネスマン"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "조사 중",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "징계설 사실무근",
+      "style": "red",
+      "pos": "right",
+      "at": 0.6,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "지원금 꼼수 의혹 받는데 꺼낸 카드가 역고소라니.",
+   "say": "지원금 꼼수 의혹 받는데 꺼낸 카드가 역고소라니.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "꼼수 의혹",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "会社員 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.3,
+      "fx": "shake",
+      "dy": 60
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이거 납득 되는 사람?",
+   "say": "이거 납득 되는 사람?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "적발되니 역고소? 삼성 반도체 주거지원금 에어비앤비 의혹 #shorts",
+  "description": "삼성전자 반도체(DS) 부문 일부 직원이 월 최대 70만 원 주거지원금을 받기 위해 면적·월세를 꾸며 서류를 냈다는 의혹으로 110명 넘게 조사를 받고 있습니다.\n지원받은 방을 에어비앤비·셰어하우스로 재임대했다는 보도와, 적발 후 일부가 로펌 변호사 부모를 앞세워 역고소를 언급했다는 보도가 나왔습니다.\n삼성전자는 조사 중이며 1000명 징계설은 사실이 아니라는 입장입니다.\n\n출처: 알파경제 https://www.alphabiz.co.kr/news/articleView.html?idxno=191096\n출처: 세계일보 https://www.segye.com/newsView/20260910501099\n※ AI 음성으로 제작했습니다.\n#삼성전자 #주거지원금 #에어비앤비 #역고소 #이슈",
+  "tags": [
+   "삼성전자",
+   "주거지원금",
+   "월세깡",
+   "에어비앤비",
+   "역고소",
+   "부정수급",
+   "이슈"
+  ]
+ },
+ "source_post": "https://theqoo.net/hot/4362222415",
+ "facts_used": [
+  "삼성전자 DS부문 저연차 주거지원: 10평(33㎡) 미만 거주 시 월 최대 70만 원 [세계일보 2026.9.10, 다수 매체 9.8]",
+  "일부 직원 면적 축소 기재·관리비를 월세로 바꿔 서류 제출 의혹 [세계일보 2026.9.10, 네이트 경유 다수 9.8]",
+  "지원금으로 구한 방을 에어비앤비·셰어하우스로 재임대 [알파경제 단독, YTN 지금이뉴스]",
+  "조사 대상 110명 넘음 [알파경제, 세계일보 '100명 넘게']",
+  "일부가 로펌 변호사 부모 앞세워 개인정보보호법 위반 역고소 으름장 [알파경제, YTN 지금이뉴스]",
+  "삼성 측: 조사 중, 1000명 징계설 사실 아님 [알파경제, 팝콘뉴스, kpenews]"
+ ],
+ "brief": "확인된 사실: 위 facts_used. 출처: 알파경제 단독(https://www.alphabiz.co.kr/news/articleView.html?idxno=191096, 2026.10.1 전후), YTN 지금이뉴스(https://www.youtube.com/watch?v=V8akYqVZpbI), 세계일보(https://www.segye.com/newsView/20260910501099, 2026.9.10), 팝콘뉴스(http://www.popcornnews.net/news/articleView.html?idxno=133018). 주의: 조사 중인 의혹이므로 '의혹·보도'로 표현, 개인 특정 금지. 알파경제의 70만~80만 원 표기 대신 다수 보도의 '월 최대 70만 원' 사용. '성과급 다 받고 나가겠다' 발언은 단일 출처라 제외. 로펌 이름(김앤장 등) 언급 안 함. WebFetch는 EGRESS_BLOCKED, WebSearch 요약만으로 확인."
+}
