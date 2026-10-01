@@ -1,11 +1,14 @@
 {
- "generated_at": "2026-10-01T22:55+09:00",
- "warnings": [],
+ "generated_at": "2026-10-01T22:56+09:00",
+ "warnings": [
+  "에펨 포텐: HTTPError HTTP Error 430: Unknown",
+  "개드립: HTTPError HTTP Error 403: Forbidden"
+ ],
  "posts": [
   {
    "title": "[모갤] 속보) 동대구역 박정희 동상 철거 필요없어…대구시 승소",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467184&_dcbest=1&page=1",
-   "views": 11021,
+   "views": 11024,
    "comments": 588,
    "board": "디시 실베",
    "heat": 1.0,
@@ -19,21 +22,10 @@
    ]
   },
   {
-   "title": "21사단 조지겠다는 김여정..jpg",
-   "url": "https://www.fmkorea.com/10398242392",
-   "votes": 2106,
-   "comments": 937,
-   "board": "에펨 포텐",
-   "heat": 1.0,
-   "also_on": [],
-   "score": 1.0,
-   "news": []
-  },
-  {
    "title": "박정희재단·육영재단, ‘암살자(들)’ 대국민 사과 요구",
    "url": "https://theqoo.net/hot/4362297765",
-   "views": 27766,
-   "comments": 803,
+   "views": 27820,
+   "comments": 804,
    "board": "더쿠 HOT",
    "heat": 1.0,
    "also_on": [],
@@ -46,20 +38,9 @@
    ]
   },
   {
-   "title": "9급 공무원이 아이 낳으면 불행해진다는 네이버웹툰에 달린 디씨 댓글",
-   "url": "https://www.dogdrip.net/dogdrip/727548848",
-   "votes": 205,
-   "comments": 208,
-   "board": "개드립",
-   "heat": 1.0,
-   "also_on": [],
-   "score": 1.0,
-   "news": []
-  },
-  {
    "title": "[싱갤] 동남아에서 10년 산 주재원이 말하는 동남아의 혐한",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467187&_dcbest=1&page=1",
-   "views": 26081,
+   "views": 26091,
    "comments": 572,
    "board": "디시 실베",
    "heat": 0.9795918367346939,
@@ -83,7 +64,7 @@
   {
    "title": "[새갤] [단독] '암살자[들]' 제작자, 음주운전 구속 전력... 전과만 6개",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467158&_dcbest=1&page=1",
-   "views": 12765,
+   "views": 12767,
    "comments": 526,
    "board": "디시 실베",
    "heat": 0.9591836734693877,
@@ -103,7 +84,7 @@
   {
    "title": "암살자들 배우 집앞에 집회신고;;;;;",
    "url": "https://theqoo.net/hot/4362331264",
-   "views": 48721,
+   "views": 48795,
    "comments": 612,
    "board": "더쿠 HOT",
    "heat": 0.95,
@@ -112,20 +93,9 @@
    "news": []
   },
   {
-   "title": "오늘 부터 시행령 위반이 되버린 것",
-   "url": "https://www.dogdrip.net/dogdrip/727541918",
-   "votes": 154,
-   "comments": 180,
-   "board": "개드립",
-   "heat": 0.95,
-   "also_on": [],
-   "score": 0.95,
-   "news": []
-  },
-  {
    "title": "[군갤] 美의회 \"中에 기우는 한국, 美 이익에 중대한 위험\"",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467224&_dcbest=1&page=1",
-   "views": 8094,
+   "views": 8104,
    "comments": 488,
    "board": "디시 실베",
    "heat": 0.9387755102040817,
@@ -141,7 +111,7 @@
   {
    "title": "[만갤] 또 사고친 던파 근황.jpg",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467196&_dcbest=1&page=1",
-   "views": 37226,
+   "views": 37242,
    "comments": 478,
    "board": "디시 실베",
    "heat": 0.9183673469387755,
@@ -157,7 +127,7 @@
   {
    "title": "[단독] 회삿돈으로 에어비앤비 투기한 삼성맨들…들통나자 \"로펌 부모 앞세워 역고소 으름장\"",
    "url": "https://theqoo.net/hot/4362222415",
-   "views": 50583,
+   "views": 50759,
    "comments": 479,
    "board": "더쿠 HOT",
    "heat": 0.9,
@@ -171,45 +141,68 @@
    ]
   },
   {
-   "title": "'...말은 필요 없다... 하나만 대답해 다오...'",
-   "url": "https://www.dogdrip.net/dogdrip/727556220",
-   "votes": 198,
-   "comments": 99,
-   "board": "개드립",
-   "heat": 0.9,
-   "also_on": [],
-   "score": 0.9,
-   "news": []
-  },
-  {
    "title": "[이갤] '러닝'·'오운완'은 어디 가고...남자 30대 60%가 '비만",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467218&_dcbest=1&page=1",
-   "views": 14229,
+   "views": 14250,
    "comments": 400,
    "board": "디시 실베",
    "heat": 0.8979591836734694,
    "also_on": [],
-   "score": 0.898
+   "score": 0.898,
+   "news": [
+    {
+     "url": "https://dcimg6.dcinside.co.kr/viewimage.php?id=23b8c732edd737b477&no=24b0d769e1d32ca73de782fa11d028315b16038a51180b889cf1820a19a96b1efe44ad1bca49f75ff7c40c86b5d624c04ef554e5704aa0a047b88c5a4cd8a2acb60c86bd38ba89f52b9b4f824ae300f8827701ce800cd8004ab04906b3b093b97d23c5f945d0c1e302",
+     "headline": ""
+    },
+    {
+     "url": "https://dcimg6.dcinside.co.kr/viewimage.php?id=23b8c732edd737b477&no=24b0d769e1d32ca73de782fa11d028315b16038a51180b889cf1820a19a96b1efe44ad1bca49f75ff7c40c86b5d62fc6263a7aab63b5f1e5fb30c4f2457d29aec679e2ca3aedf4f2b35d154f534ec9fa3b8e1f8302bea0007c0fa9e4188935d415a4c37826d3e79865",
+     "headline": ""
+    },
+    {
+     "url": "https://dcimg6.dcinside.co.kr/viewimage.php?id=23b8c732edd737b477&no=24b0d769e1d32ca73de782fa11d028315b16038a51180b889cf1820a19a96b1efe44ad1bca49f75ff7c40c86b5d827cd144ce1c4be99e67de86efde8afb5b13d637a36a50bff3dd8b110db8a153d4a84ed22f8bf53817ced47799331892a5e0f0c7a24adec485bf24a",
+     "headline": ""
+    }
+   ]
   },
   {
    "title": "[주갤] 여시) 알바 점장님이 놀다가 시간 늦으면 자기집에서 자고가라는데",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467181&_dcbest=1&page=1",
-   "views": 18860,
+   "views": 18875,
    "comments": 323,
    "board": "디시 실베",
    "heat": 0.8775510204081632,
    "also_on": [],
-   "score": 0.878
+   "score": 0.878,
+   "news": [
+    {
+     "url": "https://dcimg6.dcinside.co.kr/viewimage.php?id=23b8df35f1dd3bad&no=24b0d769e1d32ca73de782fa11d028315b16038a51180b889cf1820a19a96b1efe5caa07c045ee09afd60bd6b5d927c53cc6ab2431436fb23671d6b9fbdd27c9fdeffa6f5f794a41de59db9c07faacd841793285ae8c82f37ee860c8018f8a94cda8ac704f85cfff66",
+     "headline": ""
+    }
+   ]
   },
   {
    "title": "[카갤] 카카오, 월 4900원 '통합 멤버십' 전격 등판",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467167&_dcbest=1&page=1",
-   "views": 19085,
+   "views": 19095,
    "comments": 322,
    "board": "디시 실베",
    "heat": 0.8571428571428571,
    "also_on": [],
-   "score": 0.857
+   "score": 0.857,
+   "news": [
+    {
+     "url": "https://dcimg6.dcinside.co.kr/viewimage.php?id=26bcdb27ead736b26badc2b41fdf2938ad00&no=24b0d769e1d32ca73ce782fa11d02831c544c0747503709e757c5354a539fc8cb70351a3eaa1cd9fbc5b1eda6101b98f419c97fb4ea9d545f2b30e395d63481110e87a5385844e9854eb9e8806fd2765914f2ada6d1ab2f91af053b4b00047802ae182407d19d7",
+     "headline": ""
+    },
+    {
+     "url": "https://dcimg6.dcinside.co.kr/viewimage.php?id=26bcdb27ead736b26badc2b41fdf2938ad00&no=24b0d769e1d32ca73ce782fa11d02831c544c0747503709e757c5354a539fc8cb70351a3eaa1cd9fbc5b1eda6101b98f419c97fb4ec4bd4cfab60a3d5c654d1585e54d771116339fac8e12e4ab6032b9f4fb4c5ce380628fb9f57f7472833c426b14318db986",
+     "headline": ""
+    },
+    {
+     "url": "https://n.news.naver.com/article/003/0014225823",
+     "headline": "카카오, 월 4900원 '통합 멤버십' 전격 등판…네이버·쿠팡에 맞불"
+    }
+   ]
   },
   {
    "title": "현재 09년생 비명지르고 있다는 수특 표지 투표",
@@ -219,22 +212,13 @@
    "board": "더쿠 HOT",
    "heat": 0.85,
    "also_on": [],
-   "score": 0.85
-  },
-  {
-   "title": "오늘부터 불법인거",
-   "url": "https://www.dogdrip.net/dogdrip/727576926",
-   "votes": 123,
-   "comments": 99,
-   "board": "개드립",
-   "heat": 0.85,
-   "also_on": [],
-   "score": 0.85
+   "score": 0.85,
+   "news": []
   },
   {
    "title": "[더갤] MBC) 완전히 망해버린 일본 아시안게임ㅋㅋㅋㅋㅋ",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467182&_dcbest=1&page=1",
-   "views": 16783,
+   "views": 16795,
    "comments": 312,
    "board": "디시 실베",
    "heat": 0.8367346938775511,
@@ -244,7 +228,7 @@
   {
    "title": "[싱갤] 싱글벙글 나루토 최고의 각성씬.jpg",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467216&_dcbest=1&page=1",
-   "views": 22840,
+   "views": 22864,
    "comments": 296,
    "board": "디시 실베",
    "heat": 0.8163265306122449,
@@ -254,12 +238,62 @@
   {
    "title": "별로 논란도 안되는 국민의힘 최근 논란 모음.jpg",
    "url": "https://theqoo.net/hot/4362259607",
-   "views": 28695,
+   "views": 28845,
    "comments": 465,
    "board": "더쿠 HOT",
    "heat": 0.8,
    "also_on": [],
    "score": 0.8
+  },
+  {
+   "title": "[싱갤] 류이치 사카모토가 유희열의 표절을 옹호한 이유",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467234&_dcbest=1&page=1",
+   "views": 19288,
+   "comments": 292,
+   "board": "디시 실베",
+   "heat": 0.7959183673469388,
+   "also_on": [],
+   "score": 0.796
+  },
+  {
+   "title": "[무갤] 아무리 그래도 한국 여자는 이쁘고 착할텐데",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467222&_dcbest=1&page=1",
+   "views": 15842,
+   "comments": 281,
+   "board": "디시 실베",
+   "heat": 0.7755102040816326,
+   "also_on": [],
+   "score": 0.776
+  },
+  {
+   "title": "[싱갤] 싱글벙글 요즘 한국음식 특징",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467248&_dcbest=1&page=1",
+   "views": 8320,
+   "comments": 269,
+   "board": "디시 실베",
+   "heat": 0.7551020408163265,
+   "also_on": [],
+   "score": 0.755
+  },
+  {
+   "title": "배우 박해일보고 좌해일 ㅇㅈㄹ하는 애들은 박해일 처음보는 애들이지?.twt",
+   "url": "https://theqoo.net/hot/4362241503",
+   "views": 55490,
+   "comments": 464,
+   "board": "더쿠 HOT",
+   "heat": 0.75,
+   "also_on": [],
+   "score": 0.75
+  },
+  {
+   "title": "[이갤] 오폐수처리시설서 발견된 태아…산모 특정돼도 처벌 어려울 듯",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=467204&_dcbest=1&page=1",
+   "views": 8022,
+   "comments": 253,
+   "board": "디시 실베",
+   "heat": 0.7346938775510204,
+   "also_on": [],
+   "score": 0.735
   }
  ]
 }
