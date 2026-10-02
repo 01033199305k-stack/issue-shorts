@@ -1,0 +1,469 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "busan-shark-bukangi-rescue",
+ "title_lines": [
+  "100m 앞 버티기?",
+  "상어 부캉이 근황"
+ ],
+ "credit": "자료: 세계일보·머니투데이(2026.10.2) · AI 음성",
+ "segments": [
+  {
+   "text": "상어 한 마리 바다로 보내기, 두 번 연속 실패함.",
+   "say": "상어 한 마리 바다로 보내기, 두 번 연속 실패함.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サメ",
+       "鮫",
+       "魚 サメ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "2연속 실패",
+      "style": "stamp",
+      "pos": "bottom-right",
+      "at": 0.6,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 실패한 이유가 더 어이없음.",
+   "say": "근데 실패한 이유가 더 어이없음.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "이유가 뭐길래?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "9월 18일, 부산 북항 친수공원 수로에 상어가 들어옴.",
+   "say": "구월 십팔 일, 부산 북항 친수공원 수로에 상어가 들어옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "text",
+      "text": "부산 북항",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "サメ",
+       "鮫",
+       "魚 サメ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "slide-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "몸길이 3m가 넘는 무태상어로 추정됨.",
+   "say": "몸길이 삼 미터가 넘는 무태상어로 추정됨.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "beach",
+    "items": [
+     {
+      "type": "text",
+      "text": "3m+",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "サメ",
+       "鮫",
+       "魚 サメ"
+      ],
+      "pos": "center",
+      "size": "xl",
+      "at": 0.3,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "북항을 소리 나는 대로 읽어서, 이름이 부캉이.",
+   "say": "북항을 소리 나는 대로 읽어서, 이름이 부캉이.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "북항 → 부캉",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "サメ",
+       "鮫",
+       "魚 サメ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.5,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "구경 온 사람만 50만 명이 넘음.",
+   "say": "구경 온 사람만 오십만 명이 넘음.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "text",
+      "text": "50만 명+",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "crowd",
+      "q": [
+       "スマートフォン 男性",
+       "人々"
+      ],
+      "count": 12,
+      "pos": "center",
+      "dy": 120,
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "text": "9월 29일 1차 작전, 배에서 물줄기를 쏴서 몰아냄.",
+   "say": "구월 이십구 일 일차 작전, 배에서 물줄기를 쏴서 몰아냄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "beach",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "船",
+       "漁船",
+       "ボート"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "サメ",
+       "鮫",
+       "魚 サメ"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.5,
+      "fx": "run-right"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 물줄기를 요리조리 피해서 안 나감.",
+   "say": "근데 물줄기를 요리조리 피해서 안 나감.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "beach",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サメ",
+       "鮫",
+       "魚 サメ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "작전 중단",
+      "style": "stamp",
+      "pos": "bottom-right",
+      "at": 0.6,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "10월 2일엔 길이 50m짜리 특수 그물까지 들고 옴.",
+   "say": "시월 이 일엔 길이 오십 미터짜리 특수 그물까지 들고 옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "beach",
+    "items": [
+     {
+      "type": "text",
+      "text": "그물 50m",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "網",
+       "漁網",
+       "魚網"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 그 결과가 공개됨.",
+   "say": "자, 그 결과가 공개됨.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サメ",
+       "鮫",
+       "魚 サメ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "2차 작전 결과",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "바다까지 100m 남기고 멈춤, 바닥 바위에 그물이 걸림.",
+   "say": "바다까지 백 미터 남기고 멈춤, 바닥 바위에 그물이 걸림.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "beach",
+    "items": [
+     {
+      "type": "text",
+      "text": "바다까지 100m",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "岩",
+       "石"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.5,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "실패",
+      "style": "stamp",
+      "pos": "right",
+      "at": 0.7,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "결국 그물만 고정해 두고, 부캉이가 알아서 나가길 기다리기로 함.",
+   "say": "결국 그물만 고정해 두고, 부캉이가 알아서 나가길 기다리기로 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "網",
+       "漁網"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "サメ",
+       "鮫",
+       "魚 サメ"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "부캉이, 그냥 둬야 함? 바다로 보내야 함?",
+   "say": "부캉이, 그냥 둬야 함? 바다로 보내야 함?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "바다 100m 앞에서 멈춤? 상어 부캉이 2차 구조도 실패 #shorts",
+  "description": "9월 18일 부산 북항 친수공원 인공 수로에 들어온 상어 '부캉이'가 보름째 바다로 돌아가지 않고 있습니다.\n9월 29일 물줄기로 몰아내는 1차 작전에 이어, 10월 2일 50m 대형 그물을 쓴 2차 작전도 바다 약 100m 앞에서 중단됐습니다.\n당국은 그물을 고정해 두고 부캉이가 스스로 나가기를 기다리기로 했습니다.\n\n출처: 세계일보 https://www.segye.com/newsView/20261002514370\n※ AI 음성으로 제작했습니다.\n#부캉이 #상어 #부산 #북항 #이슈",
+  "tags": [
+   "부캉이",
+   "상어",
+   "부산 상어",
+   "북항친수공원",
+   "구조작전",
+   "이슈"
+  ]
+ },
+ "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=467362&_dcbest=1&page=1",
+ "facts_used": [
+  "9월 18일 부산 북항친수공원 인공 수로에 상어 진입 [서울신문 2026.9.27, 경향신문 2026.9.30]",
+  "몸길이 약 3~3.5m, 무태상어 추정 [경향신문, 서울신문]",
+  "이름 '부캉이'는 '북항'을 소리 나는 대로 읽은 것 [경향신문 2026.9.28 외]",
+  "방문객 50만 명 이상 (한국일보 57만, 헤럴드경제 60만) [한국일보 2026.9.28, 헤럴드경제]",
+  "9월 29일 1차 작전: 물줄기로 유도했으나 피해 다녀 중단 [한국일보 2026.9.29, 헤럴드경제]",
+  "10월 2일 2차 작전: 길이 50m·높이 6.8m 특수 그물 사용 [세계일보 2026.10.1~2, 헤럴드경제]",
+  "바다 약 100m 앞에서 멈춤, 수심이 깊고 바위가 많아 그물이 걸림 [머니투데이 2026.10.2, 부산일보 2026.10.2, 세계일보]",
+  "그물 고정 후 스스로 나가길 기다리기로 [뉴시스 2026.10.2, 세계일보, 헤럴드경제]"
+ ],
+ "brief": "확인된 사실: 위 facts_used. 출처: 세계일보 https://www.segye.com/newsView/20261002514370 , 머니투데이 https://www.mt.co.kr/society/2026/10/02/2026100218584693963 , 부산일보 https://www.busan.com/view/busan/view.php?code=2026100218211623072 , 뉴시스 https://www.newsis.com/view/NISX20261002_0003813229 , 한국일보 https://www.hankookilbo.com/news/article/A2026092915160002503 , 헤럴드경제 https://biz.heraldcorp.com/article/10887897 . 주의: 방문객 수는 매체별 47만~60만으로 달라 '50만 명 넘게'로만 씀. 멈춘 거리는 100m(머니투데이·부산일보)/150m(아이뉴스24)로 엇갈려 100m 사용. 종은 '추정'(무태상어, 흑상어 가능성도 거론). 직접 인용 발언은 쓰지 않음. 정치·피해자 이슈 없음."
+}
