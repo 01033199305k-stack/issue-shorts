@@ -1,0 +1,503 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "ai-voice-actor-lawsuit-japan",
+ "title_lines": [
+  "이겼는데 기각?",
+  "AI 목소리 소송"
+ ],
+ "credit": "자료: 한국일보·서울신문(2026.10.1~2) · AI 음성",
+ "segments": [
+  {
+   "text": "목소리 권리는 인정받았는데, 소송은 기각당한 성우가 있음.",
+   "say": "목소리 권리는 인정받았는데, 소송은 기각당한 성우가 있음.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "声優",
+       "マイク 男性",
+       "マイク"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "권리 인정",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "기각",
+      "style": "stamp",
+      "pos": "right",
+      "at": 0.65,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 그 이유가 더 어이없음.",
+   "say": "근데 그 이유가 더 어이없음.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "考える 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "이유가 뭐길래?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.35,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "주인공은 '주술회전' 성우로 유명한 일본의 쓰다 겐지로.",
+   "say": "주인공은 '주술회전' 성우로 유명한 일본의 쓰다 겐지로.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "声優",
+       "マイク 男性",
+       "マイク"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "일본 인기 성우",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "어떤 틱톡 계정이 AI로 이 사람 목소리를 따라 함.",
+   "say": "어떤 틱톡 계정이 AI로 이 사람 목소리를 따라 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマートフォン"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "人工知能",
+       "ロボット"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.45,
+      "fx": "slide-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그 목소리로 도시전설, 심령 영상 내레이션을 깔았음.",
+   "say": "그 목소리로 도시전설, 심령 영상 내레이션을 깔았음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "幽霊",
+       "お化け"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "text",
+      "text": "도시전설·심령",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👻",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "2024년 7월부터 1년 넘게, 최소 188편.",
+   "say": "이천이십사 년 칠월부터 일 년 넘게, 최소 백팔십팔 편.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "188편",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "crowd",
+      "q": [
+       "スマートフォン",
+       "動画"
+      ],
+      "count": 12,
+      "pos": "center",
+      "dy": 120,
+      "at": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "text": "쓰다 측은 시청자들이 진짜 본인 목소리로 착각했다고 주장함.",
+   "say": "쓰다 측은 시청자들이 진짜 본인 목소리로 착각했다고 주장함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 女性",
+       "驚く 男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "진짜 본인?",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "결국 틱톡 운영사 상대로 영상 지워달라고 소송 냄.",
+   "say": "결국 틱톡 운영사 상대로 영상 지워달라고 소송 냄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "弁護士",
+       "裁判"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "text",
+      "text": "삭제 청구",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "ゴミ箱",
+       "削除"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.55,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "지난 9월 30일, 도쿄지방법원은 목소리도 초상처럼 보호 대상이라고 봄.",
+   "say": "지난 구월 삼십일, 도쿄지방법원은 목소리도 초상처럼 보호 대상이라고 봄.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": "裁判官",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "목소리도 보호",
+      "style": "stamp",
+      "pos": "bottom-right",
+      "at": 0.65,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "사람의 목소리는 개인의 인격을 상징한다고 밝힘.",
+   "say": "사람의 목소리는 개인의 인격을 상징한다고 밝힘.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "목소리는 인격의 상징",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": "裁判官",
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 근데 여기서 반전.",
+   "say": "자, 근데 여기서 반전.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "반전",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "소송 낸 뒤에 계정이랑 영상이 이미 다 삭제돼 버림.",
+   "say": "소송 낸 뒤에 계정이랑 영상이 이미 다 삭제돼 버림.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン",
+       "動画"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💨",
+      "pos": "right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "이미 삭제됨",
+      "style": "red",
+      "pos": "top",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "지울 게 없으니, 삭제 청구는 기각.",
+   "say": "지울 게 없으니, 삭제 청구는 기각.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 男性",
+       "悩む 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "drop",
+      "dy": 90
+     },
+     {
+      "type": "text",
+      "text": "청구 기각",
+      "style": "stamp",
+      "pos": "top-right",
+      "at": 0.55,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이거 이긴 거임, 진 거임?",
+   "say": "이거 이긴 거임, 진 거임?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "권리는 인정, 청구는 기각? 日 성우 AI 목소리 소송 #shorts",
+  "description": "일본 성우 쓰다 겐지로가 AI로 자신의 목소리를 흉내 낸 틱톡 영상을 두고 틱톡 운영사에 삭제를 청구했습니다.\n도쿄지방법원은 9월 30일 목소리도 퍼블리시티권 보호 대상이 될 수 있다고 판단했습니다.\n하지만 소송 뒤 계정과 영상이 이미 삭제돼 삭제 청구는 기각됐습니다.\n\n출처: 한국일보 https://www.hankookilbo.com/news/article/A2026100109130005335\n※ AI 음성으로 제작했습니다.\n#AI목소리 #성우 #쓰다겐지로 #퍼블리시티권 #틱톡 #이슈",
+  "tags": [
+   "AI목소리",
+   "AI음성",
+   "성우",
+   "쓰다겐지로",
+   "퍼블리시티권",
+   "틱톡",
+   "주술회전",
+   "일본법원",
+   "이슈"
+  ]
+ },
+ "source_post": "https://www.hankookilbo.com/news/article/A2026100109130005335",
+ "facts_used": [
+  "2026.9.30 도쿄지방법원, 성우 쓰다 겐지로가 틱톡 운영사 상대로 낸 삭제 청구 소송 판결 [한국일보 2026.10.1, AI매터스, 파이낸셜뉴스 2026.9.30]",
+  "목소리도 초상처럼 퍼블리시티권 보호 대상이 될 수 있다고 판단 [한국일보, AI매터스, 서울신문 2026.10.2]",
+  "재판부: 사람의 목소리는 개인의 인격을 상징 [AI매터스, 서울신문/한국일보 검색 요약]",
+  "2024년 7월~2025년 9월 도시전설·심령 영상 최소 188편에 유사 AI 내레이션 [AI매터스, 한국일보]",
+  "시청자 오인 주장은 쓰다 측 주장 [한국일보]",
+  "계정·영상 이미 삭제돼 삭제 청구 기각 [AI매터스, 한국일보, 인벤]",
+  "'주술회전' 성우 [허프포스트코리아, 아이뉴스24]"
+ ],
+ "brief": "후보 수집(inbox) 06:57 KST로 6시간 초과 → WebSearch로 후보 탐색. 소재: 日 성우 쓰다 겐지로 AI 음성 소송. 확인 사실: 9/30 도쿄지법, 목소리 퍼블리시티권 사실상 첫 인정(일본 내), 고객흡인력 이용 목적 무단 사용은 침해. 문제 영상 2024.7~2025.9 최소 188편(도시전설·심령). 소 제기 후 계정·영상 삭제돼 삭제청구 기각, 개별 영상 침해 여부는 판단 안 함. 출처: 한국일보 https://www.hankookilbo.com/news/article/A2026100109130005335 / AI매터스 https://aimatters.co.kr/news-report/53731/ / 서울신문 https://www.seoul.co.kr/news/international/2026/10/02/20261002010002 / 파이낸셜뉴스 https://www.fnnews.com/news/202609301613552047 / 인벤 https://www.inven.co.kr/webzine/news/?news=321627. 주의: 팔로워 21만은 단일 출처라 미사용. '시청자 오인'은 쓰다 측 주장으로 표현. WebFetch EGRESS_BLOCKED."
+}
