@@ -1,16 +1,16 @@
 {
  "skip": false,
  "skip_reason": "",
- "slug": "bank-ai-hacking-leak",
+ "slug": "kim-minjae-boots-outburst",
  "title_lines": [
-  "범인이 AI라고?",
-  "은행 줄줄이 해킹"
+  "축구화 던진 이유",
+  "김민재 작심발언"
  ],
- "credit": "자료: 뉴데일리·데일리안(2026.10.2) · AI 음성",
+ "credit": "자료: 머니투데이·한국경제(2026.10.3) · AI 음성",
  "segments": [
   {
-   "text": "은행들이 줄줄이 뚫렸는데, 범인이 AI일 수도 있다 함.",
-   "say": "은행들이 줄줄이 뚫렸는데, 범인이 에이아이일 수도 있다 함.",
+   "text": "교체되자마자 축구화를 집어 던진 국가대표 수비수.",
+   "say": "교체되자마자 축구화를 집어 던진 국가대표 수비수.",
    "sfx": "dudung",
    "visual": {
     "bg": "white",
@@ -18,8 +18,9 @@
      {
       "type": "illust",
       "q": [
-       "銀行",
-       "銀行 建物"
+       "サッカー スパイク",
+       "スパイク",
+       "サッカー選手"
       ],
       "pos": "center",
       "size": "l",
@@ -27,20 +28,20 @@
       "fx": "pop"
      },
      {
-      "type": "text",
-      "text": "AI 해킹?",
-      "style": "stamp",
+      "type": "emoji",
+      "text": "💥",
       "pos": "bottom-right",
-      "at": 0.6,
-      "fx": "stamp"
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
      }
     ],
-    "video": "server room data center"
+    "video": "soccer stadium night"
    }
   },
   {
-   "text": "근데 털린 정보가 더 무서움.",
-   "say": "근데 털린 정보가 더 무서움.",
+   "text": "근데 경기 끝나고 한 말이 더 화제임.",
+   "say": "근데 경기 끝나고 한 말이 더 화제임.",
    "sfx": "question",
    "visual": {
     "bg": "white",
@@ -48,7 +49,7 @@
      {
       "type": "illust",
       "q": [
-       "驚く 男性",
+       "サッカー選手",
        "考える 男性"
       ],
       "pos": "center",
@@ -66,7 +67,7 @@
      },
      {
       "type": "text",
-      "text": "뭐가 털렸길래?",
+      "text": "무슨 말을?",
       "style": "label",
       "pos": "top",
       "at": 0.2,
@@ -76,62 +77,57 @@
    }
   },
   {
-   "text": "먼저 신한은행, 고객 약 2만5천 명 정보가 유출됨.",
-   "say": "먼저 신한은행, 고객 약 이만오천 명 정보가 유출됨.",
+   "text": "10월 2일 울산, 한국 대 베네수엘라 평가전.",
+   "say": "시월 이일 울산, 한국 대 베네수엘라 평가전.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "한국 vs 베네수엘라",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": "football stadium crowd"
+   }
+  },
+  {
+   "text": "90분 내내 답답하더니 결과는 0 대 0.",
+   "say": "구십 분 내내 답답하더니 결과는 영 대 영.",
    "sfx": "punch",
    "visual": {
     "bg": "white",
     "items": [
      {
       "type": "text",
-      "text": "2만5천 명",
+      "text": "0 : 0",
       "style": "big",
       "pos": "top",
       "at": 0.0,
       "fx": "pop"
      },
      {
-      "type": "crowd",
-      "q": "会社員",
-      "count": 12,
+      "type": "illust",
+      "q": [
+       "サッカー ボール",
+       "サッカー"
+      ],
       "pos": "center",
-      "dy": 120,
-      "at": 0.4
-     }
-    ]
-   }
-  },
-  {
-   "text": "KB국민은행 119명, 하나은행 89명도 털림.",
-   "say": "케이비국민은행 백십구 명, 하나은행 팔십구 명도 털림.",
-   "sfx": "whoosh",
-   "visual": {
-    "bg": "paper",
-    "items": [
-     {
-      "type": "text",
-      "text": "국민 119명",
-      "style": "row",
-      "pos": "center",
-      "at": 0.0,
-      "fx": "slide-left",
-      "dy": -90
-     },
-     {
-      "type": "text",
-      "text": "하나 89명",
-      "style": "row",
-      "pos": "center",
+      "size": "m",
       "at": 0.4,
-      "fx": "slide-left",
-      "dy": 60
+      "fx": "drop",
+      "dy": 80
      }
     ]
    }
   },
   {
-   "text": "공격에 쓰인 서버에선 AI 자율 침투 도구로 보이는 흔적이 나옴.",
-   "say": "공격에 쓰인 서버에선 에이아이 자율 침투 도구로 보이는 흔적이 나옴.",
+   "text": "선발로 나온 김민재는 후반 35분 교체됨.",
+   "say": "선발로 나온 김민재는 후반 삼십오 분 교체됨.",
    "sfx": "whoosh",
    "visual": {
     "bg": "white",
@@ -139,8 +135,36 @@
      {
       "type": "illust",
       "q": [
-       "ハッカー",
-       "パソコン ウイルス"
+       "サッカー選手"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "후반 35분",
+      "style": "label",
+      "pos": "right",
+      "at": 0.4,
+      "fx": "slide-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "벤치에서 축구화를 벗어 던지는 장면이 중계 화면에 잡힘.",
+   "say": "벤치에서 축구화를 벗어 던지는 장면이 중계 화면에 잡힘.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー スパイク",
+       "スパイク"
       ],
       "pos": "center",
       "size": "l",
@@ -149,55 +173,36 @@
      },
      {
       "type": "emoji",
-      "text": "🤖",
+      "text": "💢",
       "pos": "top-right",
       "size": "s",
-      "at": 0.5,
-      "fx": "pop"
-     }
-    ],
-    "video": "computer code screen"
-   }
-  },
-  {
-   "text": "사람 대신 AI가 알아서 뚫었을 가능성까지 제기된 거임.",
-   "say": "사람 대신 에이아이가 알아서 뚫었을 가능성까지 제기된 거임.",
-   "sfx": "exclaim",
-   "visual": {
-    "bg": "white",
-    "items": [
-     {
-      "type": "illust",
-      "q": [
-       "ロボット",
-       "人工知能"
-      ],
-      "pos": "center",
-      "size": "l",
-      "at": 0.0,
+      "at": 0.4,
       "fx": "pop"
      },
      {
-      "type": "text",
-      "text": "AI가 알아서?",
-      "style": "red",
-      "pos": "top",
-      "at": 0.4,
-      "fx": "shake"
+      "type": "illust",
+      "q": [
+       "テレビカメラ",
+       "カメラマン"
+      ],
+      "pos": "bottom-left",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
      }
     ]
    }
   },
   {
-   "text": "자, 털린 정보가 공개됨.",
-   "say": "자, 털린 정보가 공개됨.",
+   "text": "자, 경기 뒤 인터뷰에서 작심발언이 공개됨.",
+   "say": "자, 경기 뒤 인터뷰에서 작심발언이 공개됨.",
    "sfx": "question",
    "visual": {
     "bg": "white",
     "items": [
      {
       "type": "text",
-      "text": "유출 항목",
+      "text": "작심발언",
       "style": "label",
       "pos": "top",
       "at": 0.0,
@@ -206,8 +211,8 @@
      {
       "type": "illust",
       "q": [
-       "個人情報",
-       "書類"
+       "インタビュー",
+       "マイク"
       ],
       "pos": "center",
       "size": "l",
@@ -218,53 +223,60 @@
    }
   },
   {
-   "text": "하나은행은 주민등록번호, 주소, 휴대전화번호, 직장명까지.",
-   "say": "하나은행은 주민등록번호, 주소, 휴대전화번호, 직장명까지.",
+   "text": "반전이 필요한 경기였는데 결과를 가져오지 못해 아쉽다.",
+   "say": "반전이 필요한 경기였는데 결과를 가져오지 못해 아쉽다.",
    "sfx": "whoosh",
    "visual": {
     "bg": "paper",
     "items": [
      {
       "type": "text",
-      "text": "① 주민번호",
-      "style": "row",
-      "pos": "center",
+      "text": "결과 못 가져와 아쉽다",
+      "style": "bubble",
+      "pos": "top",
       "at": 0.0,
-      "fx": "slide-left",
-      "dy": -150
-     },
-     {
-      "type": "text",
-      "text": "② 주소·전화",
-      "style": "row",
-      "pos": "center",
-      "at": 0.3,
-      "fx": "slide-left",
-      "dy": 0
-     },
-     {
-      "type": "text",
-      "text": "③ 직장명",
-      "style": "row",
-      "pos": "center",
-      "at": 0.6,
-      "fx": "slide-left",
-      "dy": 150
+      "fx": "pop"
      }
     ]
    }
   },
   {
-   "text": "신한은행 쪽은 주민번호에 연소득까지 나갔다 함.",
-   "say": "신한은행 쪽은 주민번호에 연소득까지 나갔다 함.",
-   "sfx": "punch",
+   "text": "포백보다는 다 같이 싸워 줘야 하는데 그러지 못했다.",
+   "say": "포백보다는 다 같이 싸워 줘야 하는데 그러지 못했다.",
+   "sfx": "whoosh",
    "visual": {
-    "bg": "white",
+    "bg": "paper",
     "items": [
      {
       "type": "text",
-      "text": "연소득까지",
-      "style": "big",
+      "text": "다 같이 싸워야",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "crowd",
+      "q": "サッカー選手",
+      "count": 4,
+      "pos": "center",
+      "dy": 120,
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "text": "그리고 이 한마디. 수비 선수들을 보면 불쌍하다.",
+   "say": "그리고 이 한마디. 수비 선수들을 보면 불쌍하다.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "text",
+      "text": "수비 선수들 불쌍",
+      "style": "bubble",
       "pos": "top",
       "at": 0.0,
       "fx": "pop"
@@ -272,8 +284,8 @@
      {
       "type": "illust",
       "q": [
-       "お金",
-       "札束"
+       "落ち込む 男性",
+       "サッカー選手"
       ],
       "pos": "center",
       "size": "l",
@@ -285,8 +297,8 @@
    }
   },
   {
-   "text": "근데 여기서 끝이 아님.",
-   "say": "근데 여기서 끝이 아님.",
+   "text": "다 같이 머리 처박고 열심히 해야 한다고도 함.",
+   "say": "다 같이 머리 처박고 열심히 해야 한다고도 함.",
    "sfx": "whoosh",
    "visual": {
     "bg": "white",
@@ -294,36 +306,36 @@
      {
       "type": "illust",
       "q": [
-       "驚く 女性",
-       "驚く 男性"
+       "走る 男性",
+       "サッカー選手"
       ],
       "pos": "center",
       "size": "l",
       "at": 0.0,
-      "fx": "pop"
+      "fx": "run-right"
      },
      {
       "type": "emoji",
-      "text": "❗",
+      "text": "🔥",
       "pos": "top-right",
       "size": "s",
-      "at": 0.3,
-      "fx": "shake"
+      "at": 0.5,
+      "fx": "pop"
      }
     ]
    }
   },
   {
-   "text": "예가람저축은행도 해킹돼서 고객 약 4만 명 정보가 유출됨.",
-   "say": "예가람저축은행도 해킹돼서 고객 약 사만 명 정보가 유출됨.",
-   "sfx": "punch",
+   "text": "수비 혼자 버티는 대표팀, 바뀔 수 있을까?",
+   "say": "수비 혼자 버티는 대표팀, 바뀔 수 있을까?",
+   "sfx": "absurd",
    "visual": {
     "bg": "white",
     "items": [
      {
       "type": "text",
-      "text": "4만 명",
-      "style": "big",
+      "text": "바뀔 수 있을까?",
+      "style": "label",
       "pos": "top",
       "at": 0.0,
       "fx": "pop"
@@ -331,74 +343,20 @@
      {
       "type": "illust",
       "q": [
-       "銀行"
+       "サッカー ゴールキーパー",
+       "サッカー選手"
       ],
       "pos": "center",
       "size": "l",
-      "at": 0.4,
-      "fx": "drop",
-      "dy": 80
-     },
-     {
-      "type": "emoji",
-      "text": "💥",
-      "pos": "bottom-right",
-      "size": "s",
-      "at": 0.6,
-      "fx": "pop"
-     }
-    ]
-   }
-  },
-  {
-   "text": "이름, 생년월일, 연락처가 나갔다 함.",
-   "say": "이름, 생년월일, 연락처가 나갔다 함.",
-   "sfx": "whoosh",
-   "visual": {
-    "bg": "white",
-    "items": [
-     {
-      "type": "illust",
-      "q": [
-       "スマートフォン 男性"
-      ],
-      "pos": "center",
-      "size": "l",
-      "at": 0.0,
-      "fx": "pop"
-     },
-     {
-      "type": "emoji",
-      "text": "📱",
-      "pos": "top-right",
-      "size": "s",
-      "at": 0.4,
-      "fx": "pop"
-     }
-    ]
-   }
-  },
-  {
-   "text": "은행들은 금융거래 정보랑은 관련 없다고 해명함.",
-   "say": "은행들은 금융거래 정보랑은 관련 없다고 해명함.",
-   "sfx": "stamp",
-   "visual": {
-    "bg": "white",
-    "items": [
-     {
-      "type": "text",
-      "text": "거래 정보 무관",
-      "style": "stamp",
-      "pos": "center",
       "at": 0.3,
-      "fx": "stamp"
+      "fx": "pop"
      }
     ]
    }
   },
   {
-   "text": "다들 내 정보는 괜찮은지 확인해 봄?",
-   "say": "다들 내 정보는 괜찮은지 확인해 봄?",
+   "text": "김민재 말, 맞는 말이라고 봄?",
+   "say": "김민재 말, 맞는 말이라고 봄?",
    "sfx": "none",
    "visual": {
     "bg": "white",
@@ -407,7 +365,7 @@
       "type": "illust",
       "q": [
        "考える 男性",
-       "スマートフォン 男性"
+       "驚く 男性"
       ],
       "pos": "center",
       "size": "l",
@@ -427,27 +385,25 @@
   }
  ],
  "youtube": {
-  "title": "범인이 AI라고? 신한·국민·하나 이어 저축은행까지 해킹 #shorts",
-  "description": "신한은행(약 2만5천 명), KB국민은행(119명), 하나은행(89명)에서 고객 정보가 유출됐습니다.\n공격 서버에서 AI 자율 침투 도구로 보이는 흔적이 나와 AI 해킹 가능성이 제기됐습니다.\n예가람저축은행에서도 고객 약 4만 명의 이름·생년월일·연락처가 유출됐습니다.\n\n출처: 뉴데일리 https://biz.newdaily.co.kr/site/data/html/2026/10/02/2026100200316.html\n출처: 데일리안 https://www.dailian.co.kr/news/view/1697697\n※ AI 음성으로 제작했습니다.\n#은행해킹 #개인정보유출 #AI해킹 #신한은행 #이슈",
+  "title": "축구화 던진 이유? 김민재 \"수비 선수들 보면 불쌍하다\" 작심발언 #shorts",
+  "description": "10월 2일 울산에서 열린 한국과 베네수엘라의 평가전은 0-0으로 끝났습니다.\n후반 35분 교체된 김민재는 벤치에서 축구화를 벗어 던지는 모습이 중계에 잡혔습니다.\n경기 후 \"수비 선수들을 보면 불쌍하다\"며 다 같이 싸워야 한다고 말했습니다.\n\n출처: 머니투데이 https://www.mt.co.kr/sports/2026/10/02/2026100222542643945\n출처: 한국경제 https://www.hankyung.com/article/2026100315857\n※ AI 음성으로 제작했습니다.\n#김민재 #축구국가대표 #베네수엘라 #작심발언 #축구",
   "tags": [
-   "은행해킹",
-   "개인정보유출",
-   "AI해킹",
-   "신한은행",
-   "KB국민은행",
-   "하나은행",
-   "예가람저축은행",
+   "김민재",
+   "축구국가대표",
+   "베네수엘라",
+   "평가전",
+   "작심발언",
+   "축구",
    "이슈"
   ]
  },
- "source_post": "https://n.news.naver.com/article/050/0000111606",
+ "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=467649",
  "facts_used": [
-  "신한은행 고객 약 2만5천 명 정보 유출, 주민번호·연소득 포함 [뉴데일리 2026.10.2, 스페셜타임스]",
-  "KB국민은행 119명, 하나은행 89명 유출 [뉴데일리 2026.10.2, 스페셜타임스]",
-  "공격 서버에서 AI 자율 침투 도구로 보이는 흔적, AI 해킹 가능성 제기 [한국일보 2026.10.2, 서울경제 사설]",
-  "하나은행 유출 항목: 주민등록번호·성명·주소·이메일·전화번호·휴대전화번호·직장명 [뉴데일리, 스페셜타임스]",
-  "예가람저축은행 고객 약 4만 명 성명·생년월일·연락처 유출 [데일리안·뉴데일리·보안뉴스 2026.10.2~3]",
-  "은행들 '금융거래 정보와는 관련 없다' 해명 [뉴데일리, 스페셜타임스]"
+  "10월 2일 울산 문수축구경기장 한국-베네수엘라 평가전 0-0 [머니투데이 2026.10.2, 미주중앙일보]",
+  "김민재 선발 출전, 후반 35분 김태현과 교체, 벤치에서 축구화 벗어 던짐 [머니투데이, 한국경제 2026.10.3, 미주중앙일보]",
+  "\"반전이 필요한 경기였는데 결과를 가져오지 못해 아쉽다\" [머니투데이 2026.10.2]",
+  "\"포백보다는 다같이 싸워줘야하는데 그러지 못했다. 수비 선수들을 보면 불쌍하다\" [머니투데이, 한국경제, 스포티비뉴스]",
+  "\"다같이 머리 처박고 열심히 해야\" [스포티비뉴스, 머니투데이 2026.10.3]"
  ],
- "brief": "커뮤니티 후보가 부족해 news_hot(한경비즈니스 '신한·KB·하나 이어 예가람까지 정보 유출')을 소재로 씀. 확인된 사실: 신한 약 2만5천명(주민번호·연소득), KB국민 119명, 하나 89명, AI 자율 침투 도구 추정 흔적. 예가람저축은행 9월 30일 서버 침입 정황, 약 4만명 성명·생년월일·연락처. 출처: 뉴데일리 https://biz.newdaily.co.kr/site/data/html/2026/10/02/2026100200316.html , 한국일보 https://www.hankookilbo.com/news/article/A2026100212440001602 , 데일리안 https://www.dailian.co.kr/news/view/1697697 , 보안뉴스 https://www.boannews.com/news/articleView.html?idxno=146186 . 주의: AI 해킹은 '가능성 제기' 수준이라 단정하지 않음. 해커 국적(중국어 흔적) 언급은 혐오 각도 피하려 뺐음. 대통령 지시 등 정치 언급 뺌."
+ "brief": "확인된 사실: 10.2 울산 평가전 0-0, 김민재 후반 35분 교체 후 축구화 던짐(중계 포착), 인터뷰 '수비 선수들을 보면 불쌍하다', '다같이 머리 처박고 열심히 해야'. 출처: 머니투데이 https://www.mt.co.kr/sports/2026/10/02/2026100222542643945 , https://www.mt.co.kr/sports/2026/10/02/2026100222541184226 , 한국경제 https://www.hankyung.com/article/2026100315857 , 스포티비뉴스 https://www.spotvnews.co.kr/news/articleView.html?idxno=1011107 , 미주중앙일보 https://www.koreadaily.com/article/20261002055319833 . 주의: 일본 매체 반응·감독 비판 등 단일 출처 내용은 뺐음. 특정 동료 선수 비난 각도 피함. 공인의 경기 관련 공개 발언만 다룸(사생활 아님)."
 }
