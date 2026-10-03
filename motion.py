@@ -102,14 +102,90 @@ def _split_emoji(s: str) -> list[str]:
 
 
 # ─────────────────────────────────────────── captions (phrase cues)
+# Korean phrases that must stay on one caption line: a number/determiner and
+# the counter after it ("두 번", "한 마리", "3m 넘는" is fine to split).
+_BEFORE_COUNTER = {"한", "두", "세", "네", "다섯", "여섯", "일곱", "여덟", "아홉", "열", "몇", "첫", "그", "이",
+                   "저", "이런", "그런", "저런", "어떤", "무슨", "각", "매", "약", "총", "단", "딱", "무려", "안",
+                   "못", "더", "덜", "꽤", "너무", "제일", "가장", "아주", "진짜", "또", "다", "온", "새", "옛", "헌"}
+_COUNTERS = ("번", "명", "개", "마리", "살", "원", "년", "개월", "가구", "짜리", "쯤", "정도", "킬로", "미터",
+             "센티", "퍼센트", "층", "권", "장", "배", "대", "곳", "건", "차례", "시간", "분", "초")
+# words that lean on the word before them ("적립해 줌", "삭제돼 버림", "조사 중이고")
+_LEANS_BACK = ("줌", "줘", "준", "주고", "줬", "주는", "버림", "버려", "버렸", "버린", "두고", "둠", "뒀", "놓고",
+               "놓음", "놨", "중", "대로", "수 ", "뿐", "만큼", "듯", "척", "채")
+_PUNCT_END = (",", ".", "?", "!", "…", "·", ")", "\"", "'", "”", "’")
+
+
+def _break_cost(a: str, b: str) -> float:
+    """How bad it is to break a caption between word a and word b (0 = natural)."""
+    if a.endswith(_PUNCT_END):
+        return 0.0
+    if a in _BEFORE_COUNTER or (a[-1:].isdigit() and not b[:1].isdigit()):
+        return 100.0
+    if any(c.isdigit() for c in a) and any(b.startswith(k) and len(b) - len(k) <= 1 for k in _COUNTERS):
+        return 100.0
+    if b.startswith(_LEANS_BACK) or b.rstrip(",.?!") in ("수", "것", "거", "데", "적", "때"):
+        return 60.0
+    if len(a) == 1 or len(b) == 1:
+        return 30.0   # a lone one-syllable word left dangling reads as a typo
+    return 10.0
+
+
+def _width(ws) -> int:
+    return sum(len(w.text) for w in ws) + max(0, len(ws) - 1)
+
+
+def _best_lines(ws, line_chars: int):
+    """Split one cue into 1-2 lines at the most natural point; None if it cannot fit."""
+    if _width(ws) <= line_chars:
+        return 0.0, [ws]
+    best = None
+    for k in range(1, len(ws)):
+        a, b = ws[:k], ws[k:]
+        if _width(a) > line_chars or _width(b) > line_chars:
+            continue
+        c = _break_cost(a[-1].text, b[0].text) * 0.6 + abs(_width(a) - _width(b)) * 0.3
+        if best is None or c < best[0]:
+            best = (c, [a, b])
+    return best
+
+
+def _phrase_cues(words, line_chars: int, max_words: int):
+    """Split one sentence into caption cues (each 1-2 lines) at natural breaks.
+    Dynamic programming over cue boundaries: break costs + a small per-cue cost."""
+    n = len(words)
+    INF = float("inf")
+    dp = [(INF, None, None)] * (n + 1)
+    dp[0] = (0.0, None, None)
+    for j in range(1, n + 1):
+        for i in range(max(0, j - max_words), j):
+            if dp[i][0] == INF:
+                continue
+            fit = _best_lines(words[i:j], line_chars)
+            if fit is None:
+                if j - i == 1:          # a single word longer than the line - show it anyway
+                    fit = (50.0, [words[i:j]])
+                else:
+                    continue
+            edge = _break_cost(words[i - 1].text, words[i].text) if i else 0.0
+            short = 25.0 if (j - i < n and _width(words[i:j]) <= 5) else 0.0   # no lone "자," / "근데" cue
+            c = dp[i][0] + edge + fit[0] + short + 8.0
+            if c < dp[j][0]:
+                dp[j] = (c, i, fit[1])
+    out, j = [], n
+    while j > 0:
+        _, i, lines = dp[j]
+        out.append(lines)
+        j = i
+    return out[::-1]
+
+
 def caption_cues(words, line_chars: int = 11, max_words: int = 6) -> list[dict]:
-    """[{s, e, lines:[[(text, start, end), ...], ...]}] - at most 2 lines per cue."""
-    from pipeline.captions import _group_by_lines, _wrap
+    """[{s, e, lines:[[(text, start, end), ...], ...]}] - at most 2 lines per cue,
+    broken at punctuation and never between a number/determiner and its counter."""
     cues = []
     for seg in words:
-        for cue in _group_by_lines(seg, max_words, line_chars):
-            lines = _wrap(cue.words, line_chars)
-            cues.append({"s": cue.start, "e": cue.end,
+        for lines in _phrase_cues(seg, line_chars, max_words):
+            cues.append({"s": lines[0][0].start, "e": lines[-1][-1].end,
                          "lines": [[(w.text, round(w.start, 3), round(w.end, 3)) for w in ln] for ln in lines]})
     # hold each phrase until the next one starts (no flicker between words)
     for a, b in zip(cues, cues[1:]):
