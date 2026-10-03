@@ -23,11 +23,6 @@ MAX_PER_DAY = 6
 QUIET = range(1, 7)                  # 01~06시 KST 는 깨우지 않는다 (볼 사람도, 검수할 사람도 없다)
 NEWS_CLUSTER = 3                     # 같은 이야기를 '댓글 많은 기사' 1위로 올린 언론사 수
 
-# 정치 소재는 채널 제외 기준이라 처음부터 거른다 (ROUTINE.md 2번)
-POLITICS = re.compile(
-    r"대통령|李|尹|여당|야당|與|野|국민의힘|민주당|조국혁신당|개혁신당|의원|총선|대선|지방선거|국회|장관|총리|청와대|대통령실|"
-    r"한동훈|이재명|윤석열|정청래|김민석|곽상언|오세훈|탄핵|내란|개헌|계엄|헌재|지지율|여론조사|정당|진보|보수|좌파|우파|"
-    r"북한|김정은|김여정|탄도미사일|트럼프|시진핑|푸틴")
 BREAKING = re.compile(r"\[\s*속보\s*\]|\[\s*긴급\s*\]")
 STOP = {"속보", "단독", "종합", "종합2보", "긴급", "논란", "결국", "이유", "충격", "공식", "입장", "오늘", "지금"}
 
@@ -86,7 +81,7 @@ def candidates(inbox: dict) -> list[dict]:
     for c in out:
         if not any(similar(c["title"], u["title"]) for u in uniq):
             uniq.append(c)
-    return [c for c in uniq if not POLITICS.search(c["title"])]
+    return uniq
 
 
 def detect(inbox: dict, now: dt.datetime, write: bool = True) -> list[dict]:
