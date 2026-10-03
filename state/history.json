@@ -204,5 +204,100 @@
   "privacy": "private",
   "scheduled_for": "2026-10-03T08:00:00Z",
   "seconds": 690
+ },
+ {
+  "key": "2026-10-03-2100",
+  "slot": "2100",
+  "publish_at": "2026-10-03T21:00:00+09:00",
+  "started": "2026-10-03T19:17:14.413308+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-283533/",
+   "https://pixabay.com/videos/id-132932/"
+  ],
+  "duration": 40.75,
+  "matches": [
+   0.95,
+   1.0,
+   0.91,
+   0.86,
+   0.95,
+   0.95,
+   0.94,
+   0.92,
+   0.95,
+   0.88,
+   0.95,
+   0.79,
+   0.91
+  ],
+  "sfx": 12,
+  "illustrations": 8,
+  "cuts": 13,
+  "title": "목숨 걸고 중국어선 잡았는데 0원? 해경 포상금 논란 #shorts",
+  "source_post": "https://www.bobaedream.co.kr/view?code=best&No=1036790",
+  "facts_used": [
+   "연평도 인근 범정부 합동단속에서 불법 중국어선 8척 나포, 24척 퇴거 [노컷뉴스 https://www.nocutnews.co.kr/news/6576834, 네이트(2026.9.11) https://m.news.nate.com/view/20260911n21876]",
+   "서해5도특별경비단 경찰관 6명에게 1800만원, 역대 최대 포상 [노컷뉴스, 네이트 20260911n21876, 경기신문]",
+   "현장 대원 200명 넘게 위험 감수, 포상금은 내근 직원에게만 [JTBC 뉴스룸 단독 https://www.youtube.com/watch?v=E0a5thI967o]",
+   "해경 측 '현장 대원들이 신청을 못해서 벌어진 일' 해명 [JTBC 뉴스룸 단독]"
+  ],
+  "slug": "2026-10-03_2100_coast-guard-bonus-zero",
+  "late": false,
+  "video_id": "GaARJ0LMWjE",
+  "url": "https://youtube.com/shorts/GaARJ0LMWjE",
+  "privacy": "private",
+  "scheduled_for": "2026-10-03T12:00:00Z",
+  "seconds": 593
+ },
+ {
+  "key": "2026-10-03-2200",
+  "slot": "2200",
+  "publish_at": "2026-10-03T22:00:00+09:00",
+  "started": "2026-10-03T19:27:09.123864+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-110923/"
+  ],
+  "duration": 47.76,
+  "matches": [
+   0.95,
+   1.0,
+   1.0,
+   0.8,
+   1.0,
+   1.0,
+   1.0,
+   0.91,
+   0.86,
+   1.0,
+   0.96,
+   0.92,
+   0.88
+  ],
+  "sfx": 12,
+  "illustrations": 9,
+  "cuts": 13,
+  "title": "은행 4곳 뚫리고 저축은행·캐피탈까지… 금융권 해킹 도미노 #shorts",
+  "source_post": "https://n.news.naver.com/article/050/0000111606",
+  "facts_used": [
+   "신한은행 대출모집인 조회 서비스 공격, 고객 약 2만5천 명 정보 유출 [뉴스1 https://www.news1.kr/finance/general-finance/6308807, MBC https://imnews.imbc.com/replay/2026/nwdesk/article/6855469_37004.html, 데일리한국]",
+   "KB국민은행 119명, 하나은행 89명, 부산은행 외주 개발자 정보 유출 [블록미디어 https://www.blockmedia.co.kr/archives/1147141, 그린포스트코리아 https://www.greenpostkorea.co.kr/news/articleView.html?idxno=307589]",
+   "예가람저축은행 고객 약 4만 명 성명·생년월일·연락처 유출 추정 [서울경제TV https://www.sentv.co.kr/article/view/sentv202610030012, 뉴데일리, 보안뉴스]",
+   "현대캐피탈 대출모집인 주민등록번호 유출 [서울경제 https://m.sedaily.com/article/20097944, 뉴스핌 https://www.newspim.com/news/view/20261003000094]",
+   "AI 에이전트 활용 우려, 금융당국 긴급회의·전 금융권 전산 점검 [머니투데이 https://mt.co.kr/finance/2026/10/03/2026100219502244780, 헤럴드경제]"
+  ],
+  "slug": "2026-10-03_2200_bank-hacking-domino",
+  "late": false,
+  "video_id": "j6l8Dldra1I",
+  "url": "https://youtube.com/shorts/j6l8Dldra1I",
+  "privacy": "private",
+  "scheduled_for": "2026-10-03T13:00:00Z",
+  "seconds": 755
+ },
+ {
+  "key": "2026-10-03-2300",
+  "slot": "2300",
+  "publish_at": "2026-10-03T23:00:00+09:00",
+  "started": "2026-10-03T19:39:45.141855+09:00",
+  "skipped": "이번 수집분에서 남은 후보가 정치(트럼프 관세·여야 공방·암살자(들) 역사논란), 연예인(유해진 광고), 국가 비교(우크라이나·중국인 관광), 일반인 사연·미성년 범죄 등 제외 기준에 걸리거나 보도로 확인 불가해 적합한 세 번째 소재 없음"
  }
 ]
