@@ -1,0 +1,504 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "trash-bag-cash-25m",
+ "title_lines": [
+  "주인 끝내 안 옴?",
+  "쓰레기봉투 2500만"
+ ],
+ "credit": "자료: 뉴시스·경기일보(2026.10.2) · AI 음성",
+ "segments": [
+  {
+   "text": "쓰레기봉투 열었더니 현금 2500만 원이 나옴.",
+   "say": "쓰레기봉투 열었더니 현금 이천오백만 원이 나옴.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ゴミ袋",
+       "ゴミ袋 ゴミ",
+       "ゴミ"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "2500만 원",
+      "style": "big",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "drop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "札束",
+       "お金"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.5,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 주인은 끝내 안 나타났고, 결말이 반전임.",
+   "say": "근데 주인은 끝내 안 나타났고, 결말이 반전임.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "주인은 어디에?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "2월 10일, 인천 한 빌라 옆에 버려진 20리터 종량제 봉투.",
+   "say": "이월 십일, 인천 한 빌라 옆에 버려진 이십 리터 종량제 봉투.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "アパート",
+       "マンション",
+       "家"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "ゴミ袋",
+       "ゴミ袋 ゴミ",
+       "ゴミ"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.5,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헌 옷 수거하던 60대가 그 봉투를 열어봄.",
+   "say": "헌 옷 수거하던 육십 대가 그 봉투를 열어봄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "高齢者 男性",
+       "おじいさん",
+       "男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "古着",
+       "服"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.45,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "옷가지 밑에 5만 원권 다발이 숨어 있었음.",
+   "say": "옷가지 밑에 오만 원권 다발이 숨어 있었음.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "古着",
+       "服"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "札束",
+       "お金"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.5,
+      "fx": "zoom"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "한국은행 띠지로 100장씩 묶인 돈다발.",
+   "say": "한국은행 띠지로 백 장씩 묶인 돈다발.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "100장씩 묶음",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "crowd",
+      "q": "札束",
+      "count": 5,
+      "pos": "center",
+      "dy": 120,
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "text": "발견자는 곧바로 경찰에 신고함.",
+   "say": "발견자는 곧바로 경찰에 신고함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "高齢者 男性",
+       "おじいさん",
+       "男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": "警察官",
+      "pos": "right",
+      "size": "l",
+      "at": 0.4,
+      "fx": "slide-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰이 CCTV에 지문 감식까지 했는데 소용없었음.",
+   "say": "경찰이 씨씨티비에 지문 감식까지 했는데 소용없었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "防犯カメラ",
+       "監視カメラ"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "指紋",
+       "指紋 認証"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "주변 수십 가구를 돌고 공고까지 냈는데 아무도 안 나타남.",
+   "say": "주변 수십 가구를 돌고 공고까지 냈는데 아무도 안 나타남.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": "警察官",
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "新聞",
+       "新聞 読む"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "주인 없음",
+      "style": "red",
+      "pos": "top",
+      "at": 0.7,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 6개월 뒤 결말이 공개됨.",
+   "say": "자, 육 개월 뒤 결말이 공개됨.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "日めくり カレンダー"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "6개월 후",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "법에 따라 돈 주인이 최초 발견자로 바뀜.",
+   "say": "법에 따라 돈 주인이 최초 발견자로 바뀜.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "高齢者 男性",
+       "おじいさん",
+       "男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "발견자 소유",
+      "style": "stamp",
+      "pos": "right",
+      "at": 0.55,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 통장에 찍힌 건 2500이 아니라 1923만 원.",
+   "say": "근데 통장에 찍힌 건 이천오백이 아니라 천구백이십삼만 원.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "通帳",
+       "銀行 通帳"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "1923만 원",
+      "style": "big",
+      "pos": "top",
+      "at": 0.5,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "세금이랑 지역신문 공고 수수료를 떼고 줬다 함.",
+   "say": "세금이랑 지역신문 공고 수수료를 떼고 줬다 함.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "① 세금",
+      "style": "row",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "slide-left",
+      "dy": -110
+     },
+     {
+      "type": "text",
+      "text": "② 공고 수수료",
+      "style": "row",
+      "pos": "center",
+      "at": 0.4,
+      "fx": "slide-left",
+      "dy": 60
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이거 횡재임, 아님 찝찝함?",
+   "say": "이거 횡재임, 아님 찝찝함?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "쓰레기봉투 속 2500만원, 주인 끝내 안 나타나 발견자 품으로 #shorts",
+  "description": "인천의 한 빌라 옆 종량제 쓰레기봉투에서 헌 옷을 수거하던 60대가 현금 2500만 원을 발견해 신고했습니다.\n경찰이 CCTV·지문 감식·탐문·공고를 했지만 6개월간 주인이 나타나지 않았습니다.\n돈은 최초 발견자에게 넘어갔고, 세금과 공고 수수료를 뺀 1923만 원이 입금됐습니다.\n\n출처: 뉴시스 https://www.newsis.com/view/NISX20261002_0003811856\n출처: 경기일보 https://www.kyeonggi.com/article/20261002580014\n※ AI 음성으로 제작했습니다.\n#쓰레기봉투 #현금 #유실물 #횡재 #이슈",
+  "tags": [
+   "쓰레기봉투",
+   "현금",
+   "2500만원",
+   "유실물",
+   "횡재",
+   "인천",
+   "이슈"
+  ]
+ },
+ "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=467449&_dcbest=1&page=1",
+ "facts_used": [
+  "2월 10일 인천 금곡동 빌라 옆 20L 종량제 봉투, 헌 옷 수거하던 60대가 현금 2500만원 발견·신고 [뉴시스·경기일보·서울신문 2026.10.2]",
+  "5만원권 100장씩 한국은행 띠지로 묶여 옷가지에 덮여 있었음 [경기일보·검색요약 다수]",
+  "CCTV·지문 감식·주변 수십 가구 탐문·유실물 공고에도 주인 미확인 [경기일보·뉴시스]",
+  "공고 6개월 후 소유권 발견자에게, 8월 세금·지역신문 공고 수수료 빼고 1923만원 입금 [경기일보·파이낸셜뉴스·뉴시스]"
+ ],
+ "brief": "확인된 사실: 2026.2.10 인천 제물포구 금곡동 빌라 옆 20L 종량제 봉투에서 헌옷 수거하던 60대 A씨가 현금 2500만원 발견, 경찰 신고. 5만원권 100장씩 한국은행 띠지 묶음, 옷가지로 덮임. 경찰 CCTV·지문·수십 가구 탐문·유실물 공고했으나 주인 없음. 6개월 경과로 소유권 발견자에게, 8월 세금·지역신문 공고수수료 제외 1923만원 입금(제물포경찰서, 10.2 보도). 출처: 뉴시스 https://www.newsis.com/view/NISX20261002_0003811856 , 경기일보 https://www.kyeonggi.com/article/20261002580014 , 파이낸셜뉴스 https://www.fnnews.com/news/202610020829383882 , 경향신문 https://www.khan.co.kr/article/202610021111001/ . 주의: 발견자 신상 노출 금지(60대 A씨로만). 세율 수치는 확인 안 해서 언급 안 함. 범죄 연관 추측 금지."
+}
