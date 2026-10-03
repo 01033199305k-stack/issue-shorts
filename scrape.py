@@ -12,6 +12,8 @@ import difflib
 import json
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 from html import unescape
 
@@ -214,11 +216,23 @@ def text_keep_lines(s: str) -> str:
                      for line in s.split("\n"))
 
 
+def get_list(url: str) -> str:
+    """목록 페이지: 연결 시간 초과(디시가 가끔 그런다)면 잠깐 쉬고 한 번만 다시 시도.
+    차단(4xx)은 다시 시도하지 않는다."""
+    try:
+        return get(url)
+    except urllib.error.HTTPError:
+        raise
+    except (urllib.error.URLError, TimeoutError):
+        time.sleep(15)
+        return get(url, timeout=30)
+
+
 def collect() -> tuple[list[dict], list[str]]:
     posts, warnings = [], []
     for board, url in BOARDS.items():
         try:
-            rows = list(PARSERS[board](get(url)))
+            rows = list(PARSERS[board](get_list(url)))
             if not rows:
                 warnings.append(f"{board}: 목록 파싱 0건 (레이아웃 변경 또는 차단 페이지)")
             for r in rows:

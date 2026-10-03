@@ -14,6 +14,7 @@ import difflib
 import json
 import re
 import sys
+import time
 import urllib.request
 from html import unescape
 from pathlib import Path
@@ -83,6 +84,7 @@ def main() -> int:
     for p in ranked[:20]:
         if p.get("news"):
             continue
+        time.sleep(0.5)   # 글 본문은 한 사이트에 몰아서 여러 번 들어가니 간격을 둔다
         links = [l for l in scrape.post_body(p["url"]).get("links", [])
                  if NEWS.search(l) and not NOT_NEWS.search(l)][:3]
         p["news"] = [{"url": l, "headline": headline(l)} for l in links]
