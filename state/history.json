@@ -163,5 +163,46 @@
   "privacy": "private",
   "scheduled_for": "2026-10-02T22:30:00Z",
   "seconds": 614
+ },
+ {
+  "key": "2026-10-03-evening",
+  "slot": "evening",
+  "publish_at": "2026-10-03T17:00:00+09:00",
+  "started": "2026-10-03T14:20:48.824869+09:00",
+  "duration": 44.51,
+  "matches": [
+   1.0,
+   1.0,
+   0.89,
+   0.82,
+   0.94,
+   0.93,
+   1.0,
+   0.95,
+   0.96,
+   0.91,
+   1.0,
+   1.0,
+   0.95,
+   0.9
+  ],
+  "sfx": 13,
+  "illustrations": 12,
+  "cuts": 14,
+  "title": "쓰레기봉투 속 2500만원, 주인 끝내 안 나타나 발견자 품으로 #shorts",
+  "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=467449&_dcbest=1&page=1",
+  "facts_used": [
+   "2월 10일 인천 금곡동 빌라 옆 20L 종량제 봉투, 헌 옷 수거하던 60대가 현금 2500만원 발견·신고 [뉴시스·경기일보·서울신문 2026.10.2]",
+   "5만원권 100장씩 한국은행 띠지로 묶여 옷가지에 덮여 있었음 [경기일보·검색요약 다수]",
+   "CCTV·지문 감식·주변 수십 가구 탐문·유실물 공고에도 주인 미확인 [경기일보·뉴시스]",
+   "공고 6개월 후 소유권 발견자에게, 8월 세금·지역신문 공고 수수료 빼고 1923만원 입금 [경기일보·파이낸셜뉴스·뉴시스]"
+  ],
+  "slug": "2026-10-03_evening_trash-bag-cash-25m",
+  "late": false,
+  "video_id": "3yAnrIfylIM",
+  "url": "https://youtube.com/shorts/3yAnrIfylIM",
+  "privacy": "private",
+  "scheduled_for": "2026-10-03T08:00:00Z",
+  "seconds": 690
  }
 ]
