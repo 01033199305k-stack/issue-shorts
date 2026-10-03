@@ -1,7 +1,7 @@
 # 대본 → 영상 → 유튜브 예약 공개.
-# 대본은 Claude 구독으로 도는 클라우드 예약 작업(ROUTINE.md)이 04:00·14:00 KST 에 scripts/ 로 푸시한다.
-# 그 푸시가 이 워크플로를 깨운다. 영상은 07:30·17:00 KST 예약 공개로 올라가고, 그 사이가 검수 시간이다
-# (유튜브 스튜디오 앱 → 예약됨 → 미리 보고 문제 있으면 삭제).
+# 대본은 Claude 구독으로 도는 클라우드 예약 작업(ROUTINE.md)이 3시간마다 다음 몇 회차분을 scripts/ 로 푸시한다.
+# 그 푸시가 이 워크플로를 깨운다. 영상은 config.yaml 의 slots 시각(매시 정각)에 예약 공개로 올라가고,
+# 그 사이가 검수 시간이다 (유튜브 스튜디오 앱 → 예약됨 → 미리 보고 문제 있으면 삭제).
 name: produce
 
 on:
@@ -11,11 +11,11 @@ on:
   workflow_dispatch:
     inputs:
       script:
-        description: "대본 JSON 경로 (예: examples/taiwan-taxi.json, scripts/2026-10-02-morning.json)"
+        description: "대본 JSON 경로 (예: examples/taiwan-taxi.json, scripts/2026-10-04-1900.json)"
         required: true
         default: examples/taiwan-taxi.json
       slot:
-        description: "morning(07:30) / evening(17:00) / auto(파일 이름 또는 시계 기준)"
+        description: "HHMM(예: 1900) / auto(파일 이름 기준, 없으면 다음 정각)"
         default: auto
       dry_run:
         description: "업로드 없이 영상만 만들기 (결과물은 Artifacts에서 받기)"
@@ -33,7 +33,7 @@ jobs:
   produce:
     # ubuntu-latest 는 2026-10-19 부터 Ubuntu 26 으로 바뀐다 - 글꼴·패키지 검증을 마친 24.04 로 고정
     runs-on: ubuntu-24.04
-    timeout-minutes: 80
+    timeout-minutes: 150   # 대본 여러 개를 한 번에 (영상 하나 10~20분)
     steps:
       - uses: actions/checkout@v4
         with:
@@ -42,15 +42,32 @@ jobs:
       - name: 대본 찾기
         id: find
         env:
-          BEFORE: ${{ github.event.before }}
           INPUT_SCRIPT: ${{ inputs.script }}
         run: |
           if [ -n "$INPUT_SCRIPT" ]; then
             files="$INPUT_SCRIPT"
-          elif [ -n "$BEFORE" ] && [ "$BEFORE" != "0000000000000000000000000000000000000000" ]; then
-            files=$(git diff --name-only --diff-filter=AM "$BEFORE" HEAD -- 'scripts/*.json')
           else
-            files=$(git diff-tree --no-commit-id --name-only --diff-filter=AM -r HEAD -- 'scripts/*.json')
+            # 푸시된 커밋만 보지 않고, 아직 영상 기록이 없는 대본을 전부 처리한다.
+            # (대기 중이던 실행이 취소돼도 다음 실행이 줍는다. 앞선 실행이 올린 기록을 보려고 main 의 최신 state 를 받는다)
+            git fetch -q origin main && git checkout -q origin/main -- state scripts
+            files=$(python3 - <<'PY'
+          import datetime as dt, glob, json, os, re
+          KST = dt.timezone(dt.timedelta(hours=9))
+          now = dt.datetime.now(KST)
+          done = {r["key"] for r in json.load(open("state/history.json")) if r.get("video_id") or r.get("skipped")}
+          old = {"morning": "0730", "evening": "1700"}
+          out = []
+          for f in sorted(glob.glob("scripts/*.json")):
+              m = re.search(r"(\d{4}-\d{2}-\d{2})-(morning|evening|\d{4})\.json$", f)
+              if not m or f"{m.group(1)}-{m.group(2)}" in done:
+                  continue
+              hhmm = old.get(m.group(2), m.group(2))
+              at = dt.datetime.strptime(m.group(1) + hhmm, "%Y-%m-%d%H%M").replace(tzinfo=KST)
+              if at > now - dt.timedelta(hours=3):   # 3시간 넘게 지난 회차는 다시 시도하지 않는다
+                  out.append(f)
+          print(" ".join(out))
+          PY
+          )
           fi
           echo "대본: $files"
           echo "files=$(echo $files)" >> "$GITHUB_OUTPUT"
@@ -108,10 +125,13 @@ jobs:
           SLOT: ${{ inputs.slot || 'auto' }}
           DRY: ${{ inputs.dry_run && '--dry-run' || '' }}
         run: |
+          # 하나가 실패해도 나머지 회차는 만든다 (실패한 회차는 다음 푸시 때 다시 시도, 끝나면 실패로 표시)
+          rc=0
           for f in $FILES; do
             echo "=== $f"
-            python run.py --script "$f" --slot "$SLOT" $DRY
+            python run.py --script "$f" --slot "$SLOT" $DRY || { echo "::error::$f 실패"; rc=1; }
           done
+          exit $rc
 
       - name: 기록 저장 (main)
         if: always() && steps.find.outputs.files != ''

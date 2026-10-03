@@ -1,9 +1,9 @@
 """One slot, end to end: scrape -> research -> write -> cards -> voice/render
 -> upload (scheduled) -> record.
 
-    python run.py --script scripts/2026-10-02-morning.json   # what the workflow runs: the cloud
+    python run.py --script scripts/2026-10-04-0700.json   # what the workflow runs: the cloud
                                        # routine wrote this script; date+slot come from the name
-    python run.py --script x.json --slot evening --dry-run    # render any script, no upload
+    python run.py --script x.json --slot 1900 --dry-run    # render any script, no upload
     python run.py                      # API path: scrape + editor.py (needs ANTHROPIC_API_KEY)
 
 Slots are idempotent: a slot that already has a video in state/history.json
@@ -21,7 +21,7 @@ import yaml
 
 REPO = Path(__file__).resolve().parent
 KST = dt.timezone(dt.timedelta(hours=9))
-SLOTS = {"morning": (7, 30), "evening": (17, 0)}
+SLOTS = {"morning": (7, 30), "evening": (17, 0)}   # 예전 이름 (2026-10-03 까지의 대본)
 HISTORY = REPO / "state" / "history.json"
 
 
@@ -35,9 +35,10 @@ def save_history(rows: list[dict]) -> None:
 
 
 def pick_slot(name: str | None, now: dt.datetime, day: str | None = None) -> tuple[str, dt.datetime]:
-    if not name or name == "auto":
-        name = "morning" if now.hour < 12 else "evening"
-    h, m = SLOTS[name]
+    if not name or name == "auto":   # 다음 정각
+        nxt = now + dt.timedelta(hours=1)
+        name = f"{nxt.hour:02d}00"
+    h, m = SLOTS[name] if name in SLOTS else (int(name[:2]), int(name[2:]))
     base = dt.datetime.strptime(day, "%Y-%m-%d").replace(tzinfo=KST) if day else now
     return name, base.replace(hour=h, minute=m, second=0, microsecond=0)
 
@@ -72,7 +73,7 @@ def main() -> int:
         cfg.update(yaml.safe_load(local.read_text(encoding="utf-8")) or {})
     now = dt.datetime.now(KST)
     day, slot_name = args.date, args.slot
-    m = re.search(r"(\d{4}-\d{2}-\d{2})-(morning|evening)\.json$", args.script or "")
+    m = re.search(r"(\d{4}-\d{2}-\d{2})-(morning|evening|\d{4})\.json$", args.script or "")
     if m:
         day = day or m.group(1)
         slot_name = m.group(2) if slot_name in (None, "auto") else slot_name

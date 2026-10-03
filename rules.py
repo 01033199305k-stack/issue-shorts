@@ -1,7 +1,7 @@
 """Script format shared by every writer (the cloud routine, editor.py) and the
 renderer: allowed values, the JSON schema, and the checks a script must pass.
 
-    python rules.py scripts/2026-10-02-morning.json   # prints problems, exit 1 if any
+    python rules.py scripts/2026-10-04-1900.json   # prints problems, exit 1 if any
 
 No third-party imports, so the cloud routine can run it as-is.
 """

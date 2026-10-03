@@ -1,24 +1,46 @@
 # 대본 담당 예약 작업 지침
 
-너는 이 저장소(issue-shorts)의 **대본 담당**이다. 실행될 때마다 이번 회차 대본 JSON 한 개를 `scripts/` 에 만들어 `main` 에 푸시한다.
+너는 이 저장소(issue-shorts)의 **대본 담당**이다. 3시간마다 실행되고, 실행될 때마다 **다음 회차 최대 3개**의 대본 JSON 을 `scripts/` 에 만들어 `main` 에 한 번에 푸시한다.
+공개 시각표는 `config.yaml` 의 `slots` (지금은 07~23시 매시 정각, 하루 17개).
 푸시하면 GitHub Actions(`produce.yml`)가 그 대본으로 영상(카드·소희 음성·자막·효과음)을 만들어 유튜브에 **예약 공개**로 올린다.
 채널 레퍼런스는 @군림보: 그날 커뮤니티에서 가장 시끄러운 이야기를 35~45초 안에 '어이없는 포인트' 중심으로 비틀어 전한다.
 
-이 문서 말고 다른 파일은 고치지 않는다. 만드는 파일은 `scripts/<날짜>-<회차>.json` 하나뿐이다.
+이 문서 말고 다른 파일은 고치지 않는다. 만드는 파일은 `scripts/<날짜>-<HHMM>.json` (예: `scripts/2026-10-04-0700.json`) 뿐이다.
 
-## 0. 회차 정하기
+## 0. 이번에 쓸 회차 정하기
 
 ```bash
-TZ=Asia/Seoul date +"%Y-%m-%d %H"
+git pull origin main
+python3 - <<'PY'
+import datetime as dt, os, re
+KST = dt.timezone(dt.timedelta(hours=9))
+now = dt.datetime.now(KST)
+cfg = open("config.yaml", encoding="utf-8").read()
+slots = re.findall(r'"(\d{2}:\d{2})"', cfg[cfg.index("slots:"):cfg.index("]", cfg.index("slots:"))])
+todo = []
+for day in (now.date(), now.date() + dt.timedelta(days=1)):
+    for s in slots:
+        at = dt.datetime.combine(day, dt.time(*map(int, s.split(":"))), KST)
+        f = f"scripts/{day}-{s.replace(':', '')}.json"
+        # 공개 1시간~5시간 뒤 회차 중 아직 대본이 없는 것 (영상 만드는 데 회차당 10~20분 걸린다)
+        if now + dt.timedelta(hours=1) <= at <= now + dt.timedelta(hours=5) and not os.path.exists(f):
+            todo.append(f)
+print("이번에 쓸 대본:", todo[:3] or "없음 - 끝")
+PY
 ```
-- 한국 시각 12시 전이면 `morning`(07:30 공개), 12시 이후면 `evening`(17:00 공개).
-- 파일 경로: `scripts/YYYY-MM-DD-morning.json` 또는 `scripts/YYYY-MM-DD-evening.json` (한국 날짜).
-- `git pull origin main` 후 그 파일이 이미 있으면 **아무것도 하지 말고 끝낸다**.
+- 나온 파일(최대 3개)을 이번 실행에서 쓴다. **없으면 아무것도 하지 말고 끝낸다.**
+- 앞 회차부터 쓴다. 시간이 모자라 다 못 쓰면 쓴 것까지만 푸시한다 (다음 실행이 나머지를 줍는다).
 
 ## 1. 후보 모으기
 
 이 클라우드 환경은 커뮤니티 사이트에 직접 접속하지 못한다(보안 프록시가 막음, WebFetch 도 마찬가지).
-그래서 GitHub Actions 가 02:30·12:30 KST 에 인기글을 모아 `inbox/latest.json` 에 올려 둔다.
+그래서 GitHub Actions(`gather.yml`)가 인기글을 모아 `inbox/latest.json` 에 올린다. GitHub 예약 실행은 몇 시간씩 늦으니
+**시작할 때 직접 한 번 돌린다**:
+1. GitHub MCP 도구 `actions_run_trigger` 로 `run_workflow` (owner `01033199305k-stack`, repo `issue-shorts`, workflow `gather.yml`, ref `main`).
+2. 끝날 때까지 기다린다 (보통 2~3분, 최대 10분):
+   `until curl -s "https://api.github.com/repos/01033199305k-stack/issue-shorts/actions/workflows/gather.yml/runs?per_page=1" | grep -q '"status": "completed"'; do sleep 20; done`
+   (Bash 의 sleep 이 막히면 Monitor/백그라운드 대기로 같은 조건을 기다린다)
+3. `git pull origin main`. 실행이 실패하거나 10분 넘게 안 끝나면 있는 inbox 로 진행한다.
 수집 대상: 디시(실베·HIT), 더쿠 HOT, 루리웹 베스트, 네이트판 랭킹, 보배드림 베스트, 엠팍 불펜 + 네이버 '댓글 많은 기사'.
 (에펨·개드립·아카라이브는 러너에서 막혀 있어 보통 경고로만 뜬다.)
 
@@ -41,6 +63,7 @@ PY
 - `score` 는 댓글 수(게시판 안 백분위) + 여러 커뮤니티 동시 화제 가산점 + 댓글 많은 기사와 제목이 겹치면(`기사화`) 가산점이다. 위에서부터 본다.
 - `news_hot` 은 커뮤니티 글이 아니라 기사다. 커뮤니티 후보가 모자랄 때만 쓰고, 그때 `source_post` 에는 기사 URL 을 넣는다.
 - 이미 다룬 글은 이미 빠져 있다. 그래도 `state/history.json`·`scripts/*.json` 의 `title` 과 같은 사건이면 뺀다.
+- 이번에 쓸 대본마다 **서로 다른 사건**을 고른다. 최근 기록(`state/history.json` 끝 40개의 `title`)과 같은 사건도 뺀다.
 - `generated_at` 이 6시간보다 오래됐으면(수집 실패) WebSearch 로 "오늘 커뮤니티 화제", "실시간 베스트 논란" 같은 검색을 해서 후보를 직접 찾는다.
 
 ## 2. 소재 고르기와 취재
@@ -122,13 +145,15 @@ WebFetch 는 대부분 막혀 있으니 한 번 시도해서 `EGRESS_BLOCKED` �
 ## 4. 검사 → 푸시
 
 ```bash
-python3 rules.py scripts/<파일>.json      # OK 가 나올 때까지 고친다
-git add scripts/<파일>.json
-git commit -m "script: <날짜> <회차> <slug>"
+python3 rules.py scripts/<파일1>.json; python3 rules.py scripts/<파일2>.json ...   # 전부 OK 가 나올 때까지 고친다
+git add scripts/<파일1>.json scripts/<파일2>.json ...
+git commit -m "script: <날짜> <HHMM>·<HHMM>·<HHMM> <slug들>"
 git push origin HEAD:main || (git pull --rebase origin main && git push origin HEAD:main)
 ```
+- **이번 실행의 대본은 한 커밋으로 한 번에 푸시한다.** (영상 제작 워크플로는 하나씩 차례로 돌아서, 푸시를 여러 번 나누면 일부가 늦어진다)
 
-건너뛰기 (적합한 소재가 없을 때): 같은 경로에 아래처럼 쓰고 똑같이 검사·푸시한다. Actions 가 영상 없이 기록만 남긴다.
+건너뛰기 (그 회차에 쓸 적합한 소재가 없을 때): 그 회차 경로에 아래처럼 쓰고 똑같이 검사·푸시한다. Actions 가 영상 없이 기록만 남긴다.
+나쁜 소재로 채우느니 건너뛰는 게 낫다 (제외 기준은 회차가 늘어도 그대로다).
 ```json
 {"skip": true, "skip_reason": "<이유>", "slug": "", "title_lines": [], "credit": "", "segments": [],
  "youtube": {"title": "", "description": "", "tags": []}, "source_post": "", "facts_used": []}
@@ -136,4 +161,4 @@ git push origin HEAD:main || (git pull --rebase origin main && git push origin H
 
 ## 5. 마지막 보고
 
-한국어로 짧게: 고른 글(제목·URL), 제목 두 줄, 핵심 출처, 푸시한 커밋.
+한국어로 짧게, 회차마다: 공개 시각, 고른 글(제목·URL), 제목 두 줄, 핵심 출처 (건너뛴 회차는 이유). 마지막에 푸시한 커밋.

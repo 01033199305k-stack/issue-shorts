@@ -1,20 +1,19 @@
 # issue-shorts
 
-@군림보 스타일 이슈 쇼츠를 매일 2편(07:30·17:00 KST) 자동으로 만들어 유튜브에 **예약 공개**로 올린다.
+@군림보 스타일 이슈 쇼츠를 07~23시 매시 정각(하루 17편, `config.yaml` 의 `slots`) 자동으로 만들어 유튜브에 **예약 공개**로 올린다.
 PC가 꺼져 있어도 돈다. 유료 API 없이 Claude 구독 + GitHub Actions(무료)로만 돈다.
 
 ```
-02:30 / 12:30 KST  GitHub Actions(gather): 커뮤니티 인기글 수집 → inbox/latest.json
-                   디시 실베·더쿠 HOT (에펨·개드립은 러너 IP 차단), 댓글 수 + 동시 화제 가산점
-04:00 / 14:00 KST  Claude 클라우드 예약 작업 (Claude 구독, ROUTINE.md 를 따름)
-  1. inbox 후보 읽기        (클라우드 환경은 커뮤니티에 직접 접속 못 함)
-  2. 소재 선택·취재         웹 검색으로 언론 보도 확인
-  3. 음슴체 대본 + 카드 JSON → rules.py 검사 → scripts/YYYY-MM-DD-<회차>.json 푸시
-그 푸시로 GitHub Actions(produce) 시작
-  4. 카드 → 소희 썰톤 음성(Qwen3-TTS, CPU) → 자막 2줄 → 효과음·배경음악 → mp4
-  5. 유튜브 업로드: 비공개 + 예약 공개(07:30 / 17:00)
-05:30 / 15:30 KST  watchdog: 대본·영상이 없으면 실패 메일
-07:30 / 17:00      유튜브가 공개로 전환
+05·08·11·14·17·20시 KST  Claude 클라우드 예약 작업 (Claude 구독, ROUTINE.md 를 따름)
+  1. gather 워크플로를 직접 돌려 커뮤니티 인기글 수집 → inbox/latest.json
+     디시(실베·HIT)·더쿠·루리웹·네이트판·보배드림·엠팍 + 네이버 댓글 많은 기사 (에펨·개드립은 러너 IP 차단)
+  2. 다음 회차 최대 3개: 소재 선택·취재 (웹 검색으로 언론 보도 확인)
+  3. 음슴체 대본 JSON → rules.py 검사 → scripts/YYYY-MM-DD-HHMM.json 을 한 커밋으로 푸시
+그 푸시로 GitHub Actions(produce) 시작 (아직 영상 기록이 없는 대본을 전부 차례로)
+  4. いらすとや 그림 + 스톡 영상(Pixabay) → 소희 썰톤 음성(Qwen3-TTS, CPU) → 자막 2줄 → 효과음·배경음악 → mp4
+  5. 유튜브 업로드: 비공개 + 예약 공개(그 회차 정각)
+2시간마다            watchdog: 곧 공개될 회차나 지난 3시간 회차에 영상이 없으면 실패 메일
+매시 정각 (07~23시)  유튜브가 공개로 전환
 ```
 
 회차 시각보다 90분 넘게 늦게 만들어진 영상은 공개하지 않고 **비공개**로만 올린다 (스튜디오에서 직접 판단).
@@ -47,17 +46,17 @@ PC가 꺼져 있어도 돈다. 유료 API 없이 Claude 구독 + GitHub Actions(
    - Anthropic 키 질문은 엔터로 건너뛴다 (대본은 구독 예약 작업이 쓴다)
    - 클라이언트 ID·비밀번호를 붙여 넣는다 (화면에 안 보임)
    - 브라우저에서 새 채널을 골라 허용 → 터미널에 뜬 채널 이름이 맞으면 `y`
-4. **클라우드 예약 작업**: https://claude.ai/code/routines 에 `issue-shorts 대본` (04:00·14:00 KST) 이 있어야 한다.
+4. **클라우드 예약 작업**: https://claude.ai/code/routines 에 `issue-shorts 대본` (3시간마다, 05~20시 KST) 이 있어야 한다.
 
 ## 손으로 돌리기
 
 ```bash
 gh workflow run produce -f script=examples/taiwan-taxi.json            # 시험: 업로드 없이 영상만 (기본값)
-gh workflow run produce -f script=scripts/2026-10-02-evening.json -f dry_run=false   # 그 대본으로 예약 업로드
+gh workflow run produce -f script=scripts/2026-10-04-1900.json -f dry_run=false   # 그 대본으로 예약 업로드
 gh run list -w produce                                                 # 실행 기록
 ```
 
-대본을 손으로 쓰려면 `examples/taiwan-taxi.json` 형식으로 `scripts/YYYY-MM-DD-<morning|evening>.json` 을 만들어 `python rules.py <파일>` 로 검사한 뒤 main 에 푸시하면 된다.
+대본을 손으로 쓰려면 `examples/taiwan-taxi.json` 형식으로 `scripts/YYYY-MM-DD-HHMM.json` (HHMM 은 `slots` 중 하나) 을 만들어 `python rules.py <파일>` 로 검사한 뒤 main 에 푸시하면 된다.
 PC에서 직접: `python run.py --script <파일> --dry-run` (config.yaml 의 engine 을 `voicebox` 로 바꾸면 Voicebox 앱 '소희' 프로필로 렌더링).
 API 키로 돌리는 예전 방식(`python run.py`, editor.py)도 남아 있다.
 
