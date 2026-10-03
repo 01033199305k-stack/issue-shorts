@@ -1,16 +1,16 @@
-"""Free stock footage from Pexels for scene backgrounds.
+"""Free stock footage (Pixabay or Pexels) for scene backgrounds.
 
     clip = clip_frames("taxi street night", 4.2, work_dir / "clip_03", fps=30)
 
 A scene's visual may carry "video": "<English search words>". The clip is
 cropped to the white panel (1080x845) and written out as JPEG frames that the
 motion page swaps in frame by frame (headless capture cannot play <video>
-deterministically). Needs PEXELS_API_KEY; without it - or when nothing is
-found - the scene simply keeps its plain background.
+deterministically). Needs PIXABAY_API_KEY or PEXELS_API_KEY (Pixabay first);
+without one - or when nothing is found - the scene keeps its plain background.
 
-Pexels licence: free for commercial use, no attribution required. It forbids
-showing identifiable people in a bad light, so the script writer is told to
-search for places and objects, not people.
+Both licences: free for commercial use, no attribution required, but no
+identifiable people in a bad light - so the script writer is told to search
+for places and objects, not people.
 """
 import json
 import os
@@ -21,6 +21,21 @@ from pathlib import Path
 
 PANEL = (1080, 845)
 CACHE = Path.home() / ".cache" / "issue-shorts" / "pexels"
+
+
+def _search_pixabay(query: str, key: str) -> list[dict]:
+    """Pixabay hits in the Pexels shape the rest of this module uses."""
+    url = "https://pixabay.com/api/videos/?" + urllib.parse.urlencode(
+        {"key": key, "q": query, "per_page": 8, "safesearch": "true"})
+    with urllib.request.urlopen(urllib.request.Request(url, headers={"User-Agent": "issue-shorts"}), timeout=20) as r:
+        hits = json.loads(r.read()).get("hits", [])
+    out = []
+    for h in hits:
+        files = [{"file_type": "video/mp4", "width": f.get("width", 0), "link": f["url"]}
+                 for f in (h.get("videos") or {}).values() if f.get("url")]
+        out.append({"id": f"pb{h['id']}", "duration": h.get("duration", 0), "url": h.get("pageURL", ""),
+                    "user": {"name": h.get("user", "")}, "video_files": files})
+    return out
 
 
 def _search(query: str, key: str) -> list[dict]:
@@ -39,12 +54,13 @@ def _best_file(video: dict) -> dict | None:
 
 
 def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: set | None = None) -> dict | None:
-    key = os.environ.get("PEXELS_API_KEY", "").strip()
-    if not key or not query.strip():
+    pixabay = os.environ.get("PIXABAY_API_KEY", "").strip()
+    pexels = os.environ.get("PEXELS_API_KEY", "").strip()
+    if not (pixabay or pexels) or not query.strip():
         return None
     used = used if used is not None else set()
     try:
-        videos = _search(query, key)
+        videos = _search_pixabay(query, pixabay) if pixabay else _search(query, pexels)
     except Exception as ex:
         print(f"    stock: search failed for {query!r}: {ex}")
         return None

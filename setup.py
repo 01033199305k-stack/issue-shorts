@@ -98,6 +98,9 @@ def main():
         set_secret("YOUTUBE_CLIENT_ID", cid, target)
         set_secret("YOUTUBE_CLIENT_SECRET", secret, target)
         set_secret("YOUTUBE_REFRESH_TOKEN", refresh, target)
+    pb = getpass.getpass("Pixabay API 키 (장면 배경 스톡 영상, 가입 후 https://pixabay.com/api/docs/ 에 표시됨): ").strip()
+    if pb:
+        set_secret("PIXABAY_API_KEY", pb, target)
     px = getpass.getpass("Pexels API 키 (장면 배경 스톡 영상, https://www.pexels.com/api 에서 무료 발급): ").strip()
     if px:
         set_secret("PEXELS_API_KEY", px, target)
