@@ -1,0 +1,24 @@
+{
+ "detected_at": "2026-10-04T00:44+09:00",
+ "candidates": [
+  {
+   "kind": "news",
+   "title": "‘암살자(들)’ 이민호 행사 취소에…최민희 “21세기 대한민국 맞나”",
+   "url": "https://n.news.naver.com/article/025/0003555347",
+   "press": "중앙일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "MBN",
+     "title": "'암살자(들)' 부국제 행사 취소…최민희 \"21세기 대한민국 맞나\"",
+     "url": "https://n.news.naver.com/article/057/0001971814"
+    },
+    {
+     "press": "매일신문",
+     "title": "'암살자(들)' 부국제 행사 취소에…최민희 \"21세기 대한민국 맞나\"",
+     "url": "https://n.news.naver.com/article/088/0001031982"
+    }
+   ]
+  }
+ ]
+}
