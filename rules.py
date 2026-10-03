@@ -149,6 +149,13 @@ def validate(script: dict) -> list[str]:
             p.append(f"segment {i}: say/text word counts diverge (same content, same order)")
         if re.search(r"[0-9A-Za-z]", s["say"]) and not re.search(r"[0-9A-Za-z]", s["text"]):
             p.append(f"segment {i}: say has digits/latin that text lacks")
+        if len(re.sub(r"[^0-9A-Za-z가-힣]", "", s["say"])) < 6:
+            p.append(f"segment {i}: say too short to check against the transcript - put a reaction (헐, 와) in front of a real sentence, not alone")
+        if re.search(r"[ㄱ-ㅎㅏ-ㅣ]", s["say"]):
+            p.append(f"segment {i}: say has bare jamo (ㅋㅋ, ㄹㅇ ...) the voice cannot read")
+        tone = s.get("tone")
+        if tone is not None and not (isinstance(tone, str) and len(tone.strip()) <= 40):
+            p.append(f"segment {i}: tone must be a short delivery note for the voice (max 40 chars)")
         if "visual" in s:
             p += _check_visual(i, s["visual"])
             continue

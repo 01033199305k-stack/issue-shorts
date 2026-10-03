@@ -2,6 +2,9 @@
 engine: qwen            # qwen = qwen-tts 직접 실행(GitHub Actions) / voicebox = PC의 Voicebox 앱
 voice: Sohee            # Qwen3-TTS CustomVoice 한국어 프리셋 (voicebox 엔진이면 프로필 ID)
 instruct: "커뮤니티 썰 푸는 유튜버처럼, 어이없다는 듯 흥분해서 억양을 크게 오르내리며 빠르고 생동감 있게"
+# 대본 세그먼트에 tone(문장별 연기 지시)이 있으면 "<tone> 말해. 전체적으로는 <instruct_persona>." 로 읽는다.
+# 감정·속도 단어는 넣지 않는다 (tone 의 속삭임·체념과 부딪힌다). 말끝 잘림(Qwen3-TTS #55) 때문에 '말끝까지 또박또박'.
+instruct_persona: "썰 푸는 유튜버가 친구한테 얘기하듯 억양을 살려 자연스럽게, 말끝까지 또박또박"
 speed: 1.2              # 썰톤은 쉼이 길어서 1.12배로는 46초가 나왔다
 
 # 공개 시각표 (KST). 대본 파일 이름이 scripts/<날짜>-<HHMM>.json, 예: 2026-10-04-0700.json

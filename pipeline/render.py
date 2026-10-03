@@ -6,7 +6,8 @@
 4. mix narration + music bed (ducked) + sound effects at the cuts
 
 Segment fields: text (captions), say (what the voice reads), sfx (one-shot on
-the cut into this segment; on segment 0 it fires at t=0), visual (v2) or card (v1).
+the cut into this segment; on segment 0 it fires at t=0), tone (optional acting
+note added to the voice instruction), visual (v2) or card (v1).
 """
 from pathlib import Path
 
@@ -19,6 +20,22 @@ from pipeline.tts import Word
 SFX_GAIN = {"whoosh": -15.0}   # the cut whoosh fires 10+ times a video - keep it under the voice
 
 
+def voice_instruct(base: str, tone: str | None, persona: str = "") -> str:
+    """The voice instruction for one sentence.
+
+    Without a tone the channel-wide delivery (config instruct) reads it as before.
+    With a tone (segment "tone", e.g. "기가 막혀 피식 헛웃음 섞인 어이없는 말투로")
+    the acting note leads as a command and only an emotion-free persona follows -
+    the base's "흥분해서 빠르게" would fight a whisper or a sigh. CustomVoice's
+    own examples are short imperatives ("用特别愤怒的语气说")."""
+    base = (base or "").strip().rstrip(".")
+    tone = (tone or "").strip().rstrip(".")
+    if not tone:
+        return base
+    persona = (persona or "").strip().rstrip(".")
+    return f"{tone} 말해. 전체적으로는 {persona}." if persona else f"{tone} 말해."
+
+
 def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) -> dict:
     work_dir.mkdir(parents=True, exist_ok=True)
     segments = script["segments"]
@@ -28,7 +45,7 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
         print(f"  voice {i + 1}/{len(segments)}: {seg['text'][:40]}")
         res = tts.synthesize(
             seg.get("say") or seg["text"], work_dir / f"seg_{i:02d}.wav",
-            engine=cfg["engine"], voice=cfg["voice"], instruct=cfg.get("instruct", ""),
+            engine=cfg["engine"], voice=cfg["voice"], instruct=voice_instruct(cfg.get("instruct", ""), seg.get("tone"), cfg.get("instruct_persona", "")),
             speed=float(cfg.get("speed", 1.0)), display=seg["text"], seed=7 + i)
         print(f"    {res.duration:.1f}s, match {res.match:.2f}")
         wavs.append(res.audio_path)
