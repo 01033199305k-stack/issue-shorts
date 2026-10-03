@@ -1,0 +1,453 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "bank-ai-hacking-leak",
+ "title_lines": [
+  "범인이 AI라고?",
+  "은행 줄줄이 해킹"
+ ],
+ "credit": "자료: 뉴데일리·데일리안(2026.10.2) · AI 음성",
+ "segments": [
+  {
+   "text": "은행들이 줄줄이 뚫렸는데, 범인이 AI일 수도 있다 함.",
+   "say": "은행들이 줄줄이 뚫렸는데, 범인이 에이아이일 수도 있다 함.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "銀行",
+       "銀行 建物"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "AI 해킹?",
+      "style": "stamp",
+      "pos": "bottom-right",
+      "at": 0.6,
+      "fx": "stamp"
+     }
+    ],
+    "video": "server room data center"
+   }
+  },
+  {
+   "text": "근데 털린 정보가 더 무서움.",
+   "say": "근데 털린 정보가 더 무서움.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "考える 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.35,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "뭐가 털렸길래?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "먼저 신한은행, 고객 약 2만5천 명 정보가 유출됨.",
+   "say": "먼저 신한은행, 고객 약 이만오천 명 정보가 유출됨.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "2만5천 명",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "crowd",
+      "q": "会社員",
+      "count": 12,
+      "pos": "center",
+      "dy": 120,
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "text": "KB국민은행 119명, 하나은행 89명도 털림.",
+   "say": "케이비국민은행 백십구 명, 하나은행 팔십구 명도 털림.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "국민 119명",
+      "style": "row",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "slide-left",
+      "dy": -90
+     },
+     {
+      "type": "text",
+      "text": "하나 89명",
+      "style": "row",
+      "pos": "center",
+      "at": 0.4,
+      "fx": "slide-left",
+      "dy": 60
+     }
+    ]
+   }
+  },
+  {
+   "text": "공격에 쓰인 서버에선 AI 자율 침투 도구로 보이는 흔적이 나옴.",
+   "say": "공격에 쓰인 서버에선 에이아이 자율 침투 도구로 보이는 흔적이 나옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ハッカー",
+       "パソコン ウイルス"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤖",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": "computer code screen"
+   }
+  },
+  {
+   "text": "사람 대신 AI가 알아서 뚫었을 가능성까지 제기된 거임.",
+   "say": "사람 대신 에이아이가 알아서 뚫었을 가능성까지 제기된 거임.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ロボット",
+       "人工知能"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "AI가 알아서?",
+      "style": "red",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 털린 정보가 공개됨.",
+   "say": "자, 털린 정보가 공개됨.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "유출 항목",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "個人情報",
+       "書類"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "하나은행은 주민등록번호, 주소, 휴대전화번호, 직장명까지.",
+   "say": "하나은행은 주민등록번호, 주소, 휴대전화번호, 직장명까지.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "① 주민번호",
+      "style": "row",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "slide-left",
+      "dy": -150
+     },
+     {
+      "type": "text",
+      "text": "② 주소·전화",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "slide-left",
+      "dy": 0
+     },
+     {
+      "type": "text",
+      "text": "③ 직장명",
+      "style": "row",
+      "pos": "center",
+      "at": 0.6,
+      "fx": "slide-left",
+      "dy": 150
+     }
+    ]
+   }
+  },
+  {
+   "text": "신한은행 쪽은 주민번호에 연소득까지 나갔다 함.",
+   "say": "신한은행 쪽은 주민번호에 연소득까지 나갔다 함.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "연소득까지",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "お金",
+       "札束"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "drop",
+      "dy": 80
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 여기서 끝이 아님.",
+   "say": "근데 여기서 끝이 아님.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 女性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "예가람저축은행도 해킹돼서 고객 약 4만 명 정보가 유출됨.",
+   "say": "예가람저축은행도 해킹돼서 고객 약 사만 명 정보가 유출됨.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "4만 명",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "銀行"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "drop",
+      "dy": 80
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이름, 생년월일, 연락처가 나갔다 함.",
+   "say": "이름, 생년월일, 연락처가 나갔다 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "은행들은 금융거래 정보랑은 관련 없다고 해명함.",
+   "say": "은행들은 금융거래 정보랑은 관련 없다고 해명함.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "거래 정보 무관",
+      "style": "stamp",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "다들 내 정보는 괜찮은지 확인해 봄?",
+   "say": "다들 내 정보는 괜찮은지 확인해 봄?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "スマートフォン 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "범인이 AI라고? 신한·국민·하나 이어 저축은행까지 해킹 #shorts",
+  "description": "신한은행(약 2만5천 명), KB국민은행(119명), 하나은행(89명)에서 고객 정보가 유출됐습니다.\n공격 서버에서 AI 자율 침투 도구로 보이는 흔적이 나와 AI 해킹 가능성이 제기됐습니다.\n예가람저축은행에서도 고객 약 4만 명의 이름·생년월일·연락처가 유출됐습니다.\n\n출처: 뉴데일리 https://biz.newdaily.co.kr/site/data/html/2026/10/02/2026100200316.html\n출처: 데일리안 https://www.dailian.co.kr/news/view/1697697\n※ AI 음성으로 제작했습니다.\n#은행해킹 #개인정보유출 #AI해킹 #신한은행 #이슈",
+  "tags": [
+   "은행해킹",
+   "개인정보유출",
+   "AI해킹",
+   "신한은행",
+   "KB국민은행",
+   "하나은행",
+   "예가람저축은행",
+   "이슈"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/050/0000111606",
+ "facts_used": [
+  "신한은행 고객 약 2만5천 명 정보 유출, 주민번호·연소득 포함 [뉴데일리 2026.10.2, 스페셜타임스]",
+  "KB국민은행 119명, 하나은행 89명 유출 [뉴데일리 2026.10.2, 스페셜타임스]",
+  "공격 서버에서 AI 자율 침투 도구로 보이는 흔적, AI 해킹 가능성 제기 [한국일보 2026.10.2, 서울경제 사설]",
+  "하나은행 유출 항목: 주민등록번호·성명·주소·이메일·전화번호·휴대전화번호·직장명 [뉴데일리, 스페셜타임스]",
+  "예가람저축은행 고객 약 4만 명 성명·생년월일·연락처 유출 [데일리안·뉴데일리·보안뉴스 2026.10.2~3]",
+  "은행들 '금융거래 정보와는 관련 없다' 해명 [뉴데일리, 스페셜타임스]"
+ ],
+ "brief": "커뮤니티 후보가 부족해 news_hot(한경비즈니스 '신한·KB·하나 이어 예가람까지 정보 유출')을 소재로 씀. 확인된 사실: 신한 약 2만5천명(주민번호·연소득), KB국민 119명, 하나 89명, AI 자율 침투 도구 추정 흔적. 예가람저축은행 9월 30일 서버 침입 정황, 약 4만명 성명·생년월일·연락처. 출처: 뉴데일리 https://biz.newdaily.co.kr/site/data/html/2026/10/02/2026100200316.html , 한국일보 https://www.hankookilbo.com/news/article/A2026100212440001602 , 데일리안 https://www.dailian.co.kr/news/view/1697697 , 보안뉴스 https://www.boannews.com/news/articleView.html?idxno=146186 . 주의: AI 해킹은 '가능성 제기' 수준이라 단정하지 않음. 해커 국적(중국어 흔적) 언급은 혐오 각도 피하려 뺐음. 대통령 지시 등 정치 언급 뺌."
+}

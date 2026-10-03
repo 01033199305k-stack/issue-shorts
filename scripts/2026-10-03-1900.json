@@ -1,0 +1,422 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "coast-guard-reward-zero",
+ "title_lines": [
+  "포상금 0원 실화?",
+  "해경 중국어선 단속"
+ ],
+ "credit": "자료: JTBC 뉴스룸·연합뉴스 · AI 음성",
+ "segments": [
+  {
+   "text": "중국어선 8척 잡았는데, 현장 대원 포상금은 0원임.",
+   "say": "중국어선 여덟 척 잡았는데, 현장 대원 포상금은 영 원임.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "포상금 0원",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "현장 대원",
+      "style": "label",
+      "pos": "bottom",
+      "at": 0.5,
+      "fx": "drop"
+     }
+    ],
+    "video": "ocean waves boat"
+   }
+  },
+  {
+   "text": "근데 해경 해명이 더 어이없음.",
+   "say": "근데 해경 해명이 더 어이없음.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官",
+       "考える 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.35,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "해명이 뭐길래?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "지난 8월 11일, 연평도 근처 바다.",
+   "say": "지난 팔월 십일일, 연평도 근처 바다.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "8월 11일 연평도",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": "sea island coast"
+   }
+  },
+  {
+   "text": "불법 조업하던 중국어선 8척 나포, 24척은 쫓아냄.",
+   "say": "불법 조업하던 중국어선 여덟 척 나포, 이십사 척은 쫓아냄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "漁船",
+       "船"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "나포 8척",
+      "style": "row",
+      "pos": "right",
+      "at": 0.3,
+      "fx": "slide-left",
+      "dy": -60
+     },
+     {
+      "type": "text",
+      "text": "퇴거 24척",
+      "style": "row",
+      "pos": "right",
+      "at": 0.6,
+      "fx": "slide-left",
+      "dy": 60
+     }
+    ]
+   }
+  },
+  {
+   "text": "해경청은 역대 최대 포상금 1800만 원을 쏨.",
+   "say": "해경청은 역대 최대 포상금 천팔백만 원을 쏨.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "1800만 원",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "札束",
+       "お金"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "drop",
+      "dy": 80
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "받은 사람은 서해5도특별경비단 경찰관 6명.",
+   "say": "받은 사람은 서해오도특별경비단 경찰관 여섯 명.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "6명",
+      "style": "big",
+      "pos": "right",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 JTBC 보도에 따르면, 포상금은 내근 직원들한테만 돌아감.",
+   "say": "근데 제이티비씨 보도에 따르면, 포상금은 내근 직원들한테만 돌아감.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "会社員 デスクワーク",
+       "デスクワーク",
+       "会社員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "내근직만?",
+      "style": "red",
+      "pos": "top",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "바다에서 위험 감수한 현장 대원은 200명이 넘었는데.",
+   "say": "바다에서 위험 감수한 현장 대원은 이백 명이 넘었는데.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "현장 대원 200명+",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "crowd",
+      "q": "警察官",
+      "count": 12,
+      "pos": "center",
+      "dy": 120,
+      "at": 0.3
+     }
+    ]
+   }
+  },
+  {
+   "text": "내부에서 불만이 쏟아지자 해경이 입을 엶.",
+   "say": "내부에서 불만이 쏟아지자 해경이 입을 엶.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "警察官"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 그 해명이 공개됨.",
+   "say": "자, 그 해명이 공개됨.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "해경 해명",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "記者会見",
+       "謝罪会見"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "현장 대원들이 신청을 못 해서 벌어진 일이라는 것.",
+   "say": "현장 대원들이 신청을 못 해서 벌어진 일이라는 것.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "신청을 못 해서?",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "書類",
+       "申請書"
+      ],
+      "pos": "center",
+      "size": "m",
+      "at": 0.4,
+      "fx": "drop",
+      "dy": 80
+     }
+    ]
+   }
+  },
+  {
+   "text": "목숨 건 사람들이 결국 서류 탓을 듣게 된 셈.",
+   "say": "목숨 건 사람들이 결국 서류 탓을 듣게 된 셈.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이거 납득 되는 사람?",
+   "say": "이거 납득 되는 사람?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "포상금 0원 실화? 중국어선 8척 잡은 해경 현장 대원들 #shorts",
+  "description": "8월 연평도 인근에서 불법 중국어선 8척을 나포하고 24척을 퇴거한 해경 단속.\n해경청은 역대 최대 포상금 1800만 원을 경찰관 6명에게 지급했습니다.\nJTBC 보도에 따르면 포상금은 내근 직원들에게만 돌아갔고, 해경은 현장 대원들이 신청을 못 해서 생긴 일이라고 설명했습니다.\n\n출처: JTBC 뉴스룸 https://www.youtube.com/watch?v=E0a5thI967o\n출처: 노컷뉴스 https://www.nocutnews.co.kr/news/6576834\n※ AI 음성으로 제작했습니다.\n#해경 #포상금 #중국어선 #연평도 #이슈",
+  "tags": [
+   "해경",
+   "해양경찰",
+   "포상금",
+   "중국어선",
+   "불법조업",
+   "연평도",
+   "이슈"
+  ]
+ },
+ "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=467637",
+ "facts_used": [
+  "8월 11일 연평도 인근 범정부 합동단속, 불법 중국어선 8척 나포·24척 퇴거 [노컷뉴스·연합 2026.9.11, 네이트 다수]",
+  "해경청, 서해5도특별경비단 경찰관 6명에게 포상금 총 1800만 원, 특별성과 포상금제 도입 후 최대 [노컷뉴스·서플·네이트(2026.9.11)]",
+  "현장 대원 200명 넘게 위험 감수했으나 포상금은 내근 직원에게만 [JTBC 뉴스룸 단독, 커뮤니티 재인용]",
+  "해경 측 '현장 대원들이 신청을 못 해서 벌어진 일' 취지 설명 [JTBC 뉴스룸 단독]"
+ ],
+ "brief": "확인된 사실(복수 보도): 2026.9.11 해경청 발표 - 서해5도특별경비단 경찰관 6명에게 1800만원(역대 최대), 8월 11일 연평도 인근 범정부 합동단속에서 8척 나포·24척 퇴거, 국민 260명 등 심의위 선정. 출처: 노컷뉴스 https://www.nocutnews.co.kr/news/6576834 , 네이트(연합) https://m.news.nate.com/view/20260911n21876 , 서플 https://supple.kr/news/cmtwayb5t004aw4xv5r5vi3ta . JTBC 뉴스룸 단독(https://www.youtube.com/watch?v=E0a5thI967o): 현장 대원 200명+ 성과인데 포상금은 내근 직원에게만, 해경 측 '현장 대원들이 신청 못 해서' 해명. 주의: 내근직 부분은 JTBC 단독이라 대본에서 'JTBC 보도에 따르면'으로 출처를 밝힘. 대통령 언급(李가 지목) 등 정치 각도는 뺐음. 중국 혐오 각도 피함."
+}
