@@ -1,0 +1,417 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "assassins-film-actor-protest",
+ "title_lines": [
+  "영화 찍었는데 집회?",
+  "암살자(들) 후폭풍"
+ ],
+ "credit": "자료: 한국경제·YTN·경향신문(2026.10.2) · AI 음성",
+ "segments": [
+  {
+   "text": "영화 한 편 찍었는데, 주연배우 집 앞에 한 달 집회가 예고됨.",
+   "say": "영화 한 편 찍었는데, 주연배우 집 앞에 한 달 집회가 예고됨.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "video": "movie theater empty seats",
+    "items": [
+     {
+      "type": "text",
+      "text": "배우 집 앞 집회?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "📢",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.5,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 이게 끝이 아님, 결국 영화제 일정까지 날아감.",
+   "say": "근데 이게 끝이 아님, 결국 영화제 일정까지 날아감.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "映画 撮影",
+       "映画",
+       "カチンコ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "영화제까지?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "문제의 영화는 지난달 23일 개봉한 암살자(들).",
+   "say": "문제의 영화는 지난달 이십삼 일 개봉한 암살자들.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "映画館",
+       "映画 チケット"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "text",
+      "text": "9월 23일 개봉",
+      "style": "big",
+      "pos": "top-right",
+      "at": 0.4,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "1974년 광복절, 육영수 여사 피격 사건을 다룬 첫 영화임.",
+   "say": "천구백칠십사 년 광복절, 육영수 여사 피격 사건을 다룬 첫 영화임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "1974.8.15",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "国旗 韓国",
+       "式典"
+      ],
+      "pos": "center",
+      "size": "m",
+      "at": 0.45,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "중앙정보부 배후를 암시했다며 역사 왜곡 논란이 터짐.",
+   "say": "중앙정보부 배후를 암시했다며 역사 왜곡 논란이 터짐.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "text",
+      "text": "역사 왜곡 논란",
+      "style": "red",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "shake"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "新聞 記事",
+       "新聞"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.35,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "감독은 박정희 배후설은 개연성이 없다고 해명함.",
+   "say": "감독은 박정희 배후설은 개연성이 없다고 해명함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "映画監督",
+       "監督"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "text",
+      "text": "배후설? 말 안 돼",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 근데 불똥이 배우 개인한테 튐.",
+   "say": "와, 근데 불똥이 배우 개인한테 튐.",
+   "sfx": "whoosh",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "俳優",
+       "俳優 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "m",
+      "at": 0.45,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "한 보수단체 대표가 유해진 집 앞 집회 신고를 했다고 밝힘.",
+   "say": "한 보수단체 대표가 유해진 집 앞 집회 신고를 했다고 밝힘.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "video": "city apartment buildings",
+    "items": [
+     {
+      "type": "text",
+      "text": "집회 신고 완료",
+      "style": "label",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "기간은 이달 3일부터 30일까지, 신고 인원은 20명.",
+   "say": "기간은 이달 삼 일부터 삼십 일까지, 신고 인원은 이십 명.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "3일~30일",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "デモ",
+       "デモ 行進"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.45,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 자택이라며 건물 사진까지 올려서 사생활 침해 논란도 붙음.",
+   "say": "심지어 자택이라며 건물 사진까지 올려서 사생활 침해 논란도 붙음.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 写真",
+       "スマートフォン"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "자택 사진 공개",
+      "style": "red",
+      "pos": "top-right",
+      "at": 0.3,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "사생활 침해?",
+      "style": "small",
+      "pos": "right",
+      "at": 0.65,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 결국 제작사가 내린 결정은.",
+   "say": "자, 결국 제작사가 내린 결정은.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "부산영화제 개막식이랑 무대인사까지 전부 취소함.",
+   "say": "부산영화제 개막식이랑 무대인사까지 전부 취소함.",
+   "sfx": "stamp",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "video": "red carpet event lights",
+    "items": [
+     {
+      "type": "text",
+      "text": "행사 전면 취소",
+      "style": "stamp",
+      "pos": "center",
+      "at": 0.4,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "작품 논란이 배우 집 앞까지 가는 거, 어떻게 봄?",
+   "say": "작품 논란이 배우 집 앞까지 가는 거, 어떻게 봄?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 생각은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 비판할 수 있음",
+      "style": "row",
+      "pos": "center",
+      "at": 0.25,
+      "fx": "slide-left",
+      "dy": -60
+     },
+     {
+      "type": "text",
+      "text": "② 선 넘었음",
+      "style": "row",
+      "pos": "center",
+      "at": 0.55,
+      "fx": "slide-left",
+      "dy": 90
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "영화 찍었는데 배우 집 앞 집회? '암살자(들)' 후폭풍 #shorts",
+  "description": "육영수 여사 피격 사건을 다룬 영화 '암살자(들)'이 역사 왜곡 논란에 휩싸였습니다.\n한 보수단체 대표가 주연배우 유해진 씨 자택 앞 집회(10월 3~30일, 신고 인원 20명)를 예고했습니다.\n제작사는 배우·제작진 안전을 이유로 부산국제영화제 개막식 참석과 무대인사를 전면 취소했습니다.\n\n출처: 경향신문 https://khan.co.kr/article/202610021705001\n※ AI 음성으로 제작했습니다.\n#암살자들 #유해진 #부산국제영화제 #영화논란 #이슈",
+  "tags": [
+   "암살자들",
+   "유해진",
+   "이민호",
+   "부산국제영화제",
+   "허진호",
+   "영화논란",
+   "이슈"
+  ]
+ },
+ "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=467673&_dcbest=1&page=1",
+ "facts_used": [
+  "영화 '암살자(들)' 2026년 9월 23일 개봉, 1974년 8월 15일 육영수 여사 피격 사건 소재 [한국일보 2026.10.2, 위키백과]",
+  "중앙정보부 배후 암시로 역사 왜곡 논란 [한국일보, 오마이뉴스]",
+  "허진호 감독: 박정희가 시켰다는 설정은 개연성이 없어 하지 않았다는 취지 [TV리포트, 미디어파인, 주간경향]",
+  "신자유연대 김상진 대표가 1일 SNS에 유해진 자택 앞 집회 신고 완료 공개, 10월 3~30일, 신고 인원 20명 [YTN·텐아시아·한국경제 2026.10.2]",
+  "자택이라며 건물 사진 공개, 사생활 침해 논란 [스포츠경향, 스타뉴스]",
+  "하이브미디어코프, 2일 부산국제영화제 개막식·야외무대인사·2주차 무대인사 취소 [헤럴드경제·여성신문·경향신문 2026.10.2]"
+ ],
+ "brief": "확인된 사실: 위 facts_used. 출처 YTN https://ytn.co.kr/_ln/0103_202610020828302116_001 , 경향 https://khan.co.kr/article/202610021705001 , 헤럴드 https://biz.heraldcorp.com/article/10891955 , 텐아시아 https://www.tenasia.co.kr/article/2026100296084 . 주의: 정치 소재 - 영화 비판 측·제작진 측 어느 편도 들지 않음. 자택 위치·주소 언급 금지, 단체명 대신 '한 보수단체 대표'. 박지만 발언은 기사 원문 확인 못 해서 제외."
+}

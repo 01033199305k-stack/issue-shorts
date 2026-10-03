@@ -1,0 +1,402 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "court-chief-spouse-trip",
+ "title_lines": [
+  "아내 여비도 세금?",
+  "헌재소장 스페인 출장"
+ ],
+ "credit": "자료: 서울신문·헤럴드경제·이투데이(2026.10.3) · AI 음성",
+ "segments": [
+  {
+   "text": "출장 따라간 아내 여비로, 나랏돈 1031만 원이 나감.",
+   "say": "출장 따라간 아내 여비로, 나랏돈 천삼십일만 원이 나감.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "1031만 원",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "旅行 夫婦",
+       "夫婦 旅行"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.35,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "run-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니, 근데 출장 주인공이 헌법재판소장임.",
+   "say": "아니, 근데 출장 주인공이 헌법재판소장임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "裁判官",
+       "裁判官 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "헌재소장?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "김상환 헌재소장, 작년 10월 26일부터 일주일간 스페인 마드리드에 감.",
+   "say": "김상환 헌재소장, 작년 시월 이십육 일부터 일주일간 스페인 마드리드에 감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "sky",
+    "video": "madrid city street",
+    "items": [
+     {
+      "type": "text",
+      "text": "마드리드 출장",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "세계헌법재판회의 총회에 참석하러 간 출장이었음.",
+   "say": "세계헌법재판회의 총회에 참석하러 간 출장이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "会議",
+       "国際会議"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "세계헌법재판회의",
+      "style": "small",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "인원은 소장 부부에 재판관, 비서실장 등 총 6명.",
+   "say": "인원은 소장 부부에 재판관, 비서실장 등 총 여섯 명.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "총 6명",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": "会社員",
+      "pos": "center",
+      "size": "m",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 전체 출장비 예산은 5821만 원.",
+   "say": "와, 전체 출장비 예산은 오천팔백이십일만 원.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "video": "cash money counting",
+    "items": [
+     {
+      "type": "text",
+      "text": "5821만 원",
+      "style": "big",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그중 소장 여비 1336만 원, 배우자 여비 1031만 원.",
+   "say": "그중 소장 여비 천삼백삼십육만 원, 배우자 여비 천삼십일만 원.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "① 소장 1336만",
+      "style": "row",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "slide-left",
+      "dy": -80
+     },
+     {
+      "type": "text",
+      "text": "② 배우자 1031만",
+      "style": "row",
+      "pos": "center",
+      "at": 0.45,
+      "fx": "slide-left",
+      "dy": 80
+     }
+    ]
+   }
+  },
+  {
+   "text": "부부 둘이서만 약 2300만 원 쓴 셈임.",
+   "say": "부부 둘이서만 약 이천삼백만 원 쓴 셈임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "札束",
+       "お金"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "약 2300만 원",
+      "style": "big",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 헌재 해명이 나옴.",
+   "say": "자, 헌재 해명이 나옴.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이 총회엔 전부터 항상 배우자가 동행해 왔고, 주최 측 승인도 받았다 함.",
+   "say": "이 총회엔 전부터 항상 배우자가 동행해 왔고, 주최 측 승인도 받았다 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スーツ 男性",
+       "会社員 男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "text",
+      "text": "항상 동행해 왔다",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.35,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "주최 측 승인",
+      "style": "small",
+      "pos": "right",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 서류엔 배우자 대신 동행인이라고 적었는데,",
+   "say": "심지어 서류엔 배우자 대신 동행인이라고 적었는데,",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "書類",
+       "申請書"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "배우자→동행인",
+      "style": "red",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "유럽엔 동성혼 인정하는 곳이 많아서 그렇게 썼다는 설명임.",
+   "say": "유럽엔 동성혼 인정하는 곳이 많아서 그렇게 썼다는 설명임.",
+   "sfx": "whoosh",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "video": "european old town street",
+    "items": [
+     {
+      "type": "text",
+      "text": "헌재 설명",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "관례니까 괜찮다, 세금 아껴야 한다, 님들은 어느 쪽임?",
+   "say": "관례니까 괜찮다, 세금 아껴야 한다, 님들은 어느 쪽임?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 관례면 괜찮음",
+      "style": "row",
+      "pos": "center",
+      "at": 0.25,
+      "fx": "slide-left",
+      "dy": -60
+     },
+     {
+      "type": "text",
+      "text": "② 세금 아껴야 함",
+      "style": "row",
+      "pos": "center",
+      "at": 0.55,
+      "fx": "slide-left",
+      "dy": 90
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "아내 여비도 세금? 헌재소장 스페인 출장 배우자 1031만원 #shorts",
+  "description": "김상환 헌법재판소장이 지난해 10월 스페인 마드리드 세계헌법재판회의 총회 출장에 배우자와 동행했습니다.\n전체 출장 예산 5821만 원 중 소장 여비 1336만 원, 배우자 여비 1031만 원이 쓰였습니다.\n헌재는 총회엔 항상 배우자가 동행해 왔고 주최 측 승인도 받았다고 설명했습니다.\n\n출처: 서울신문 https://www.seoul.co.kr/news/politics/2026/10/03/20261003500014\n※ AI 음성으로 제작했습니다.\n#헌법재판소 #김상환 #출장비 #세금 #이슈",
+  "tags": [
+   "헌법재판소",
+   "김상환",
+   "헌재소장",
+   "출장비",
+   "배우자동행",
+   "세금",
+   "이슈"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/023/0004001925",
+ "facts_used": [
+  "김상환 헌재소장, 지난해 10월 26일부터 일주일간 마드리드 세계헌법재판회의 총회 참석, 배우자 동행 [서울신문·이투데이 2026.10.3]",
+  "출장 인원: 소장 부부, 김형두 재판관, 비서실장, 헌법연구관, 조사관 등 6명 [이투데이, 서울신문]",
+  "출장 예산 5821만9000원, 소장 여비 1336만8000원, 배우자 여비 1031만3000원, 부부 약 2300만원 [서울신문·헤럴드경제·데일리안]",
+  "헌재: 총회엔 항상 배우자 동행해 왔고 주최 측 2명 추가 승인 받음 [서울신문·아시아경제]",
+  "헌재: 유럽은 동성혼 인정 경우가 많아 '배우자' 대신 '동행인' 표현 사용 [이투데이, 서울신문]"
+ ],
+ "brief": "출처: 조선일보 단독(네이버 https://n.news.naver.com/article/023/0004001925), 서울신문 https://www.seoul.co.kr/news/politics/2026/10/03/20261003500014 , 헤럴드경제 https://biz.heraldcorp.com/article/10892647 , 이투데이 https://www.etoday.co.kr/news/view/2632281 . 주의: 위법 의혹으로 단정하지 않음, 헌재 해명을 같은 비중으로 전달. 배우자는 이름 언급 안 함."
+}

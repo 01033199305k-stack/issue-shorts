@@ -1,0 +1,407 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "trump-alaska-double-bill",
+ "title_lines": [
+  "투자 안 하면 2배?",
+  "트럼프 알래스카 압박"
+ ],
+ "credit": "자료: YTN·SBS Biz·파이낸셜뉴스(2026.10.3) · AI 음성",
+ "segments": [
+  {
+   "text": "투자 안 하면 2배로 청구, 트럼프가 한국한테 한 말임.",
+   "say": "투자 안 하면 두 배로 청구, 트럼프가 한국한테 한 말임.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "2배 청구?",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "請求書",
+       "請求書 驚く"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.35,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 더 황당한 발표가 따로 있음.",
+   "say": "근데 더 황당한 발표가 따로 있음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "또 있음?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "얘기 나온 건 알래스카 LNG, 액화천연가스 사업임.",
+   "say": "얘기 나온 건 알래스카 엘엔지, 액화천연가스 사업임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "sky",
+    "video": "alaska snow mountains",
+    "items": [
+     {
+      "type": "text",
+      "text": "알래스카 LNG",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "트럼프는 한국이 투자 안 하면 더 많이 청구하면 된다고 함.",
+   "say": "트럼프는 한국이 투자 안 하면 더 많이 청구하면 된다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "大統領",
+       "政治家 演説"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "text",
+      "text": "더 청구하면 돼",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니, 곧 합의 안 하면 두 배로 올린다고 전하라고까지 함.",
+   "say": "아니, 곧 합의 안 하면 두 배로 올린다고 전하라고까지 함.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "text",
+      "text": "두 배로 올릴 것",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "shake"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "政治家 演説"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.35,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "뭘 더 청구할지는 구체적으로 안 밝힘.",
+   "say": "뭘 더 청구할지는 구체적으로 안 밝힘.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "書類",
+       "書類 山積み"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "뭘 청구?",
+      "style": "small",
+      "pos": "top-right",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 여기서 진짜 반전 나옴.",
+   "say": "자, 여기서 진짜 반전 나옴.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "트럼프가 2일 SNS에, 한국이 석유 사업에 84억 달러 넣는다고 발표함.",
+   "say": "트럼프가 이 일 에스엔에스에, 한국이 석유 사업에 팔십사억 달러 넣는다고 발표함.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "video": "oil pump jack field",
+    "items": [
+     {
+      "type": "text",
+      "text": "84억 달러",
+      "style": "big",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "약 11조 3천억 원, 유전에 이산화탄소 넣어 기름 더 뽑는 사업임.",
+   "say": "약 십일조 삼천억 원, 유전에 이산화탄소 넣어 기름 더 뽑는 사업임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "약 11조 3천억",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "石油",
+       "油田",
+       "ドラム缶"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.45,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 근데 우리 산업부 답은 합의에 없는 내용.",
+   "say": "헐, 근데 우리 산업부 답은 합의에 없는 내용.",
+   "sfx": "stamp",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "公務員",
+       "会社員 男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "합의에 없음",
+      "style": "stamp",
+      "pos": "right",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "양국 합의는 팩트시트에 적힌 게 전부라고 선 그음.",
+   "say": "양국 합의는 팩트시트에 적힌 게 전부라고 선 그음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "書類 チェック",
+       "書類"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "팩트시트가 전부",
+      "style": "label",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 알래스카 LNG 발표도 합의 안 됐다며 이의 제기함.",
+   "say": "심지어 알래스카 엘엔지 발표도 합의 안 됐다며 이의 제기함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "liquefied natural gas tanker ship",
+    "items": [
+     {
+      "type": "text",
+      "text": "이의 제기",
+      "style": "red",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들은 이거 협상 전략으로 봄, 그냥 압박으로 봄?",
+   "say": "님들은 이거 협상 전략으로 봄, 그냥 압박으로 봄?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 협상 전략",
+      "style": "row",
+      "pos": "center",
+      "at": 0.25,
+      "fx": "slide-left",
+      "dy": -60
+     },
+     {
+      "type": "text",
+      "text": "② 그냥 압박",
+      "style": "row",
+      "pos": "center",
+      "at": 0.55,
+      "fx": "slide-left",
+      "dy": 90
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "투자 안 하면 2배 청구? 트럼프 알래스카 압박과 84억 달러 발표 #shorts",
+  "description": "트럼프 미국 대통령이 한국이 알래스카 LNG 사업에 곧 합의하지 않으면 두 배로 청구하겠다고 압박했습니다.\n또 한국이 미국 석유 증산(EOR) 사업에 84억 달러를 투자한다고 발표했습니다.\n산업통상부는 '합의에 없는 내용'이라며 선을 그었습니다.\n\n출처: YTN https://www.ytn.co.kr/_ln/0104_202610030756180879\n※ AI 음성으로 제작했습니다.\n#트럼프 #알래스카 #LNG #관세협상 #이슈",
+  "tags": [
+   "트럼프",
+   "알래스카",
+   "LNG",
+   "한미협상",
+   "산업부",
+   "84억달러",
+   "이슈"
+  ]
+ },
+ "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=467661&_dcbest=1&page=1",
+ "facts_used": [
+  "트럼프: 한국이 알래스카 LNG 투자 안 하면 더 많이 청구하면 된다, 곧 합의 안 하면 두 배로 올릴 것이라고 전하라 [YTN·SBS Biz·한국일보 2026.10.3]",
+  "구체적으로 무엇을 청구할지는 밝히지 않음 [YTN, SBS Biz]",
+  "트럼프 2일 트루스소셜에 한국이 석유 증산(EOR) 사업에 84억 달러(약 11조3천억원) 투자 발표 [머니투데이 10.2, 오마이뉴스]",
+  "산업부: 양국 합의는 팩트시트·보도자료에 명시된 게 전부, 합의에 없는 내용 [파이낸셜뉴스·SBS Biz 10.3]",
+  "정부, 알래스카 LNG 일방 발표도 합의 안 된 내용이라며 이의 제기 [YTN]"
+ ],
+ "brief": "출처: YTN https://www.ytn.co.kr/_ln/0104_202610030756180879 , SBS Biz https://biz.sbs.co.kr/article/20000338209 , 파이낸셜뉴스 https://www.fnnews.com/news/202610030916466210 , 오마이뉴스 https://www.ohmynews.com/NWS_Web/View/at_pg.aspx?CNTN_CD=A0003272361 . 주의: 외교·정치 소재, 한미 어느 쪽도 비난하지 않고 발언과 정부 입장만 전달. 마지막 질문도 양쪽 선택지."
+}
