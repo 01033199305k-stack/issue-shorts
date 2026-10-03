@@ -28,6 +28,9 @@ def _check_visual(i: int, v: dict) -> list[str]:
     p = []
     if v.get("bg", "white") not in V_BG:
         p.append(f"segment {i}: bg {v.get('bg')!r} not in {V_BG}")
+    vq = v.get("video")
+    if vq is not None and not (isinstance(vq, str) and re.fullmatch(r"[A-Za-z0-9 ,'-]{2,40}", vq)):
+        p.append(f"segment {i}: video must be 2-40 chars of English search words for Pexels, got {vq!r}")
     items = v.get("items") or []
     if not 1 <= len(items) <= 6:
         p.append(f"segment {i}: visual needs 1-6 items (has {len(items)})")
@@ -125,6 +128,9 @@ def validate(script: dict) -> list[str]:
         p.append(f"narration {total} chars (want 260-380)")
     queries = {json.dumps(it.get("q"), ensure_ascii=False) for s in segs for it in (s.get("visual") or {}).get("items", [])
                if it.get("type") in ("illust", "crowd") and it.get("q")}
+    n_video = sum(1 for s in segs if (s.get("visual") or {}).get("video"))
+    if n_video > 5:
+        p.append(f"{n_video} scenes with stock video (max 5 - the illustrations are the channel's look)")
     if len(queries) > 20:
         p.append(f"{len(queries)} different illustrations - いらすとや licence allows 20 per video")
     for i, s in enumerate(segs):

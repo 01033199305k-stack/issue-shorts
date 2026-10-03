@@ -98,6 +98,9 @@ def main():
         set_secret("YOUTUBE_CLIENT_ID", cid, target)
         set_secret("YOUTUBE_CLIENT_SECRET", secret, target)
         set_secret("YOUTUBE_REFRESH_TOKEN", refresh, target)
+    px = getpass.getpass("Pexels API 키 (장면 배경 스톡 영상, https://www.pexels.com/api 에서 무료 발급): ").strip()
+    if px:
+        set_secret("PEXELS_API_KEY", px, target)
     print("\n완료. 시험 실행: gh workflow run produce -R " + target + " -f dry_run=true")
 
 

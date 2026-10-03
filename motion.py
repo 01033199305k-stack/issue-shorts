@@ -226,6 +226,10 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
 #credit { display:none; position:absolute; top:14px; left:20px; right:20px; font-family:'Malgun Gothic','Noto Sans CJK KR',sans-serif;
   font-weight:700; font-size:24px; color:rgba(0,0,0,.42); white-space:nowrap; overflow:hidden; z-index:5; }
 #credit.dark { color:rgba(255,255,255,.55); }
+/* stock footage behind a scene's items, swapped frame by frame; '자료화면' so it never passes as the real event */
+.bgv { position:absolute; left:0; top:0; width:1080px; height:845px; object-fit:cover; z-index:0; }
+.tag { position:absolute; right:18px; top:16px; z-index:4; font-family:'Noto Sans CJK KR','Malgun Gothic',sans-serif;
+  font-weight:700; font-size:30px; color:#fff; background:rgba(0,0,0,.5); padding:4px 14px; border-radius:8px; }
 #cap { position:absolute; left:0; right:0; top:1365px; height:0; z-index:9; }
 #cap .box { position:absolute; left:50%; bottom:22px; transform:translateX(-50%); background:#000;
   padding:10px 26px 4px; border-radius:6px; text-align:center; font-size:68px; line-height:1.22; white-space:nowrap; }
@@ -286,6 +290,7 @@ function item(el, d, t, s) {
 
 window.render = function (t) {
   let shake = 0;
+  const waits = [];
   scenes.forEach((el, i) => {
     const s = D.scenes[i];
     const on = t >= s.start - D.lead && (i === scenes.length - 1 || t < D.scenes[i + 1].start - D.lead);
@@ -296,6 +301,12 @@ window.render = function (t) {
     el.style.transformOrigin = '540px 380px';
     panel.style.background = s.bg;
     credit.className = s.dark ? 'dark' : '';
+    if (s.clip) {   // stock clip: next frame (loops if the sentence outlasts the clip)
+      const k = Math.floor(Math.max(0, t - (s.start - D.lead)) * D.fps) % s.clip.n + 1;
+      const img = el.querySelector('.bgv');
+      if (img.dataset.k != k) { img.dataset.k = k; img.src = s.clip.base + String(k).padStart(4, '0') + '.jpg';
+        waits.push(img.decode().catch(() => {})); }
+    }
     s.items.forEach((d, j) => item(el.children[j], d, t, s));
     if (s.shake) { const k = t - s.start + D.lead; if (k >= 0 && k < .38) shake = (1 - k / .38); }
     s.items.forEach(d => { if (d.fx === 'stamp') { const k = t - (s.start + d.at * (s.end - s.start) - D.lead) - .2;
@@ -316,6 +327,7 @@ window.render = function (t) {
     const spans = box.querySelectorAll('span'); let n = 0;
     D.caps[k].lines.forEach(ln => ln.forEach(w => { spans[n].className = t >= w[1] - .03 ? 'on' : ''; n++; }));
   }
+  return Promise.all(waits);   // capture waits until the clip frame is decoded
 };
 window.READY = true;
 """
@@ -354,9 +366,11 @@ def title_size(lines) -> int:
     return max(64, min(130, int(1000 / (0.76 * max(1, longest)))))
 
 
-def build(segments, visuals, times, cues, title, credit, picker, font_path) -> tuple[str, list]:
-    """segments: [{sfx}], visuals: [{bg, items}], times: [(start, end)]."""
+def build(segments, visuals, times, cues, title, credit, picker, font_path, clips=None) -> tuple[str, list]:
+    """segments: [{sfx}], visuals: [{bg, items}], times: [(start, end)],
+    clips: per scene None or {dir, n} from stock.clip_frames (background footage)."""
     scenes_html, scenes_data = [], []
+    clips = clips or [None] * len(segments)
     for i, (seg, vis, (st, en)) in enumerate(zip(segments, visuals, times)):
         items = vis.get("items") or [{"type": "emoji", "text": "🤔", "pos": "center", "size": "l", "fx": "pop"}]
         bg_key = vis.get("bg", "white")
@@ -414,12 +428,17 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path) -> t
                 d["y"] = min(max(d["y"], d["h"] / 2 + 44), PANEL_H - 150 - d["h"] / 2)
             d["x"] = min(max(d["x"], d["w"] / 2 + 10), W - d["w"] / 2 - 10) if d["w"] < W - 20 else W / 2
             data.append(d)
+        clip = clips[i] if i < len(clips) else None
+        if clip:   # after the items so el.children[j] still indexes them
+            base = file_url(Path(clip["dir"]) / "f_")
+            parts.append(f'<img class="bgv" src="{base}0001.jpg"><div class="tag">자료화면</div>')
         scenes_html.append(f'<div class="sc">{"".join(parts)}</div>')
         scenes_data.append({"start": st, "end": en, "items": data, "bg": BG.get(bg_key, BG["white"]),
-                            "dark": bg_key in ("night", "red"), "shake": seg.get("sfx") in SHAKE_SFX})
+                            "dark": bg_key in ("night", "red"), "shake": seg.get("sfx") in SHAKE_SFX,
+                            "clip": {"base": base, "n": clip["n"]} if clip else None})
     t1, t2 = title
     css = CSS.replace("FONT", file_url(font_path))
-    payload = {"scenes": scenes_data, "caps": cues, "lead": LEAD}
+    payload = {"scenes": scenes_data, "caps": cues, "lead": LEAD, "fps": FPS}
     html = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>{css}</style></head><body>'
             f'<div id="title" style="font-size:{title_size([t1, t2])}px"><div>{esc(t1)}</div><div class="t2">{esc(t2)}</div></div>'
             f'<div id="panel"><div id="credit">{esc(credit)}</div><div id="cam">{"".join(scenes_html)}</div></div>'

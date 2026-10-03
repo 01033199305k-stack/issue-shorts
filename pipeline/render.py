@@ -11,6 +11,7 @@ the cut into this segment; on segment 0 it fires at t=0), visual (v2) or card (v
 from pathlib import Path
 
 import motion
+import stock
 from illust import Picker
 from pipeline import assemble, tts
 from pipeline.tts import Word
@@ -44,8 +45,15 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     visuals = [seg.get("visual") or motion.card_to_visual(seg.get("card") or {}) for seg in segments]
     cues = motion.caption_cues(words, int(cfg.get("caption_line_chars", 11)), int(cfg.get("caption_words", 6)))
     picker = Picker()
+    used_clips: set = set()
+    clips = []
+    for i, (vis, (st, en)) in enumerate(zip(visuals, times)):
+        q = (vis or {}).get("video", "")
+        clips.append(stock.clip_frames(q, en - st + motion.LEAD + 0.2, work_dir / f"clip_{i:02d}",
+                                       motion.FPS, used_clips) if q else None)
+    print(f"  stock clips: {sum(1 for c in clips if c)}/{sum(1 for v in visuals if (v or {}).get('video'))}")
     html, cuts = motion.build(segments, visuals, times, cues, script["title_lines"], script.get("credit", ""),
-                              picker, repo / "assets" / "fonts" / "BlackHanSans-Regular.ttf")
+                              picker, repo / "assets" / "fonts" / "BlackHanSans-Regular.ttf", clips)
     page = work_dir / "motion.html"
     page.write_text(html, encoding="utf-8")
     print(f"  frames: {int(total * motion.FPS)} ({len(picker.used)} illustrations)")
@@ -67,5 +75,5 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
 
     bgm = repo / cfg["bgm"] if cfg.get("bgm") else None
     assemble.mux_final(video, narration, None, out_path, bgm_path=bgm, sfx=sfx)
-    return {"duration": round(cursor, 2), "matches": [round(r.match, 2) for r in results],
+    return {"stock_clips": [c["url"] for c in clips if c], "duration": round(cursor, 2), "matches": [round(r.match, 2) for r in results],
             "sfx": len(sfx), "illustrations": len(picker.used), "cuts": len(cuts) + 1}

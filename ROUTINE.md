@@ -89,6 +89,10 @@ WebFetch 는 대부분 막혀 있으니 한 번 시도해서 `EGRESS_BLOCKED` �
 ### 화면 `visual` — 군림보처럼 흰 패널에 いらすとや 그림을 하나씩 쌓는다
 문장마다 `"visual": {"bg": ..., "items": [...]}`. 아이템 2~3개가 문장을 따라 차례로 등장하는 게 기본이다.
 - `bg`: 보통 `white`. 장소감이 필요하면 `city`·`room`·`sky`·`beach`·`paper`, 분노·막말·경고 장면은 `red`, 어두운 분위기는 `night`.
+- `video` (선택): **실사 스톡 영상 배경**. 영어 검색어 2~40자 (`"video": "taxi city street night"`). Pexels 무료 영상이 패널 전체에 깔리고 아이템은 그 위에 올라간다. 화면 구석에 '자료화면'이 자동으로 붙는다.
+  - 한 영상에 **2~4장면**: 장소·상황을 보여 주는 장면(사건 현장 분위기, 도로, 공항, 바다, 법원 건물, 돈 세는 손 등)에 쓴다. 훅(0번)이나 공개 장면에 넣으면 지루함이 확 줄어든다.
+  - **사람이 주인공인 검색어는 쓰지 않는다** (Pexels 라이선스가 실존 인물을 나쁘게 비추는 걸 금지, 피의자·피해자로 오해될 수도 있음). 장소·사물·풍경 위주로: `airport terminal`, `police car lights night`, `ocean waves`, `cash money counting`, `garbage bags street`.
+  - 영상 위에는 글씨(`label`·`big`·`bubble`)나 이모지 1~2개만 얹는다. 그림을 여러 개 쌓으면 복잡해진다.
 - 아이템 공통: `pos`(center·left·right·top·bottom·top-left·top-right·bottom-left·bottom-right), `at`(문장 안에서 등장하는 시점 0~0.9: 0=시작, 0.5=중간), `fx`(등장 방식), 필요하면 `dx`·`dy`(픽셀 미세 조정).
 - `{"type":"illust","q":<일본어 검색어 또는 후보 목록>,"size":"s|m|l|xl"}` — **いらすとや(irasutoya.com) 그림**.
   q 는 일본어 1~2단어, **핵심 명사를 맨 앞에**. 그림 제목에 단어가 다 들어 있어야 채택되고, 없으면 그 자리는 빈다(엉뚱한 그림보다 낫다).

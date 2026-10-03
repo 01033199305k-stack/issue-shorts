@@ -101,6 +101,7 @@ jobs:
           YOUTUBE_CLIENT_ID: ${{ secrets.YOUTUBE_CLIENT_ID }}
           YOUTUBE_CLIENT_SECRET: ${{ secrets.YOUTUBE_CLIENT_SECRET }}
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
+          PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}   # 장면 배경 스톡 영상 (없으면 건너뜀)
           PYTHONUNBUFFERED: "1"
           FILES: ${{ steps.find.outputs.files }}
           SLOT: ${{ inputs.slot || 'auto' }}
