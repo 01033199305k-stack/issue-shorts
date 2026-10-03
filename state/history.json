@@ -403,5 +403,53 @@
   "privacy": "private",
   "scheduled_for": "2026-10-03T14:00:00Z",
   "seconds": 666
+ },
+ {
+  "key": "2026-10-04-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-04T07:00:00+09:00",
+  "started": "2026-10-04T02:23:00.059816+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-227131/",
+   "https://pixabay.com/videos/id-10685/",
+   "https://pixabay.com/videos/id-150527/",
+   "https://pixabay.com/videos/id-53582/"
+  ],
+  "duration": 50.75,
+  "matches": [
+   1.0,
+   1.0,
+   0.79,
+   0.85,
+   0.98,
+   0.95,
+   1.0,
+   0.81,
+   0.78,
+   1.0,
+   0.97,
+   1.0,
+   1.0
+  ],
+  "sfx": 12,
+  "illustrations": 8,
+  "cuts": 13,
+  "title": "닭값 37% 내렸는데 치킨값은 그대로? 대통령 \"점검\" #shorts",
+  "source_post": "https://n.news.naver.com/article/138/0002243548",
+  "facts_used": [
+   "9~10호 육계 1kg 3월 5308원 → 9월 15일 3308원, 6개월 새 37.7%·2000원 하락 [SBS 친절한 경제 2026.10.1, 디지털데일리 2026.10.2, 시사1]",
+   "BBQ·교촌 등 대표 메뉴 2만3000원 유지 [세계일보 2026.10.1, 알파경제, 시사1]",
+   "이재명 대통령, 관련 기사 SNS 공유하며 \"한번 점검해 보겠다\" [세계일보, 콜뉴스24, 디지털데일리]",
+   "공정위 대응 방안 검토, \"당장 전면적인 조사에 착수하는 것은 아니며 우선 시장 상황을 짚어보는 점검 단계\" [알파경제 단독, SBS]",
+   "업계: 산지 시세와 실제 매입가 차이, 장기 납품계약으로 반영 시차 [마이데일리 2026.10.1, 시사저널e, SBS]",
+   "bhc \"3년간 치킨값 인상 없어\"(2023년 12월 이후 가격 유지) [뉴스1, 뉴스웨이 2026.10.1]"
+  ],
+  "slug": "2026-10-04_0700_chicken-price-stays-high",
+  "late": false,
+  "video_id": "NSP3bxk1G3U",
+  "url": "https://youtube.com/shorts/NSP3bxk1G3U",
+  "privacy": "private",
+  "scheduled_for": "2026-10-03T22:00:00Z",
+  "seconds": 813
  }
 ]
