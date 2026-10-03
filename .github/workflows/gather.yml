@@ -9,6 +9,11 @@ on:
   schedule:
     - cron: "7,37 * * * *"   # 30분마다 (정각은 GitHub 예약 실행이 몰려서 늦는다)
   workflow_dispatch:
+    inputs:
+      ping:
+        description: "긴급 루틴 연결 시험: 후보가 없어도 루틴을 한 번 깨운다 (루틴은 확인만 하고 아무것도 푸시하지 않음)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -39,17 +44,24 @@ jobs:
           for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
 
       # 긴급 소재를 새로 잡았으면(urgent.json 이 이번에 바뀜) 긴급 대본 루틴을 깨운다.
-      # URGENT_HOOK_URL·URGENT_HOOK_TOKEN: claude.ai 루틴 화면의 API 트리거에서 받은 주소·토큰 (없으면 건너뜀)
+      # URGENT_HOOK_URL·URGENT_HOOK_TOKEN: 루틴 'issue-shorts 긴급 대본 (API 호출)'의 API 트리거 주소·토큰 (없으면 경고만 하고 건너뜀)
+      # 수동 실행에서 ping 을 켜면 후보가 없어도 한 번 깨워서 연결을 시험한다.
       - name: 긴급 대본 루틴 깨우기
         env:
           HOOK_URL: ${{ secrets.URGENT_HOOK_URL }}
           HOOK_TOKEN: ${{ secrets.URGENT_HOOK_TOKEN }}
+          PING: ${{ inputs.ping }}
         run: |
-          [ -f .urgent_fired ] || { echo "새 긴급 소재 없음"; exit 0; }
-          if [ -z "$HOOK_URL" ]; then echo "::warning::긴급 소재가 있지만 URGENT_HOOK_URL 시크릿이 없음"; exit 0; fi
-          body=$(python3 -c "import json; c=json.load(open('inbox/urgent.json'))['candidates']; print(json.dumps({'text': '긴급 소재 감지: ' + ' / '.join(x['title'] for x in c)[:300] + ' - ROUTINE_URGENT.md 대로 처리'}, ensure_ascii=False))")
-          headers=(-H "Content-Type: application/json" -H "anthropic-version: 2023-06-01")
-          [ -n "$HOOK_TOKEN" ] && headers+=(-H "Authorization: Bearer $HOOK_TOKEN")
-          code=$(curl -s -o /tmp/hook.txt -w '%{http_code}' -X POST "$HOOK_URL" "${headers[@]}" -d "$body")
+          if [ -f .urgent_fired ]; then
+            body=$(python3 -c "import json; c=json.load(open('inbox/urgent.json'))['candidates']; print(json.dumps({'text': '긴급 소재 감지: ' + ' / '.join(x['title'] for x in c)[:300] + ' - ROUTINE_URGENT.md 대로 처리'}, ensure_ascii=False))")
+          elif [ "$PING" = "true" ]; then
+            body='{"text": "연결 시험 호출 (gather 수동 실행 ping). 지금 새 긴급 후보는 없음."}'
+          else
+            echo "새 긴급 소재 없음"; exit 0
+          fi
+          if [ -z "$HOOK_URL" ] || [ -z "$HOOK_TOKEN" ]; then echo "::warning::URGENT_HOOK_URL·URGENT_HOOK_TOKEN 시크릿이 없어 긴급 루틴을 깨우지 못함"; exit 0; fi
+          headers=(-H "Authorization: Bearer $HOOK_TOKEN" -H "anthropic-version: 2023-06-01"
+                   -H "anthropic-beta: experimental-cc-routine-2026-04-01" -H "Content-Type: application/json")
+          code=$(printf '%s' "$body" | curl -s -o /tmp/hook.txt -w '%{http_code}' -X POST "$HOOK_URL" "${headers[@]}" --data-binary @- || true)
           echo "루틴 호출 $code: $(head -c 300 /tmp/hook.txt)"
           case "$code" in 2*) ;; *) echo "::error::긴급 루틴 호출 실패 $code"; exit 1;; esac
