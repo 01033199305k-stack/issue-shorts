@@ -56,7 +56,7 @@ body {{ width:{W}px; height:{H}px; background:#000; overflow:hidden;
 .panel {{ position:absolute; top:540px; left:0; width:{W}px; height:610px; overflow:hidden;
           display:flex; flex-direction:column; justify-content:center; align-items:center;
           text-align:center; padding:40px 70px; }}
-.credit {{ position:absolute; top:18px; left:24px; right:24px; font-family:{SANS};
+.credit {{ display:none; position:absolute; top:18px; left:24px; right:24px; font-family:{SANS};
            font-size:24px; color:rgba(255,255,255,.55); font-weight:700; text-align:left;
            white-space:nowrap; overflow:hidden; text-overflow:ellipsis; }}
 .emoji {{ font-family:{EMOJI}; font-size:190px; line-height:1.1; }}

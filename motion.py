@@ -147,7 +147,7 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
   font-size:72px; box-shadow:0 8px 0 rgba(0,0,0,.15); }
 .tx.row { color:#111; background:#fff; border:6px solid #111; border-radius:20px; padding:16px 32px 8px;
   font-size:64px; text-align:left; }
-#credit { position:absolute; top:14px; left:20px; right:20px; font-family:'Malgun Gothic','Noto Sans CJK KR',sans-serif;
+#credit { display:none; position:absolute; top:14px; left:20px; right:20px; font-family:'Malgun Gothic','Noto Sans CJK KR',sans-serif;
   font-weight:700; font-size:24px; color:rgba(0,0,0,.42); white-space:nowrap; overflow:hidden; z-index:5; }
 #credit.dark { color:rgba(255,255,255,.55); }
 #cap { position:absolute; left:0; right:0; top:1365px; height:0; z-index:9; }
