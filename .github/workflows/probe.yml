@@ -1,0 +1,57 @@
+# 일회성 점검: Actions 러너에서 각 커뮤니티·뉴스 랭킹 목록 페이지가 열리는지 (사이트마다 요청 1번)
+name: probe-sites
+on:
+  push:
+    branches: ["claude/probe-sites"]
+jobs:
+  probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: probe
+        shell: python
+        run: |
+          import re, time, urllib.request, urllib.error
+          UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+                "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
+          SITES = [
+            ("디시 실베(기준)", "https://gall.dcinside.com/board/lists/?id=dcbest", "us-post"),
+            ("디시 HIT", "https://gall.dcinside.com/board/lists/?id=hit", "us-post"),
+            ("더쿠 HOT(기준)", "https://theqoo.net/hot", "replyNum"),
+            ("에펨 포텐", "https://www.fmkorea.com/best", "document_srl"),
+            ("에펨 RSS", "https://www.fmkorea.com/index.php?mid=best&act=rss", "<item"),
+            ("개드립 인기", "https://www.dogdrip.net/dogdrip?sort_index=popular", "webzine"),
+            ("개드립 RSS", "https://www.dogdrip.net/dogdrip/rss", "<item"),
+            ("아카 실시간", "https://arca.live/b/live", "vrow"),
+            ("아카 베스트", "https://arca.live/b/breaking", "vrow"),
+            ("루리웹 베스트", "https://bbs.ruliweb.com/best/all", "subject"),
+            ("네이트판 랭킹", "https://pann.nate.com/talk/ranking", "/talk/"),
+            ("인스티즈 이슈", "https://www.instiz.net/pt", "listsubject"),
+            ("보배드림 베스트", "https://www.bobaedream.co.kr/list?code=best", "bsubject"),
+            ("클리앙 추천", "https://www.clien.net/service/recommend", "list_item"),
+            ("뽐뿌 핫게", "https://www.ppomppu.co.kr/hot.php", "title"),
+            ("오유 베오베", "https://www.todayhumor.co.kr/board/list.php?table=bestofbest", "subject"),
+            ("엠팍 불펜", "https://mlbpark.donga.com/mp/b.php?b=bullpen", "tit"),
+            ("네이버 댓글많은뉴스", "https://news.naver.com/main/ranking/popularMemo.naver", "rankingnews"),
+            ("다음 뉴스 랭킹", "https://news.daum.net/ranking/bestreply", "list_news2"),
+          ]
+          for name, url, marker in SITES:
+              try:
+                  req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9"})
+                  with urllib.request.urlopen(req, timeout=20) as r:
+                      h = r.read(800_000).decode("utf-8", errors="replace")
+                      code = r.status
+                  t = re.search(r"<title[^>]*>(.*?)</title>", h, re.S)
+                  t = re.sub(r"\s+", " ", t.group(1)).strip()[:40] if t else ""
+                  cf = bool(re.search(r"cf-challenge|challenge-platform|Just a moment|Attention Required", h))
+                  hits = h.count(marker)
+                  ok = "OK " if hits >= 5 and not cf else "?? "
+                  print(f"{ok}{name}: {code} len={len(h)} marker={hits} cf={cf} title={t!r}")
+              except urllib.error.HTTPError as e:
+                  print(f"XX {name}: HTTP {e.code}")
+              except Exception as e:
+                  print(f"XX {name}: {type(e).__name__} {str(e)[:80]}")
+              time.sleep(1)
