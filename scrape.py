@@ -1,4 +1,4 @@
-"""Hot posts from four Korean communities, ranked by how much people argue.
+"""Hot posts from Korean communities, ranked by how much people argue.
 
     python scrape.py            # prints the ranked list as JSON
 
@@ -18,18 +18,32 @@ from html import unescape
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
 
+# 에펨·개드립은 GitHub Actions 러너에서 막힌다(430/403, 2026-10-03 확인) - PC에서 돌릴 때만 들어온다.
+# 아카라이브·뽐뿌·오유·클리앙도 러너에서 막혀서 넣지 않았다.
 BOARDS = {
     "디시 실베": "https://gall.dcinside.com/board/lists/?id=dcbest",
+    "디시 HIT": "https://gall.dcinside.com/board/lists/?id=hit",
     "에펨 포텐": "https://www.fmkorea.com/best",
     "더쿠 HOT": "https://theqoo.net/hot",
     "개드립": "https://www.dogdrip.net/dogdrip?sort_index=popular",
+    "루리웹 베스트": "https://bbs.ruliweb.com/best/all",
+    "네이트판": "https://pann.nate.com/talk/ranking",
+    "보배드림 베스트": "https://www.bobaedream.co.kr/list?code=best",
+    "엠팍 불펜": "https://mlbpark.donga.com/mp/b.php?b=bullpen",
 }
+# 최신글 목록이라 댓글이 막 달리기 시작한 글이 섞인다 - 이 수보다 적으면 열기를 그만큼 깎는다
+MIN_COMMENTS = {"엠팍 불펜": 30}
+NEWS_RANKING = "https://news.naver.com/main/ranking/popularMemo.naver"   # 언론사별 댓글 많은 기사
 
 
 def get(url: str, timeout: int = 20) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", errors="replace")
+        raw = r.read()
+        ctype = r.headers.get("Content-Type", "")
+    # 네이버 랭킹 등 일부는 아직 EUC-KR
+    euc = re.search(r"euc-kr|ks_c_5601", ctype, re.I) or re.search(rb'<meta[^>]+charset=["\']?(euc-kr|ks_c_5601)', raw[:3000], re.I)
+    return raw.decode("cp949" if euc else "utf-8", errors="replace")
 
 
 def text(s: str) -> str:
@@ -86,7 +100,79 @@ def parse_dd(h):
                "votes": int(up.group(1)) if up else 0, "comments": int(a.group(3) or 0)}
 
 
-PARSERS = {"디시 실베": parse_dc, "에펨 포텐": parse_fm, "더쿠 HOT": parse_tq, "개드립": parse_dd}
+def parse_rw(h):
+    seen = set()
+    for tr in re.findall(r'<tr class="table_body blocktarget[^"]*">.*?</tr>', h, re.S):
+        a = re.search(r'<a class="subject_link[^"]*" href="([^"]+)"', tr)
+        t = re.search(r'<strong class="text_over">(.*?)</strong>', tr, re.S)
+        if not (a and t) or "/market/" in a.group(1):   # 핫딜(쇼핑) 줄은 뺀다
+            continue
+        url = "https://bbs.ruliweb.com" + unescape(a.group(1)).split("?")[0]
+        if url in seen:
+            continue
+        seen.add(url)
+        c = re.search(r'num_reply[^>]*>\s*\((\d+)\)', tr)
+        v = re.search(r'class="hit">\s*([\d,]+)', tr)
+        yield {"title": text(t.group(1)), "url": url,
+               "views": num(v.group(1)) if v else 0, "comments": int(c.group(1)) if c else 0}
+
+
+def parse_pann(h):
+    body = h[h.find('class="post_wrap"'):]
+    for li in body.split("<li>")[1:]:
+        a = re.search(r'<h2><a href="(/talk/\d+)"[^>]*title="([^"]*)"', li)
+        if not a:
+            continue
+        c = re.search(r'reple-num">\((\d+)\)', li)
+        v = re.search(r'class="count">[^<\d]*([\d,]+)', li)
+        yield {"title": text(a.group(2)), "url": "https://pann.nate.com" + a.group(1),
+               "views": num(v.group(1)) if v else 0, "comments": int(c.group(1)) if c else 0}
+
+
+def parse_bobae(h):
+    for tr in re.findall(r'<tr itemscope itemtype="http://schema.org/Article">.*?</tr>', h, re.S):
+        a = re.search(r'class="bsubject"[^>]*?href="([^"]+)"[^>]*?title="([^"]*)"', tr, re.S)
+        if not a:
+            continue
+        no = re.search(r"No=(\d+)", unescape(a.group(1)))
+        if not no:
+            continue
+        c = re.search(r'totreply">(\d+)', tr)
+        v = re.search(r'class="count"[^>]*>([\d,]+)', tr)
+        yield {"title": text(a.group(2)), "url": "https://www.bobaedream.co.kr/view?code=best&No=" + no.group(1),
+               "views": num(v.group(1)) if v else 0, "comments": int(c.group(1)) if c else 0}
+
+
+def parse_mlb(h):
+    for tr in re.findall(r"<tr>.*?</tr>", h, re.S):
+        a = re.search(r"<div class='tit'>\s*<a href='([^']+)'[^>]*class='txt'>(.*?)</a>", tr, re.S)
+        if not a:
+            continue
+        pid = re.search(r"id=(\d+)", unescape(a.group(1)))
+        if not pid:
+            continue
+        c = re.search(r"replycnt'>\[(\d+)\]", tr)
+        v = re.search(r"viewV'>([\d,]+)", tr)
+        yield {"title": text(a.group(2)), "url": f"https://mlbpark.donga.com/mp/b.php?b=bullpen&id={pid.group(1)}&m=view",
+               "views": num(v.group(1)) if v else 0, "comments": int(c.group(1)) if c else 0}
+
+
+PARSERS = {"디시 실베": parse_dc, "디시 HIT": parse_dc, "에펨 포텐": parse_fm, "더쿠 HOT": parse_tq,
+           "개드립": parse_dd, "루리웹 베스트": parse_rw, "네이트판": parse_pann, "보배드림 베스트": parse_bobae,
+           "엠팍 불펜": parse_mlb}
+
+
+def news_ranking(per_press: int = 1) -> list[dict]:
+    """네이버 '댓글 많은' 기사: 언론사마다 상위 per_press 건. 커뮤니티 글과 제목이 겹치면
+    그 글에 기사 링크를 붙이고 점수를 올리는 데 쓴다 (기사 자체도 후보로 남긴다)."""
+    out = []
+    for box in re.findall(r'<div class="rankingnews_box">.*?</ul>', get(NEWS_RANKING), re.S):
+        press = re.search(r'rankingnews_name">(.*?)</strong>', box)
+        items = re.findall(r'<a href="(https://n\.news\.naver\.com/article/\d+/\d+)[^"]*" class="list_title[^"]*"[^>]*>(.*?)</a>',
+                           box, re.S)
+        for i, (url, title) in enumerate(items[:per_press]):
+            out.append({"title": text(title), "url": url, "press": text(press.group(1)) if press else "", "rank": i + 1})
+    return out
 
 # Post bodies: the first matching container is the article.
 BODY_PATTERNS = [
@@ -95,6 +181,10 @@ BODY_PATTERNS = [
     r'class="xe_content".*?</div>',                          # fmkorea / dogdrip
     r'class="ed article-wrapper.*?class="ed article-footer', # dogdrip
     r'class="rd_body.*?class="rd_ft',
+    r'class="view_content.*?class="(?:view_bottom|board_bottom)',  # ruliweb
+    r'id="contentArea".*?class="(?:tvp_area|btnbox|reply)',        # nate pann
+    r'class="bodyCont".*?</div>',                                   # bobaedream
+    r'id="contentDetail".*?</div>',                                 # mlbpark
 ]
 
 
@@ -144,10 +234,11 @@ def rank(posts: list[dict]) -> list[dict]:
     by_board: dict[str, list[dict]] = {}
     for p in posts:
         by_board.setdefault(p["board"], []).append(p)
-    for rows in by_board.values():
+    for board, rows in by_board.items():
         ordered = sorted(rows, key=lambda r: r["comments"])
+        floor = MIN_COMMENTS.get(board, 0)
         for i, r in enumerate(ordered):
-            r["heat"] = (i + 1) / len(ordered)
+            r["heat"] = (i + 1) / len(ordered) * (min(1.0, r["comments"] / floor) if floor else 1.0)
     # Same story on several boards = it is genuinely the talk of the day.
     for p in posts:
         others = {q["board"] for q in posts if q["board"] != p["board"] and

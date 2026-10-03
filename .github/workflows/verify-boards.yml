@@ -1,0 +1,43 @@
+# 임시 점검 (병합 전 삭제): 새 게시판 파서와 gather 를 러너에서 실제로 돌려 본다. 커밋은 하지 않는다.
+name: verify-boards
+on:
+  push:
+    branches: ["claude/more-boards"]
+jobs:
+  verify:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: boards
+        shell: python
+        run: |
+          import collections, scrape
+          posts, warns = scrape.collect()
+          print("WARN", warns)
+          by = collections.defaultdict(list)
+          for p in posts: by[p["board"]].append(p)
+          for b, rows in by.items():
+              cs = sorted(r["comments"] for r in rows)
+              print(f"{b}: {len(rows)} rows, comments min/med/max {cs[0]}/{cs[len(cs)//2]}/{cs[-1]}")
+              for r in sorted(rows, key=lambda r: -r["comments"])[:3]:
+                  print("   ", r["comments"], r["title"][:50], r["url"])
+              body = scrape.post_body(sorted(rows, key=lambda r: -r["comments"])[0]["url"])
+              print(f"    body: {len(body['text'])} chars, {len(body['links'])} links, err={body.get('error')}")
+          news = scrape.news_ranking()
+          print(f"news_ranking: {len(news)}")
+          for n in news[:5]: print("   ", n["press"], n["title"][:50], n["url"])
+      - name: gather
+        run: |
+          python gather.py
+          python - <<'PY'
+          import json
+          d = json.load(open('inbox/latest.json'))
+          print('warnings', d['warnings'])
+          for i, p in enumerate(d['posts'][:40], 1):
+              print(f"[{i}] {p['board']} 댓글{p['comments']} 점수{p['score']} 동시{p.get('also_on')} 기사화{p.get('in_news')} 뉴스{len(p.get('news', []))} {p['title'][:45]}")
+          print('news_hot', len(d['news_hot']))
+          PY

@@ -48,7 +48,7 @@ def gather(history: list[dict]) -> tuple[list[dict], list[str]]:
     for w in warns:
         print("  WARN", w)
     if not posts:
-        raise RuntimeError("커뮤니티 4곳 모두 수집 실패: " + " | ".join(warns))
+        raise RuntimeError("커뮤니티 모두 수집 실패: " + " | ".join(warns))
     used = {h.get("source_post") for h in history}
     ranked = [p for p in scrape.rank(posts) if p["url"] not in used][:15]
     for p in ranked[:8]:
