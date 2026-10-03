@@ -94,6 +94,11 @@ def main() -> int:
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{len(ranked)} posts ({', '.join(sorted({p['board'] for p in ranked}))}), "
           f"{len(out['news_hot'])} news; warnings: {warns}")
+    try:   # 긴급 소재가 새로 보이면 inbox/urgent.json 을 쓴다 → gather.yml 이 긴급 대본 루틴을 깨운다
+        import urgent
+        urgent.detect(out, dt.datetime.now(KST))
+    except Exception as ex:
+        print("긴급 감지 실패:", type(ex).__name__, ex)
     return 0 if ranked or out["news_hot"] else 1   # 커뮤니티가 다 막혀도 기사 목록은 올린다
 
 

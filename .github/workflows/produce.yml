@@ -2,6 +2,8 @@
 # 대본은 Claude 구독으로 도는 클라우드 예약 작업(ROUTINE.md)이 3시간마다 다음 몇 회차분을 scripts/ 로 푸시한다.
 # 그 푸시가 이 워크플로를 깨운다. 영상은 config.yaml 의 slots 시각(매시 정각)에 예약 공개로 올라가고,
 # 그 사이가 검수 시간이다 (유튜브 스튜디오 앱 → 예약됨 → 미리 보고 문제 있으면 삭제).
+# 긴급 대본(scripts/<날짜>-uHHMM.json, 커밋 메시지 'urgent:')은 따로 줄을 서서 정규 회차 렌더를 기다리지 않고,
+# 영상이 나오면 3분 뒤 공개된다 (ROUTINE_URGENT.md).
 name: produce
 
 on:
@@ -25,8 +27,9 @@ on:
 permissions:
   contents: write
 
+# 긴급 대본 푸시는 별도 줄 — 정규 회차 렌더(하나 10~20분)가 쌓여 있어도 바로 시작한다
 concurrency:
-  group: produce
+  group: ${{ startsWith(github.event.head_commit.message, 'urgent') && 'produce-urgent' || 'produce' }}
   cancel-in-progress: false
 
 jobs:
@@ -43,6 +46,7 @@ jobs:
         id: find
         env:
           INPUT_SCRIPT: ${{ inputs.script }}
+          URGENT: ${{ startsWith(github.event.head_commit.message, 'urgent') && '1' || '' }}
         run: |
           if [ -n "$INPUT_SCRIPT" ]; then
             files="$INPUT_SCRIPT"
@@ -58,12 +62,21 @@ jobs:
           old = {"morning": "0730", "evening": "1700"}
           out = []
           for f in sorted(glob.glob("scripts/*.json")):
-              m = re.search(r"(\d{4}-\d{2}-\d{2})-(morning|evening|\d{4})\.json$", f)
+              m = re.search(r"(\d{4}-\d{2}-\d{2})-(morning|evening|u?\d{4})\.json$", f)
               if not m or f"{m.group(1)}-{m.group(2)}" in done:
                   continue
-              hhmm = old.get(m.group(2), m.group(2))
+              urgent = m.group(2).startswith("u")
+              hhmm = old.get(m.group(2), m.group(2).lstrip("u"))
               at = dt.datetime.strptime(m.group(1) + hhmm, "%Y-%m-%d%H%M").replace(tzinfo=KST)
-              if at > now - dt.timedelta(hours=3):   # 3시간 넘게 지난 회차는 다시 시도하지 않는다
+              if os.environ.get("URGENT"):
+                  # 긴급 줄은 긴급 대본만 (정규 줄이 같은 파일을 동시에 렌더하지 않게)
+                  if urgent and at > now - dt.timedelta(hours=1):
+                      out.append(f)
+              elif urgent:
+                  # 정규 줄은 긴급 줄이 놓친 것만 (40분 지나도 기록이 없을 때) 이어받는다
+                  if now - dt.timedelta(hours=3) < at < now - dt.timedelta(minutes=40):
+                      out.append(f)
+              elif at > now - dt.timedelta(hours=3):   # 3시간 넘게 지난 회차는 다시 시도하지 않는다
                   out.append(f)
           print(" ".join(out))
           PY
@@ -138,11 +151,24 @@ jobs:
         run: |
           git config user.name "issue-shorts-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add state
-          git diff --cached --quiet && exit 0
-          git commit -q -m "state: $(date -u +%FT%TZ)"
-          # 클라우드 작업이 claude/** 브랜치에 올렸어도 대본·기록이 main 에 남게 main 위로 올린다
-          for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
+          # 긴급 줄과 정규 줄이 동시에 기록을 올리면 history.json 끝에 같이 덧붙여 rebase 가 충돌한다
+          # → 매번 main 최신 기록을 받아 이번 실행의 기록을 합쳐서 올린다 (클라우드 작업이 claude/** 에 올렸어도 main 에 남는다)
+          cp state/history.json /tmp/mine.json
+          for i in 1 2 3 4 5; do
+            git fetch -q origin main && git reset -q --hard origin/main
+            python3 - <<'PY'
+          import json
+          main = json.load(open("state/history.json", encoding="utf-8"))
+          seen = {(r.get("key"), r.get("started")) for r in main}
+          main += [r for r in json.load(open("/tmp/mine.json", encoding="utf-8")) if (r.get("key"), r.get("started")) not in seen]
+          json.dump(main, open("state/history.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+          PY
+            git add state
+            git diff --cached --quiet && exit 0
+            git commit -q -m "state: $(date -u +%FT%TZ)"
+            git push -q origin HEAD:main && break
+            sleep $((RANDOM % 8 + 3))
+          done
 
       - name: 결과물 보관 (7일)
         if: always() && steps.find.outputs.files != ''

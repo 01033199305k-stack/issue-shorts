@@ -63,6 +63,7 @@ PY
 - `score` 는 댓글 수(게시판 안 백분위) + 여러 커뮤니티 동시 화제 가산점 + 댓글 많은 기사와 제목이 겹치면(`기사화`) 가산점이다. 위에서부터 본다.
 - `news_hot` 은 커뮤니티 글이 아니라 기사다. 커뮤니티 후보가 모자랄 때만 쓰고, 그때 `source_post` 에는 기사 URL 을 넣는다.
 - 이미 다룬 글은 이미 빠져 있다. 그래도 `state/history.json`·`scripts/*.json` 의 `title` 과 같은 사건이면 뺀다.
+- `inbox/urgent.json` 의 후보 중 `detected_at` 이 6시간 안인 것은 긴급 루틴(ROUTINE_URGENT.md) 몫이니 고르지 않는다 (같은 사건 두 번 방지).
 - 이번에 쓸 대본마다 **서로 다른 사건**을 고른다. 최근 기록(`state/history.json` 끝 40개의 `title`)과 같은 사건도 뺀다.
 - `generated_at` 이 6시간보다 오래됐으면(수집 실패) WebSearch 로 "오늘 커뮤니티 화제", "실시간 베스트 논란" 같은 검색을 해서 후보를 직접 찾는다.
 

@@ -38,7 +38,8 @@ def pick_slot(name: str | None, now: dt.datetime, day: str | None = None) -> tup
     if not name or name == "auto":   # 다음 정각
         nxt = now + dt.timedelta(hours=1)
         name = f"{nxt.hour:02d}00"
-    h, m = SLOTS[name] if name in SLOTS else (int(name[:2]), int(name[2:]))
+    hhmm = name.lstrip("u")          # u2215 = 긴급 대본 (22:15 에 쓴 것, 영상이 나오면 바로 공개)
+    h, m = SLOTS[name] if name in SLOTS else (int(hhmm[:2]), int(hhmm[2:]))
     base = dt.datetime.strptime(day, "%Y-%m-%d").replace(tzinfo=KST) if day else now
     return name, base.replace(hour=h, minute=m, second=0, microsecond=0)
 
@@ -73,7 +74,7 @@ def main() -> int:
         cfg.update(yaml.safe_load(local.read_text(encoding="utf-8")) or {})
     now = dt.datetime.now(KST)
     day, slot_name = args.date, args.slot
-    m = re.search(r"(\d{4}-\d{2}-\d{2})-(morning|evening|\d{4})\.json$", args.script or "")
+    m = re.search(r"(\d{4}-\d{2}-\d{2})-(morning|evening|u?\d{4})\.json$", args.script or "")
     if m:
         day = day or m.group(1)
         slot_name = m.group(2) if slot_name in (None, "auto") else slot_name
@@ -143,9 +144,16 @@ def main() -> int:
         print("[5/5] dry-run: 업로드 생략 ->", video)
     else:
         import upload
-        # 회차 시각보다 90분 넘게 늦었으면 공개하지 않고 비공개로만 둔다 (운영자가 스튜디오에서 판단)
-        late = dt.datetime.now(KST) - publish_at > dt.timedelta(minutes=90)
-        print("[5/5] 유튜브 업로드 " + ("(회차 시각을 넘겨 비공개로만)" if late else "(예약 공개)"))
+        if slot.startswith("u"):
+            # 긴급: 업로드 3분 뒤 공개 (그 3분이 폰 검수 시간). 화제가 식기 전에 내보내는 게 목적이라 늦음 규칙 없음
+            late = False
+            publish_at = dt.datetime.now(KST) + dt.timedelta(minutes=3)
+            record["publish_at"] = publish_at.isoformat()
+            print("[5/5] 유튜브 업로드 (긴급 - 3분 뒤 공개)")
+        else:
+            # 회차 시각보다 90분 넘게 늦었으면 공개하지 않고 비공개로만 둔다 (운영자가 스튜디오에서 판단)
+            late = dt.datetime.now(KST) - publish_at > dt.timedelta(minutes=90)
+            print("[5/5] 유튜브 업로드 " + ("(회차 시각을 넘겨 비공개로만)" if late else "(예약 공개)"))
         res = upload.upload(str(video), yt["title"], yt["description"], yt["tags"], publish_at,
                             private_only=late)
         record["late"] = late

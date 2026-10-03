@@ -1,12 +1,13 @@
 # 커뮤니티 인기글 수집 → inbox/latest.json.
 # 대본을 쓰는 클라우드 예약 작업(3시간마다)은 시작할 때 이 워크플로를 직접 돌린다. 그 작업은 커뮤니티 사이트에 직접 접속하지 못해서(보안 프록시)
-# 접속이 되는 Actions 러너가 미리 모아 둔다. GitHub 예약 실행은 늦기도 해서 1시간 30분 먼저 돈다.
+# 접속이 되는 Actions 러너가 미리 모아 둔다.
+# 30분마다도 돈다: 지금 막 터진 화제(은행 해킹 [속보] 같은)가 보이면 urgent.py 가 inbox/urgent.json 을 쓰고,
+# 아래 마지막 단계가 긴급 대본 루틴(ROUTINE_URGENT.md)을 깨운다 → 영상이 나오면 3분 뒤 공개.
 name: gather
 
 on:
   schedule:
-    - cron: "30 17 * * *"   # 02:30 KST
-    - cron: "30 3 * * *"    # 12:30 KST
+    - cron: "7,37 * * * *"   # 30분마다 (정각은 GitHub 예약 실행이 몰려서 늦는다)
   workflow_dispatch:
 
 permissions:
@@ -36,3 +37,19 @@ jobs:
           git diff --cached --quiet && exit 0
           git commit -q -m "inbox: $(TZ=Asia/Seoul date +'%F %H:%M')"
           for i in 1 2 3; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 5; done
+
+      # 긴급 소재를 새로 잡았으면(urgent.json 이 이번에 바뀜) 긴급 대본 루틴을 깨운다.
+      # URGENT_HOOK_URL·URGENT_HOOK_TOKEN: claude.ai 루틴 화면의 API 트리거에서 받은 주소·토큰 (없으면 건너뜀)
+      - name: 긴급 대본 루틴 깨우기
+        env:
+          HOOK_URL: ${{ secrets.URGENT_HOOK_URL }}
+          HOOK_TOKEN: ${{ secrets.URGENT_HOOK_TOKEN }}
+        run: |
+          [ -f .urgent_fired ] || { echo "새 긴급 소재 없음"; exit 0; }
+          if [ -z "$HOOK_URL" ]; then echo "::warning::긴급 소재가 있지만 URGENT_HOOK_URL 시크릿이 없음"; exit 0; fi
+          body=$(python3 -c "import json; c=json.load(open('inbox/urgent.json'))['candidates']; print(json.dumps({'text': '긴급 소재 감지: ' + ' / '.join(x['title'] for x in c)[:300] + ' - ROUTINE_URGENT.md 대로 처리'}, ensure_ascii=False))")
+          headers=(-H "Content-Type: application/json" -H "anthropic-version: 2023-06-01")
+          [ -n "$HOOK_TOKEN" ] && headers+=(-H "Authorization: Bearer $HOOK_TOKEN")
+          code=$(curl -s -o /tmp/hook.txt -w '%{http_code}' -X POST "$HOOK_URL" "${headers[@]}" -d "$body")
+          echo "루틴 호출 $code: $(head -c 300 /tmp/hook.txt)"
+          case "$code" in 2*) ;; *) echo "::error::긴급 루틴 호출 실패 $code"; exit 1;; esac

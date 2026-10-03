@@ -44,7 +44,7 @@ def upload(video_path: str, title: str, description: str, tags: list[str],
     status = {"selfDeclaredMadeForKids": False}
     if private_only:
         status["privacyStatus"] = "private"
-    elif publish_at and publish_at > now + dt.timedelta(minutes=10):
+    elif publish_at and publish_at > now + dt.timedelta(minutes=2):   # 긴급 대본은 3분 뒤 예약
         status["privacyStatus"] = "private"
         status["publishAt"] = publish_at.astimezone(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%S.000Z")
     else:
