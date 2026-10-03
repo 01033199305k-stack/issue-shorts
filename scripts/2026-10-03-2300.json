@@ -1,242 +1,138 @@
 {
  "skip": false,
  "skip_reason": "",
- "slug": "bus-phone-call-spit",
+ "slug": "gimhae-bus-phone-call-taxi",
  "title_lines": [
-  "택시 타라고?",
-  "버스 통화 적반하장"
+  "싫으면 택시 타?",
+  "김해 버스 통화 소동"
  ],
  "credit": "자료: 뉴스1·서울신문(2026.9.28) · AI 음성",
  "segments": [
   {
-   "text": "버스에서 전화 좀 끊어 달랬더니, 바닥에 침 뱉고 내림.",
-   "say": "버스에서 전화 좀 끊어 달랬더니, 바닥에 침 뱉고 내림.",
+   "text": "버스에서 크게 통화하더니, 승객들한테 택시 타래. 말이 됨?",
+   "say": "버스에서 크게 통화하더니, 승객들한테 택시 타래. 말이 됨?",
    "sfx": "dudung",
+   "tone": "어이가 없어 첫마디부터 목소리를 확 높여서",
    "visual": {
-    "bg": "white",
+    "bg": "city",
     "items": [
      {
       "type": "illust",
       "q": [
-       "バス",
-       "路線バス"
-      ],
-      "pos": "center",
-      "size": "l",
-      "at": 0.0,
-      "fx": "pop"
-     },
-     {
-      "type": "emoji",
-      "text": "💢",
-      "pos": "top-right",
-      "size": "s",
-      "at": 0.5,
-      "fx": "shake"
-     },
-     {
-      "type": "text",
-      "text": "적반하장",
-      "style": "stamp",
-      "pos": "bottom-right",
-      "at": 0.7,
-      "fx": "stamp"
-     }
-    ]
-   }
-  },
-  {
-   "text": "근데 내리기 전에 한 말이 더 어이없음.",
-   "say": "근데 내리기 전에 한 말이 더 어이없음.",
-   "sfx": "question",
-   "visual": {
-    "bg": "white",
-    "items": [
-     {
-      "type": "illust",
-      "q": [
-       "驚く 男性",
-       "考える 男性"
-      ],
-      "pos": "center",
-      "size": "l",
-      "at": 0.0,
-      "fx": "pop"
-     },
-     {
-      "type": "text",
-      "text": "무슨 말을?",
-      "style": "label",
-      "pos": "top",
-      "at": 0.2,
-      "fx": "pop"
-     },
-     {
-      "type": "emoji",
-      "text": "❓",
-      "pos": "top-right",
-      "size": "s",
-      "at": 0.4,
-      "fx": "shake"
-     }
-    ]
-   }
-  },
-  {
-   "text": "경남 김해의 한 시내버스에서 벌어진 일임.",
-   "say": "경남 김해의 한 시내버스에서 벌어진 일임.",
-   "sfx": "whoosh",
-   "visual": {
-    "bg": "white",
-    "items": [
-     {
-      "type": "text",
-      "text": "경남 김해",
-      "style": "label",
-      "pos": "top",
-      "at": 0.0,
-      "fx": "pop"
-     }
-    ],
-    "video": "city bus street"
-   }
-  },
-  {
-   "text": "한 승객이 큰 목소리로 한참 동안 통화를 이어감.",
-   "say": "한 승객이 큰 목소리로 한참 동안 통화를 이어감.",
-   "sfx": "whoosh",
-   "visual": {
-    "bg": "white",
-    "items": [
-     {
-      "type": "illust",
-      "q": [
-       "電話 女性",
-       "スマートフォン 女性",
-       "電話"
+       "路線バス",
+       "ノンステップバス"
       ],
       "pos": "left",
       "size": "l",
       "at": 0.0,
-      "fx": "slide-right"
+      "fx": "slide-right",
+      "emoji": "🚌"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "大声"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.08,
+      "fx": "pop",
+      "emoji": "🗣️"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "right",
+      "size": "s",
+      "at": 0.18,
+      "fx": "shake",
+      "dx": -170,
+      "dy": -200
      },
      {
       "type": "text",
-      "text": "장시간 통화",
+      "text": "듣기 싫으면 택시 타",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.4,
+      "fx": "shake"
+     },
+     {
+      "type": "emoji",
+      "text": "🚕",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.58,
+      "fx": "run-left"
+     },
+     {
+      "type": "text",
+      "text": "말이 됨?",
+      "style": "red",
+      "pos": "bottom",
+      "at": 0.78,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 이건 예고편, 본편은 내릴 때 나옴.",
+   "say": "근데 이건 예고편, 본편은 내릴 때 나옴.",
+   "sfx": "question",
+   "tone": "목소리 확 낮춰 비밀 털어놓듯, 말끝은 분명하게",
+   "visual": {
+    "bg": "white",
+    "video": "bus interior",
+    "items": [
+     {
+      "type": "text",
+      "text": "예고편",
+      "style": "label",
+      "pos": "top-left",
+      "at": 0.05,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍿",
+      "pos": "top-right",
+      "size": "m",
+      "at": 0.15,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "본편은 하차 때",
+      "style": "red",
+      "pos": "center",
+      "at": 0.55,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경남 김해 시내버스, 한 승객이 큰 소리로 통화 중.",
+   "say": "경남 김해 시내버스, 한 승객이 큰 소리로 통화 중.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "video": "city bus driving street",
+    "items": [
+     {
+      "type": "text",
+      "text": "경남 김해 시내버스",
       "style": "label",
       "pos": "top",
-      "at": 0.3,
-      "fx": "pop"
+      "at": 0.0,
+      "fx": "drop"
      },
      {
       "type": "emoji",
       "text": "📢",
-      "pos": "right",
-      "size": "s",
-      "at": 0.5,
-      "fx": "shake"
-     }
-    ]
-   }
-  },
-  {
-   "text": "기사가 몇 번이나 전화를 끊어 달라고 했지만, 계속 무시함.",
-   "say": "기사가 몇 번이나 전화를 끊어 달라고 했지만, 계속 무시함.",
-   "sfx": "whoosh",
-   "visual": {
-    "bg": "white",
-    "items": [
-     {
-      "type": "illust",
-      "q": [
-       "バス 運転手",
-       "運転手"
-      ],
-      "pos": "left",
+      "pos": "center",
       "size": "l",
-      "at": 0.0,
-      "fx": "pop"
-     },
-     {
-      "type": "illust",
-      "q": [
-       "電話 女性",
-       "スマートフォン 女性",
-       "電話"
-      ],
-      "pos": "right",
-      "size": "l",
-      "at": 0.5,
-      "fx": "slide-left"
-     },
-     {
-      "type": "emoji",
-      "text": "💦",
-      "pos": "top-left",
-      "size": "s",
-      "at": 0.7,
-      "fx": "pop"
-     }
-    ]
-   }
-  },
-  {
-   "text": "참다못한 기사가 목소리를 높이자, 승객이 맞받아침.",
-   "say": "참다못한 기사가 목소리를 높이자, 승객이 맞받아침.",
-   "sfx": "whoosh",
-   "visual": {
-    "bg": "white",
-    "items": [
-     {
-      "type": "illust",
-      "q": [
-       "バス 運転手",
-       "運転手"
-      ],
-      "pos": "left",
-      "size": "l",
-      "at": 0.0,
-      "fx": "pop"
-     },
-     {
-      "type": "text",
-      "text": "전화 좀 끊으세요",
-      "style": "bubble",
-      "pos": "top",
-      "at": 0.2,
-      "fx": "pop"
-     },
-     {
-      "type": "emoji",
-      "text": "💢",
-      "pos": "top-right",
-      "size": "s",
-      "at": 0.7,
-      "fx": "shake"
-     }
-    ]
-   }
-  },
-  {
-   "text": "어디다 대고 소리를 지르냐는 것.",
-   "say": "어디다 대고 소리를 지르냐는 것.",
-   "sfx": "exclaim",
-   "visual": {
-    "bg": "red",
-    "items": [
-     {
-      "type": "text",
-      "text": "어디다 대고",
-      "style": "bubble",
-      "pos": "top",
-      "at": 0.0,
-      "fx": "pop"
-     },
-     {
-      "type": "text",
-      "text": "소리를 지르냐",
-      "style": "bubble",
-      "pos": "bottom",
       "at": 0.45,
       "fx": "shake"
      }
@@ -244,8 +140,58 @@
    }
   },
   {
-   "text": "그러고는 휴대폰으로 기사 사진까지 찍음.",
-   "say": "그러고는 휴대폰으로 기사 사진까지 찍음.",
+   "text": "아니, 이 통화가 끝날 생각을 안 함.",
+   "say": "아니, 이 통화가 끝날 생각을 안 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "crowd",
+      "q": "うるさい スピーカー",
+      "count": 3,
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop",
+      "emoji": "🔊"
+     },
+     {
+      "type": "emoji",
+      "text": "⏳",
+      "pos": "left",
+      "size": "s",
+      "at": 0.25,
+      "fx": "shake",
+      "dy": -10
+     },
+     {
+      "type": "crowd",
+      "q": [
+       "耳をふさぐ 男性",
+       "耳をふさぐ 女性"
+      ],
+      "count": 3,
+      "pos": "center",
+      "at": 0.45,
+      "fx": "pop",
+      "emoji": "🙉",
+      "dy": 150
+     },
+     {
+      "type": "text",
+      "text": "(아직도 통화 중)",
+      "style": "small",
+      "pos": "right",
+      "at": 0.75,
+      "fx": "pop",
+      "dy": -10
+     }
+    ]
+   }
+  },
+  {
+   "text": "기사가 여러 번 끊어 달래도, 들은 척도 안 함.",
+   "say": "기사가 여러 번 끊어 달래도, 들은 척도 안 함.",
    "sfx": "whoosh",
    "visual": {
     "bg": "white",
@@ -253,197 +199,500 @@
      {
       "type": "illust",
       "q": [
-       "スマートフォン 撮影",
-       "撮影 スマートフォン"
+       "運転手 お辞儀",
+       "運転手 男性"
       ],
-      "pos": "center",
-      "size": "l",
+      "pos": "left",
+      "size": "m",
       "at": 0.0,
-      "fx": "pop"
+      "fx": "slide-right",
+      "emoji": "🙇",
+      "dy": 80
      },
      {
       "type": "emoji",
-      "text": "📸",
-      "pos": "top-right",
+      "text": "🙏",
+      "pos": "left",
       "size": "s",
+      "at": 0.15,
+      "fx": "pop",
+      "dx": 150,
+      "dy": -60
+     },
+     {
+      "type": "crowd",
+      "q": "うるさい スピーカー",
+      "count": 8,
+      "pos": "top",
       "at": 0.4,
-      "fx": "shake"
-     }
-    ]
-   }
-  },
-  {
-   "text": "자, 그 승객이 남긴 말이 공개됨.",
-   "say": "자, 그 승객이 남긴 말이 공개됨.",
-   "sfx": "question",
-   "visual": {
-    "bg": "white",
-    "items": [
-     {
-      "type": "illust",
-      "q": [
-       "電話 女性",
-       "スマートフォン 女性",
-       "電話"
-      ],
-      "pos": "center",
-      "size": "l",
-      "at": 0.0,
-      "fx": "zoom"
+      "fx": "pop",
+      "emoji": "🔊"
      },
      {
-      "type": "text",
-      "text": "남긴 말은?",
-      "style": "label",
-      "pos": "top",
-      "at": 0.2,
-      "fx": "pop"
-     }
-    ]
-   }
-  },
-  {
-   "text": "제보자에 따르면, 버스나 모는 게 운전이나 하라고 함.",
-   "say": "제보자에 따르면, 버스나 모는 게 운전이나 하라고 함.",
-   "sfx": "exclaim",
-   "visual": {
-    "bg": "red",
-    "items": [
-     {
-      "type": "text",
-      "text": "버스나 모는 게",
-      "style": "bubble",
-      "pos": "top",
-      "at": 0.2,
-      "fx": "pop"
-     },
-     {
-      "type": "text",
-      "text": "운전이나 해",
-      "style": "bubble",
-      "pos": "bottom",
-      "at": 0.6,
-      "fx": "shake"
-     }
-    ]
-   }
-  },
-  {
-   "text": "다른 승객들한테는, 전화 소리 듣기 싫으면 택시 타라고 함.",
-   "say": "다른 승객들한테는, 전화 소리 듣기 싫으면 택시 타라고 함.",
-   "sfx": "punch",
-   "visual": {
-    "bg": "white",
-    "items": [
-     {
-      "type": "illust",
-      "q": [
-       "タクシー"
-      ],
+      "type": "emoji",
+      "text": "💤",
       "pos": "right",
-      "size": "l",
-      "at": 0.4,
-      "fx": "slide-left"
-     },
-     {
-      "type": "text",
-      "text": "싫으면 택시 타",
-      "style": "bubble",
-      "pos": "top",
-      "at": 0.0,
-      "fx": "pop"
+      "size": "m",
+      "at": 0.68,
+      "fx": "shake",
+      "dy": 60
      }
     ]
    }
   },
   {
-   "text": "그리고 내리기 직전, 버스 바닥에 침까지 뱉고 떠남.",
-   "say": "그리고 내리기 직전, 버스 바닥에 침까지 뱉고 떠남.",
-   "sfx": "absurd",
+   "text": "참다못한 기사가 목소리를 높임. 전화 좀 끊으세요!",
+   "say": "참다못한 기사가 목소리를 높임. 전화 좀 끊으세요!",
+   "sfx": "exclaim",
+   "tone": "참다 참다 터진 듯 한 글자씩 힘주어서",
    "visual": {
-    "bg": "white",
+    "bg": "sky",
     "items": [
      {
       "type": "illust",
       "q": [
-       "バス",
-       "路線バス"
+       "運転手 男性",
+       "運転手 女性"
       ],
       "pos": "center",
       "size": "l",
       "at": 0.0,
-      "fx": "pop"
+      "fx": "zoom",
+      "emoji": "🚍",
+      "dy": 40
      },
      {
       "type": "emoji",
-      "text": "💦",
-      "pos": "bottom-right",
+      "text": "💢",
+      "pos": "center",
       "size": "s",
+      "at": 0.3,
+      "fx": "pop",
+      "dx": 170,
+      "dy": -170
+     },
+     {
+      "type": "text",
+      "text": "전화 좀 끊으세요",
+      "style": "bubble",
+      "pos": "top",
       "at": 0.5,
       "fx": "shake"
      },
      {
-      "type": "text",
-      "text": "침까지",
-      "style": "red",
-      "pos": "top",
-      "at": 0.4,
-      "fx": "shake"
+      "type": "illust",
+      "q": [
+       "静かに マーク",
+       "おしゃべり 禁止"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop",
+      "emoji": "🤫"
      }
     ]
    }
   },
   {
-   "text": "이 승객 말에 공감 되는 사람?",
-   "say": "이 승객 말에 공감 되는 사람?",
+   "text": "돌아온 말이, 어디다 대고 소리를 지르고 난리냐.",
+   "say": "돌아온 말이, 어디다 대고 소리를 지르고 난리냐.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "運転手 男性",
+       "運転手 女性"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop",
+      "emoji": "🚍",
+      "dy": 60
+     },
+     {
+      "type": "emoji",
+      "text": "🗣️",
+      "pos": "right",
+      "size": "l",
+      "at": 0.1,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "어디다 대고",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.35,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "소리를 지르고 난리냐",
+      "style": "bubble",
+      "pos": "bottom",
+      "at": 0.6,
+      "fx": "shake"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "left",
+      "size": "s",
+      "at": 0.8,
+      "fx": "drop",
+      "dx": 110,
+      "dy": -200
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 제보자 말로는 기사한테 버스나 모는 게, 이랬다 함.",
+   "say": "와, 제보자 말로는 기사한테 버스나 모는 게, 이랬다 함.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ショック メガネ",
+       "唖然 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop",
+      "emoji": "😨",
+      "dy": 60
+     },
+     {
+      "type": "text",
+      "text": "제보자 전언",
+      "style": "label",
+      "pos": "top-left",
+      "at": 0.05,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "버스나 모는 게",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.4,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "(이걸 기사한테?)",
+      "style": "small",
+      "pos": "bottom-right",
+      "at": 0.75,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "게다가 휴대폰으로 기사 사진까지 찍음.",
+   "say": "게다가 휴대폰으로 기사 사진까지 찍음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "smartphone camera",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "📸",
+      "pos": "center",
+      "size": "l",
+      "at": 0.15,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "찰칵",
+      "style": "label",
+      "pos": "top",
+      "at": 0.45,
+      "fx": "stamp"
+     },
+     {
+      "type": "text",
+      "text": "(기사 사진까지?)",
+      "style": "small",
+      "pos": "bottom",
+      "at": 0.75,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 다른 승객들한텐 또, 전화 소리 듣기 싫으면 택시 타래.",
+   "say": "헐, 다른 승객들한텐 또, 전화 소리 듣기 싫으면 택시 타래.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "crowd",
+      "q": [
+       "耳をふさぐ 男性",
+       "耳をふさぐ 女性"
+      ],
+      "count": 12,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop",
+      "emoji": "🙉",
+      "dy": 20
+     },
+     {
+      "type": "text",
+      "text": "듣기 싫으면 택시 타",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.45,
+      "fx": "shake"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "タクシー",
+       "タクシー 運転手"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "run-left",
+      "emoji": "🚕"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 드디어 본편, 내리기 직전임.",
+   "say": "자, 드디어 본편, 내리기 직전임.",
    "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "video": "bus door opening",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "fade"
+     },
+     {
+      "type": "text",
+      "text": "하차 직전",
+      "style": "label",
+      "pos": "top",
+      "at": 0.55,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "버스 바닥에 침까지 뱉고 내렸다 함, 이건 선 넘었음.",
+   "say": "버스 바닥에 침까지 뱉고 내렸다 함, 이건 선 넘었음.",
+   "sfx": "stamp",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
    "visual": {
     "bg": "white",
     "items": [
      {
       "type": "illust",
       "q": [
-       "考える 男性",
+       "つば 吐く"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "drop",
+      "emoji": "💦"
+     },
+     {
+      "type": "text",
+      "text": "바닥에 침 퉤",
+      "style": "stamp",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 目",
        "驚く 男性"
       ],
-      "pos": "center",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop",
+      "emoji": "😱"
+     },
+     {
+      "type": "text",
+      "text": "선 넘었음",
+      "style": "red",
+      "pos": "top",
+      "at": 0.75,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "참고로 택시 타라던 그 말, 정작 버스 안에서 나왔음.",
+   "say": "참고로 택시 타라던 그 말, 정작 버스 안에서 나왔음.",
+   "sfx": "absurd",
+   "tone": "아무렇지 않은 척 담담하게 툭 던지듯, 말끝은 분명하게",
+   "visual": {
+    "bg": "sky",
+    "items": [
+     {
+      "type": "illust",
+      "q": "バス 座席",
+      "pos": "left",
       "size": "l",
+      "at": 0.0,
+      "fx": "pop",
+      "emoji": "💺",
+      "dy": 40
+     },
+     {
+      "type": "illust",
+      "q": [
+       "タクシー",
+       "タクシー 運転手"
+      ],
+      "pos": "right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "run-right",
+      "emoji": "🚕",
+      "dy": -110
+     },
+     {
+      "type": "illust",
+      "q": [
+       "乗用車",
+       "ドライブ 車"
+      ],
+      "pos": "right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "run-right",
+      "emoji": "🚗",
+      "dy": 130
+     },
+     {
+      "type": "text",
+      "text": "여기 버스인데?",
+      "style": "red",
+      "pos": "top",
+      "at": 0.75,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들은 버스 통화, 짧게는 괜찮음? 아예 안 됨?",
+   "say": "님들은 버스 통화, 짧게는 괜찮음? 아예 안 됨?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
       "at": 0.0,
       "fx": "pop"
      },
      {
-      "type": "emoji",
-      "text": "❓",
-      "pos": "top-right",
+      "type": "text",
+      "text": "① 짧게는 괜찮음",
+      "style": "row",
+      "pos": "center",
+      "at": 0.25,
+      "fx": "slide-left",
+      "dy": -100
+     },
+     {
+      "type": "text",
+      "text": "② 아예 안 됨",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "slide-left",
+      "dy": 50
+     },
+     {
+      "type": "illust",
+      "q": "大声 禁止",
+      "pos": "bottom-left",
       "size": "s",
-      "at": 0.3,
-      "fx": "shake"
+      "at": 0.6,
+      "fx": "pop",
+      "emoji": "🔇"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "考え事 男性",
+       "考え事 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.72,
+      "fx": "pop",
+      "emoji": "🤔"
      }
     ]
    }
   }
  ],
  "youtube": {
-  "title": "전화 끊어 달랬더니 \"택시 타\"… 버스 통화 승객 적반하장 #shorts",
-  "description": "경남 김해의 한 시내버스에서 큰 목소리로 장시간 통화하던 승객이, 전화를 끊어 달라는 기사에게 막말을 했다는 제보가 전해졌습니다.\n승객은 기사 사진을 찍고 다른 승객들에게 '듣기 싫으면 택시 타라'고 했으며, 하차 직전 버스 바닥에 침을 뱉었다고 합니다.\n\n출처: 뉴스1 https://www.news1.kr/society/general-society/6302339\n※ AI 음성으로 제작했습니다.\n#버스 #버스기사 #적반하장 #대중교통 #이슈",
+  "title": "싫으면 택시 타라고? 김해 시내버스 통화 승객, 막말에 침까지 #shorts",
+  "description": "경남 김해의 한 시내버스에서 한 승객이 큰 목소리로 오랫동안 통화했고, 기사가 여러 차례 끊어 달라고 했지만 무시했습니다.\n기사가 목소리를 높이자 승객은 \"어디다 대고 소리를 지르고 난리냐\"며 맞받아쳤고, 제보자에 따르면 \"버스나 모는 게\" 같은 막말도 했다고 합니다.\n다른 승객들에게는 \"전화 소리 듣기 싫으면 택시 타\"라고 했다고 합니다.\n제보자에 따르면 이 승객은 휴대폰으로 기사 사진을 찍었고, 하차 직전 버스 바닥에 침을 뱉고 내렸다고 합니다.\n\n출처: 뉴스1 https://www.news1.kr/society/general-society/6302339\n출처: 서울신문 https://www.seoul.co.kr/news/society/2026/09/28/20260928500020\n※ AI 음성으로 제작했습니다.\n#김해 #시내버스 #버스기사 #대중교통매너 #이슈",
   "tags": [
-   "버스",
+   "김해",
+   "시내버스",
    "버스기사",
-   "통화",
+   "버스 통화",
+   "대중교통 매너",
    "적반하장",
-   "대중교통",
-   "민폐",
+   "택시",
    "이슈"
   ]
  },
  "source_post": "https://www.news1.kr/society/general-society/6302339",
  "facts_used": [
-  "경남 김해 시내버스, 승객이 큰 목소리로 장시간 통화 [뉴스1 2026.9.28 https://www.news1.kr/society/general-society/6302339, 머니투데이 2026.9.28 https://www.mt.co.kr/society/2026/09/28/2026092808093069054]",
-  "기사가 여러 차례 끊어 달라 요청, 무시 후 '전화 좀 끊으세요' 목소리 높임 → '어디다 대고 소리를 지르고 난리냐' [머니투데이, 서울신문 2026.9.28 https://www.seoul.co.kr/news/society/2026/09/28/20260928500020]",
-  "기사 사진 촬영 [서울신문, 뉴스1]",
-  "'버스나 모는 게', '운전이나 하라' 취지 막말 (제보자 전언) [뉴스1 제목, 서울신문 제목, 네이트 2026.9.28]",
-  "다른 승객에게 '전화 소리 듣기 싫으면 택시 타라' 취지 [뉴스1 제목]",
-  "하차 직전 버스 바닥에 침 [머니투데이, 서울신문, 위키트리]"
+  "경남 김해의 한 시내버스에서 한 승객이 큰 목소리로 장시간 통화 [뉴스1·머니투데이·서울신문 2026.9.28]",
+  "기사가 여러 차례 전화를 끊어 달라고 했으나 무시 [뉴스1·서울신문 2026.9.28]",
+  "참다못한 기사가 목소리를 높여 \"전화 좀 끊으세요\"라고 요청 (보도 원문의 호칭은 뺌) [뉴스1·서울신문 2026.9.28]",
+  "승객이 \"어디다 대고 소리를 지르고 난리냐\"며 맞받아침 [머니투데이·서울신문 2026.9.28]",
+  "기사에게 \"버스나 모는 게\"라는 막말 (제보자 전언) [뉴스1·서울신문 제목 2026.9.28]",
+  "다른 승객들에게 \"전화 소리 듣기 싫으면 택시 타\" [뉴스1 제목 2026.9.28]",
+  "승객이 휴대폰으로 기사 사진을 찍음 [뉴스1·서울신문 2026.9.28]",
+  "하차 직전 버스 바닥에 침을 뱉고 내림 (제보자 주장으로 보도) [머니투데이·서울신문·위키트리 2026.9.28]",
+  "12번 '택시 타라던 그 말, 정작 버스 안에서 나왔음'은 위 사실(시내버스 안에서 다른 승객들에게 한 말)에서 나온 내레이터 관찰이며, 사람이 아니라 말을 겨냥함"
  ],
- "brief": "23시 회차 재작성. inbox 후보 중 적합 소재가 없어 최근(9.28) 다수 보도된 생활 사건을 고름 (history·scripts 미중복). 확인된 사실: 김해 시내버스, 장시간 큰소리 통화, 기사 수차례 요청 무시, 실랑이, 기사 사진 촬영, 하차 직전 침 - 뉴스1·머니투데이·서울신문·네이트·위키트리. 발언은 제보자 전언이라 대본에 '제보자에 따르면' 표기, 매체마다 문구가 조금씩 달라 제목에 쓰인 짧은 구절('버스나 모는 게', '택시 타')만 말풍선에 씀. 주의: 일반인이므로 신상·외모 묘사 없음. 보도는 '여성 승객'이라 했으나 젠더 갈등 각도를 피하려고 '승객'으로만 씀. 제보 출처 방송(사건반장 등)은 확인 못 해 credit 은 뉴스1·서울신문."
+ "brief": "2026.9.28 보도(뉴스1, 머니투데이, 서울신문, 네이트, 위키트리). 경남 김해 시내버스에서 한 승객이 큰 목소리로 장시간 통화. 기사가 여러 차례 끊어 달라 했지만 무시하자, 기사가 목소리를 높여 \"전화 좀 끊으세요\" 요청(원문 호칭은 뺌). 승객은 \"어디다 대고 소리를 지르고 난리냐\"며 맞받아침(머니투데이·서울신문). 제보자 전언 막말: \"버스나 모는 게\"(뉴스1·서울신문). 소리로는 이 한 표현만 쓰고, 네이트 '운전기사면 버스나 몰라'·서울신문 '감히'는 매체별 이형일 수 있어 뺌. 다른 승객들에게 \"전화 소리 듣기 싫으면 택시 타\"(뉴스1 제목). 휴대폰으로 기사 사진 촬영(서울신문·뉴스1). 하차 직전 버스 바닥에 침을 뱉고 내림(머니투데이·서울신문·위키트리). 단일 출처라 뺀 것: 통화 내용(자동이체), 고객센터 신고 위협, 승객 나이·성별. 보도는 '여성 승객'이지만 젠더 각도를 피하려고 '승객'으로만 쓰고, 승객 그림은 제목에 성별이 없는 것(イヤホン 電話/大声, つば 吐く)과 이모지·스피커로만 표현. 각도: 템포·반전 — 훅에서 '택시 타'를 던지고, 1번 떡밥 '본편은 내릴 때'로 침 뱉기를 숨김, 10번 공개 예고(정적) 뒤 11번 도장 쾅으로 회수, 12번에서 '택시 타라던 그 말, 정작 버스 안에서 나왔음' 콜백(말을 겨냥) + 버스 좌석 앞을 택시·자가용이 지나가는 '여기 버스인데?' 화면 개그, 13번 투표형 질문. 볼륨 개그: 스피커 3→8, 귀 막은 사람 3→12. 검증 반영: 사진 촬영·침은 제보자 주장으로 보도돼 내레이션·설명에 \"했다 함/제보자에 따르면\"을 붙임, 이어폰 그림 제거, 말풍선은 조건문 그대로(듣기 싫으면 택시 타), 시간대(밤) 암시 제거, 촬영 동기 추측 자막 제거."
 }
