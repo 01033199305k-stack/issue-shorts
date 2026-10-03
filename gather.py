@@ -45,7 +45,7 @@ def headline(url: str) -> str:
     try:
         req = urllib.request.Request(url, headers={"User-Agent": scrape.UA})
         with urllib.request.urlopen(req, timeout=12) as r:
-            h = r.read(200_000).decode("utf-8", errors="replace")
+            h = scrape.decode(r.read(200_000), r.headers.get("Content-Type", ""))
     except Exception:
         return ""
     m = (re.search(r'<meta[^>]+property="og:title"[^>]+content="([^"]+)"', h)
@@ -53,15 +53,10 @@ def headline(url: str) -> str:
     return re.sub(r"\s+", " ", unescape(m.group(1))).strip()[:140] if m else ""
 
 
-def bare(title: str) -> str:
-    """'[잡갤] 제목' / '이누야샤)제목' 같은 말머리를 뗀 제목 (기사 제목과 비교용)."""
-    return re.sub(r"^\s*(\[[^\]]{1,12}\]|[^\s)]{1,10}\))\s*", "", title)
-
-
 def match_news(posts: list[dict], news: list[dict]) -> None:
     """커뮤니티 글 제목이 '댓글 많은 기사' 제목과 겹치면 기사 링크를 붙이고 점수를 올린다."""
     for p in posts:
-        t = bare(p["title"])
+        t = scrape.bare(p["title"])
         best = max(news, key=lambda n: difflib.SequenceMatcher(None, t, n["title"]).ratio(), default=None)
         if best and difflib.SequenceMatcher(None, t, best["title"]).ratio() > 0.5:
             p["in_news"] = best["press"]
@@ -74,10 +69,13 @@ def main() -> int:
     posts, warns = scrape.collect()
     try:
         news = scrape.news_ranking()
+        if not news:
+            warns.append("네이버 랭킹: 0건 (레이아웃 변경 또는 차단 페이지)")
     except Exception as ex:
         news = []
         warns.append(f"네이버 랭킹: {type(ex).__name__} {str(ex)[:100]}")
     used = used_posts()
+    news = [n for n in news if n["url"] not in used]   # 이미 다룬 기사는 가산점도 후보도 아니다
     ranked = scrape.rank(posts)
     match_news(ranked, news)
     ranked = sorted((p for p in ranked if p["url"] not in used), key=lambda r: -r["score"])[:40]
@@ -90,13 +88,13 @@ def main() -> int:
         p["news"] = [{"url": l, "headline": headline(l)} for l in links]
     out = {"generated_at": dt.datetime.now(KST).isoformat(timespec="minutes"),
            "warnings": warns, "posts": ranked,
-           "news_hot": [n for n in news if n["url"] not in used][:40]}
+           "news_hot": news[:40]}
     path = REPO / "inbox" / "latest.json"
     path.parent.mkdir(exist_ok=True)
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{len(ranked)} posts ({', '.join(sorted({p['board'] for p in ranked}))}), "
           f"{len(out['news_hot'])} news; warnings: {warns}")
-    return 0 if ranked else 1
+    return 0 if ranked or out["news_hot"] else 1   # 커뮤니티가 다 막혀도 기사 목록은 올린다
 
 
 if __name__ == "__main__":

@@ -111,7 +111,7 @@ WebFetch 는 대부분 막혀 있으니 한 번 시도해서 `EGRESS_BLOCKED` �
 ### 나머지 필드
 - `credit`: `"자료: <매체>(<날짜>) · AI 음성"` 40자 이내. 커뮤니티 소재면 `"자료: 온라인 커뮤니티 · AI 음성"`.
 - `youtube.title`(60자 이내, 끝에 ` #shorts`), `youtube.description`(3~4줄 요약, 빈 줄, `출처: <매체> <URL>`, `※ AI 음성으로 제작했습니다.`, 해시태그 4~6개), `youtube.tags`(5~10개)
-- `slug`(영문 소문자 kebab-case 3~5단어), `source_post`(고른 커뮤니티 글 URL), `facts_used`(대본에 쓴 사실과 출처), `brief`(취재 메모), `skip`: false, `skip_reason`: "".
+- `slug`(영문 소문자 kebab-case 3~5단어), `source_post`(고른 커뮤니티 글 URL, `news_hot` 기사를 골랐으면 기사 URL), `facts_used`(대본에 쓴 사실과 출처), `brief`(취재 메모), `skip`: false, `skip_reason`: "".
 
 **형식과 문체의 정답 예시: `examples/taiwan-taxi.json`** (13문장, 훅 → 떡밥 → 전개 → 공개 예고 → 회수 → 질문). 필드 구성을 그대로 따른다.
 

@@ -41,10 +41,17 @@ NEWS_RANKING = "https://news.naver.com/main/ranking/popularMemo.naver"   # 언�
 def get(url: str, timeout: int = 20) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
-        raw = r.read()
-        ctype = r.headers.get("Content-Type", "")
-    # 네이버 랭킹 등 일부는 아직 EUC-KR
-    euc = re.search(r"euc-kr|ks_c_5601", ctype, re.I) or re.search(rb'<meta[^>]+charset=["\']?(euc-kr|ks_c_5601)', raw[:3000], re.I)
+        return decode(r.read(), r.headers.get("Content-Type", ""))
+
+
+def decode(raw: bytes, ctype: str = "") -> str:
+    """HTTP 헤더의 charset 이 우선, 없으면 <meta charset>. 네이버 랭킹 등 EUC-KR 계열은 cp949 로 읽는다."""
+    m = re.search(r"charset=([\w-]+)", ctype, re.I)
+    cs = m.group(1) if m else ""
+    if not cs:
+        mm = re.search(rb'<meta[^>]+charset=["\']?([\w-]+)', raw[:3000], re.I)
+        cs = mm.group(1).decode("ascii", "ignore") if mm else ""
+    euc = cs.lower() in ("euc-kr", "ks_c_5601", "ks_c_5601-1987", "cp949", "x-windows-949")
     return raw.decode("cp949" if euc else "utf-8", errors="replace")
 
 
@@ -133,15 +140,15 @@ def parse_pann(h):
 
 def parse_bobae(h):
     for tr in re.findall(r'<tr itemscope itemtype="http://schema.org/Article">.*?</tr>', h, re.S):
-        a = re.search(r'class="bsubject"[^>]*?href="([^"]+)"[^>]*?title="([^"]*)"', tr, re.S)
-        if not a:
-            continue
-        no = re.search(r"No=(\d+)", unescape(a.group(1)))
-        if not no:
+        tag = re.search(r'<a [^>]*class="bsubject"[^>]*>', tr)   # 속성 순서와 상관없이 href·title 을 꺼낸다
+        href = re.search(r'href="([^"]+)"', tag.group(0)) if tag else None
+        title = re.search(r'title="([^"]*)"', tag.group(0)) if tag else None
+        no = re.search(r"No=(\d+)", unescape(href.group(1))) if href else None
+        if not (no and title):
             continue
         c = re.search(r'totreply">(\d+)', tr)
         v = re.search(r'class="count"[^>]*>([\d,]+)', tr)
-        yield {"title": text(a.group(2)), "url": "https://www.bobaedream.co.kr/view?code=best&No=" + no.group(1),
+        yield {"title": text(title.group(1)), "url": "https://www.bobaedream.co.kr/view?code=best&No=" + no.group(1),
                "views": num(v.group(1)) if v else 0, "comments": int(c.group(1)) if c else 0}
 
 
@@ -180,9 +187,10 @@ def news_ranking(per_press: int = 1) -> list[dict]:
 BODY_PATTERNS = [
     r'<div class="write_div".*?</div>\s*</div>',            # dcinside
     r'<article.*?</article>',                                # theqoo / fmkorea
-    r'class="[^"]*xe_content[^"]*".*?</div>',               # theqoo(rhymix_content xe_content) / fmkorea / dogdrip
     r'class="ed article-wrapper.*?class="ed article-footer', # dogdrip
     r'class="rd_body.*?class="rd_ft',
+    r'class="[^"]*xe_content[^"]*".*?<!--AfterDocument',     # theqoo(rhymix_content xe_content): XE/Rhymix 본문 끝 표시까지
+    r'class="[^"]*xe_content[^"]*".*?</div>',                # 그 표시가 없으면 첫 </div> 까지
     r'class="view_content.*?class="(?:admin_ui )?board_main_bottom',  # ruliweb
     r'id="contentArea".*?class="(?:tvp_area|btnbox|reply)',           # nate pann
     r'class="bodyCont".*?</div>',                                      # bobaedream
@@ -253,13 +261,33 @@ def rank(posts: list[dict]) -> list[dict]:
         floor = MIN_COMMENTS.get(board, 0)
         for i, r in enumerate(ordered):
             r["heat"] = (i + 1) / len(ordered) * (min(1.0, r["comments"] / floor) if floor else 1.0)
-    # Same story on several boards = it is genuinely the talk of the day.
+    # Same story on several sites = it is genuinely the talk of the day.
+    # 디시 실베·디시 HIT 처럼 한 사이트의 두 게시판은 한 곳으로 친다.
+    titles = {id(p): bare(p["title"]) for p in posts}
+
+    def same(a, b):
+        return difflib.SequenceMatcher(None, titles[id(a)], titles[id(b)]).ratio() > 0.55
+
     for p in posts:
-        others = {q["board"] for q in posts if q["board"] != p["board"] and
-                  difflib.SequenceMatcher(None, p["title"], q["title"]).ratio() > 0.55}
+        others = {site(q["board"]) for q in posts if site(q["board"]) != site(p["board"]) and same(p, q)}
         p["also_on"] = sorted(others)
         p["score"] = round(p["heat"] + 0.5 * len(others), 3)
-    return sorted(posts, key=lambda r: -r["score"])
+    # 같은 글이 한 사이트의 다른 게시판에도 올라와 있으면(실베 ↔ HIT) 점수 높은 쪽만 남긴다
+    kept: list[dict] = []
+    for p in sorted(posts, key=lambda r: -r["score"]):
+        if not any(k["board"] != p["board"] and site(k["board"]) == site(p["board"]) and same(p, k) for k in kept):
+            kept.append(p)
+    return kept
+
+
+def site(board: str) -> str:
+    """게시판 이름의 사이트 부분 ('디시 실베'·'디시 HIT' → '디시')."""
+    return board.split()[0]
+
+
+def bare(title: str) -> str:
+    """'[잡갤] 제목' / '이누야샤)제목' 같은 말머리를 뗀 제목 (게시판끼리, 기사 제목과 비교용)."""
+    return re.sub(r"^\s*(\[[^\]]{1,12}\]|[^\s)]{1,10}\))\s*", "", title)
 
 
 if __name__ == "__main__":
