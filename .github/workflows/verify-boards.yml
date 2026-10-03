@@ -12,32 +12,31 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: structure
+        shell: python
+        run: |
+          import sys, re; sys.path.insert(0, "."); import scrape
+          # 루리웹 목록: <tr ...> 클래스 종류
+          h = scrape.get(scrape.BOARDS["루리웹 베스트"])
+          print("ruliweb tr classes:", sorted(set(re.findall(r'<tr class="([^"]*)"', h)))[:15])
+          print("ruliweb subject_link:", h.count("subject_link"))
+          i = h.find("subject_link", h.find("subject_link", h.find("subject_link") + 1) + 1)
+          j = h.rfind("<tr", 0, h.find("subject_link", i + 3000))
+          print("ruliweb later row:", re.sub(r"\s+", " ", re.sub(r">[^<]{20,}<", ">…<", h[j:j + 700])))
+          # 본문 컨테이너 (태그 구조만, 글 내용은 출력하지 않음)
+          for name in ["루리웹 베스트", "엠팍 불펜", "더쿠 HOT", "보배드림 베스트", "네이트판"]:
+              rows = list(scrape.PARSERS[name](scrape.get(scrape.BOARDS[name])))
+              url = max(rows, key=lambda r: r["comments"])["url"]
+              p = scrape.get(url)
+              attrs = re.findall(r'''(?:class|id)=["']([^"']*(?:view_content|contentDetail|ar_txt|article|content|bodyCont|posting|rd_body|xe_content|board_main)[^"']*)["']''', p)
+              print(f"== {name} {len(p)} attrs:", list(dict.fromkeys(attrs))[:25])
       - name: boards
         shell: python
         run: |
           import sys; sys.path.insert(0, "."); import collections, scrape
           posts, warns = scrape.collect()
-          print("WARN", warns)
           by = collections.defaultdict(list)
           for p in posts: by[p["board"]].append(p)
           for b, rows in by.items():
-              cs = sorted(r["comments"] for r in rows)
-              print(f"{b}: {len(rows)} rows, comments min/med/max {cs[0]}/{cs[len(cs)//2]}/{cs[-1]}")
-              for r in sorted(rows, key=lambda r: -r["comments"])[:3]:
-                  print("   ", r["comments"], r["title"][:50], r["url"])
-              body = scrape.post_body(sorted(rows, key=lambda r: -r["comments"])[0]["url"])
-              print(f"    body: {len(body['text'])} chars, {len(body['links'])} links, err={body.get('error')}")
-          news = scrape.news_ranking()
-          print(f"news_ranking: {len(news)}")
-          for n in news[:5]: print("   ", n["press"], n["title"][:50], n["url"])
-      - name: gather
-        run: |
-          python gather.py
-          python - <<'PY'
-          import json
-          d = json.load(open('inbox/latest.json'))
-          print('warnings', d['warnings'])
-          for i, p in enumerate(d['posts'][:40], 1):
-              print(f"[{i}] {p['board']} 댓글{p['comments']} 점수{p['score']} 동시{p.get('also_on')} 기사화{p.get('in_news')} 뉴스{len(p.get('news', []))} {p['title'][:45]}")
-          print('news_hot', len(d['news_hot']))
-          PY
+              body = scrape.post_body(max(rows, key=lambda r: r["comments"])["url"])
+              print(f"{b}: {len(rows)} rows | top body {len(body['text'])} chars, {len(body['links'])} links")
