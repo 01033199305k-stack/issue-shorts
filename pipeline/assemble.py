@@ -112,11 +112,12 @@ def mux_final(
     if has_bgm:
         cmd += ["-stream_loop", "-1", "-i", str(bgm_path)]
         # Music is keyed off the narration itself, so it lifts in the gaps and
-        # pulls back under speech instead of sitting at one flat level.
+        # dips under speech. Ratio 4, not 12: shorts talk almost non-stop, and a
+        # hard duck kept the bed inaudible for the whole video.
         steps.append("[1:a]asplit=2[nar][key]")
         steps.append(f"[{idx}:a]volume={bgm_gain_db}dB[bed]")
         steps.append(
-            "[bed][key]sidechaincompress=threshold=0.03:ratio=12:attack=15:release=350[duck]"
+            "[bed][key]sidechaincompress=threshold=0.05:ratio=4:attack=20:release=300[duck]"
         )
         mix_labels += ["[nar]", "[duck]"]
         idx += 1

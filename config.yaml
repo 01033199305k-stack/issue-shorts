@@ -19,6 +19,7 @@ caption_words: 6
 caption_line_chars: 11
 
 bgm: assets/bgm/sneaking_around.mp3   # OpenGameArt CC0
+bgm_gain_db: -10                      # 배경음악 크기 (클수록 큼, -16 이면 말소리에 묻혀 거의 안 들림)
 sfx_dir: assets/sfx                   # 비공개 저장소(issue-shorts-assets)에서 받아 온다
 transition_sfx: whoosh
 

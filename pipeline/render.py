@@ -74,6 +74,7 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
         add(seg.get("sfx") or default_sfx, t - motion.LEAD)
 
     bgm = repo / cfg["bgm"] if cfg.get("bgm") else None
-    assemble.mux_final(video, narration, None, out_path, bgm_path=bgm, sfx=sfx)
+    assemble.mux_final(video, narration, None, out_path, bgm_path=bgm, sfx=sfx,
+                       bgm_gain_db=float(cfg.get("bgm_gain_db", -10)))
     return {"stock_clips": [c["url"] for c in clips if c], "duration": round(cursor, 2), "matches": [round(r.match, 2) for r in results],
             "sfx": len(sfx), "illustrations": len(picker.used), "cuts": len(cuts) + 1}
