@@ -64,4 +64,9 @@ jobs:
                    -H "anthropic-beta: experimental-cc-routine-2026-04-01" -H "Content-Type: application/json")
           code=$(printf '%s' "$body" | curl -s -o /tmp/hook.txt -w '%{http_code}' -X POST "$HOOK_URL" "${headers[@]}" --data-binary @- || true)
           echo "루틴 호출 $code: $(head -c 300 /tmp/hook.txt)"
-          case "$code" in 2*) ;; *) echo "::error::긴급 루틴 호출 실패 $code"; exit 1;; esac
+          case "$code" in 2*) exit 0;; esac
+          # 401 이면 대개 시크릿에 토큰이 아닌 값이 들어간 것 — 값은 찍지 않고 형식만 알려 준다
+          case "$HOOK_TOKEN" in sk-ant-oat01-*) fmt="sk-ant-oat01- 로 시작";; *) fmt="sk-ant-oat01- 로 시작하지 않음 → 토큰이 아닌 값";; esac
+          [[ "$HOOK_TOKEN" =~ [[:space:]] ]] && fmt="$fmt, 공백·줄바꿈 포함"
+          echo "::error::긴급 루틴 호출 실패 $code (URGENT_HOOK_TOKEN: 길이 ${#HOOK_TOKEN}, $fmt)"
+          exit 1
