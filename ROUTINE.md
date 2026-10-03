@@ -19,6 +19,8 @@ TZ=Asia/Seoul date +"%Y-%m-%d %H"
 
 이 클라우드 환경은 커뮤니티 사이트에 직접 접속하지 못한다(보안 프록시가 막음, WebFetch 도 마찬가지).
 그래서 GitHub Actions 가 02:30·12:30 KST 에 인기글을 모아 `inbox/latest.json` 에 올려 둔다.
+수집 대상: 디시(실베·HIT), 더쿠 HOT, 루리웹 베스트, 네이트판 랭킹, 보배드림 베스트, 엠팍 불펜 + 네이버 '댓글 많은 기사'.
+(에펨·개드립·아카라이브는 러너에서 막혀 있어 보통 경고로만 뜬다.)
 
 ```bash
 git pull origin main
@@ -27,13 +29,17 @@ import json
 d = json.load(open('inbox/latest.json'))
 print('수집 시각:', d['generated_at'], '| 경고:', d['warnings'])
 for i, p in enumerate(d['posts'], 1):
-    print(f"[{i}] {p['board']} 댓글{p['comments']} 점수{p['score']} 동시화제{p.get('also_on')} {p['title']}")
+    print(f"[{i}] {p['board']} 댓글{p['comments']} 점수{p['score']} 동시화제{p.get('also_on')} 기사화{p.get('in_news')} {p['title']}")
     print('    ' + p['url'])
     for n in p.get('news', []):
         print('    뉴스:', n['headline'], n['url'])
+print('--- 네이버 댓글 많은 기사 (언론사별 1위)')
+for n in d.get('news_hot', []):
+    print(f"  {n['press']}: {n['title']}  {n['url']}")
 PY
 ```
-- `score` 는 댓글 수(게시판 안 백분위) + 여러 커뮤니티 동시 화제 가산점이다. 위에서부터 본다.
+- `score` 는 댓글 수(게시판 안 백분위) + 여러 커뮤니티 동시 화제 가산점 + 댓글 많은 기사와 제목이 겹치면(`기사화`) 가산점이다. 위에서부터 본다.
+- `news_hot` 은 커뮤니티 글이 아니라 기사다. 커뮤니티 후보가 모자랄 때만 쓰고, 그때 `source_post` 에는 기사 URL 을 넣는다.
 - 이미 다룬 글은 이미 빠져 있다. 그래도 `state/history.json`·`scripts/*.json` 의 `title` 과 같은 사건이면 뺀다.
 - `generated_at` 이 6시간보다 오래됐으면(수집 실패) WebSearch 로 "오늘 커뮤니티 화제", "실시간 베스트 논란" 같은 검색을 해서 후보를 직접 찾는다.
 
@@ -105,7 +111,7 @@ WebFetch 는 대부분 막혀 있으니 한 번 시도해서 `EGRESS_BLOCKED` �
 ### 나머지 필드
 - `credit`: `"자료: <매체>(<날짜>) · AI 음성"` 40자 이내. 커뮤니티 소재면 `"자료: 온라인 커뮤니티 · AI 음성"`.
 - `youtube.title`(60자 이내, 끝에 ` #shorts`), `youtube.description`(3~4줄 요약, 빈 줄, `출처: <매체> <URL>`, `※ AI 음성으로 제작했습니다.`, 해시태그 4~6개), `youtube.tags`(5~10개)
-- `slug`(영문 소문자 kebab-case 3~5단어), `source_post`(고른 커뮤니티 글 URL), `facts_used`(대본에 쓴 사실과 출처), `brief`(취재 메모), `skip`: false, `skip_reason`: "".
+- `slug`(영문 소문자 kebab-case 3~5단어), `source_post`(고른 커뮤니티 글 URL, `news_hot` 기사를 골랐으면 기사 URL), `facts_used`(대본에 쓴 사실과 출처), `brief`(취재 메모), `skip`: false, `skip_reason`: "".
 
 **형식과 문체의 정답 예시: `examples/taiwan-taxi.json`** (13문장, 훅 → 떡밥 → 전개 → 공개 예고 → 회수 → 질문). 필드 구성을 그대로 따른다.
 

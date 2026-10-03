@@ -1,4 +1,4 @@
-"""Hot posts from four Korean communities, ranked by how much people argue.
+"""Hot posts from Korean communities, ranked by how much people argue.
 
     python scrape.py            # prints the ranked list as JSON
 
@@ -12,24 +12,47 @@ import difflib
 import json
 import re
 import sys
+import time
+import urllib.error
 import urllib.request
 from html import unescape
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/128.0 Safari/537.36")
 
+# 에펨·개드립은 GitHub Actions 러너에서 막힌다(430/403, 2026-10-03 확인) - PC에서 돌릴 때만 들어온다.
+# 아카라이브·뽐뿌·오유·클리앙도 러너에서 막혀서 넣지 않았다.
 BOARDS = {
     "디시 실베": "https://gall.dcinside.com/board/lists/?id=dcbest",
+    "디시 HIT": "https://gall.dcinside.com/board/lists/?id=hit",
     "에펨 포텐": "https://www.fmkorea.com/best",
     "더쿠 HOT": "https://theqoo.net/hot",
     "개드립": "https://www.dogdrip.net/dogdrip?sort_index=popular",
+    "루리웹 베스트": "https://bbs.ruliweb.com/best/all",
+    "네이트판": "https://pann.nate.com/talk/ranking",
+    "보배드림 베스트": "https://www.bobaedream.co.kr/list?code=best",
+    "엠팍 불펜": "https://mlbpark.donga.com/mp/b.php?b=bullpen",
 }
+# 최신글 목록이라 댓글이 막 달리기 시작한 글이 섞인다 - 이 수보다 적으면 열기를 그만큼 깎는다
+MIN_COMMENTS = {"엠팍 불펜": 30}
+NEWS_RANKING = "https://news.naver.com/main/ranking/popularMemo.naver"   # 언론사별 댓글 많은 기사
 
 
 def get(url: str, timeout: int = 20) -> str:
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "ko-KR,ko;q=0.9"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
-        return r.read().decode("utf-8", errors="replace")
+        return decode(r.read(), r.headers.get("Content-Type", ""))
+
+
+def decode(raw: bytes, ctype: str = "") -> str:
+    """HTTP 헤더의 charset 이 우선, 없으면 <meta charset>. 네이버 랭킹 등 EUC-KR 계열은 cp949 로 읽는다."""
+    m = re.search(r"charset=([\w-]+)", ctype, re.I)
+    cs = m.group(1) if m else ""
+    if not cs:
+        mm = re.search(rb'<meta[^>]+charset=["\']?([\w-]+)', raw[:3000], re.I)
+        cs = mm.group(1).decode("ascii", "ignore") if mm else ""
+    euc = cs.lower() in ("euc-kr", "ks_c_5601", "ks_c_5601-1987", "cp949", "x-windows-949")
+    return raw.decode("cp949" if euc else "utf-8", errors="replace")
 
 
 def text(s: str) -> str:
@@ -86,15 +109,92 @@ def parse_dd(h):
                "votes": int(up.group(1)) if up else 0, "comments": int(a.group(3) or 0)}
 
 
-PARSERS = {"디시 실베": parse_dc, "에펨 포텐": parse_fm, "더쿠 HOT": parse_tq, "개드립": parse_dd}
+def parse_rw(h):
+    seen = set()
+    for tr in re.findall(r'<tr class="table_body blocktarget[^"]*">.*?</tr>', h, re.S):
+        a = re.search(r'<a class="subject_link[^"]*" href="([^"]+)"', tr)
+        t = re.search(r'<(?:strong|span) class="text_over">(.*?)</(?:strong|span)>', tr, re.S)
+        if not (a and t) or "/market/" in a.group(1) or "/board/1020/" in a.group(1):   # 핫딜(쇼핑) 줄은 뺀다
+            continue
+        url = "https://bbs.ruliweb.com" + unescape(a.group(1)).split("?")[0]
+        if url in seen:
+            continue
+        seen.add(url)
+        c = re.search(r'num_reply[^>]*>\s*\((\d+)\)', tr)
+        v = re.search(r'class="hit">\s*([\d,]+)', tr)
+        yield {"title": text(t.group(1)), "url": url,
+               "views": num(v.group(1)) if v else 0, "comments": int(c.group(1)) if c else 0}
+
+
+def parse_pann(h):
+    body = h[h.find('class="post_wrap"'):]
+    for li in body.split("<li>")[1:]:
+        a = re.search(r'<h2><a href="(/talk/\d+)"[^>]*title="([^"]*)"', li)
+        if not a:
+            continue
+        c = re.search(r'reple-num">\((\d+)\)', li)
+        v = re.search(r'class="count">[^<\d]*([\d,]+)', li)
+        yield {"title": text(a.group(2)), "url": "https://pann.nate.com" + a.group(1),
+               "views": num(v.group(1)) if v else 0, "comments": int(c.group(1)) if c else 0}
+
+
+def parse_bobae(h):
+    for tr in re.findall(r'<tr itemscope itemtype="http://schema.org/Article">.*?</tr>', h, re.S):
+        tag = re.search(r'<a [^>]*class="bsubject"[^>]*>', tr)   # 속성 순서와 상관없이 href·title 을 꺼낸다
+        href = re.search(r'href="([^"]+)"', tag.group(0)) if tag else None
+        title = re.search(r'title="([^"]*)"', tag.group(0)) if tag else None
+        no = re.search(r"No=(\d+)", unescape(href.group(1))) if href else None
+        if not (no and title):
+            continue
+        c = re.search(r'totreply">(\d+)', tr)
+        v = re.search(r'class="count"[^>]*>([\d,]+)', tr)
+        yield {"title": text(title.group(1)), "url": "https://www.bobaedream.co.kr/view?code=best&No=" + no.group(1),
+               "views": num(v.group(1)) if v else 0, "comments": int(c.group(1)) if c else 0}
+
+
+def parse_mlb(h):
+    for tr in re.findall(r"<tr>.*?</tr>", h, re.S):
+        a = re.search(r"<div class='tit'>\s*<a href='([^']+)'[^>]*class='txt'>(.*?)</a>", tr, re.S)
+        if not a:
+            continue
+        pid = re.search(r"id=(\d+)", unescape(a.group(1)))
+        if not pid:
+            continue
+        c = re.search(r"replycnt'>\[(\d+)\]", tr)
+        v = re.search(r"viewV'>([\d,]+)", tr)
+        yield {"title": text(a.group(2)), "url": f"https://mlbpark.donga.com/mp/b.php?b=bullpen&id={pid.group(1)}&m=view",
+               "views": num(v.group(1)) if v else 0, "comments": int(c.group(1)) if c else 0}
+
+
+PARSERS = {"디시 실베": parse_dc, "디시 HIT": parse_dc, "에펨 포텐": parse_fm, "더쿠 HOT": parse_tq,
+           "개드립": parse_dd, "루리웹 베스트": parse_rw, "네이트판": parse_pann, "보배드림 베스트": parse_bobae,
+           "엠팍 불펜": parse_mlb}
+
+
+def news_ranking(per_press: int = 1) -> list[dict]:
+    """네이버 '댓글 많은' 기사: 언론사마다 상위 per_press 건. 커뮤니티 글과 제목이 겹치면
+    그 글에 기사 링크를 붙이고 점수를 올리는 데 쓴다 (기사 자체도 후보로 남긴다)."""
+    out = []
+    for box in re.findall(r'<div class="rankingnews_box">.*?</ul>', get(NEWS_RANKING), re.S):
+        press = re.search(r'rankingnews_name">(.*?)</strong>', box)
+        items = re.findall(r'<a href="(https://n\.news\.naver\.com/article/\d+/\d+)[^"]*" class="list_title[^"]*"[^>]*>(.*?)</a>',
+                           box, re.S)
+        for i, (url, title) in enumerate(items[:per_press]):
+            out.append({"title": text(title), "url": url, "press": text(press.group(1)) if press else "", "rank": i + 1})
+    return out
 
 # Post bodies: the first matching container is the article.
 BODY_PATTERNS = [
     r'<div class="write_div".*?</div>\s*</div>',            # dcinside
     r'<article.*?</article>',                                # theqoo / fmkorea
-    r'class="xe_content".*?</div>',                          # fmkorea / dogdrip
     r'class="ed article-wrapper.*?class="ed article-footer', # dogdrip
     r'class="rd_body.*?class="rd_ft',
+    r'class="[^"]*xe_content[^"]*".*?<!--AfterDocument',     # theqoo(rhymix_content xe_content): XE/Rhymix 본문 끝 표시까지
+    r'class="[^"]*xe_content[^"]*".*?</div>',                # 그 표시가 없으면 첫 </div> 까지
+    r'class="view_content.*?class="(?:admin_ui )?board_main_bottom',  # ruliweb
+    r'id="contentArea".*?class="(?:tvp_area|btnbox|reply)',           # nate pann
+    r'class="bodyCont".*?</div>',                                      # bobaedream
+    r'id=["\']contentDetail["\'].*?(?:ar_txt_tool|</div>\s*</div>)',    # mlbpark
 ]
 
 
@@ -124,11 +224,23 @@ def text_keep_lines(s: str) -> str:
                      for line in s.split("\n"))
 
 
+def get_list(url: str) -> str:
+    """목록 페이지: 연결 시간 초과(디시가 가끔 그런다)면 잠깐 쉬고 한 번만 다시 시도.
+    차단(4xx)은 다시 시도하지 않는다."""
+    try:
+        return get(url)
+    except urllib.error.HTTPError:
+        raise
+    except (urllib.error.URLError, TimeoutError):
+        time.sleep(15)
+        return get(url, timeout=30)
+
+
 def collect() -> tuple[list[dict], list[str]]:
     posts, warnings = [], []
     for board, url in BOARDS.items():
         try:
-            rows = list(PARSERS[board](get(url)))
+            rows = list(PARSERS[board](get_list(url)))
             if not rows:
                 warnings.append(f"{board}: 목록 파싱 0건 (레이아웃 변경 또는 차단 페이지)")
             for r in rows:
@@ -144,17 +256,38 @@ def rank(posts: list[dict]) -> list[dict]:
     by_board: dict[str, list[dict]] = {}
     for p in posts:
         by_board.setdefault(p["board"], []).append(p)
-    for rows in by_board.values():
+    for board, rows in by_board.items():
         ordered = sorted(rows, key=lambda r: r["comments"])
+        floor = MIN_COMMENTS.get(board, 0)
         for i, r in enumerate(ordered):
-            r["heat"] = (i + 1) / len(ordered)
-    # Same story on several boards = it is genuinely the talk of the day.
+            r["heat"] = (i + 1) / len(ordered) * (min(1.0, r["comments"] / floor) if floor else 1.0)
+    # Same story on several sites = it is genuinely the talk of the day.
+    # 디시 실베·디시 HIT 처럼 한 사이트의 두 게시판은 한 곳으로 친다.
+    titles = {id(p): bare(p["title"]) for p in posts}
+
+    def same(a, b):
+        return difflib.SequenceMatcher(None, titles[id(a)], titles[id(b)]).ratio() > 0.55
+
     for p in posts:
-        others = {q["board"] for q in posts if q["board"] != p["board"] and
-                  difflib.SequenceMatcher(None, p["title"], q["title"]).ratio() > 0.55}
+        others = {site(q["board"]) for q in posts if site(q["board"]) != site(p["board"]) and same(p, q)}
         p["also_on"] = sorted(others)
         p["score"] = round(p["heat"] + 0.5 * len(others), 3)
-    return sorted(posts, key=lambda r: -r["score"])
+    # 같은 글이 한 사이트의 다른 게시판에도 올라와 있으면(실베 ↔ HIT) 점수 높은 쪽만 남긴다
+    kept: list[dict] = []
+    for p in sorted(posts, key=lambda r: -r["score"]):
+        if not any(k["board"] != p["board"] and site(k["board"]) == site(p["board"]) and same(p, k) for k in kept):
+            kept.append(p)
+    return kept
+
+
+def site(board: str) -> str:
+    """게시판 이름의 사이트 부분 ('디시 실베'·'디시 HIT' → '디시')."""
+    return board.split()[0]
+
+
+def bare(title: str) -> str:
+    """'[잡갤] 제목' / '이누야샤)제목' 같은 말머리를 뗀 제목 (게시판끼리, 기사 제목과 비교용)."""
+    return re.sub(r"^\s*(\[[^\]]{1,12}\]|[^\s)]{1,10}\))\s*", "", title)
 
 
 if __name__ == "__main__":
