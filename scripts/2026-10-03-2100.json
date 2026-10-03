@@ -1,0 +1,436 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "coast-guard-bonus-zero",
+ "title_lines": [
+  "목숨 걸었는데 0원?",
+  "해경 포상금 논란"
+ ],
+ "credit": "자료: JTBC 뉴스룸(2026.10) · AI 음성",
+ "segments": [
+  {
+   "text": "중국어선 8척 잡았는데, 현장 대원 포상금은 0원임.",
+   "say": "중국어선 여덟 척 잡았는데, 현장 대원 포상금은 영 원임.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "漁船",
+       "船"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "포상금 0원",
+      "style": "big",
+      "pos": "top",
+      "at": 0.15,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ],
+    "video": "ocean waves sea"
+   }
+  },
+  {
+   "text": "근데 포상금을 받은 사람은 따로 있었음.",
+   "say": "근데 포상금을 받은 사람은 따로 있었음.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "누가 받았길래?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "연평도 근처 바다에서 불법 중국어선 단속이 벌어짐.",
+   "say": "연평도 근처 바다에서 불법 중국어선 단속이 벌어짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "연평도 인근",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": "boat sea night"
+   }
+  },
+  {
+   "text": "해경이 8척을 나포하고, 24척을 쫓아냄.",
+   "say": "해경이 여덟 척을 나포하고, 이십사 척을 쫓아냄.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "海上保安官",
+       "警察官"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "text",
+      "text": "8척 나포",
+      "style": "big",
+      "pos": "top-right",
+      "at": 0.2,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "24척 퇴거",
+      "style": "big",
+      "pos": "right",
+      "at": 0.6,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "해경은 역대 최대인 1800만 원 포상금을 줌.",
+   "say": "해경은 역대 최대인 천팔백만 원 포상금을 줌.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "1800만 원",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "札束",
+       "お金"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.35,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "받은 사람은 서해5도특별경비단 경찰관 6명.",
+   "say": "받은 사람은 서해오도특별경비단 경찰관 여섯 명.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "6명",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "crowd",
+      "q": "警察官",
+      "count": 6,
+      "pos": "center",
+      "dy": 120,
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 JTBC 보도에 따르면, 위험 감수한 현장 대원은 200명이 넘었음.",
+   "say": "근데 제이티비씨 보도에 따르면, 위험 감수한 현장 대원은 이백 명이 넘었음.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "현장 대원 200명+",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "crowd",
+      "q": "警察官",
+      "count": 15,
+      "pos": "center",
+      "dy": 120,
+      "at": 0.4
+     }
+    ]
+   }
+  },
+  {
+   "text": "정작 포상금은 내근 직원들한테만 돌아갔다 함.",
+   "say": "정작 포상금은 내근 직원들한테만 돌아갔다 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "会社員 デスクワーク",
+       "デスクワーク",
+       "会社員"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "札束",
+       "お金"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.5,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "내부 불만이 터지자, 해경이 내놓은 해명이 더 가관임.",
+   "say": "내부 불만이 터지자, 해경이 내놓은 해명이 더 가관임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "海上保安官",
+       "警察官"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "해경 해명",
+      "style": "label",
+      "pos": "top",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 그 해명이 공개됨.",
+   "say": "자, 그 해명이 공개됨.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "記者会見",
+       "発表"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "해명은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "현장 대원들이 신청을 못 해서 벌어진 일이라는 것.",
+   "say": "현장 대원들이 신청을 못 해서 벌어진 일이라는 것.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "현장이 신청을 못 해서",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "書類",
+       "申込書"
+      ],
+      "pos": "center",
+      "size": "m",
+      "at": 0.4,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "현장은 0원, 내근은 1800만 원.",
+   "say": "현장은 영 원, 내근은 천팔백만 원.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "현장 0원",
+      "style": "stamp",
+      "pos": "left",
+      "at": 0.0,
+      "fx": "stamp"
+     },
+     {
+      "type": "text",
+      "text": "내근 1800만",
+      "style": "stamp",
+      "pos": "right",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이거 신청 안 한 사람 탓 맞음?",
+   "say": "이거 신청 안 한 사람 탓 맞음?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "목숨 걸고 중국어선 잡았는데 0원? 해경 포상금 논란 #shorts",
+  "description": "연평도 인근에서 불법 중국어선 8척을 나포하고 24척을 퇴거한 해경 단속에 역대 최대 1800만 원 특별성과 포상금이 지급됐습니다.\n포상금은 서해5도특별경비단 경찰관 6명에게 돌아갔고, JTBC 보도에 따르면 200명이 넘는 현장 대원은 받지 못했습니다.\n해경 측은 현장 대원들이 신청을 못 해서 벌어진 일이라고 설명했습니다.\n\n출처: JTBC 뉴스룸 https://www.youtube.com/watch?v=E0a5thI967o\n※ AI 음성으로 제작했습니다.\n#해경 #중국어선 #포상금 #불법조업 #이슈",
+  "tags": [
+   "해경",
+   "해양경찰",
+   "중국어선",
+   "불법조업",
+   "포상금",
+   "서해5도",
+   "이슈"
+  ]
+ },
+ "source_post": "https://www.bobaedream.co.kr/view?code=best&No=1036790",
+ "facts_used": [
+  "연평도 인근 범정부 합동단속에서 불법 중국어선 8척 나포, 24척 퇴거 [노컷뉴스 https://www.nocutnews.co.kr/news/6576834, 네이트(2026.9.11) https://m.news.nate.com/view/20260911n21876]",
+  "서해5도특별경비단 경찰관 6명에게 1800만원, 역대 최대 포상 [노컷뉴스, 네이트 20260911n21876, 경기신문]",
+  "현장 대원 200명 넘게 위험 감수, 포상금은 내근 직원에게만 [JTBC 뉴스룸 단독 https://www.youtube.com/watch?v=E0a5thI967o]",
+  "해경 측 '현장 대원들이 신청을 못해서 벌어진 일' 해명 [JTBC 뉴스룸 단독]"
+ ],
+ "brief": "확인된 사실: 해경청 특별성과 포상금(최대 3000만원, 올해 도입) 2차 지급에서 NLL 중국어선 단속 공로로 서해5도특별경비단 6명에게 1800만원(역대 최대) - 노컷뉴스·네이트(2026.9.11)·경기신문 등 복수 보도. 8척 나포·24척 퇴거 복수 확인. '현장 대원 200명 넘음, 포상은 내근 직원만, 해경은 현장이 신청 못해서라고 해명'은 JTBC 뉴스룸 단독 보도(커뮤니티 다수 재인용) - 대본에서 'JTBC 보도에 따르면'으로 출처 표기. 주의: 단속 날짜(8월 11일 추정)는 기사 기준일이 엇갈려 생략. 정확한 해명 문구는 직접 인용하지 않고 취지로만 씀. 위드뉴스는 '계류 단계 선제 차단'을 성과로 평가했다고 보도(기획 부서 수상 배경 가능성) - 대본엔 미사용."
+}

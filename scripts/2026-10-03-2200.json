@@ -1,0 +1,426 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "bank-hacking-domino",
+ "title_lines": [
+  "은행이 줄줄이?",
+  "금융권 해킹 도미노"
+ ],
+ "credit": "자료: 뉴스1·머니투데이(2026.10) · AI 음성",
+ "segments": [
+  {
+   "text": "은행 4곳이 뚫리더니, 저축은행이랑 캐피탈까지 털림.",
+   "say": "은행 네 곳이 뚫리더니, 저축은행이랑 캐피탈까지 털림.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "銀行",
+       "銀行 建物"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "은행 4곳",
+      "style": "big",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 진짜 무서운 건 따로 있음.",
+   "say": "근데 진짜 무서운 건 따로 있음.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "考える 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.35,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "뭐가 더 있음?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "시작은 신한은행이었음.",
+   "say": "시작은 신한은행이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "1. 신한은행",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": "bank building city"
+   }
+  },
+  {
+   "text": "대출모집인용 조회 페이지가 뚫려서, 고객 2만5천 명 정보가 빠져나감.",
+   "say": "대출모집인용 조회 페이지가 뚫려서, 고객 이만 오천 명 정보가 빠져나감.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ハッカー",
+       "ハッキング"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "2만5천 명",
+      "style": "big",
+      "pos": "top-right",
+      "at": 0.5,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이어서 KB국민은행 119명, 하나은행 89명 정보도 유출됨.",
+   "say": "이어서 케이비국민은행 백십구 명, 하나은행 팔십구 명 정보도 유출됨.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "② 국민은행 119명",
+      "style": "row",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "slide-left",
+      "dy": -110
+     },
+     {
+      "type": "text",
+      "text": "③ 하나은행 89명",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "slide-left",
+      "dy": 60
+     }
+    ]
+   }
+  },
+  {
+   "text": "부산은행도 외주 개발자 정보가 새어 나감.",
+   "say": "부산은행도 외주 개발자 정보가 새어 나감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "④ 부산은행",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "プログラマー",
+       "パソコン 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 은행만 그런 게 아니었음.",
+   "say": "근데 은행만 그런 게 아니었음.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "text",
+      "text": "끝이 아님",
+      "style": "red",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "shake"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "center",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "예가람저축은행은 고객 약 4만 명의 이름, 생년월일, 연락처가 유출된 걸로 추정됨.",
+   "say": "예가람저축은행은 고객 약 사만 명의 이름, 생년월일, 연락처가 유출된 걸로 추정됨.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "약 4만 명",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "個人情報 流出",
+       "個人情報"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.35,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "현대캐피탈에선 대출모집인 주민등록번호까지 새어 나감.",
+   "say": "현대캐피탈에선 대출모집인 주민등록번호까지 새어 나감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "身分証明書",
+       "カード"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "주민번호까지",
+      "style": "red",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 진짜 무서운 이유가 공개됨.",
+   "say": "자, 진짜 무서운 이유가 공개됨.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ロボット 人工知能",
+       "人工知能",
+       "ロボット"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "진짜 이유",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이번 공격에 AI 에이전트가 쓰였을 수 있다는 우려까지 나옴.",
+   "say": "이번 공격에 에이아이 에이전트가 쓰였을 수 있다는 우려까지 나옴.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ロボット 人工知能",
+       "人工知能",
+       "ロボット"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "ハッカー",
+       "ハッキング"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "금융당국은 긴급회의를 열고, 금융권 전체 전산 점검에 들어감.",
+   "say": "금융당국은 긴급회의를 열고, 금융권 전체 전산 점검에 들어감.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "전 금융권 점검",
+      "style": "stamp",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "会議",
+       "会議室"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "내 정보는 무사할 거라고 생각하는 사람?",
+   "say": "내 정보는 무사할 거라고 생각하는 사람?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "考える 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "은행 4곳 뚫리고 저축은행·캐피탈까지… 금융권 해킹 도미노 #shorts",
+  "description": "신한은행 고객 약 2만5천 명 정보 유출에 이어 KB국민·하나·부산은행에서도 정보 유출이 확인됐습니다.\n예가람저축은행은 고객 약 4만 명, 현대캐피탈은 대출모집인 주민등록번호가 유출됐습니다.\nAI 에이전트 활용 우려 속에 금융당국은 금융권 전체 전산 점검에 들어갔습니다.\n\n출처: 뉴스1 https://www.news1.kr/finance/general-finance/6308807\n※ AI 음성으로 제작했습니다.\n#해킹 #정보유출 #신한은행 #저축은행 #금융보안 #이슈",
+  "tags": [
+   "해킹",
+   "개인정보유출",
+   "신한은행",
+   "예가람저축은행",
+   "현대캐피탈",
+   "금융보안",
+   "이슈"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/050/0000111606",
+ "facts_used": [
+  "신한은행 대출모집인 조회 서비스 공격, 고객 약 2만5천 명 정보 유출 [뉴스1 https://www.news1.kr/finance/general-finance/6308807, MBC https://imnews.imbc.com/replay/2026/nwdesk/article/6855469_37004.html, 데일리한국]",
+  "KB국민은행 119명, 하나은행 89명, 부산은행 외주 개발자 정보 유출 [블록미디어 https://www.blockmedia.co.kr/archives/1147141, 그린포스트코리아 https://www.greenpostkorea.co.kr/news/articleView.html?idxno=307589]",
+  "예가람저축은행 고객 약 4만 명 성명·생년월일·연락처 유출 추정 [서울경제TV https://www.sentv.co.kr/article/view/sentv202610030012, 뉴데일리, 보안뉴스]",
+  "현대캐피탈 대출모집인 주민등록번호 유출 [서울경제 https://m.sedaily.com/article/20097944, 뉴스핌 https://www.newspim.com/news/view/20261003000094]",
+  "AI 에이전트 활용 우려, 금융당국 긴급회의·전 금융권 전산 점검 [머니투데이 https://mt.co.kr/finance/2026/10/03/2026100219502244780, 헤럴드경제]"
+ ],
+ "brief": "커뮤니티 동시화제 후보 대신 네이버 댓글 많은 기사(한경비즈니스 '금융권 비상 신한·KB·하나 이어 예가람까지 정보 유출')를 소재로 씀. 확인된 사실: 신한 2.5만명(9월 29~30일 공격, 뉴스1·MBC·데일리한국), KB 119명·하나 89명·부산은행 외주 개발자 11명(블록미디어·그린포스트), 예가람 약 4만명 성명·생년월일·연락처(서울경제TV·뉴데일리·보안뉴스, 9월 30일 정황 확인), 현대캐피탈 대출모집인 주민번호(서울경제·뉴스핌), AI 에이전트 활용 '우려'(머니투데이·헤럴드), 당국 긴급회의·전산 점검. 주의: AI 사용은 확정 아님 - '우려'로만 표현. 신한 공격 인지 시점은 MBC('하루 뒤 인지')와 뉴스1(29일 오전 인지)이 엇갈려 생략. 부산은행 인원수는 단일 출처라 생략."
+}
