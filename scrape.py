@@ -104,8 +104,8 @@ def parse_rw(h):
     seen = set()
     for tr in re.findall(r'<tr class="table_body blocktarget[^"]*">.*?</tr>', h, re.S):
         a = re.search(r'<a class="subject_link[^"]*" href="([^"]+)"', tr)
-        t = re.search(r'<strong class="text_over">(.*?)</strong>', tr, re.S)
-        if not (a and t) or "/market/" in a.group(1):   # 핫딜(쇼핑) 줄은 뺀다
+        t = re.search(r'<(?:strong|span) class="text_over">(.*?)</(?:strong|span)>', tr, re.S)
+        if not (a and t) or "/market/" in a.group(1) or "/board/1020/" in a.group(1):   # 핫딜(쇼핑) 줄은 뺀다
             continue
         url = "https://bbs.ruliweb.com" + unescape(a.group(1)).split("?")[0]
         if url in seen:
@@ -178,13 +178,13 @@ def news_ranking(per_press: int = 1) -> list[dict]:
 BODY_PATTERNS = [
     r'<div class="write_div".*?</div>\s*</div>',            # dcinside
     r'<article.*?</article>',                                # theqoo / fmkorea
-    r'class="xe_content".*?</div>',                          # fmkorea / dogdrip
+    r'class="[^"]*xe_content[^"]*".*?</div>',               # theqoo(rhymix_content xe_content) / fmkorea / dogdrip
     r'class="ed article-wrapper.*?class="ed article-footer', # dogdrip
     r'class="rd_body.*?class="rd_ft',
-    r'class="view_content.*?class="(?:view_bottom|board_bottom)',  # ruliweb
-    r'id="contentArea".*?class="(?:tvp_area|btnbox|reply)',        # nate pann
-    r'class="bodyCont".*?</div>',                                   # bobaedream
-    r'id="contentDetail".*?</div>',                                 # mlbpark
+    r'class="view_content.*?class="(?:admin_ui )?board_main_bottom',  # ruliweb
+    r'id="contentArea".*?class="(?:tvp_area|btnbox|reply)',           # nate pann
+    r'class="bodyCont".*?</div>',                                      # bobaedream
+    r'id=["\']contentDetail["\'].*?(?:ar_txt_tool|</div>\s*</div>)',    # mlbpark
 ]
 
 
