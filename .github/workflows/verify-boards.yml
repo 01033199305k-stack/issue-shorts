@@ -15,7 +15,7 @@ jobs:
       - name: boards
         shell: python
         run: |
-          import collections, scrape
+          import sys; sys.path.insert(0, "."); import collections, scrape
           posts, warns = scrape.collect()
           print("WARN", warns)
           by = collections.defaultdict(list)
