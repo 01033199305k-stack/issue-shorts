@@ -1,0 +1,202 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "chicken-price-stays-high",
+ "title_lines": [
+  "닭값 37% 내렸는데",
+  "치킨값은 그대로?"
+ ],
+ "credit": "자료: SBS·세계일보·뉴스1(2026.10.1) · AI 음성",
+ "segments": [
+  {
+   "text": "닭값이 37% 넘게 떨어졌는데, 치킨값은 그대로임.",
+   "say": "닭값이 삼십칠 퍼센트 넘게 떨어졌는데, 치킨값은 그대로임.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "video": "fried chicken",
+    "items": [
+     {"type": "text", "text": "닭값 -37.7%", "style": "big", "pos": "top", "at": 0.0, "fx": "drop"},
+     {"type": "text", "text": "치킨값 그대로", "style": "red", "pos": "center", "at": 0.6, "fx": "shake"}
+    ]
+   }
+  },
+  {
+   "text": "근데 이 얘기에 대통령까지 등판함.",
+   "say": "근데 이 얘기에 대통령까지 등판함.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {"type": "illust", "q": ["フライドチキン", "からあげ"], "pos": "center", "size": "l", "at": 0.0, "fx": "pop"},
+     {"type": "text", "text": "대통령 등판?", "style": "label", "pos": "top", "at": 0.3, "fx": "pop"},
+     {"type": "emoji", "text": "❓", "pos": "top-right", "size": "s", "at": 0.55, "fx": "shake"}
+    ]
+   }
+  },
+  {
+   "text": "치킨용 9~10호 닭, 3월엔 1kg에 5308원이었음.",
+   "say": "치킨용 구에서 십 호 닭, 삼월엔 일 킬로에 오천삼백팔 원이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "chicken farm",
+    "items": [
+     {"type": "text", "text": "3월 1kg 5308원", "style": "big", "pos": "top", "at": 0.3, "fx": "pop"}
+    ]
+   }
+  },
+  {
+   "text": "그게 지난달 중순엔 3308원, 6개월 새 2000원 빠짐.",
+   "say": "그게 지난달 중순엔 삼천삼백팔 원, 육 개월 새 이천 원 빠짐.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {"type": "illust", "q": ["ニワトリ", "鶏"], "pos": "left", "size": "l", "at": 0.0, "fx": "pop"},
+     {"type": "text", "text": "3308원", "style": "big", "pos": "top-right", "at": 0.15, "fx": "drop"},
+     {"type": "illust", "q": ["グラフ 下がる", "株価 下落", "値下げ"], "pos": "right", "size": "m", "at": 0.55, "fx": "slide-left"}
+    ]
+   }
+  },
+  {
+   "text": "와, 근데 BBQ·교촌 대표 메뉴는 여전히 2만3000원임.",
+   "say": "와, 근데 비비큐 교촌 대표 메뉴는 여전히 이만삼천 원임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {"type": "illust", "q": ["フライドチキン", "からあげ"], "pos": "center", "size": "l", "at": 0.0, "fx": "zoom"},
+     {"type": "text", "text": "23,000원", "style": "big", "pos": "top", "at": 0.45, "fx": "drop"},
+     {"type": "text", "text": "요지부동", "style": "stamp", "pos": "bottom-right", "at": 0.75, "fx": "stamp"}
+    ]
+   }
+  },
+  {
+   "text": "이 내용 다룬 기사를 대통령이 SNS에 공유함.",
+   "say": "이 내용 다룬 기사를 대통령이 에스엔에스에 공유함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {"type": "illust", "q": ["スマートフォン 男性", "スマートフォン"], "pos": "left", "size": "l", "at": 0.0, "fx": "slide-right"},
+     {"type": "illust", "q": ["新聞", "ニュース"], "pos": "right", "size": "m", "at": 0.45, "fx": "pop"},
+     {"type": "emoji", "text": "📲", "pos": "top-right", "size": "s", "at": 0.7, "fx": "pop"}
+    ]
+   }
+  },
+  {
+   "text": "아니 잠깐만, 남긴 한마디가 한번 점검해 보겠다였음.",
+   "say": "아니 잠깐만, 남긴 한마디가 한번 점검해 보겠다였음.",
+   "sfx": "exclaim",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {"type": "emoji", "text": "🤨", "pos": "center", "size": "xl", "at": 0.0, "fx": "zoom"},
+     {"type": "text", "text": "한번 점검해 보겠다", "style": "bubble", "pos": "top", "at": 0.45, "fx": "shake"}
+    ]
+   }
+  },
+  {
+   "text": "바로 공정위도 대응 방안 검토에 들어감.",
+   "say": "바로 공정위도 대응 방안 검토에 들어감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "video": "government office building",
+    "items": [
+     {"type": "text", "text": "공정위 검토 착수", "style": "label", "pos": "top", "at": 0.1, "fx": "drop"},
+     {"type": "emoji", "text": "🔍", "pos": "center", "size": "l", "at": 0.5, "fx": "zoom"}
+    ]
+   }
+  },
+  {
+   "text": "헐, 근데 공정위는 당장 전면 조사는 아니라고 선 그음.",
+   "say": "헐, 근데 공정위는 당장 전면 조사는 아니라고 선 그음.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {"type": "illust", "q": ["虫眼鏡", "調査"], "pos": "left", "size": "l", "at": 0.0, "fx": "pop"},
+     {"type": "text", "text": "전면 조사는 아님", "style": "bubble", "pos": "top-right", "at": 0.4, "fx": "pop"},
+     {"type": "text", "text": "점검 단계", "style": "small", "pos": "right", "at": 0.7, "fx": "fade"}
+    ]
+   }
+  },
+  {
+   "text": "자, 그럼 치킨업계는 뭐라고 했을까.",
+   "say": "자, 그럼 치킨업계는 뭐라고 했을까.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {"type": "emoji", "text": "👀", "pos": "center", "size": "xl", "at": 0.0, "fx": "fade"},
+     {"type": "text", "text": "업계 입장은?", "style": "label", "pos": "top", "at": 0.4, "fx": "pop"}
+    ]
+   }
+  },
+  {
+   "text": "산지 시세랑 실제 사는 값이 다르고, 장기 계약이라 반영에 시차가 있다는 것.",
+   "say": "산지 시세랑 실제 사는 값이 다르고, 장기 계약이라 반영에 시차가 있다는 것.",
+   "sfx": "stamp",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "paper",
+    "video": "truck highway",
+    "items": [
+     {"type": "text", "text": "① 시세 ≠ 매입가", "style": "row", "pos": "center", "dy": -110, "at": 0.0, "fx": "slide-left"},
+     {"type": "text", "text": "② 장기 계약 = 시차", "style": "row", "pos": "center", "dy": 60, "at": 0.5, "fx": "slide-left"}
+    ]
+   }
+  },
+  {
+   "text": "심지어 bhc는 3년 동안 치킨값 안 올렸다고 항변함.",
+   "say": "심지어 비에이치씨는 삼 년 동안 치킨값 안 올렸다고 항변함.",
+   "sfx": "absurd",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {"type": "illust", "q": ["契約書", "書類"], "pos": "left", "size": "m", "at": 0.0, "fx": "pop"},
+     {"type": "text", "text": "3년간 동결", "style": "big", "pos": "top", "at": 0.3, "fx": "drop"},
+     {"type": "illust", "q": ["会社員 男性", "考える 男性"], "pos": "right", "size": "l", "at": 0.5, "fx": "pop"},
+     {"type": "emoji", "text": "💦", "pos": "right", "size": "s", "at": 0.7, "fx": "pop", "dx": -90, "dy": -180}
+    ]
+   }
+  },
+  {
+   "text": "닭값 내리면 치킨값도 내려야 함, 시차 인정해 줘야 함?",
+   "say": "닭값 내리면 치킨값도 내려야 함, 시차 인정해 줘야 함?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {"type": "text", "text": "님들 선택은?", "style": "label", "pos": "top", "at": 0.0, "fx": "pop"},
+     {"type": "text", "text": "① 당장 내려야 함", "style": "row", "pos": "center", "dy": -40, "at": 0.2, "fx": "slide-left"},
+     {"type": "text", "text": "② 시차 인정", "style": "row", "pos": "center", "dy": 110, "at": 0.55, "fx": "slide-left"},
+     {"type": "illust", "q": ["フライドチキン", "からあげ"], "pos": "bottom-right", "size": "s", "at": 0.75, "fx": "pop"}
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "닭값 37% 내렸는데 치킨값은 그대로? 대통령 \"점검\" #shorts",
+  "description": "치킨용 9~10호 육계 가격이 3월 1kg 5308원에서 9월 중순 3308원으로 6개월 새 37.7% 떨어졌지만, 주요 브랜드 대표 메뉴는 2만3000원을 유지하고 있습니다.\n이재명 대통령은 관련 기사를 SNS에 공유하며 \"한번 점검해 보겠다\"고 밝혔고, 공정위는 대응 방안 검토에 들어갔다면서도 당장 전면 조사는 아니라고 했습니다.\n업계는 산지 시세와 실제 매입가가 다르고 장기 계약 탓에 반영에 시차가 있다고 설명합니다.\n\n출처: SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008779776\n※ AI 음성으로 제작했습니다.\n#치킨값 #닭값 #공정위 #물가 #이슈",
+  "tags": ["치킨값", "닭값", "육계", "공정위", "물가", "치킨", "이슈"]
+ },
+ "source_post": "https://n.news.naver.com/article/138/0002243548",
+ "facts_used": [
+  "9~10호 육계 1kg 3월 5308원 → 9월 15일 3308원, 6개월 새 37.7%·2000원 하락 [SBS 친절한 경제 2026.10.1, 디지털데일리 2026.10.2, 시사1]",
+  "BBQ·교촌 등 대표 메뉴 2만3000원 유지 [세계일보 2026.10.1, 알파경제, 시사1]",
+  "이재명 대통령, 관련 기사 SNS 공유하며 \"한번 점검해 보겠다\" [세계일보, 콜뉴스24, 디지털데일리]",
+  "공정위 대응 방안 검토, \"당장 전면적인 조사에 착수하는 것은 아니며 우선 시장 상황을 짚어보는 점검 단계\" [알파경제 단독, SBS]",
+  "업계: 산지 시세와 실제 매입가 차이, 장기 납품계약으로 반영 시차 [마이데일리 2026.10.1, 시사저널e, SBS]",
+  "bhc \"3년간 치킨값 인상 없어\"(2023년 12월 이후 가격 유지) [뉴스1, 뉴스웨이 2026.10.1]"
+ ],
+ "brief": "소재: 닭값(9~10호 육계) 37.7% 하락에도 프랜차이즈 치킨값 유지 논란, 이 대통령 SNS '한번 점검해 보겠다'(9.30). 확인된 사실: 육계 1kg 3월 5308원→9월 15일 3308원(SBS N1008779776, 디지털데일리 2026100216582975925); 4월 평균 5172원·8월 4263원(시사저널e 등); BBQ·교촌 대표 메뉴 2만3000원(세계일보 20261001513180, 알파경제 189585); 공정위 검토 착수하나 전면 조사 아님(알파경제 191015, SBS); 업계 시차·장기계약 해명(마이데일리 2026100114465543226, 시사저널e 424068); bhc 3년 가격 동결 항변(뉴스1 6306715, 뉴스웨이). 주의: 같은 시기 국세청 bhc·푸라닭 비정기 세무조사 보도(서울경제 20096809, SBS Biz)가 있으나 대통령 발언과의 인과는 확인 안 됨 → 대본에서 제외. 특정 업체가 부당 이익을 봤다고 단정하지 않고, 정부·업계 어느 편도 들지 않음. 배달비 3만 원 육박은 단일 출처라 제외. 출처 기사 URL: https://www.segye.com/newsView/20261001513180 https://news.sbs.co.kr/news/endPage.do?news_id=N1008779776 https://www.news1.kr/industry/distribution/6306715"
+}
