@@ -727,5 +727,49 @@
   "privacy": "private",
   "scheduled_for": "2026-10-04T09:00:00Z",
   "seconds": 515
+ },
+ {
+  "key": "2026-10-04-u1524",
+  "slot": "u1524",
+  "publish_at": "2026-10-04T15:39:59.301932+09:00",
+  "started": "2026-10-04T15:26:53.932487+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-208387/",
+   "https://pixabay.com/videos/id-337470/"
+  ],
+  "duration": 45.05,
+  "matches": [
+   1.0,
+   0.93,
+   0.96,
+   0.91,
+   0.91,
+   0.82,
+   1.0,
+   0.86,
+   1.0,
+   0.85,
+   0.86
+  ],
+  "sfx": 9,
+  "illustrations": 9,
+  "cuts": 11,
+  "title": "\"저 군대 안 갑니다\" 금메달 뒤 역풍? 안철수 \"군면제 재고해야\" #shorts",
+  "source_post": "https://n.news.naver.com/article/082/0001401024",
+  "facts_used": [
+   "3일 아시안게임 남자축구 결승 한일전 1-0 승리, 4회 연속 금메달 [서울신문·서울경제·강원일보 2026.10.3]",
+   "주장 이기혁, 못 따면 입대 9일 남은 상황이었다며 \"저 군대 안 갑니다\" [머니투데이·스포츠경향·위키트리 2026.10.4]",
+   "양민혁 \"군 면제라는 보상이 있으니 그거 하나만 보고 경기를 했다\" [머니투데이·서울경제]",
+   "박승수 전역모 사진 SNS 게시 후 삭제 [머니투데이·뉴스핌]",
+   "안철수 의원 SNS \"군대가 혐오시설입니까?\", \"아시안게임 군 면제, 이제 재고해야\" [헤럴드경제·서울경제·MK스포츠·인사이트]",
+   "이기혁 SNS 사과문 \"저의 경솔한 언행으로 인해 많은 분께 실망과 불편을 드려 죄송하다\" [스포츠경향·머니투데이 2026.10.4]"
+  ],
+  "slug": "2026-10-04_u1524_asian-games-military-exemption-backlash",
+  "late": false,
+  "video_id": "JDTd8AYvFxE",
+  "url": "https://youtube.com/shorts/JDTd8AYvFxE",
+  "privacy": "private",
+  "scheduled_for": "2026-10-04T06:39:59Z",
+  "seconds": 607
  }
 ]
