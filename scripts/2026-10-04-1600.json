@@ -1,0 +1,517 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "asiad-flag-late-raise",
+ "title_lines": [
+  "애국가 끝났는데?",
+  "태극기 늑장 게양"
+ ],
+ "credit": "자료: 한국일보·부산일보·서울신문(2026.10.4) · AI 음성",
+ "segments": [
+  {
+   "text": "일본 이기고 금메달 땄는데, 애국가 끝날 때까지 태극기가 안 올라감.",
+   "say": "일본 이기고 금메달 땄는데, 애국가 끝날 때까지 태극기가 안 올라감.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "금메달",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "国旗 韓国",
+       "韓国 国旗",
+       "国旗"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 그 사이 제일 높이 보인 국기가 더 어이없음.",
+   "say": "근데 그 사이 제일 높이 보인 국기가 더 어이없음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "제일 높은 국기는?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.55,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "10월 3일 아시안게임 남자축구 결승, 장소는 일본 도요타 스타디움.",
+   "say": "시월 삼 일 아시안게임 남자축구 결승, 장소는 일본 도요타 스타디움.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "sky",
+    "video": "soccer stadium night lights",
+    "items": [
+     {
+      "type": "text",
+      "text": "결승전",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "한국이 개최국 일본을 1 대 0으로 꺾음.",
+   "say": "한국이 개최국 일본을 일 대 영으로 꺾음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー 選手",
+       "サッカー"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "text",
+      "text": "1 : 0",
+      "style": "big",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚽",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 이걸로 아시안게임 남자축구 사상 첫 4연패 달성.",
+   "say": "와, 이걸로 아시안게임 남자축구 사상 첫 사연패 달성.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "トロフィー",
+       "優勝 トロフィー"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "첫 4연패",
+      "style": "big",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그리고 시상식, 애국가가 울려 퍼지기 시작함.",
+   "say": "그리고 시상식, 애국가가 울려 퍼지기 시작함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "表彰台",
+       "表彰式"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎵",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "시상식",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "은메달 일본, 동메달 중국 국기는 정상적으로 쭉 올라감.",
+   "say": "은메달 일본, 동메달 중국 국기는 정상적으로 쭉 올라감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "銀メダル",
+       "メダル 銀"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "銅メダル",
+       "メダル 銅"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "정상 게양",
+      "style": "small",
+      "pos": "top",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니 잠깐만, 근데 가운데 태극기만 멈춰 있음.",
+   "say": "아니 잠깐만, 근데 가운데 태극기만 멈춰 있음.",
+   "sfx": "exclaim",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "잠깐만",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "国旗 韓国",
+       "韓国 国旗",
+       "国旗"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그 사이 화면엔, 일본 국기가 가장 높이 걸린 듯한 장면이 연출됨.",
+   "say": "그 사이 화면엔, 일본 국기가 가장 높이 걸린 듯한 장면이 연출됨.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "国旗 日本",
+       "日本 国旗"
+      ],
+      "pos": "top",
+      "size": "m",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "태극기는 아래",
+      "style": "red",
+      "pos": "bottom",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 관중석에선 야유가 쏟아졌고, 태극기는 애국가가 끝나서야 올라감.",
+   "say": "헐, 관중석에선 야유가 쏟아졌고, 태극기는 애국가가 끝나서야 올라감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "crowd",
+      "q": [
+       "観客",
+       "応援 観客"
+      ],
+      "count": 6,
+      "pos": "center",
+      "at": 0.0
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "애국가 끝난 뒤",
+      "style": "small",
+      "pos": "top",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 금메달 딴 주장의 한마디가 나옴.",
+   "say": "자, 금메달 딴 주장의 한마디가 나옴.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "주장 이기혁, 의도한 거라면 너무 안 좋다.",
+   "say": "주장 이기혁, 의도한 거라면 너무 안 좋다.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー 選手",
+       "サッカー"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "의도한 거라면",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "너무 안 좋다",
+      "style": "bubble",
+      "pos": "right",
+      "at": 0.55,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "세상에, 고의라는 의혹까지 나왔지만, 원인 설명은 아직 없음.",
+   "say": "세상에, 고의라는 의혹까지 나왔지만, 원인 설명은 아직 없음.",
+   "sfx": "whoosh",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "① 고의 의혹 제기",
+      "style": "row",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "slide-left",
+      "dy": -90
+     },
+     {
+      "type": "text",
+      "text": "② 원인 설명 없음",
+      "style": "row",
+      "pos": "center",
+      "at": 0.45,
+      "fx": "slide-left",
+      "dy": 70
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들은 단순 실수라고 봄, 일부러라고 봄?",
+   "say": "님들은 단순 실수라고 봄, 일부러라고 봄?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 단순 실수",
+      "style": "row",
+      "pos": "center",
+      "at": 0.2,
+      "fx": "slide-left",
+      "dy": -60
+     },
+     {
+      "type": "text",
+      "text": "② 일부러",
+      "style": "row",
+      "pos": "center",
+      "at": 0.45,
+      "fx": "slide-left",
+      "dy": 90
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "애국가 끝나도 안 올라간 태극기? 아시안게임 축구 시상식 논란 #shorts",
+  "description": "10월 3일 아시안게임 남자축구 결승에서 한국이 개최국 일본을 1-0으로 꺾고 4연패를 달성했습니다.\n하지만 시상식에서 태극기가 애국가가 끝날 때까지 제대로 게양되지 않았고, 관중석에선 야유가 나왔습니다.\n주장 이기혁은 \"의도한 거라면 너무 안 좋다\"고 말했고, 원인에 대한 설명은 아직 나오지 않았습니다.\n\n출처: 한국일보 https://www.hankookilbo.com/news/article/A2026100406480002378\n출처: 부산일보 https://n.news.naver.com/article/082/0001400990\n※ AI 음성으로 제작했습니다.\n#아시안게임 #축구 #태극기 #이기혁 #금메달",
+  "tags": [
+   "아시안게임",
+   "남자축구",
+   "태극기",
+   "이기혁",
+   "시상식",
+   "금메달",
+   "이슈"
+  ]
+ },
+ "source_post": "https://www.bobaedream.co.kr/view?code=best&No=1036954",
+ "facts_used": [
+  "10월 3일 아이치현 도요타 스타디움 결승, 한국이 일본 1-0 승 [한국일보·헤럴드경제 2026.10.4]",
+  "아시안게임 남자축구 첫 4연패 [한국일보 2026.10.4]",
+  "은메달 일본·동메달 중국 국기는 정상 게양, 태극기만 애국가 끝날 때까지 못 오름 [서울신문·한국일보·부산일보]",
+  "일본 국기가 가장 높이 올라 보이는 장면 연출 [허프포스트코리아·서울신문]",
+  "관중석 야유 [허프포스트코리아·주간경향]",
+  "이기혁 \"의도한 거라면 너무 안 좋다\" [부산일보·주간경향·헤럴드경제]",
+  "고의성 의혹 제기, 원인 설명 없음 [노컷뉴스·허프포스트코리아]"
+ ],
+ "brief": "확인된 사실: 2026.10.3 도요타 스타디움 남자축구 결승 한국 1-0 일본, 첫 4연패. 시상식에서 애국가 동안 태극기만 제대로 게양 안 되고 애국가 끝난 뒤 게양. 일본·중국 국기는 정상. 관중 야유. 주장 이기혁 \"의도한 거라면 너무 안 좋다\", \"태극기 하나 제대로 펼쳐주지 못한 것은 아쉽다\". 조직위 원인 설명 보도 없음. 출처: 한국일보 A2026100406480002378, 부산일보 082/0001400990, 서울신문 20261004500030, 허프포스트 260982, 주간경향 202610041045011, 노컷 079/0004195520, MBC 214/0001527107. 주의: 고의 여부는 의혹·주장으로만. 일본인 전체 비하 금지."
+}
