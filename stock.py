@@ -53,17 +53,37 @@ def _best_file(video: dict) -> dict | None:
     return min(files, key=lambda f: abs(f["width"] - 1280)) if files else None
 
 
+def _variants(query: str) -> list[str]:
+    """Full query first, then shorter ones ("taxi city street night" -> "taxi city street" -> "taxi city"):
+    a niche phrase often finds nothing while its main nouns find a fitting clip."""
+    w = query.split()
+    return [" ".join(w[:n]) for n in range(len(w), 1, -1)][:3] or [query]
+
+
+def _find(query: str, pixabay: str, pexels: str) -> list[dict]:
+    """Pixabay first, Pexels when Pixabay has nothing for this phrase."""
+    for key, search in ((pixabay, _search_pixabay), (pexels, _search)):
+        if not key:
+            continue
+        try:
+            if (videos := search(query, key)):
+                return videos
+        except Exception as ex:
+            print(f"    stock: search failed for {query!r}: {ex}")
+    return []
+
+
 def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: set | None = None) -> dict | None:
     pixabay = os.environ.get("PIXABAY_API_KEY", "").strip()
     pexels = os.environ.get("PEXELS_API_KEY", "").strip()
     if not (pixabay or pexels) or not query.strip():
         return None
     used = used if used is not None else set()
-    try:
-        videos = _search_pixabay(query, pixabay) if pixabay else _search(query, pexels)
-    except Exception as ex:
-        print(f"    stock: search failed for {query!r}: {ex}")
-        return None
+    videos = []
+    for q in _variants(query.strip()):
+        videos = [v for v in _find(q, pixabay, pexels) if v["id"] not in used and v.get("duration", 0) >= 3]
+        if videos:
+            break
     for v in videos:
         if v["id"] in used or v.get("duration", 0) < 3:
             continue
