@@ -361,6 +361,50 @@ def _fit(path, side: int) -> tuple[int, int]:
     return int(side * ar), side
 
 
+CAP_BOX_LINE, CAP_BOX_PAD, CAP_BOTTOM = 68 * 1.22, 14, 22   # mirrors #cap .box in CSS
+ZOOM_ROOM = 30      # the camera zooms up to 1.08x around y=380 - the bottom edge drifts ~25 px
+
+
+def _item_floor(cues, st, en) -> float:
+    """Lowest panel y an item may reach in this scene: above the tallest caption box
+    shown while the scene is on screen (2-line boxes start near y=643), minus zoom drift."""
+    lines = max((len(c["lines"]) for c in cues if c["s"] < en and c["e"] > st - LEAD), default=2)
+    box_top = PANEL_H - CAP_BOTTOM - (CAP_BOX_LINE * max(1, lines) + CAP_BOX_PAD)
+    return box_top - ZOOM_ROOM
+
+
+def _separate(parts, data, pics, floor) -> None:
+    """A picture must not sit under the words above it: when text items overlap it by
+    more than ~12% of their height, move the picture below all of them (shrinking an
+    illustration to the free band above the caption box). Stamps are skipped - they are
+    meant to land on top of the thing - and a band under ~200 px is not worth squeezing into."""
+    import re as _re
+    for j, pd in enumerate(data):
+        if pd["type"] == "text":
+            continue
+        p_top, p_bot = pd["y"] - pd["h"] / 2, pd["y"] + pd["h"] / 2
+        lo = 0.0
+        for td in data:
+            if td["type"] != "text" or td["fx"] == "stamp" or td["y"] > pd["y"]:
+                continue
+            if abs(pd["x"] - td["x"]) >= (pd["w"] + td["w"]) / 2:      # side by side
+                continue
+            t_top, t_bot = td["y"] - td["h"] / 2, td["y"] + td["h"] / 2
+            if min(t_bot, p_bot) - max(t_top, p_top) > 0.12 * td["h"]:
+                lo = max(lo, t_bot + 6)
+        if not lo or floor - lo < 200:
+            continue
+        band = floor - lo
+        w, h = pd["w"], pd["h"]
+        if h > band:
+            if j not in pics:
+                continue
+            w, h = _fit(pics[j][0], int(pics[j][1] * band / h))
+            parts[j] = _re.sub(r"width:\d+px;height:\d+px", f"width:{w}px;height:{h}px", parts[j], count=1)
+            pd["w"], pd["h"] = w, h
+        pd["y"] = max(pd["y"], lo + h / 2)
+
+
 def title_size(lines) -> int:
     longest = max(len(l) for l in lines)
     return max(64, min(130, int(1000 / (0.76 * max(1, longest)))))
@@ -375,6 +419,9 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
         items = vis.get("items") or [{"type": "emoji", "text": "🤔", "pos": "center", "size": "l", "fx": "pop"}]
         bg_key = vis.get("bg", "white")
         parts, data = [], []
+        pics = {}
+        floor = _item_floor(cues, st, en)
+        room = floor - 24      # usable height between the top margin and the caption box
         for j, it in enumerate(items[:6]):
             typ = it.get("type", "text")
             cx, cy = POS.get(it.get("pos", "center"), POS["center"])
@@ -390,7 +437,10 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                     it = dict(it, text=it.get("emoji") or it.get("label") or "", style="label")
             if typ == "illust":
                 side = SIZE.get(it.get("size", "m"), 390)
+                pics[j] = (path, side)
                 w, h = _fit(path, side)
+                if h > room:   # taller than the space above the caption: shrink, keep the shape
+                    w, h = _fit(path, int(side * room / h))
                 d.update(w=w, h=h)
                 parts.append(f'<div class="it" style="width:{w}px;height:{h}px;z-index:{Z[typ]}">'
                              f'<img src="{file_url(path)}"></div>')
@@ -398,13 +448,13 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                 n = max(2, min(40, int(it.get("count", 10))))
                 cols = min(n, 10 if n > 20 else 6 if n > 6 else n)
                 rows = -(-n // cols)
-                cell = min(int(900 / cols), int(560 / rows))
+                cell = min(int(900 / cols), int(min(560, room) / rows))
                 d.update(w=cols * cell, h=rows * cell)
                 kids = "".join(f'<img src="{file_url(path)}" style="width:{cell}px;height:{cell}px;object-fit:contain;'
                                f'position:absolute;left:{(k % cols) * cell}px;top:{(k // cols) * cell}px">' for k in range(n))
                 parts.append(f'<div class="it" style="width:{d["w"]}px;height:{d["h"]}px;z-index:{Z["crowd"]}">{kids}</div>')
             elif typ == "emoji":
-                side = int(SIZE.get(it.get("size", "m"), 400) * 0.8)
+                side = min(int(SIZE.get(it.get("size", "m"), 400) * 0.8), int(room))
                 d.update(w=side, h=side)
                 parts.append(f'<div class="it emo" style="width:{side}px;height:{side}px;font-size:{int(side * .82)}px;'
                              f'z-index:{Z["emoji"]}">{esc(it.get("text", ""))}</div>')
@@ -422,12 +472,12 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                     d["num"] = n
                 parts.append(f'<div class="it tx {style}" style="width:{w}px;height:{h}px;font-size:{fs}px;'
                              f'z-index:{Z["text"]};display:flex;align-items:center;justify-content:center">{esc(text)}</div>')
-            # keep the item inside the panel: below the credit line, above the caption box
+            # keep the item inside the panel: above the caption box of this scene
             # (drop starts 420 px above its resting place, so clamping the rest position is enough)
-            if d["h"] < PANEL_H - 200:
-                d["y"] = min(max(d["y"], d["h"] / 2 + 44), PANEL_H - 150 - d["h"] / 2)
+            d["y"] = min(max(d["y"], d["h"] / 2 + 24), max(floor - d["h"] / 2, d["h"] / 2 + 24))
             d["x"] = min(max(d["x"], d["w"] / 2 + 10), W - d["w"] / 2 - 10) if d["w"] < W - 20 else W / 2
             data.append(d)
+        _separate(parts, data, pics, floor)
         clip = clips[i] if i < len(clips) else None
         if clip:   # after the items so el.children[j] still indexes them
             base = file_url(Path(clip["dir"]) / "f_")

@@ -91,6 +91,7 @@ class Picker:
 
     def __init__(self):
         self.used: dict[str, Path] = {}
+        self.urls: set[str] = set()   # pictures already on screen: another query must not land on the same drawing
 
     def fetch(self, query) -> Path | None:
         """query: "泣く 男性" or alternatives ["泣く 男性", "号泣 男性", "泣く 人"], tried in order."""
@@ -110,6 +111,9 @@ class Picker:
         CACHE.mkdir(parents=True, exist_ok=True)
         key = hashlib.sha1(query.encode()).hexdigest()[:16]
         path = CACHE / f"{key}.png"
+        meta = CACHE / f"{key}.url"
+        if path.exists() and meta.exists() and meta.read_text(encoding="utf-8") in self.urls:
+            path.unlink()   # cached pick is a drawing this video already shows - choose again
         if not path.exists():
             words = query.split()
             try:
@@ -123,7 +127,8 @@ class Picker:
             if not scored:
                 print(f"    illust: nothing titled with {words[0]!r} for {query!r} - fallback")
                 return None
-            _, title, url = max(scored, key=lambda r: r[0])
+            fresh = [r for r in scored if r[2] not in self.urls]   # prefer a drawing not yet used in this video
+            _, title, url = max(fresh or scored, key=lambda r: r[0])
             data = None
             # some images 404 at s800 from some hosts - step down through sizes
             for size in ("s800", "s640", "s400", "s320"):
@@ -136,9 +141,12 @@ class Picker:
                 print(f"    illust: download failed {url[-60:]}: {last}")
                 return None
             path.write_bytes(data)
+            meta.write_text(url, encoding="utf-8")
             _trim(path)
             print(f"    illust: {query!r} -> {title}")
         self.used[query] = path
+        if meta.exists():
+            self.urls.add(meta.read_text(encoding="utf-8"))
         return path
 
 

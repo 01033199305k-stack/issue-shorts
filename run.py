@@ -98,10 +98,12 @@ def main() -> int:
                 history.append(record)
                 save_history(history)
             return 0
-        from rules import validate
+        from rules import lint, validate
         problems = validate(script)
         if problems:
             raise RuntimeError("대본 검사 실패: " + " | ".join(problems))
+        for w in lint(script):   # 한자·중복 이미지: 이미 쓴 대본은 막지 않고 알리기만
+            print("  주의:", w)
     else:
         import editor
         print("[1/5] 커뮤니티 수집")

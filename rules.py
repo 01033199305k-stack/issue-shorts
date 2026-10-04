@@ -181,9 +181,57 @@ def validate(script: dict) -> list[str]:
     return p
 
 
+HANJA = re.compile(r"[㐀-䶿一-鿿豈-﫿]")
+
+
+def _shown_strings(script: dict):
+    """Every string a viewer reads: title, captions, panel text, YouTube title/description/tags."""
+    yield "title", " ".join(script.get("title_lines", []))
+    for i, s in enumerate(script.get("segments", [])):
+        yield f"segment {i} text", s.get("text", "")
+        yield f"segment {i} say", s.get("say", "")
+        for it in (s.get("visual") or {}).get("items", []):
+            if it.get("type") in ("text", "emoji"):
+                yield f"segment {i} panel text", str(it.get("text", ""))
+        for k, v in (s.get("card") or {}).items():
+            if isinstance(v, str):
+                yield f"segment {i} card.{k}", v
+    yt = script.get("youtube", {})
+    yield "youtube.title", yt.get("title", "")
+    yield "youtube.description", yt.get("description", "")
+    yield "youtube.tags", " ".join(yt.get("tags", []))
+
+
+def lint(script: dict) -> list[str]:
+    """House style the routine must satisfy (run.py only warns - a script that is already
+    written still renders): no hanja anywhere a viewer reads, and a varied set of pictures."""
+    if script.get("skip"):
+        return []
+    p = []
+    for where, text in _shown_strings(script):
+        if (m := HANJA.search(text)):
+            p.append(f"{where}: hanja {m.group(0)!r} - write it in hangul (李 -> 이재명 대통령/이 대통령, 美 -> 미국)")
+    uses = {}
+    for s in script.get("segments", []):
+        for it in (s.get("visual") or {}).get("items", []):
+            q = it.get("q")
+            if it.get("type") in ("illust", "crowd") and q:
+                key = (q[0] if isinstance(q, list) else q).strip()
+                uses[key] = uses.get(key, 0) + 1
+    for q, n in uses.items():
+        if n > 2:
+            p.append(f"illustration {q!r} appears {n} times - max 2; pick a different prop/person/pose for the other scenes")
+    n_scenes = sum(1 for s in script.get("segments", []) if any(
+        it.get("type") in ("illust", "crowd") for it in (s.get("visual") or {}).get("items", [])))
+    if len(uses) < min(9, n_scenes):
+        p.append(f"only {len(uses)} different illustrations - use at least 9 (the licence allows 20), a new picture for each scene")
+    return p
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
-    problems = validate(json.loads(open(sys.argv[1], encoding="utf-8").read()))
+    script = json.loads(open(sys.argv[1], encoding="utf-8").read())
+    problems = validate(script) + lint(script)
     for x in problems:
         print("PROBLEM:", x)
     print("OK" if not problems else f"{len(problems)} problem(s)")

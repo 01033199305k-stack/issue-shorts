@@ -108,6 +108,7 @@ theme: night(평범) / alert(사건·분노) / money(돈) / cold(결과·판결)
 효과음 sfx: 0번은 보통 dudung. 전환 기본은 whoosh. 강조할 때만 punch(충격 숫자), exclaim(막말·놀람), stamp(판결·결과), question(의문·사유), absurd(어이없는 결말). 같은 강조음을 연달아 쓰지 않는다. none은 무음 전환.
 
 credit: 항상 "" (출처 자막 쓰지 않음).
+한자 금지: 제목·대본·화면 글자·유튜브 제목/설명/태그에 한자를 쓰지 않는다 (李 -> 이 대통령, 美 -> 미국).
 
 youtube:
 - title: 60자 이내, 핵심 키워드 포함, 끝에 " #shorts"
