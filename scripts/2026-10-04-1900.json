@@ -1,0 +1,498 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "chief-justice-audit-no-show",
+ "title_lines": [
+  "국감 안 나간다?",
+  "조희대 불출석 선언"
+ ],
+ "credit": "자료: YTN·뉴스핌·헤럴드경제(2026.10.4) · AI 음성",
+ "segments": [
+  {
+   "text": "대법원장이 국감 증인으로 불렸는데, 안 나가겠다고 함.",
+   "say": "대법원장이 국감 증인으로 불렸는데, 안 나가겠다고 함.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "video": "courthouse building",
+    "items": [
+     {
+      "type": "text",
+      "text": "대법원장",
+      "style": "label",
+      "pos": "top",
+      "at": 0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙅",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.5,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 그 이유가 꽤 묵직함.",
+   "say": "근데 그 이유가 꽤 묵직함.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.35,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "이유가 뭐길래?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "지난달 28일, 국회 법사위가 조희대 대법원장을 국감 증인으로 채택함.",
+   "say": "지난달 이십팔일, 국회 법사위가 조희대 대법원장을 국감 증인으로 채택함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "text",
+      "text": "9월 28일",
+      "style": "big",
+      "pos": "top",
+      "at": 0,
+      "fx": "drop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "国会議事堂",
+       "国会"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.2,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "裁判官",
+       "裁判官 女性"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.55,
+      "fx": "slide-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "민주당 주도로 의결됐고, 국민의힘은 반발하며 퇴장함.",
+   "say": "민주당 주도로 의결됐고, 국민의힘은 반발하며 퇴장함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "投票 男性",
+       "投票"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "의결",
+      "style": "stamp",
+      "pos": "top-right",
+      "at": 0.3,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "退室",
+       "走る 男性"
+      ],
+      "pos": "bottom-left",
+      "size": "m",
+      "at": 0.6,
+      "fx": "run-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 실제로 나오면 87년 개헌 이후 처음이라고 함.",
+   "say": "와, 실제로 나오면 팔십칠 년 개헌 이후 처음이라고 함.",
+   "sfx": "punch",
+   "tone": "놀라서 눈이 커진 듯 들뜬 목소리로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "87년 이후 처음",
+      "style": "big",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "歴史 本",
+       "歴史"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.35,
+      "fx": "zoom"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "국감 최대 쟁점은 대법관 재제청 문제임.",
+   "say": "국감 최대 쟁점은 대법관 재제청 문제임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "최대 쟁점",
+      "style": "label",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "대법관 재제청",
+      "style": "red",
+      "pos": "center",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 여기서 반전, 대법원 국감 이틀 앞두고 불출석 사유서를 냄.",
+   "say": "근데 여기서 반전, 대법원 국감 이틀 앞두고 불출석 사유서를 냄.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "video": "documents on office desk",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "書類 提出",
+       "書類"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "text",
+      "text": "불출석 사유서",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.45,
+      "fx": "shake"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 사유서 내용이 공개됨.",
+   "say": "자, 사유서 내용이 공개됨.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "제청권을 증언하라는 건, 삼권분립과 사법권 독립에 반한다는 것.",
+   "say": "제청권을 증언하라는 건, 삼권분립과 사법권 독립에 반한다는 것.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "① 삼권분립",
+      "style": "row",
+      "pos": "center",
+      "at": 0,
+      "fx": "slide-left",
+      "dy": -110
+     },
+     {
+      "type": "text",
+      "text": "② 사법권 독립",
+      "style": "row",
+      "pos": "center",
+      "at": 0.45,
+      "fx": "slide-left",
+      "dy": 60
+     },
+     {
+      "type": "illust",
+      "q": [
+       "裁判官",
+       "裁判官 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "대통령과 협의한 내용을 공개하는 것도 부적절하다고 함.",
+   "say": "대통령과 협의한 내용을 공개하는 것도 부적절하다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "大統領",
+       "政治家"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "裁判官",
+       "裁判官 女性"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤐",
+      "pos": "top",
+      "size": "m",
+      "at": 0.6,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니, 민주당은 곧바로 국회법 위반이라고 받아침.",
+   "say": "아니, 민주당은 곧바로 국회법 위반이라고 받아침.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "政治家 演説",
+       "政治家"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "국회법 위반",
+      "style": "red",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "shake"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 대변인은 불출석할 거면 사퇴하라고까지 함.",
+   "say": "심지어 대변인은 불출석할 거면 사퇴하라고까지 함.",
+   "sfx": "exclaim",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "text",
+      "text": "불출석할 거면 사퇴하라",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "マイク 男性",
+       "記者会見"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "pop",
+      "dy": 80
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들은 나가야 한다고 봄, 안 나가도 된다고 봄?",
+   "say": "님들은 나가야 한다고 봄, 안 나가도 된다고 봄?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 나가야 함",
+      "style": "row",
+      "pos": "center",
+      "at": 0.2,
+      "fx": "slide-left",
+      "dy": -60
+     },
+     {
+      "type": "text",
+      "text": "② 안 나가도 됨",
+      "style": "row",
+      "pos": "center",
+      "at": 0.45,
+      "fx": "slide-left",
+      "dy": 110
+     },
+     {
+      "type": "illust",
+      "q": [
+       "裁判官",
+       "裁判官 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "국감 안 나간다? 조희대 대법원장 불출석 사유서 논란 #shorts",
+  "description": "국회 법사위가 9월 28일 조희대 대법원장을 국정감사 증인으로 채택했습니다(민주당 주도, 국민의힘 퇴장).\n조 대법원장은 10월 6일 대법원 국감을 앞두고 '제청권 증언 요구는 삼권분립·사법권 독립에 반한다'며 불출석 사유서를 냈습니다.\n민주당은 국회법 위반이라며 '불출석할 거면 사퇴하라'고 반발했습니다.\n\n출처: YTN https://www.ytn.co.kr/_ln/0103_202610041345036662\n※ AI 음성으로 제작했습니다.\n#조희대 #대법원장 #국정감사 #법사위 #삼권분립 #이슈",
+  "tags": [
+   "조희대",
+   "대법원장",
+   "국정감사",
+   "불출석",
+   "법사위",
+   "삼권분립",
+   "민주당",
+   "이슈"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/422/0000912467",
+ "facts_used": [
+  "9월 28일 법사위, 민주당 주도로 조희대 대법원장 국감 증인 채택, 국민의힘 반발 퇴장 [아시아경제 2026.9.28, 뉴스1, 헤럴드경제]",
+  "출석 시 87년 개헌 이후 처음 [아시아경제 2026.9.28, 파이낸셜뉴스 2026.10.4]",
+  "국감 최대 쟁점 대법관 재제청, 대법원 국감 10월 6일 [파이낸셜뉴스 2026.10.4]",
+  "불출석 사유서: 제청권 증언 요구는 삼권분립·사법권 독립에 반함, 대통령과의 협의 내용 공개 부적절 [YTN 2026.10.4, 법률신문, MBC, 주간경향]",
+  "민주당 '국회법 위반' [뉴스핌 2026.10.4, 시사저널, 신아일보]",
+  "민주당 대변인 '불출석할 거면 사퇴하라', '제왕적 특권 의식' [헤럴드경제 2026.10.4, 싱글리스트, 월요신문]"
+ ],
+ "brief": "확인된 사실: 법사위 9/28 민주당 주도 증인 채택(국힘 퇴장), 출석 시 87년 개헌 후 최초. 10/6 대법원 국감. 10/4 조 대법원장 불출석 사유서: 헌법 104조2항 삼권분립·사법권 독립, 진행 중 인사·대통령 협의 내용 공개 부적절. 민주당: 국회증언감정법상 근거 없음, 국회법 위반, 대변인 브리핑 '불출석할 거면 사퇴하라' '제왕적 특권 의식'. 출처: YTN 0103_202610041345036662, 뉴스핌 20261004000036, 헤럴드경제 10892964, 싱글리스트 770952, 아시아경제 2026092818491206250, 파이낸셜뉴스 202610040801430188. 주의: 어느 편이 옳다고 결론 내지 않음, 양측 주장 그대로. 대변인 실명은 한 곳에서만 확인돼 '대변인'으로만 씀."
+}

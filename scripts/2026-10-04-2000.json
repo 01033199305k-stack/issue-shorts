@@ -1,0 +1,451 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "hate-speech-bill-rights-commission",
+ "title_lines": [
+  "조롱하면 징역?",
+  "일베금지법 제동"
+ ],
+ "credit": "자료: OBC·미디어오늘·로섹션 · AI 음성",
+ "segments": [
+  {
+   "text": "조롱 글 반복해서 올리면 최대 징역 5년인 법이 추진 중임.",
+   "say": "조롱 글 반복해서 올리면 최대 징역 오 년인 법이 추진 중임.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマートフォン"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "징역 5년",
+      "style": "big",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "drop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "刑務所",
+       "牢屋"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 여기에 국가인권위가 제동을 걸었음.",
+   "say": "근데 여기에 국가인권위가 제동을 걸었음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "제동!",
+      "style": "stamp",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "stamp"
+     },
+     {
+      "type": "emoji",
+      "text": "✋",
+      "pos": "top-right",
+      "size": "m",
+      "at": 0.1,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이른바 일베금지법, 정보통신망법 개정안 얘기임.",
+   "say": "이른바 일베금지법, 정보통신망법 개정안 얘기임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "video": "computer keyboard typing",
+    "items": [
+     {
+      "type": "text",
+      "text": "일베금지법",
+      "style": "label",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "パソコン インターネット",
+       "パソコン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.35,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "개인이나 집단, 참사 희생자와 유가족을 겨냥한 표현이 대상임.",
+   "say": "개인이나 집단, 참사 희생자와 유가족을 겨냥한 표현이 대상임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "掲示板 インターネット",
+       "インターネット"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "家族",
+       "家族 悲しむ"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.5,
+      "fx": "slide-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "모욕, 조롱, 비하, 멸시, 희화화가 다 들어감.",
+   "say": "모욕, 조롱, 비하, 멸시, 희화화가 다 들어감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "① 모욕 · 조롱",
+      "style": "row",
+      "pos": "center",
+      "at": 0,
+      "fx": "slide-left",
+      "dy": -150
+     },
+     {
+      "type": "text",
+      "text": "② 비하 · 멸시",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "slide-left",
+      "dy": -10
+     },
+     {
+      "type": "text",
+      "text": "③ 희화화",
+      "style": "red",
+      "pos": "center",
+      "at": 0.6,
+      "fx": "shake",
+      "dy": 130
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 고의로 반복하면 징역 5년 이하 또는 벌금 5천만 원 이하임.",
+   "say": "와, 고의로 반복하면 징역 오 년 이하 또는 벌금 오천만 원 이하임.",
+   "sfx": "punch",
+   "tone": "놀라서 눈이 커진 듯 들뜬 목소리로",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "text",
+      "text": "5천만 원",
+      "style": "big",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "札束",
+       "お金"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.65,
+      "fx": "run-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "발의한 이훈기 의원은 혐오는 표현의 자유가 아니라는 입장임.",
+   "say": "발의한 이훈기 의원은 혐오는 표현의 자유가 아니라는 입장임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "政治家 演説",
+       "政治家"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "표현의 자유 아냐",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 인권위 판단이 나옴.",
+   "say": "자, 인권위 판단이 나옴.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "대상이 너무 넓어서 과잉 차단이 우려된다는 것.",
+   "say": "대상이 너무 넓어서 과잉 차단이 우려된다는 것.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "과잉 차단 우려",
+      "style": "stamp",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "ネット 規制",
+       "通行止め"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "pop",
+      "dy": 80
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 조롱이나 희화화 기준 자체가 모호하다는 지적도 나옴.",
+   "say": "헐, 조롱이나 희화화 기준 자체가 모호하다는 지적도 나옴.",
+   "sfx": "whoosh",
+   "tone": "고개를 갸웃하듯 의아한 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "기준이 모호",
+      "style": "label",
+      "pos": "top",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그래서 신중한 재검토가 필요하다는 의견을 내기로 함.",
+   "say": "그래서 신중한 재검토가 필요하다는 의견을 내기로 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "書類 チェック",
+       "書類"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "재검토 필요",
+      "style": "red",
+      "pos": "right",
+      "at": 0.45,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "처벌 범위는 결국 국회 심사에서 다시 따지게 됨.",
+   "say": "처벌 범위는 결국 국회 심사에서 다시 따지게 됨.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "video": "parliament building",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "国会議事堂",
+       "国会"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "국회 심사",
+      "style": "label",
+      "pos": "top",
+      "at": 0.35,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들은 혐오 처벌이 먼저임, 표현의 자유가 먼저임?",
+   "say": "님들은 혐오 처벌이 먼저임, 표현의 자유가 먼저임?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 혐오 처벌",
+      "style": "row",
+      "pos": "center",
+      "at": 0.2,
+      "fx": "slide-left",
+      "dy": -60
+     },
+     {
+      "type": "text",
+      "text": "② 표현의 자유",
+      "style": "row",
+      "pos": "center",
+      "at": 0.45,
+      "fx": "slide-left",
+      "dy": 110
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "조롱하면 징역 5년? 인권위, '일베금지법' 제동 #shorts",
+  "description": "조롱·혐오 정보를 고의로 반복 게시하면 5년 이하 징역 또는 5천만 원 이하 벌금에 처하는 정보통신망법 개정안(이른바 일베금지법)이 발의됐습니다.\n국가인권위원회는 규제 대상이 넓어 과잉 차단이 우려된다며 신중한 재검토가 필요하다는 의견을 내기로 했습니다.\n처벌 범위와 기준은 국회 심사에서 다시 다뤄집니다.\n\n출처: OBC 더원방송 https://theonetv.kr/news/articleView.html?idxno=253844\n※ AI 음성으로 제작했습니다.\n#일베금지법 #인권위 #표현의자유 #혐오표현 #정보통신망법",
+  "tags": [
+   "일베금지법",
+   "인권위",
+   "표현의자유",
+   "혐오표현",
+   "정보통신망법",
+   "이훈기",
+   "이슈"
+  ]
+ },
+ "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=467829",
+ "facts_used": [
+  "인권위, 일베금지법(정보통신망법 개정안)에 '신중한 재검토 필요' 의견 표명 결정, 과잉 차단 우려 [OBC 더원방송, 경인뉴스통신 등 2026.10]",
+  "조롱·혐오 기준 모호 지적 [OBC 더원방송, 경인뉴스통신]",
+  "대상: 특정 개인·집단, 국가적·사회적 사건 희생자·유가족에 대한 모욕·조롱·비하·멸시·희화화 [미디어오늘, 로섹션]",
+  "고의 반복 게시·유통 시 5년 이하 징역 또는 5천만 원 이하 벌금 [미디어오늘, 로섹션]",
+  "이훈기 의원: 조롱·비하·혐오는 표현의 자유로 보호돼선 안 된다는 취지 [시사저널, kbc]"
+ ],
+ "brief": "확인된 사실: 이훈기 의원 발의 정보통신망법 개정안('일베금지법'), 조롱·혐오정보 규정(특정 개인·집단, 국가적·사회적 사건 희생자·유가족 대상 모욕·조롱·비하·멸시·희화화), 고의 반복 게시 5년 이하 징역/5천만 원 이하 벌금. 인권위 '신중한 재검토 필요' 의견 표명 결정, 과잉 차단 우려·개념 추상적. 국회 심사에서 범위·기준 재논의. 출처: OBC theonetv 253844, 미디어오늘 334980, 로섹션 2206, 시사저널 379859, kbc202609270027, 경인뉴스통신(glovalmetronews 42986). 주의: 법안 찬반 어느 쪽도 편들지 않음, 특정 사이트 이용자 비하 금지. 인권위 의결 날짜는 확인 못 해 쓰지 않음."
+}

@@ -1,0 +1,429 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "foreigners-sell-20-trillion",
+ "title_lines": [
+  "한 달에 20조?",
+  "외국인 매도 폭탄"
+ ],
+ "credit": "자료: 파이낸셜뉴스·한국경제(2026.10.4) · AI 음성",
+ "segments": [
+  {
+   "text": "외국인이 한 달 만에 우리 주식 20조 원어치를 팔아치움.",
+   "say": "외국인이 한 달 만에 우리 주식 이십조 원어치를 팔아치움.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "video": "stock market chart screen",
+    "items": [
+     {
+      "type": "text",
+      "text": "20조",
+      "style": "big",
+      "pos": "top",
+      "at": 0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "📉",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.4,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 진짜 문제는 뭘 팔았냐임.",
+   "say": "근데 진짜 문제는 뭘 팔았냐임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.35,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "뭘 팔았길래?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "9월 1일부터 10월 2일까지 코스피에서 20조 3050억 원 순매도.",
+   "say": "구월 일일부터 시월 이일까지 코스피에서 이십조 삼천오십억 원 순매도.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "text",
+      "text": "20조 3050억",
+      "style": "big",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "株価 下落",
+       "株"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 22거래일 중에 순매수한 날은 겨우 7일뿐이었음.",
+   "say": "와, 이십이 거래일 중에 순매수한 날은 겨우 칠일뿐이었음.",
+   "sfx": "whoosh",
+   "tone": "놀라서 눈이 커진 듯 들뜬 목소리로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "カレンダー 予定"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "22일 중 7일",
+      "style": "big",
+      "pos": "right",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "하루에만 3조 넘게 판 날도 있었음.",
+   "say": "하루에만 삼조 넘게 판 날도 있었음.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "text",
+      "text": "하루 3조+",
+      "style": "big",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "札束",
+       "お金"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.35,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "run-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 제일 많이 판 종목이 공개됨.",
+   "say": "자, 제일 많이 판 종목이 공개됨.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "SK하이닉스 12조, 삼성전자 5조.",
+   "say": "에스케이하이닉스 십이조, 삼성전자 오조.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "video": "computer chip semiconductor",
+    "items": [
+     {
+      "type": "text",
+      "text": "① SK하이닉스 12조",
+      "style": "row",
+      "pos": "center",
+      "at": 0,
+      "fx": "slide-left",
+      "dy": -90
+     },
+     {
+      "type": "text",
+      "text": "② 삼성전자 5조",
+      "style": "row",
+      "pos": "center",
+      "at": 0.45,
+      "fx": "slide-left",
+      "dy": 70
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 이 두 종목이 전체 순매도의 84.7%를 차지함.",
+   "say": "헐, 이 두 종목이 전체 순매도의 팔십사 점 칠 퍼센트를 차지함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "84.7%",
+      "style": "big",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "半導体",
+       "パソコン 部品"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "결국 하이닉스 외국인 지분율이 49.76%, 50% 아래로 내려감.",
+   "say": "결국 하이닉스 외국인 지분율이 사십구 점 칠육 퍼센트, 오십 퍼센트 아래로 내려감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "49.76%",
+      "style": "big",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "50% 붕괴",
+      "style": "red",
+      "pos": "center",
+      "at": 0.55,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 2023년 5월 이후 3년 4개월 만에 가장 낮음.",
+   "say": "심지어 이천이십삼 년 오월 이후 삼 년 사 개월 만에 가장 낮음.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "カレンダー 予定"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "3년 4개월 만",
+      "style": "label",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "right",
+      "size": "m",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 10월 들어서는 매도세가 좀 주춤해짐.",
+   "say": "근데 시월 들어서는 매도세가 좀 주춤해짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "休憩 男性",
+       "一休み"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✋",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "1일엔 오히려 2430억 원 순매수로 돌아섬.",
+   "say": "일일엔 오히려 이천사백삼십억 원 순매수로 돌아섬.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "video": "city skyline evening",
+    "items": [
+     {
+      "type": "text",
+      "text": "+2430억",
+      "style": "big",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📈",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.4,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들은 외국인 다시 돌아온다고 봄?",
+   "say": "님들은 외국인 다시 돌아온다고 봄?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 생각은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 돌아온다",
+      "style": "row",
+      "pos": "center",
+      "at": 0.2,
+      "fx": "slide-left",
+      "dy": -60
+     },
+     {
+      "type": "text",
+      "text": "② 아직 멀었다",
+      "style": "row",
+      "pos": "center",
+      "at": 0.45,
+      "fx": "slide-left",
+      "dy": 110
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "한 달에 20조 팔았다? 외국인 코스피 매도 폭탄 #shorts",
+  "description": "외국인이 9월 1일~10월 2일 코스피에서 20조 3050억 원을 순매도했습니다.\nSK하이닉스(12조)와 삼성전자(5조)에 매도가 집중돼 전체의 84.7%를 차지했고, 하이닉스 외국인 지분율은 49.76%로 약 3년 4개월 만에 최저입니다.\n10월 들어 매도세는 주춤해졌습니다. (투자 권유가 아닙니다)\n\n출처: 파이낸셜뉴스 https://www.fnnews.com/news/202610040615228944\n※ AI 음성으로 제작했습니다.\n#외국인 #코스피 #SK하이닉스 #삼성전자 #증시",
+  "tags": [
+   "외국인 매도",
+   "코스피",
+   "SK하이닉스",
+   "삼성전자",
+   "증시",
+   "셀코리아",
+   "이슈"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/277/0005824481",
+ "facts_used": [
+  "9/1~10/2 외국인 코스피 20조 3050억 원 순매도 [파이낸셜뉴스 2026.10.4, 핀포인트뉴스, 재경일보]",
+  "22거래일 중 순매수 7일, 9/28 하루 3조 넘게 순매도 [파이낸셜뉴스, 한국경제]",
+  "SK하이닉스 12조 90억, 삼성전자 5조 1860억, 두 종목 84.7% [파이낸셜뉴스, 핀포인트뉴스]",
+  "하이닉스 외국인 지분율 50.57%→49.76%, 2023년 5월 이후 약 3년 4개월 만 최저 [파이낸셜뉴스, 한국경제TV]",
+  "10/1 2430억 순매수, 10/2 190억 순매도로 매도세 주춤 [파이낸셜뉴스, 핀포인트뉴스]"
+ ],
+ "brief": "확인된 사실: 9/1~10/2 외국인 코스피 순매도 20조3050억. 22거래일 중 7일만 순매수, 9/28 3조 넘는 순매도. 하이닉스 12조90억·삼성전자 5조1860억(84.7%). 하이닉스 외인 지분율 50.57%→49.76%(2023.5 이후 최저), 삼성전자 46%대. 10/1 2430억 순매수, 10/2 190억 순매도. 출처: 파이낸셜뉴스 202610040615228944, 한국경제 202610042304i, 아시아경제 2026100413421488601, 디지털타임스 12087264, 핀포인트뉴스 492505, 한국경제TV A202610040001. 주의: 사라/팔아라 조언 금지, 전망 단정 금지. 지수 수치는 기사마다 날짜가 달라 안 씀."
+}
