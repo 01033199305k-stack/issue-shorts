@@ -1,81 +1,75 @@
 {
- "detected_at": "2026-10-04T09:37+09:00",
+ "detected_at": "2026-10-04T14:17+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "김상욱 “러시아女 동거설부터 성매매 의혹까지…무혐의 땐 정계 은퇴하라”",
-   "url": "https://n.news.naver.com/article/011/0004668034",
+   "title": "오세훈 \"저급한 상업주의\"…'암살자(들)' 탄흔 티켓 직격",
+   "url": "https://n.news.naver.com/article/215/0001268134",
+   "press": "한국경제TV",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선비즈",
+     "title": "오세훈 “암살자(들) 탄흔 티켓, 인간 존엄마저 포기한 저급한 상업주의”",
+     "url": "https://n.news.naver.com/article/366/0001196048"
+    },
+    {
+     "press": "조선일보",
+     "title": "육영수 자리에 총알 자국... 野 “암살자(들) 탄흔 티켓 저급한 상업주의”",
+     "url": "https://n.news.naver.com/article/023/0004001999"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "암살자(들) 본 조국 \"육영수 죽음 조롱 안 해…유해진은 의병상\"",
+   "url": "https://n.news.naver.com/article/437/0000514003",
+   "press": "JTBC",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "이데일리",
+     "title": "조국 ‘암살자(들)’ 논란에 \"육영수 조롱 아닌데...쌍욕에 별점테러\"",
+     "url": "https://n.news.naver.com/article/018/0006380639"
+    },
+    {
+     "press": "TV조선",
+     "title": "조국 \"유해진 '북한상' 아닌 '의병상'…육 여사 피격 자료 공개검증하자\"",
+     "url": "https://n.news.naver.com/article/448/0000642961"
+    },
+    {
+     "press": "헤럴드경제",
+     "title": "조국 “암살자(들), 육여사 죽음 조롱 안해…법적 책임질 건 전혀 없다”",
+     "url": "https://n.news.naver.com/article/016/0002705320"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "조국 “암살자(들) 법적 책임질 것 없다…131분 순식간에 지나가”",
+   "url": "https://n.news.naver.com/article/011/0004668080",
    "press": "서울경제",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "한국경제TV",
-     "title": "김상욱 \"러시아女 동거설에 성매매 의혹까지…무혐의면 비겁한 분들 의원직 사퇴하라\"",
-     "url": "https://n.news.naver.com/article/215/0001268111"
+     "press": "세계일보",
+     "title": "조국 “국민배우 유해진님은 ‘의병상’… 연기에 131분 순식간에 지나가”",
+     "url": "https://n.news.naver.com/article/022/0004163904"
     },
     {
-     "press": "서울신문",
-     "title": "김상욱 “러시아女 동거·필리핀 성매매? 무혐의 땐 의혹 제기자들 정계 은퇴하라”",
-     "url": "https://n.news.naver.com/article/081/0003685802"
+     "press": "헤럴드경제",
+     "title": "조국 “암살자(들), 육여사 죽음 조롱 안해…법적 책임질 건 전혀 없다”",
+     "url": "https://n.news.naver.com/article/016/0002705320"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "'암살자(들)' 이번엔 '패륜 굿즈' 논란…\"눈 뜨고 볼 수 없다\" 분노",
-   "url": "https://n.news.naver.com/article/015/0005338922",
-   "press": "한국경제",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "국민일보",
-     "title": "암살자(들) 이번엔 탄흔 티켓… 주진우 “패륜 굿즈”",
-     "url": "https://n.news.naver.com/article/005/0001876555"
-    },
-    {
-     "press": "헤럴드경제",
-     "title": "암살자(들), ‘탄흔 티켓’ 논란…이기인·주진우 “패륜 굿즈, 전량 폐기해야”",
-     "url": "https://n.news.naver.com/article/016/0002705224"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "\"목숨을 앗아간 총격을 굿즈로\"…'암살자(들)' 메가박스 티켓 논란",
-   "url": "https://n.news.naver.com/article/277/0005824385",
-   "press": "아시아경제",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "국민일보",
-     "title": "암살자(들) 이번엔 탄흔 티켓… 주진우 “패륜 굿즈”",
-     "url": "https://n.news.naver.com/article/005/0001876555"
-    },
-    {
-     "press": "헤럴드경제",
-     "title": "암살자(들), ‘탄흔 티켓’ 논란…이기인·주진우 “패륜 굿즈, 전량 폐기해야”",
-     "url": "https://n.news.naver.com/article/016/0002705224"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "‘암살자(들)’ 피격 장면을 굿즈로…주진우 “패륜굿즈 전량 폐기”",
-   "url": "https://n.news.naver.com/article/449/0000362907",
-   "press": "채널A",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "국민일보",
-     "title": "암살자(들) 이번엔 탄흔 티켓… 주진우 “패륜 굿즈”",
-     "url": "https://n.news.naver.com/article/005/0001876555"
-    },
-    {
-     "press": "헤럴드경제",
-     "title": "암살자(들), ‘탄흔 티켓’ 논란…이기인·주진우 “패륜 굿즈, 전량 폐기해야”",
-     "url": "https://n.news.naver.com/article/016/0002705224"
-    }
-   ]
+   "title": "[속보] 李 대통령, 금융권 개인정보 유출에 철저한 조사·대책 마련 지시",
+   "url": "https://n.news.naver.com/article/629/0000539308",
+   "press": "더팩트",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
