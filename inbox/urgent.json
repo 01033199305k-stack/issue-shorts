@@ -1,62 +1,41 @@
 {
- "detected_at": "2026-10-04T17:17+09:00",
+ "detected_at": "2026-10-05T08:35+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "금메달 따고 ‘전역모 인증샷’ 논란에…박승수 “군 복무 가볍게 생각 안해. 진심으로 죄송”",
-   "url": "https://n.news.naver.com/article/016/0002705341",
-   "press": "헤럴드경제",
+   "title": "'군 면제' 세리머니로 금메달 무색…논란에 \"경솔했다\" 사과",
+   "url": "https://n.news.naver.com/article/437/0000514032",
+   "press": "JTBC",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "조선일보",
-     "title": "선넘은 ‘전역모 인증샷’… 병역면제 논란 자살골",
-     "url": "https://n.news.naver.com/article/023/0004002015"
+     "press": "부산일보",
+     "title": "최우진, 절뚝이는 '금메달 세리머니' 사과…\"국군 비하 의도 아냐\"",
+     "url": "https://n.news.naver.com/article/082/0001401100"
     },
     {
-     "press": "한국경제TV",
-     "title": "'전역모' 썼다가 논란된 박승수…\"군 복무 가볍게 생각한 것 아냐\" 사과",
-     "url": "https://n.news.naver.com/article/215/0001268153"
+     "press": "경기일보",
+     "title": "절뚝거리다 신발서 금메달 쓱?… ‘지뢰 세리머니’ 논란에 최우진 “국군 비하 절대 아냐”",
+     "url": "https://n.news.naver.com/article/666/0000126054"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]“군대 안간다고 자랑하는 국대 축구팀…발목 잃은 군인은 바보냐” 안철수의 말",
-   "url": "https://n.news.naver.com/article/021/0002822982",
-   "press": "문화일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 바다로 보낸 부캉이, 그물 넘어 수로로 돌아와",
-   "url": "https://n.news.naver.com/article/654/0000203765",
-   "press": "강원도민일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[오마이포토] 배우 유해진 자택 앞 '암살자(들)' 상영중단 시위, '윤어게인'도 등장",
-   "url": "https://n.news.naver.com/article/047/0002531172",
-   "press": "오마이뉴스",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "“국군 비하 의도 아냐”…축구金 최우진 '절뚝, 지뢰 세리머니' 논란 해명",
+   "url": "https://n.news.naver.com/article/030/0003472205",
+   "press": "전자신문",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "서울신문",
-     "title": "‘암살자(들)’ 배우 유해진 자택 앞 보수단체 집회",
-     "url": "https://n.news.naver.com/article/081/0003685876"
+     "press": "부산일보",
+     "title": "최우진, 절뚝이는 '금메달 세리머니' 사과…\"국군 비하 의도 아냐\"",
+     "url": "https://n.news.naver.com/article/082/0001401100"
     },
     {
-     "press": "국민일보",
-     "title": "‘암살자(들)’ 공격 선 넘었다…유해진 자택 앞서 집회까지",
-     "url": "https://n.news.naver.com/article/005/0001876613"
-    },
-    {
-     "press": "연합뉴스",
-     "title": "'암살자(들)' 주연배우 유해진 자택·제작사 앞 보수단체 집회",
-     "url": "https://n.news.naver.com/article/001/0016356712"
+     "press": "경기일보",
+     "title": "절뚝거리다 신발서 금메달 쓱?… ‘지뢰 세리머니’ 논란에 최우진 “국군 비하 절대 아냐”",
+     "url": "https://n.news.naver.com/article/666/0000126054"
     }
    ]
   }
