@@ -124,12 +124,19 @@ class Picker:
                 print(f"    illust: nothing titled with {words[0]!r} for {query!r} - fallback")
                 return None
             _, title, url = max(scored, key=lambda r: r[0])
-            try:
-                path.write_bytes(_get(url, timeout=30))
-                _trim(path)
-            except Exception as ex:
-                print(f"    illust: download failed {url}: {ex}")
+            data = None
+            # some images 404 at s800 from some hosts - step down through sizes
+            for size in ("s800", "s640", "s400", "s320"):
+                try:
+                    data = _get(re.sub(r"/s\d+(-c)?/", f"/{size}/", url), timeout=30)
+                    break
+                except Exception as ex:
+                    last = ex
+            if not data:
+                print(f"    illust: download failed {url[-60:]}: {last}")
                 return None
+            path.write_bytes(data)
+            _trim(path)
             print(f"    illust: {query!r} -> {title}")
         self.used[query] = path
         return path

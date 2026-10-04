@@ -26,6 +26,11 @@ QWEN_MODEL = "Qwen/Qwen3-TTS-12Hz-1.7B-CustomVoice"
 VOICEBOX_URL = "http://127.0.0.1:17493"
 MIN_MATCH = 0.78     # transcript-vs-script similarity below this = re-roll
 MAX_TAKES = 3
+# Qwen3-TTS often stops before the last syllable has died away (음/함/임 cut off).
+# Give it a throwaway tail after a pause so the real sentence ends naturally,
+# then cut inside that pause.
+TAIL = " ... 네."
+TTS_VERSION = "sent-v2"   # part of the take cache key: bump when generation changes
 
 
 @dataclass
@@ -139,8 +144,52 @@ def _map_words(display: str, heard: list[Word]) -> list[Word]:
     return out
 
 
+def _cut_tail(path: Path) -> float | None:
+    """Start of the pause before the throwaway tail: the last silence (>=80 ms at
+    -42 dB) that ends inside the final second, i.e. right before "네"."""
+    import subprocess
+    r = subprocess.run(["ffmpeg", "-hide_banner", "-i", str(path), "-af",
+                        "silencedetect=n=-42dB:d=0.08", "-f", "null", "-"],
+                       capture_output=True, text=True, encoding="utf-8", errors="replace")
+    dur = ffprobe_duration(path)
+    gaps, start = [], None
+    for line in r.stderr.splitlines():
+        if "silence_start:" in line:
+            start = float(line.split("silence_start:")[1].split()[0])
+        elif "silence_end:" in line and start is not None:
+            gaps.append((start, float(line.split("silence_end:")[1].split("|")[0])))
+            start = None
+    gaps = [g for g in gaps if g[0] > 0.4 and dur - 1.0 <= g[1] <= dur - 0.12]
+    return gaps[-1][0] + 0.06 if gaps else None
+
+
+def _trim_tail(src: Path, dst: Path, cut: float | None) -> None:
+    """Keep audio up to `cut` with a 40 ms fade-out (no click), plus 0.1 s of room."""
+    from pipeline.util import run as _run
+    end = f"atrim=0:{cut:.3f}," if cut else ""
+    fade_at = max(0.0, (cut or ffprobe_duration(src)) - 0.04)
+    _run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(src), "-af",
+          f"{end}afade=t=out:st={fade_at:.3f}:d=0.04,apad=pad_dur=0.1", str(dst)])
+
+
+CHO = "ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ"
+JUNG = "ㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ"
+JONG = " ㄱㄲㄳㄴㄵㄶㄷㄹㄺㄻㄼㄽㄾㄿㅀㅁㅂㅄㅅㅆㅇㅈㅊㅋㅌㅍㅎ"
+
+
 def _norm(s: str) -> str:
-    return re.sub(r"[^0-9A-Za-z가-힣]", "", s).lower()
+    """Compare by sound, not spelling: whisper writes what it hears, and Korean
+    liaison makes "한 말이 더 가관임" sound like "한 마리 더 가과님". Split syllables
+    into jamo and drop the silent initial ㅇ, and the two become identical."""
+    out = []
+    for ch in re.sub(r"[^0-9A-Za-z가-힣]", "", s).lower():
+        code = ord(ch) - 0xAC00
+        if 0 <= code < 11172:
+            c, j, t = code // 588, (code % 588) // 28, code % 28
+            out.append(("" if CHO[c] == "ㅇ" else CHO[c]) + JUNG[j] + JONG[t].strip())
+        else:
+            out.append(ch)
+    return "".join(out)
 
 
 def _similarity(heard: str, *scripts: str) -> float:
@@ -175,7 +224,7 @@ def synthesize(
     # Same sentence, same voice settings -> reuse the take (re-renders and retries skip TTS)
     import hashlib
     import shutil
-    key = hashlib.sha1(json.dumps([engine, voice, instruct, speed, seed, text, display],
+    key = hashlib.sha1(json.dumps([TTS_VERSION, engine, voice, instruct, speed, seed, text, display],
                                   ensure_ascii=False).encode()).hexdigest()[:20]
     cdir = Path(__file__).resolve().parent.parent / "cache" / "tts"
     if (cdir / f"{key}.json").exists() and (cdir / f"{key}.wav").exists():
@@ -197,11 +246,14 @@ def _synthesize_fresh(text, out_wav, *, gen, voice, instruct, speed, display, se
     best = None
     for take in range(MAX_TAKES):
         raw = out_wav.with_suffix(f".take{take}.wav")
+        full = out_wav.with_suffix(f".take{take}.full.wav")
         sped = out_wav.with_suffix(f".take{take}.sped.wav")
-        gen(text, voice, instruct, seed + take * 101, raw)
+        gen(text + TAIL, voice, instruct, seed + take * 101, raw)
         run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw),
-             "-af", f"atempo={speed:.3f}", "-ar", "24000", "-ac", "1", str(sped)])
+             "-af", f"atempo={speed:.3f}", "-ar", "24000", "-ac", "1", str(full)])
         raw.unlink(missing_ok=True)
+        _trim_tail(full, sped, _cut_tail(full))
+        full.unlink(missing_ok=True)
         segs, _ = _whisper_model().transcribe(_load16k(sped), language="ko", word_timestamps=True)
         heard = [Word(w.word.strip(), w.start, w.end)
                  for s in segs for w in (s.words or []) if w.word.strip()]
