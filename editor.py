@@ -107,7 +107,7 @@ theme: night(평범) / alert(사건·분노) / money(돈) / cold(결과·판결)
 
 효과음 sfx: 0번은 보통 dudung. 전환 기본은 whoosh. 강조할 때만 punch(충격 숫자), exclaim(막말·놀람), stamp(판결·결과), question(의문·사유), absurd(어이없는 결말). 같은 강조음을 연달아 쓰지 않는다. none은 무음 전환.
 
-credit: "자료: <매체>(<날짜>) · AI 음성" 40자 이내. 커뮤니티 소재면 "자료: 온라인 커뮤니티 · AI 음성".
+credit: 항상 "" (출처 자막 쓰지 않음).
 
 youtube:
 - title: 60자 이내, 핵심 키워드 포함, 끝에 " #shorts"

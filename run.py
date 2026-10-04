@@ -131,6 +131,7 @@ def main() -> int:
     print("[4/5] 음성 + 모션 렌더 (군림보식 패널 + いらすとや)")
     from pipeline.render import render
     video = out_dir / "video.mp4"
+    script["credit"] = ""   # 영상 속 출처 자막도 쓰지 않는다 (2026-10-04 방침)
     stats = render(script, cfg, REPO, out_dir / "work", video)
     record.update(stats)
     print(f"  {stats}")

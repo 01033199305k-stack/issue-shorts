@@ -165,7 +165,7 @@ WebFetch 는 대부분 막혀 있으니 한 번 시도해서 `EGRESS_BLOCKED` �
 0번은 보통 `dudung`. 기본 전환은 `whoosh`. 강조할 때만 `punch`(충격 숫자), `exclaim`(막말·놀람), `stamp`(판결·결과), `question`(떡밥·의문), `absurd`(어이없는 결말). 같은 강조음을 연달아 쓰지 않는다. `none` 은 무음. (`punch`·`stamp`·`exclaim` 은 화면도 흔들린다)
 
 ### 나머지 필드
-- `credit`: `"자료: <매체>(<날짜>) · AI 음성"` 40자 이내. 커뮤니티 소재면 `"자료: 온라인 커뮤니티 · AI 음성"`.
+- `credit`: 항상 `""` (영상 속 출처 자막 쓰지 않음).
 - `youtube.title`(60자 이내, 끝에 ` #shorts`), `youtube.description`(3~4줄 요약, 빈 줄, `※ AI 음성으로 제작했습니다.`, 해시태그 4~6개), `youtube.tags`(5~10개)
 - `slug`(영문 소문자 kebab-case 3~5단어), `source_post`(고른 커뮤니티 글 URL, `news_hot` 기사를 골랐으면 기사 URL), `facts_used`(대본에 쓴 사실과 출처), `brief`(취재 메모), `skip`: false, `skip_reason`: "".
 
