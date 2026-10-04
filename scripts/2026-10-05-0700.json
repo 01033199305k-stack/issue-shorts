@@ -1,0 +1,379 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "pediatric-er-police-raid",
+ "title_lines": [
+  "응급실에 수사관?",
+  "소아응급 압수수색"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "진료 중인 소아응급실에 경찰 압수수색이 들어감.",
+   "say": "진료 중인 소아응급실에 경찰 압수수색이 들어감.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "video": "hospital emergency entrance night",
+    "items": [
+     {
+      "type": "text",
+      "text": "소아응급실",
+      "style": "label",
+      "pos": "top",
+      "at": 0,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "압수수색",
+      "style": "stamp",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 경찰이랑 의사들 말이 정반대임.",
+   "say": "근데 경찰이랑 의사들 말이 정반대임.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官",
+       "警察官 男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "医者 男性",
+       "医者"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top",
+      "size": "m",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "약 두 달 전, 청색증 치료받던 아기가 숨진 게 시작임.",
+   "say": "약 두 달 전, 청색증 치료받던 아기가 숨진 게 시작임.",
+   "sfx": "whoosh",
+   "tone": "차분하고 담담하게 천천히",
+   "visual": {
+    "bg": "night",
+    "video": "hospital corridor empty night",
+    "items": [
+     {
+      "type": "text",
+      "text": "약 두 달 전",
+      "style": "label",
+      "pos": "top",
+      "at": 0,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰은 9월 30일 그 응급센터에 영장을 집행함.",
+   "say": "경찰은 구월 삼십일 그 응급센터에 영장을 집행함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "police car lights night",
+    "items": [
+     {
+      "type": "text",
+      "text": "9월 30일",
+      "style": "big",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "영장 집행",
+      "style": "stamp",
+      "pos": "center",
+      "at": 0.6,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니 잠깐만, 의사들은 수사관이 처방 컴퓨터를 점거했다 주장함.",
+   "say": "아니 잠깐만, 의사들은 수사관이 처방 컴퓨터를 점거했다 주장함.",
+   "sfx": "exclaim",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "center",
+      "size": "xl",
+      "at": 0,
+      "fx": "zoom"
+     },
+     {
+      "type": "text",
+      "text": "잠깐만",
+      "style": "label",
+      "pos": "top",
+      "at": 0.05,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "パソコン 仕事",
+       "パソコン"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.5,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "\"진료 방해\"",
+      "style": "red",
+      "pos": "top-left",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "학회도 요청하면 줄 자료인데 과도하다고 함.",
+   "say": "학회도 요청하면 줄 자료인데 과도하다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カルテ",
+       "書類 束"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "怒る 医者",
+       "医者 怒る",
+       "怒る 男性"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.35,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "right",
+      "size": "s",
+      "at": 0.55,
+      "fx": "pop",
+      "dx": -60,
+      "dy": -140
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 그럼 경찰 쪽 말은 어떨까.",
+   "say": "자, 그럼 경찰 쪽 말은 어떨까.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top",
+      "size": "l",
+      "at": 0,
+      "fx": "fade"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "虫眼鏡 探偵",
+       "虫眼鏡"
+      ],
+      "pos": "center",
+      "size": "m",
+      "at": 0.4,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "환자 있는 진료실은 빼고 두 곳만 15분 봤다고 함.",
+   "say": "환자 있는 진료실은 빼고 두 곳만 십오 분 봤다고 함.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "video": "hospital room empty bed",
+    "items": [
+     {
+      "type": "text",
+      "text": "15분",
+      "style": "big",
+      "pos": "top",
+      "at": 0.5,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 마지막 한 곳은 4시간 기다렸다가 2분 봤다고 함.",
+   "say": "심지어 마지막 한 곳은 네 시간 기다렸다가 이 분 봤다고 함.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "時計",
+       "壁掛け時計"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "4시간 대기",
+      "style": "big",
+      "pos": "top",
+      "at": 0.25,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "확인 2분",
+      "style": "red",
+      "pos": "right",
+      "at": 0.7,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "필요한 수사였음, 과잉 수사였음?",
+   "say": "필요한 수사였음, 과잉 수사였음?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 필요한 수사",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "slide-left"
+     },
+     {
+      "type": "text",
+      "text": "② 과잉 수사",
+      "style": "row",
+      "pos": "bottom",
+      "at": 0.55,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "天秤",
+       "てんびん"
+      ],
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "救急車"
+      ],
+      "pos": "bottom-left",
+      "size": "s",
+      "at": 0.8,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "진료 중 소아응급실 압수수색? 경찰 vs 의사 엇갈린 주장 #shorts",
+  "description": "청색증으로 치료받던 아기가 숨진 사건을 수사하던 경기남부경찰청이 9월 30일 한 대학병원 소아응급센터에 압수수색 영장을 집행했습니다.\n소아과 의사들과 학회는 진료 중 처방 컴퓨터를 점거한 과도한 수사라고 주장했고, 경찰은 환자 있는 진료실은 제외하고 4시간을 기다리는 등 진료 지장을 최소화했다는 입장입니다.\n\n※ AI 음성으로 제작했습니다.\n#소아응급실 #압수수색 #필수의료 #경찰 #이슈",
+  "tags": [
+   "소아응급실",
+   "압수수색",
+   "소아과",
+   "필수의료",
+   "경기남부경찰청",
+   "의료계",
+   "이슈"
+  ]
+ },
+ "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=467881&_dcbest=1&page=1",
+ "facts_used": [
+  "경기 남부 대학병원 소아응급센터에서 청색증으로 치료받던 아이 사망, 약 두 달 뒤 9월 30일 경기남부경찰청이 압수수색 영장 집행 [인천일보, 서울경제, SBS, 코메디닷컴]",
+  "젊은 소아과 의사 모임(NGP): 진료 중 수사관이 처방 컴퓨터를 점거해 진료를 방해했다고 주장 [인천일보, SBS, 한국사회복지저널]",
+  "학회: 병원에 요청하면 받을 수 있는 자료인데 진료 중 응급실 압수수색은 과도 [독립신문(ainews1), 서울경제, 코메디닷컴(의학회: 비례성·최소침해 원칙 벗어남)]",
+  "경찰: 환자 있던 진료실 1곳 제외, 2곳 약 15분 확인, 마지막 1곳은 4시간여 기다려 진료 끝난 뒤 약 2분 확인 [스페셜타임스, 독립신문(ainews1)]"
+ ],
+ "brief": "점수표: 소아응급실 압수수색 12(억울4·싸움5·반전3) / 암살자(들) 관람평 매크로 10(2·4·4, 같은 영화 집회 회차 이미 있음) / 테슬라 FSD 정부검증 0건 9 / 분당 3억 호가 8 / 주진우·진중권 설전 7. 훅 3안: ①'진료 중인 소아응급실에 경찰 압수수색이 들어감' ②'아이 치료하던 응급실에서 영장이 집행됨' ③'경찰은 4시간 기다렸다는데 의사들은 진료 방해래' -> ①이 상황만으로 가장 세고 중립적이라 선택, 제목 1줄은 '응급실에 수사관?'(대안: '진료 중 압수수색?', '4시간 기다렸다?'). 확인된 사실: 경기 남부 대학병원(보도상 아주대병원) 소아응급센터에서 청색증 치료 중 아이 사망, 약 2개월 뒤 9/30 경기남부경찰청 압수수색 영장 집행, 당시 근무 기록 등 확보. NGP '진료 중 처방 컴퓨터 점거로 진료 방해' 주장, 공식 사과·환자보호 절차 요구. 소아응급의학회 '참담', 의학회 '전자의무기록은 사후 위변조 불가, 성실히 협조해 온 병원에 영장은 과도'. 아동병원협회 '젊은 의사들이 중증 환자를 피할 것'. 경찰 '법원 발부 영장, 진료실 1곳 제외·2곳 약 15분·마지막 1곳 4시간여 대기 후 약 2분'. 출처: 인천일보 https://www.incheonilbo.com/news/articleView.html?idxno=1333296 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008780690 , 서울경제 https://m.sedaily.com/article/20097235 , 코메디닷컴 https://kormedi.com/2877994/ , 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=469477 , 독립신문 https://www.ainews1.co.kr/news/articleView.html?idxno=37209 , 메디게이트 https://www.medigatenews.com/news/2435401196 (2026.10.1~4). 주의: 아기 월령은 보도마다 5개월/6개월로 달라 쓰지 않음. 병원명·유족·의료진 신원 비공개. 사망 사건이라 웃음 tone·absurd 효과음 없음, 어느 쪽이 옳은지 결론 내리지 않고 양측 주장만 전달."
+}
