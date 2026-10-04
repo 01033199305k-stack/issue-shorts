@@ -121,11 +121,11 @@ def validate(script: dict) -> list[str]:
     if len(script["credit"]) > 44:
         p.append(f"credit is {len(script['credit'])} chars (max 40)")
     segs = script["segments"]
-    if not 6 <= len(segs) <= 15:
-        p.append(f"{len(segs)} segments (want 10-14: one picture per sentence)")
+    if not 7 <= len(segs) <= 12:
+        p.append(f"{len(segs)} segments (want 8-11: one picture per sentence)")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
-    if not 220 <= total <= 420:
-        p.append(f"narration {total} chars (want 260-380)")
+    if not 200 <= total <= 290:
+        p.append(f"narration {total} chars (want 220-270, about 30-36 s - cut sentences that repeat or explain too much)")
     queries = {json.dumps(it.get("q"), ensure_ascii=False) for s in segs for it in (s.get("visual") or {}).get("items", [])
                if it.get("type") in ("illust", "crowd") and it.get("q")}
     n_video = sum(1 for s in segs if (s.get("visual") or {}).get("video"))
