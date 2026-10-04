@@ -1,0 +1,402 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "asian-games-military-exemption-backlash",
+ "title_lines": [
+  "군면제 자랑 역풍?",
+  "안철수 군면제 재고"
+ ],
+ "credit": "자료: 머니투데이·서울경제(2026.10.4) · AI 음성",
+ "segments": [
+  {
+   "text": "금메달 목에 걸고 \"저 군대 안 갑니다\" 외친 대표팀 주장.",
+   "say": "금메달 목에 걸고 \"저 군대 안 갑니다\" 외친 대표팀 주장.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "金メダル",
+       "メダル"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "저 군대 안 갑니다",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서"
+  },
+  {
+   "text": "근데 이게 끝이 아님, 정치권까지 번짐.",
+   "say": "근데 이게 끝이 아님, 정치권까지 번짐.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "政治家 男性",
+       "政治家"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "어디까지 번짐?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박"
+  },
+  {
+   "text": "3일 아시안게임 결승 한일전, 1대0으로 이겨 4연패 달성함.",
+   "say": "삼일 아시안게임 결승 한일전, 일 대 영으로 이겨 사연패 달성함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "1:0 승리",
+      "style": "big",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "4연패",
+      "style": "stamp",
+      "pos": "bottom-right",
+      "at": 0.7,
+      "fx": "stamp"
+     }
+    ],
+    "video": "soccer stadium night"
+   }
+  },
+  {
+   "text": "주장 이기혁은 금메달 못 따면 9일 뒤 입대였다고 밝힘.",
+   "say": "주장 이기혁은 금메달 못 따면 구일 뒤 입대였다고 밝힘.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー 選手",
+       "サッカー"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "日めくりカレンダー"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.4,
+      "fx": "slide-left"
+     },
+     {
+      "type": "text",
+      "text": "입대 9일 전",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 양민혁은 \"군 면제 그거 하나만 보고 경기했다\"고 말함.",
+   "say": "헐, 양민혁은 \"군 면제 그거 하나만 보고 경기했다\"고 말함.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー ゴール",
+       "サッカーボール"
+      ],
+      "pos": "center",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "그거 하나만 보고",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "어이없다는 듯 또박또박 힘주어"
+  },
+  {
+   "text": "박승수는 전역모 쓴 사진을 SNS에 올렸다가 삭제함.",
+   "say": "박승수는 전역모 쓴 사진을 에스엔에스에 올렸다가 삭제함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマートフォン"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "帽子",
+       "キャップ"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.3,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "삭제",
+      "style": "red",
+      "pos": "top-right",
+      "at": 0.7,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 여기서 안철수 의원이 등판함.",
+   "say": "자, 여기서 안철수 의원이 등판함.",
+   "sfx": "none",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.1,
+      "fx": "fade"
+     }
+    ]
+   },
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며"
+  },
+  {
+   "text": "와, 첫 문장이 \"군대가 혐오시설입니까?\"였음.",
+   "say": "와, 첫 문장이 \"군대가 혐오시설입니까?\"였음.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "政治家 男性",
+       "政治家"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "군대가 혐오시설입니까?",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게"
+  },
+  {
+   "text": "그러면서 아시안게임 군 면제, 이제 재고해야 한다고 주장함.",
+   "say": "그러면서 아시안게임 군 면제, 이제 재고해야 한다고 주장함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "병역특례 재고?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "zoom"
+     }
+    ],
+    "video": "national assembly building"
+   }
+  },
+  {
+   "text": "결국 이기혁은 \"경솔한 언행\"이었다며 사과문 올림.",
+   "say": "결국 이기혁은 \"경솔한 언행\"이었다며 사과문 올림.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "謝罪 男性",
+       "謝る 男性",
+       "お辞儀 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "죄송합니다",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "기쁨에 나온 실언임? 병역특례 손봐야 함? 님들 생각은?",
+   "say": "기쁨에 나온 실언임? 병역특례 손봐야 함? 님들 생각은?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 기쁨에 실언",
+      "style": "row",
+      "pos": "center",
+      "at": 0.2,
+      "fx": "slide-left"
+     },
+     {
+      "type": "text",
+      "text": "② 특례 손봐야",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "slide-left",
+      "dy": 90
+     },
+     {
+      "type": "illust",
+      "q": [
+       "金メダル",
+       "メダル"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서"
+  }
+ ],
+ "youtube": {
+  "title": "\"저 군대 안 갑니다\" 금메달 뒤 역풍? 안철수 \"군면제 재고해야\" #shorts",
+  "description": "아시안게임 남자 축구가 3일 결승 한일전에서 1대0으로 이겨 4연패를 달성했습니다.\n경기 후 주장 이기혁의 \"저 군대 안 갑니다\", 양민혁의 \"군 면제 그거 하나만 보고 경기했다\" 발언과 박승수의 전역모 사진(삭제)이 논란이 됐습니다.\n안철수 의원은 SNS에 \"군대가 혐오시설입니까?\"라며 아시안게임 군 면제를 재고해야 한다고 주장했고, 이기혁은 사과문을 올렸습니다.\n\n출처: 머니투데이 https://www.mt.co.kr/sports/2026/10/04/2026100414313111242\n출처: 서울경제 https://m.sedaily.com/article/20098003\n※ AI 음성으로 제작했습니다.\n#아시안게임 #축구대표팀 #병역특례 #군면제 #안철수 #이슈",
+  "tags": [
+   "아시안게임",
+   "축구대표팀",
+   "군면제",
+   "병역특례",
+   "이기혁",
+   "안철수",
+   "양민혁",
+   "이슈"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/082/0001401024",
+ "facts_used": [
+  "3일 아시안게임 남자축구 결승 한일전 1-0 승리, 4회 연속 금메달 [서울신문·서울경제·강원일보 2026.10.3]",
+  "주장 이기혁, 못 따면 입대 9일 남은 상황이었다며 \"저 군대 안 갑니다\" [머니투데이·스포츠경향·위키트리 2026.10.4]",
+  "양민혁 \"군 면제라는 보상이 있으니 그거 하나만 보고 경기를 했다\" [머니투데이·서울경제]",
+  "박승수 전역모 사진 SNS 게시 후 삭제 [머니투데이·뉴스핌]",
+  "안철수 의원 SNS \"군대가 혐오시설입니까?\", \"아시안게임 군 면제, 이제 재고해야\" [헤럴드경제·서울경제·MK스포츠·인사이트]",
+  "이기혁 SNS 사과문 \"저의 경솔한 언행으로 인해 많은 분께 실망과 불편을 드려 죄송하다\" [스포츠경향·머니투데이 2026.10.4]"
+ ],
+ "brief": "확인된 사실: 위 facts_used. 출처: 머니투데이 https://www.mt.co.kr/sports/2026/10/04/2026100414313111242 / 스포츠경향 https://sports.khan.co.kr/article/202610041409003/ / 서울경제 https://m.sedaily.com/article/20098003 / 헤럴드경제 https://biz.heraldcorp.com/article/10892914 / 서울신문 결승 https://www.seoul.co.kr/news/sport/Asiangame2026-aichi-nagoya/2026/10/03/20261003500041. 주의: 안철수 글 게시 날짜는 보도마다 3일/4일 엇갈려 생략. 선수 비하·조롱 금지, 발언·사과·정치권 주장만 전하고 결론 내리지 않음. 이등병의 편지 연습 주장은 안 의원 글 인용이라 생략."
+}
