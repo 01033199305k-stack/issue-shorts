@@ -154,7 +154,10 @@ def main() -> int:
             # 회차 시각보다 90분 넘게 늦었으면 공개하지 않고 비공개로만 둔다 (운영자가 스튜디오에서 판단)
             late = dt.datetime.now(KST) - publish_at > dt.timedelta(minutes=90)
             print("[5/5] 유튜브 업로드 " + ("(회차 시각을 넘겨 비공개로만)" if late else "(예약 공개)"))
-        res = upload.upload(str(video), yt["title"], yt["description"], yt["tags"], publish_at,
+        # 설명란 외부 링크는 '스팸·현혹' 정책으로 영상이 삭제된 적 있어 URL·출처 줄은 전부 제거한다
+        desc = re.sub(r"https?://\S+", "", yt["description"])
+        desc = "\n".join(l.rstrip() for l in desc.splitlines() if not l.lstrip().startswith("출처"))
+        res = upload.upload(str(video), yt["title"], desc, yt["tags"], publish_at,
                             private_only=late)
         record["late"] = late
         record.update({"video_id": res["id"], "url": res["url"], "privacy": res["privacy"],
