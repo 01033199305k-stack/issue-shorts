@@ -1,75 +1,19 @@
 {
- "detected_at": "2026-10-04T14:17+09:00",
+ "detected_at": "2026-10-04T15:22+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "오세훈 \"저급한 상업주의\"…'암살자(들)' 탄흔 티켓 직격",
-   "url": "https://n.news.naver.com/article/215/0001268134",
-   "press": "한국경제TV",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "[속보] \"군대 안가\" 자랑한 축구대표팀에…안철수 \"군대혐오 국가대표, 군면제 가당찮다\"",
+   "url": "https://n.news.naver.com/article/082/0001401024",
+   "press": "부산일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "조선비즈",
-     "title": "오세훈 “암살자(들) 탄흔 티켓, 인간 존엄마저 포기한 저급한 상업주의”",
-     "url": "https://n.news.naver.com/article/366/0001196048"
-    },
-    {
-     "press": "조선일보",
-     "title": "육영수 자리에 총알 자국... 野 “암살자(들) 탄흔 티켓 저급한 상업주의”",
-     "url": "https://n.news.naver.com/article/023/0004001999"
+     "press": "매일경제",
+     "title": "“군대 안가” 자랑한 축구대표팀에…안철수 “군대가 혐오시설? 군면제 없애야”",
+     "url": "https://n.news.naver.com/article/009/0005743710"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "암살자(들) 본 조국 \"육영수 죽음 조롱 안 해…유해진은 의병상\"",
-   "url": "https://n.news.naver.com/article/437/0000514003",
-   "press": "JTBC",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "이데일리",
-     "title": "조국 ‘암살자(들)’ 논란에 \"육영수 조롱 아닌데...쌍욕에 별점테러\"",
-     "url": "https://n.news.naver.com/article/018/0006380639"
-    },
-    {
-     "press": "TV조선",
-     "title": "조국 \"유해진 '북한상' 아닌 '의병상'…육 여사 피격 자료 공개검증하자\"",
-     "url": "https://n.news.naver.com/article/448/0000642961"
-    },
-    {
-     "press": "헤럴드경제",
-     "title": "조국 “암살자(들), 육여사 죽음 조롱 안해…법적 책임질 건 전혀 없다”",
-     "url": "https://n.news.naver.com/article/016/0002705320"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "조국 “암살자(들) 법적 책임질 것 없다…131분 순식간에 지나가”",
-   "url": "https://n.news.naver.com/article/011/0004668080",
-   "press": "서울경제",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "세계일보",
-     "title": "조국 “국민배우 유해진님은 ‘의병상’… 연기에 131분 순식간에 지나가”",
-     "url": "https://n.news.naver.com/article/022/0004163904"
-    },
-    {
-     "press": "헤럴드경제",
-     "title": "조국 “암살자(들), 육여사 죽음 조롱 안해…법적 책임질 건 전혀 없다”",
-     "url": "https://n.news.naver.com/article/016/0002705320"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 李 대통령, 금융권 개인정보 유출에 철저한 조사·대책 마련 지시",
-   "url": "https://n.news.naver.com/article/629/0000539308",
-   "press": "더팩트",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
