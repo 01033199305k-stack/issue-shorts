@@ -1,0 +1,478 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "rotten-fish-stew-video",
+ "title_lines": [
+  "일주일 된 생선?",
+  "매운탕 조롱 영상"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "일주일 된 생선으로 매운탕 끓였다는 영상이 퍼짐.",
+   "say": "일주일 된 생선으로 매운탕 끓였다는 영상이 퍼짐.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "video": "boiling pot stew kitchen",
+    "items": [
+     {
+      "type": "text",
+      "text": "일주일 된 생선",
+      "style": "big",
+      "pos": "top",
+      "at": 0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐟",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.35,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 그 해명이 더 어이없음.",
+   "say": "근데 그 해명이 더 어이없음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "驚く 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "해명이 뭐길래?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "국내 한 식당 직원이 SNS에 직접 올린 영상임.",
+   "say": "국내 한 식당 직원이 에스엔에스에 직접 올린 영상임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "スマートフォン"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "料理人",
+       "コック"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.45,
+      "fx": "slide-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "냄비 속 생선 가리키며, 죽은 지 한 일주일 된 것 같다 함.",
+   "say": "냄비 속 생선 가리키며, 죽은 지 한 일주일 된 것 같다 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "fish market ice",
+    "items": [
+     {
+      "type": "text",
+      "text": "죽은 지 일주일",
+      "style": "big",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "鍋 料理",
+       "鍋"
+      ],
+      "pos": "center",
+      "size": "m",
+      "at": 0.4,
+      "fx": "drop",
+      "dy": 80
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 생선 위엔 초록색 점액까지 올라와 있었다고 함.",
+   "say": "헐, 생선 위엔 초록색 점액까지 올라와 있었다고 함.",
+   "sfx": "punch",
+   "tone": "질겁해서 몸을 움찔 뒤로 빼듯 목소리를 높여서",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "魚 腐る",
+       "魚"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "초록색 점액",
+      "style": "red",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "shake"
+     },
+     {
+      "type": "emoji",
+      "text": "🤢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그러고는 이건 손님이 먹는 거고, 직원들은 안 먹는다 함.",
+   "say": "그러고는 이건 손님이 먹는 거고, 직원들은 안 먹는다 함.",
+   "sfx": "exclaim",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "レストラン 客",
+       "食事 男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "직원들은 안 먹음",
+      "style": "red",
+      "pos": "top-right",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 손님들이 맛있다고 한다며 흉내 내고 웃음.",
+   "say": "심지어 손님들이 맛있다고 한다며 흉내 내고 웃음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑う 女性",
+       "笑う"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "손님 흉내",
+      "style": "label",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😋",
+      "pos": "left",
+      "size": "m",
+      "at": 0.6,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "영상이 퍼지자 위생 걱정에 비판이 쏟아짐.",
+   "say": "영상이 퍼지자 위생 걱정에 비판이 쏟아짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "smartphone screen social media",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "炎上 ネット",
+       "炎上"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "위생 우려",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 그 해명이 공개됨.",
+   "say": "자, 그 해명이 공개됨.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0,
+      "fx": "fade"
+     },
+     {
+      "type": "text",
+      "text": "해명 공개",
+      "style": "label",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "장난으로 재미있게 찍으려 했을 뿐, 이렇게 퍼질 줄 몰랐다 함.",
+   "say": "장난으로 재미있게 찍으려 했을 뿐, 이렇게 퍼질 줄 몰랐다 함.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "장난이었다",
+      "style": "stamp",
+      "pos": "top-right",
+      "at": 0,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "謝罪 女性",
+       "謝罪"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.35,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니 근데, 생선은 절대 상한 게 아니었다고 함.",
+   "say": "아니 근데, 생선은 절대 상한 게 아니었다고 함.",
+   "sfx": "absurd",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "안 상했음",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "驚く"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그 사과문이랑 계정은 이후 싹 지워졌다고 전해짐.",
+   "say": "그 사과문이랑 계정은 이후 싹 지워졌다고 전해짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "restaurant street night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ゴミ箱",
+       "削除"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "계정 삭제",
+      "style": "red",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들은 장난이었다는 해명, 믿겨짐?",
+   "say": "님들은 장난이었다는 해명, 믿겨짐?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 진짜 장난",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "slide-left",
+      "dy": -60
+     },
+     {
+      "type": "text",
+      "text": "② 핑계 같음",
+      "style": "row",
+      "pos": "center",
+      "at": 0.55,
+      "fx": "slide-left",
+      "dy": 80
+     },
+     {
+      "type": "illust",
+      "q": [
+       "鍋 料理",
+       "鍋"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "일주일 된 생선으로 매운탕? 손님 조롱 영상 논란 #shorts",
+  "description": "국내 한 식당 직원이 '죽은 지 일주일 된 생선'으로 매운탕을 끓인다며 손님을 조롱하는 영상이 SNS에 퍼졌습니다.\n당사자로 추정되는 직원은 '장난으로 찍었을 뿐, 생선이 상한 건 아니다'라는 사과문을 올렸다가 계정과 함께 삭제했습니다.\n식당 위치는 공개되지 않았습니다.\n\n※ AI 음성으로 제작했습니다.\n#매운탕 #식당 #위생 #논란 #이슈",
+  "tags": [
+   "매운탕",
+   "상한생선",
+   "식당위생",
+   "조롱영상",
+   "사과문",
+   "이슈"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/009/0005743747",
+ "facts_used": [
+  "SNS에 식당 직원이 매운탕 생선을 보여주는 영상 확산, 4일 보도 [한국경제 2026.10.4, 아시아경제 2026.10.4, 뉴스1]",
+  "\"죽은 지 며칠 된 생선, 한 일주일 정도 된 것 같다\" 발언 [아시아경제, 뉴스1, 네이트(종합)]",
+  "초록색 점액 [한국경제 제목, 위키트리 제목]",
+  "\"손님이 먹는 거다. 우리 가게 직원들은 안 먹는다\", 손님 '맛있다' 흉내 내며 웃음 [아시아경제, 한국경제]",
+  "사과문: 장난으로 재미있게 찍으려 했을 뿐, 이렇게 퍼질 줄 몰랐다, 생선이 상하거나 문제가 있던 건 절대 아니다 / 계정·사과문 삭제 [아시아경제, 한국경제]",
+  "식당 위치 미공개"
+ ],
+ "brief": "확인된 사실: 국내 식당 직원(베트남 국적으로 알려짐)이 SNS 영상에서 냄비 속 생선을 '죽은 지 일주일 정도'라고 소개, '손님이 먹는 거, 직원은 안 먹음', 손님 '맛있다' 흉내 내며 웃음. 비판 확산 뒤 '장난이었다, 생선은 상하지 않았다'는 사과문 게시 후 계정째 삭제. 출처: 한국경제 https://www.hankyung.com/article/2026100427187 , 아시아경제 https://view.asiae.co.kr/article/2026100418553951239 , 뉴스1 https://www.news1.kr/society/general-society/6309104 , 매일경제(네이버 댓글 많은 기사) https://n.news.naver.com/article/009/0005743747 (모두 2026.10.4). 주의: 실제로 상했는지는 확인 안 됨(본인은 부인) - 대본은 '영상에서 말함'으로만. 혐오 확산 방지 위해 국적은 대본·화면에서 빼고 '식당 직원'으로만 씀. 식당·직원 신상 비공개."
+}

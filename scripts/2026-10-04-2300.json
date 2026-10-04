@@ -1,0 +1,498 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "han-kwak-fact-dispute",
+ "title_lines": [
+  "팩트면 보여달라?",
+  "한동훈 곽상언 설전"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "팩트면 보여달라 했더니, 돌아온 건 질문 하나임.",
+   "say": "팩트면 보여달라 했더니, 돌아온 건 질문 하나임.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "video": "national assembly building",
+    "items": [
+     {
+      "type": "text",
+      "text": "팩트 보여달라",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.45,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 그 질문 대상이 더 놀라움.",
+   "say": "근데 그 질문 대상이 더 놀라움.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "누구한테?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "시작은 한동훈 무소속 의원의 발언임.",
+   "say": "시작은 한동훈 무소속 의원의 발언임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "政治家 演説",
+       "政治家"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "マイク",
+       "演説"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.45,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "한동훈 의원",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "노무현 전 대통령 일가 금품 수수는 팩트라고 주장함.",
+   "say": "노무현 전 대통령 일가 금품 수수는 팩트라고 주장함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "documents paper stack office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "書類",
+       "資料"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "팩트라고 주장",
+      "style": "red",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 3억 원어치 시계 2개에 수십억 원이라고 콕 집음.",
+   "say": "와, 삼억 원어치 시계 두 개에 수십억 원이라고 콕 집음.",
+   "sfx": "punch",
+   "tone": "놀라서 눈이 커진 듯 들뜬 목소리로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "腕時計",
+       "時計"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "3억 시계 2개",
+      "style": "big",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "drop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "札束",
+       "お金"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.55,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그러자 노 전 대통령 사위인 곽상언 민주당 의원이 반격함.",
+   "say": "그러자 노 전 대통령 사위인 곽상언 민주당 의원이 반격함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ボクシング グローブ",
+       "ボクシング"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0,
+      "fx": "slide-left"
+     },
+     {
+      "type": "text",
+      "text": "곽상언 의원",
+      "style": "label",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥊",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "모든 게 팩트라면 보여달라, 그럼 책임지겠다 함.",
+   "say": "모든 게 팩트라면 보여달라, 그럼 책임지겠다 함.",
+   "sfx": "exclaim",
+   "tone": "단호하게 또박또박 힘주어",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "text",
+      "text": "팩트라면 보여달라",
+      "style": "bubble",
+      "pos": "top-left",
+      "at": 0.05,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "책임지겠다",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.5,
+      "fx": "shake"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "政治家 男性",
+       "スーツ 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "pop",
+      "dy": 80
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 당시 변호인이던 자기도 어디까지 사실인지 모른다 함.",
+   "say": "심지어 당시 변호인이던 자기도 어디까지 사실인지 모른다 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "courthouse building",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "弁護士",
+       "弁護士 男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "2009년 수사",
+      "style": "small",
+      "pos": "top-right",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤷",
+      "pos": "right",
+      "size": "m",
+      "at": 0.55,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 여기서 한동훈 의원 답이 나옴.",
+   "say": "자, 여기서 한동훈 의원 답이 나옴.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0,
+      "fx": "fade"
+     },
+     {
+      "type": "text",
+      "text": "답변 공개",
+      "style": "label",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "곽 의원 부부 미국 뉴저지 집값, 박연차 돈 맞냐 아니냐 물음.",
+   "say": "곽 의원 부부 미국 뉴저지 집값, 박연차 돈 맞냐 아니냐 물음.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "video": "suburban house street",
+    "items": [
+     {
+      "type": "text",
+      "text": "뉴저지 집값?",
+      "style": "stamp",
+      "pos": "top-right",
+      "at": 0,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "家 一軒家",
+       "家"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.35,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니, 증거 달랬더니 맞다 아니다로 답하라고 받아침.",
+   "say": "아니, 증거 달랬더니 맞다 아니다로 답하라고 받아침.",
+   "sfx": "absurd",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "text",
+      "text": "증거 내놔라",
+      "style": "row",
+      "pos": "center",
+      "at": 0,
+      "fx": "slide-left",
+      "dy": -90
+     },
+     {
+      "type": "text",
+      "text": "맞다 아니다 답하라",
+      "style": "row",
+      "pos": "center",
+      "at": 0.45,
+      "fx": "slide-right",
+      "dy": 70
+     },
+     {
+      "type": "emoji",
+      "text": "🔄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "zoom"
+     }
+    ]
+   }
+  },
+  {
+   "text": "한 의원은 노무현이 아니라 그를 이용하는 민주당을 비판한 거라 함.",
+   "say": "한 의원은 노무현이 아니라 그를 이용하는 민주당을 비판한 거라 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "newspaper printing press",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "新聞 読む 男性",
+       "新聞"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "민주당 비판",
+      "style": "label",
+      "pos": "top",
+      "at": 0.35,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들은 누구 말이 더 설득력 있음?",
+   "say": "님들은 누구 말이 더 설득력 있음?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 생각은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 증거 먼저",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "slide-left",
+      "dy": -60
+     },
+     {
+      "type": "text",
+      "text": "② 답부터 먼저",
+      "style": "row",
+      "pos": "center",
+      "at": 0.55,
+      "fx": "slide-left",
+      "dy": 80
+     },
+     {
+      "type": "illust",
+      "q": [
+       "腕時計",
+       "時計"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "팩트면 보여달라 vs 맞냐 아니냐 답하라, 한동훈·곽상언 설전 #shorts",
+  "description": "한동훈 무소속 의원이 노무현 전 대통령 일가가 박연차 전 회장에게서 3억 원어치 시계와 수십억 원을 받은 것이 '팩트'라고 주장했습니다.\n노 전 대통령 사위인 곽상언 민주당 의원은 '모든 사실이 팩트라면 보여달라'고 반박했습니다.\n한 의원은 곽 의원 부부의 미국 뉴저지 집값이 박연차 돈이 맞는지 답하라고 재반박했습니다.\n\n※ AI 음성으로 제작했습니다.\n#한동훈 #곽상언 #노무현 #정치 #설전 #이슈",
+  "tags": [
+   "한동훈",
+   "곽상언",
+   "노무현",
+   "박연차",
+   "정치",
+   "설전",
+   "이슈"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/029/0003051322",
+ "facts_used": [
+  "한동훈 무소속 의원: 노 전 대통령 본인 또는 가족이 박연차 전 태광실업 회장에게서 피아제 시계 2개(3억 원)·수십억 원을 불법으로 받은 건 팩트라고 주장 [헤럴드경제, 경향신문, 서울경제 2026.10.2~3]",
+  "곽상언 민주당 의원(노 전 대통령 사위): \"모든 사실이 팩트라면 보여달라\", 확인시켜 주면 책임지겠다 [경향신문 2026.10.3, 한국일보 2026.10.3]",
+  "곽 의원: 2009년 수사 때 변호인으로 참여·조사 받았지만 어느 부분이 어느 정도까지 사실인지 알지 못한다 [경향신문, 헤럴드경제]",
+  "한 의원 재반박: 곽 의원 부부 미국 뉴저지 집값이 박연차 돈 맞나 아닌가 [매일신문 2026.10.4, 서울경제, 헤럴드경제]",
+  "곽 '팩트라면 증거 내놔라' vs 한 '맞다, 아니다 답하라' [디지털타임스, 주간경향 2026.10.4]",
+  "한 의원: \"노무현이 아니라 이용해 먹는 민주당 비판한 것\" [문화일보, 국민일보, 프레시안]"
+ ],
+ "brief": "양측 발언만 전하고 결론 내지 않음. 금품 수수·뉴저지 집값은 한 의원의 주장/질문으로만 표기(사실 단정 금지). 노 전 대통령 사망 관련 내용은 언급하지 않음. 출처: 헤럴드경제 https://biz.heraldcorp.com/article/10892656 , 경향신문 https://www.khan.co.kr/article/202610031443001/ , 한국일보 https://www.hankookilbo.com/news/article/A2026100315080005771 , 서울경제 https://www.sedaily.com/article/20098038 , 매일신문 https://www.imaeil.com/page/view/2026100417362258502 , 주간경향 https://weekly.khan.co.kr/article/202610041902001/ , 국민일보 https://www.kmib.co.kr/article/view.asp?arcid=9000019666 , 디지털타임스(네이버) https://n.news.naver.com/article/029/0003051322"
+}
