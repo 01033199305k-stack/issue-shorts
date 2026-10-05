@@ -1,0 +1,406 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "food-price-raw-material-remark",
+ "title_lines": [
+  "원재료값 내려도?",
+  "식품값 못 내린다"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "원재료값 내려도 식품값은 못 내린다는 주장이 나옴.",
+   "say": "원재료값 내려도 식품값은 못 내린다는 주장이 나옴.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "video": "supermarket shelves snacks",
+    "items": [
+     {
+      "type": "text",
+      "text": "원재료값 ↓",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "식품값 그대로",
+      "style": "red",
+      "pos": "center",
+      "at": 0.55,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 근데 말한 사람이 업계 대표라 댓글 터짐.",
+   "say": "헐, 근데 말한 사람이 업계 대표라 댓글 터짐.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマートフォン"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "炎上",
+       "パソコン 炎上"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.35,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "지난달 29일 식품산업협회 회장 간담회 발언임.",
+   "say": "지난달 이십구 일 식품산업협회 회장 간담회 발언임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "video": "press conference room microphones",
+    "items": [
+     {
+      "type": "text",
+      "text": "9월 29일 간담회",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "올해 설탕, 밀가루 담합 과징금만 1조 원 넘는 상황임.",
+   "say": "올해 설탕, 밀가루 담합 과징금만 일조 원 넘는 상황임.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "video": "sugar flour bags warehouse",
+    "items": [
+     {
+      "type": "text",
+      "text": "과징금 1조↑",
+      "style": "big",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "run-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니, 오를 땐 올리고 내릴 땐 왜 안 내리냐는 지적에,",
+   "say": "아니, 오를 땐 올리고 내릴 땐 왜 안 내리냐는 지적에,",
+   "sfx": "whoosh",
+   "tone": "억울한 듯 따지며 목소리를 점점 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "買い物 主婦",
+       "買い物"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "値上げ",
+       "値札"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.4,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 회장의 답변이 공개됨.",
+   "say": "자, 회장의 답변이 공개됨.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "text",
+      "text": "회장 답변은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "원재료가 차지하는 비중이 그렇게 크지 않다.",
+   "say": "원재료가 차지하는 비중이 그렇게 크지 않다.",
+   "sfx": "stamp",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "社長",
+       "会社員 男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "비중 크지 않다",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "원재료",
+      "style": "stamp",
+      "pos": "bottom-right",
+      "at": 0.65,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "マイク",
+       "記者会見"
+      ],
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "인건비, 설비 투자, 연구개발비 비중이 크다는 거임.",
+   "say": "인건비, 설비 투자, 연구개발비 비중이 크다는 거임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "video": "food factory production line",
+    "items": [
+     {
+      "type": "text",
+      "text": "① 인건비",
+      "style": "row",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "slide-left",
+      "dy": -120
+     },
+     {
+      "type": "text",
+      "text": "② 설비 투자",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "slide-left",
+      "dy": 0
+     },
+     {
+      "type": "text",
+      "text": "③ 연구개발",
+      "style": "row",
+      "pos": "center",
+      "at": 0.6,
+      "fx": "slide-left",
+      "dy": 120
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어, 영업사원끼리 대화도 담합 될 수 있다며 범위 정리를 요구함.",
+   "say": "심지어, 영업사원끼리 대화도 담합 될 수 있다며 범위 정리를 요구함.",
+   "sfx": "exclaim",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "営業 サラリーマン",
+       "会社員 男性"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "会社員 女性",
+       "OL"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.3,
+      "fx": "slide-left"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "天秤",
+       "法律"
+      ],
+      "pos": "top",
+      "size": "s",
+      "at": 0.6,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "업계 사정 이해 됨, 아니면 핑계로 들림?",
+   "say": "업계 사정 이해 됨, 아니면 핑계로 들림?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 이해 됨",
+      "style": "row",
+      "pos": "center",
+      "at": 0.25,
+      "fx": "slide-left",
+      "dy": -60
+     },
+     {
+      "type": "text",
+      "text": "② 핑계임",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "slide-left",
+      "dy": 80
+     },
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "考える 女性"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "원재료값 내려도 식품값은 못 내려? 식품산업협회장 발언 논란 #shorts",
+  "description": "한국식품산업협회 박진선 회장이 9월 29일 취임 1주년 기자간담회에서 \"원재료가 차지하는 비중이 그렇게 크지 않다\"며 인건비·설비투자·연구개발비 부담을 이유로 들었습니다.\n원재료값이 내리면 식품값도 내려야 한다는 지적에 대한 답변으로, 담합 제재에 대해서는 범위부터 정리해야 한다고 말했습니다.\n올해 공정위는 설탕·밀가루 담합에 대규모 과징금을 부과했습니다.\n\n※ AI 음성으로 제작했습니다.\n#식품값 #물가 #담합 #식품산업협회 #이슈",
+  "tags": [
+   "식품값",
+   "물가",
+   "원재료",
+   "식품산업협회",
+   "담합",
+   "밀가루",
+   "설탕",
+   "이슈"
+  ]
+ },
+ "source_post": "https://bbs.ruliweb.com/best/board/300143/read/76913146",
+ "facts_used": [
+  "2026.9.29 박진선 한국식품산업협회장 취임 1주년 기자간담회 [머니투데이 2026.9.29, 이투데이, 전자신문 2026.9.29]",
+  "발언 \"원재료가 차지하는 비중이 그렇게 크지 않다\", \"할 수 없이 가격을 올리는 것\" [헤럴드경제, 이투데이]",
+  "원재료뿐 아니라 인건비·설비투자·R&D 투자가 비용의 많은 부분 [헤럴드경제, 뉴스핌 2026.9.30]",
+  "원재료 오를 땐 올리고 내릴 땐 왜 안 내리냐는 지적에 대한 답변 맥락 [이투데이, 헤럴드경제]",
+  "\"가격 결정에 영향력이 없는 영업사원들끼리 이야기하는 것까지 담합이 될 수 있다고 들었다\", 담합 범위 정리 필요 [머니투데이 2026.9.29, 이투데이]",
+  "과징금: 밀가루 제분사 7곳 6710억 원 [뉴스핌 2026.5.21], 설탕 3960억 원 [머니투데이 2026.5.20] → 합계 1조 원 넘음"
+ ],
+ "brief": "점수표: 식품협회장 원재료 발언 13(억울5·댓글4·반전4) / 전방 빈총 경계 11 / 대구 수해 어부바 공직자 9(보도 확인 안 됨) / 독일 '이기적인 나라' 9 / 지뢰 세리머니 가짜뉴스 8 (유해진·병역특례는 최근 다룸·긴급 후보라 제외).\n훅 3안: ①'원재료값 내려도 식품값은 못 내린다는 주장이 나옴' ②'밀가루값 내렸는데 식품값은 그대로라는 업계 대표' ③'식품값 안 내리는 이유, 업계 대표가 직접 밝힘' → ①: 사실 범위 안에서 가장 직관적인 반전. 제목 1줄: '원재료값 내려도?'/'왜 안 내리냐고?'/'값 못 내리는 이유' → 질문형 첫 번째.\n확인된 사실: 2026.9.29 서초구 협회 대교육장 취임 1주년 간담회. \"원재료가 차지하는 비중이 그렇게 크지 않다\"(헤럴드경제 https://biz.heraldcorp.com/article/10887574 , 이투데이). 인건비·설비투자·R&D 비중(뉴스핌 https://www.newspim.com/news/view/20260930000054 ). 영업사원 담합 발언(머니투데이 https://www.mt.co.kr/living/2026/09/29/2026092913143087997 , 이투데이 https://www.etoday.co.kr/news/view/2630421 ). 공정위 20조 규모 담합 제재, 밀가루 과징금 6710억(뉴스핌 20260521000113), 설탕 3960억(머니투데이 2026.5.20).\n주의: '원재룟값 내렸다고 식품가격 못 낮춰'는 커뮤니티/기사 제목 요약이라 따옴표 인용으로 쓰지 않음. 말풍선은 보도된 직접 인용 '비중 크지 않다'만. 협회 측 논리(인건비·설비·R&D)도 함께 전하고 결론은 내리지 않음."
+}
