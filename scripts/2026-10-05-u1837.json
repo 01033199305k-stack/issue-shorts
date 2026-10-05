@@ -1,0 +1,339 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "president-housing-speculation-reply",
+ "title_lines": [
+  "엉망이라 했더니?",
+  "대통령 직접 답글"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "부동산 정책 엉망이란 비판에, 대통령이 직접 답글 달았음.",
+   "say": "부동산 정책 엉망이란 비판에, 대통령이 직접 답글 달았음.",
+   "sfx": "dudung",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマートフォン"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "대통령 답글",
+      "style": "label",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 답글 내용이 더 화제임.",
+   "say": "근데 답글 내용이 더 화제임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "考える"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "マンション",
+       "ビル"
+      ],
+      "pos": "bottom-left",
+      "size": "m",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "5일 이재명 대통령이 엑스에 올린 글임.",
+   "say": "오일 이재명 대통령이 엑스에 올린 글임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "seoul apartment buildings skyline",
+    "items": [
+     {
+      "type": "text",
+      "text": "10월 5일",
+      "style": "big",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "집값 불안 단기 원인은 서울 인허가 급감이라고 짚음.",
+   "say": "집값 불안 단기 원인은 서울 인허가 급감이라고 짚음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "seoul city apartment aerial",
+    "items": [
+     {
+      "type": "text",
+      "text": "인허가 급감",
+      "style": "red",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 폭탄 돌리기로 잃어버린 30년은 안 된다고까지 함.",
+   "say": "와, 폭탄 돌리기로 잃어버린 삼십년은 안 된다고까지 함.",
+   "sfx": "exclaim",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "爆弾",
+       "爆発"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "잃어버린 30년",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "お金",
+       "札束"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "초과 세수로 청년·중산층 공공임대를 대량 공급하겠다고 함.",
+   "say": "초과 세수로 청년 중산층 공공임대를 대량 공급하겠다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": "apartment construction site crane",
+    "items": [
+     {
+      "type": "text",
+      "text": "공공임대 대량 공급",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "세제, 대출 조정, 지방 이전도 함께 간다고 함.",
+   "say": "세제, 대출 조정, 지방 이전도 함께 간다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "세제·대출·지방 이전",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ],
+    "video": "tax documents calculator desk"
+   }
+  },
+  {
+   "text": "자, 비판 글에 남긴 마지막 한마디.",
+   "say": "자, 비판 글에 남긴 마지막 한마디.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.1,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "\"조금만 기다려 달라\", 결과 보고 판단해 달라고 함.",
+   "say": "\"조금만 기다려 달라\", 결과 보고 판단해 달라고 함.",
+   "sfx": "stamp",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "政治家 男性",
+       "政治家"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "조금만 기다려 달라",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "時計",
+       "砂時計"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.6,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들은 기다려 볼 거임, 이미 늦은 거임?",
+   "say": "님들은 기다려 볼 거임, 이미 늦은 거임?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 기다려 본다",
+      "style": "row",
+      "pos": "center",
+      "at": 0.2,
+      "fx": "slide-left"
+     },
+     {
+      "type": "text",
+      "text": "② 이미 늦었다",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "slide-left",
+      "dy": 90
+     },
+     {
+      "type": "illust",
+      "q": [
+       "家",
+       "一戸建て"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "부동산 정책 엉망 비판에 대통령 직접 답글 \"조금만 기다려 달라\" #shorts",
+  "description": "이재명 대통령이 5일 엑스(X)에서 부동산 정책을 비판한 글에 직접 답하며 \"부동산 투기 공화국 탈출 약속을 반드시 지키겠다\"고 밝혔습니다.\n집값 불안의 단기 원인으로 2022~2025년 서울 인허가 급감을 꼽고, 초과 세수로 청년·중산층 공공 장기임대주택을 조기 대량 공급하겠다고 했습니다.\n\"조금만 기다려 달라, 결과를 보고 판단해 달라\"고도 했습니다.\n\n출처: 뉴스핌 https://www.newspim.com/news/view/20261005000095\n출처: 파이낸셜뉴스 https://www.fnnews.com/news/202610051625558694\n※ AI 음성으로 제작했습니다.\n#부동산 #집값 #이재명 #공공임대 #이슈",
+  "tags": [
+   "부동산",
+   "집값",
+   "이재명",
+   "대통령",
+   "공공임대",
+   "투기공화국",
+   "이슈"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/001/0016357970",
+ "facts_used": [
+  "5일 이재명 대통령 엑스(X)에 부동산 관련 글 잇따라 게시, \"부동산 투기 공화국 탈출 약속 반드시 지킬 것\" [뉴스핌·글로벌이코노믹·이투데이·서울신문·아주경제 2026.10.5]",
+  "부동산 정책 비판 누리꾼 글 인용해 답글 [파이낸셜뉴스·오마이뉴스 2026.10.5]",
+  "\"2022년부터 2025년까지 서울 중심으로 인허가가 급감\"이 단기적 집값 불안의 가장 큰 원인 [뉴스핌·글로벌이코노믹·서울신문]",
+  "\"부동산 폭탄 돌리기 끝에 잃어버린 30년을 맞게 할 수는 없다\" [뉴스핌·글로벌이코노믹·중앙이코노미뉴스]",
+  "초과 세수로 청년·중산층 공공 장기임대주택 조기 대량 공급 [파이낸셜뉴스·SBS Biz·머니투데이]",
+  "세제 정상화·대출 조정·공급 확대·지방 이전으로 집값 안정 [파이낸셜뉴스·뉴스핌]",
+  "\"조금만 기다려 주시기 바란다\", \"결과를 보고 판단해 주시면 감사하겠다\" [파이낸셜뉴스·아시아투데이]"
+ ],
+ "brief": "긴급 회차. 확인된 사실: facts_used. 출처: 뉴스핌 https://www.newspim.com/news/view/20261005000095 / 파이낸셜뉴스 https://www.fnnews.com/news/202610051625558694 · https://www.fnnews.com/news/202610051551512508 / 아시아투데이 https://www.asiatoday.co.kr/kn/view.php?key=20261005010001173 / 서울신문 https://www.seoul.co.kr/news/politics/2026/10/05/20261005500095. 주의: 비판 글 쓴 누리꾼은 일반인이라 신원·계정 언급 안 함. '실력없고 무능' 표현은 오마이뉴스 한 곳만 확인돼 쓰지 않음. 제목·훅은 두 곳 이상 확인된 '엉망' 표현만 씀. 정책 효과 평가·편들기 없이 발언만 전하고 마지막은 양쪽 선택지 질문. 게시 정확한 시각 미확인이라 '5일'만 씀."
+}
