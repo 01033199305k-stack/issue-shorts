@@ -1,0 +1,389 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "judo-weigh-in-100g-disqualified",
+ "title_lines": [
+  "밥 먹으라더니 실격?",
+  "유도 국대 100g"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "유도 국대가 밥 한 끼 먹고 아시안게임 실격당함.",
+   "say": "유도 국대가 밥 한 끼 먹고 아시안게임 실격당함.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "柔道 女性",
+       "柔道"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "실격",
+      "style": "stamp",
+      "pos": "bottom-right",
+      "at": 0.65,
+      "fx": "stamp"
+     }
+    ],
+    "video": "judo mat dojo"
+   },
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서"
+  },
+  {
+   "text": "근데 그 밥, 먹으라고 한 사람이 따로 있었음.",
+   "say": "근데 그 밥, 먹으라고 한 사람이 따로 있었음.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ご飯 食べる 女性",
+       "ご飯"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "text",
+      "text": "누가 먹으래?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.25,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "right",
+      "size": "l",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박"
+  },
+  {
+   "text": "48kg급, 전날 계체는 무사히 통과함.",
+   "say": "사십팔 킬로급, 전날 계체는 무사히 통과함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "体重計",
+       "体重計 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "text",
+      "text": "48kg급",
+      "style": "big",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⭕",
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경기 날 아침 추첨 계체 기준 50.4kg도 맞춰 둠.",
+   "say": "경기 날 아침 추첨 계체 기준 오십 점 사 킬로도 맞춰 둠.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "くじ引き",
+       "抽選"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "50.4kg",
+      "style": "big",
+      "pos": "top",
+      "at": 0.5,
+      "fx": "drop"
+     }
+    ],
+    "video": "bathroom scale weight"
+   }
+  },
+  {
+   "text": "자, 밥 먹으라고 한 사람이 공개됨.",
+   "say": "자, 밥 먹으라고 한 사람이 공개됨.",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "fade"
+     }
+    ]
+   },
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며"
+  },
+  {
+   "text": "선수 주장으론 코치진이 넌 대상 아니니 밥 먹으라 했다 함.",
+   "say": "선수 주장으론 코치진이 넌 대상 아니니 밥 먹으라 했다 함.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コーチ",
+       "監督"
+      ],
+      "pos": "left",
+      "size": "l",
+      "at": 0.0,
+      "fx": "slide-right"
+     },
+     {
+      "type": "text",
+      "text": "넌 대상 아님",
+      "style": "red",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "shake"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "お粥",
+       "バナナ"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.65,
+      "fx": "drop"
+     }
+    ]
+   },
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게"
+  },
+  {
+   "text": "헐, 그래서 먹었는데 종료 15분 전에 대상이란 걸 알게 됨.",
+   "say": "헐, 그래서 먹었는데 종료 십오 분 전에 대상이란 걸 알게 됨.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "時計",
+       "目覚まし時計"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "15분 전",
+      "style": "big",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ],
+    "video": "stopwatch timer countdown"
+   },
+   "tone": "어이없다는 듯 또박또박 힘주어"
+  },
+  {
+   "text": "머리카락까지 잘랐지만 100g 초과로 실격.",
+   "say": "머리카락까지 잘랐지만 백 그램 초과로 실격.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "はさみ",
+       "髪 切る"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "100g 초과",
+      "style": "red",
+      "pos": "top",
+      "at": 0.5,
+      "fx": "shake"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "泣く 女性",
+       "落ち込む 女性"
+      ],
+      "pos": "right",
+      "size": "l",
+      "at": 0.4,
+      "fx": "fade"
+     }
+    ]
+   },
+   "tone": "다 포기한 듯 힘 빠진 목소리로, 말끝은 분명하게"
+  },
+  {
+   "text": "와, 결국 대한유도회가 사과하고 진상 조사하겠다 함.",
+   "say": "와, 결국 대한유도회가 사과하고 진상 조사하겠다 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "謝罪 会見",
+       "謝罪"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "진상 조사",
+      "style": "stamp",
+      "pos": "top-right",
+      "at": 0.6,
+      "fx": "stamp"
+     }
+    ],
+    "video": "airport arrival hall"
+   }
+  },
+  {
+   "text": "이거 선수 탓임, 지도자 탓임?",
+   "say": "이거 선수 탓임, 지도자 탓임?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 선수 책임",
+      "style": "row",
+      "pos": "center",
+      "at": 0.2,
+      "fx": "slide-left",
+      "dy": -60
+     },
+     {
+      "type": "text",
+      "text": "② 지도자 책임",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "slide-left",
+      "dy": 80
+     },
+     {
+      "type": "illust",
+      "q": [
+       "柔道 女性",
+       "柔道"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서"
+  }
+ ],
+ "youtube": {
+  "title": "밥 먹으라더니 실격? 유도 국가대표 100g 초과 계체 탈락 #shorts",
+  "description": "아시안게임 유도 여자 48kg급 정수진 선수가 경기 당일 계체에서 100g 초과로 실격됐습니다.\n선수는 SNS에서 감독·코치가 계체 대상이 아니라며 식사를 권했고, 종료 15분 전에야 대상인 걸 알았다고 주장했습니다.\n대한유도회는 사과하고 귀국 즉시 사실관계를 확인하겠다고 밝혔습니다.\n\n※ AI 음성으로 제작했습니다.\n#유도 #아시안게임 #계체 #정수진 #대한유도회 #이슈",
+  "tags": [
+   "유도",
+   "아시안게임",
+   "정수진",
+   "계체",
+   "실격",
+   "대한유도회",
+   "국가대표",
+   "이슈"
+  ]
+ },
+ "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=468010&_dcbest=1&page=1",
+ "facts_used": [
+  "여자 48kg급, 경기 당일 계체 허용치 50.4kg 넘어 100g 초과 실격 [한국일보 2026.10.4 https://www.hankookilbo.com/news/article/A2026100418300002924, 뉴스핌 https://www.newspim.com/news/view/20261004000086]",
+  "전날 공식 계체 통과, 아침 기준도 맞춰 둠(선수 주장) [뉴스핌, 파이낸셜뉴스 2026.10.5 https://www.fnnews.com/news/202610051022162504]",
+  "감독·코치가 대상 아니니 밥 먹고 회복하라 했다(선수 SNS 주장) [스포츠경향 https://sports.khan.co.kr/article/202610041929003/, 파이낸셜뉴스]",
+  "종료 15분 전 대상 사실 인지, 머리카락까지 자름 [파이낸셜뉴스, OSEN https://www.osen.co.kr/article/G1112887475]",
+  "대한유도회 사과, 귀국 즉시 진상 확인 [한국일보 2026.10.5 https://www.hankookilbo.com/news/article/A2026100510330005810, 뉴스핌 https://www.newspim.com/news/view/20261005000026]"
+ ],
+ "brief": "점수표: 유도 100g 실격(억울 5·댓글싸움 3·반전 5=13) / 대구 수해 어부바(5·3·4=12, 8월 일·인물 미확인이라 보류) / 최우진 절뚝 세리머니(2·4·3=9, 병역특례 회차와 겹침) / 독일 '이기적 나라'(2·3·2=7) / 중국인 추납 요건(3·3·2=8)\n훅 3안: ①\"단 100g 때문에 아시안게임 실격당함\" ②\"감독 말 믿고 밥 먹었다가 실격\" ③\"국가대표가 밥 한 끼 먹고 아시안게임 실격당함\" → ③ 선택: 누가 먹으라 했는지 숨겨 떡밥이 서고, 주장 부분을 훅에 안 넣어 단정 피함. 제목 1줄도 '밥 먹으라더니 실격?'(질문형).\n확인된 사실: 여자 48kg급 정수진(용인대) 2026 아이치·나고야 AG 경기 당일 무작위 계체에서 허용치 50.4kg(체급 +5%) 넘은 50.5kg, 100g 초과 실격 [한국일보 10.4, 뉴스핌 10.4, 스포츠경향]. 전날 공식 계체 통과 [뉴스핌, 파이낸셜뉴스]. 본인 SNS 주장: 감독·코치가 추첨 결과 보고 대상 아니라며 밥 먹고 회복하라 함, 죽 300g·바나나 200g·이온음료 600g 섭취, 종료 15분 전 대상 사실 알게 됨, 머리카락 자르고 구토하며 감량 시도 [파이낸셜뉴스 10.5, 이데일리, OSEN, 스포츠경향]. 대한유도회 5일 사과, 귀국 즉시 선수·지도자 대상 사실관계 확인 [한국일보 10.5, 뉴스핌 10.5, 한국경제 10.5]. 뉴스1은 '세계선수권 후 조사' 표현.\n주의: 지도자 실책은 선수 주장+유도회 사과까지만. 지도자 이름 안 씀. '회유' 주장(스타뉴스 단독)·은퇴 여부는 미확인이라 안 씀. 구토는 묘사 안 함. 실격 장면 웃음 tone 없음."
+}
