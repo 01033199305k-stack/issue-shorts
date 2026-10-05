@@ -1,0 +1,405 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "rope-cut-for-clothesline",
+ "title_lines": [
+  "30층 생명줄 싹둑",
+  "이유가 빨랫줄?"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "30층에서 내려와 보니 생명줄이 싹둑 잘려 있었음.",
+   "say": "삼십 층에서 내려와 보니 생명줄이 싹둑 잘려 있었음.",
+   "sfx": "exclaim",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ロープ",
+       "命綱"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "30층 생명줄",
+      "style": "big",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✂️",
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "범인은 중국 70대 할아버지, 근데 이유가 더 어이없음.",
+   "say": "범인은 중국 칠십 대 할아버지, 근데 이유가 더 어이없음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "おじいさん",
+       "老人"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "중국 포산 범인은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "120m 로프에서 10m 넘게 통째로 사라짐.",
+   "say": "백이십 미터 로프에서 십 미터 넘게 통째로 사라짐.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ハサミ",
+       "はさみ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "120m",
+      "style": "big",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "-10m",
+      "style": "red",
+      "pos": "bottom-right",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니, 그래서 1층 작업은 끝내지도 못함.",
+   "say": "아니, 그래서 일 층 작업은 끝내지도 못함.",
+   "sfx": "whoosh",
+   "tone": "황당해서 말이 빨라지듯 어이없게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "作業員",
+       "工事 作業員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "작업 중단",
+      "style": "red",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 2층 사는 주민이 잘라 간 거였음.",
+   "say": "알고 보니 이 층 사는 주민이 잘라 간 거였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "マンション",
+       "アパート"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "2층 주민",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👉",
+      "pos": "bottom-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 그 이유가 공개됨.",
+   "say": "자, 그 이유가 공개됨.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "虫眼鏡",
+       "探偵"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.2,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "안전장비인 줄 몰랐고, 빨랫줄로 쓰려고 잘랐다고 주장함.",
+   "say": "안전장비인 줄 몰랐고, 빨랫줄로 쓰려고 잘랐다고 주장함.",
+   "sfx": "stamp",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "洗濯物 干す",
+       "物干し",
+       "洗濯物"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "빨랫줄 필요해서",
+      "style": "bubble",
+      "pos": "top-left",
+      "at": 0.2,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "빨랫줄",
+      "style": "stamp",
+      "pos": "bottom-right",
+      "at": 0.6,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "세상에, 그때 줄 쓰던 사람이 없어서 다친 사람은 없었음.",
+   "say": "세상에, 그때 줄 쓰던 사람이 없어서 다친 사람은 없었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "安心 男性",
+       "ほっとする"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "인명 피해 없음",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "작업자가 요구한 건 로프값 약 8만 원임.",
+   "say": "작업자가 요구한 건 로프값 약 팔만 원임.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "札束",
+       "お金"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "약 8만 원",
+      "style": "big",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "400위안",
+      "style": "small",
+      "pos": "bottom",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들이 작업자였으면 8만 원에 끝냄?",
+   "say": "님들이 작업자였으면 팔만 원에 끝냄?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ロープ",
+       "命綱"
+      ],
+      "pos": "bottom-right",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 8만 원에 끝",
+      "style": "row",
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop",
+      "dy": -40
+     },
+     {
+      "type": "text",
+      "text": "② 끝까지 따짐",
+      "style": "row",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "pop",
+      "dy": 60
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "30층 작업자 생명줄을 빨랫줄로 쓰려던 할아버지 #shorts",
+  "description": "중국 광둥성 포산의 한 고층 건물에서 외벽 보수 작업자의 안전로프가 2층 높이에서 10m 넘게 잘려 나간 일이 있었습니다.\n로프를 자른 2층 주민(70대)은 안전장비인 줄 몰랐고 빨랫줄로 쓰려고 잘랐다고 주장했습니다.\n당시 로프를 쓰던 사람이 없어 인명 피해는 없었고, 작업자는 로프값 400위안(약 8만 원)을 요구했습니다.\n\n※ AI 음성으로 제작했습니다.\n#중국 #안전로프 #빨랫줄 #황당 #해외토픽",
+  "tags": [
+   "중국",
+   "포산",
+   "안전로프",
+   "빨랫줄",
+   "고층작업",
+   "황당",
+   "해외토픽"
+  ]
+ },
+ "source_post": "https://www.seoul.co.kr/news/international/2026/09/28/20260928500087",
+ "facts_used": [
+  "2026년 9월 17일 광둥성 포산 고층 건물, 외벽 보수 작업자가 30층에서 2층까지 내려와 안전로프 절단 발견 [머니투데이 2026.9.30, 한국경제 2026.9.30]",
+  "약 120m 로프 중 10m 넘게 잘림, 1층까지 작업 마무리 못 함 [머니투데이, 이데일리]",
+  "자른 사람은 2층 거주 70대 주민, 안전장비인 줄 몰랐고 빨랫줄로 쓰려 했다고 주장 [서울신문 2026.9.28, 아시아경제 2026.9.28]",
+  "당시 로프 사용자 없어 인명 피해 없음 [아시아경제, 한국경제]",
+  "보상금 400위안(약 8만 원) 요구 [머니투데이, 서울경제]"
+ ],
+ "brief": "점수표: 로프 빨랫줄(신기5+억울4+친숙3=12) / 도쿄 35일 연속 비(4+2+4=10) / 아시안게임 유도 깨물기 실격(4+2+4=10, 최근 유도 소재 중복) / 9개월 아기 산 계단(3+2+3=8) / 결정사 횟수 차감(2+4+3=9, 7월 기사). 훅 3안: ①'할아버지가 30층 생명줄을 빨랫줄로 씀' ②'생명줄이 2층에서 싹둑 잘려 있었음' ③'8만 원짜리 빨랫줄 사건' → ②: 장면이 바로 그려지고 범인·이유를 숨겨 끝까지 보게 함. 확인된 사실: 9월 17일 광둥성 포산, 외벽 보수 작업자(류 씨)가 30층에서 2층까지 내려와 안전로프 하나 절단 발견, 약 120m 중 10m 넘게 사라져 1층까지 작업 못 마침, 2층 사는 70대 후반 주민이 잘랐고 고층 작업용 안전장비인 줄 몰랐고 빨래 널 줄로 쓰려 했다고 주장, 당시 로프 쓰던 사람 없어 인명 피해 없음, 관리업체와 논의 끝에 로프 보상 400위안(약 8만 원) 요구, 중국 SNS 영상 조회 6100만 회 이상. 출처: 서울신문 2026.9.28 https://www.seoul.co.kr/news/international/2026/09/28/20260928500087 / 아시아경제 2026.9.28 https://view.asiae.co.kr/article/2026092814385288488 / 머니투데이 2026.9.30 https://www.mt.co.kr/world/2026/09/30/2026093011223577331 / 한국경제 2026.9.30 https://www.hankyung.com/article/2026093038577 / 서울경제 https://www.sedaily.com/article/20096695. 주의: 경찰 미신고 여부는 한 곳만 확인돼 뺌. 인명 피해 없는 사건이라 어이없음 톤은 '주장·이유'에만, 위험 자체는 희화화하지 않음. 주민 신상 노출 없음."
+}
