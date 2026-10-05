@@ -908,5 +908,50 @@
   "privacy": "private",
   "scheduled_for": "2026-10-04T12:00:00Z",
   "seconds": 445
+ },
+ {
+  "key": "2026-10-05-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-05T18:00:00+09:00",
+  "started": "2026-10-05T15:20:00.783460+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-21117/",
+   "https://pixabay.com/videos/id-1191/",
+   "https://pixabay.com/videos/id-200157/",
+   "https://pixabay.com/videos/id-199788/"
+  ],
+  "duration": 36.15,
+  "matches": [
+   0.96,
+   0.93,
+   0.97,
+   0.87,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.91
+  ],
+  "sfx": 9,
+  "illustrations": 2,
+  "cuts": 10,
+  "title": "원재료값 내려도 식품값은 못 내려? 식품산업협회장 발언 논란 #shorts",
+  "source_post": "https://bbs.ruliweb.com/best/board/300143/read/76913146",
+  "facts_used": [
+   "2026.9.29 박진선 한국식품산업협회장 취임 1주년 기자간담회 [머니투데이 2026.9.29, 이투데이, 전자신문 2026.9.29]",
+   "발언 \"원재료가 차지하는 비중이 그렇게 크지 않다\", \"할 수 없이 가격을 올리는 것\" [헤럴드경제, 이투데이]",
+   "원재료뿐 아니라 인건비·설비투자·R&D 투자가 비용의 많은 부분 [헤럴드경제, 뉴스핌 2026.9.30]",
+   "원재료 오를 땐 올리고 내릴 땐 왜 안 내리냐는 지적에 대한 답변 맥락 [이투데이, 헤럴드경제]",
+   "\"가격 결정에 영향력이 없는 영업사원들끼리 이야기하는 것까지 담합이 될 수 있다고 들었다\", 담합 범위 정리 필요 [머니투데이 2026.9.29, 이투데이]",
+   "과징금: 밀가루 제분사 7곳 6710억 원 [뉴스핌 2026.5.21], 설탕 3960억 원 [머니투데이 2026.5.20] → 합계 1조 원 넘음"
+  ],
+  "slug": "2026-10-05_1800_food-price-raw-material-remark",
+  "late": false,
+  "video_id": "5SnNbx7rasM",
+  "url": "https://youtube.com/shorts/5SnNbx7rasM",
+  "privacy": "private",
+  "scheduled_for": "2026-10-05T09:00:00Z",
+  "seconds": 814
  }
 ]
