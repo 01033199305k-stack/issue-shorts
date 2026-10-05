@@ -15,10 +15,11 @@ slots: ["07:00", "12:00", "18:00", "21:00"]   # 2026-10-05~ 시험: 하루 17편
 zoom_target: 1.06
 pin_top: 535
 
-# 자막: 74px 블랙한산스 기준 한 줄 ~12자 - 무조건 2줄 이하
+# 자막: 2026-10-06 군림보처럼 한 줄(62px, 패널 아래에 얹음) - 그림이 패널을 다 쓰게
 fontsize: 74
-caption_words: 6
-caption_line_chars: 11
+caption_words: 5
+caption_line_chars: 15
+caption_lines: 1
 
 bgm: assets/bgm/sneaking_around.mp3   # OpenGameArt CC0
 bgm_gain_db: -10                      # 배경음악 크기 (클수록 큼, -16 이면 말소리에 묻혀 거의 안 들림)

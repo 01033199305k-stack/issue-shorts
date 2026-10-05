@@ -229,6 +229,16 @@ def lint(script: dict) -> list[str]:
         it.get("type") in ("illust", "crowd") for it in (s.get("visual") or {}).get("items", [])))
     if len(uses) < min(9, n_scenes):
         p.append(f"only {len(uses)} different illustrations - use at least 9 (the licence allows 20), a new picture for each scene")
+    for i, s in enumerate(script.get("segments", [])):
+        v = s.get("visual") or {}
+        its = v.get("items", [])
+        if len(its) > 4:
+            p.append(f"segment {i}: {len(its)} items - max 4 (one big picture + a word or two reads better than a busy slide)")
+        is_list = sum(1 for it in its if it.get("style") == "row") >= 2   # ①②③ list / final vote board
+        if its and not is_list and not any(it.get("type") in ("illust", "crowd", "emoji") for it in its):
+            p.append(f"segment {i}: words only - add the picture that shows the sentence (stock video often finds nothing; the renderer makes a lone picture big)")
+        if sum(1 for it in its if it.get("type") in ("illust", "crowd")) > 2:
+            p.append(f"segment {i}: more than 2 pictures - one big picture (or two side by side) per scene")
     vids = [bool((s.get("visual") or {}).get("video")) for s in script.get("segments", [])]
     if any(a and b for a, b in zip(vids, vids[1:])):
         p.append("two stock-video scenes in a row - stock footage is a rare accent, never back to back")

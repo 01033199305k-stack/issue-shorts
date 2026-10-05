@@ -3,7 +3,7 @@
     clip = clip_frames("taxi street night", 4.2, work_dir / "clip_03", fps=30)
 
 A scene's visual may carry "video": "<English search words>". The clip is
-cropped to the white panel (1080x845) and written out as JPEG frames that the
+cropped to the white panel (1080x960) and written out as JPEG frames that the
 motion page swaps in frame by frame (headless capture cannot play <video>
 deterministically). Needs PIXABAY_API_KEY or PEXELS_API_KEY (Pixabay first);
 without one - or when nothing relevant is found - the scene keeps its plain background.
@@ -19,7 +19,7 @@ import urllib.parse
 import urllib.request
 from pathlib import Path
 
-PANEL = (1080, 845)
+PANEL = (1080, 960)
 CACHE = Path.home() / ".cache" / "issue-shorts" / "pexels"
 
 

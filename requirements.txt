@@ -5,5 +5,6 @@ numpy
 soundfile
 faster-whisper
 qwen-tts
+rapidocr_onnxruntime   # 일러스트 속 일본어·한자 글자 검사 (illust.has_foreign_text)
 playwright        # 모션 프레임 촬영 (크롬은 러너에 있는 것을 쓴다 - playwright install 불필요)
 # torch·torchaudio(CPU 빌드)는 워크플로에서 --index-url https://download.pytorch.org/whl/cpu 로 먼저 설치하고 고정한다

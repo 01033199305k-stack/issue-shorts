@@ -77,6 +77,36 @@ def _score(title: str, words: list[str]) -> float | None:
     return hit - (1.5 if group else 0) - len(title) / 200
 
 
+_OCR = None
+FOREIGN = re.compile(r"[぀-ヿ㐀-鿿]")   # kana + CJK ideographs
+
+
+def has_foreign_text(path: Path) -> bool:
+    """True when the drawing has readable Japanese/Chinese lettering on it (謝罪文 paper,
+    ポテト snack bag, 学級新聞): viewers read it as foreign clutter. RapidOCR on a white
+    backdrop; a hit needs confidence >= 0.8 - hatching and faces score 0.5-0.76.
+    Without rapidocr installed the check is skipped (title filter TEXTY still applies)."""
+    global _OCR
+    if _OCR is False:
+        return False
+    try:
+        if _OCR is None:
+            from rapidocr_onnxruntime import RapidOCR
+            _OCR = RapidOCR()
+        from PIL import Image
+        import numpy as np
+        with Image.open(path) as im:
+            im = im.convert("RGBA")
+            bg = Image.new("RGB", im.size, "white")
+            bg.paste(im, mask=im.getchannel("A"))
+        res, _ = _OCR(np.array(bg)[:, :, ::-1])
+    except Exception as ex:
+        print(f"    illust: text check unavailable ({ex.__class__.__name__}) - skipped")
+        _OCR = False if isinstance(ex, ImportError) else _OCR
+        return False
+    return any(FOREIGN.search(t) and score >= 0.8 for _, t, score in (res or []))
+
+
 def _trim(path: Path, pad: int = 6) -> None:
     """Cut the transparent margin off the 800x800 canvas so the layout sees
     the drawing's real shape (a wide court bench, a tall standing person)."""
@@ -132,22 +162,30 @@ class Picker:
                 print(f"    illust: nothing titled with {words[0]!r} for {query!r} - fallback")
                 return None
             fresh = [r for r in scored if r[2] not in self.urls]   # prefer a drawing not yet used in this video
-            _, title, url = max(fresh or scored, key=lambda r: r[0])
-            data = None
-            # some images 404 at s800 from some hosts - step down through sizes
-            for size in ("s800", "s640", "s400", "s320"):
-                try:
-                    data = _get(re.sub(r"/s\d+(-c)?/", f"/{size}/", url), timeout=30)
-                    break
-                except Exception as ex:
-                    last = ex
-            if not data:
-                print(f"    illust: download failed {url[-60:]}: {last}")
+            ranked = sorted(fresh, key=lambda r: -r[0]) + sorted([r for r in scored if r not in fresh], key=lambda r: -r[0])
+            for _, title, url in ranked[:4]:
+                data, last = None, None
+                # some images 404 at s800 from some hosts - step down through sizes
+                for size in ("s800", "s640", "s400", "s320"):
+                    try:
+                        data = _get(re.sub(r"/s\d+(-c)?/", f"/{size}/", url), timeout=30)
+                        break
+                    except Exception as ex:
+                        last = ex
+                if not data:
+                    print(f"    illust: download failed {url[-60:]}: {last}")
+                    continue
+                path.write_bytes(data)
+                if has_foreign_text(path):
+                    print(f"    illust: {title} has Japanese/Chinese lettering - next candidate")
+                    path.unlink()
+                    continue
+                meta.write_text(url, encoding="utf-8")
+                _trim(path)
+                print(f"    illust: {query!r} -> {title}")
+                break
+            if not path.exists():
                 return None
-            path.write_bytes(data)
-            meta.write_text(url, encoding="utf-8")
-            _trim(path)
-            print(f"    illust: {query!r} -> {title}")
         self.used[query] = path
         if meta.exists():
             self.urls.add(meta.read_text(encoding="utf-8"))

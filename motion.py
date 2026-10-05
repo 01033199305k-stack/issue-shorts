@@ -25,16 +25,16 @@ import subprocess
 from pathlib import Path
 
 W, H, FPS = 1080, 1920, 30
-PANEL_TOP, PANEL_H = 520, 845
+PANEL_TOP, PANEL_H = 470, 960   # reference proportions: one picture fills a near-square panel
 LEAD = 0.18          # visuals land a hair before the voice (J-cut) - late visuals feel slow
 
-POS = {  # centre points in panel coordinates (1080 x 845); the caption box owns y > ~650
-    "center": (540, 395), "left": (290, 405), "right": (790, 405),
-    "top": (540, 112), "bottom": (540, 575),
-    "top-left": (270, 130), "top-right": (810, 130),
-    "bottom-left": (270, 575), "bottom-right": (810, 575),
+POS = {  # centre points in panel coordinates (1080 x 960); the one-line caption owns y > ~860
+    "center": (540, 440), "left": (290, 455), "right": (790, 455),
+    "top": (540, 120), "bottom": (540, 700),
+    "top-left": (270, 140), "top-right": (810, 140),
+    "bottom-left": (270, 700), "bottom-right": (810, 700),
 }
-SIZE = {"s": 240, "m": 390, "l": 520, "xl": 640}
+SIZE = {"s": 260, "m": 440, "l": 600, "xl": 760}
 Z = {"illust": 1, "crowd": 1, "emoji": 2, "text": 3}   # words always sit on top of pictures
 BG = {
     "white": "#ffffff",
@@ -134,10 +134,12 @@ def _width(ws) -> int:
     return sum(len(w.text) for w in ws) + max(0, len(ws) - 1)
 
 
-def _best_lines(ws, line_chars: int):
+def _best_lines(ws, line_chars: int, max_lines: int = 2):
     """Split one cue into 1-2 lines at the most natural point; None if it cannot fit."""
     if _width(ws) <= line_chars:
         return 0.0, [ws]
+    if max_lines < 2:
+        return None
     best = None
     for k in range(1, len(ws)):
         a, b = ws[:k], ws[k:]
@@ -149,7 +151,7 @@ def _best_lines(ws, line_chars: int):
     return best
 
 
-def _phrase_cues(words, line_chars: int, max_words: int):
+def _phrase_cues(words, line_chars: int, max_words: int, max_lines: int = 2):
     """Split one sentence into caption cues (each 1-2 lines) at natural breaks.
     Dynamic programming over cue boundaries: break costs + a small per-cue cost."""
     n = len(words)
@@ -160,7 +162,7 @@ def _phrase_cues(words, line_chars: int, max_words: int):
         for i in range(max(0, j - max_words), j):
             if dp[i][0] == INF:
                 continue
-            fit = _best_lines(words[i:j], line_chars)
+            fit = _best_lines(words[i:j], line_chars, max_lines)
             if fit is None:
                 if j - i == 1:          # a single word longer than the line - show it anyway
                     fit = (50.0, [words[i:j]])
@@ -179,12 +181,12 @@ def _phrase_cues(words, line_chars: int, max_words: int):
     return out[::-1]
 
 
-def caption_cues(words, line_chars: int = 11, max_words: int = 6) -> list[dict]:
+def caption_cues(words, line_chars: int = 11, max_words: int = 6, max_lines: int = 2) -> list[dict]:
     """[{s, e, lines:[[(text, start, end), ...], ...]}] - at most 2 lines per cue,
     broken at punctuation and never between a number/determiner and its counter."""
     cues = []
     for seg in words:
-        for lines in _phrase_cues(seg, line_chars, max_words):
+        for lines in _phrase_cues(seg, line_chars, max_words, max_lines):
             cues.append({"s": lines[0][0].start, "e": lines[-1][-1].end,
                          "lines": [[(w.text, round(w.start, 3), round(w.end, 3)) for w in ln] for ln in lines]})
     # hold each phrase until the next one starts (no flicker between words)
@@ -199,13 +201,13 @@ CSS = """
 * { margin:0; padding:0; box-sizing:border-box; }
 html, body { width:1080px; height:1920px; background:#000; overflow:hidden; }
 body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#fff; }
-#title { position:absolute; top:205px; left:30px; right:30px; height:310px; display:flex;
+#title { position:absolute; top:150px; left:30px; right:30px; height:310px; display:flex;
   flex-direction:column; justify-content:center; align-items:center; text-align:center;
   line-height:1.18; letter-spacing:-1px; }
 #title div { white-space:nowrap; }
 #title .t2 { color:#FFE14D; }
-#panel { position:absolute; top:520px; left:0; width:1080px; height:845px; overflow:hidden; background:#fff; }
-#cam { position:absolute; inset:0; transform-origin:540px 380px; }
+#panel { position:absolute; top:470px; left:0; width:1080px; height:960px; overflow:hidden; background:#fff; }
+#cam { position:absolute; inset:0; transform-origin:540px 430px; }
 .sc { position:absolute; inset:0; visibility:hidden; }
 .it { position:absolute; left:0; top:0; will-change:transform,opacity; }
 .it img { width:100%; height:100%; object-fit:contain; display:block; }
@@ -227,12 +229,13 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
   font-weight:700; font-size:24px; color:rgba(0,0,0,.42); white-space:nowrap; overflow:hidden; z-index:5; }
 #credit.dark { color:rgba(255,255,255,.55); }
 /* stock footage behind a scene's items, swapped frame by frame; '자료화면' so it never passes as the real event */
-.bgv { position:absolute; left:0; top:0; width:1080px; height:845px; object-fit:cover; z-index:0; }
+.bgv { position:absolute; left:0; top:0; width:1080px; height:960px; object-fit:cover; z-index:0; }
 .tag { position:absolute; right:18px; top:16px; z-index:4; font-family:'Noto Sans CJK KR','Malgun Gothic',sans-serif;
   font-weight:700; font-size:30px; color:#fff; background:rgba(0,0,0,.5); padding:4px 14px; border-radius:8px; }
-#cap { position:absolute; left:0; right:0; top:1365px; height:0; z-index:9; }
-#cap .box { position:absolute; left:50%; bottom:22px; transform:translateX(-50%); background:#000;
-  padding:10px 26px 4px; border-radius:6px; text-align:center; font-size:68px; line-height:1.22; white-space:nowrap; }
+/* one-line caption laid over the bottom of the panel, like the reference: the picture keeps the panel */
+#cap { position:absolute; left:0; right:0; top:1430px; height:0; z-index:9; }
+#cap .box { position:absolute; left:50%; bottom:30px; transform:translateX(-50%); background:rgba(0,0,0,.82);
+  padding:8px 24px 2px; border-radius:6px; text-align:center; font-size:62px; line-height:1.22; white-space:nowrap; }
 #cap span { color:#fff; }
 #cap span.on { color:#FFE14D; }
 """
@@ -298,7 +301,7 @@ window.render = function (t) {
     if (!on) return;
     const pin = (t - (s.start - D.lead)) / .16;
     el.style.transform = `scale(${1.05 - .05 * eo(pin) + .03 * C((t - s.start) / Math.max(1, s.end - s.start))})`;
-    el.style.transformOrigin = '540px 380px';
+    el.style.transformOrigin = '540px 430px';
     panel.style.background = s.bg;
     credit.className = s.dark ? 'dark' : '';
     if (s.clip) {   // stock clip: next frame (loops if the sentence outlasts the clip)
@@ -361,13 +364,13 @@ def _fit(path, side: int) -> tuple[int, int]:
     return int(side * ar), side
 
 
-CAP_BOX_LINE, CAP_BOX_PAD, CAP_BOTTOM = 68 * 1.22, 14, 22   # mirrors #cap .box in CSS
-ZOOM_ROOM = 30      # the camera zooms up to 1.08x around y=380 - the bottom edge drifts ~25 px
+CAP_BOX_LINE, CAP_BOX_PAD, CAP_BOTTOM = 62 * 1.22, 10, 30   # mirrors #cap .box in CSS
+ZOOM_ROOM = 30      # the camera zooms up to 1.08x around y=430 - the bottom edge drifts ~25 px
 
 
 def _item_floor(cues, st, en) -> float:
     """Lowest panel y an item may reach in this scene: above the tallest caption box
-    shown while the scene is on screen (2-line boxes start near y=643), minus zoom drift."""
+    shown while the scene is on screen (a one-line box starts near y=845), minus zoom drift."""
     lines = max((len(c["lines"]) for c in cues if c["s"] < en and c["e"] > st - LEAD), default=2)
     box_top = PANEL_H - CAP_BOTTOM - (CAP_BOX_LINE * max(1, lines) + CAP_BOX_PAD)
     return box_top - ZOOM_ROOM
@@ -410,6 +413,42 @@ def title_size(lines) -> int:
     return max(64, min(130, int(1000 / (0.76 * max(1, longest)))))
 
 
+def _hero(items: list, has_clip: bool, picker=None) -> list:
+    """Reference look: one big picture owns the panel. A scene's lone illustration grows to
+    l/xl and moves to the centre; a picture-less scene blows its first emoji up instead of
+    leaving a small icon in an empty white box. Two pictures go side by side at m or larger.
+    Pictures いらすとや has no match for are dropped first, so the layout is planned on what shows."""
+    if picker:
+        items = [it for it in items if it.get("type") not in ("illust", "crowd") or picker.fetch(it.get("q", ""))]
+    items = [dict(it) for it in items[:4]]
+    extra = [it for it in items if it.get("type") in ("illust", "crowd")][2:]
+    items = [it for it in items if not any(it is x for x in extra)]   # 3 pictures = thumbnails; keep two
+    pics = [it for it in items if it.get("type") in ("illust", "crowd")]
+    others = [it for it in items if it not in pics]
+    rows = [it for it in items if it.get("type") == "text" and it.get("style") == "row"]
+    if len(rows) > 1:   # list rows: even spacing for the bigger row font, centred in the panel
+        for k, it in enumerate(rows):
+            it["pos"], it["dx"], it["dy"] = "center", 0, (k - (len(rows) - 1) / 2) * 170
+    if len(pics) == 1 and rows:
+        pics[0]["size"], pics[0]["pos"], pics[0]["dx"], pics[0]["dy"] = "s", "bottom-right", 0, 0
+    elif len(pics) == 1 and pics[0].get("type") == "illust":
+        hero = pics[0]
+        hero["size"] = "xl" if len(others) <= 1 else "l"
+        if hero.get("pos", "center") in ("left", "right", "top-left", "top-right", "bottom-left", "bottom-right", "bottom"):
+            hero["pos"], hero["dx"], hero["dy"] = "center", 0, 0
+        for it in others:   # side emoji stickers keep their corner; words go above the picture
+            if it.get("type") == "text" and it.get("pos", "center") == "center" and it.get("style") not in ("stamp",):
+                it["pos"] = "top"
+    elif len(pics) == 2:   # two people/props side by side
+        for it, side in zip(pics, ("left", "right")):   # m each: two l/xl pictures overlap in the middle
+            it["size"], it["pos"], it["dx"], it["dy"] = "m", side, 0, 0
+    elif not pics and not has_clip:
+        emo = next((it for it in items if it.get("type") == "emoji"), None)
+        if emo:
+            emo["size"], emo["pos"], emo["dx"], emo["dy"] = "xl", "center", 0, 0
+    return items
+
+
 def build(segments, visuals, times, cues, title, credit, picker, font_path, clips=None) -> tuple[str, list]:
     """segments: [{sfx}], visuals: [{bg, items}], times: [(start, end)],
     clips: per scene None or {dir, n} from stock.clip_frames (background footage)."""
@@ -417,6 +456,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
     clips = clips or [None] * len(segments)
     for i, (seg, vis, (st, en)) in enumerate(zip(segments, visuals, times)):
         items = vis.get("items") or [{"type": "emoji", "text": "🤔", "pos": "center", "size": "l", "fx": "pop"}]
+        items = _hero(items, bool(clips[i] if i < len(clips) else None), picker) or             [{"type": "emoji", "text": "🤔", "pos": "center", "size": "xl", "fx": "pop"}]
         bg_key = vis.get("bg", "white")
         parts, data = [], []
         pics = {}
@@ -461,7 +501,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
             else:
                 style = it.get("style", "label")
                 text = str(it.get("text", ""))
-                base = {"big": 150, "label": 84, "small": 52, "red": 120, "stamp": 150, "bubble": 72, "row": 64}.get(style, 84)
+                base = {"big": 160, "label": 96, "small": 58, "red": 130, "stamp": 160, "bubble": 80, "row": 80}.get(style, 96)
                 longest = max((len(x) for x in text.split("\n")), default=1)
                 fs = min(base, int(960 / (0.74 * max(1, longest))))
                 lines = max(1, text.count("\n") + 1)
@@ -475,7 +515,8 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
             # keep the item inside the panel: above the caption box of this scene
             # (drop starts 420 px above its resting place, so clamping the rest position is enough)
             d["y"] = min(max(d["y"], d["h"] / 2 + 24), max(floor - d["h"] / 2, d["h"] / 2 + 24))
-            d["x"] = min(max(d["x"], d["w"] / 2 + 10), W - d["w"] / 2 - 10) if d["w"] < W - 20 else W / 2
+            margin = 60 if d["fx"] == "stamp" else 10   # a stamp lands rotated ~9 deg - its corners swing out
+            d["x"] = min(max(d["x"], d["w"] / 2 + margin), W - d["w"] / 2 - margin) if d["w"] < W - 2 * margin else W / 2
             data.append(d)
         _separate(parts, data, pics, floor)
         clip = clips[i] if i < len(clips) else None
