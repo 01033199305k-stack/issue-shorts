@@ -202,6 +202,10 @@ def _shown_strings(script: dict):
     yield "youtube.tags", " ".join(yt.get("tags", []))
 
 
+NEWSY = re.compile(r"논란|발언|입장|제동|의혹|촉구|비판|공방|파문|일파만파")
+POLITICS = re.compile(r"대통령|국회|의원|장관|여당|야당|민주당|국민의힘|대법원장|헌재소장|총리|선거|탄핵|대선|총선|국감|국정감사")
+
+
 def lint(script: dict) -> list[str]:
     """House style the routine must satisfy (run.py only warns - a script that is already
     written still renders): no hanja anywhere a viewer reads, and a varied set of pictures."""
@@ -228,6 +232,11 @@ def lint(script: dict) -> list[str]:
     vids = [bool((s.get("visual") or {}).get("video")) for s in script.get("segments", [])]
     if any(a and b for a, b in zip(vids, vids[1:])):
         p.append("two stock-video scenes in a row - stock footage is a rare accent, never back to back")
+    titles = " ".join(script.get("title_lines", [])) + " " + (script.get("youtube") or {}).get("title", "")
+    if (m := NEWSY.search(titles)):
+        p.append(f"title uses news word {m.group(0)!r} - write a curiosity title (\"~하는 ○○\", \"○○가 ~한 이유\"), not a headline")
+    if (m := POLITICS.search(titles)):
+        p.append(f"title names politics ({m.group(0)!r}) - politicians/parties/elections are off-topic for this channel (ROUTINE 2)")
     sfx = [s.get("sfx") for s in script.get("segments", [])]
     if len(sfx) > 1 and sfx[0] == "dudung" and sfx[1] == "question":
         p.append("opening sfx dudung -> question is the pattern every video used - open by the hook's mood (see ROUTINE sfx)")
