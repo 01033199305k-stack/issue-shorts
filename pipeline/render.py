@@ -9,6 +9,7 @@ Segment fields: text (captions), say (what the voice reads), sfx (one-shot on
 the cut into this segment; on segment 0 it fires at t=0), tone (optional acting
 note added to the voice instruction), visual (v2) or card (v1).
 """
+import zlib
 from pathlib import Path
 
 import motion
@@ -81,14 +82,21 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     default_sfx = cfg.get("transition_sfx", "whoosh")
     sfx = []
 
-    def add(name: str, at: float):
-        p = sfx_dir / f"{name}.wav"
-        if name and name != "none" and p.exists():
+    seed = script.get("slug") or script.get("title_lines", [""])[0]
+
+    def pick(name: str, k: int) -> Path | None:
+        """<name>.wav plus any variants in <name>/*.wav: each video gets its own pick
+        (stable per slug, so a re-render sounds the same), so the opener is not one sound forever."""
+        pool = sorted((sfx_dir / name).glob("*.wav")) + [p for p in [sfx_dir / f"{name}.wav"] if p.exists()]
+        return pool[zlib.crc32(f"{seed}|{name}|{k}".encode()) % len(pool)] if pool else None
+
+    def add(name: str, at: float, k: int):
+        if name and name != "none" and (p := pick(name, k if name == default_sfx else 0)):
             sfx.append((max(0.0, at), p, SFX_GAIN.get(name, -9.0)))
 
-    add(segments[0].get("sfx", ""), 0.0)
-    for seg, t in zip(segments[1:], cuts):
-        add(seg.get("sfx") or default_sfx, t - motion.LEAD)
+    add(segments[0].get("sfx", ""), 0.0, 0)
+    for k, (seg, t) in enumerate(zip(segments[1:], cuts), 1):
+        add(seg.get("sfx") or default_sfx, t - motion.LEAD, k)
 
     bgm = repo / cfg["bgm"] if cfg.get("bgm") else None
     assemble.mux_final(video, narration, None, out_path, bgm_path=bgm, sfx=sfx,

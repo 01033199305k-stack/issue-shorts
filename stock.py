@@ -6,7 +6,7 @@ A scene's visual may carry "video": "<English search words>". The clip is
 cropped to the white panel (1080x845) and written out as JPEG frames that the
 motion page swaps in frame by frame (headless capture cannot play <video>
 deterministically). Needs PIXABAY_API_KEY or PEXELS_API_KEY (Pixabay first);
-without one - or when nothing is found - the scene keeps its plain background.
+without one - or when nothing relevant is found - the scene keeps its plain background.
 
 Both licences: free for commercial use, no attribution required, but no
 identifiable people in a bad light - so the script writer is told to search
@@ -34,6 +34,7 @@ def _search_pixabay(query: str, key: str) -> list[dict]:
         files = [{"file_type": "video/mp4", "width": f.get("width", 0), "link": f["url"]}
                  for f in (h.get("videos") or {}).values() if f.get("url")]
         out.append({"id": f"pb{h['id']}", "duration": h.get("duration", 0), "url": h.get("pageURL", ""),
+                    "tags": h.get("tags", ""),
                     "user": {"name": h.get("user", "")}, "video_files": files})
     return out
 
@@ -53,20 +54,41 @@ def _best_file(video: dict) -> dict | None:
     return min(files, key=lambda f: abs(f["width"] - 1280)) if files else None
 
 
-def _variants(query: str) -> list[str]:
-    """Full query first, then shorter ones ("taxi city street night" -> "taxi city street" -> "taxi city"):
-    a niche phrase often finds nothing while its main nouns find a fitting clip."""
-    w = query.split()
-    return [" ".join(w[:n]) for n in range(len(w), 1, -1)][:3] or [query]
+CHROMA = ("green screen", "greenscreen", "chroma", "blue screen", "alpha channel", "transparent")
+
+
+def _describe(video: dict) -> str:
+    """What the clip is about: Pixabay tags, or the words in a Pexels page slug
+    (pexels.com/video/a-judo-match-on-a-mat-12345/)."""
+    slug = (video.get("url") or "").rstrip("/").rsplit("/", 1)[-1]
+    return f"{video.get('tags', '')} {slug.replace('-', ' ')}".lower()
+
+
+def _relevant(video: dict, query: str) -> bool:
+    """The full query's main noun (its first word) must be in the clip's own description,
+    and keyed footage is out: a short phrase like "judo mat" used to return a yoga pavilion,
+    "stopwatch timer" a stopwatch on a green screen."""
+    desc = _describe(video)
+    head = query.split()[0].lower()
+    return head in desc and not any(c in desc for c in CHROMA)
+
+
+def _keyed(frame: Path) -> bool:
+    """Backstop for untagged chroma footage: a frame that is mostly pure green or blue."""
+    from PIL import Image
+    with Image.open(frame) as im:
+        px = list(im.convert("RGB").resize((48, 32)).getdata())
+    keyed = sum(1 for r, g, b in px if (g > 140 and g > r + 60 and g > b + 60) or (b > 140 and b > r + 60 and b > g + 40))
+    return keyed > 0.3 * len(px)
 
 
 def _find(query: str, pixabay: str, pexels: str) -> list[dict]:
-    """Pixabay first, Pexels when Pixabay has nothing for this phrase."""
+    """Pixabay first, Pexels when Pixabay has nothing relevant for this phrase."""
     for key, search in ((pixabay, _search_pixabay), (pexels, _search)):
         if not key:
             continue
         try:
-            if (videos := search(query, key)):
+            if (videos := [v for v in search(query, key) if _relevant(v, query)]):
                 return videos
         except Exception as ex:
             print(f"    stock: search failed for {query!r}: {ex}")
@@ -79,11 +101,10 @@ def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: 
     if not (pixabay or pexels) or not query.strip():
         return None
     used = used if used is not None else set()
-    videos = []
-    for q in _variants(query.strip()):
-        videos = [v for v in _find(q, pixabay, pexels) if v["id"] not in used and v.get("duration", 0) >= 3]
-        if videos:
-            break
+    query = query.strip()
+    # no shortening of the query: a wrong clip is worse than the plain illustrated panel
+    videos = [v for v in _find(query, pixabay, pexels)
+              if v["id"] not in used and v.get("duration", 0) >= 3 and _relevant(v, query)]
     for v in videos:
         if v["id"] in used or v.get("duration", 0) < 3:
             continue
@@ -107,7 +128,13 @@ def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: 
         except Exception as ex:
             print(f"    stock: clip {v['id']} failed: {ex}")
             continue
-        n = len(list(out_dir.glob("f_*.jpg")))
+        frames = sorted(out_dir.glob("f_*.jpg"))
+        if frames and _keyed(frames[len(frames) // 2]):
+            print(f"    stock: clip {v['id']} looks like chroma-key footage - skipped")
+            for f_ in frames:
+                f_.unlink()
+            continue
+        n = len(frames)
         if n:
             used.add(v["id"])
             return {"dir": str(out_dir), "n": n, "id": v["id"], "url": v.get("url", ""),

@@ -49,6 +49,8 @@ def search(query: str) -> list[tuple[str, str]]:
 KANJI = re.compile(r"^[一-鿿々]+")
 # Sheets of several faces/poses read as clutter in a single panel slot.
 SHEET = re.compile(r"いろいろな|色々な|表情のイラスト「|ポーズのイラスト「|セット|まとめ|一覧|段階|アイコン")
+# Drawings with readable Japanese on them (謝罪文 showed up for 謝罪) - viewers see foreign text.
+TEXTY = re.compile(r"文のイラスト|謝罪文|文章|文字|新聞|看板|ポスター|張り紙|貼り紙|手紙|メッセージ|お知らせ|標識|カード|メモ|書き初め|習字")
 
 
 def _stem(word: str) -> str:
@@ -68,6 +70,8 @@ def _score(title: str, words: list[str]) -> float | None:
     if hit < (len(stems) if len(stems) <= 2 else 2):
         return None
     if SHEET.search(title):   # several faces/poses in one image - clutter in a panel slot
+        return None
+    if TEXTY.search(title):   # Japanese lettering in the drawing
         return None
     group = "たち" in title and not any(w in ("たち", "人々", "群衆", "大勢") for w in words)
     return hit - (1.5 if group else 0) - len(title) / 200

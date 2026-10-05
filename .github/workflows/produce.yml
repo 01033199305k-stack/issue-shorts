@@ -93,7 +93,7 @@ jobs:
           ssh-key: ${{ secrets.ASSETS_DEPLOY_KEY }}
           path: _assets
       - if: steps.find.outputs.files != ''
-        run: mkdir -p assets/sfx && cp _assets/sfx/*.wav assets/sfx/
+        run: mkdir -p assets/sfx && cp -r _assets/sfx/. assets/sfx/
 
       - name: 시스템 패키지 (ffmpeg, 이모지·한글 글꼴)
         if: steps.find.outputs.files != ''

@@ -129,8 +129,8 @@ def validate(script: dict) -> list[str]:
     queries = {json.dumps(it.get("q"), ensure_ascii=False) for s in segs for it in (s.get("visual") or {}).get("items", [])
                if it.get("type") in ("illust", "crowd") and it.get("q")}
     n_video = sum(1 for s in segs if (s.get("visual") or {}).get("video"))
-    if n_video > 6:
-        p.append(f"{n_video} scenes with stock video (max 6 - the illustrations are the channel's look)")
+    if n_video > 2:
+        p.append(f"{n_video} scenes with stock video (max 2 - the illustrations are the channel's look)")
     if len(queries) > 20:
         p.append(f"{len(queries)} different illustrations - いらすとや licence allows 20 per video")
     for i, s in enumerate(segs):
@@ -226,14 +226,11 @@ def lint(script: dict) -> list[str]:
     if len(uses) < min(9, n_scenes):
         p.append(f"only {len(uses)} different illustrations - use at least 9 (the licence allows 20), a new picture for each scene")
     vids = [bool((s.get("visual") or {}).get("video")) for s in script.get("segments", [])]
-    if sum(vids) < 4:
-        p.append(f"only {sum(vids)} scenes with stock video - use 4-6 (places, objects, scenery that match the sentence)")
-    run = best = 0
-    for v in vids:
-        run = run + 1 if v else 0
-        best = max(best, run)
-    if best > 2:
-        p.append(f"{best} stock-video scenes in a row - alternate with illustration-only scenes (max 2 in a row)")
+    if any(a and b for a, b in zip(vids, vids[1:])):
+        p.append("two stock-video scenes in a row - stock footage is a rare accent, never back to back")
+    sfx = [s.get("sfx") for s in script.get("segments", [])]
+    if len(sfx) > 1 and sfx[0] == "dudung" and sfx[1] == "question":
+        p.append("opening sfx dudung -> question is the pattern every video used - open by the hook's mood (see ROUTINE sfx)")
     return p
 
 
