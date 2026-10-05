@@ -953,5 +953,49 @@
   "privacy": "private",
   "scheduled_for": "2026-10-05T09:00:00Z",
   "seconds": 814
+ },
+ {
+  "key": "2026-10-05-2100",
+  "slot": "2100",
+  "publish_at": "2026-10-05T21:00:00+09:00",
+  "started": "2026-10-05T16:23:39.341880+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-41724/",
+   "https://pixabay.com/videos/id-26731/",
+   "https://pixabay.com/videos/id-198470/",
+   "https://pixabay.com/videos/id-36510/"
+  ],
+  "duration": 35.0,
+  "matches": [
+   1.0,
+   0.91,
+   0.92,
+   0.98,
+   1.0,
+   0.9,
+   0.93,
+   1.0,
+   0.97,
+   0.92
+  ],
+  "sfx": 9,
+  "illustrations": 10,
+  "cuts": 10,
+  "title": "밥 먹으라더니 실격? 유도 국가대표 100g 초과 계체 탈락 #shorts",
+  "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=468010&_dcbest=1&page=1",
+  "facts_used": [
+   "여자 48kg급, 경기 당일 계체 허용치 50.4kg 넘어 100g 초과 실격 [한국일보 2026.10.4 https://www.hankookilbo.com/news/article/A2026100418300002924, 뉴스핌 https://www.newspim.com/news/view/20261004000086]",
+   "전날 공식 계체 통과, 아침 기준도 맞춰 둠(선수 주장) [뉴스핌, 파이낸셜뉴스 2026.10.5 https://www.fnnews.com/news/202610051022162504]",
+   "감독·코치가 대상 아니니 밥 먹고 회복하라 했다(선수 SNS 주장) [스포츠경향 https://sports.khan.co.kr/article/202610041929003/, 파이낸셜뉴스]",
+   "종료 15분 전 대상 사실 인지, 머리카락까지 자름 [파이낸셜뉴스, OSEN https://www.osen.co.kr/article/G1112887475]",
+   "대한유도회 사과, 귀국 즉시 진상 확인 [한국일보 2026.10.5 https://www.hankookilbo.com/news/article/A2026100510330005810, 뉴스핌 https://www.newspim.com/news/view/20261005000026]"
+  ],
+  "slug": "2026-10-05_2100_judo-weigh-in-100g-disqualified",
+  "late": false,
+  "video_id": "87O99Ypq3-8",
+  "url": "https://youtube.com/shorts/87O99Ypq3-8",
+  "privacy": "private",
+  "scheduled_for": "2026-10-05T12:00:00Z",
+  "seconds": 661
  }
 ]
