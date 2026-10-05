@@ -1,41 +1,85 @@
 {
- "detected_at": "2026-10-05T08:35+09:00",
+ "detected_at": "2026-10-05T11:25+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "'군 면제' 세리머니로 금메달 무색…논란에 \"경솔했다\" 사과",
-   "url": "https://n.news.naver.com/article/437/0000514032",
-   "press": "JTBC",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "李대통령 \"무책임 극단주의 '무극파' 경계…근거없이 혹세무민\"",
+   "url": "https://n.news.naver.com/article/001/0016357321",
+   "press": "연합뉴스",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "부산일보",
-     "title": "최우진, 절뚝이는 '금메달 세리머니' 사과…\"국군 비하 의도 아냐\"",
-     "url": "https://n.news.naver.com/article/082/0001401100"
+     "press": "세계일보",
+     "title": "李대통령 “무책임 극단주의자 선동 유행처럼 번져”",
+     "url": "https://n.news.naver.com/article/022/0004164104"
     },
     {
-     "press": "경기일보",
-     "title": "절뚝거리다 신발서 금메달 쓱?… ‘지뢰 세리머니’ 논란에 최우진 “국군 비하 절대 아냐”",
-     "url": "https://n.news.naver.com/article/666/0000126054"
+     "press": "서울경제",
+     "title": "李대통령 “무책임 극단주의 ‘무극파’ 경계…근거도 없이 혹세무민”",
+     "url": "https://n.news.naver.com/article/011/0004668165"
+    },
+    {
+     "press": "TV조선",
+     "title": "李대통령 \"무책임 극단주의 경계…근거없이 혹세무민\"",
+     "url": "https://n.news.naver.com/article/448/0000643063"
+    },
+    {
+     "press": "부산일보",
+     "title": "이 대통령 \"무책임 극단주의 '무극파'들 선동 유행처럼 번지고 있다\"",
+     "url": "https://n.news.naver.com/article/082/0001401106"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "“국군 비하 의도 아냐”…축구金 최우진 '절뚝, 지뢰 세리머니' 논란 해명",
-   "url": "https://n.news.naver.com/article/030/0003472205",
-   "press": "전자신문",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 이 대통령 지지율 37.4%… 민주 42.5%·국힘 38.4% '오차범위 내' [리얼미터]",
+   "url": "https://n.news.naver.com/article/654/0000203784",
+   "press": "강원도민일보",
+   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "부산일보",
-     "title": "최우진, 절뚝이는 '금메달 세리머니' 사과…\"국군 비하 의도 아냐\"",
-     "url": "https://n.news.naver.com/article/082/0001401100"
+     "press": "대전일보",
+     "title": "李대통령 국정 지지율 37.4%… 민주 42.5%·국힘 38.4%",
+     "url": "https://n.news.naver.com/article/656/0000188555"
     },
     {
-     "press": "경기일보",
-     "title": "절뚝거리다 신발서 금메달 쓱?… ‘지뢰 세리머니’ 논란에 최우진 “국군 비하 절대 아냐”",
-     "url": "https://n.news.naver.com/article/666/0000126054"
+     "press": "뉴스1",
+     "title": "[속보] 李 지지율 37.4% 3주만에 하락…민주 42.5%·국힘 38.4% [리얼미터]",
+     "url": "https://n.news.naver.com/article/421/0009209458"
+    },
+    {
+     "press": "뉴시스",
+     "title": "이 대통령 국정지지율 37.4%…전주보다 0.5%p↓[리얼미터]",
+     "url": "https://n.news.naver.com/article/003/0014233329"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "李대통령 “좌든 우든 무책임한 극단주의 경계해야”",
+   "url": "https://n.news.naver.com/article/081/0003686023",
+   "press": "서울신문",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "세계일보",
+     "title": "李대통령 “무책임 극단주의자 선동 유행처럼 번져”",
+     "url": "https://n.news.naver.com/article/022/0004164104"
+    },
+    {
+     "press": "서울경제",
+     "title": "李대통령 “무책임 극단주의 ‘무극파’ 경계…근거도 없이 혹세무민”",
+     "url": "https://n.news.naver.com/article/011/0004668165"
+    },
+    {
+     "press": "파이낸셜뉴스",
+     "title": "\"좌든 우든 무책임한 선동 경계\"…李대통령 '중수청장 반발' 강경파 직격",
+     "url": "https://n.news.naver.com/article/014/0005584856"
+    },
+    {
+     "press": "TV조선",
+     "title": "李대통령 \"무책임 극단주의 경계…근거없이 혹세무민\"",
+     "url": "https://n.news.naver.com/article/448/0000643063"
     }
    ]
   }
