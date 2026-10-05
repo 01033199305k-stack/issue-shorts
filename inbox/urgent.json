@@ -1,85 +1,97 @@
 {
- "detected_at": "2026-10-05T11:25+09:00",
+ "detected_at": "2026-10-05T15:11+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李대통령 \"무책임 극단주의 '무극파' 경계…근거없이 혹세무민\"",
-   "url": "https://n.news.naver.com/article/001/0016357321",
-   "press": "연합뉴스",
+   "title": "유해진 측 \"신변위협·명예훼손 엄중 대응…가능한 모든 조치\"",
+   "url": "https://n.news.naver.com/article/437/0000514094",
+   "press": "JTBC",
    "why": "언론사 6곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "세계일보",
-     "title": "李대통령 “무책임 극단주의자 선동 유행처럼 번져”",
-     "url": "https://n.news.naver.com/article/022/0004164104"
+     "press": "SBS",
+     "title": "집 앞까지 몰려든 집회에…유해진 측 \"가능한 모든 조치\"",
+     "url": "https://n.news.naver.com/article/055/0001393184"
     },
     {
-     "press": "서울경제",
-     "title": "李대통령 “무책임 극단주의 ‘무극파’ 경계…근거도 없이 혹세무민”",
-     "url": "https://n.news.naver.com/article/011/0004668165"
+     "press": "조선일보",
+     "title": "‘암살자(들)’ 주연 유해진 측 “허위사실 유포, 명예훼손에 가능한 모든 조치”",
+     "url": "https://n.news.naver.com/article/023/0004002134"
     },
     {
-     "press": "TV조선",
-     "title": "李대통령 \"무책임 극단주의 경계…근거없이 혹세무민\"",
-     "url": "https://n.news.naver.com/article/448/0000643063"
+     "press": "채널A",
+     "title": "유해진 소속사 “비방·신변 위협에 가능한 모든 조치 취할 것”",
+     "url": "https://n.news.naver.com/article/449/0000363004"
     },
     {
-     "press": "부산일보",
-     "title": "이 대통령 \"무책임 극단주의 '무극파'들 선동 유행처럼 번지고 있다\"",
-     "url": "https://n.news.naver.com/article/082/0001401106"
+     "press": "경향신문",
+     "title": "영화 ‘암살자(들)’ 향한 도 넘은 공격에···유해진 측 “신변 위협·명예훼손 엄중 대응, 가능한 모든 조치”",
+     "url": "https://n.news.naver.com/article/032/0003474252"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 이 대통령 지지율 37.4%… 민주 42.5%·국힘 38.4% '오차범위 내' [리얼미터]",
-   "url": "https://n.news.naver.com/article/654/0000203784",
-   "press": "강원도민일보",
-   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "‘암살자(들)’ 유해진 측 “사생활 침해·신변 위협에 엄중 대응”",
+   "url": "https://n.news.naver.com/article/005/0001876777",
+   "press": "국민일보",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "대전일보",
-     "title": "李대통령 국정 지지율 37.4%… 민주 42.5%·국힘 38.4%",
-     "url": "https://n.news.naver.com/article/656/0000188555"
+     "press": "조선일보",
+     "title": "‘암살자(들)’ 주연 유해진 측 “허위사실 유포, 명예훼손에 가능한 모든 조치”",
+     "url": "https://n.news.naver.com/article/023/0004002134"
     },
     {
-     "press": "뉴스1",
-     "title": "[속보] 李 지지율 37.4% 3주만에 하락…민주 42.5%·국힘 38.4% [리얼미터]",
-     "url": "https://n.news.naver.com/article/421/0009209458"
+     "press": "경향신문",
+     "title": "영화 ‘암살자(들)’ 향한 도 넘은 공격에···유해진 측 “신변 위협·명예훼손 엄중 대응, 가능한 모든 조치”",
+     "url": "https://n.news.naver.com/article/032/0003474252"
     },
+    {
+     "press": "문화일보",
+     "title": "[속보]유해진 측 “신변 위협·명예훼손 엄중 대응…가능한 모든 조치”",
+     "url": "https://n.news.naver.com/article/021/0002823061"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "\"군대 안 갑니다\"…'BTS도 갔는데' 금메달 병역특례 폐지 목소리 [이슈+]",
+   "url": "https://n.news.naver.com/article/015/0005339161",
+   "press": "한국경제",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "한국일보",
+     "title": "유승민 \"BTS도 가는데 금메달 따면 면제? 병역 특례 폐지해야\"",
+     "url": "https://n.news.naver.com/article/469/0000957692"
+    },
+    {
+     "press": "MBC",
+     "title": "금메달 뒤 \"군대 안 갑니다\" 논란‥여야 \"병역특례 손봐야\"",
+     "url": "https://n.news.naver.com/article/214/0001527194"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]‘코드 제로 발령’ 평택서 외국인 난투극…무리 간 집단 충돌 확인",
+   "url": "https://n.news.naver.com/article/016/0002705490",
+   "press": "헤럴드경제",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 이 대통령 \"검찰개혁 빙자해 사심으로 인사 좌우하려 해선 안 될 것\"",
+   "url": "https://n.news.naver.com/article/082/0001401117",
+   "press": "부산일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
     {
      "press": "뉴시스",
-     "title": "이 대통령 국정지지율 37.4%…전주보다 0.5%p↓[리얼미터]",
-     "url": "https://n.news.naver.com/article/003/0014233329"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "李대통령 “좌든 우든 무책임한 극단주의 경계해야”",
-   "url": "https://n.news.naver.com/article/081/0003686023",
-   "press": "서울신문",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "세계일보",
-     "title": "李대통령 “무책임 극단주의자 선동 유행처럼 번져”",
-     "url": "https://n.news.naver.com/article/022/0004164104"
-    },
-    {
-     "press": "서울경제",
-     "title": "李대통령 “무책임 극단주의 ‘무극파’ 경계…근거도 없이 혹세무민”",
-     "url": "https://n.news.naver.com/article/011/0004668165"
-    },
-    {
-     "press": "파이낸셜뉴스",
-     "title": "\"좌든 우든 무책임한 선동 경계\"…李대통령 '중수청장 반발' 강경파 직격",
-     "url": "https://n.news.naver.com/article/014/0005584856"
-    },
-    {
-     "press": "TV조선",
-     "title": "李대통령 \"무책임 극단주의 경계…근거없이 혹세무민\"",
-     "url": "https://n.news.naver.com/article/448/0000643063"
+     "title": "이 대통령 \"檢개혁 빙자해 사심으로 인사 좌지우지하려 해선 안돼\"",
+     "url": "https://n.news.naver.com/article/003/0014233551"
     }
    ]
   }
