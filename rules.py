@@ -129,8 +129,8 @@ def validate(script: dict) -> list[str]:
     queries = {json.dumps(it.get("q"), ensure_ascii=False) for s in segs for it in (s.get("visual") or {}).get("items", [])
                if it.get("type") in ("illust", "crowd") and it.get("q")}
     n_video = sum(1 for s in segs if (s.get("visual") or {}).get("video"))
-    if n_video > 2:
-        p.append(f"{n_video} scenes with stock video (max 2 - the illustrations are the channel's look)")
+    if n_video > 6:   # hard limit (render refuses); the house limit of 2 is in lint()
+        p.append(f"{n_video} scenes with stock video (max 6)")
     if len(queries) > 20:
         p.append(f"{len(queries)} different illustrations - いらすとや licence allows 20 per video")
     for i, s in enumerate(segs):
@@ -240,6 +240,8 @@ def lint(script: dict) -> list[str]:
         if sum(1 for it in its if it.get("type") in ("illust", "crowd")) > 2:
             p.append(f"segment {i}: more than 2 pictures - one big picture (or two side by side) per scene")
     vids = [bool((s.get("visual") or {}).get("video")) for s in script.get("segments", [])]
+    if sum(vids) > 2:
+        p.append(f"{sum(vids)} scenes with stock video (max 2 - the illustrations are the channel's look)")
     if any(a and b for a, b in zip(vids, vids[1:])):
         p.append("two stock-video scenes in a row - stock footage is a rare accent, never back to back")
     titles = " ".join(script.get("title_lines", [])) + " " + (script.get("youtube") or {}).get("title", "")
