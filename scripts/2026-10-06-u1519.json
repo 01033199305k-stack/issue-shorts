@@ -1,0 +1,348 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "defense-ministry-supplementary-service-cut",
+ "title_lines": [
+  "금메달 군면제 끝?",
+  "국방부 보충역 폐지"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "금메달 따면 군 면제, 이 제도 아예 없어질 수도 있음.",
+   "say": "금메달 따면 군 면제, 이 제도 아예 없어질 수도 있음.",
+   "sfx": "dudung",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "金メダル",
+       "メダル"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "군 면제 끝?",
+      "style": "red",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서"
+  },
+  {
+   "text": "근데 이 말, 국방부가 직접 꺼냄.",
+   "say": "근데 이 말, 국방부가 직접 꺼냄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "自衛隊",
+       "軍人",
+       "兵士"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박"
+  },
+  {
+   "text": "6일 국방부 대변인 브리핑에서 나온 말임.",
+   "say": "육일 국방부 대변인 브리핑에서 나온 말임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "記者会見",
+       "会見"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "10월 6일 브리핑",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "예술·체육요원 포함한 보충역을 감축·폐지 추진한다는 것.",
+   "say": "예술 체육요원 포함한 보충역을 감축 폐지 추진한다는 것.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バイオリン",
+       "ピアノ 演奏"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "陸上 選手",
+       "スポーツ 選手"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.3,
+      "fx": "slide-left"
+     },
+     {
+      "type": "text",
+      "text": "감축·폐지",
+      "style": "stamp",
+      "pos": "top",
+      "at": 0.6,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "국방개혁 기본계획에 넣겠다는 것.",
+   "say": "국방개혁 기본계획에 넣겠다는 것.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "計画書",
+       "書類"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "국방개혁 기본계획",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이유는 형평성, 그리고 줄어드는 병역자원.",
+   "say": "이유는 형평성, 그리고 줄어드는 병역자원.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "天秤",
+       "てんびん"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📉",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 근데 왜 하필 지금인지 공개됨.",
+   "say": "자, 근데 왜 하필 지금인지 공개됨.",
+   "sfx": "none",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.1,
+      "fx": "fade"
+     }
+    ]
+   },
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며"
+  },
+  {
+   "text": "와, 아시안게임 금메달 뒤 나온 군 면제 발언이 계기였음.",
+   "say": "와, 아시안게임 금메달 뒤 나온 군 면제 발언이 계기였음.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー 選手",
+       "サッカー"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "군 면제 발언",
+      "style": "red",
+      "pos": "top",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   },
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게"
+  },
+  {
+   "text": "국방부는 \"굉장히 유감스럽게 생각한다\"고까지 말함.",
+   "say": "국방부는 \"굉장히 유감스럽게 생각한다\"고까지 말함.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "怒る"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "굉장히 유감스럽게",
+      "style": "bubble",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "center",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "시점은 아직 미정. 님들 주변에 특례 받은 사람 있음?",
+   "say": "시점은 아직 미정. 님들 주변에 특례 받은 사람 있음?",
+   "sfx": "none",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "日めくりカレンダー"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "시점 미정",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "金メダル",
+       "メダル"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   },
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서"
+  }
+ ],
+ "youtube": {
+  "title": "금메달 따도 군대 가는 날이 올 수도? 국방부가 꺼낸 보충역 폐지 #shorts",
+  "description": "국방부 대변인이 6일 정례브리핑에서 예술·체육요원을 포함한 보충역의 감축·폐지를 궁극적으로 국방개혁 기본계획에 반영해 추진할 계획이라고 밝혔습니다.\n병역의무자 간 형평성·공정성, 병역자원 감소, 국민적 공감대를 종합적으로 고려한다는 설명입니다.\n아시안게임 금메달 뒤 일부 선수들의 군 면제 발언이 화제가 된 가운데, 국방부는 \"굉장히 유감스럽게 생각한다\"고 말했습니다. 구체적인 시점은 아직 나오지 않았습니다.\n\n출처: 서울신문 https://www.seoul.co.kr/news/politics/diplomacy/2026/10/06/20261006500137\n출처: 이투데이 https://www.etoday.co.kr/news/view/2632804\n※ AI 음성으로 제작했습니다.\n#병역특례 #보충역 #국방부 #아시안게임 #예술체육요원",
+  "tags": [
+   "병역특례",
+   "보충역",
+   "예술체육요원",
+   "국방부",
+   "아시안게임",
+   "군면제",
+   "이슈"
+  ]
+ },
+ "source_post": "https://bbs.ruliweb.com/best/board/300143/read/76925987",
+ "facts_used": [
+  "국방부 대변인 6일 정례브리핑: 궁극적으로 예술·체육요원 포함 보충역 감축·폐지를 국방개혁 기본계획에 반영해 추진할 계획 [서울신문·파이낸셜뉴스·이투데이·대전일보 2026.10.6]",
+  "근거: 병역의무자 간 형평성·공정성, 병역자원 감소, 국민적 공감대 종합 고려 [서울신문·SPN·이투데이]",
+  "일부 스포츠계 언행에 \"굉장히 유감스럽게 생각한다\" [싱글리스트·SPN·서울경제]",
+  "계기: 아시안게임 금메달 선수 일부 군 면제 발언 논란 [허프포스트·파이낸셜뉴스·서울경제]"
+ ],
+ "brief": "긴급(감지 15:18). 확인된 사실: facts_used. 출처: 서울신문 https://www.seoul.co.kr/news/politics/diplomacy/2026/10/06/20261006500137 / 파이낸셜뉴스 https://www.fnnews.com/news/202610061339212374 / 이투데이 https://www.etoday.co.kr/news/view/2632804 / 대전일보 https://www.daejonilbo.com/news/articleView.html?idxno=2305349 / 서울경제 https://m.sedaily.com/article/20098537. 주의: 시행 시점·대상 범위 미정이라 '추진 계획'으로만 씀, 확정 단정 금지. 예술요원 입상 대회 축소 검토는 출처 하나뿐이라 생략. 선수 실명·비하 없이 '일부 선수들 발언'으로만. 대변인 이름은 생략. 훅은 '금메달 군 면제 없어질 수도'로 결론 대신 가능성으로."
+}
