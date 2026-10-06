@@ -166,6 +166,23 @@ def main() -> int:
         record.update({"video_id": res["id"], "url": res["url"], "privacy": res["privacy"],
                        "scheduled_for": res["publish_at"]})
         print(f"  {res}")
+        # 틱톡: Buffer 로 같은 시각에 예약 게시. 실패해도 유튜브 결과는 그대로 둔다
+        import tiktok
+        why = tiktok.ready() or ("회차 시각을 넘김 - 틱톡은 올리지 않음" if late else "")
+        if why:
+            print("  틱톡 건너뜀:", why)
+            record["tiktok"] = {"skipped": why}
+        else:
+            try:
+                record["tiktok"] = tiktok.post(video, slug, yt["title"], yt["tags"], publish_at)
+                print("  틱톡:", record["tiktok"])
+            except Exception as ex:
+                print(f"::warning::틱톡 게시 실패: {ex}")
+                record["tiktok"] = {"error": str(ex)[:300]}
+            try:
+                tiktok.cleanup()
+            except Exception as ex:
+                print("  틱톡 임시 파일 정리 실패:", ex)
     record["seconds"] = round(time.time() - t0)
     if not args.dry_run:
         history.append(record)

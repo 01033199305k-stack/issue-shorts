@@ -133,6 +133,10 @@ jobs:
           YOUTUBE_REFRESH_TOKEN: ${{ secrets.YOUTUBE_REFRESH_TOKEN }}
           PIXABAY_API_KEY: ${{ secrets.PIXABAY_API_KEY }}   # 장면 배경 스톡 영상 (Pixabay 우선, 없으면 Pexels, 둘 다 없으면 건너뜀)
           PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
+          # 틱톡: 지금세계와 같은 Buffer 계정. 채널 ID 는 썰가챠 틱톡 것 (없으면 틱톡만 건너뜀)
+          BUFFER_API_KEY: ${{ secrets.BUFFER_API_KEY }}
+          BUFFER_TIKTOK_CHANNEL_ID: ${{ vars.BUFFER_TIKTOK_CHANNEL_ID }}
+          GITHUB_TOKEN: ${{ github.token }}
           PYTHONUNBUFFERED: "1"
           FILES: ${{ steps.find.outputs.files }}
           SLOT: ${{ inputs.slot || 'auto' }}
