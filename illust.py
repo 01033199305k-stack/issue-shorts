@@ -7,8 +7,10 @@ License (irasutoya.com/p/terms.html): free, no credit needed, commercial use
 up to 20 illustrations per production - fetch() refuses a 21st. Images are
 transparent PNGs, fetched at 800px and cached under cache/illust/.
 """
+import gzip
 import hashlib
 import html
+import json
 import re
 import sys
 import urllib.parse
@@ -37,8 +39,24 @@ def _get(url: str, timeout: int = 20) -> bytes:
     raise RuntimeError("unreachable")
 
 
+INDEX = REPO / "assets" / "irasutoya.json.gz"   # built by illust_index.py
+_INDEX: list | None = None
+
+
+def _index() -> list:
+    global _INDEX
+    if _INDEX is None:
+        _INDEX = json.loads(gzip.decompress(INDEX.read_bytes())) if INDEX.exists() else []
+    return _INDEX
+
+
 def search(query: str) -> list[tuple[str, str]]:
-    """(title, image url) for the first page of results, in site order."""
+    """(title, image url): every drawing whose title has the query's main word, from the
+    local index - the site's search page answers 429 to GitHub's runners. Without the
+    index, the first page of the site's own search, in site order."""
+    if (idx := _index()):
+        head = _stem(query.split()[0]) if query.split() else ""
+        return [(t, re.sub(r"/s\d+(-c)?/", "/s800/", u)) for t, u in idx if head and head in t]
     h = _get("https://www.irasutoya.com/search?q=" + urllib.parse.quote(query)).decode("utf-8", "replace")
     out = []
     for src, title in re.findall(r'bp_thumbnail_resize\("([^"]+)","([^"]*)"\)', h):
@@ -53,20 +71,36 @@ SHEET = re.compile(r"いろいろな|色々な|表情のイラスト「|ポー�
 TEXTY = re.compile(r"文のイラスト|謝罪文|文章|文字|新聞|看板|ポスター|張り紙|貼り紙|手紙|メッセージ|お知らせ|標識|カード|メモ|書き初め|習字|円|将来")
 
 
+ICHIDAN = set("えけせてねへめれげぜでべぺいきしちにひみりぎじびぴ")
+
+
 def _stem(word: str) -> str:
-    """泣く/泣いている -> 泣, 壊れた -> 壊, タクシー -> タクシー: titles conjugate verbs."""
+    """泣く/泣いている -> 泣, 壊れた -> 壊, 考える/考えている -> 考え, タクシー -> タクシー: titles conjugate verbs."""
+    if len(word) >= 3 and word.endswith("る") and word[-2] in ICHIDAN:
+        return word[:-1]   # ichidan verb: 考 alone also matches 考古学者
     m = KANJI.match(word)
     return m.group(0) if m else word
+
+
+def _has(title: str, word: str) -> bool:
+    """A verb cut to its kanji (泣く -> 泣) must go on in kana in the title:
+    泣いている yes, 書く -> 書類 / 走る -> 走者 no."""
+    stem = _stem(word)
+    if stem == word or not KANJI.fullmatch(stem):
+        return stem in title
+    return re.search(re.escape(stem) + r"(?![一-鿿々のとやでをがはも・])", title) is not None   # 司書の for 書く: no
 
 
 def _score(title: str, words: list[str]) -> float | None:
     """None = not good enough: better no picture than a wrong one (除雪車 for 車 トランク).
     One or two words must all appear in the title (verb stems), three or more need two.
-    Shorter titles are more generic ("タクシーのイラスト" beats "タクシーに乗る人のイラスト（女性）")."""
-    stems = [_stem(w) for w in words if w]
-    if not stems or stems[0] not in title:
+    Generic titles win: short ones ("タクシーのイラスト" beats "タクシーに乗る人のイラスト（女性）"),
+    the word up front ("カメラマンのイラスト（男性）" beats "水中カメラマンのイラスト")."""
+    words = [w for w in words if w]
+    if not words or not _has(title, words[0]):
         return None
-    hit = sum(1 for s in stems if s in title)
+    hit = sum(1 for w in words if _has(title, w))
+    stems = words
     if hit < (len(stems) if len(stems) <= 2 else 2):
         return None
     if SHEET.search(title):   # several faces/poses in one image - clutter in a panel slot
@@ -74,7 +108,12 @@ def _score(title: str, words: list[str]) -> float | None:
     if TEXTY.search(title):   # Japanese lettering in the drawing
         return None
     group = "たち" in title and not any(w in ("たち", "人々", "群衆", "大勢") for w in words)
-    return hit - (1.5 if group else 0) - len(title) / 200
+    main = re.sub(r"（[^）]*）|「[^」]*」", "", title)   # 泣いている女性のイラスト beats 泣き寝入りのイラスト（女性）
+    head = _stem(words[0])
+    lead = max(0, main.find(head))   # 水中カメラマン: a modifier before the word = a special case
+    owned = re.search(re.escape(head) + "の(?!イラスト)", main) is not None   # 裁判官のバッジ, お金のキャラクター
+    return (hit + 0.5 * sum(1 for w in words if _has(main, w)) - (1.5 if group else 0) - (0.3 if owned else 0)
+            - len(main) / 200 - lead / 40)
 
 
 _OCR = None
@@ -154,7 +193,7 @@ class Picker:
             words = query.split()
             try:
                 results = search(query)
-                if len(words) > 1:   # the site's search is strict - widen with the main noun alone
+                if len(words) > 1 and not _index():   # the site's search is strict - widen with the main noun alone
                     results += search(words[0])
             except Exception as ex:
                 print(f"    illust: search failed for {query!r}: {ex}")

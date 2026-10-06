@@ -14,6 +14,7 @@ for places and objects, not people.
 """
 import json
 import os
+import re
 import subprocess
 import urllib.parse
 import urllib.request
@@ -55,6 +56,10 @@ def _best_file(video: dict) -> dict | None:
 
 
 CHROMA = ("green screen", "greenscreen", "chroma", "blue screen", "alpha channel", "transparent")
+# Pixabay's AI clips pass any word test: "camera photographer studio" got an owl in a sweater
+# holding a camera (tags: ai generated, animal, anthropomorphic, ..., photographer, camera, studio).
+FAKE = re.compile(r"\b(ai[ -]?generated|generative|anthropomorphic|animation|animated|cartoon|3d|render(ing)?|cgi)\b")
+ANIMAL = re.compile(r"\b(animals?|owls?|birds?|cats?|kittens?|dogs?|puppy|monkeys?|bears?|fox(es)?|rabbits?|wildlife|pets?)\b")
 
 
 def _describe(video: dict) -> str:
@@ -65,11 +70,14 @@ def _describe(video: dict) -> str:
 
 
 def _relevant(video: dict, query: str) -> bool:
-    """The full query's main noun (its first word) must be in the clip's own description,
+    """The full query's main noun (its first word) must be in the clip's own description, AI/CG and
+    animal clips are out unless asked for,
     and keyed footage is out: a short phrase like "judo mat" used to return a yoga pavilion,
     "stopwatch timer" a stopwatch on a green screen."""
     desc = _describe(video)
     head = query.split()[0].lower()
+    if FAKE.search(desc) or (ANIMAL.search(desc) and not ANIMAL.search(query.lower())):
+        return False
     return head in desc and not any(c in desc for c in CHROMA)
 
 
