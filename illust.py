@@ -50,7 +50,7 @@ KANJI = re.compile(r"^[一-鿿々]+")
 # Sheets of several faces/poses read as clutter in a single panel slot.
 SHEET = re.compile(r"いろいろな|色々な|表情のイラスト「|ポーズのイラスト「|セット|まとめ|一覧|段階|アイコン")
 # Drawings with readable Japanese on them (謝罪文 showed up for 謝罪) - viewers see foreign text.
-TEXTY = re.compile(r"文のイラスト|謝罪文|文章|文字|新聞|看板|ポスター|張り紙|貼り紙|手紙|メッセージ|お知らせ|標識|カード|メモ|書き初め|習字")
+TEXTY = re.compile(r"文のイラスト|謝罪文|文章|文字|新聞|看板|ポスター|張り紙|貼り紙|手紙|メッセージ|お知らせ|標識|カード|メモ|書き初め|習字|円|将来")
 
 
 def _stem(word: str) -> str:
@@ -78,7 +78,7 @@ def _score(title: str, words: list[str]) -> float | None:
 
 
 _OCR = None
-FOREIGN = re.compile(r"[぀-ヿ㐀-鿿]")   # kana + CJK ideographs
+FOREIGN = re.compile(r"[぀-ヿ㐀-鿿¥￥]")   # kana + CJK ideographs + yen sign (reads as Japanese money)
 
 
 def has_foreign_text(path: Path) -> bool:
@@ -146,6 +146,8 @@ class Picker:
         key = hashlib.sha1(query.encode()).hexdigest()[:16]
         path = CACHE / f"{key}.png"
         meta = CACHE / f"{key}.url"
+        if path.exists() and not meta.exists():
+            path.unlink()   # no .url = the pick never passed the lettering check (crashed mid-way) - choose again
         if path.exists() and meta.exists() and meta.read_text(encoding="utf-8") in self.urls:
             path.unlink()   # cached pick is a drawing this video already shows - choose again
         if not path.exists():
@@ -177,8 +179,8 @@ class Picker:
                     continue
                 path.write_bytes(data)
                 if has_foreign_text(path):
+                    path.unlink()   # before the print: a console that can't show the title must not leave it cached
                     print(f"    illust: {title} has Japanese/Chinese lettering - next candidate")
-                    path.unlink()
                     continue
                 meta.write_text(url, encoding="utf-8")
                 _trim(path)

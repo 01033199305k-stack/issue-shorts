@@ -17,7 +17,7 @@ NEEDS = {"scene": ["emoji"], "number": ["value"], "quote": ["lines"], "stamp": [
 
 # v2 visual (motion.py): いらすとや scenes built up item by item
 V_TYPES = ["illust", "text", "emoji", "crowd"]
-V_STYLES = ["big", "label", "small", "red", "stamp", "bubble", "row"]
+V_STYLES = ["big", "label", "small", "red", "stamp", "bubble", "row", "post"]
 V_POS = ["center", "left", "right", "top", "bottom", "top-left", "top-right", "bottom-left", "bottom-right"]
 V_FX = ["pop", "drop", "slide-left", "slide-right", "zoom", "fade", "shake", "stamp", "run-left", "run-right"]
 V_BG = ["white", "sky", "beach", "room", "city", "paper", "night", "red"]
@@ -47,7 +47,12 @@ def _check_visual(i: int, v: dict) -> list[str]:
             p.append(f"{tag}: {typ} needs text")
         if typ == "text" and it.get("style", "label") not in V_STYLES:
             p.append(f"{tag}: style {it.get('style')!r} not in {V_STYLES}")
-        if typ == "text" and len(str(it.get("text", ""))) > 16:
+        if typ == "text" and it.get("style") == "post":
+            if i != 0:
+                p.append(f"{tag}: post card only opens the video (segment 0)")
+            if len(str(it.get("text", ""))) > 24 or str(it.get("text", "")).count("\n") > 1:
+                p.append(f"{tag}: post title max 24 chars in at most 2 lines: {it.get('text')!r}")
+        elif typ == "text" and len(str(it.get("text", ""))) > 16:
             p.append(f"{tag}: text too long for the panel (max 16): {it.get('text')!r}")
         if it.get("pos", "center") not in V_POS:
             p.append(f"{tag}: pos {it.get('pos')!r} not in {V_POS}")
@@ -121,11 +126,11 @@ def validate(script: dict) -> list[str]:
     if len(script["credit"]) > 44:
         p.append(f"credit is {len(script['credit'])} chars (max 40)")
     segs = script["segments"]
-    if not 7 <= len(segs) <= 12:
-        p.append(f"{len(segs)} segments (want 8-11: one picture per sentence)")
+    if not 6 <= len(segs) <= 12:   # hard limit; the 6-8 house target is in lint() so older scripts still render
+        p.append(f"{len(segs)} segments (want 6-8: one picture per sentence)")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
-    if not 200 <= total <= 290:
-        p.append(f"narration {total} chars (want 220-270, about 30-36 s - cut sentences that repeat or explain too much)")
+    if not 130 <= total <= 290:
+        p.append(f"narration {total} chars (want 140-190, about 18-25 s - cut sentences that repeat or explain too much)")
     queries = {json.dumps(it.get("q"), ensure_ascii=False) for s in segs for it in (s.get("visual") or {}).get("items", [])
                if it.get("type") in ("illust", "crowd") and it.get("q")}
     n_video = sum(1 for s in segs if (s.get("visual") or {}).get("video"))
@@ -227,15 +232,16 @@ def lint(script: dict) -> list[str]:
             p.append(f"illustration {q!r} appears {n} times - max 2; pick a different prop/person/pose for the other scenes")
     n_scenes = sum(1 for s in script.get("segments", []) if any(
         it.get("type") in ("illust", "crowd") for it in (s.get("visual") or {}).get("items", [])))
-    if len(uses) < min(9, n_scenes):
-        p.append(f"only {len(uses)} different illustrations - use at least 9 (the licence allows 20), a new picture for each scene")
+    if len(uses) < min(5, n_scenes):
+        p.append(f"only {len(uses)} different illustrations - use at least 5 (the licence allows 20), a new picture for each scene")
     for i, s in enumerate(script.get("segments", [])):
         v = s.get("visual") or {}
         its = v.get("items", [])
         if len(its) > 4:
             p.append(f"segment {i}: {len(its)} items - max 4 (one big picture + a word or two reads better than a busy slide)")
         is_list = sum(1 for it in its if it.get("style") == "row") >= 2   # ①②③ list / final vote board
-        if its and not is_list and not any(it.get("type") in ("illust", "crowd", "emoji") for it in its):
+        is_post = any(it.get("style") == "post" for it in its)          # opening community-post card
+        if its and not is_list and not is_post and not any(it.get("type") in ("illust", "crowd", "emoji") for it in its):
             p.append(f"segment {i}: words only - add the picture that shows the sentence (stock video often finds nothing; the renderer makes a lone picture big)")
         if sum(1 for it in its if it.get("type") in ("illust", "crowd")) > 2:
             p.append(f"segment {i}: more than 2 pictures - one big picture (or two side by side) per scene")
@@ -249,7 +255,11 @@ def lint(script: dict) -> list[str]:
         p.append(f"title uses news word {m.group(0)!r} - write a curiosity title (\"~하는 ○○\", \"○○가 ~한 이유\"), not a headline")
     if (m := POLITICS.search(titles)):
         p.append(f"title names politics ({m.group(0)!r}) - politicians/parties/elections are off-topic for this channel (ROUTINE 2)")
-    sfx = [s.get("sfx") for s in script.get("segments", [])]
+    segs = script.get("segments", [])
+    total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
+    if len(segs) > 9 or total > 200:   # 2026-10-06: 18-25 s like @dolongcha (its 2.2M-view short ran 17 s)
+        p.append(f"{len(segs)} sentences / {total} chars - write 6-8 sentences, 140-190 chars (18-25 s)")
+    sfx = [s.get("sfx") for s in segs]
     if len(sfx) > 1 and sfx[0] == "dudung" and sfx[1] == "question":
         p.append("opening sfx dudung -> question is the pattern every video used - open by the hook's mood (see ROUTINE sfx)")
     return p

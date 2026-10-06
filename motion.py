@@ -17,6 +17,7 @@ Segment visual spec (script v2):
         {"type": "emoji", "text": "💥", "pos": "right", "size": "m", "at": 0.6, "fx": "shake"}]}
 Old v1 "card" specs are converted by card_to_visual().
 """
+import datetime as dt
 import html as _html
 import json
 import os
@@ -225,6 +226,15 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
   font-size:72px; box-shadow:0 8px 0 rgba(0,0,0,.15); }
 .tx.row { color:#111; background:#fff; border:6px solid #111; border-radius:20px; padding:16px 32px 8px;
   font-size:64px; text-align:left; }
+/* opening 'community post' card (@dolongcha style): board line, post title, writer line */
+.tx.post { color:#111; background:#fff; text-align:left; white-space:normal; padding:0 40px;
+  font-family:'Noto Sans CJK KR','Malgun Gothic',sans-serif; font-weight:500; flex-direction:column;
+  align-items:flex-start !important; justify-content:center; }
+.post .board { color:#19b35b; font-size:40px; font-weight:700; margin-bottom:38px; }
+.post .ttl { line-height:1.3; letter-spacing:-1px; white-space:pre-line; }
+.post .meta { display:flex; align-items:center; gap:18px; margin-top:44px; color:#999; font-size:34px; }
+.post .meta b { color:#333; font-weight:700; }
+.post .ava { width:70px; height:70px; border-radius:50%; background:#e6e6e6; }
 #credit { display:none; position:absolute; top:14px; left:20px; right:20px; font-family:'Malgun Gothic','Noto Sans CJK KR',sans-serif;
   font-weight:700; font-size:24px; color:rgba(0,0,0,.42); white-space:nowrap; overflow:hidden; z-index:5; }
 #credit.dark { color:rgba(255,255,255,.55); }
@@ -421,6 +431,10 @@ def _hero(items: list, has_clip: bool, picker=None) -> list:
     if picker:
         items = [it for it in items if it.get("type") not in ("illust", "crowd") or picker.fetch(it.get("q", ""))]
     items = [dict(it) for it in items[:4]]
+    post = next((it for it in items if it.get("style") == "post"), None)
+    if post:   # the post card is the whole scene: centred, nothing else competes with it
+        post["pos"], post["dx"], post["dy"] = "center", 0, 0
+        return [post] + [it for it in items if it.get("type") == "emoji"][:1]
     extra = [it for it in items if it.get("type") in ("illust", "crowd")][2:]
     items = [it for it in items if not any(it is x for x in extra)]   # 3 pictures = thumbnails; keep two
     pics = [it for it in items if it.get("type") in ("illust", "crowd")]
@@ -498,6 +512,17 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                 d.update(w=side, h=side)
                 parts.append(f'<div class="it emo" style="width:{side}px;height:{side}px;font-size:{int(side * .82)}px;'
                              f'z-index:{Z["emoji"]}">{esc(it.get("text", ""))}</div>')
+            elif it.get("style") == "post":
+                text = str(it.get("text", ""))
+                longest = max((len(x) for x in text.split("\n")), default=1)
+                fs = min(92, int(860 / (0.95 * max(1, longest))))
+                lines = max(1, text.count("\n") + 1)
+                w, h = 1000, int(fs * 1.3 * lines + 280)
+                d.update(w=w, h=h, type="text")
+                today = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).strftime("%Y.%m.%d")
+                parts.append(f'<div class="it tx post" style="width:{w}px;height:{h}px;z-index:{Z["text"]};display:flex">'
+                             f'<div class="board">🔥 썰가챠 썰 게시판 ›</div><div class="ttl" style="font-size:{fs}px">{esc(text)}</div>'
+                             f'<div class="meta"><div class="ava"></div><b>익명</b><span>{today}</span></div></div>')
             else:
                 style = it.get("style", "label")
                 text = str(it.get("text", ""))
