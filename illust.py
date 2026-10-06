@@ -71,6 +71,7 @@ SHEET = re.compile(r"いろいろな|色々な|表情のイラスト「|ポー�
 TEXTY = re.compile(r"文のイラスト|謝罪文|文章|文字|新聞|看板|ポスター|張り紙|貼り紙|手紙|メッセージ|お知らせ|標識|カード|メモ|書き初め|習字|円|将来")
 
 
+PARTICLES = "のとやでをがはも・"
 ICHIDAN = set("えけせてねへめれげぜでべぺいきしちにひみりぎじびぴ")
 
 
@@ -88,7 +89,9 @@ def _has(title: str, word: str) -> bool:
     stem = _stem(word)
     if stem == word or not KANJI.fullmatch(stem):
         return stem in title
-    return re.search(re.escape(stem) + r"(?![一-鿿々のとやでをがはも・])", title) is not None   # 司書の for 書く: no
+    if word[len(stem)] in PARTICLES:   # 手をつなぐ: the phrase itself goes on with a particle
+        return stem + word[len(stem)] in title
+    return re.search(re.escape(stem) + "(?![一-鿿々" + PARTICLES + "])", title) is not None   # 司書の for 書く: no
 
 
 def _score(title: str, words: list[str]) -> float | None:
