@@ -467,7 +467,15 @@ def _hero(items: list, has_clip: bool, picker=None) -> list:
     if post:   # the post card is the whole scene: centred, nothing else competes with it
         post["pos"], post["dx"], post["dy"] = "center", 0, 0
         return [post] + [it for it in items if it.get("type") == "emoji"][:1]
-    extra = [it for it in items if it.get("type") in ("illust", "crowd")][2:]
+    if has_clip:   # the footage is the scene's picture: one small sticker in a corner, never an xl picture over it
+        pics = [it for it in items if it.get("type") in ("illust", "crowd")]
+        for it in pics[:1]:
+            it["size"], it["pos"], it["dx"], it["dy"] = "s", "top-left", 0, 0
+        for it in items:   # top-right is the '자료화면' tag's corner
+            if it.get("type") == "emoji" and it.get("pos") == "top-right":
+                it["pos"] = "right"
+        return [it for it in items if not any(it is x for x in pics)] + pics[:1]
+    extra =[it for it in items if it.get("type") in ("illust", "crowd")][2:]
     items = [it for it in items if not any(it is x for x in extra)]   # 3 pictures = thumbnails; keep two
     pics = [it for it in items if it.get("type") in ("illust", "crowd")]
     others = [it for it in items if it not in pics]

@@ -29,8 +29,10 @@ def _check_visual(i: int, v: dict) -> list[str]:
     if v.get("bg", "white") not in V_BG:
         p.append(f"segment {i}: bg {v.get('bg')!r} not in {V_BG}")
     vq = v.get("video")
-    if vq is not None and not (isinstance(vq, str) and re.fullmatch(r"[A-Za-z0-9 ,'-]{2,40}", vq)):
-        p.append(f"segment {i}: video must be 2-40 chars of English search words for Pexels, got {vq!r}")
+    vqs = [vq] if isinstance(vq, str) else vq
+    if vq is not None and not (isinstance(vqs, list) and 1 <= len(vqs) <= 3 and all(
+            isinstance(q, str) and re.fullmatch(r"[A-Za-z0-9 ,'-]{2,40}", q) for q in vqs)):
+        p.append(f"segment {i}: video must be 2-40 chars of English search words (or a list of 1-3 such candidates), got {vq!r}")
     items = v.get("items") or []
     if not 1 <= len(items) <= 6:
         p.append(f"segment {i}: visual needs 1-6 items (has {len(items)})")
@@ -246,10 +248,15 @@ def lint(script: dict) -> list[str]:
         if sum(1 for it in its if it.get("type") in ("illust", "crowd")) > 2:
             p.append(f"segment {i}: more than 2 pictures - one big picture (or two side by side) per scene")
     vids = [bool((s.get("visual") or {}).get("video")) for s in script.get("segments", [])]
-    if sum(vids) > 2:
-        p.append(f"{sum(vids)} scenes with stock video (max 2 - the illustrations are the channel's look)")
+    if sum(vids) < 2:   # 2026-10-06~07: six videos in a row went out with no footage at all
+        p.append(f"only {sum(vids)} scenes with stock video - give 2-3 sentences a real clip of the place/thing they name "
+                 "(ROUTINE video: a list of 2-3 English candidates per scene)")
+    if sum(vids) > 3:
+        p.append(f"{sum(vids)} scenes with stock video (max 3 - the illustrations are still the channel's look)")
+    if vids and vids[0] and any(it.get("style") == "post" for it in (script["segments"][0].get("visual") or {}).get("items", [])):
+        p.append("segment 0: the opening post card takes no stock video")
     if any(a and b for a, b in zip(vids, vids[1:])):
-        p.append("two stock-video scenes in a row - stock footage is a rare accent, never back to back")
+        p.append("two stock-video scenes in a row - put a picture scene between the clips")
     titles = " ".join(script.get("title_lines", [])) + " " + (script.get("youtube") or {}).get("title", "")
     if (m := NEWSY.search(titles)):
         p.append(f"title uses news word {m.group(0)!r} - write a curiosity title (\"~하는 ○○\", \"○○가 ~한 이유\"), not a headline")

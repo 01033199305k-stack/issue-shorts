@@ -67,9 +67,13 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     used_clips: set = set()
     clips = []
     for i, (vis, (st, en)) in enumerate(zip(visuals, times)):
-        q = (vis or {}).get("video", "")
-        clips.append(stock.clip_frames(q, en - st + motion.LEAD + 0.2, work_dir / f"clip_{i:02d}",
-                                       motion.FPS, used_clips) if q else None)
+        qs = (vis or {}).get("video") or []
+        clip = None
+        for k, q in enumerate([qs] if isinstance(qs, str) else qs):   # candidates in order, like illust q lists
+            if (clip := stock.clip_frames(q, en - st + motion.LEAD + 0.2, work_dir / f"clip_{i:02d}_{k}",
+                                          motion.FPS, used_clips)):
+                break
+        clips.append(clip)
     print(f"  stock clips: {sum(1 for c in clips if c)}/{sum(1 for v in visuals if (v or {}).get('video'))}")
     html, cuts = motion.build(segments, visuals, times, cues, script["title_lines"], script.get("credit", ""),
                               picker, repo / "assets" / "fonts" / "BlackHanSans-Regular.ttf", clips)
