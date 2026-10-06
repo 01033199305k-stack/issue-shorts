@@ -1,0 +1,401 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "chicken-weight-pre-fry-label",
+ "title_lines": [
+  "치킨 300g 증발?",
+  "저울에 올린 치킨"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "1kg 안팎이라던 치킨, 저울에 올리니 695g 나옴.",
+   "say": "일 킬로 안팎이라던 치킨, 저울에 올리니 육백구십오 그램 나옴.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "フライドチキン",
+       "からあげ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "695g",
+      "style": "big",
+      "pos": "top",
+      "at": 0.5,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 이게 반칙도 아니라는 게 더 황당함.",
+   "say": "근데 이게 반칙도 아니라는 게 더 황당함.",
+   "sfx": "whoosh",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     },
+     {
+      "type": "text",
+      "text": "반칙 아님?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "소비자단체가 치킨 브랜드 5곳을 시켜서 무게를 잼.",
+   "say": "소비자단체가 치킨 브랜드 다섯 곳을 시켜서 무게를 잼.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "はかり 料理",
+       "はかり"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "브랜드 5곳",
+      "style": "label",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 교촌 후라이드는 표시보다 30% 넘게 가벼웠음.",
+   "say": "헐, 교촌 후라이드는 표시보다 삼십 퍼센트 넘게 가벼웠음.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "鶏 丸焼き",
+       "ローストチキン",
+       "チキン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "-30.5%",
+      "style": "big",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "📉",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "굽네 고추바사삭 순살도 20% 넘게 모자랐음.",
+   "say": "굽네 고추바사삭 순살도 이십 퍼센트 넘게 모자랐음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "唐辛子",
+       "赤唐辛子"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "-20.1%",
+      "style": "red",
+      "pos": "top",
+      "at": 0.5,
+      "fx": "shake"
+     },
+     {
+      "type": "emoji",
+      "text": "🌶️",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 그 이유가 공개됨.",
+   "say": "자, 그 이유가 공개됨.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "双眼鏡",
+       "虫眼鏡"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top",
+      "size": "m",
+      "at": 0.2,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "앱에 적힌 무게는 튀기기 전 생닭 기준이었음.",
+   "say": "앱에 적힌 무게는 튀기기 전 생닭 기준이었음.",
+   "sfx": "stamp",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "鶏肉 生",
+       "鶏肉"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "튀기기 전 무게",
+      "style": "stamp",
+      "pos": "bottom-right",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "튀기면서 수분이 빠지니까 받는 건 더 가벼워짐.",
+   "say": "튀기면서 수분이 빠지니까 받는 건 더 가벼워짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "room",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "揚げ物 鍋",
+       "天ぷら 揚げる",
+       "揚げ物"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "수분 증발",
+      "style": "label",
+      "pos": "top",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니 근데 비비큐 양념순살은 오히려 17% 넘게 무거웠음.",
+   "say": "아니 근데 비비큐 양념순살은 오히려 십칠 퍼센트 넘게 무거웠음.",
+   "sfx": "absurd",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "体重計 男性",
+       "体重計"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "+17.6%",
+      "style": "big",
+      "pos": "top",
+      "at": 0.4,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들 시킨 치킨 저울에 올려 본 적 있음?",
+   "say": "님들 시킨 치킨 저울에 올려 본 적 있음?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "配達 バイク",
+       "出前"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "님들 경험은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.1,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "フライドチキン",
+       "からあげ"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "저울에 올리면 300g이 사라지는 치킨의 정체 #shorts",
+  "description": "배달 앱에 1kg 안팎이라던 치킨 한 마리, 실제로 달아 보니 평균 695g이었습니다.\n한국소비자단체협의회가 치킨 브랜드 5곳의 표시 중량과 실제 무게를 비교했는데, 표시 중량은 튀기기 전 생닭 기준이었습니다.\n반대로 표시보다 더 무거운 제품도 있었습니다.\n\n※ AI 음성으로 제작했습니다.\n#치킨 #배달 #중량표시 #소비자 #shorts",
+  "tags": [
+   "치킨",
+   "배달치킨",
+   "치킨 중량",
+   "중량표시제",
+   "소비자단체협의회",
+   "교촌",
+   "굽네",
+   "BBQ",
+   "shorts"
+  ]
+ },
+ "source_post": "https://bbs.ruliweb.com/best/board/300143/read/76927859",
+ "facts_used": [
+  "한국소비자단체협의회 물가감시센터, 8월 BBQ·BHC·교촌·처갓집·굽네 5개 브랜드 표시 중량과 실제 중량 비교, 10월 6일 발표 (경기일보 2026-10-06, 아시아타임즈 2026-10-06, 강원도민일보, 월요신문)",
+  "교촌 후라이드 한마리: 표시 951~1050g, 평균 실중량 695.3g, 중앙값 대비 30.5% 적음 (경기일보, THE NEWS, 비즈중앙)",
+  "굽네 고추바사삭 순살: 표시 700g보다 141.3g(20.1%) 적음 (경기일보, 아시아타임즈 검색 요약)",
+  "BBQ 황금올리브치킨 양념순살 17.6% 더 무거움 (경기일보, 월요신문)",
+  "현행 중량표시제는 조리 전 중량 기준, 조리 중 수분 빠져 실제 무게 줄 수 있음 (강원도민일보, 이투데이)"
+ ],
+ "brief": "점수표: 치킨 실중량 30% 차이(된다고?3+공감5+대상5=13) / 판자촌 동전 3만원 배달기사(3+4+4=11, 원본 커뮤니티 글·피자/치킨 엇갈림) / 25톤 트럭 식당 돌진(사고, 2+2+3=7) / 야쿠르트 아줌마 비밀병기(보도 확인 불가) / 예체능 병역특례 폐지(제도·정치색, 제외). 확인된 사실: 한국소비자단체협의회 물가감시센터 8월 조사, 10월 6일 발표. 교촌 후라이드 한마리 표시 951~1050g → 평균 695.3g(중앙값 대비 30.5%↓, 304.8g 차이). 굽네 고추바사삭 순살 700g 표시 대비 141.3g(20.1%)↓. BHC 뿌링클순살 11.9%↓, 교촌 허니순살 7.7%↓. BBQ 황금올리브 양념순살 17.6%↑, 처갓집 슈프림양념 순살 17.2%↑. 표시 중량은 조리 전 기준. 교촌 측: 23조각으로 자르고 얇은 반죽, 수분 증발로 무게가 줄며 업체마다 조리 방식이 다름. 출처: 경기일보 https://www.kyeonggi.com/article/20261006580071 · 아시아타임즈 https://www.asiatime.co.kr/article/20261006500317 · 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2076606 · 월요신문 https://www.wolyo.co.kr/news/articleView.html?idxno=318697 · 이투데이 https://www.etoday.co.kr/news/view/2632762. 주의: 업체가 덜 담았다고 단정하지 않음(표시 기준이 조리 전). 교촌 표시는 범위라 '1kg 안팎'으로 씀. 훅 3안: ①1kg 안팎이라던 치킨, 저울에 올리니 695g ②치킨 한 마리에서 300g이 사라져 있었음 ③배달 치킨 30%가 증발 → 구체적 숫자 대비가 바로 그려지는 ① 선택. 제목 1줄 3안: '치킨 300g 증발?'/'1kg 치킨이 695g'(길이 초과)/'치킨 30% 어디감?' → 11자 안의 '300g 증발' 선택."
+}
