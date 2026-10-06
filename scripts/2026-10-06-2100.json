@@ -1,0 +1,411 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "delivery-rider-coin-bag-note",
+ "title_lines": [
+  "열 번 넘게 셌어요",
+  "동전 받은 배달기사"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "배달 갔더니 음식값이 100원짜리 동전 한 봉지였음.",
+   "say": "배달 갔더니 음식값이 백 원짜리 동전 한 봉지였음.",
+   "sfx": "exclaim",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "硬貨 たくさん",
+       "小銭",
+       "硬貨"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "100원 × 한 봉지",
+      "style": "big",
+      "pos": "top",
+      "at": 0.3,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 진짜 반전은 봉지 옆 메모임.",
+   "say": "근데 진짜 반전은 봉지 옆 메모임.",
+   "sfx": "whoosh",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "메모에 뭐라고?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "서울 관악구 판자촌 쪽으로 배달 간 라이더 이야기임.",
+   "say": "서울 관악구 판자촌 쪽으로 배달 간 라이더 이야기임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "city",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バイク 配達",
+       "配達員 バイク",
+       "配達員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "run-right"
+     },
+     {
+      "type": "text",
+      "text": "서울 관악구",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "주문자가 현금은 문 앞에 뒀다고 함.",
+   "say": "주문자가 현금은 문 앞에 뒀다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "玄関 ドア",
+       "ドア"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "현금은 문 앞에",
+      "style": "small",
+      "pos": "bottom",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "지퍼백에 천 원짜리 몇 장이랑 동전이 꽉 차 있었음.",
+   "say": "지퍼백에 천 원짜리 몇 장이랑 동전이 꽉 차 있었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "text": "천 원 몇 장 + 동전",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "crowd",
+      "q": "硬貨",
+      "count": 12,
+      "pos": "center",
+      "dy": 120,
+      "at": 0.45
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 거기 적힌 메모가 이거였음.",
+   "say": "와, 거기 적힌 메모가 이거였음.",
+   "sfx": "whoosh",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "メモ 書く",
+       "メモ"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "3만원 맞아요, 열 번 넘게 셌어요.",
+   "say": "삼만 원 맞아요, 열 번 넘게 셌어요.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お金 数える",
+       "数える 女性",
+       "お金"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "3만원 맞아요",
+      "style": "bubble",
+      "pos": "top-left",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "열 번 넘게 셌어요",
+      "style": "bubble",
+      "pos": "top-right",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 라이더의 선택이 공개됨.",
+   "say": "자, 라이더의 선택이 공개됨.",
+   "sfx": "question",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "悩む 男性",
+       "考える 会社員"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "세상에, 돈이랑 음식 둘 다 문 앞에 그대로 두고 옴.",
+   "say": "세상에, 돈이랑 음식 둘 다 문 앞에 그대로 두고 옴.",
+   "sfx": "punch",
+   "tone": "가슴이 찡한 듯 목소리를 살짝 떨며, 말끝은 분명하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "置き配",
+       "玄関 荷物",
+       "宅配便"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "그대로 두고 옴",
+      "style": "stamp",
+      "pos": "bottom-right",
+      "at": 0.6,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "돼지저금통 깼으면 통장 직행해야지, 선물이라 생각했다고 함.",
+   "say": "돼지저금통 깼으면 통장 직행해야지, 선물이라 생각했다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "豚の貯金箱",
+       "貯金箱"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "通帳",
+       "預金通帳"
+      ],
+      "pos": "right",
+      "size": "m",
+      "at": 0.45,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💗",
+      "pos": "top",
+      "size": "s",
+      "at": 0.7,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들이 라이더였으면 그 돈 받았음?",
+   "say": "님들이 라이더였으면 그 돈 받았음?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "配達員 バイク",
+       "バイク 配達",
+       "配達員"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 받는다",
+      "style": "row",
+      "pos": "right",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "② 두고 온다",
+      "style": "row",
+      "pos": "bottom-right",
+      "at": 0.55,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "100원짜리 동전 3만원을 받은 배달기사가 한 선택 #shorts",
+  "description": "서울 관악구 판자촌 쪽으로 배달 간 라이더가 문 앞에서 동전이 가득 든 지퍼백을 발견함.\n옆에 놓인 메모에는 '3만원 맞아요. 열 번 넘게 셌어요'.\n라이더는 돈과 음식을 그대로 두고 왔다고 함.\n\n※ AI 음성으로 제작했습니다.\n#배달기사 #라이더 #훈훈한사연 #동전 #썰 #shorts",
+  "tags": [
+   "배달기사",
+   "라이더",
+   "훈훈한 사연",
+   "동전 3만원",
+   "열 번 넘게 셌어요",
+   "배달 썰",
+   "감동 사연",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.etnews.com/20261005000119",
+ "facts_used": [
+  "서울 관악구 판자촌 인근 배달 사연, 배달기사가 온라인 커뮤니티에 올림 — 머니투데이 2026-10-03 https://www.mt.co.kr/society/2026/10/03/2026100316560647906 , 서울신문 2026-10-03 https://www.seoul.co.kr/news/society/2026/10/03/20261003500009",
+  "주문자가 현금을 문 앞에 두겠다고 요청, 작은 지퍼백에 1000원 지폐 몇 장과 100원 동전 가득 — 헤럴드경제 https://biz.heraldcorp.com/article/10893047 , 매일신문 https://www.imaeil.com/page/view/2026100413292096458",
+  "메모 '3만원 맞아요. 열 번 넘게 셌어요' — 한국경제 https://www.hankyung.com/article/2026100318567 , 전자신문 https://www.etnews.com/20261005000119",
+  "돈과 음식을 그대로 두고 옴, '돼지저금통 깼으면 통장 직행해야지', '선물이라 생각하고' — 파이낸셜뉴스 https://fnnews.com/news/202610041101314934 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008782898"
+ ],
+ "brief": "점수표: 동전3만원 배달(신기3+공감5+대상5=13) / 편의점 즉석밥 가격표 400원 차이(3+4+5=12, 9월 중순이라 오래됨) / 상어 부캉이 야간 랜턴(3+2+4=9, 상어 소재 반복) / 스몰 엔딩 장례(2+3+3=8) / 임산부석 할머니(세대 갈등 소지로 제외) / 국방부 보충역·암살자(들)·조희대(정치·중복으로 0점). 훅 3안: ①'배달 갔더니 음식값이 100원짜리 동전 한 봉지였음'(선택: 장면이 바로 그려짐) ②'3만원을 동전으로 받은 라이더가 돈을 안 가져옴'(결말 노출) ③'문 앞 지퍼백에 동전이 꽉 차 있었음'(약함). 제목 1줄은 메모 문구 그대로가 가장 궁금증이 셈. 확인된 사실(머니투데이·서울신문·헤럴드경제·파이낸셜뉴스·한국경제·SBS 2026-10-03~05, 전자신문 10-05): 배달기사 A씨가 온라인 커뮤니티에 올린 사연. 서울 관악구 판자촌 인근 배달. 주문자가 '현금은 문 앞에 뒀으니 음식도 문 앞에 놓아달라' 요청. 작은 지퍼백에 1000원짜리 지폐 몇 장과 100원짜리 동전이 가득. 메모 '3만원 맞아요. 열 번 넘게 셌어요'. A씨는 '돈이랑 음식 그냥 그대로 두고 왔다. 돼지저금통 깼으면 통장 직행해야지', '선물이라 생각하고 다 놔두고 왔다'. 댓글 800개 이상. 주의: 메뉴가 매체마다 피자/치킨으로 엇갈려 '음식'으로만 씀. 주문자 신상·가난을 희화화하지 않음, 웃음 tone·absurd 효과음 안 씀. 배달 플랫폼명 미확인이라 안 씀."
+}
