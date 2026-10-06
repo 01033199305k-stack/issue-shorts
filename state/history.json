@@ -1162,5 +1162,43 @@
   "privacy": "private",
   "scheduled_for": "2026-10-06T09:00:00Z",
   "seconds": 975
+ },
+ {
+  "key": "2026-10-06-u1519",
+  "slot": "u1519",
+  "publish_at": "2026-10-06T15:42:48.988525+09:00",
+  "started": "2026-10-06T15:22:36.900041+09:00",
+  "stock_clips": [],
+  "duration": 35.95,
+  "matches": [
+   1.0,
+   0.97,
+   0.97,
+   0.98,
+   0.97,
+   1.0,
+   1.0,
+   0.97,
+   0.95,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 3,
+  "cuts": 10,
+  "title": "금메달 따도 군대 가는 날이 올 수도? 국방부가 꺼낸 보충역 폐지 #shorts",
+  "source_post": "https://bbs.ruliweb.com/best/board/300143/read/76925987",
+  "facts_used": [
+   "국방부 대변인 6일 정례브리핑: 궁극적으로 예술·체육요원 포함 보충역 감축·폐지를 국방개혁 기본계획에 반영해 추진할 계획 [서울신문·파이낸셜뉴스·이투데이·대전일보 2026.10.6]",
+   "근거: 병역의무자 간 형평성·공정성, 병역자원 감소, 국민적 공감대 종합 고려 [서울신문·SPN·이투데이]",
+   "일부 스포츠계 언행에 \"굉장히 유감스럽게 생각한다\" [싱글리스트·SPN·서울경제]",
+   "계기: 아시안게임 금메달 선수 일부 군 면제 발언 논란 [허프포스트·파이낸셜뉴스·서울경제]"
+  ],
+  "slug": "2026-10-06_u1519_defense-ministry-supplementary-service-cut",
+  "late": false,
+  "video_id": "FgT7E1kOVis",
+  "url": "https://youtube.com/shorts/FgT7E1kOVis",
+  "privacy": "private",
+  "scheduled_for": "2026-10-06T06:42:48Z",
+  "seconds": 1034
  }
 ]
