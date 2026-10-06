@@ -1239,5 +1239,47 @@
   "privacy": "private",
   "scheduled_for": "2026-10-06T12:00:00Z",
   "seconds": 970
+ },
+ {
+  "key": "2026-10-07-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-07T07:00:00+09:00",
+  "started": "2026-10-07T04:21:03.449064+09:00",
+  "stock_clips": [],
+  "duration": 22.52,
+  "matches": [
+   0.98,
+   1.0,
+   1.0,
+   0.94,
+   1.0,
+   0.89,
+   0.98
+  ],
+  "sfx": 6,
+  "illustrations": 5,
+  "cuts": 7,
+  "title": "1시간에 160만원 내고 찍는 중국 남친 사진관의 정체 #shorts",
+  "source_post": "https://www.seoul.co.kr/news/international/topic-global/2026/10/01/20261001500272",
+  "facts_used": [
+   "중국 젊은 여성들 사이에서 남성 모델과 커플 콘셉트 사진 유료 서비스 확산, 손잡기·포옹·입맞춤 연출 — 서울신문 2026-10-01 https://www.seoul.co.kr/news/international/topic-global/2026/10/01/20261001500272 , 파이낸셜뉴스 2026-10-03 https://www.fnnews.com/news/202610030001412800",
+   "1시간 최대 8000위안(약 160만원) — 서울신문 2026-10-01, 파이낸셜뉴스 2026-10-03",
+   "하루 종일 촬영 패키지 2만8000위안(약 567~568만원), 사진 최대 120장 — 아시아경제 2026-10-02 https://view.asiae.co.kr/article/2026100210455819647 , SCMP https://www.scmp.com/news/people-culture/trending-china/article/3369378/chinese-women-spend-top-dollar-male-model-shoots-turning-staged-romance-viral-trend",
+   "창업자 설명: 멋진 사진, 잘생긴 남성과 연애하는 기분, 가족의 결혼 압박을 덜기 위해 찾음 — 서울신문, 아시아경제, SCMP"
+  ],
+  "slug": "2026-10-07_0700_china-paid-boyfriend-photo-studio",
+  "late": false,
+  "video_id": "hv9j-CjHDnw",
+  "url": "https://youtube.com/shorts/hv9j-CjHDnw",
+  "privacy": "private",
+  "scheduled_for": "2026-10-06T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ac54ba1e0e7ba24e079be32",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-06T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-07_0700_china-paid-boyfriend-photo-studio/video.mp4"
+  },
+  "seconds": 387
  }
 ]
