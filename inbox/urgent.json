@@ -1,17 +1,27 @@
 {
- "detected_at": "2026-10-05T18:36+09:00",
+ "detected_at": "2026-10-06T09:17+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 李대통령 “부동산투기공화국 탈출은 국가과제…약속 반드시 지킬 것”",
-   "url": "https://n.news.naver.com/article/022/0004164162",
-   "press": "세계일보",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "김어준 “어디서 감히 노무현을”…한동훈 “팩트 없는 거만한 가스라이팅”",
+   "url": "https://n.news.naver.com/article/009/0005744199",
+   "press": "매일경제",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스",
-     "title": "李대통령 \"부동산 투기 공화국 탈출 약속, 반드시 지키겠다\"",
-     "url": "https://n.news.naver.com/article/001/0016357970"
+     "press": "파이낸셜뉴스",
+     "title": "\"감히 노무현을 들먹여\" vs \"거만한 X꼰대\"...김어준·한동훈, '3억 시계 의혹' 정면충돌",
+     "url": "https://n.news.naver.com/article/014/0005585191"
+    },
+    {
+     "press": "머니투데이",
+     "title": "김어준 \"감히 노무현 들먹여?\"…한동훈 \"X꼰대 소리 집어치워라\"",
+     "url": "https://n.news.naver.com/article/008/0005422191"
+    },
+    {
+     "press": "국민일보",
+     "title": "김어준 “어디서 함부로 노무현을”…한동훈 “꼰대 가스라이팅”",
+     "url": "https://n.news.naver.com/article/005/0001876857"
     }
    ]
   }
