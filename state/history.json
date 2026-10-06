@@ -1200,5 +1200,44 @@
   "privacy": "private",
   "scheduled_for": "2026-10-06T06:42:48Z",
   "seconds": 1034
+ },
+ {
+  "key": "2026-10-06-2100",
+  "slot": "2100",
+  "publish_at": "2026-10-06T21:00:00+09:00",
+  "started": "2026-10-06T16:23:57.045734+09:00",
+  "stock_clips": [],
+  "duration": 33.13,
+  "matches": [
+   1.0,
+   0.98,
+   0.87,
+   1.0,
+   0.9,
+   1.0,
+   0.79,
+   1.0,
+   0.97,
+   0.97,
+   1.0
+  ],
+  "sfx": 10,
+  "illustrations": 3,
+  "cuts": 11,
+  "title": "100원짜리 동전 3만원을 받은 배달기사가 한 선택 #shorts",
+  "source_post": "https://www.etnews.com/20261005000119",
+  "facts_used": [
+   "서울 관악구 판자촌 인근 배달 사연, 배달기사가 온라인 커뮤니티에 올림 — 머니투데이 2026-10-03 https://www.mt.co.kr/society/2026/10/03/2026100316560647906 , 서울신문 2026-10-03 https://www.seoul.co.kr/news/society/2026/10/03/20261003500009",
+   "주문자가 현금을 문 앞에 두겠다고 요청, 작은 지퍼백에 1000원 지폐 몇 장과 100원 동전 가득 — 헤럴드경제 https://biz.heraldcorp.com/article/10893047 , 매일신문 https://www.imaeil.com/page/view/2026100413292096458",
+   "메모 '3만원 맞아요. 열 번 넘게 셌어요' — 한국경제 https://www.hankyung.com/article/2026100318567 , 전자신문 https://www.etnews.com/20261005000119",
+   "돈과 음식을 그대로 두고 옴, '돼지저금통 깼으면 통장 직행해야지', '선물이라 생각하고' — 파이낸셜뉴스 https://fnnews.com/news/202610041101314934 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008782898"
+  ],
+  "slug": "2026-10-06_2100_delivery-rider-coin-bag-note",
+  "late": false,
+  "video_id": "puNalJZQHf4",
+  "url": "https://youtube.com/shorts/puNalJZQHf4",
+  "privacy": "private",
+  "scheduled_for": "2026-10-06T12:00:00Z",
+  "seconds": 970
  }
 ]
