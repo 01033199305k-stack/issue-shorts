@@ -48,6 +48,7 @@ BG = {
     "red": "radial-gradient(circle at 50% 45%,#ff6b6b 0%,#c81e1e 100%)",
 }
 SHAKE_SFX = {"punch", "stamp", "exclaim"}
+CAPTION_LIKE = {"label", "small", "bubble", "red", "big", "stamp"}   # dropped: they repeat the caption
 
 
 def esc(s) -> str:
@@ -456,6 +457,12 @@ def _hero(items: list, has_clip: bool, picker=None) -> list:
     if picker:
         items = [it for it in items if it.get("type") not in ("illust", "crowd") or picker.fetch(it.get("q", ""))]
     items = [dict(it) for it in items[:4]]
+    # one line of words on screen, like the reference: the caption already says the sentence, so a
+    # panel label/bubble/number/stamp line reads as a second subtitle. Kept: the post card and the
+    # vote board (rows + its heading).
+    has_rows = sum(1 for it in items if it.get("style") == "row") >= 2
+    items = [it for it in items if not (it.get("type", "text") == "text" and it.get("style", "label") in CAPTION_LIKE
+                                        and not (has_rows and it.get("style", "label") == "label"))]
     post = next((it for it in items if it.get("style") == "post"), None)
     if post:   # the post card is the whole scene: centred, nothing else competes with it
         post["pos"], post["dx"], post["dy"] = "center", 0, 0

@@ -256,6 +256,14 @@ def lint(script: dict) -> list[str]:
     if (m := POLITICS.search(titles)):
         p.append(f"title names politics ({m.group(0)!r}) - politicians/parties/elections are off-topic for this channel (ROUTINE 2)")
     segs = script.get("segments", [])
+    for i, s in enumerate(segs):
+        its = (s.get("visual") or {}).get("items", [])
+        rows = sum(1 for it in its if it.get("style") == "row") >= 2
+        for it in its:
+            st = it.get("style", "label")
+            if it.get("type") == "text" and st in ("label", "small", "bubble", "red", "big", "stamp") and not (rows and st == "label"):
+                p.append(f"segment {i}: text style {st!r} repeats the caption (two subtitles on screen) - "
+                         "use a picture/emoji; panel words only as the post card or the vote board")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
     if len(segs) > 9 or total > 200:   # 2026-10-06: 18-25 s like @dolongcha (its 2.2M-view short ran 17 s)
         p.append(f"{len(segs)} sentences / {total} chars - write 6-8 sentences, 140-190 chars (18-25 s)")
