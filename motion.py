@@ -219,7 +219,8 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
   box-shadow:0 10px 0 rgba(0,0,0,.18); }
 .tx.label { color:#111; font-size:84px; -webkit-text-stroke:0; text-shadow:
   -5px -5px 0 #fff, 5px -5px 0 #fff, -5px 5px 0 #fff, 5px 5px 0 #fff, 0 6px 0 #fff, 0 -6px 0 #fff, 6px 0 0 #fff, -6px 0 0 #fff; }
-.tx.small { color:#333; font-size:52px; }
+.tx.small { color:#222; font-size:52px; text-shadow:   /* white rim: small words often land on a picture */
+  -4px -4px 0 #fff, 4px -4px 0 #fff, -4px 4px 0 #fff, 4px 4px 0 #fff, 0 5px 0 #fff, 0 -5px 0 #fff, 5px 0 0 #fff, -5px 0 0 #fff; }
 .tx.red { color:#e01e1e; font-size:120px; text-shadow:0 6px 0 rgba(0,0,0,.15); }
 .tx.stamp { color:#e01e1e; border:14px solid #e01e1e; border-radius:24px; padding:8px 40px 0; font-size:150px; }
 .tx.bubble { color:#111; background:#fff; border:7px solid #111; border-radius:46px; padding:20px 40px 12px;
@@ -386,6 +387,30 @@ def _item_floor(cues, st, en) -> float:
     return box_top - ZOOM_ROOM
 
 
+def _unstack(data, floor) -> None:
+    """Two word boxes must not cover each other (bubble ping-pong: top-left + top-right bubbles
+    wider than half the panel). A later box that overlaps an earlier one drops just below it,
+    or sits just above it when there is no room below. Stamps are meant to land on top - skipped."""
+    placed = []
+    for d in data:
+        if d["type"] != "text" or d["fx"] == "stamp":
+            continue
+        for _ in range(len(placed)):
+            hit = next((o for o in placed if abs(d["x"] - o["x"]) < (d["w"] + o["w"]) / 2 - 4
+                        and abs(d["y"] - o["y"]) < (d["h"] + o["h"]) / 2 - 4), None)
+            if not hit:
+                break
+            below = hit["y"] + hit["h"] / 2 + 12 + d["h"] / 2
+            above = hit["y"] - hit["h"] / 2 - 12 - d["h"] / 2
+            if below <= floor - d["h"] / 2:
+                d["y"] = below
+            elif above >= d["h"] / 2 + 24:
+                d["y"] = above
+            else:
+                break
+        placed.append(d)
+
+
 def _separate(parts, data, pics, floor) -> None:
     """A picture must not sit under the words above it: when text items overlap it by
     more than ~12% of their height, move the picture below all of them (shrinking an
@@ -543,6 +568,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
             margin = 60 if d["fx"] == "stamp" else 10   # a stamp lands rotated ~9 deg - its corners swing out
             d["x"] = min(max(d["x"], d["w"] / 2 + margin), W - d["w"] / 2 - margin) if d["w"] < W - 2 * margin else W / 2
             data.append(d)
+        _unstack(data, floor)
         _separate(parts, data, pics, floor)
         clip = clips[i] if i < len(clips) else None
         if clip:   # after the items so el.children[j] still indexes them
