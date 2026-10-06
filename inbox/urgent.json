@@ -1,16 +1,46 @@
 {
- "detected_at": "2026-10-06T16:18+09:00",
+ "detected_at": "2026-10-06T23:27+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "‘국민배우’ 공격, 역풍 불렀다···‘암살자(들)’ 개천철 연휴에만 52만",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1037554",
-   "board": "보배드림 베스트",
-   "why": "커뮤니티 2곳 동시 화제 + 기사화(주간경향)",
-   "news": [
+   "kind": "news",
+   "title": "北, 韓 지뢰제거 작전에 “영토 1㎜라도 침범하면 즉시 강력대응”",
+   "url": "https://n.news.naver.com/article/020/0003753131",
+   "press": "동아일보",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
     {
-     "url": "https://n.news.naver.com/article/033/0000052546",
-     "headline": "‘국민배우’가 북한상? 도넘은 공격 역풍···‘암살자(들)’ 연휴 52만 봤다"
+     "press": "중앙일보",
+     "title": "[속보] 北, 지뢰제거 韓작전에 “영토 1㎜라도 침범하면 즉시 강력대응”",
+     "url": "https://n.news.naver.com/article/025/0003556132"
+    },
+    {
+     "press": "MBN",
+     "title": "북한 \"영토 1㎜라도 침범한다면 즉시 강력 대응할 것\"",
+     "url": "https://n.news.naver.com/article/057/0001972241"
+    },
+    {
+     "press": "서울신문",
+     "title": "北 “영토 1㎜라도 침범하면 즉시 강력 대응”…韓의 지뢰제거 작전에 강력 반발",
+     "url": "https://n.news.naver.com/article/081/0003686554"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "한동훈 “北에 찍 소리도 못 하면서”…조현 “답변 거부”",
+   "url": "https://n.news.naver.com/article/005/0001877004",
+   "press": "국민일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "데일리안",
+     "title": "한동훈 \"이종석 반미성향 탓 미국 입국 거부 파악\"…조현 \"한미 정보분야 문제 없다\"",
+     "url": "https://n.news.naver.com/article/119/0003139977"
+    },
+    {
+     "press": "한국일보",
+     "title": "\"北에는 찍소리도 못 하면서\" 한동훈에 \"답변 거부\"한다는 조현... 국감장 정면 충돌",
+     "url": "https://n.news.naver.com/article/469/0000957896"
     }
    ]
   }
