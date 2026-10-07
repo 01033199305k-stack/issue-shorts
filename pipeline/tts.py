@@ -30,7 +30,7 @@ MAX_TAKES = 3
 # Give it a throwaway tail after a pause so the real sentence ends naturally,
 # then cut inside that pause.
 TAIL = " ... 네."
-TTS_VERSION = "sent-v2"   # part of the take cache key: bump when generation changes
+TTS_VERSION = "sent-v3"   # part of the take cache key: bump when generation changes
 
 
 @dataclass
@@ -172,6 +172,48 @@ def _trim_tail(src: Path, dst: Path, cut: float | None) -> None:
           f"{end}afade=t=out:st={fade_at:.3f}:d=0.04,apad=pad_dur=0.1", str(dst)])
 
 
+def _squeeze_pauses(path: Path, keep: float = 0.1, longer_than: float = 0.15) -> None:
+    """Shorten every pause inside the sentence to `keep` seconds, in place.
+
+    Qwen3-TTS stops for 0.4-0.7 s mid-sentence ("근데 ... 데려간 이유가"), most of
+    all on tones like 비밀 털어놓듯 / 뜸 들이며. @dolongcha and @군림보 never pause
+    longer than ~0.2 s, so ours sounded chopped into odd phrases (2026-10-07).
+    """
+    import numpy as np
+    import soundfile as sf
+    a, sr = sf.read(str(path), dtype="float32")
+    if a.ndim > 1:
+        a = a.mean(axis=1)
+    hop = int(sr * 0.01)
+    n = len(a) // hop
+    if n < 10:
+        return
+    db = 20 * np.log10(np.sqrt((a[:n * hop].reshape(n, hop) ** 2).mean(axis=1)) + 1e-9)
+    quiet = db < max(np.percentile(db, 90) - 30, -55)
+    voiced = np.flatnonzero(~quiet)
+    if len(voiced) < 2:
+        return
+    first, last = voiced[0], voiced[-1]   # lead-in / tail are trimmed elsewhere
+    pieces, pos, i = [], 0, first
+    while i <= last:
+        if not quiet[i]:
+            i += 1
+            continue
+        j = i
+        while j <= last and quiet[j]:
+            j += 1
+        if (j - i) * 0.01 > longer_than:
+            half = int(keep / 2 * sr)
+            s, e = i * hop, j * hop
+            pieces.append(a[pos:s + half])
+            pos = e - half
+        i = j
+    if not pieces:
+        return
+    pieces.append(a[pos:])
+    sf.write(str(path), np.concatenate(pieces), sr)
+
+
 CHO = "ㄱㄲㄴㄷㄸㄹㅁㅂㅃㅅㅆㅇㅈㅉㅊㅋㅌㅍㅎ"
 JUNG = "ㅏㅐㅑㅒㅓㅔㅕㅖㅗㅘㅙㅚㅛㅜㅝㅞㅟㅠㅡㅢㅣ"
 JONG = " ㄱㄲㄳㄴㄵㄶㄷㄹㄺㄻㄼㄽㄾㄿㅀㅁㅂㅄㅅㅆㅇㅈㅊㅋㅌㅍㅎ"
@@ -254,6 +296,7 @@ def _synthesize_fresh(text, out_wav, *, gen, voice, instruct, speed, display, se
         raw.unlink(missing_ok=True)
         _trim_tail(full, sped, _cut_tail(full))
         full.unlink(missing_ok=True)
+        _squeeze_pauses(sped)
         segs, _ = _whisper_model().transcribe(_load16k(sped), language="ko", word_timestamps=True)
         heard = [Word(w.word.strip(), w.start, w.end)
                  for s in segs for w in (s.words or []) if w.word.strip()]
