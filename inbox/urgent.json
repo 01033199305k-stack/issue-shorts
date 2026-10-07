@@ -1,52 +1,131 @@
 {
- "detected_at": "2026-10-07T16:18+09:00",
+ "detected_at": "2026-10-07T22:14+09:00",
  "candidates": [
   {
    "kind": "community",
-   "title": "개인 체납 1위 '선박왕' 권혁, 15년만에 4천억원 납부한다",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/76940132",
-   "board": "루리웹 베스트",
-   "why": "커뮤니티 2곳 동시 화제 + 기사화(이코노미스트)",
+   "title": "[야갤] 국힘 진종오 \"남녀 금메달 가치 같아…병역 혜택처럼 여성 선수 보상 필요",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=468640&_dcbest=1&page=1",
+   "board": "디시 실베",
+   "why": "커뮤니티 2곳 동시 화제 + 기사화(뉴스1)",
    "news": [
     {
-     "url": "https://n.news.naver.com/article/243/0000103947",
-     "headline": "'개인 체납 1위' 권혁, 체납 세금 4,000억 납부키로…국세청 역사상 '최대'"
+     "url": "https://n.news.naver.com/article/421/0009213955",
+     "headline": "진종오 \"남녀 금메달 가치는 다르다? 병역면제 男처럼 女 보상안 필요\""
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 윤석열, '명태균 여론조사' 2심서 무죄 선고",
-   "url": "https://n.news.naver.com/article/052/0002415757",
-   "press": "YTN",
-   "why": "[속보] 기사 + 언론사 11곳이 댓글 많은 기사 1위로",
+   "title": "[단독] '尹·명태균 무죄' 2심 재판부 \"尹-김건희, 정치적 공동체\"",
+   "url": "https://n.news.naver.com/article/214/0001527722",
+   "press": "MBC",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "MBN",
-     "title": "[속보] '명태균 여론조사 무상수수' 윤석열 2심 무죄",
-     "url": "https://n.news.naver.com/article/057/0001972353"
+     "press": "조선비즈",
+     "title": "윤석열·김건희 모두 ‘명태균 여론조사’ 무죄… 오세훈 2심은",
+     "url": "https://n.news.naver.com/article/366/0001196710"
     },
     {
-     "press": "서울경제",
-     "title": "‘명태균 여론조사 무상 수수’ 尹, 2심 무죄",
-     "url": "https://n.news.naver.com/article/011/0004668990"
-    },
-    {
-     "press": "MBC",
-     "title": "'명태균 여론조사 수수' 윤석열 2심 무죄로 뒤집혀",
-     "url": "https://n.news.naver.com/article/214/0001527644"
-    },
-    {
-     "press": "KBS",
-     "title": "윤석열 ‘명태균 여론조사’ 2심 유죄→무죄…“재산상 이익 아냐”",
-     "url": "https://n.news.naver.com/article/056/0012269286"
+     "press": "한겨레",
+     "title": "윤석열, ‘명태균 무상 여론조사’ 2심 무죄로…재판부 “재산상 이익 없어”",
+     "url": "https://n.news.naver.com/article/028/0002826452"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 아시안게임 금메달 '병역혜택' 없앤다…주호영, 개정안 발의",
-   "url": "https://n.news.naver.com/article/215/0001268441",
+   "title": "[속보] 청와대 \"우크라, 한국이 대러 제재 배치 행동한 것처럼 언급...사실과 다르며 부적절\"",
+   "url": "https://n.news.naver.com/article/052/0002415964",
+   "press": "YTN",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "뉴시스",
+     "title": "[속보]靑 \"우크라, 사실확인 없이 韓 대러제재 배치행동 한 것처럼 언급…사실 달라\"",
+     "url": "https://n.news.naver.com/article/003/0014240183"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "한동훈 “北이 고라니 잡으려고 지뢰 심었겠나”…정동영 “아직 공격으로 특정 못해”",
+   "url": "https://n.news.naver.com/article/005/0001877265",
+   "press": "국민일보",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "중앙일보",
+     "title": "한동훈 “北지뢰, 고라니 잡으려 심었겠나”…정동영 면전서 따졌다",
+     "url": "https://n.news.naver.com/article/025/0003556371"
+    },
+    {
+     "press": "한국경제",
+     "title": "정동영 \"北 지뢰 공격 특정 못 해\" 한동훈 \"발목 절단됐는데\"",
+     "url": "https://n.news.naver.com/article/015/0005340071"
+    },
+    {
+     "press": "매일신문",
+     "title": "정동영 \"北지뢰, 아직 공격으로 특정 못해\"…한동훈 \"고라니 잡으려 심었겠나\"",
+     "url": "https://n.news.naver.com/article/088/0001032804"
+    },
+    {
+     "press": "디지털타임스",
+     "title": "한동훈 “살상 목적 지뢰, 공격 아니냐”…정동영 “공격 특정 못해”",
+     "url": "https://n.news.naver.com/article/029/0003051941"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "국힘 109명 요구 안 먹혔다… ‘암살자(들)’, 싱가포르서 개막작 상영 유지",
+   "url": "https://n.news.naver.com/article/081/0003686841",
+   "press": "서울신문",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "경향신문",
+     "title": "싱가포르영화제, 국힘 요구 거절···‘암살자(들)’ 개막작 상영 그대로 “창작 비전 존중”",
+     "url": "https://n.news.naver.com/article/032/0003474856"
+    },
+    {
+     "press": "노컷뉴스",
+     "title": "국힘 '암살자(들)' 철회 요구 싱가포르영화제 거부…\"개막작 상영\"",
+     "url": "https://n.news.naver.com/article/079/0004196675"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "국힘 상영 취소 요구 '거부'…\"창작은 창작\" 거장의 소신",
+   "url": "https://n.news.naver.com/article/437/0000514578",
+   "press": "JTBC",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "경향신문",
+     "title": "싱가포르영화제, 국힘 요구 거절···‘암살자(들)’ 개막작 상영 그대로 “창작 비전 존중”",
+     "url": "https://n.news.naver.com/article/032/0003474856"
+    },
+    {
+     "press": "노컷뉴스",
+     "title": "국힘 '암살자(들)' 철회 요구 싱가포르영화제 거부…\"개막작 상영\"",
+     "url": "https://n.news.naver.com/article/079/0004196675"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 靑, 우크라 대통령실 '대러 유류 운송' 반박",
+   "url": "https://n.news.naver.com/article/422/0000913491",
+   "press": "연합뉴스TV",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] '여고생 살해범' 장윤기, 판결 불복했다…1심 무기징역 항소",
+   "url": "https://n.news.naver.com/article/215/0001268488",
    "press": "한국경제TV",
    "why": "[속보] 기사",
    "related": []
