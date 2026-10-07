@@ -1371,5 +1371,50 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-07_1800_baby-crawls-up-mountain/video.mp4"
   },
   "seconds": 350
+ },
+ {
+  "key": "2026-10-07-2100",
+  "slot": "2100",
+  "publish_at": "2026-10-07T21:00:00+09:00",
+  "started": "2026-10-07T16:24:36.258473+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-1191/",
+   "https://pixabay.com/videos/id-15615/"
+  ],
+  "duration": 23.89,
+  "matches": [
+   0.96,
+   1.0,
+   1.0,
+   0.87,
+   1.0,
+   0.98,
+   1.0
+  ],
+  "sfx": 6,
+  "illustrations": 5,
+  "cuts": 7,
+  "title": "학원 간다고 금요일 회의 빠진 신입의 사정 #shorts",
+  "source_post": "https://www.mt.co.kr/society/2026/10/05/2026100509044976655",
+  "facts_used": [
+   "금요일 오후 5시 팀 전체 회의에 신입사원이 학원 일정을 이유로 불참하겠다고 함 — 머니투데이 2026-10-05 https://www.mt.co.kr/society/2026/10/05/2026100509044976655 , 인사이트 https://www.insight.co.kr/news/576492 , 스포탈코리아 https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553589647",
+   "회의 장소가 멀어 마치고 돌아가면 오후 8시가 넘을 것으로 예상 — 머니투데이, 인사이트",
+   "부장은 질렸는지 '네 맘대로 하라'고 함 — 머니투데이, 서플 https://supple.kr/news/cmuuio8p6003owbxkpw5xp0ee",
+   "댓글 반응: '5시 회의·장소가 별로'라는 신입 이해 쪽 vs '팀 전체 일정이니 회의 우선, 신입 땐 나가서 배워야' 쪽으로 갈림 — 머니투데이, 인사이트"
+  ],
+  "slug": "2026-10-07_2100_newbie-skips-meeting-for-academy",
+  "late": false,
+  "video_id": "KRsYU6UVOxA",
+  "url": "https://youtube.com/shorts/KRsYU6UVOxA",
+  "privacy": "private",
+  "scheduled_for": "2026-10-07T12:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ac5f54a535511041625cdda",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-07T12:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-07_2100_newbie-skips-meeting-for-academy/video.mp4"
+  },
+  "seconds": 407
  }
 ]
