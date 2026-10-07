@@ -273,7 +273,14 @@ def lint(script: dict) -> list[str]:
                          "use a picture/emoji; panel words only as the post card or the vote board")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
     if len(segs) > 9 or total > 200:   # 2026-10-06: 18-25 s like @dolongcha (its 2.2M-view short ran 17 s)
-        p.append(f"{len(segs)} sentences / {total} chars - write 6-8 sentences, 140-190 chars (18-25 s)")
+        p.append(f"{len(segs)} sentences / {total} chars - write the title + 6-8 sentences, 150-200 chars (20-26 s)")
+    post = next((it for it in ((segs[0].get("visual") or {}).get("items", []) if segs else [])
+                 if it.get("style") == "post"), None)
+    if post:   # 2026-10-07: @dolongcha/@군림보 read the title aloud first; ours jumped straight into the story
+        squash = lambda t: re.sub(r"[^0-9A-Za-z가-힣]", "", str(t))
+        if squash(segs[0].get("text", "")) != squash(post.get("text", "")):
+            p.append(f"segment 0: read the post card title aloud - text must be the card words "
+                     f"{post.get('text', '')!r} (line break -> space), the hook goes to segment 1")
     sfx = [s.get("sfx") for s in segs]
     if len(sfx) > 1 and sfx[0] == "dudung" and sfx[1] == "question":
         p.append("opening sfx dudung -> question is the pattern every video used - open by the hook's mood (see ROUTINE sfx)")
