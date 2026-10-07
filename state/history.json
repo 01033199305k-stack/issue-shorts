@@ -1325,5 +1325,51 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-07_1200_incheon-bus-no-stop-wave/video.mp4"
   },
   "seconds": 342
+ },
+ {
+  "key": "2026-10-07-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-07T18:00:00+09:00",
+  "started": "2026-10-07T15:21:39.229071+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-228847/",
+   "https://pixabay.com/videos/id-736/"
+  ],
+  "duration": 26.08,
+  "matches": [
+   0.85,
+   1.0,
+   0.95,
+   0.93,
+   1.0,
+   1.0,
+   1.0,
+   0.89
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "걸음마도 못 뗀 9개월 아기가 산에 오른 이유 #shorts",
+  "source_post": "https://n.news.naver.com/article/422/0000913182",
+  "facts_used": [
+   "중국 후베이성 산악 관광지에서 생후 9개월 아기가 무릎 보호대를 찬 채 산길 계단을 손과 무릎으로 오르는 영상 — 아시아경제 2026-10-07 https://view.asiae.co.kr/article/2026100709233908705 , 한국경제 2026-10-05 https://www.hankyung.com/article/2026100530707 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008783850",
+   "생후 6개월부터 기기 시작, 8개월 무렵 계단을 오르내림 — 아시아경제, 한국경제",
+   "아버지 '훈련이 아니라 에너지를 발산하게 해주기 위해서' — 아시아경제, 한국경제, 뉴스1 https://www.news1.kr/world/general-world/6310193",
+   "좋아요 약 20만 개, 댓글 1만7000개, 위험하다는 우려와 긍정 반응 갈림 — 아시아경제, 한국경제, 서울신문 https://www.seoul.co.kr/news/international/2026/10/04/20261004500080"
+  ],
+  "slug": "2026-10-07_1800_baby-crawls-up-mountain",
+  "late": false,
+  "video_id": "IicikOAQYU4",
+  "url": "https://youtube.com/shorts/IicikOAQYU4",
+  "privacy": "private",
+  "scheduled_for": "2026-10-07T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ac5e65153551104162355d5",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-07T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-07_1800_baby-crawls-up-mountain/video.mp4"
+  },
+  "seconds": 350
  }
 ]
