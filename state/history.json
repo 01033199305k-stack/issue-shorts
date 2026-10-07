@@ -1281,5 +1281,49 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-07_0700_china-paid-boyfriend-photo-studio/video.mp4"
   },
   "seconds": 387
+ },
+ {
+  "key": "2026-10-07-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-07T12:00:00+09:00",
+  "started": "2026-10-07T09:21:26.161687+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-38590/",
+   "https://pixabay.com/videos/id-88921/"
+  ],
+  "duration": 24.31,
+  "matches": [
+   0.94,
+   1.0,
+   0.97,
+   0.97,
+   0.95,
+   0.94,
+   1.0
+  ],
+  "sfx": 6,
+  "illustrations": 4,
+  "cuts": 7,
+  "title": "유재석이 10분 기다린 버스가 그냥 지나간 이유 #shorts",
+  "source_post": "https://www.bobaedream.co.kr/view?code=best&No=1037722",
+  "facts_used": [
+   "SBS '틈만나면'(9월 29일 방송) 인천 편에서 출연진이 정류장에서 약 10분 기다린 버스가 정차하지 않고 지나감 — 서울신문 2026-09-30 https://www.seoul.co.kr/news/society/2026/09/30/20260930500046 , 스포츠경향 2026-09-30 https://sports.khan.co.kr/article/202609301019003 , 서울경제 https://m.sedaily.com/article/20096591",
+   "유재석 '인천은 버스 타려면 손을 흔들어야 되는 거냐', 다른 승객을 보고 '적극적으로 의사를 표시해야 기사님이 선다' — 서울신문, 아이뉴스24 https://inews24.com/view/2010163 , 서울경제",
+   "인천 시내버스 불편 민원 중 무정차 통과 4004건(37.9%)으로 1위(지난해 기준) — 서울경제, 서울신문 2026-09-30, 경기신문 https://www.kgnews.co.kr/news/article.html?no=911728"
+  ],
+  "slug": "2026-10-07_1200_incheon-bus-no-stop-wave",
+  "late": false,
+  "video_id": "iUwonq_UQmA",
+  "url": "https://youtube.com/shorts/iUwonq_UQmA",
+  "privacy": "private",
+  "scheduled_for": "2026-10-07T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ac591db55a5e3daec7fda96",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-07T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-07_1200_incheon-bus-no-stop-wave/video.mp4"
+  },
+  "seconds": 342
  }
 ]
