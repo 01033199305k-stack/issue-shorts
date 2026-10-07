@@ -1416,5 +1416,51 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-07_2100_newbie-skips-meeting-for-academy/video.mp4"
   },
   "seconds": 407
+ },
+ {
+  "key": "2026-10-08-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-08T07:00:00+09:00",
+  "started": "2026-10-08T04:23:13.903452+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-202987/",
+   "https://pixabay.com/videos/id-7315/"
+  ],
+  "duration": 24.65,
+  "matches": [
+   0.96,
+   0.92,
+   1.0,
+   1.0,
+   0.86,
+   1.0,
+   0.96,
+   0.99
+  ],
+  "sfx": 6,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "9살 아이가 112에 짜장면 한 그릇을 시킨 이유 #shorts",
+  "source_post": "https://view.asiae.co.kr/article/2026100718045121050",
+  "facts_used": [
+   "10월 4일 오후 6시 8분쯤 경기 안산 상록구 다세대주택에서 9살 아이가 112에 '짜장면 한 그릇 주세요'라고 신고 — 아시아경제 2026-10-07 https://view.asiae.co.kr/article/2026100718045121050 , 서울신문 2026-10-07 https://www.seoul.co.kr/news/society/accident/2026/10/07/20261007500250 , 경기일보 https://www.kyeonggi.com/article/20261007580461",
+   "아이는 방 안에 숨어 전화했고 집에 가족이 몇 명 있는지 설명함 — 헤럴드경제 https://biz.heraldcorp.com/article/10895957 , 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2076903",
+   "들키지 않으려 짜장면 주문하는 척 기지 발휘(경찰 관계자), '아빠가 엄마를 때리려 한다'고 알림 — 경기일보 https://www.kyeonggi.com/article/20261007580461 , 매일신문 https://www.imaeil.com/page/view/2026100715411842708",
+   "경찰 약 3분 뒤 오후 6시 11분쯤 도착, 40대 아버지 A씨 특수폭행·아동복지법 위반 혐의 입건, 퇴거·100m 접근금지 임시조치 — 서울신문 2026-10-07 https://www.seoul.co.kr/news/society/accident/2026/10/07/20261007500250 , 헤럴드경제 https://biz.heraldcorp.com/article/10895957 , 경기일보 https://www.kyeonggi.com/article/20261007580461"
+  ],
+  "slug": "2026-10-08_0700_kid-orders-jjajang-to-police",
+  "late": false,
+  "video_id": "lYOPAWvor1o",
+  "url": "https://youtube.com/shorts/lYOPAWvor1o",
+  "privacy": "private",
+  "scheduled_for": "2026-10-07T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ac69e0a4b237fa33e44634f",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-07T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-08_0700_kid-orders-jjajang-to-police/video.mp4"
+  },
+  "seconds": 488
  }
 ]
