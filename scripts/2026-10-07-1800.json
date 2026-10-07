@@ -1,0 +1,288 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "baby-crawls-up-mountain",
+ "title_lines": [
+  "걸음마도 못 뗐는데",
+  "등산하는 9개월 아기"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "9개월 아기가 산길 돌계단을 네 발로 기어 올라감.",
+   "say": "구 개월 아기가 산길 돌계단을 네 발로 기어 올라감.",
+   "sfx": "exclaim",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "걸음마도 못 뗐는데\n산 타는 9개월 아기",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 데려간 이유가 더 의외임.",
+   "say": "근데 데려간 이유가 더 의외임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "赤ちゃん ハイハイ",
+       "ハイハイ",
+       "赤ちゃん"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "중국 산길에서 무릎 보호대 차고 한 칸씩 오름.",
+   "say": "중국 산길에서 무릎 보호대 차고 한 칸씩 오름.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "sky",
+    "video": [
+     "mountain stone stairs",
+     "stairs mountain trail",
+     "mountain hiking path"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "階段 上る",
+       "階段"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⛰️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 6개월에 기고 8개월엔 계단을 탔다 함.",
+   "say": "헐, 육 개월에 기고 팔 개월엔 계단을 탔다 함.",
+   "sfx": "punch",
+   "tone": "믿기지 않는다는 듯 눈이 동그래져서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "成長 赤ちゃん"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 아빠가 밝힌 이유 공개됨.",
+   "say": "자, 아빠가 밝힌 이유 공개됨.",
+   "sfx": "whoosh",
+   "tone": "긴장감 있게 낮은 목소리로 천천히 뜸 들이며",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "父親",
+       "お父さん"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "훈련 아니고 에너지 빼 주려고 데려간 거라 함.",
+   "say": "훈련 아니고 에너지 빼 주려고 데려간 거라 함.",
+   "sfx": "stamp",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "元気 子供",
+       "走る 子供"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚡",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 좋아요 20만 개 찍고 반응은 반반 갈림.",
+   "say": "와, 좋아요 이십만 개 찍고 반응은 반반 갈림.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "smartphone scrolling",
+     "phone screen social media",
+     "mobile phone hand"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들이면 9개월 아기 데리고 산 감?",
+   "say": "님들이면 구 개월 아기 데리고 산 감?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "赤ちゃん ハイハイ",
+       "赤ちゃん"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 간다",
+      "style": "row",
+      "pos": "right",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "② 절대 안 감",
+      "style": "row",
+      "pos": "bottom-right",
+      "at": 0.55,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "걸음마도 못 뗀 9개월 아기가 산에 오른 이유 #shorts",
+  "description": "중국 후베이성 산악 관광지에서 생후 9개월 아기가 무릎 보호대를 차고 돌계단을 네 발로 기어 오르는 영상이 화제가 됨.\n아빠는 훈련이 아니라 아이 에너지를 발산시키려고 데려갔다고 밝힘.\n영상은 좋아요 약 20만 개, 댓글 1만7000개를 받았고 '위험하다'와 '건강한 육아'로 반응이 갈림.\n\n※ AI 음성으로 제작했습니다.\n#아기 #육아 #등산 #중국 #썰 #shorts",
+  "tags": [
+   "9개월 아기",
+   "아기 등산",
+   "육아법",
+   "중국 화제",
+   "돌계단",
+   "육아",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/422/0000913182",
+ "facts_used": [
+  "중국 후베이성 산악 관광지에서 생후 9개월 아기가 무릎 보호대를 찬 채 산길 계단을 손과 무릎으로 오르는 영상 — 아시아경제 2026-10-07 https://view.asiae.co.kr/article/2026100709233908705 , 한국경제 2026-10-05 https://www.hankyung.com/article/2026100530707 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008783850",
+  "생후 6개월부터 기기 시작, 8개월 무렵 계단을 오르내림 — 아시아경제, 한국경제",
+  "아버지 '훈련이 아니라 에너지를 발산하게 해주기 위해서' — 아시아경제, 한국경제, 뉴스1 https://www.news1.kr/world/general-world/6310193",
+  "좋아요 약 20만 개, 댓글 1만7000개, 위험하다는 우려와 긍정 반응 갈림 — 아시아경제, 한국경제, 서울신문 https://www.seoul.co.kr/news/international/2026/10/04/20261004500080"
+ ],
+ "brief": "점수표: 9개월 아기 돌계단 등산(이게됨5+궁금증3+공감4+대상4=16) / 고3 손자 방에서 자겠다는 시어머니(3+3+4+3=13, 파이낸셜뉴스 독자 사연 한 곳) / 국방연구원 횟집 1700만원(3+2+2+2=9, 보도 하나만 확인) / 선박왕 체납 완납(2+2+2+2=8) / 테슬라 박살난 차(기사 확인 안 됨) / 병역특례·국감 막말·암살자(들)·지지율(정치 0점). 첫장면: 의외. 훅 3안: ①'생후 9개월 아기가 산길 돌계단을 네 발로 기어 올라감'(선택: 숫자+그림이 바로 그려짐) ②'걸음마도 못 하는 아기가 등산을 함'(숫자 없음) ③'중국에서 9개월 아기 등산 영상이 난리 남'(규모형이라 약함). 제목 1줄 '걸음마도 못 뗐는데'가 의외성을 가장 먼저 줌. 확인된 사실(아시아경제·한국경제·뉴스1·SBS·서울신문, 2026-10-04~07): 후베이성 산악 관광지, 생후 9개월 아기, 무릎 보호대, 손과 무릎으로 산길 계단 오름. 6개월에 기기 시작, 8개월쯤 계단. 아빠 '훈련 아니라 에너지 발산'. 좋아요 약 20만, 댓글 1만7000. 위험하다 vs 건강한 육아 반응. 주의: 아기 이름·부모 성은 쓰지 않음, 육아 방식을 옳다/그르다 결론 내지 않음, '엄마가 뒤에서 지켜봄'·'첫 등산'은 한 곳만 확인돼 뺌. 스톡 영상은 아기 등장 없이 산 계단·스마트폰만."
+}
