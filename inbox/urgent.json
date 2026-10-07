@@ -1,46 +1,44 @@
 {
- "detected_at": "2026-10-06T23:27+09:00",
+ "detected_at": "2026-10-07T09:17+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "北, 韓 지뢰제거 작전에 “영토 1㎜라도 침범하면 즉시 강력대응”",
-   "url": "https://n.news.naver.com/article/020/0003753131",
-   "press": "동아일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "180도 달라진 조희대...\"제2의 윤석열? 모욕적\" 반박",
+   "url": "https://n.news.naver.com/article/052/0002415413",
+   "press": "YTN",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "중앙일보",
-     "title": "[속보] 北, 지뢰제거 韓작전에 “영토 1㎜라도 침범하면 즉시 강력대응”",
-     "url": "https://n.news.naver.com/article/025/0003556132"
+     "press": "동아일보",
+     "title": "문건까지 준비한 조희대… “제2 윤석열 꿈꾸나” 묻자 “모욕적, 슬픈일”",
+     "url": "https://n.news.naver.com/article/020/0003753247"
     },
     {
-     "press": "MBN",
-     "title": "북한 \"영토 1㎜라도 침범한다면 즉시 강력 대응할 것\"",
-     "url": "https://n.news.naver.com/article/057/0001972241"
-    },
-    {
-     "press": "서울신문",
-     "title": "北 “영토 1㎜라도 침범하면 즉시 강력 대응”…韓의 지뢰제거 작전에 강력 반발",
-     "url": "https://n.news.naver.com/article/081/0003686554"
+     "press": "시사저널",
+     "title": "\"제2 윤석열 꿈꾸나\"…범여권, 국감서 '조희대 맹폭'",
+     "url": "https://n.news.naver.com/article/586/0000139496"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "한동훈 “北에 찍 소리도 못 하면서”…조현 “답변 거부”",
-   "url": "https://n.news.naver.com/article/005/0001877004",
-   "press": "국민일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "[속보]李대통령 지지율 37.1%…부정평가 61.4% 취임 후 최고-조원씨앤아이",
+   "url": "https://n.news.naver.com/article/021/0002823463",
+   "press": "문화일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 경찰, '암살자(들)' 유해진 신변보호 착수…보수단체는 광고 철회 요구",
+   "url": "https://n.news.naver.com/article/655/0000033066",
+   "press": "CJB청주방송",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "데일리안",
-     "title": "한동훈 \"이종석 반미성향 탓 미국 입국 거부 파악\"…조현 \"한미 정보분야 문제 없다\"",
-     "url": "https://n.news.naver.com/article/119/0003139977"
-    },
-    {
-     "press": "한국일보",
-     "title": "\"北에는 찍소리도 못 하면서\" 한동훈에 \"답변 거부\"한다는 조현... 국감장 정면 충돌",
-     "url": "https://n.news.naver.com/article/469/0000957896"
+     "press": "kbc광주방송",
+     "title": "경찰, '암살자(들)' 유해진 신변보호 나서...스마트워치 지급",
+     "url": "https://n.news.naver.com/article/660/0000118537"
     }
    ]
   }
