@@ -1,46 +1,53 @@
 {
- "detected_at": "2026-10-07T09:17+09:00",
+ "detected_at": "2026-10-07T14:50+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "180도 달라진 조희대...\"제2의 윤석열? 모욕적\" 반박",
-   "url": "https://n.news.naver.com/article/052/0002415413",
-   "press": "YTN",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "김민석 “조희대, 재제청 문제 처리 못 하면 그만두는 게 낫다”",
+   "url": "https://n.news.naver.com/article/023/0004002531",
+   "press": "조선일보",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "동아일보",
-     "title": "문건까지 준비한 조희대… “제2 윤석열 꿈꾸나” 묻자 “모욕적, 슬픈일”",
-     "url": "https://n.news.naver.com/article/020/0003753247"
+     "press": "kbc광주방송",
+     "title": "김민석 \"조희대, 재제청 처리 못하면 그만두는 게 낫다...병역특례는 크게 손봐야\"",
+     "url": "https://n.news.naver.com/article/660/0000118557"
     },
     {
-     "press": "시사저널",
-     "title": "\"제2 윤석열 꿈꾸나\"…범여권, 국감서 '조희대 맹폭'",
-     "url": "https://n.news.naver.com/article/586/0000139496"
+     "press": "경향신문",
+     "title": "김민석 “조희대, 떳떳하지 못하면 스스로 물러나는 게 마지막 도리”",
+     "url": "https://n.news.naver.com/article/032/0003474714"
+    },
+    {
+     "press": "강원일보",
+     "title": "김민석 “조희대, 대법관 재제청 문제 처리못한다면 그만두는 것이 낫다”",
+     "url": "https://n.news.naver.com/article/087/0001222371"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]李대통령 지지율 37.1%…부정평가 61.4% 취임 후 최고-조원씨앤아이",
-   "url": "https://n.news.naver.com/article/021/0002823463",
-   "press": "문화일보",
+   "title": "[속보] 오세훈 서울시장 “전북의 올림픽 공동 개최 제안, 다 수용할 생각”",
+   "url": "https://n.news.naver.com/article/009/0005745121",
+   "press": "매일경제",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] 경찰, '암살자(들)' 유해진 신변보호 착수…보수단체는 광고 철회 요구",
-   "url": "https://n.news.naver.com/article/655/0000033066",
-   "press": "CJB청주방송",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "kbc광주방송",
-     "title": "경찰, '암살자(들)' 유해진 신변보호 나서...스마트워치 지급",
-     "url": "https://n.news.naver.com/article/660/0000118537"
-    }
-   ]
+   "title": "[속보] ‘반이재명’서 한동훈 29.4% 장동혁 23.4% 오세훈 15.2%순 지지…韓 복당엔 46.2%",
+   "url": "https://n.news.naver.com/article/029/0003051923",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보]생일상 차린 아들 사제총기로 살해한 60대…무기징역 확정",
+   "url": "https://n.news.naver.com/article/016/0002706486",
+   "press": "헤럴드경제",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
