@@ -1,0 +1,298 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "tiny-vegetable-shop-12-billion",
+ "title_lines": [
+  "4평 채소가게",
+  "결제액이 122억"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "4평 채소가게에서 122억이 결제됨",
+   "say": "사 평 채소가게에서 백이십이억이 결제됨",
+   "sfx": "punch",
+   "tone": "글 제목 읽어 주듯 또렷하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "4평 채소가게에서\n122억이 결제됨",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "4평 채소가게가 온누리상품권 결제 전국 4위임.",
+   "say": "사 평 채소가게가 온누리상품권 결제 전국 사 위임.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "vegetables market stall",
+     "vegetable market",
+     "market vegetables"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "八百屋",
+       "野菜 店",
+       "野菜"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💰",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 진짜 이상한 건 영수증이었음.",
+   "say": "근데 진짜 이상한 건 영수증이었음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "虫眼鏡",
+       "探偵"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 사 보니 영수증엔 다른 회사 이름이 찍힘.",
+   "say": "헐, 사 보니 영수증엔 다른 회사 이름이 찍힘.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "receipt printing",
+     "receipt printer",
+     "cash register"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "レシート",
+       "買い物 女性",
+       "買い物"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 그래서 나온 의혹이 바로 이거임.",
+   "say": "자, 그래서 나온 의혹이 바로 이거임.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怪しい 男性",
+       "怪しい人",
+       "泥棒"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "상품권을 현금으로 바꿔 주는 온누리깡 의혹임.",
+   "say": "상품권을 현금으로 바꿔 주는 온누리깡 의혹임.",
+   "sfx": "stamp",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "red",
+    "video": [
+     "cash money counting",
+     "money counting",
+     "banknotes counting"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "札束",
+       "お金"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "run-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 결국 국세청까지 같이 조사하기로 함.",
+   "say": "와, 결국 국세청까지 같이 조사하기로 함.",
+   "sfx": "whoosh",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "税務署",
+       "税務調査",
+       "税金"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들이면 4평 가게에서 122억 팔 수 있음?",
+   "say": "님들이면 사 평 가게에서 백이십이억 팔 수 있음?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "八百屋",
+       "野菜 店",
+       "野菜"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "님들 선택은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 절대 불가능",
+      "style": "row",
+      "pos": "right",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "② 배추로 가능",
+      "style": "row",
+      "pos": "bottom-right",
+      "at": 0.55,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "4평짜리 채소가게에서 1년에 122억이 결제된 이유 #shorts",
+  "description": "광주의 한 전통시장 4~5평 채소가게(협동조합 가맹점)에서 지난해 온누리상품권 122억 원이 결제됐다는 지적이 나왔음. 전국 가맹점 중 네 번째 규모임.\n직접 물건을 사 보니 영수증엔 다른 유통업체 이름이 찍혔고, 거래 증빙 서류도 제출되지 않았다고 함.\n상품권을 현금화하는 이른바 '온누리깡' 의혹이 제기됐고, 중기부는 국세청 등과 조사하기로 했음. 위법 여부는 조사 결과로 확인될 예정임.\n\n※ AI 음성으로 제작했습니다.\n#온누리상품권 #채소가게 #전통시장 #상품권깡 #shorts",
+  "tags": [
+   "온누리상품권",
+   "채소가게",
+   "122억",
+   "전통시장",
+   "상품권깡",
+   "국세청 조사",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://biz.heraldcorp.com/article/10895770",
+ "facts_used": [
+  "광주 전통시장 협동조합 가맹점(4~5평 채소가게)의 지난해 온누리상품권 결제액 122억 원, 전국 가맹점 중 네 번째 — 헤럴드경제 2026-10-07 https://biz.heraldcorp.com/article/10895770 , 파이낸셜뉴스 2026-10-08 https://www.fnnews.com/news/202610080634299304 , 한국경제 https://www.hankyung.com/article/2026100793647 , SBS Biz https://biz.sbs.co.kr/article/20000338804",
+  "의원실이 등록 주소에서 물건을 사 보니 영수증에 가맹 협동조합이 아닌 다른 유통업체 이름이 찍힘 — 헤럴드경제 https://biz.heraldcorp.com/article/10895770 , 한국일보 2026-10-07 https://www.hankookilbo.com/news/article/A2026100717220003261",
+  "온누리상품권 현금화('온누리깡') 의혹 — 한국일보 https://www.hankookilbo.com/news/article/A2026100717220003261 , 재경일보 https://news.jkn.co.kr/post/1011214",
+  "중기부가 국세청 등 관계기관과 조사하기로 함 — 헤럴드경제, SBS Biz, 뉴스토마토 https://www.newstomato.com/ReadNews.aspx?no=1315942 , 파이낸셜뉴스"
+ ],
+ "brief": "점수표: 4평 채소가게 온누리상품권 122억(이게됨5+궁금증4+공감3+대상4=16) / 베트남 배달라이더 월 777만원(3+3+2+4=12, 777만원 수치 교차확인 실패) / 아시안게임 상장 직접 출력(4+2+3+3=12, 9월 말이라 묵음) / 일본 학교급식 전시상태(3+2+2+3=10, 기사 확인 안 됨) / 손흥민 리더십 동반 은퇴 소동(2+3+1+5=11, 선수 갈등·루머성) — 국감 정쟁·대법관·병역특례·진종오는 정치 0점. 첫장면: 의외. 훅 3안: ①'시장 구석 4평 채소가게가 온누리상품권 결제 전국 4위임'(선택: 제목의 122억에 '전국 4위'로 한 발 더) ②'배추 팔아서 122억 번 가게?'(사실 단정 위험) ③'성심당보다 많이 긁힌 채소가게'(비교 수치 교차확인 안 됨). 글 카드 3안: '4평 채소가게에서 122억이 결제됨'(선택) / '1년에 122억 긁힌 시장 채소가게' / '채소가게 영수증에 찍힌 다른 회사 이름'. 제목줄 '4평 채소가게/결제액이 122억'은 대상+이상한 점. 확인된 사실(헤럴드경제·SBS Biz·쿠키뉴스·뉴스토마토·한국경제·한국일보·파이낸셜뉴스 10/7~8): 광주 전통시장 협동조합 가맹 4~5평 채소가게, 지난해 온누리 결제 122억(전국 4위), 의원실이 직접 사 보니 영수증에 다른 유통업체명, 증빙 서류 미제출·소진공도 거래내역 못 밝힘, 현금화(온누리깡) 의혹, 중기부 국세청 등과 조사. 주의: 의혹·조사 단계라 '의혹'으로만 쓰고 불법 단정 안 함, 가게·조합 이름·시장 이름 안 씀, 국감 질의 의원·장관 이름 대본에서 뺌(정치색 0). 매출 5억→110억→128억은 한국일보 한 곳만이라 버림. 스톡 영상은 채소 가판대·영수증 프린터·지폐 세기(사람 주인공 없음)."
+}
