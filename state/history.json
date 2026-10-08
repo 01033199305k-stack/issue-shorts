@@ -1555,5 +1555,52 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-08_1800_same-name-same-birthday-couple/video.mp4"
   },
   "seconds": 466
+ },
+ {
+  "key": "2026-10-09-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-09T07:00:00+09:00",
+  "started": "2026-10-09T04:23:08.356700+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-43731/",
+   "https://pixabay.com/videos/id-64212/",
+   "https://pixabay.com/videos/id-320/"
+  ],
+  "duration": 23.14,
+  "matches": [
+   1.0,
+   1.0,
+   0.95,
+   0.94,
+   1.0,
+   0.93,
+   1.0,
+   0.96
+  ],
+  "sfx": 6,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "51년 만에 집 바닥 밑에서 나온 고등학생 지갑 속 물건 #shorts",
+  "source_post": "https://www.cbc.ca/news/canada/nova-scotia/a-trip-down-memory-lane-n-s-man-reunited-with-wallet-lost-51-years-ago-9.7364265",
+  "facts_used": [
+   "캐나다 노바스코샤 다트머스 빅토리아로드의 집을 고치던 목수(매티 골드스미스)가 바닥 밑에서 1975년 잃어버린 지갑 발견 — CBC 2026-10-01 https://www.cbc.ca/news/canada/nova-scotia/a-trip-down-memory-lane-n-s-man-reunited-with-wallet-lost-51-years-ago-9.7364265 , UPI 2026-10-06 https://www.upi.com/Odd_News/2026/10/06/canada-dartmouth-nova-scotia-lost-wallet-51-years/7671791307060",
+   "내용물: 다트머스 고교 학생증, 운전면허증, 손으로 쓴 출생증명서, 1달러 지폐, 1975년 햄릿 공연 티켓 — UPI 2026-10-06, CBC 2026-10-01, People(야후 라이프스타일) https://www.yahoo.com/lifestyle/articles/man-reunited-high-school-wallet-121546347.html",
+   "목수의 SNS 글을 본 주인 아내 도나 길로이가 알아보고 댓글, 사흘 뒤 68살 리처드 길로이에게 반환 — UPI 2026-10-06, CBC 2026-10-01",
+   "길로이는 1975년 햄릿을 본 기억이 없다고 함(티켓값 1.5달러엔 놀라움, 전부 액자에 넣어 전시할 계획) — UPI 2026-10-06, People"
+  ],
+  "slug": "2026-10-09_0700_wallet-lost-51-years-hamlet",
+  "late": false,
+  "video_id": "D6MZs7sSX3c",
+  "url": "https://youtube.com/shorts/D6MZs7sSX3c",
+  "privacy": "private",
+  "scheduled_for": "2026-10-08T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ac7ef12d3b0be2fc416fdef",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-08T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-09_0700_wallet-lost-51-years-hamlet/video.mp4"
+  },
+  "seconds": 375
  }
 ]
