@@ -19,7 +19,11 @@ NEEDS = {"scene": ["emoji"], "number": ["value"], "quote": ["lines"], "stamp": [
 V_TYPES = ["illust", "text", "emoji", "crowd"]
 V_STYLES = ["big", "label", "small", "red", "stamp", "bubble", "row", "post"]
 V_POS = ["center", "left", "right", "top", "bottom", "top-left", "top-right", "bottom-left", "bottom-right"]
-V_FX = ["pop", "drop", "slide-left", "slide-right", "zoom", "fade", "shake", "stamp", "run-left", "run-right"]
+V_FX = ["pop", "drop", "slide-left", "slide-right", "zoom", "fade", "shake", "stamp", "run-left", "run-right", "sparkle"]
+# 2026-10-08 @dolongcha-style editing: caption colour per sentence, camera moves and cut transitions
+CAPS = ["narr", "hit", "quote", "shout", "sweet", "react"]
+V_CAM = ["punch", "push", "pull"]
+V_TR = ["whoosh", "flash"]
 V_BG = ["white", "sky", "beach", "room", "city", "paper", "night", "red"]
 V_SIZE = ["s", "m", "l", "xl"]
 
@@ -28,6 +32,10 @@ def _check_visual(i: int, v: dict) -> list[str]:
     p = []
     if v.get("bg", "white") not in V_BG:
         p.append(f"segment {i}: bg {v.get('bg')!r} not in {V_BG}")
+    if v.get("cam") is not None and v.get("cam") not in V_CAM:
+        p.append(f"segment {i}: cam {v.get('cam')!r} not in {V_CAM}")
+    if v.get("tr") is not None and v.get("tr") not in V_TR:
+        p.append(f"segment {i}: tr {v.get('tr')!r} not in {V_TR}")
     vq = v.get("video")
     vqs = [vq] if isinstance(vq, str) else vq
     if vq is not None and not (isinstance(vqs, list) and 1 <= len(vqs) <= 3 and all(
@@ -160,6 +168,8 @@ def validate(script: dict) -> list[str]:
             p.append(f"segment {i}: say too short to check against the transcript - put a reaction (헐, 와) in front of a real sentence, not alone")
         if re.search(r"[ㄱ-ㅎㅏ-ㅣ]", s["say"]):
             p.append(f"segment {i}: say has bare jamo (ㅋㅋ, ㄹㅇ ...) the voice cannot read")
+        if s.get("cap") is not None and s.get("cap") not in CAPS:
+            p.append(f"segment {i}: cap {s.get('cap')!r} not in {CAPS}")
         tone = s.get("tone")
         if tone is not None and not (isinstance(tone, str) and len(tone.strip()) <= 40):
             p.append(f"segment {i}: tone must be a short delivery note for the voice (max 40 chars)")
@@ -281,6 +291,20 @@ def lint(script: dict) -> list[str]:
         if squash(segs[0].get("text", "")) != squash(post.get("text", "")):
             p.append(f"segment 0: read the post card title aloud - text must be the card words "
                      f"{post.get('text', '')!r} (line break -> space), the hook goes to segment 1")
+    # caption colours and cuts are accents: used everywhere they stop meaning anything (ROUTINE 자막 색)
+    caps = [s.get("cap", "narr") for s in segs]
+    for name, most in (("hit", 2), ("quote", 2), ("shout", 2), ("sweet", 2), ("react", 1)):
+        if caps.count(name) > most:
+            p.append(f"cap {name!r} on {caps.count(name)} sentences - max {most} per video")
+    if caps and caps[0] != "narr":
+        p.append("segment 0: the post-card title is read as plain narration - no cap")
+    if any(c == "react" for c in caps[:-2]):
+        p.append("cap 'react' is the closing reaction - only in the last two sentences")
+    trs = [(s.get("visual") or {}).get("tr") for s in segs]
+    if trs.count("whoosh") > 3 or trs.count("flash") > 1:
+        p.append(f"{trs.count('whoosh')} whoosh / {trs.count('flash')} flash cuts - max 3 whoosh and 1 flash (a reveal) per video")
+    if trs and trs[0]:
+        p.append("segment 0: the video opens on the post card - no transition")
     sfx = [s.get("sfx") for s in segs]
     if len(sfx) > 1 and sfx[0] == "dudung" and sfx[1] == "question":
         p.append("opening sfx dudung -> question is the pattern every video used - open by the hook's mood (see ROUTINE sfx)")

@@ -2,8 +2,10 @@
 
 The frame: black, a two-line title on top (white + yellow) that never moves,
 a white panel underneath where いらすとや people and props pop in one by one
-as the narration reaches them, and the caption phrase in a black box at the
-bottom of the panel (the word being read turns yellow).
+as the narration reaches them, and the caption phrase (up to 2 lines) over the
+bottom of the panel, coloured by the sentence's role (segment "cap": narr / hit /
+quote / shout / sweet / react - @dolongcha style, 2026-10-08). Scenes can punch,
+push or pull the camera ("visual.cam") and enter with a whoosh or a flash ("visual.tr").
 
 Every element is a function of t: the page exposes render(t) and headless
 Chrome captures it frame by frame (same idea as news-factory/motion.py), so a
@@ -187,9 +189,9 @@ def caption_cues(words, line_chars: int = 11, max_words: int = 6, max_lines: int
     """[{s, e, lines:[[(text, start, end), ...], ...]}] - at most 2 lines per cue,
     broken at punctuation and never between a number/determiner and its counter."""
     cues = []
-    for seg in words:
+    for n, seg in enumerate(words):
         for lines in _phrase_cues(seg, line_chars, max_words, max_lines):
-            cues.append({"s": lines[0][0].start, "e": lines[-1][-1].end,
+            cues.append({"s": lines[0][0].start, "e": lines[-1][-1].end, "seg": n,
                          "lines": [[(w.text, round(w.start, 3), round(w.end, 3)) for w in ln] for ln in lines]})
     # hold each phrase until the next one starts (no flicker between words)
     for a, b in zip(cues, cues[1:]):
@@ -200,6 +202,7 @@ def caption_cues(words, line_chars: int = 11, max_words: int = 6, max_lines: int
 # ─────────────────────────────────────────── HTML
 CSS = """
 @font-face { font-family: BH; src: url('FONT'); }
+@font-face { font-family: CAP; src: url('CAPFONT'); }
 * { margin:0; padding:0; box-sizing:border-box; }
 html, body { width:1080px; height:1920px; background:#000; overflow:hidden; }
 body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#fff; }
@@ -244,12 +247,35 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
 .bgv { position:absolute; left:0; top:0; width:1080px; height:960px; object-fit:cover; z-index:0; }
 .tag { position:absolute; right:18px; top:16px; z-index:4; font-family:'Noto Sans CJK KR','Malgun Gothic',sans-serif;
   font-weight:700; font-size:30px; color:#fff; background:rgba(0,0,0,.5); padding:4px 14px; border-radius:8px; }
-/* one-line caption laid over the bottom of the panel, like the reference: the picture keeps the panel */
+/* captions like @dolongcha (2026-10-08): up to 2 big lines in a see-through grey box laid over the
+   bottom of the picture, and the colour tells what the line is - narration white, the key action red,
+   someone's reported words yellow, a shouted line big yellow-orange, a sweet/sly line pink neon,
+   the closing reaction white with a black rim */
 #cap { position:absolute; left:0; right:0; top:1430px; height:0; z-index:9; }
-#cap .box { position:absolute; left:50%; bottom:30px; transform:translateX(-50%); background:rgba(0,0,0,.82);
-  padding:8px 24px 2px; border-radius:6px; text-align:center; font-size:62px; line-height:1.22; white-space:nowrap; }
-#cap span { color:#fff; }
-#cap span.on { color:#FFE14D; }
+#cap .box { position:absolute; left:50%; bottom:28px; transform:translateX(-50%); transform-origin:50% 100%;
+  background:rgba(40,40,40,.8); padding:8px 24px 0; border-radius:4px; text-align:center; color:#fff;
+  font-family:CAP, BH, 'Malgun Gothic', sans-serif; font-size:90px; line-height:1.14; white-space:nowrap;
+  -webkit-text-stroke:2px currentColor; }   /* Do Hyeon is lighter than the reference's caption face */
+#cap .box.hit { color:#FF7B6E; }
+#cap .box.quote { color:#FFE14D; }
+#cap .box.shout, #cap .box.sweet, #cap .box.react { background:none; padding:0 16px; -webkit-text-stroke:0; }
+#cap .ol { position:absolute; inset:0; padding:inherit; z-index:0; }
+#cap .fg { position:relative; z-index:1; }
+#cap .box.shout { font-family:BH, sans-serif; font-size:96px; line-height:1.14; }
+#cap .shout .ol { color:#4a1800; -webkit-text-stroke:24px #4a1800; text-shadow:0 10px 0 rgba(0,0,0,.35); }
+#cap .shout .fg .ln { background:linear-gradient(180deg,#FFF7A8 0%,#FFD43B 48%,#FF8F1F 100%);
+  -webkit-background-clip:text; background-clip:text; color:transparent; }
+#cap .box.sweet { font-size:84px; }
+#cap .sweet .ol { color:#fff; -webkit-text-stroke:14px #fff; filter:drop-shadow(0 0 10px #ff5fd6) drop-shadow(0 0 22px #ff5fd6); }
+#cap .sweet .fg { color:#F23BC4; }
+#cap .box.react { font-family:BH, sans-serif; font-size:90px; }
+#cap .react .ol { color:#111; -webkit-text-stroke:20px #111; }
+#cap .react .fg { color:#fff; }
+/* white flash for a reveal cut, and the sparkle stars of fx 'sparkle' */
+#flash { position:absolute; inset:0; background:#fff; opacity:0; z-index:8; pointer-events:none; }
+.spk { position:absolute; width:96px; height:96px; margin:-48px 0 0 -48px; background:#FFF6B0; opacity:0;
+  clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);
+  filter:drop-shadow(0 0 10px #FFD400); }
 """
 
 JS = r"""
@@ -264,6 +290,7 @@ const cam = document.getElementById('cam');
 const panel = document.getElementById('panel');
 const credit = document.getElementById('credit');
 const capEl = document.getElementById('cap');
+const flashEl = document.getElementById('flash');
 let lastCue = -2;
 
 function fmtNum(v, dec) { const s = v.toFixed(dec); const [a, b] = s.split('.');
@@ -286,7 +313,14 @@ function item(el, d, t, s) {
     case 'stamp': sc = 2.6 - 1.6 * eo(p * 1.4); op = C(p * 4); rot = -9; break;
     case 'run-left': x = d.x + 260 - 520 * C(life / Math.max(.8, s.end - t0)); op = C(p * 3); y += Math.abs(Math.sin(life * 9)) * -14; break;
     case 'run-right': x = d.x - 260 + 520 * C(life / Math.max(.8, s.end - t0)); op = C(p * 3); y += Math.abs(Math.sin(life * 9)) * -14; break;
+    case 'sparkle': sc = .8 + .2 * eo(p); op = eo(p * 1.3); break;
     default: sc = .35 + .65 * eb(p); op = C(p * 3);
+  }
+  if (d.fx === 'sparkle') {   // stars twinkle around the picture for ~1.6 s, then fade out
+    const stars = el.querySelectorAll('.spk'), fade = C(1 - (life - 1.2) / .5);
+    stars.forEach((st, m) => { const ph = life * 7 + m * 1.9, a = Math.abs(Math.sin(ph));
+      st.style.opacity = (C(life * 4) * fade * (.25 + .75 * a)).toFixed(3);
+      st.style.transform = `scale(${(.35 + .85 * a).toFixed(3)}) rotate(${(life * 60 + m * 40) % 360}deg)`; });
   }
   // idle life: illustrations breathe so nothing on screen is ever frozen
   if (d.type === 'illust' || d.type === 'emoji') { y += Math.sin(life * 2.4 + d.seed) * 6; sc *= 1 + Math.sin(life * 1.7 + d.seed) * .012; }
@@ -303,17 +337,35 @@ function item(el, d, t, s) {
   }
 }
 
+const TR = .24;   // whoosh transition length
+const OUTLINED = new Set(['shout', 'sweet', 'react']);   // drawn as a rim layer + a fill layer, no box
+
 window.render = function (t) {
-  let shake = 0;
+  let shake = 0, flash = 0;
   const waits = [];
   scenes.forEach((el, i) => {
-    const s = D.scenes[i];
-    const on = t >= s.start - D.lead && (i === scenes.length - 1 || t < D.scenes[i + 1].start - D.lead);
-    el.style.visibility = on ? 'visible' : 'hidden';
-    if (!on) return;
-    const pin = (t - (s.start - D.lead)) / .16;
-    el.style.transform = `scale(${1.05 - .05 * eo(pin) + .03 * C((t - s.start) / Math.max(1, s.end - s.start))})`;
-    el.style.transformOrigin = '540px 430px';
+    const s = D.scenes[i], nx = D.scenes[i + 1];
+    const t0 = s.start - D.lead, age = t - t0;
+    const on = t >= t0 && (!nx || t < nx.start - D.lead);
+    // a 'whoosh' cut keeps the old scene on screen for TR s, sliding out blurred under the new one
+    const out = !on && nx && nx.tr === 'whoosh' && t >= nx.start - D.lead && t < nx.start - D.lead + TR;
+    el.style.visibility = on || out ? 'visible' : 'hidden';
+    if (!on && !out) return;
+    const prog = C((t - s.start) / Math.max(1, s.end - s.start));
+    let z = 1.05 - .05 * eo(age / .16) + .03 * prog, tx = 0, blur = 0, op = 1, ox = 540, oy = 430;
+    if (s.cam === 'punch') { z = 1 + .3 * eo(age / .18); ox = s.focus[0]; oy = s.focus[1];
+      if (on && age < .35) shake = Math.max(shake, .7 * (1 - age / .35)); }
+    else if (s.cam === 'push') z = 1 + .16 * prog * prog * (3 - 2 * prog);
+    else if (s.cam === 'pull') z = 1.2 - .2 * eo(age / Math.max(.8, s.end - t0));
+    if (on && s.tr === 'whoosh' && age < TR) { const k = age / TR; tx = 640 * (1 - eo(k)); blur = 18 * (1 - k); }
+    if (on && s.tr === 'flash' && age < .26) flash = 1 - age / .26;
+    if (out) { const k = (t - (nx.start - D.lead)) / TR; tx = -640 * eo(k); blur = 18 * k; op = 1 - k; }
+    el.style.transform = `translateX(${tx.toFixed(1)}px) scale(${z.toFixed(4)})`;
+    el.style.transformOrigin = `${ox}px ${oy}px`;
+    el.style.filter = blur > .3 ? `blur(${blur.toFixed(1)}px)` : '';
+    el.style.opacity = op;
+    el.style.zIndex = out ? 0 : 1;
+    if (out) { s.items.forEach((d, j) => item(el.children[j], d, t, s)); return; }
     panel.style.background = s.bg;
     credit.className = s.dark ? 'dark' : '';
     if (s.clip) {   // stock clip: next frame (loops if the sentence outlasts the clip)
@@ -328,19 +380,29 @@ window.render = function (t) {
       if (k >= 0 && k < .3) shake = Math.max(shake, 1 - k / .3); } });
   });
   cam.style.transform = shake ? `translate(${Math.sin(t * 90) * 16 * shake}px, ${Math.cos(t * 75) * 12 * shake}px)` : '';
-  // captions
+  flashEl.style.opacity = flash.toFixed(3);
+  // captions: the whole phrase at once (no word highlight - the colour already means something)
   let k = -1;
   for (let i = 0; i < D.caps.length; i++) if (t >= D.caps[i].s - .05 && t < D.caps[i].e) { k = i; break; }
   if (k !== lastCue) {
-    capEl.innerHTML = k < 0 ? '' : '<div class="box">' + D.caps[k].lines.map(
-      ln => ln.map(w => `<span>${w[0]}</span>`).join(' ')).join('<br>') + '</div>';
+    capEl.innerHTML = '';
+    if (k >= 0) {
+      const c = D.caps[k], st = c.st || 'narr';
+      const lines = c.lines.map(ln => '<div class="ln">' + ln.map(w => w[0]).join(' ') + '</div>').join('');
+      capEl.innerHTML = `<div class="box ${st}">` + (OUTLINED.has(st) ? `<div class="ol">${lines}</div><div class="fg">${lines}</div>` : lines) + '</div>';
+      const box = capEl.firstChild;
+      box.dataset.fit = Math.min(1, 1030 / box.offsetWidth);   // never wider than the frame
+    }
     lastCue = k;
   }
   if (k >= 0) {
-    const box = capEl.firstChild, p = (t - D.caps[k].s + .05) / .14;
-    box.style.transform = `translateX(-50%) scale(${.92 + .08 * eo(p)})`;
-    const spans = box.querySelectorAll('span'); let n = 0;
-    D.caps[k].lines.forEach(ln => ln.forEach(w => { spans[n].className = t >= w[1] - .03 ? 'on' : ''; n++; }));
+    const c = D.caps[k], box = capEl.firstChild, fit = +box.dataset.fit, a = t - c.s + .05;
+    let sc = .92 + .08 * eo(a / .14), dx = 0, dy = 0, op = 1;
+    if (c.st === 'shout') { sc = 1.5 - .5 * eb(a / .2); const q = Math.max(0, 1 - a / .35);
+      dx = Math.sin(t * 80) * 12 * q; dy = Math.cos(t * 67) * 7 * q; }
+    else if (c.st === 'sweet') { sc = .9 + .1 * eo(a / .3); op = C(a / .2); dy = Math.sin(a * 3.2) * 5; }
+    box.style.opacity = op;
+    box.style.transform = `translate(calc(-50% + ${dx.toFixed(1)}px), ${dy.toFixed(1)}px) scale(${(sc * fit).toFixed(4)})`;
   }
   return Promise.all(waits);   // capture waits until the clip frame is decoded
 };
@@ -376,8 +438,12 @@ def _fit(path, side: int) -> tuple[int, int]:
     return int(side * ar), side
 
 
-CAP_BOX_LINE, CAP_BOX_PAD, CAP_BOTTOM = 62 * 1.22, 10, 30   # mirrors #cap .box in CSS
+CAP_BOX_LINE, CAP_BOX_PAD, CAP_BOTTOM = 90 * 1.14, 8, 28   # mirrors #cap .box in CSS
 ZOOM_ROOM = 30      # the camera zooms up to 1.08x around y=430 - the bottom edge drifts ~25 px
+CAP_OVERLAP = 150   # pictures run on behind the caption box like the reference (it covers their feet, not words)
+CAPS = {"narr", "hit", "quote", "shout", "sweet", "react"}
+CAMS = {"punch", "push", "pull"}
+TRS = {"whoosh", "flash"}
 
 
 def _item_floor(cues, st, en) -> float:
@@ -412,7 +478,7 @@ def _unstack(data, floor) -> None:
         placed.append(d)
 
 
-def _separate(parts, data, pics, floor) -> None:
+def _separate(parts, data, pics, floor, pfloor=None) -> None:
     """A picture must not sit under the words above it: when text items overlap it by
     more than ~12% of their height, move the picture below all of them (shrinking an
     illustration to the free band above the caption box). Stamps are skipped - they are
@@ -431,9 +497,10 @@ def _separate(parts, data, pics, floor) -> None:
             t_top, t_bot = td["y"] - td["h"] / 2, td["y"] + td["h"] / 2
             if min(t_bot, p_bot) - max(t_top, p_top) > 0.12 * td["h"]:
                 lo = max(lo, t_bot + 6)
-        if not lo or floor - lo < 200:
+        fl = pfloor if pfloor and pd["h"] >= 420 else floor   # only big pictures may run on behind the caption
+        if not lo or fl - lo < 200:
             continue
-        band = floor - lo
+        band = fl - lo
         w, h = pd["w"], pd["h"]
         if h > band:
             if j not in pics:
@@ -503,6 +570,19 @@ def _hero(items: list, has_clip: bool, picker=None) -> list:
     return items
 
 
+def _stars(w: int, h: int, d: dict) -> str:
+    """Eight sparkle stars around an item with fx 'sparkle' (animated in JS item())."""
+    if d["fx"] != "sparkle":
+        return ""
+    import math
+    out = []
+    for m in range(10):
+        a = (m / 10 + d["seed"] * .037) * 2 * math.pi
+        r = .42 + .1 * ((m * 37 + d["seed"]) % 5) / 4
+        out.append(f'<div class="spk" style="left:{int(w / 2 + math.cos(a) * w * r)}px;top:{int(h / 2 + math.sin(a) * h * r)}px"></div>')
+    return "".join(out)
+
+
 def build(segments, visuals, times, cues, title, credit, picker, font_path, clips=None) -> tuple[str, list]:
     """segments: [{sfx}], visuals: [{bg, items}], times: [(start, end)],
     clips: per scene None or {dir, n} from stock.clip_frames (background footage)."""
@@ -514,8 +594,9 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
         bg_key = vis.get("bg", "white")
         parts, data = [], []
         pics = {}
-        floor = _item_floor(cues, st, en)
-        room = floor - 24      # usable height between the top margin and the caption box
+        floor = _item_floor(cues, st, en)                    # words stay above the caption box
+        pfloor = min(PANEL_H - 10, floor + CAP_OVERLAP)      # pictures may run on behind it
+        room = pfloor - 24     # usable picture height below the top margin
         for j, it in enumerate(items[:6]):
             typ = it.get("type", "text")
             cx, cy = POS.get(it.get("pos", "center"), POS["center"])
@@ -537,7 +618,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                     w, h = _fit(path, int(side * room / h))
                 d.update(w=w, h=h)
                 parts.append(f'<div class="it" style="width:{w}px;height:{h}px;z-index:{Z[typ]}">'
-                             f'<img src="{file_url(path)}"></div>')
+                             f'<img src="{file_url(path)}">{_stars(w, h, d)}</div>')
             elif typ == "crowd":
                 n = max(2, min(40, int(it.get("count", 10))))
                 cols = min(n, 10 if n > 20 else 6 if n > 6 else n)
@@ -551,7 +632,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                 side = min(int(SIZE.get(it.get("size", "m"), 400) * 0.8), int(room))
                 d.update(w=side, h=side)
                 parts.append(f'<div class="it emo" style="width:{side}px;height:{side}px;font-size:{int(side * .82)}px;'
-                             f'z-index:{Z["emoji"]}">{esc(it.get("text", ""))}</div>')
+                             f'z-index:{Z["emoji"]}">{esc(it.get("text", ""))}{_stars(side, side, d)}</div>')
             elif it.get("style") == "post":
                 text = str(it.get("text", ""))
                 longest = max((len(x) for x in text.split("\n")), default=1)
@@ -579,26 +660,36 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                              f'z-index:{Z["text"]};display:flex;align-items:center;justify-content:center">{esc(text)}</div>')
             # keep the item inside the panel: above the caption box of this scene
             # (drop starts 420 px above its resting place, so clamping the rest position is enough)
-            d["y"] = min(max(d["y"], d["h"] / 2 + 24), max(floor - d["h"] / 2, d["h"] / 2 + 24))
+            fl = pfloor if d["type"] != "text" and d["h"] >= 420 else floor   # small stickers stay in view
+            d["y"] = min(max(d["y"], d["h"] / 2 + 24), max(fl - d["h"] / 2, d["h"] / 2 + 24))
             margin = 60 if d["fx"] == "stamp" else 10   # a stamp lands rotated ~9 deg - its corners swing out
             d["x"] = min(max(d["x"], d["w"] / 2 + margin), W - d["w"] / 2 - margin) if d["w"] < W - 2 * margin else W / 2
             data.append(d)
         _unstack(data, floor)
-        _separate(parts, data, pics, floor)
+        _separate(parts, data, pics, floor, pfloor)
         clip = clips[i] if i < len(clips) else None
         if clip:   # after the items so el.children[j] still indexes them
             base = file_url(Path(clip["dir"]) / "f_")
             parts.append(f'<img class="bgv" src="{base}0001.jpg"><div class="tag">자료화면</div>')
         scenes_html.append(f'<div class="sc">{"".join(parts)}</div>')
+        # camera: a shouted line punches in on the main picture unless the script says otherwise
+        cam_mode = vis.get("cam") or ("punch" if seg.get("cap") == "shout" else "")
+        hero = next((d for d in data if d["type"] in ("illust", "crowd", "emoji")), None)
         scenes_data.append({"start": st, "end": en, "items": data, "bg": BG.get(bg_key, BG["white"]),
                             "dark": bg_key in ("night", "red"), "shake": seg.get("sfx") in SHAKE_SFX,
+                            "cam": cam_mode if cam_mode in CAMS else "", "tr": vis.get("tr") if vis.get("tr") in TRS else "",
+                            "focus": [round(hero["x"]), round(min(hero["y"], 600))] if hero else [540, 430],
                             "clip": {"base": base, "n": clip["n"]} if clip else None})
+    for c in cues:   # caption colour from the sentence it belongs to (old scripts: all narration)
+        c["st"] = segments[c["seg"]].get("cap", "narr") if c.get("seg", -1) < len(segments) else "narr"
+        c["st"] = c["st"] if c["st"] in CAPS else "narr"
     t1, t2 = title
-    css = CSS.replace("FONT", file_url(font_path))
+    cap_font = Path(font_path).with_name("DoHyeon-Regular.ttf")
+    css = CSS.replace("CAPFONT", file_url(cap_font if cap_font.exists() else font_path)).replace("FONT", file_url(font_path))
     payload = {"scenes": scenes_data, "caps": cues, "lead": LEAD, "fps": FPS}
     html = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>{css}</style></head><body>'
             f'<div id="title" style="font-size:{title_size([t1, t2])}px"><div>{esc(t1)}</div><div class="t2">{esc(t2)}</div></div>'
-            f'<div id="panel"><div id="credit">{esc(credit)}</div><div id="cam">{"".join(scenes_html)}</div></div>'
+            f'<div id="panel"><div id="credit">{esc(credit)}</div><div id="cam">{"".join(scenes_html)}</div><div id="flash"></div></div>'
             f'<div id="cap"></div><script>window.DATA={json.dumps(payload, ensure_ascii=False)};</script>'
             f'<script>{JS}</script></body></html>')
     return html, [s["start"] for s in scenes_data[1:]]

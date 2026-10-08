@@ -15,11 +15,12 @@ slots: ["07:00", "12:00", "18:00", "21:00"]   # 2026-10-05~ 시험: 하루 17편
 zoom_target: 1.06
 pin_top: 535
 
-# 자막: 2026-10-06 군림보처럼 한 줄(62px, 패널 아래에 얹음) - 그림이 패널을 다 쓰게
+# 자막: 2026-10-08 도롱차처럼 최대 두 줄(78px 도현체, 반투명 회색 상자를 그림 아랫부분에 얹음),
+# 문장의 cap 값으로 색이 바뀐다 (motion.py CSS #cap). 2026-10-06엔 한 줄 62px였는데 레퍼런스보다 1.5배 작았다
 fontsize: 74
-caption_words: 5
-caption_line_chars: 15
-caption_lines: 1
+caption_words: 7
+caption_line_chars: 13
+caption_lines: 2
 
 bgm: assets/bgm/sneaking_around.mp3   # OpenGameArt CC0
 bgm_gain_db: -10                      # 배경음악 크기 (클수록 큼, -16 이면 말소리에 묻혀 거의 안 들림)
