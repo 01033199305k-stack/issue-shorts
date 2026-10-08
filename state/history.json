@@ -1462,5 +1462,52 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-08_0700_kid-orders-jjajang-to-police/video.mp4"
   },
   "seconds": 488
+ },
+ {
+  "key": "2026-10-08-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-08T12:00:00+09:00",
+  "started": "2026-10-08T09:22:22.914264+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-58490/",
+   "https://pixabay.com/videos/id-13691/",
+   "https://pixabay.com/videos/id-50622/"
+  ],
+  "duration": 23.98,
+  "matches": [
+   0.88,
+   0.79,
+   0.9,
+   0.93,
+   0.94,
+   0.94,
+   1.0,
+   0.8
+  ],
+  "sfx": 6,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "4평짜리 채소가게에서 1년에 122억이 결제된 이유 #shorts",
+  "source_post": "https://biz.heraldcorp.com/article/10895770",
+  "facts_used": [
+   "광주 전통시장 협동조합 가맹점(4~5평 채소가게)의 지난해 온누리상품권 결제액 122억 원, 전국 가맹점 중 네 번째 — 헤럴드경제 2026-10-07 https://biz.heraldcorp.com/article/10895770 , 파이낸셜뉴스 2026-10-08 https://www.fnnews.com/news/202610080634299304 , 한국경제 https://www.hankyung.com/article/2026100793647 , SBS Biz https://biz.sbs.co.kr/article/20000338804",
+   "의원실이 등록 주소에서 물건을 사 보니 영수증에 가맹 협동조합이 아닌 다른 유통업체 이름이 찍힘 — 헤럴드경제 https://biz.heraldcorp.com/article/10895770 , 한국일보 2026-10-07 https://www.hankookilbo.com/news/article/A2026100717220003261",
+   "온누리상품권 현금화('온누리깡') 의혹 — 한국일보 https://www.hankookilbo.com/news/article/A2026100717220003261 , 재경일보 https://news.jkn.co.kr/post/1011214",
+   "중기부가 국세청 등 관계기관과 조사하기로 함 — 헤럴드경제, SBS Biz, 뉴스토마토 https://www.newstomato.com/ReadNews.aspx?no=1315942 , 파이낸셜뉴스"
+  ],
+  "slug": "2026-10-08_1200_tiny-vegetable-shop-12-billion",
+  "late": false,
+  "video_id": "NjUFw2GueVQ",
+  "url": "https://youtube.com/shorts/NjUFw2GueVQ",
+  "privacy": "private",
+  "scheduled_for": "2026-10-08T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ac6e3fb2977c961bdbe05cb",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-08T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-08_1200_tiny-vegetable-shop-12-billion/video.mp4"
+  },
+  "seconds": 445
  }
 ]
