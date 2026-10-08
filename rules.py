@@ -300,6 +300,10 @@ def lint(script: dict) -> list[str]:
         p.append("segment 0: the post-card title is read as plain narration - no cap")
     if any(c == "react" for c in caps[:-2]):
         p.append("cap 'react' is the closing reaction - only in the last two sentences")
+    for i, s in enumerate(segs):   # shout/react are drawn huge: a long sentence turns into a stream of bursts
+        if s.get("cap") in ("shout", "react") and len(s.get("text", "")) > 18:
+            p.append(f"segment {i}: cap {s['cap']!r} wants a short line (max 18 chars, like \"너 한 번만 더 울어!\"), "
+                     f"got {len(s['text'])} - split the narration off into its own sentence")
     trs = [(s.get("visual") or {}).get("tr") for s in segs]
     if trs.count("whoosh") > 3 or trs.count("flash") > 1:
         p.append(f"{trs.count('whoosh')} whoosh / {trs.count('flash')} flash cuts - max 3 whoosh and 1 flash (a reveal) per video")

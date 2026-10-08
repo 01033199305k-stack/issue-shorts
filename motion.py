@@ -185,12 +185,19 @@ def _phrase_cues(words, line_chars: int, max_words: int, max_lines: int = 2):
     return out[::-1]
 
 
-def caption_cues(words, line_chars: int = 11, max_words: int = 6, max_lines: int = 2) -> list[dict]:
+# a shouted line is cut into short one-line bursts and drawn huge (@dolongcha: "너 한 번만 더 울어" = one
+# line, 87 px glyphs, 806 px wide); the closing reaction gets short big lines too
+CUE_SHAPE = {"shout": (9, 4, 1), "react": (12, 6, 2)}   # line_chars, max_words, max_lines
+
+
+def caption_cues(words, line_chars: int = 11, max_words: int = 6, max_lines: int = 2, styles=None) -> list[dict]:
     """[{s, e, lines:[[(text, start, end), ...], ...]}] - at most 2 lines per cue,
-    broken at punctuation and never between a number/determiner and its counter."""
+    broken at punctuation and never between a number/determiner and its counter.
+    styles: each sentence's cap (shout/react cues are cut shorter - CUE_SHAPE)."""
     cues = []
     for n, seg in enumerate(words):
-        for lines in _phrase_cues(seg, line_chars, max_words, max_lines):
+        shape = CUE_SHAPE.get((styles or [])[n] if n < len(styles or []) else None, (line_chars, max_words, max_lines))
+        for lines in _phrase_cues(seg, *shape):
             cues.append({"s": lines[0][0].start, "e": lines[-1][-1].end, "seg": n,
                          "lines": [[(w.text, round(w.start, 3), round(w.end, 3)) for w in ln] for ln in lines]})
     # hold each phrase until the next one starts (no flicker between words)
@@ -261,15 +268,15 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
 #cap .box.shout, #cap .box.sweet, #cap .box.react { background:none; padding:0 16px; -webkit-text-stroke:0; }
 #cap .ol { position:absolute; inset:0; padding:inherit; z-index:0; }
 #cap .fg { position:relative; z-index:1; }
-#cap .box.shout { font-family:BH, sans-serif; font-size:96px; line-height:1.14; }
-#cap .shout .ol { color:#4a1800; -webkit-text-stroke:24px #4a1800; text-shadow:0 10px 0 rgba(0,0,0,.35); }
+#cap .box.shout { font-family:BH, sans-serif; font-size:146px; line-height:1.1; }
+#cap .shout .ol { color:#4a1800; -webkit-text-stroke:32px #4a1800; text-shadow:0 12px 0 rgba(0,0,0,.35); }
 #cap .shout .fg .ln { background:linear-gradient(180deg,#FFF7A8 0%,#FFD43B 48%,#FF8F1F 100%);
   -webkit-background-clip:text; background-clip:text; color:transparent; }
 #cap .box.sweet { font-size:84px; }
 #cap .sweet .ol { color:#fff; -webkit-text-stroke:14px #fff; filter:drop-shadow(0 0 10px #ff5fd6) drop-shadow(0 0 22px #ff5fd6); }
 #cap .sweet .fg { color:#F23BC4; }
-#cap .box.react { font-family:BH, sans-serif; font-size:90px; }
-#cap .react .ol { color:#111; -webkit-text-stroke:20px #111; }
+#cap .box.react { font-family:BH, sans-serif; font-size:108px; }
+#cap .react .ol { color:#111; -webkit-text-stroke:24px #111; }
 #cap .react .fg { color:#fff; }
 /* white flash for a reveal cut, and the sparkle stars of fx 'sparkle' */
 #flash { position:absolute; inset:0; background:#fff; opacity:0; z-index:8; pointer-events:none; }

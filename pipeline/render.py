@@ -62,7 +62,7 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
 
     visuals = [seg.get("visual") or motion.card_to_visual(seg.get("card") or {}) for seg in segments]
     cues = motion.caption_cues(words, int(cfg.get("caption_line_chars", 11)), int(cfg.get("caption_words", 6)),
-                               int(cfg.get("caption_lines", 2)))
+                               int(cfg.get("caption_lines", 2)), [seg.get("cap") for seg in segments])
     picker = Picker()
     used_clips: set = set()
     clips = []
