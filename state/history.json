@@ -1509,5 +1509,51 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-08_1200_tiny-vegetable-shop-12-billion/video.mp4"
   },
   "seconds": 445
+ },
+ {
+  "key": "2026-10-08-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-08T18:00:00+09:00",
+  "started": "2026-10-08T15:17:05.903812+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-537/",
+   "https://pixabay.com/videos/id-7263/"
+  ],
+  "duration": 20.9,
+  "matches": [
+   1.0,
+   0.98,
+   0.95,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   0.94
+  ],
+  "sfx": 6,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "이름도 생일도 똑같은 남자와 결혼한 여자에게 생긴 일 #shorts",
+  "source_post": "https://n.news.naver.com/article/277/0005826039",
+  "facts_used": [
+   "부부 둘 다 이름 '이도경', 생년월일도 같음(혼인신고 서류) — 뉴시스 2026-10-02 https://www.newsis.com/view/NISX20261002_0003811825 , 아시아경제 2026-10-08 https://view.asiae.co.kr/article/2026100808335666718 , 머니투데이 2026-10-06 https://www.mt.co.kr/society/2026/10/06/2026100614465968691",
+   "고교 시절 같은 학교에 이름·생일 같은 학생이 있다는 걸 알게 됨(이후 교제, 10년 연애 끝 결혼) — 뉴시스 2026-10-02 https://www.newsis.com/view/NISX20261002_0003811825 , 머니투데이 2026-10-06 https://www.mt.co.kr/society/2026/10/06/2026100614465968691 , 인사이트 https://www.insight.co.kr/news/576588",
+   "전입신고가 온라인으로 처리되지 않아 주민센터 직접 방문 — 뉴시스 2026-10-02 https://www.newsis.com/view/NISX20261002_0003811825 , 아시아경제 2026-10-08 https://view.asiae.co.kr/article/2026100808335666718",
+   "상견례 선물 이름 새긴 술병을 식당이 같은 이름 두 번은 실수라 여겨 다른 이름으로 제작 — 뉴시스 2026-10-02 https://www.newsis.com/view/NISX20261002_0003811825 , 아시아경제 2026-10-08 https://view.asiae.co.kr/article/2026100808335666718"
+  ],
+  "slug": "2026-10-08_1800_same-name-same-birthday-couple",
+  "late": false,
+  "video_id": "npcr00U0abo",
+  "url": "https://youtube.com/shorts/npcr00U0abo",
+  "privacy": "private",
+  "scheduled_for": "2026-10-08T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ac737334d6e245e2a56418d",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-08T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-08_1800_same-name-same-birthday-couple/video.mp4"
+  },
+  "seconds": 466
  }
 ]
