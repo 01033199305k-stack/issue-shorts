@@ -1,0 +1,306 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "wallet-lost-51-years-hamlet",
+ "title_lines": [
+  "51년 만에 나온",
+  "고딩 시절 지갑"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "51년 전 잃어버린 지갑을 열어 봤더니",
+   "say": "오십일 년 전 잃어버린 지갑을 열어 봤더니",
+   "sfx": "dudung",
+   "tone": "글 제목 읽어 주듯 또렷하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "51년 전 잃어버린\n지갑을 열어 봤더니",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "캐나다 목수가 집 바닥 밑에서 1975년 지갑을 찾음.",
+   "say": "캐나다 목수가 집 바닥 밑에서 천구백칠십오 년 지갑을 찾음.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "cam": "punch",
+    "video": [
+     "floor wooden boards",
+     "wood floor renovation",
+     "hammer nails wood"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "大工",
+       "大工 男性",
+       "リフォーム"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 안에 든 게 타임캡슐 수준임.",
+   "say": "근데 안에 든 게 타임캡슐 수준임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "財布",
+       "財布 革",
+       "お財布"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "학생증, 면허증, 1달러 지폐가 그대로였음.",
+   "say": "학생증, 면허증, 일 달러 지폐가 그대로였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "video": [
+     "dollar bills",
+     "money cash counting",
+     "cash banknotes"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "高校生 男子",
+       "学生 男子",
+       "高校生"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "drop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 손으로 쓴 출생증명서까지 있었음.",
+   "say": "심지어 손으로 쓴 출생증명서까지 있었음.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "赤ちゃん",
+       "赤ちゃん 寝る",
+       "新生児"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "📜",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 진짜 미스터리는 햄릿 연극 티켓임.",
+   "say": "자, 진짜 미스터리는 햄릿 연극 티켓임.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "cam": "push",
+    "video": [
+     "theater stage curtain",
+     "stage curtain red",
+     "theatre seats"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "演劇",
+       "劇場",
+       "舞台 役者"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니, 68살 주인은 그 연극 본 기억이 없음.",
+   "say": "아니, 예순여덟 살 주인은 그 연극 본 기억이 없음.",
+   "sfx": "absurd",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える おじいさん",
+       "おじいさん 疑問",
+       "おじいさん"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들 지갑엔 지금 뭐 들어 있음?",
+   "say": "님들 지갑엔 지금 뭐 들어 있음?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "財布",
+       "財布 革",
+       "お財布"
+      ],
+      "pos": "left",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "님들 지갑은?",
+      "style": "label",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "① 영수증 뭉치",
+      "style": "row",
+      "pos": "right",
+      "at": 0.3,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "text": "② 카드 한 장뿐",
+      "style": "row",
+      "pos": "bottom-right",
+      "at": 0.55,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "51년 만에 집 바닥 밑에서 나온 고등학생 지갑 속 물건 #shorts",
+  "description": "캐나다 노바스코샤 다트머스에서 집을 고치던 목수가 마룻바닥 밑에서 1975년에 잃어버린 지갑을 찾았음.\n안에는 고등학교 학생증, 운전면허증, 손으로 쓴 출생증명서, 1달러 지폐, 1975년 햄릿 연극 티켓이 그대로 있었다고 함.\n목수의 SNS 글을 본 주인의 아내가 알아봤고, 지갑은 사흘 뒤 68살 주인에게 돌아감. 정작 주인은 그 연극을 본 기억이 없다고 함.\n\n※ AI 음성으로 제작했습니다.\n#지갑 #51년 #타임캡슐 #캐나다 #썰 #shorts",
+  "tags": [
+   "지갑",
+   "잃어버린 지갑",
+   "51년 만에",
+   "타임캡슐",
+   "햄릿",
+   "캐나다",
+   "해외 토픽",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.cbc.ca/news/canada/nova-scotia/a-trip-down-memory-lane-n-s-man-reunited-with-wallet-lost-51-years-ago-9.7364265",
+ "facts_used": [
+  "캐나다 노바스코샤 다트머스 빅토리아로드의 집을 고치던 목수(매티 골드스미스)가 바닥 밑에서 1975년 잃어버린 지갑 발견 — CBC 2026-10-01 https://www.cbc.ca/news/canada/nova-scotia/a-trip-down-memory-lane-n-s-man-reunited-with-wallet-lost-51-years-ago-9.7364265 , UPI 2026-10-06 https://www.upi.com/Odd_News/2026/10/06/canada-dartmouth-nova-scotia-lost-wallet-51-years/7671791307060",
+  "내용물: 다트머스 고교 학생증, 운전면허증, 손으로 쓴 출생증명서, 1달러 지폐, 1975년 햄릿 공연 티켓 — UPI 2026-10-06, CBC 2026-10-01, People(야후 라이프스타일) https://www.yahoo.com/lifestyle/articles/man-reunited-high-school-wallet-121546347.html",
+  "목수의 SNS 글을 본 주인 아내 도나 길로이가 알아보고 댓글, 사흘 뒤 68살 리처드 길로이에게 반환 — UPI 2026-10-06, CBC 2026-10-01",
+  "길로이는 1975년 햄릿을 본 기억이 없다고 함(티켓값 1.5달러엔 놀라움, 전부 액자에 넣어 전시할 계획) — UPI 2026-10-06, People"
+ ],
+ "brief": "점수표: 51년 만에 바닥 밑에서 나온 지갑(이게됨4+궁금증4+공감4+대상3=15) / 김제 지평선축제 김밥 300여명 식중독 의심(3+3+4+4=14, 피해 사건이고 원인 미확정이라 썰톤 부적합) / 국제우주정거장 피카츄 인형(3+2+1+4=10) / 영국 1.3톤 호박 기록(3+2+1+3=9) / 젓가락질 트윗 인용 6천(2+3+3+4=12, 기사 확인 안 됨) — inbox 상위는 우크라 대사 소환·미사일·국감 등 정치라 0점. 첫장면: 의외. 훅 3안: ①'캐나다 목수가 집 바닥을 뜯다가 1975년 지갑을 찾음'(선택: 장면이 바로 그려지고 연도가 제목보다 한 발 더) ②'51년 동안 마룻바닥 밑에 숨어 있던 지갑이 나옴' ③'고등학생 때 잃어버린 지갑이 68살에 돌아옴'. 글 카드 3안: '51년 전 잃어버린 지갑을 열어 봤더니'(선택: 안에 뭐가? 궁금증) / '고딩 때 잃어버린 지갑이 51년 만에 돌아옴' / '집 바닥 밑에서 나온 1975년 지갑'. 제목줄 '51년 만에 나온/고딩 시절 지갑'. 확인된 사실(CBC 10/1, UPI 10/6, People): 다트머스 빅토리아로드 주택 리모델링 중 목수 매티 골드스미스가 바닥 밑에서 발견, 9/23 SNS 게시, 아내 도나가 알아봄, 사흘 뒤 리처드 길로이(68)에게 반환, 학생증·면허증·손글씨 출생증명서·1달러·1975년 햄릿 티켓(1.5달러), 본 기억 없음, 출생증명서가 왜 지갑에 있었는지도 모름, 액자로 전시 예정. 버린 디테일: 지갑이 어떻게 그 집 바닥 밑에 들어갔는지(작업팀 추측뿐, 확인 안 됨). 주의: 해피 사연, 실명은 화면·설명에 쓰지 않음."
+}
