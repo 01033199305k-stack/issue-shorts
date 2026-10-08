@@ -1,64 +1,58 @@
 {
- "detected_at": "2026-10-08T22:20+09:00",
+ "detected_at": "2026-10-09T08:57+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "(속보) 외교부, 주우크라이나 대사 한국 소환 결정",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1038296",
-   "board": "보배드림 베스트",
-   "why": "커뮤니티 3곳 동시 화제 + 기사화(KBS)",
-   "news": [
-    {
-     "url": "https://n.news.naver.com/article/056/0012270277",
-     "headline": "정부 “박기창 주우크라이나 대사, 본국 소환 결정”"
-    }
-   ]
-  },
-  {
    "kind": "news",
-   "title": "“李에 화 많이 났다”던 이화영, 이번엔 “대통령님 고뇌 공감”",
-   "url": "https://n.news.naver.com/article/023/0004002840",
-   "press": "조선일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "與 정청래, 美 비자 함흥차사에 국감 행선지 유럽으로 변경",
+   "url": "https://n.news.naver.com/article/005/0001877665",
+   "press": "국민일보",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "경향신문",
-     "title": "이화영 ‘이 대통령에 화났다’ 보도 해명···“제 진의와 달라 정정, 대통령 고뇌 공감”",
-     "url": "https://n.news.naver.com/article/032/0003475199"
+     "press": "연합뉴스",
+     "title": "정청래, 美 비자 안나오자…외통위 국감 '미국→유럽行' 변경(종합2보)",
+     "url": "https://n.news.naver.com/article/001/0016367055"
     },
     {
-     "press": "SBS",
-     "title": "[단독] 이화영 '옥중 입장문' 입수…\"대통령님 고뇌 공감, 법원 개혁해야\"",
-     "url": "https://n.news.naver.com/article/055/0001394077"
+     "press": "동아일보",
+     "title": "정청래, 美비자 발급 지연… 유럽 공관 국감팀으로 변경",
+     "url": "https://n.news.naver.com/article/020/0003753851"
+    },
+    {
+     "press": "서울경제",
+     "title": "정청래, 美 비자 발급 지연에 국감 출장지 변경…“유감스러워”",
+     "url": "https://n.news.naver.com/article/011/0004669623"
+    },
+    {
+     "press": "문화일보",
+     "title": "“이유 몰라” 정청래, 美비자 못받아…외통위 국감 미국→유럽 변경",
+     "url": "https://n.news.naver.com/article/021/0002824004"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "정청래, 美 비자발급 보류…외통위 미주반→구주반 이동",
-   "url": "https://n.news.naver.com/article/001/0016366954",
-   "press": "연합뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "윤석열·김건희, 구속이후 1년여간 영치금 21억원…“대통령 연봉 8배”",
+   "url": "https://n.news.naver.com/article/016/0002707232",
+   "press": "헤럴드경제",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "아시아경제",
-     "title": "[단독]美, 與정청래 비자발급 '거부'…외통위 국감 차질",
-     "url": "https://n.news.naver.com/article/277/0005826478"
+     "press": "연합뉴스TV",
+     "title": "윤석열·김건희, 1년여 동안 영치금 21억 원…\"대통령 연봉 8배\"",
+     "url": "https://n.news.naver.com/article/422/0000913932"
     },
     {
-     "press": "MBN",
-     "title": "[단독] \"정청래 의원, 외통위 미국 현장 국감 비자 발급 보류\"",
-     "url": "https://n.news.naver.com/article/057/0001972578"
+     "press": "노컷뉴스",
+     "title": "윤석열·김건희, 1년간 영치금 21.9억…대통령 연봉의 8배",
+     "url": "https://n.news.naver.com/article/079/0004197185"
+    },
+    {
+     "press": "강원일보",
+     "title": "윤석열·김건희 부부 영치금 21억9천만원…대통령 연봉 8배 수준",
+     "url": "https://n.news.naver.com/article/087/0001222725"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] '김승원 브로커' 양 씨, 한동훈 의원 고소…韓 \"민주당 총공격인가\"",
-   "url": "https://n.news.naver.com/article/082/0001401775",
-   "press": "부산일보",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
