@@ -1695,5 +1695,51 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-09_1800_teacher-swear-word-misread/video.mp4"
   },
   "seconds": 356
+ },
+ {
+  "key": "2026-10-10-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-10T07:00:00+09:00",
+  "started": "2026-10-10T04:21:17.265475+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-136458/",
+   "https://pixabay.com/videos/id-72883/"
+  ],
+  "duration": 23.63,
+  "matches": [
+   0.97,
+   0.89,
+   0.97,
+   0.85,
+   1.0,
+   1.0,
+   1.0,
+   0.97
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "입으로 개 간식 주다 물린 카페 직원이 받게 된 돈 #shorts",
+  "source_post": "https://n.news.naver.com/article/005/0001877751",
+  "facts_used": [
+   "2023년 7월 서울 종로구 카페에서 직원 A씨(당시 27세)가 손님 견주가 데려온 진도 믹스견에게 처음엔 손으로, 이후 간식을 입에 물고 얼굴을 들이밀었다가 입술을 물림 — 국민일보 https://www.kmib.co.kr/article/view.asp?arcid=9000021232 , 아시아경제 2026-10-09 https://view.asiae.co.kr/article/2026100915045546463 , 한국경제 2026-10-09 https://www.hankyung.com/article/2026100929687 , 서울경제 https://m.sedaily.com/article/20099940",
+   "왼쪽 윗입술 흉터, 입술 비대칭 — 국민일보, 아시아경제, 한국경제",
+   "A씨가 1억 원 청구, 서울중앙지법 민사87단독이 견주 측 보험사에 6321만3111원 지급 판결 — 국민일보, 아시아경제, 한국경제, 서울경제, 인사이트 https://www.insight.co.kr/news/577136",
+   "재판부: 입에 간식을 물고 얼굴을 들이미는 건 일반적 행동으로 보기 어렵지만, 견주는 목줄을 짧게 잡거나 얼굴을 가까이 대는 게 위험하다고 알렸어야 함 — 국민일보, 아시아경제, 한국경제"
+  ],
+  "slug": "2026-10-10_0700_dog-treat-mouth-bite-cafe",
+  "late": false,
+  "video_id": "MFxNbynyhQA",
+  "url": "https://youtube.com/shorts/MFxNbynyhQA",
+  "privacy": "private",
+  "scheduled_for": "2026-10-09T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ac93ff9b07d37ac974c56db",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-09T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-10_0700_dog-treat-mouth-bite-cafe/video.mp4"
+  },
+  "seconds": 335
  }
 ]
