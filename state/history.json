@@ -1602,5 +1602,51 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-09_0700_wallet-lost-51-years-hamlet/video.mp4"
   },
   "seconds": 375
+ },
+ {
+  "key": "2026-10-09-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-09T12:00:00+09:00",
+  "started": "2026-10-09T09:24:57.546202+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-7012/",
+   "https://pixabay.com/videos/id-71017/",
+   "https://pixabay.com/videos/id-170300/"
+  ],
+  "duration": 22.64,
+  "matches": [
+   0.96,
+   0.9,
+   1.0,
+   0.98,
+   0.85,
+   0.93,
+   1.0,
+   0.88
+  ],
+  "sfx": 6,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "병원 25곳에서 거절당한 35주 산모가 아기 낳은 곳 #shorts",
+  "source_post": "https://www.segye.com/newsView/20261007518319",
+  "facts_used": [
+   "10월 1일 오전 2시 7분쯤 안성시 보개면 임신 35주 30대 산모가 '양수가 흐른다'며 119 신고 — 세계일보 2026-10-07 https://www.segye.com/newsView/20261007518319 , 한국경제TV 2026-10-08 https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610080018",
+   "경기 20곳·서울 1곳·충청권 3곳·전라권 1곳 등 25개 병원(고위험 산모·신생아 통합치료센터 21곳 포함) 수용 불가, 사유는 고위험 분만과 신생아 집중치료 의료진·병상 즉시 확보 어려움 — 세계일보 2026-10-07, 국민일보 https://www.kmib.co.kr/article/view.asp?arcid=9000020872&code=61121911&sid1=soc",
+   "오전 3시 30분께 전주 예수병원 수용, 소방헬기로 약 150km 이송해 오전 5시 16분께 도착, 응급 제왕절개로 산모·아기 무사 — 세계일보 2026-10-07 https://www.segye.com/newsView/20261007520253 , 한국경제TV 2026-10-08, 국민일보"
+  ],
+  "slug": "2026-10-09_1200_pregnant-25-hospitals-helicopter",
+  "late": false,
+  "video_id": "66kb2O-QBg8",
+  "url": "https://youtube.com/shorts/66kb2O-QBg8",
+  "privacy": "private",
+  "scheduled_for": "2026-10-09T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ac8361193f9e5101fe08e81",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-09T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-09_1200_pregnant-25-hospitals-helicopter/video.mp4"
+  },
+  "seconds": 440
  }
 ]
