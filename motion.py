@@ -263,8 +263,10 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
   background:rgba(40,40,40,.8); padding:8px 24px 0; border-radius:4px; text-align:center; color:#fff;
   font-family:CAP, BH, 'Malgun Gothic', sans-serif; font-size:90px; line-height:1.14; white-space:nowrap;
   -webkit-text-stroke:2px currentColor; }   /* Do Hyeon is lighter than the reference's caption face */
-#cap .box.hit { color:#FF7B6E; }
-#cap .box.quote { color:#FFE14D; }
+/* karaoke: the boxed lines start white and each word takes the line's colour as it is read -
+   yellow for narration and quotes, red for the key action (restored 2026-10-09) */
+#cap .box .w.on { color:#FFE14D; }
+#cap .box.hit .w.on { color:#FF7B6E; }
 #cap .box.shout, #cap .box.sweet, #cap .box.react { background:none; padding:0 16px; -webkit-text-stroke:0; }
 #cap .ol { position:absolute; inset:0; padding:inherit; z-index:0; }
 #cap .fg { position:relative; z-index:1; }
@@ -388,14 +390,15 @@ window.render = function (t) {
   });
   cam.style.transform = shake ? `translate(${Math.sin(t * 90) * 16 * shake}px, ${Math.cos(t * 75) * 12 * shake}px)` : '';
   flashEl.style.opacity = flash.toFixed(3);
-  // captions: the whole phrase at once (no word highlight - the colour already means something)
+  // captions: boxed lines light up word by word (karaoke); outlined ones land whole
   let k = -1;
   for (let i = 0; i < D.caps.length; i++) if (t >= D.caps[i].s - .05 && t < D.caps[i].e) { k = i; break; }
   if (k !== lastCue) {
     capEl.innerHTML = '';
     if (k >= 0) {
       const c = D.caps[k], st = c.st || 'narr';
-      const lines = c.lines.map(ln => '<div class="ln">' + ln.map(w => w[0]).join(' ') + '</div>').join('');
+      const word = OUTLINED.has(st) ? w => w[0] : w => `<span class="w">${w[0]}</span>`;
+      const lines = c.lines.map(ln => '<div class="ln">' + ln.map(word).join(' ') + '</div>').join('');
       capEl.innerHTML = `<div class="box ${st}">` + (OUTLINED.has(st) ? `<div class="ol">${lines}</div><div class="fg">${lines}</div>` : lines) + '</div>';
       const box = capEl.firstChild;
       box.dataset.fit = Math.min(1, 1030 / box.offsetWidth);   // never wider than the frame
@@ -408,6 +411,8 @@ window.render = function (t) {
     if (c.st === 'shout') { sc = 1.5 - .5 * eb(a / .2); const q = Math.max(0, 1 - a / .35);
       dx = Math.sin(t * 80) * 12 * q; dy = Math.cos(t * 67) * 7 * q; }
     else if (c.st === 'sweet') { sc = .9 + .1 * eo(a / .3); op = C(a / .2); dy = Math.sin(a * 3.2) * 5; }
+    if (!OUTLINED.has(c.st || 'narr')) { const ws = box.querySelectorAll('.w'); let n = 0;
+      c.lines.forEach(ln => ln.forEach(w => { ws[n++].classList.toggle('on', t >= w[1] - .03); })); }
     box.style.opacity = op;
     box.style.transform = `translate(calc(-50% + ${dx.toFixed(1)}px), ${dy.toFixed(1)}px) scale(${(sc * fit).toFixed(4)})`;
   }
