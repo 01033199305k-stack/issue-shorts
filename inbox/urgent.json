@@ -1,77 +1,51 @@
 {
- "detected_at": "2026-10-09T22:09+09:00",
+ "detected_at": "2026-10-10T08:13+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李대통령 \"능력 안되면서 큰자리 요구, 개혁 명분으로 내부공격(종합)",
-   "url": "https://n.news.naver.com/article/001/0016367885",
-   "press": "연합뉴스",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "채널A",
-     "title": "“능력도 안 되면서 큰 자리 요구”…이 대통령, 與 강경파 직격?",
-     "url": "https://n.news.naver.com/article/449/0000363563"
-    },
-    {
-     "press": "MBC",
-     "title": "이 대통령 \"능력도 안 되면서 큰 자리 요구‥개혁 내세워 내부 공격\"",
-     "url": "https://n.news.naver.com/article/214/0001528099"
-    },
-    {
-     "press": "국민일보",
-     "title": "李대통령 “능력 안되면서 큰자리 요구, 개혁 명분으로 내부공격”…與 강경파 겨눠",
-     "url": "https://n.news.naver.com/article/005/0001877778"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "이 대통령 \"능력도 안되면서 큰 자리 요구하며 내부 공격\"",
-     "url": "https://n.news.naver.com/article/422/0000914094"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "이 대통령, 범여권 반발 세력 겨냥 \"능력도 안 되면서 내부 공격\"",
-   "url": "https://n.news.naver.com/article/006/0000138127",
-   "press": "미디어오늘",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "채널A",
-     "title": "“능력도 안 되면서 큰 자리 요구”…이 대통령, 與 강경파 직격?",
-     "url": "https://n.news.naver.com/article/449/0000363563"
-    },
-    {
-     "press": "MBC",
-     "title": "이 대통령 \"능력도 안 되면서 큰 자리 요구‥개혁 내세워 내부 공격\"",
-     "url": "https://n.news.naver.com/article/214/0001528099"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "이 대통령 \"능력도 안되면서 큰 자리 요구하며 내부 공격\"",
-     "url": "https://n.news.naver.com/article/422/0000914094"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "이 대통령 \"급진 개혁 내세워 내부 공격\"…추미애 또 직격",
-   "url": "https://n.news.naver.com/article/057/0001972664",
-   "press": "MBN",
+   "title": "조경태, 노무현 전 대통령 묘소 참배…\"정치현실 대신 사죄\"",
+   "url": "https://n.news.naver.com/article/015/0005340948",
+   "press": "한국경제",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "MBC",
-     "title": "이 대통령 \"능력도 안 되면서 큰 자리 요구‥개혁 내세워 내부 공격\"",
-     "url": "https://n.news.naver.com/article/214/0001528099"
+     "press": "노컷뉴스",
+     "title": "국힘 조경태, 노무현 前대통령 묘역 참배…\"금도 무너진 정치 사죄\"",
+     "url": "https://n.news.naver.com/article/079/0004197297"
     },
     {
      "press": "연합뉴스TV",
-     "title": "이 대통령 \"능력도 안되면서 큰 자리 요구하며 내부 공격\"",
-     "url": "https://n.news.naver.com/article/422/0000914094"
+     "title": "국힘 조경태, 노무현 묘역 참배…\"증오·저주의 정치 현실 사죄\"",
+     "url": "https://n.news.naver.com/article/422/0000914136"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "나경원, 젤렌스키에 서한…“북한군 포로 한국행 허용에 감사”",
+   "url": "https://n.news.naver.com/article/028/0002826793",
+   "press": "한겨레",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "강원도민일보",
+     "title": "[속보] 나경원, 젤렌스키에 감사 서한…\"북한군 포로 한국행 허용, 대승적 결정\"",
+     "url": "https://n.news.naver.com/article/654/0000204540"
+    },
+    {
+     "press": "JTBC",
+     "title": "사과도 못 받았는데…나경원 \"젤렌스키에 감사 서한\"",
+     "url": "https://n.news.naver.com/article/437/0000514965"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 트럼프, “이란전 곧 끝난다 …푸틴과도 방금 통화”",
+   "url": "https://n.news.naver.com/article/029/0003052230",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
