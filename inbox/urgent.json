@@ -1,56 +1,70 @@
 {
- "detected_at": "2026-10-09T08:57+09:00",
+ "detected_at": "2026-10-09T15:01+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "與 정청래, 美 비자 함흥차사에 국감 행선지 유럽으로 변경",
-   "url": "https://n.news.naver.com/article/005/0001877665",
-   "press": "국민일보",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "title": "이 대통령 국정 지지율 37%, 갤럽 기준 취임 후 최저치 유지",
+   "url": "https://n.news.naver.com/article/214/0001528080",
+   "press": "MBC",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
    "related": [
     {
      "press": "연합뉴스",
-     "title": "정청래, 美 비자 안나오자…외통위 국감 '미국→유럽行' 변경(종합2보)",
-     "url": "https://n.news.naver.com/article/001/0016367055"
+     "title": "李대통령 지지율 37%…與 35%로 현 정부 출범 뒤 최저치[한국갤럽](종합)",
+     "url": "https://n.news.naver.com/article/001/0016367410"
     },
     {
-     "press": "동아일보",
-     "title": "정청래, 美비자 발급 지연… 유럽 공관 국감팀으로 변경",
-     "url": "https://n.news.naver.com/article/020/0003753851"
+     "press": "매일신문",
+     "title": "李대통령 지지율 37% '제자리'…민주당은 35%, 정부 출범 후 최저",
+     "url": "https://n.news.naver.com/article/088/0001033167"
     },
     {
-     "press": "서울경제",
-     "title": "정청래, 美 비자 발급 지연에 국감 출장지 변경…“유감스러워”",
-     "url": "https://n.news.naver.com/article/011/0004669623"
+     "press": "국민일보",
+     "title": "李대통령 지지율 37% 취임 후 최저…안보 부정 평가 3%→15% 급증",
+     "url": "https://n.news.naver.com/article/005/0001877761"
     },
     {
-     "press": "문화일보",
-     "title": "“이유 몰라” 정청래, 美비자 못받아…외통위 국감 미국→유럽 변경",
-     "url": "https://n.news.naver.com/article/021/0002824004"
+     "press": "디지털타임스",
+     "title": "李대통령 지지율 37%…與 35% 현 정부 최저",
+     "url": "https://n.news.naver.com/article/029/0003052202"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "윤석열·김건희, 구속이후 1년여간 영치금 21억원…“대통령 연봉 8배”",
-   "url": "https://n.news.naver.com/article/016/0002707232",
-   "press": "헤럴드경제",
+   "title": "[속보] 한동훈 “나라 위기인데 ‘한동훈’만 외쳐…민주당 정치 참 한심”",
+   "url": "https://n.news.naver.com/article/022/0004165367",
+   "press": "세계일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "강원일보",
+     "title": "[속보] 한동훈 “민주당, 한 달 넘게 나만 공격…떼거지로 외쳐도 할 일 계속할 것”",
+     "url": "https://n.news.naver.com/article/087/0001222736"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "與 지지율 35% 李정부 이후 최저치…국힘 26%",
+   "url": "https://n.news.naver.com/article/020/0003753882",
+   "press": "동아일보",
    "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스TV",
-     "title": "윤석열·김건희, 1년여 동안 영치금 21억 원…\"대통령 연봉 8배\"",
-     "url": "https://n.news.naver.com/article/422/0000913932"
+     "press": "연합뉴스",
+     "title": "李대통령 지지율 37%…與 35%로 현 정부 출범 뒤 최저치[한국갤럽](종합)",
+     "url": "https://n.news.naver.com/article/001/0016367410"
     },
     {
-     "press": "노컷뉴스",
-     "title": "윤석열·김건희, 1년간 영치금 21.9억…대통령 연봉의 8배",
-     "url": "https://n.news.naver.com/article/079/0004197185"
+     "press": "매일신문",
+     "title": "李대통령 지지율 37% '제자리'…민주당은 35%, 정부 출범 후 최저",
+     "url": "https://n.news.naver.com/article/088/0001033167"
     },
     {
-     "press": "강원일보",
-     "title": "윤석열·김건희 부부 영치금 21억9천만원…대통령 연봉 8배 수준",
-     "url": "https://n.news.naver.com/article/087/0001222725"
+     "press": "디지털타임스",
+     "title": "李대통령 지지율 37%…與 35% 현 정부 최저",
+     "url": "https://n.news.naver.com/article/029/0003052202"
     }
    ]
   }
