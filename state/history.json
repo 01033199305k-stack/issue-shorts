@@ -1648,5 +1648,52 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-09_1200_pregnant-25-hospitals-helicopter/video.mp4"
   },
   "seconds": 440
+ },
+ {
+  "key": "2026-10-09-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-09T18:00:00+09:00",
+  "started": "2026-10-09T15:23:18.985774+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-426/",
+   "https://pixabay.com/videos/id-106705/"
+  ],
+  "duration": 23.88,
+  "matches": [
+   1.0,
+   0.97,
+   0.84,
+   1.0,
+   0.94,
+   0.97,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "수업하다 욕한다는 말을 들은 선생님의 단어 #shorts",
+  "source_post": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008789992",
+  "facts_used": [
+   "교사가 '사건의 시발점'을 설명하자 학생이 '선생님이 왜 욕해요'라고 함(교총 2024 한글날 교사 설문 사례) — 서울신문 2024-10-07 https://m.seoul.co.kr/news/2024/10/07/20241007500096 , 세계일보 2024-10-08 https://www.segye.com/newsView/20241008519156",
+   "어린이집 '우천 시 장소 변경' 공지에 학부모가 '우천시에 있는 지역으로 바꾸냐'고 되물음 — 아시아경제 2024-07-04 https://cm.asiae.co.kr/article/2024070416214890617 , 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03299686645610952 , 세계일보 2024-08-27 https://www.segye.com/newsView/20240827501360",
+   "'금일'을 금요일로 알아들어 과제 제출을 못 할 뻔한 대학생 사례 — 아시아경제 2024-07-04, 이데일리, 파이낸셜뉴스 2026-10-09 https://www.fnnews.com/news/202610091315160467",
+   "교사노동조합연맹 설문, 교사 1356명 중 96.5%(1309명)가 최근 5년 새 학생 문해력 저하 응답 — 파이낸셜뉴스 2026-10-08 https://www.fnnews.com/news/202610081036488167 , 파이낸셜뉴스 2026-10-09, 교육언론창 https://www.educhang.co.kr/news/articleView.html?idxno=10122 , 뉴스핌 2026-10-08 https://www.newspim.com/news/view/20261008000602"
+  ],
+  "slug": "2026-10-09_1800_teacher-swear-word-misread",
+  "late": false,
+  "video_id": "-T_dLSwa3Y4",
+  "url": "https://youtube.com/shorts/-T_dLSwa3Y4",
+  "privacy": "private",
+  "scheduled_for": "2026-10-09T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ac889ba9db755aaaac92c50",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-09T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-09_1800_teacher-swear-word-misread/video.mp4"
+  },
+  "seconds": 356
  }
 ]
