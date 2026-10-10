@@ -1,49 +1,41 @@
 {
- "detected_at": "2026-10-10T08:13+09:00",
+ "detected_at": "2026-10-10T11:44+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "조경태, 노무현 전 대통령 묘소 참배…\"정치현실 대신 사죄\"",
-   "url": "https://n.news.naver.com/article/015/0005340948",
-   "press": "한국경제",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "노컷뉴스",
-     "title": "국힘 조경태, 노무현 前대통령 묘역 참배…\"금도 무너진 정치 사죄\"",
-     "url": "https://n.news.naver.com/article/079/0004197297"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "국힘 조경태, 노무현 묘역 참배…\"증오·저주의 정치 현실 사죄\"",
-     "url": "https://n.news.naver.com/article/422/0000914136"
-    }
-   ]
+   "title": "[속보] 장동혁 “이재명, 브라질산 계란 고가 수입도 ‘좌아’하게?”",
+   "url": "https://n.news.naver.com/article/021/0002824122",
+   "press": "문화일보",
+   "why": "[속보] 기사",
+   "related": []
   },
   {
    "kind": "news",
-   "title": "나경원, 젤렌스키에 서한…“북한군 포로 한국행 허용에 감사”",
-   "url": "https://n.news.naver.com/article/028/0002826793",
-   "press": "한겨레",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "강원도민일보",
-     "title": "[속보] 나경원, 젤렌스키에 감사 서한…\"북한군 포로 한국행 허용, 대승적 결정\"",
-     "url": "https://n.news.naver.com/article/654/0000204540"
-    },
-    {
-     "press": "JTBC",
-     "title": "사과도 못 받았는데…나경원 \"젤렌스키에 감사 서한\"",
-     "url": "https://n.news.naver.com/article/437/0000514965"
-    }
-   ]
+   "title": "[속보] 연일 장동혁 겨냥 조갑제 \"민주당 전략자산 장동혁 밀어내고 한동훈 지도 받아야 총선 승리\"",
+   "url": "https://n.news.naver.com/article/002/0002460311",
+   "press": "프레시안",
+   "why": "[속보] 기사",
+   "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] 트럼프, “이란전 곧 끝난다 …푸틴과도 방금 통화”",
-   "url": "https://n.news.naver.com/article/029/0003052230",
+   "title": "[속보]트럼프·푸틴 ‘경유딜’에 약오른 젤렌스키“푸틴 생일선물” 맹비난",
+   "url": "https://n.news.naver.com/article/029/0003052241",
    "press": "디지털타임스",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "연합뉴스",
+     "title": "젤렌스키, 트럼프·푸틴 '경유딜' 맹비난…\"푸틴 생일선물\"",
+     "url": "https://n.news.naver.com/article/001/0016368125"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 서울 어린이대공원역 인근서 70대가 몰던 택시 인도 돌진…40대 부부 덮쳐",
+   "url": "https://n.news.naver.com/article/087/0001222762",
+   "press": "강원일보",
    "why": "[속보] 기사",
    "related": []
   }
