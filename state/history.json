@@ -1741,5 +1741,51 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-10_0700_dog-treat-mouth-bite-cafe/video.mp4"
   },
   "seconds": 335
+ },
+ {
+  "key": "2026-10-10-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-10T18:00:00+09:00",
+  "started": "2026-10-10T15:21:53.300516+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-38116/",
+   "https://pixabay.com/videos/id-153915/"
+  ],
+  "duration": 22.88,
+  "matches": [
+   0.94,
+   0.94,
+   0.98,
+   1.0,
+   1.0,
+   0.95,
+   1.0,
+   0.88
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "아기 울음 때문에 선물 돌린 엄마 집 앞에 쌓인 것 #shorts",
+  "source_post": "https://www.etnews.com/20261009000023",
+  "facts_used": [
+   "산후조리원에서 돌아온 지 한 달여 된 부모 A씨가 밤낮없이 우는 아기 때문에 이웃에게 미안한 마음이 들어 주방세제 등 생필품과 손편지로 양해를 구함 — 전자신문 2026-10-09 https://www.etnews.com/20261009000023 , 머니투데이 2026-10-08 https://www.mt.co.kr/society/2026/10/08/2026100810092843358 , 파이낸셜뉴스 2026-10-08 https://www.fnnews.com/news/202610080614006667 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008788067",
+   "같은 (동) 라인 주민 전체에게 전달 — 전자신문, 머니투데이(서플 재게재 https://supple.kr/news/cmuz2n8at00ici8vq2v2jhkwr)",
+   "며칠 뒤 현관 앞에 사과·김·쿠키 등 먹거리와 이웃들의 손편지가 놓임 — 전자신문, 머니투데이(서플 재게재)",
+   "이웃 편지 취지: 아기는 울면서 건강하게 크니 신경 쓰지 말라 — 전자신문, 머니투데이(서플 재게재), SBS"
+  ],
+  "slug": "2026-10-10_1800_baby-crying-neighbor-gift-reply",
+  "late": false,
+  "video_id": "r05pZpTsVAc",
+  "url": "https://youtube.com/shorts/r05pZpTsVAc",
+  "privacy": "private",
+  "scheduled_for": "2026-10-10T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ac9db24b07d37ac9762823b",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-10T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-10_1800_baby-crying-neighbor-gift-reply/video.mp4"
+  },
+  "seconds": 422
  }
 ]
