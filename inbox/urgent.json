@@ -1,22 +1,61 @@
 {
- "detected_at": "2026-10-11T00:51+09:00",
+ "detected_at": "2026-10-11T08:31+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "'젤렌스키에 감사서한' 보낸 나경원…\"매국\" 지적에 \"조선노동당인가\"",
-   "url": "https://n.news.naver.com/article/057/0001972743",
-   "press": "MBN",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "이 대통령 \"댓글 소통 조롱당한 노무현 떠올라… SNS 소통 계속할 것\"",
+   "url": "https://n.news.naver.com/article/469/0000958678",
+   "press": "한국일보",
+   "why": "언론사 7곳이 댓글 많은 기사 1위로",
    "related": [
     {
      "press": "연합뉴스",
-     "title": "與 \"젤렌스키에 감사서한은 매국\"…나경원 \"참 지독한 친북정권\"",
-     "url": "https://n.news.naver.com/article/001/0016368435"
+     "title": "李대통령 \"품격·권위 없다 비난하겠지만 SNS 소통 계속할 것\"",
+     "url": "https://n.news.naver.com/article/001/0016368565"
     },
     {
-     "press": "경향신문",
-     "title": "사과도 못 받았는데 ‘젤렌스키에 감사 서한’ 보낸 나경원···민주당 “매국행위” 나 의원 “조선노동당인가”",
-     "url": "https://n.news.naver.com/article/032/0003475447"
+     "press": "중앙일보",
+     "title": "李대통령 “품격 없다 비난해도 뒷골목 방문·SNS 소통 계속할 것”",
+     "url": "https://n.news.naver.com/article/025/0003556955"
+    },
+    {
+     "press": "국민일보",
+     "title": "李 \"SNS소통 계속할 것…댓글소통 조롱당한 노무현 떠올라\"",
+     "url": "https://n.news.naver.com/article/005/0001877874"
+    },
+    {
+     "press": "연합뉴스TV",
+     "title": "이 대통령 \"품격없다 비난해도 SNS 소통 계속할 것\"",
+     "url": "https://n.news.naver.com/article/422/0000914323"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "\"품격 없다 비난해도 계속할 것\" 李, 'SNS 메시지 정치' 비판 일축",
+   "url": "https://n.news.naver.com/article/660/0000118808",
+   "press": "kbc광주방송",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "연합뉴스",
+     "title": "李대통령 \"품격·권위 없다 비난하겠지만 SNS 소통 계속할 것\"",
+     "url": "https://n.news.naver.com/article/001/0016368565"
+    },
+    {
+     "press": "중앙일보",
+     "title": "李대통령 “품격 없다 비난해도 뒷골목 방문·SNS 소통 계속할 것”",
+     "url": "https://n.news.naver.com/article/025/0003556955"
+    },
+    {
+     "press": "연합뉴스TV",
+     "title": "이 대통령 \"품격없다 비난해도 SNS 소통 계속할 것\"",
+     "url": "https://n.news.naver.com/article/422/0000914323"
+    },
+    {
+     "press": "조선비즈",
+     "title": "李 대통령 “품격 없다 비난해도 SNS 소통 계속할 것”",
+     "url": "https://n.news.naver.com/article/366/0001197120"
     }
    ]
   }
