@@ -1787,5 +1787,50 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-10_1800_baby-crying-neighbor-gift-reply/video.mp4"
   },
   "seconds": 422
+ },
+ {
+  "key": "2026-10-11-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-11T07:00:00+09:00",
+  "started": "2026-10-11T04:21:58.204414+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-37844/",
+   "https://pixabay.com/videos/id-72883/"
+  ],
+  "duration": 23.09,
+  "matches": [
+   0.97,
+   0.95,
+   1.0,
+   0.98,
+   1.0,
+   1.0,
+   0.93,
+   1.0
+  ],
+  "sfx": 6,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "신호 한 번 어긴 운전자가 받은 8500만 원 청구서 #shorts",
+  "source_post": "https://n.news.naver.com/article/009/0005746503",
+  "facts_used": [
+   "신호위반 사고 운전자에게 건보공단이 8500만 원 청구, 법원 판단 받음 — 매일경제 [어쩌다 세상이] '“신호 위반했으니 8500만원 내라”…작심한 건보공단 청구에 법원은?' https://n.news.naver.com/article/009/0005746503 (네이버 댓글 많은 기사)",
+   "운전자가 신호 위반 사고로 크게 다쳐 치료비 약 8500만 원이 건강보험 급여로 처리됨, 공단이 12대 중과실이라며 전액 환수 통보, 운전자가 환수 고지 처분 취소 소송 내 원고 승소 — 재경일보 '신호위반 8500만원 토해내라더니…법원 제동' https://news.jkn.co.kr/post/1015037",
+   "법리: 신호위반만으로는 국민건강보험법상 급여 제한 사유인 '중대한 과실'로 단정할 수 없다 — 재경일보, 같은 취지 선행 판결 서울신문 2022-06-06 https://www.seoul.co.kr/news/society/law/2022/06/06/20220606500050 , 서울신문 2024-01-22 https://www.seoul.co.kr/news/society/law/2024/01/22/20240122500012"
+  ],
+  "slug": "2026-10-11_0700_red-light-health-insurance-bill",
+  "late": false,
+  "video_id": "keN52vwJ_nU",
+  "url": "https://youtube.com/shorts/keN52vwJ_nU",
+  "privacy": "private",
+  "scheduled_for": "2026-10-10T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6aca91e8ed92ed8fa5dd553a",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-10T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-11_0700_red-light-health-insurance-bill/video.mp4"
+  },
+  "seconds": 404
  }
 ]
