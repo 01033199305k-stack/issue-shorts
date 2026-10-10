@@ -1,43 +1,89 @@
 {
- "detected_at": "2026-10-10T11:44+09:00",
+ "detected_at": "2026-10-10T15:17+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 장동혁 “이재명, 브라질산 계란 고가 수입도 ‘좌아’하게?”",
-   "url": "https://n.news.naver.com/article/021/0002824122",
-   "press": "문화일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 연일 장동혁 겨냥 조갑제 \"민주당 전략자산 장동혁 밀어내고 한동훈 지도 받아야 총선 승리\"",
-   "url": "https://n.news.naver.com/article/002/0002460311",
-   "press": "프레시안",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보]트럼프·푸틴 ‘경유딜’에 약오른 젤렌스키“푸틴 생일선물” 맹비난",
-   "url": "https://n.news.naver.com/article/029/0003052241",
-   "press": "디지털타임스",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "‘노벨상 불발’ 트럼프, 완전 뿔났다···“내가 남북한 전쟁도 막고있어, 우리가 노벨상 8개 받았어야”",
+   "url": "https://n.news.naver.com/article/032/0003475436",
+   "press": "경향신문",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
      "press": "연합뉴스",
-     "title": "젤렌스키, 트럼프·푸틴 '경유딜' 맹비난…\"푸틴 생일선물\"",
-     "url": "https://n.news.naver.com/article/001/0016368125"
+     "title": "트럼프, 노벨상 불발 비판하며 \"내가 남북한 전쟁도 막고있어\"",
+     "url": "https://n.news.naver.com/article/001/0016368183"
+    },
+    {
+     "press": "SBS",
+     "title": "트럼프, 노벨상 불발 비판하며 \"내가 남북한 전쟁도 막고 있어\"",
+     "url": "https://n.news.naver.com/article/055/0001394401"
+    },
+    {
+     "press": "뉴시스",
+     "title": "트럼프, 노벨평화상 수상 불발에 \"노르웨이 오점, 내가 남북한 전쟁도 막아\"",
+     "url": "https://n.news.naver.com/article/003/0014244233"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 서울 어린이대공원역 인근서 70대가 몰던 택시 인도 돌진…40대 부부 덮쳐",
-   "url": "https://n.news.naver.com/article/087/0001222762",
-   "press": "강원일보",
+   "title": "[속보] 이 대통령, 대구 마트 붕괴 사고에 인명 구조 총력 지시",
+   "url": "https://n.news.naver.com/article/052/0002416936",
+   "press": "YTN",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "KBS",
+     "title": "이 대통령, 대구 마트 천장 붕괴 사고에 “인명 구조 총력·수습 만전” 지시",
+     "url": "https://n.news.naver.com/article/056/0012271182"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 서울 대학서 20대 여성 찌르고 출국…‘국제 수배’ 영국인 9일 만에 덜미",
+   "url": "https://n.news.naver.com/article/022/0004165482",
+   "press": "세계일보",
    "why": "[속보] 기사",
    "related": []
+  },
+  {
+   "kind": "news",
+   "title": "민주당 \"한동훈, 딸 사건 덮었나\"‥연일 '딸 허위 스펙' 수사 개입 의혹 공세",
+   "url": "https://n.news.naver.com/article/214/0001528206",
+   "press": "MBC",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "동아일보",
+     "title": "與 “한동훈, 장관 때 딸 ‘허위 스펙’ 의혹 사건 덮었나”…공세 강화",
+     "url": "https://n.news.naver.com/article/020/0003754007"
+    },
+    {
+     "press": "한국일보",
+     "title": "\"남의 딸은 탈탈 털더니\"… 與, 한동훈 딸 수사 무마 의혹 공세",
+     "url": "https://n.news.naver.com/article/469/0000958654"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "안철수 “北 지뢰에 국민 안전 위협…이재명 대통령 언제까지 침묵할 건가”",
+   "url": "https://n.news.naver.com/article/087/0001222767",
+   "press": "강원일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "헤럴드경제",
+     "title": "안철수 “인천 해수욕장 인근서 北 지뢰 발견…李대통령 언제까지 침묵할 건가”",
+     "url": "https://n.news.naver.com/article/016/0002707500"
+    },
+    {
+     "press": "경기일보",
+     "title": "안철수, 李대통령에 “김여정 따위에게 언제까지 욕보일 건가”",
+     "url": "https://n.news.naver.com/article/666/0000126768"
+    }
+   ]
   }
  ]
 }
