@@ -1,28 +1,42 @@
 {
- "detected_at": "2026-10-11T08:31+09:00",
+ "detected_at": "2026-10-11T11:10+09:00",
  "candidates": [
   {
+   "kind": "community",
+   "title": "[국갤] 스타벅스, '탱크데이' 논란 5개월 만에 신용·체크카드 결제액 1위",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=469456&_dcbest=1&page=1",
+   "board": "디시 실베",
+   "why": "커뮤니티 2곳 동시 화제 + 기사화(연합뉴스)",
+   "news": [
+    {
+     "url": "https://n.news.naver.com/article/001/0016368666",
+     "headline": "'탱크데이' 논란 5개월 만에…스타벅스, 투썸 제치고 1위 탈환"
+    }
+   ]
+  },
+  {
    "kind": "news",
-   "title": "이 대통령 \"댓글 소통 조롱당한 노무현 떠올라… SNS 소통 계속할 것\"",
-   "url": "https://n.news.naver.com/article/469/0000958678",
-   "press": "한국일보",
-   "why": "언론사 7곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 연휴 마지막 날 귀경길 정체…강릉→서울 2시간 40분, 오후 5시 혼잡 절정",
+   "url": "https://n.news.naver.com/article/654/0000204617",
+   "press": "강원도민일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 무인텔서 10대 여친·지인 폭행한 20대 실형…무면허 음주운전까지",
+   "url": "https://n.news.naver.com/article/087/0001222798",
+   "press": "강원일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 靑 “李대통령 단순한 SNS 정치 아냐…국정과 국민 사이 벽 낮추는 소통”",
+   "url": "https://n.news.naver.com/article/022/0004165606",
+   "press": "세계일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
-    {
-     "press": "연합뉴스",
-     "title": "李대통령 \"품격·권위 없다 비난하겠지만 SNS 소통 계속할 것\"",
-     "url": "https://n.news.naver.com/article/001/0016368565"
-    },
-    {
-     "press": "중앙일보",
-     "title": "李대통령 “품격 없다 비난해도 뒷골목 방문·SNS 소통 계속할 것”",
-     "url": "https://n.news.naver.com/article/025/0003556955"
-    },
-    {
-     "press": "국민일보",
-     "title": "李 \"SNS소통 계속할 것…댓글소통 조롱당한 노무현 떠올라\"",
-     "url": "https://n.news.naver.com/article/005/0001877874"
-    },
     {
      "press": "연합뉴스TV",
      "title": "이 대통령 \"품격없다 비난해도 SNS 소통 계속할 것\"",
@@ -32,32 +46,11 @@
   },
   {
    "kind": "news",
-   "title": "\"품격 없다 비난해도 계속할 것\" 李, 'SNS 메시지 정치' 비판 일축",
-   "url": "https://n.news.naver.com/article/660/0000118808",
-   "press": "kbc광주방송",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "연합뉴스",
-     "title": "李대통령 \"품격·권위 없다 비난하겠지만 SNS 소통 계속할 것\"",
-     "url": "https://n.news.naver.com/article/001/0016368565"
-    },
-    {
-     "press": "중앙일보",
-     "title": "李대통령 “품격 없다 비난해도 뒷골목 방문·SNS 소통 계속할 것”",
-     "url": "https://n.news.naver.com/article/025/0003556955"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "이 대통령 \"품격없다 비난해도 SNS 소통 계속할 것\"",
-     "url": "https://n.news.naver.com/article/422/0000914323"
-    },
-    {
-     "press": "조선비즈",
-     "title": "李 대통령 “품격 없다 비난해도 SNS 소통 계속할 것”",
-     "url": "https://n.news.naver.com/article/366/0001197120"
-    }
-   ]
+   "title": "[속보] 성기홍 \"李대통령 직접소통 다양해질 것…SNS는 여러통로 중 하나\"",
+   "url": "https://n.news.naver.com/article/215/0001268757",
+   "press": "한국경제TV",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
