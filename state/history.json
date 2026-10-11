@@ -1832,5 +1832,51 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-11_0700_red-light-health-insurance-bill/video.mp4"
   },
   "seconds": 404
+ },
+ {
+  "key": "2026-10-11-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-11T12:00:00+09:00",
+  "started": "2026-10-11T09:22:59.286819+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-78640/",
+   "https://pixabay.com/videos/id-34344/"
+  ],
+  "duration": 24.22,
+  "matches": [
+   0.97,
+   1.0,
+   0.99,
+   0.99,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.93
+  ],
+  "sfx": 7,
+  "illustrations": 9,
+  "cuts": 9,
+  "title": "믹스커피 사 달랬더니 계산기부터 꺼낸 대표 #shorts",
+  "source_post": "https://n.news.naver.com/article/020/0003754015",
+  "facts_used": [
+   "탕비실 믹스커피가 떨어지자 대표가 휴대폰 계산기로 100개들이 한 상자 가격·개당 비용·1인당 하루 소비량을 계산, 이후 '1인 1일 2개' 안내문 부착 — 동아일보 2026-10-10 '“탕비실 믹스커피 하루 2개만”…직원들 커피값에 발끈한 대표, 무슨 일?' https://n.news.naver.com/article/020/0003754015 , 뉴스1 https://www.news1.kr/society/general-society/6315591 , 머니투데이 2026-10-11 https://www.mt.co.kr/society/2026/10/11/2026101107323089024",
+   "대표가 '한 사람당 하루에 500원어치' 라며 불만 — 매일신문 2026-10-11 https://www.imaeil.com/page/view/2026101107190864261 (제목), 한국경제TV https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610100054",
+   "휴지도 직원 자비로 구매, 입사 3개월 차 작성자가 이직 고민 — 머니투데이(제목 '휴지는 직원 자비'), 인사이트 https://www.insight.co.kr/news/577197 , 뷰어스 — 모두 작성자 주장"
+  ],
+  "slug": "2026-10-11_1200_office-mix-coffee-limit",
+  "late": false,
+  "video_id": "3u2tyOGi6qs",
+  "url": "https://youtube.com/shorts/3u2tyOGi6qs",
+  "privacy": "private",
+  "scheduled_for": "2026-10-11T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6acad8aad9cab260a7dfffdf",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-11T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-11_1200_office-mix-coffee-limit/video.mp4"
+  },
+  "seconds": 457
  }
 ]
