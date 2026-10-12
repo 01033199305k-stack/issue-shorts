@@ -1,99 +1,85 @@
 {
- "detected_at": "2026-10-12T14:49+09:00",
+ "detected_at": "2026-10-13T00:14+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "경찰청장 대행 \"한동훈 딸의혹, 새사실 드러나면 재수사 배제 안해\"(종합)",
-   "url": "https://n.news.naver.com/article/001/0016370646",
-   "press": "연합뉴스",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 李대통령·與 지지율 동반하락…민주당 7%↓ [리얼미터]",
+   "url": "https://n.news.naver.com/article/016/0002707809",
+   "press": "헤럴드경제",
+   "why": "[속보] 기사 + 언론사 5곳이 댓글 많은 기사 1위로",
    "related": [
     {
      "press": "서울경제",
-     "title": "경찰청장 대행, ‘한동훈 딸 부실수사’ 與 맹공에 “재수사 배제 안 해” [국감 2026]",
-     "url": "https://n.news.naver.com/article/011/0004670268"
+     "title": "李 대통령 지지율 35.2%…국힘 41.3% 민주 35.5% ‘역전’ [리얼미터]",
+     "url": "https://n.news.naver.com/article/011/0004670131"
     },
     {
-     "press": "뉴스1",
-     "title": "김종철 경찰청장 대행 \"한동훈 딸 허위 스펙 의혹, 재수사 가능성 배제 안 해\"",
-     "url": "https://n.news.naver.com/article/421/0009221788"
-    },
-    {
-     "press": "머니투데이",
-     "title": "경찰청장 대행 \"한동훈 딸 의혹, 새 사실 나오면 재수사 배제 않아\"",
-     "url": "https://n.news.naver.com/article/008/0005424816"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "박지원 “대통령도 사람…휴일 골프까지 시비 걸지 말라”",
-   "url": "https://n.news.naver.com/article/081/0003687937",
-   "press": "서울신문",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "채널A",
-     "title": "박지원 “대통령 휴일 골프 시비 말라…기계도 365일 돌면 고장”",
-     "url": "https://n.news.naver.com/article/449/0000363729"
-    },
-    {
-     "press": "디지털타임스",
-     "title": "박지원 “대통령 휴일 골프로 시비 말아야”…국힘 “특검 필요”",
-     "url": "https://n.news.naver.com/article/029/0003052487"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "국힘 지지율 41%로 올라, 35%에 그친 민주에 역전 [리얼미터]",
-   "url": "https://n.news.naver.com/article/023/0004003279",
-   "press": "조선일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "시사저널",
-     "title": "李대통령 지지율 35.2%…국민의힘 41.3%·민주당 35.5% [리얼미터]",
-     "url": "https://n.news.naver.com/article/586/0000139730"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "리얼미터 \"이 대통령 지지율 35.2%…민주 35.5%·국힘 41.3% 오차내 역전\"",
-     "url": "https://n.news.naver.com/article/422/0000914603"
+     "press": "연합뉴스",
+     "title": "李대통령 지지율 35.2%…\"인사·안보·부동산 악재에 하락세\"[리얼미터](종합)",
+     "url": "https://n.news.naver.com/article/001/0016369818"
     },
     {
      "press": "kbc광주방송",
      "title": "李대통령 지지율 35.2%…국힘 41.3%·민주 35.5% '오차 내 역전'",
      "url": "https://n.news.naver.com/article/660/0000118871"
+    },
+    {
+     "press": "연합뉴스TV",
+     "title": "리얼미터 \"이 대통령 지지율 35.2%…민주 35.5%·국힘 41.3% 오차내 역전\"",
+     "url": "https://n.news.naver.com/article/422/0000914603"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 국제 예술대회 병역특례 기준 강화 추진…'2위 이상'에서 '1위'로",
-   "url": "https://n.news.naver.com/article/654/0000204817",
-   "press": "강원도민일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "\"골프 중독자 李대통령 치료해야\"…주진우, '골프 특검' 발의한다",
-   "url": "https://n.news.naver.com/article/119/0003141565",
-   "press": "데일리안",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "이 대통령 부모 묘소 방문한 이진숙에 민주 \"기행, 막장 정치\"",
+   "url": "https://n.news.naver.com/article/057/0001972934",
+   "press": "MBN",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
      "press": "강원일보",
-     "title": "주진우 “인명사고 때마다 골프 치는 이재명 대통령…‘골프 특검’ 대표발의”",
-     "url": "https://n.news.naver.com/article/087/0001223124"
+     "title": "이진숙 “李대통령 부모 묘소 불법 조성 국민들 대신해 고발한 것” …민주 “정치의 탈을 쓴 패륜”",
+     "url": "https://n.news.naver.com/article/087/0001223168"
     },
     {
-     "press": "디지털타임스",
-     "title": "박지원 “대통령 휴일 골프로 시비 말아야”…국힘 “특검 필요”",
-     "url": "https://n.news.naver.com/article/029/0003052487"
+     "press": "MBC",
+     "title": "민주, 이진숙 '대통령 부모 묘소' 방문에 \"막장 정치\" 맹공",
+     "url": "https://n.news.naver.com/article/214/0001528467"
+    },
+    {
+     "press": "이데일리",
+     "title": "이 대통령 부모 묘소 찾아가 ‘인증샷’…이진숙에 ‘분노 폭발’",
+     "url": "https://n.news.naver.com/article/018/0006386359"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "[단독]한동훈 딸 ‘허위 스펙 의혹’ 경찰 수사, 압색영장 신청 전무…배우자만 1회 ‘서면 조사’",
+   "url": "https://n.news.naver.com/article/032/0003475635",
+   "press": "경향신문",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "디지털타임스",
+     "title": "‘딸 허위 스펙 의혹’ 한동훈 “무혐의 사안을 왜곡…정치보복”",
+     "url": "https://n.news.naver.com/article/029/0003052566"
+    },
+    {
+     "press": "전자신문",
+     "title": "[2026 국감]윤건영 “한동훈 딸 수사 부실 의혹”…경찰 “새 사실 드러나면 재수사 배제 안 해”",
+     "url": "https://n.news.naver.com/article/030/0003474037"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]LH 사장 \"집값 급락 가능성 크다\"…집값 못 잡으면 사퇴 배수진도",
+   "url": "https://n.news.naver.com/article/079/0004197853",
+   "press": "노컷뉴스",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
