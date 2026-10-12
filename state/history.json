@@ -2059,5 +2059,53 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-12_1800_same-number-fifty-lottery-tickets/video.mp4"
   },
   "seconds": 397
+ },
+ {
+  "key": "2026-10-13-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-13T07:00:00+09:00",
+  "started": "2026-10-13T04:16:24.819476+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-11622/",
+   "https://pixabay.com/videos/id-14127/"
+  ],
+  "duration": 21.42,
+  "matches": [
+   0.97,
+   0.94,
+   1.0,
+   0.91,
+   0.85,
+   0.96,
+   0.93,
+   0.99,
+   0.94
+  ],
+  "sfx": 8,
+  "illustrations": 7,
+  "cuts": 9,
+  "title": "모르는 사람이 만둣집에 시킨 황당한 심부름 #shorts",
+  "source_post": "https://www.news1.kr/society/general-society/6312754",
+  "facts_used": [
+   "경기 파주 만둣가게 사장 A씨에게 '옆(인근) 카페에 두고 온 가방을 찾아 달라'는 전화가 걸려 옴, A씨가 SNS에 올려 알려짐 — 파이낸셜뉴스 https://www.fnnews.com/news/202610071552143999 , 뉴스1 https://www.news1.kr/society/general-society/6312754 , 위키트리 https://www.wikitree.co.kr/articles/1164653",
+   "카페가 전화를 받지 않아 만둣가게로 걸었고, 카페가 아니라고 알려도 가서 확인해 달라고 부탁 — 파이낸셜뉴스, 뉴스1, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=471502",
+   "영업 중이라 갈 수 없다고 거절하자 곧바로 전화를 끊음 — 파이낸셜뉴스, 뉴스1",
+   "전화를 건 사람은 해당 만둣가게를 이용한 적도 없는 사람 — 파이낸셜뉴스, 뉴스1, 서플(머니투데이) https://supple.kr/news/cmuyjd6ho009s50mx5c39wn8r",
+   "비슷한 부탁을 받아 봤다는 자영업자 경험담이 이어짐 — 파이낸셜뉴스, 뉴스1"
+  ],
+  "slug": "2026-10-13_0700_dumpling-shop-cafe-bag-call",
+  "late": false,
+  "video_id": "eEAnsSQSobs",
+  "url": "https://youtube.com/shorts/eEAnsSQSobs",
+  "privacy": "private",
+  "scheduled_for": "2026-10-12T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6acd337dc5e6eb637a19c571",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-12T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-13_0700_dumpling-shop-cafe-bag-call/video.mp4"
+  },
+  "seconds": 374
  }
 ]
