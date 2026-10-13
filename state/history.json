@@ -2251,5 +2251,52 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-13_2100_judoka-bitten-wins-gold/video.mp4"
   },
   "seconds": 359
+ },
+ {
+  "key": "2026-10-14-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-14T07:00:00+09:00",
+  "started": "2026-10-14T04:23:41.425987+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-99392/",
+   "https://pixabay.com/videos/id-90933/"
+  ],
+  "duration": 22.43,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.92,
+   0.97,
+   0.98,
+   0.91
+  ],
+  "sfx": 6,
+  "illustrations": 7,
+  "cuts": 8,
+  "title": "안경 검사까지 했는데 대학 논술 시험장에서 걸린 물건 #shorts",
+  "source_post": "https://www.news1.kr/society/incident-accident/6318637",
+  "facts_used": [
+   "10월 10일 오전 연세대 신촌캠퍼스 자연·통합계열 수학 논술에서 스마트 안경 쓴 수험생 1명 적발 — 뉴스1 https://www.news1.kr/society/incident-accident/6318227 , 파이낸셜뉴스 https://www.fnnews.com/news/202610131425498765 , 한국일보 https://www.hankookilbo.com/news/article/A2026101309560002885",
+   "스마트 안경은 초소형 카메라·마이크를 달고 AI와 연동해 촬영한 문제의 풀이를 줄 수 있는 기기 — 머니투데이 https://mt.co.kr/society/2026/10/13/2026101310021158683 , 국민일보 https://www.kmib.co.kr/article/view.asp?arcid=9000022111&code=61121211&sid1=soc",
+   "시험 전 감독관이 안경 쓴 수험생을 일일이 확인했고, 이 수험생은 확인 땐 일반 안경을 쓰다가 시험 시작 뒤 스마트 안경으로 바꿔 씀(학교 파악) — 뉴스1, 머니투데이, SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008795942",
+   "감독관이 일반 안경과 생김새가 다른 것을 포착해 고사본부에 알리고 안경 수거, 수험생은 시인 — 머니투데이, 국민일보",
+   "10월 3일 서울시립대 논술에서도 스마트 안경 수험생 적발, 즉시 퇴실·향후 3년 응시 금지 — 세계일보 https://www.segye.com/newsView/20261013511177 , 노컷뉴스 https://nocutnews.co.kr/news/6590623 , 파이낸셜뉴스"
+  ],
+  "slug": "2026-10-14_0700_ai-glasses-exam-swap",
+  "late": false,
+  "video_id": "LjPC0qiI6jQ",
+  "url": "https://youtube.com/shorts/LjPC0qiI6jQ",
+  "privacy": "private",
+  "scheduled_for": "2026-10-13T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ace8749eaea728d3cae9b28",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-13T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-14_0700_ai-glasses-exam-swap/video.mp4"
+  },
+  "seconds": 526
  }
 ]
