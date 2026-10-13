@@ -2155,5 +2155,55 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-13_1200_chuncheon-fake-report-bikers/video.mp4"
   },
   "seconds": 360
+ },
+ {
+  "key": "2026-10-13-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-13T18:00:00+09:00",
+  "started": "2026-10-13T15:24:45.465812+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-1275/",
+   "https://pixabay.com/videos/id-283/",
+   "https://pixabay.com/videos/id-87884/"
+  ],
+  "duration": 24.1,
+  "matches": [
+   0.92,
+   0.91,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.89,
+   1.0,
+   0.93
+  ],
+  "sfx": 8,
+  "illustrations": 7,
+  "cuts": 9,
+  "title": "가수가 늦자 3만 명 앞에서 2시간 노래한 관객 #shorts",
+  "source_post": "https://www.scmp.com/news/people-culture/china-personalities/article/3370519/china-grass-roots-singer-shoots-fame-after-saving-delayed-hacken-lee-concert-2-hour-set",
+  "facts_used": [
+   "9월 26일 네이멍구 바오터우 콘서트, 이극근 지연으로 객석에 있던 가수 허우랑이 주최 측 요청으로 무대에 오름 — SCMP(위 URL), The Star https://www.thestar.com.my/lifestyle/entertainment/2026/10/01/hk-singer-hacken-lee-arrives-2-hours-late-to-concert-singer-in-audience-covers-for-him , Complex https://www.complex.com/music/a/will-lavin/hacken-lee-late-concert-hou-lang-baotou",
+   "리허설·대본·프롬프터 없이 약 2시간, 20곡 가까이 — SCMP, Complex",
+   "관객 3만 명 — Complex, Yahoo https://www.yahoo.com/entertainment/music/articles/hacken-lee-fan-steps-perform-032429529.html , 전자신문 https://n.news.naver.com/article/030/0003474260 (제목 '3만명 관객 앞 2시간 열창')",
+   "우박(악천후)으로 항공편이 다른 곳(산시성 타이위안)에 내림 — The Star, SCMP, Complex",
+   "주최 측이 마련한 전기차가 가는 도중 방전돼 택시로 갈아탐, 이동 18시간 넘게 — Complex, SCMP",
+   "이극근 밤 12시 30분쯤 무대 — The Star, Complex"
+  ],
+  "slug": "2026-10-13_1800_fan-sings-for-late-star",
+  "late": false,
+  "video_id": "lxGL0ikJhTo",
+  "url": "https://youtube.com/shorts/lxGL0ikJhTo",
+  "privacy": "private",
+  "scheduled_for": "2026-10-13T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6acdd0ae3d6121df404538aa",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-13T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-13_1800_fan-sings-for-late-star/video.mp4"
+  },
+  "seconds": 514
  }
 ]
