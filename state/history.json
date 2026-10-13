@@ -2205,5 +2205,51 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-13_1800_fan-sings-for-late-star/video.mp4"
   },
   "seconds": 514
+ },
+ {
+  "key": "2026-10-13-2100",
+  "slot": "2100",
+  "publish_at": "2026-10-13T21:00:00+09:00",
+  "started": "2026-10-13T16:22:54.812774+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-24166/",
+   "https://pixabay.com/videos/id-7515/"
+  ],
+  "duration": 24.41,
+  "matches": [
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   0.98,
+   1.0,
+   0.92
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "유도 경기 중 20초 동안 팔 물린 선수의 결말 #shorts",
+  "source_post": "https://www.mt.co.kr/sports/2026/10/02/202610012133778543O",
+  "facts_used": [
+   "10월 1일 아이치·나고야 아시안게임 유도 여자 70kg급 8강, 굳히기에 걸린 중국 탕징이 일본 마에다 린의 왼쪽 손목 부근을 물음 — 머니투데이 https://www.mt.co.kr/sports/2026/10/02/202610012133778543O , 파이낸셜뉴스 https://fnnews.com/news/202610021407342758 , 데일리안 https://www.dailian.co.kr/news/view/1697526",
+   "심판이 중단시킬 때까지 20초가량(20초 넘게) 물고 있었음 — 문화일보 https://www.munhwa.com/article/11621067 , 머니투데이(위 URL)",
+   "영상 판독 후 반칙패 선언 — 파이낸셜뉴스, 머니투데이, The Star https://www.thestar.com.my/aseanplus/aseanplus-news/2026/10/02/asian-games---chinese-judoka-dq039d-after-alleged-biting-incident",
+   "마에다 린은 준결승·결승을 이겨 금메달(결승 카자흐스탄 선수에 한판승) — 파이낸셜뉴스, 머니투데이 https://www.mt.co.kr/sports/2026/10/04/2026100317451377391"
+  ],
+  "slug": "2026-10-13_2100_judoka-bitten-wins-gold",
+  "late": false,
+  "video_id": "4dQQNBBWumY",
+  "url": "https://youtube.com/shorts/4dQQNBBWumY",
+  "privacy": "private",
+  "scheduled_for": "2026-10-13T12:00:00Z",
+  "tiktok": {
+   "buffer_id": "6acdddb5c210c8c6dd5274ac",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-13T12:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-13_2100_judoka-bitten-wins-gold/video.mp4"
+  },
+  "seconds": 359
  }
 ]
