@@ -1,49 +1,46 @@
 {
- "detected_at": "2026-10-13T15:18+09:00",
+ "detected_at": "2026-10-13T16:18+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "\"조건 안 봐요, 연봉 1억이면 돼요\"…결혼정보업체 대표 \"너무 쉽게 말해\"",
-   "url": "https://n.news.naver.com/article/437/0000515415",
-   "press": "JTBC",
+   "title": "추미애, 12억 관사 논란에 “전세라 호화사치 아냐…계약 끝나면 반환”",
+   "url": "https://n.news.naver.com/article/025/0003557544",
+   "press": "중앙일보",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "파이낸셜뉴스",
-     "title": "\"男조건 안 봐요, 연봉 1억이면 돼요\"...20대女 향해 결정사 대표가 날린 팩폭",
-     "url": "https://n.news.naver.com/article/014/0005588172"
+     "press": "국민일보",
+     "title": "추미애 “12억 관사, 호화 아냐”…“솔선수범” 요구에 반박",
+     "url": "https://n.news.naver.com/article/005/0001878356"
     },
     {
-     "press": "아시아경제",
-     "title": "\"남편 연봉 1억은 당연하다\" 여성들에…결정사 대표 \"너무 우습게 얘기한다\"",
-     "url": "https://n.news.naver.com/article/277/0005827676"
+     "press": "동아일보",
+     "title": "추미애 “李 ‘혈세로 호사’ 글, 나를 겨냥한 것 아냐”",
+     "url": "https://n.news.naver.com/article/020/0003754586"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 윤석열, 항소심도 징역 1년 6개월 구형... 유죄 확정 땐 국힘 397억 반환",
-   "url": "https://n.news.naver.com/article/469/0000959137",
-   "press": "한국일보",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "노컷뉴스",
-     "title": "[속보]특검, 尹 선거법 2심서 '징역 1년 6개월·집유 3년' 구형",
-     "url": "https://n.news.naver.com/article/079/0004198116"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "[속보] 특검, 尹 항소심 징역 1년 6개월·집유 구형",
-     "url": "https://n.news.naver.com/article/422/0000915108"
-    }
-   ]
+   "title": "[속보] 술 먹다 20대 여성 성폭행한 외국인 구속… ‘강간 방조’ 남녀 2명도 입건",
+   "url": "https://n.news.naver.com/article/081/0003688505",
+   "press": "서울신문",
+   "why": "[속보] 기사",
+   "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] 홈플러스 인천 구월점서 칼부림…\"6~8명 부상\"",
-   "url": "https://n.news.naver.com/article/655/0000033146",
-   "press": "CJB청주방송",
+   "title": "[속보] 특검, 윤석열 2심 '당선무효형' 유지 요청…\"항소 기각해달라\"",
+   "url": "https://n.news.naver.com/article/654/0000205058",
+   "press": "강원도민일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보]국세청장 “가상자산 과세, 11월 고시 발표 준비”",
+   "url": "https://n.news.naver.com/article/018/0006387155",
+   "press": "이데일리",
    "why": "[속보] 기사",
    "related": []
   }
