@@ -2107,5 +2107,53 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-13_0700_dumpling-shop-cafe-bag-call/video.mp4"
   },
   "seconds": 374
+ },
+ {
+  "key": "2026-10-13-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-13T12:00:00+09:00",
+  "started": "2026-10-13T09:21:32.786105+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-7315/",
+   "https://pixabay.com/videos/id-99704/"
+  ],
+  "duration": 24.63,
+  "matches": [
+   0.97,
+   0.95,
+   0.96,
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   0.96,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 7,
+  "cuts": 9,
+  "title": "새벽에 폭주족을 신고한 사람의 정체 #shorts",
+  "source_post": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008793453",
+  "facts_used": [
+   "6월 21일 새벽 춘천 칠전동 일대, '미성년자로 보이는 오토바이 4대가 번호판 없이 곡예주행' 112 허위신고 여러 차례 — SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008793453 , CBC뉴스 https://www.cbci.co.kr/news/articleView.html?idxno=614531 , 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2077650",
+   "경찰관 9명·순찰차 4대 출동, 정지 요구 무시·중앙선 침범 난폭운전 — SBS, CBC뉴스",
+   "오전 2시 54분쯤 일행 오토바이가 경찰차를 들이받음 — SBS, CBC뉴스",
+   "경찰을 유인해 따돌리려고 한 허위신고 — 강원도민일보('경찰 불러 따돌리자'), SBS('경찰 출동시키고 튄'), 로이슈 https://www.lawissue.co.kr/view.php?ud=202610121533532620b50722e900_12",
+   "주범 징역 2년·집행유예 4년·사회봉사 200시간(춘천지법 형사2단독) — 강원도민일보, 네이트(연합) https://m.news.nate.com/view/20261012n21873"
+  ],
+  "slug": "2026-10-13_1200_chuncheon-fake-report-bikers",
+  "late": false,
+  "video_id": "610qOS8xWZg",
+  "url": "https://youtube.com/shorts/610qOS8xWZg",
+  "privacy": "private",
+  "scheduled_for": "2026-10-13T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6acd7af45462be2e902d332b",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-13T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-13_1200_chuncheon-fake-report-bikers/video.mp4"
+  },
+  "seconds": 360
  }
 ]
