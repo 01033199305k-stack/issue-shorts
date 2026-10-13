@@ -1,22 +1,144 @@
 {
- "detected_at": "2026-10-13T07:36+09:00",
+ "detected_at": "2026-10-13T12:11+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "강경화 “백악관 소통 한계…고위급 협의 답답할 정도로 안 돼”",
-   "url": "https://n.news.naver.com/article/025/0003557432",
-   "press": "중앙일보",
+   "title": "이 대통령 \"국익 지켜지는 외교해야…굴종·사대적 태도 지양\"",
+   "url": "https://n.news.naver.com/article/055/0001395008",
+   "press": "SBS",
+   "why": "언론사 9곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "연합뉴스",
+     "title": "李대통령 \"국가간 이견 있기 마련…굴종·사대적 태도 지양해야\"",
+     "url": "https://n.news.naver.com/article/001/0016372863"
+    },
+    {
+     "press": "KBS",
+     "title": "이 대통령 “국가 간 관계 굴종·사대적 태도 지양…오해 있으면 풀고 조정”",
+     "url": "https://n.news.naver.com/article/056/0012272450"
+    },
+    {
+     "press": "JTBC",
+     "title": "이 대통령 \"국익 지키는 외교 해야…굴종·사대적 태도 지양\"",
+     "url": "https://n.news.naver.com/article/437/0000515393"
+    },
+    {
+     "press": "국민일보",
+     "title": "李대통령 “국익지키는 외교 해야…사대적 태도 지양”",
+     "url": "https://n.news.naver.com/article/005/0001878329"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 제주 호텔 앞 살해당한 여성 “성관계 영상 유포 협박” 60대男 신고했었다",
+   "url": "https://n.news.naver.com/article/081/0003688404",
+   "press": "서울신문",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보]李대통령 \"한미동맹 매우 중요하나 이견 자체 문제 삼을 수 없어\"",
+   "url": "https://n.news.naver.com/article/008/0005425362",
+   "press": "머니투데이",
+   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "채널A",
+     "title": "이 대통령 “한미동맹 중요…국가간 이견 있기 마련”",
+     "url": "https://n.news.naver.com/article/449/0000363848"
+    },
+    {
+     "press": "강원도민일보",
+     "title": "[속보] 이대통령 \"한미동맹 중요하지만 국익이 우선…굴종·사대 외교 지양해야\"",
+     "url": "https://n.news.naver.com/article/654/0000205050"
+    },
+    {
+     "press": "아시아경제",
+     "title": "[속보] 李대통령 \"한미동맹 중요, 고도화해야…국가 간 이견은 있기 마련\"",
+     "url": "https://n.news.naver.com/article/277/0005827704"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "김민석, '이재 명 끊을 때' 주진우 향해 \"말장난 정치 오래 못 가\"",
+   "url": "https://n.news.naver.com/article/079/0004197991",
+   "press": "노컷뉴스",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "동아일보",
-     "title": "강경화 “韓美 정보협력 어려워진 상황…백악관 소통 한계에 답답”",
-     "url": "https://n.news.naver.com/article/020/0003754435"
+     "press": "뉴시스",
+     "title": "주진우 겨냥한 김민석 \"말장난 즐기는 분, 정치생명 길지 않아\"",
+     "url": "https://n.news.naver.com/article/003/0014248725"
     },
     {
-     "press": "조선비즈",
-     "title": "강경화 “백악관과 소통 한계… 고위급 협의는 답답할 정도”",
-     "url": "https://n.news.naver.com/article/366/0001197480"
+     "press": "뉴스1",
+     "title": "김민석, 주진우 겨냥 \"말장난 즐기는 정치인 오래 못 가\"",
+     "url": "https://n.news.naver.com/article/421/0009223636"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 6천피마저 깨졌다…코스피 6%대 폭락에 개미들 '패닉'",
+   "url": "https://n.news.naver.com/article/215/0001268988",
+   "press": "한국경제TV",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 유승민 “집값·주가 전망, 함부로 떠들면 안된다”…LH사장·李대통령에 직격탄",
+   "url": "https://n.news.naver.com/article/016/0002708638",
+   "press": "헤럴드경제",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 코스피 6000 붕괴…외인 2조 매도·개인 1조 매수",
+   "url": "https://n.news.naver.com/article/119/0003142125",
+   "press": "데일리안",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 주진우 \"이재 명을 끊을 때\" 막말 논란...與 \"죽음 연상 경악스러워\"",
+   "url": "https://n.news.naver.com/article/002/0002460597",
+   "press": "프레시안",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "李대통령, 한미관계 언급하며 “굴종적 태도 지양해야”",
+   "url": "https://n.news.naver.com/article/023/0004003506",
+   "press": "조선일보",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "연합뉴스",
+     "title": "李대통령 \"국가간 이견 있기 마련…굴종·사대적 태도 지양해야\"",
+     "url": "https://n.news.naver.com/article/001/0016372863"
+    },
+    {
+     "press": "KBS",
+     "title": "이 대통령 “국가 간 관계 굴종·사대적 태도 지양…오해 있으면 풀고 조정”",
+     "url": "https://n.news.naver.com/article/056/0012272450"
+    },
+    {
+     "press": "세계일보",
+     "title": "李대통령 “국익지키는 외교 해야…굴종·사대적 태도 지양”",
+     "url": "https://n.news.naver.com/article/022/0004166204"
+    },
+    {
+     "press": "동아일보",
+     "title": "李 “한미동맹 중요하지만…굴종-사대적 태도 지양해야”",
+     "url": "https://n.news.naver.com/article/020/0003754552"
     }
    ]
   }
