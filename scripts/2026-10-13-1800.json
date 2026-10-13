@@ -1,0 +1,290 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "fan-sings-for-late-star",
+ "title_lines": [
+  "가수가 지각하자",
+  "3만 명 앞 관객"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "가수가 늦자 3만 명 앞에 선 관객",
+   "say": "가수가 늦자 삼만 명 앞에 선 관객",
+   "sfx": "exclaim",
+   "tone": "글 제목 읽어 주듯 또렷하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "가수가 늦자\n3만 명 앞에 선 관객",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "객석에 있던 남자가 무대로 불려 나감.",
+   "say": "객석에 있던 남자가 무대로 불려 나감.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "nightcity",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "マイク 男性",
+       "歌う 男性",
+       "歌手 男性"
+      ],
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "concert crowd stage",
+     "stage lights concert",
+     "crowd concert night"
+    ]
+   }
+  },
+  {
+   "text": "중국 공연에 홍콩 가수 이극근이 안 나타나서임.",
+   "say": "중국 공연에 홍콩 가수 이극근이 안 나타나서임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "nightcity",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "時計 遅刻",
+       "遅刻 男性",
+       "腕時計"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니, 리허설 없이 2시간 동안 20곡 가까이 부름.",
+   "say": "아니, 리허설 없이 두 시간 동안 스무 곡 가까이 부름.",
+   "sfx": "exclaim",
+   "cap": "hit",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "nightcity",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "crowd",
+      "q": [
+       "観客",
+       "拍手 人々"
+      ],
+      "count": 12,
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "top-right",
+      "size": "m",
+      "at": 0.4,
+      "fx": "sparkle"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 늦은 이유가 더 황당함.",
+   "say": "근데 늦은 이유가 더 황당함.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로, 말끝은 분명하게",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "warn"
+     }
+    ]
+   }
+  },
+  {
+   "text": "우박 때문에 비행기가 엉뚱한 데 내림.",
+   "say": "우박 때문에 비행기가 엉뚱한 데 내림.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "sky",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "飛行機",
+       "飛行機 着陸"
+      ],
+      "at": 0.0,
+      "fx": "slide-left"
+     },
+     {
+      "type": "emoji",
+      "text": "🧊",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "drop"
+     }
+    ],
+    "video": [
+     "airplane landing rain",
+     "airplane runway storm",
+     "plane landing"
+    ]
+   }
+  },
+  {
+   "text": "헐, 주최 측 전기차는 가다가 방전됨.",
+   "say": "헐, 주최 측 전기차는 가다가 방전됨.",
+   "sfx": "absurd",
+   "cap": "hit",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "road",
+    "cam": "push",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電気自動車",
+       "バッテリー 切れ",
+       "車 故障"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🪫",
+      "pos": "top-right",
+      "size": "m",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "결국 18시간 만에 밤 12시 반 도착함.",
+   "say": "결국 열여덟 시간 만에 밤 열두 시 반 도착함.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "road",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "走る 男性",
+       "急ぐ 男性"
+      ],
+      "at": 0.0,
+      "fx": "run-right"
+     },
+     {
+      "type": "emoji",
+      "text": "🕧",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "highway night car",
+     "road night traffic",
+     "car headlights night"
+    ]
+   }
+  },
+  {
+   "text": "님들이면 3만 명 앞에서 노래함?",
+   "say": "님들이면 삼만 명 앞에서 노래함?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "nightcity",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "緊張 男性",
+       "驚く 男性"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "가수가 늦자 3만 명 앞에서 2시간 노래한 관객 #shorts",
+  "description": "9월 26일 중국 네이멍구 바오터우 콘서트에서 홍콩 가수 이극근(해큰 리)의 도착이 늦어지자, 객석에 있던 가수 허우랑이 무대에 불려 나감.\n리허설도 대본도 없이 약 2시간 동안 20곡 가까이 불렀다고 함.\n이극근은 우박으로 비행기가 다른 곳에 내리고, 주최 측 전기차가 방전돼 택시로 갈아타는 등 18시간 넘게 이동해 밤 12시 반쯤 무대에 섬.\n\n※ AI 음성으로 제작했습니다.\n#콘서트 #지각 #중국 #황당 #썰 #shorts",
+  "tags": [
+   "콘서트",
+   "가수 지각",
+   "이극근",
+   "허우랑",
+   "중국 콘서트",
+   "대타",
+   "황당",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.scmp.com/news/people-culture/china-personalities/article/3370519/china-grass-roots-singer-shoots-fame-after-saving-delayed-hacken-lee-concert-2-hour-set",
+ "facts_used": [
+  "9월 26일 네이멍구 바오터우 콘서트, 이극근 지연으로 객석에 있던 가수 허우랑이 주최 측 요청으로 무대에 오름 — SCMP(위 URL), The Star https://www.thestar.com.my/lifestyle/entertainment/2026/10/01/hk-singer-hacken-lee-arrives-2-hours-late-to-concert-singer-in-audience-covers-for-him , Complex https://www.complex.com/music/a/will-lavin/hacken-lee-late-concert-hou-lang-baotou",
+  "리허설·대본·프롬프터 없이 약 2시간, 20곡 가까이 — SCMP, Complex",
+  "관객 3만 명 — Complex, Yahoo https://www.yahoo.com/entertainment/music/articles/hacken-lee-fan-steps-perform-032429529.html , 전자신문 https://n.news.naver.com/article/030/0003474260 (제목 '3만명 관객 앞 2시간 열창')",
+  "우박(악천후)으로 항공편이 다른 곳(산시성 타이위안)에 내림 — The Star, SCMP, Complex",
+  "주최 측이 마련한 전기차가 가는 도중 방전돼 택시로 갈아탐, 이동 18시간 넘게 — Complex, SCMP",
+  "이극근 밤 12시 30분쯤 무대 — The Star, Complex"
+ ],
+ "brief": "점수표: 가수 지각에 3만 명 앞 2시간 노래한 관객(이게됨5+궁금증4+공감3+대상3=15, SCMP·The Star·Complex·Yahoo·전자신문) / 국민연금 833만원 내고 1억 수령(2+2+4+3=11) / 빽다방 도쿄 노란 컵 행렬(3+2+2+4=11, 보도자료성) / 결정사 대표 '연봉 1억' 발언(젠더·갈등이라 0점) / 지하철 임산부석 버틴 남성(갈등형, 2+2+3+3=10) — news_hot 나머지는 대통령·추미애·코스피·윤석열 등 정치·주가라 제외, 인천 칼부림·제주 살해는 사망·부상 사건이라 썰톤 부적합. 첫장면: 의외(객석 남자가 3만 명 무대에 불려 나감). 훅 3안: ①'객석에 있던 남자가 무대로 불려 나감'(선택: 장면이 바로 그려지고 왜?가 생김) ②'홍콩 가수가 2시간 늦음'(사건 요약형) ③'관객이 20곡을 부름'(답을 먼저 줌). 글 카드 3안: '가수가 늦자 3만 명 앞에 선 관객'(선택: 숫자+사람) / '주인공 대신 2시간 노래한 관객' / '가수 지각에 무대 오른 관객의 결말'. 떡밥: 4번 공개 예고('늦은 이유가 더 황당') → 5~7번 우박·전기차 방전·18시간으로 회수. 이해검사: 중국 공연에서 홍콩 가수 이극근이 우박·전기차 방전 때문에 18시간 걸려 밤 12시 반에야 도착하자, 객석에 있던 남자가 대신 무대에 올라 리허설 없이 2시간 동안 20곡 가까이 불렀다. 그림대조: 완료(마이크 남성+콘서트 영상, 시계, 관객 무리, 경고, 비행기+착륙 영상, 전기차, 달리는 남성+밤 도로 영상, 긴장한 남성; 일본 지도·국기·엔화 없음, 해외 이야기라 street/apartment/market 안 씀). 주의: 허우랑은 순수 팬이 아니라 평소 5~6천 명 규모 무대에 서던 가수라 대본에선 '객석에 있던 남자'로만 씀(팬·일반인 단정 안 함), 비상착륙 도시 이름(타이위안)은 매체마다 명시 여부가 달라 '엉뚱한 도시'로만, 이극근 추가 곡 수(2곡/6곡)는 매체 엇갈려 안 씀, '스타 됐다'는 평가는 안 씀. 시작 sfx exclaim→whoosh (최근 exclaim→punch, dudung→punch, punch→whoosh 와 다름)."
+}
