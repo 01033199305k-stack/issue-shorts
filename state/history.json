@@ -2298,5 +2298,53 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-14_0700_ai-glasses-exam-swap/video.mp4"
   },
   "seconds": 526
+ },
+ {
+  "key": "2026-10-14-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-14T12:00:00+09:00",
+  "started": "2026-10-14T09:21:28.161376+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-12876/",
+   "https://pixabay.com/videos/id-11018/",
+   "https://pixabay.com/videos/id-246231/"
+  ],
+  "duration": 24.84,
+  "matches": [
+   0.97,
+   0.95,
+   0.94,
+   0.97,
+   0.98,
+   0.95,
+   1.0,
+   0.97,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "비명 듣고 도망치던 23살 직장인이 발길을 돌린 이유 #shorts",
+  "source_post": "https://www.segye.com/newsView/20261014504451",
+  "facts_used": [
+   "10월 13일 오후 1시 40분쯤 인천 남동구 구월동 대형마트·영화관 입점 상업시설에서 50대 남성이 흉기 휘둘러 이용객 여러 명 다침 — 아주경제 https://www.ajunews.com/view/20261013204257771 , 한국일보 https://www.hankookilbo.com/news/article/A2026101320460000733 , 세계일보 https://www.segye.com/newsView/20261014504451",
+   "직장인 신중현 씨(23)가 여자친구와 4층 영화관 가다 '살려달라' 비명 듣고, 처음엔 피하려다 아이·여성 이용객이 많은 걸 떠올리고 돌아섬 — 파이낸셜뉴스 https://www.fnnews.com/news/202610140623044978 , 서울경제 https://m.sedaily.com/article/20101232 , 세계일보",
+   "등받이 없는 의자를 들고 에스컬레이터 난간 쪽으로 가 남성에게 힘껏 던짐, 남성 쓰러짐, 신 씨가 아래층에 붙잡으라 외쳐 시민들이 의자로 눌러 제압, 경찰 검거 — 아주경제, 세계일보, 헤럴드경제 https://biz.heraldcorp.com/article/10901619",
+   "신 씨 발언: '어린아이들이 너무 많아 막아야겠다는 생각도 들었지만, 사실 저 역시 살고 싶어서 한 행동이었다' — 아주경제, 부산일보 https://mobile.busan.com/view/election/view.php?code=2026101320215564889 , 세계일보"
+  ],
+  "slug": "2026-10-14_1200_chair-thrown-mall-attacker",
+  "late": false,
+  "video_id": "zTIvBsQ8SeU",
+  "url": "https://youtube.com/shorts/zTIvBsQ8SeU",
+  "privacy": "private",
+  "scheduled_for": "2026-10-14T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6aceccd30d20fd1527732cdf",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-14T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-14_1200_chair-thrown-mall-attacker/video.mp4"
+  },
+  "seconds": 461
  }
 ]
