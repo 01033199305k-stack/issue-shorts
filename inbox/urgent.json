@@ -1,61 +1,53 @@
 {
- "detected_at": "2026-10-14T15:18+09:00",
+ "detected_at": "2026-10-14T16:18+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "[새갤] 나주 60대 부부 살해 피의자 52세 박용수…신상정보 공개",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=470213&_dcbest=1&page=1",
-   "board": "디시 실베",
-   "why": "커뮤니티 2곳 동시 화제 + 기사화(주간조선)",
-   "news": [
+   "kind": "news",
+   "title": "[속보] \"비번에만 했다\"더니 필로폰 투약 후 운전…中국적 버스기사 징역 2년 6개월",
+   "url": "https://n.news.naver.com/article/215/0001269127",
+   "press": "한국경제TV",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
     {
-     "url": "https://n.news.naver.com/article/053/0000062244",
-     "headline": "60대 부부 결박·살해 후 1100만원 도박…53세 박용수 얼굴 공개"
+     "press": "디지털타임스",
+     "title": "“대형참사 날뻔”…중국 국적 버스기사 ‘마약 투약 후 운전’, 2년 6개월형",
+     "url": "https://n.news.naver.com/article/029/0003053050"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "김지용 중수청장 후보 \"정치검사 1호는 윤석열…한동훈도 포함\"",
-   "url": "https://n.news.naver.com/article/001/0016375675",
-   "press": "연합뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "청와대 새 비서실장에 임광현 국세청장",
+   "url": "https://n.news.naver.com/article/214/0001528994",
+   "press": "MBC",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
    "related": [
+    {
+     "press": "동아일보",
+     "title": "새 靑비서실장에 임광현…처남은 李선거법-대북송금 변호",
+     "url": "https://n.news.naver.com/article/020/0003754889"
+    },
+    {
+     "press": "조선일보",
+     "title": "새 비서실장에 임광현 국세청장... 처남은 李 선거법·대북송금 변호",
+     "url": "https://n.news.naver.com/article/023/0004003775"
+    },
     {
      "press": "JTBC",
-     "title": "\"정치 검사 1호 누군가\"…김지용 \"윤석열, 그리고.. \" [현장영상]",
-     "url": "https://n.news.naver.com/article/437/0000515625"
+     "title": "새 대통령 비서실장에 임광현 국세청장…떠나는 강훈식 \"이재명 정부 반드시 성공\"",
+     "url": "https://n.news.naver.com/article/437/0000515636"
     },
     {
-     "press": "서울경제",
-     "title": "김지용 “檢에 나쁜 영향 끼친 정치검사 1호 윤석열… 한동훈도 부정 못 해”",
-     "url": "https://n.news.naver.com/article/011/0004671133"
+     "press": "강원도민일보",
+     "title": "[속보] 이 대통령, 신임 비서실장에 임광현 국세청장 임명",
+     "url": "https://n.news.naver.com/article/654/0000205315"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] ‘1억 공천헌금’ 강선우 1심서 징역 2년 6개월 법정구속",
-   "url": "https://n.news.naver.com/article/016/0002709260",
-   "press": "헤럴드경제",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "KBS",
-     "title": "‘1억 공천헌금’ 무소속 강선우 의원, 1심 징역 2년 6개월…법정구속",
-     "url": "https://n.news.naver.com/article/056/0012273492"
-    },
-    {
-     "press": "아이뉴스24",
-     "title": "[속보] '1억 공천헌금' 강선우, 1심 징역 2년 6개월…법정 구속",
-     "url": "https://n.news.naver.com/article/031/0001065963"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]특검, 중앙선관위·선거용품 업체 압수수색…\"50억원 유착 정황\"",
-   "url": "https://n.news.naver.com/article/079/0004198615",
+   "title": "[속보]코스피, 다시 5천선대로 주저앉아",
+   "url": "https://n.news.naver.com/article/079/0004198754",
    "press": "노컷뉴스",
    "why": "[속보] 기사",
    "related": []
