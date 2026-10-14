@@ -2444,5 +2444,53 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-14_2100_class-ring-found-in-sewer/video.mp4"
   },
   "seconds": 389
+ },
+ {
+  "key": "2026-10-15-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-15T07:00:00+09:00",
+  "started": "2026-10-15T04:22:27.143683+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-263586/",
+   "https://pixabay.com/videos/id-12419/"
+  ],
+  "duration": 23.5,
+  "matches": [
+   0.94,
+   0.93,
+   1.0,
+   1.0,
+   0.95,
+   1.0,
+   1.0,
+   1.0,
+   0.95
+  ],
+  "sfx": 6,
+  "illustrations": 7,
+  "cuts": 9,
+  "title": "40도 열로 조퇴한 엄마가 식탁에서 발견한 쪽지 한 장 #shorts",
+  "source_post": "https://www.news1.kr/society/general-society/6318289",
+  "facts_used": [
+   "독감으로 열이 40도까지 올라 출근했다가 반차(조퇴)하고 귀가한 워킹맘, 글쓴이는 대학병원 간호사 — 뉴스1 2026-10-13 https://www.news1.kr/society/general-society/6318289 , 서울신문 2026-10-13 https://www.seoul.co.kr/news/society/2026/10/13/20261013500256 , 헤럴드경제 https://biz.heraldcorp.com/article/10900675",
+   "평소 엄마 출근이 빨라 아들은 혼자 차려진 밥을 먹고 정리한 뒤 등교 — 서울신문, 파이낸셜뉴스 2026-10-13 https://www.fnnews.com/news/202610130853109457",
+   "초4 아들이 등교 전 밀키트로 미역국을 끓여 두고 물 한 잔과 손편지를 남김 — 파이낸셜뉴스, 헤럴드경제, 뉴스1",
+   "쪽지 내용 '엄마 이거 끓여(끌여) 먹어 1인분이야' — 파이낸셜뉴스, 위키트리 https://www.wikitree.co.kr/articles/1165709 , 헤럴드경제",
+   "엄마: 사랑을 주기만 한 게 아니라 배로 받고 있었다는 걸 깨달은 날 — 서울신문, 뷰어스, 뉴스1 제목"
+  ],
+  "slug": "2026-10-15_0700_son-seaweed-soup-for-sick-mom",
+  "late": false,
+  "video_id": "heQVIgNzIBo",
+  "url": "https://youtube.com/shorts/heQVIgNzIBo",
+  "privacy": "private",
+  "scheduled_for": "2026-10-14T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6acfd7ce41e19a94599d766d",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-14T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-15_0700_son-seaweed-soup-for-sick-mom/video.mp4"
+  },
+  "seconds": 349
  }
 ]
