@@ -1,0 +1,303 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "class-ring-found-in-sewer",
+ "title_lines": [
+  "하수구 속 반지",
+  "60년 만의 주인"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "하수구에서 나온 60년 전 졸업 반지",
+   "say": "하수구에서 나온 육십 년 전 졸업 반지",
+   "sfx": "exclaim",
+   "tone": "글 제목 읽어 주듯 또렷하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "하수구에서 나온\n60년 전 졸업 반지",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "미국 하수관에서 1965년 졸업 반지가 나옴.",
+   "say": "미국 하수관에서 천구백육십오 년 졸업 반지가 나옴.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "construction",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "作業員",
+       "工事 作業員"
+      ],
+      "at": 0.0,
+      "fx": "pop",
+      "pos": "left"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "指輪",
+       "指輪 宝石"
+      ],
+      "at": 0.4,
+      "fx": "drop",
+      "pos": "right"
+     }
+    ],
+    "video": [
+     "sewer pipe water",
+     "manhole cover street",
+     "drain water flowing"
+    ]
+   }
+  },
+  {
+   "text": "근데 거기 있던 이유가 반전임.",
+   "say": "근데 거기 있던 이유가 반전임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "안쪽엔 OJM 세 글자뿐이었음.",
+   "say": "안쪽엔 오제이엠 세 글자뿐이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "doc",
+      "title": "반지 안쪽",
+      "lines": [
+       "O.J.M",
+       "1965년 졸업반"
+      ],
+      "mark": 0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "虫眼鏡",
+       "虫眼鏡 男性"
+      ],
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 몇 달 뒤 주인을 찾아냄.",
+   "say": "와, 몇 달 뒤 주인을 찾아냄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "cam": "push",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パソコン 男性",
+       "パソコン 作業"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "photo album old",
+     "photographs vintage",
+     "pictures old album"
+    ]
+   }
+  },
+  {
+   "text": "할아버지가 고등학생 때 여친한테 준 반지였음.",
+   "say": "할아버지가 고등학생 때 여친한테 준 반지였음.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로, 말끝은 분명하게",
+   "visual": {
+    "bg": "living",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "おじいさん",
+       "老人 男性"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "여친이 잃어버렸는데, 하수구가 그 집 앞이었음.",
+   "say": "여친이 잃어버렸는데, 하수구가 그 집 앞이었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "road",
+    "tr": "flash",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "家",
+       "一軒家"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "세상에, 그 여친이 몇 년 전 떠난 아내였음.",
+   "say": "세상에, 그 여친이 몇 년 전 떠난 아내였음.",
+   "sfx": "none",
+   "tone": "가슴이 뭉클해진 듯 낮고 따뜻하게, 말끝은 분명하게",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "老夫婦",
+       "夫婦 老人"
+      ],
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "💐",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "ring gold jewelry",
+     "wedding ring",
+     "jewelry ring box"
+    ]
+   }
+  },
+  {
+   "text": "님들은 꼭 다시 찾고 싶은 물건 있음?",
+   "say": "님들은 꼭 다시 찾고 싶은 물건 있음?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "指輪",
+       "指輪 宝石"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "하수구에서 나온 60년 전 졸업 반지가 거기 있던 이유 #shorts",
+  "description": "미국 앨라배마 셰필드 하수처리 작업자들이 하수관을 청소하다 1965년 졸업 반지를 발견함.\n반지 안쪽 머리글자 OJM 하나로 몇 달을 수소문한 끝에 주인 오스카 제임스 메러디스 할아버지를 찾아 9월 22일 돌려줌.\n반지는 할아버지가 고등학생 때 여자친구(훗날 아내)에게 준 것이었고, 반지가 나온 하수구는 그 여자친구가 어릴 적 살던 집 바로 건너편이었음.\n\n※ AI 음성으로 제작했습니다.\n#반지 #하수구 #60년 #감동 #해외썰 #shorts",
+  "tags": [
+   "졸업반지",
+   "하수구",
+   "60년만에",
+   "감동사연",
+   "해외토픽",
+   "앨라배마",
+   "잃어버린물건",
+   "썰"
+  ]
+ },
+ "source_post": "https://www.washingtonpost.com/lifestyle/2026/10/07/1965-class-ring-surfaced-sewer-then-came-remarkable-search/",
+ "facts_used": [
+  "앨라배마 셰필드 하수처리장 작업자들이 하수관 청소 중 버렐-슬레이터 고교 1965년 졸업 반지를 발견, 운영자 주니어 라이너에게 전달 — Washington Post 2026-10-07 https://www.washingtonpost.com/lifestyle/2026/10/07/1965-class-ring-surfaced-sewer-then-came-remarkable-search/ , UPI 2026-10-08 https://www.upi.com/Odd_News/2026/10/08/class-ring-sewer-Sheffield-Alabama/7991791477667/",
+  "반지 안쪽 머리글자 OJM, 동문 페이스북 글 뒤 몇 달 소득 없다가 사위가 온라인 졸업생 사진에서 오스카 제임스 메러디스를 찾음, 시의원 도움으로 딸 에이프릴 메러디스 무어와 연결 — Washington Post, UPI, Yahoo https://www.yahoo.com/news/articles/sewer-workers-class-ring-had-164512467.html",
+  "메러디스는 반지를 고교 시절 여자친구 애나(훗날 아내)에게 줬고, 애나가 결혼 몇 년 전 잃어버림 — UPI, Yahoo, WAFF https://www.waff.com/2026/09/24/after-60-years-lost-florence-mans-cherished-treasure-returns-home/",
+  "반지가 나온 하수구가 애나가 어릴 적 살던 집 바로 건너편(싱크대로 흘러간 것으로 추정) — UPI, Yahoo, Washington Post",
+  "애나는 몇 년 전 세상을 떠남 — Yahoo(People 계열), Washington Post 요약(3년 전, 결혼 50년)",
+  "9월 22일 반지 전달, 아직 손가락에 맞음 — Washington Post 사진 설명, WAFF 2026-09-24"
+ ],
+ "brief": "점수표: 하수구 졸업반지 17(이게됨4 궁금증5 공감5 대상3) / 유나이티드 블루투스 이름 회항 15(5월 일이라 묵음) / 말레이시아 중국산 SUV 바퀴 이탈 11(숨길 답 없음) / 캔자스 이구아나 구조 10 / 종이비행기 입으로 받기 기네스 7. inbox 는 시사·사건(나주 살인, 공천헌금 등) 위주라 WebSearch(UPI 이색뉴스)로 찾음.\n첫장면: 의외\n확인된 사실: facts_used 참고 (WaPo 10/7, UPI 10/8, Yahoo, WAFF 9/24). 발견 시점은 WAFF 2월(진공 트럭 청소), WaPo·UPI 는 막힌 하수관 청소 — 대본엔 '하수관 뚫던 작업자'로만 씀. 아내 별세는 '몇 년 전'으로만(3년·결혼 50년은 한 곳 요약이라 뺌). 싱크대 경로는 추정이라 뺌.\n훅 3안: ①하수구에서 나온 60년 전 졸업 반지(선택: 물건+숫자, 51년 지갑 편과 같은 결) ②하수관 진흙 속 1965년 반지 ③60년 만에 주인 찾은 반지 — 1안이 첫 1초에 '의외의 물건'을 가장 빨리 보여 줌.\n이해검사: 미국 하수관 작업자들이 찾은 60년 전 졸업 반지의 주인을 수소문해 보니, 할아버지가 여자친구에게 준 반지였고 하수구는 그 여자친구 집 앞, 그 여자친구는 몇 년 전 떠난 아내였음.\n그림대조: 완료 (해외 이야기라 street·apartment·market 안 씀, 일본 그림 없음)"
+}
