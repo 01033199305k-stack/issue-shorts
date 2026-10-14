@@ -2394,5 +2394,55 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-14_1800_lady-gaga-familymart-mop/video.mp4"
   },
   "seconds": 412
+ },
+ {
+  "key": "2026-10-14-2100",
+  "slot": "2100",
+  "publish_at": "2026-10-14T21:00:00+09:00",
+  "started": "2026-10-14T16:23:48.534641+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-4593/",
+   "https://pixabay.com/videos/id-3451/",
+   "https://pixabay.com/videos/id-35575/"
+  ],
+  "duration": 24.44,
+  "matches": [
+   0.94,
+   0.97,
+   1.0,
+   0.9,
+   0.93,
+   1.0,
+   1.0,
+   1.0,
+   0.99
+  ],
+  "sfx": 6,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "하수구에서 나온 60년 전 졸업 반지가 거기 있던 이유 #shorts",
+  "source_post": "https://www.washingtonpost.com/lifestyle/2026/10/07/1965-class-ring-surfaced-sewer-then-came-remarkable-search/",
+  "facts_used": [
+   "앨라배마 셰필드 하수처리장 작업자들이 하수관 청소 중 버렐-슬레이터 고교 1965년 졸업 반지를 발견, 운영자 주니어 라이너에게 전달 — Washington Post 2026-10-07 https://www.washingtonpost.com/lifestyle/2026/10/07/1965-class-ring-surfaced-sewer-then-came-remarkable-search/ , UPI 2026-10-08 https://www.upi.com/Odd_News/2026/10/08/class-ring-sewer-Sheffield-Alabama/7991791477667/",
+   "반지 안쪽 머리글자 OJM, 동문 페이스북 글 뒤 몇 달 소득 없다가 사위가 온라인 졸업생 사진에서 오스카 제임스 메러디스를 찾음, 시의원 도움으로 딸 에이프릴 메러디스 무어와 연결 — Washington Post, UPI, Yahoo https://www.yahoo.com/news/articles/sewer-workers-class-ring-had-164512467.html",
+   "메러디스는 반지를 고교 시절 여자친구 애나(훗날 아내)에게 줬고, 애나가 결혼 몇 년 전 잃어버림 — UPI, Yahoo, WAFF https://www.waff.com/2026/09/24/after-60-years-lost-florence-mans-cherished-treasure-returns-home/",
+   "반지가 나온 하수구가 애나가 어릴 적 살던 집 바로 건너편(싱크대로 흘러간 것으로 추정) — UPI, Yahoo, Washington Post",
+   "애나는 몇 년 전 세상을 떠남 — Yahoo(People 계열), Washington Post 요약(3년 전, 결혼 50년)",
+   "9월 22일 반지 전달, 아직 손가락에 맞음 — Washington Post 사진 설명, WAFF 2026-09-24"
+  ],
+  "slug": "2026-10-14_2100_class-ring-found-in-sewer",
+  "late": false,
+  "video_id": "JBe-KfFabss",
+  "url": "https://youtube.com/shorts/JBe-KfFabss",
+  "privacy": "private",
+  "scheduled_for": "2026-10-14T12:00:00Z",
+  "tiktok": {
+   "buffer_id": "6acf2f890ab87a16c8e989ac",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-14T12:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-14_2100_class-ring-found-in-sewer/video.mp4"
+  },
+  "seconds": 389
  }
 ]
