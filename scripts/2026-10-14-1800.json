@@ -1,0 +1,299 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "lady-gaga-familymart-mop",
+ "title_lines": [
+  "편의점 바닥 닦는",
+  "레이디 가가"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "레이디 가가가 일본 편의점 바닥 닦은 이유",
+   "say": "레이디 가가가 일본 편의점 바닥 닦은 이유",
+   "sfx": "punch",
+   "tone": "글 제목 읽어 주듯 또렷하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "레이디 가가가 일본\n편의점 바닥 닦은 이유",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 팝스타가 편의점 유니폼 입고 대걸레질을 함.",
+   "say": "와, 팝스타가 편의점 유니폼 입고 대걸레질을 함.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "store",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "モップ 掃除",
+       "掃除 モップ",
+       "モップ"
+      ],
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "치킨도 건네는데, 진짜 목적은 따로 있음.",
+   "say": "치킨도 건네는데, 진짜 목적은 따로 있음.",
+   "sfx": "question",
+   "visual": {
+    "bg": "store",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "フライドチキン",
+       "からあげ"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "chicken fried",
+     "convenience store shelf",
+     "store shelves"
+    ]
+   }
+  },
+  {
+   "text": "심지어 마지막엔 카메라 보고 일본어로 한마디 던짐.",
+   "say": "심지어 마지막엔 카메라 보고 일본어로 한마디 던짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "cam": "push",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ビデオカメラ",
+       "カメラマン",
+       "カメラ"
+      ],
+      "at": 0.0,
+      "fx": "slide-left"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 그 한마디가 공개됨.",
+   "say": "자, 그 한마디가 공개됨.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로, 말끝은 분명하게",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歌手 女性",
+       "歌う 女性"
+      ],
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "m",
+      "at": 0.3,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "패밀리마트에서 일해 보지 않겠습니까?",
+   "say": "패밀리마트에서 일해 보지 않겠습니까?",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "tone": "결정적 한 방을 터뜨리듯 크고 또박또박하게",
+   "visual": {
+    "bg": "store",
+    "tr": "flash",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コンビニ 店員 女性",
+       "コンビニ 店員",
+       "店員 女性"
+      ],
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🙋",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 알바 구하려고 찍은 광고였음.",
+   "say": "헐, 알바 구하려고 찍은 광고였음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "アルバイト 面接",
+       "面接 女性",
+       "アルバイト"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "stamp"
+     }
+    ],
+    "video": [
+     "convenience store night",
+     "store counter",
+     "shop interior"
+    ]
+   }
+  },
+  {
+   "text": "일본 매장 30%가 일손이 모자란다고 함.",
+   "say": "일본 매장 삼십 퍼센트가 일손이 모자란다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "doc",
+      "title": "알바 모집",
+      "lines": [
+       "매장 1만6455곳",
+       "1만481명 모집"
+      ],
+      "mark": 1
+     },
+     {
+      "type": "illust",
+      "q": [
+       "店長 困る",
+       "店長",
+       "困る 男性"
+      ],
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들이면 이거 보고 알바 지원함?",
+   "say": "님들이면 이거 보고 알바 지원함?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "레이디 가가가 일본 편의점 바닥을 닦은 이유 #shorts",
+  "description": "레이디 가가가 일본 편의점 패밀리마트 유니폼을 입고 바닥을 닦고 치킨을 건네는 30초 광고가 9월 25일 일본에서 공개됨.\n마지막에 일본어로 \"패밀리마트에서 일해 보지 않겠습니까\"라고 묻는 아르바이트 모집 광고였음.\n패밀리마트는 일본 내 1만6천여 곳 매장 중 약 30%가 일손이 부족하다고 밝혔고, 현지 연구원은 편의점이 유명인을 써서 '일하는 것' 자체를 홍보한 건 사실상 처음이라고 평가함.\n\n※ AI 음성으로 제작했습니다.\n#레이디가가 #일본편의점 #패밀리마트 #알바 #일손부족 #shorts",
+  "tags": [
+   "레이디 가가",
+   "일본 편의점",
+   "패밀리마트",
+   "알바 모집",
+   "일손 부족",
+   "편의점 알바",
+   "일본",
+   "썰"
+  ]
+ },
+ "source_post": "https://www.hankyung.com/article/202609303557i",
+ "facts_used": [
+  "레이디 가가가 패밀리마트 30초 채용 광고에서 유니폼을 입고 바닥을 닦고 진열대를 채우고 패미치키(치킨)를 건넴, 마지막에 일본어로 '패밀리마트에서 일해 보지 않겠습니까' 물음 — 한국경제 https://www.hankyung.com/article/202609303557i , The Malaysian Reserve https://themalaysianreserve.com/2026/09/26/lady-gaga-mops-familymart-floors-to-fight-japans-labor-shortage/ , SBS https://news.sbs.co.kr/english/article.do?news_id=N1008788431",
+  "광고 공개일 2026년 9월 25일 — Inc https://www.inc.com/amaya-nichole/lady-gaga-recruiting-convenience-store-workers-celebrity-ad-only-part-of-the-pitch/91410785 , The Malaysian Reserve",
+  "일본 내 1만6455곳 매장에서 아르바이트 1만481명 모집 — 한국경제 https://www.hankyung.com/article/2026093056751 , Seoul Economic Daily https://en.sedaily.com/international/2026/10/01/lady-gaga-fronts-familymart-hiring-ad-as-japan-labor-crunch",
+  "1만6천여 곳 중 약 30%가 일손 부족(회사 대변인, AFP·재팬타임스) — Kuwait Times(AFP) https://kuwaittimes.com/article/50659/lifestyle/movies-music/japanese-convenience-store-enlists-lady-gaga-to-bolster-recruitment/ , Inc",
+  "유통경제연구소 이케다 마스지 '편의점이 유명인으로 일하는 것을 홍보한 건 사실상 처음' — 한국경제, Seoul Economic Daily"
+ ],
+ "brief": "점수표: 레이디 가가 일본 편의점 바닥 청소 광고(이게됨4+궁금증4+공감3+대상5=16, 한국경제·서울경제·SBS·채널A·AFP·Inc) / 효자 남편 대리효도 7년치(3+3+4+3=13, 커뮤니티 원문 열람 불가·보도 없음) / 버스가 박았는데 대인접수 거부(2+3+4+3=12, 원문 열람 불가·보도 없음) / 중국산 SUV 뒷바퀴 2개 빠짐(4+2+3+3=12, 특정 제조사 안전 고발성·결말 없음) / 한국 인터넷 속도 22위(2+2+3+4=11, 설명형) — inbox 나머지는 정치·살인·주가·연예 외모라 제외. 첫장면: 의외(팝스타가 편의점 대걸레질). 훅 3안: 글카드 ①'레이디 가가가 일본 편의점 바닥 닦은 이유'(선택: 대상+이상한 점+이유 숨김) ②'대걸레 든 팝스타의 정체'(정체형 금지) ③'편의점 알바가 된 레이디 가가'(답 노출) / 1번 ①'와, 팝스타가 편의점 유니폼 입고 대걸레질을 함'(선택: 장면 바로) ②'일본 편의점에 레이디 가가가 나타남'(약함) ③'30초 광고 하나가 화제'(규모형) / title_lines ①'편의점 바닥 닦는/레이디 가가'(선택) ②'대걸레 든/레이디 가가' ③'일본 편의점에/나타난 팝스타'. 떡밥: 2번 '목적은 따로 있음' → 3번 '일본어로 한마디' → 4번 공개 예고 → 5번 실제 광고 대사로 회수 → 6번 알바 모집 광고. 주의: 광고처럼 보이지 않게 회사 홍보 문구·혜택(염색 허용 등 1매체만 확인)은 빼고 인력난 사실만, 노래 제목은 매체마다 달라 안 씀, 일본 배경이라 이라스토야 일본풍 그림 허용. 이해검사: 레이디 가가가 일본 편의점 광고에서 바닥을 닦은 건, 매장 30%가 일손이 모자란 패밀리마트가 알바를 구하려고 만든 채용 광고였기 때문임. 그림대조: 완료 (대걸레 청소/치킨/비디오카메라/여성 가수/편의점 여성 점원/알바 면접/곤란한 점장/고민하는 남성, 모두 편의점·일본 배경과 맞음)."
+}
