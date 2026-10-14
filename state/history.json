@@ -2346,5 +2346,53 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-14_1200_chair-thrown-mall-attacker/video.mp4"
   },
   "seconds": 461
+ },
+ {
+  "key": "2026-10-14-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-14T18:00:00+09:00",
+  "started": "2026-10-14T15:23:17.745822+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-227131/",
+   "https://pixabay.com/videos/id-1006/"
+  ],
+  "duration": 22.5,
+  "matches": [
+   1.0,
+   1.0,
+   0.85,
+   0.99,
+   1.0,
+   1.0,
+   0.93,
+   1.0,
+   0.96
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "레이디 가가가 일본 편의점 바닥을 닦은 이유 #shorts",
+  "source_post": "https://www.hankyung.com/article/202609303557i",
+  "facts_used": [
+   "레이디 가가가 패밀리마트 30초 채용 광고에서 유니폼을 입고 바닥을 닦고 진열대를 채우고 패미치키(치킨)를 건넴, 마지막에 일본어로 '패밀리마트에서 일해 보지 않겠습니까' 물음 — 한국경제 https://www.hankyung.com/article/202609303557i , The Malaysian Reserve https://themalaysianreserve.com/2026/09/26/lady-gaga-mops-familymart-floors-to-fight-japans-labor-shortage/ , SBS https://news.sbs.co.kr/english/article.do?news_id=N1008788431",
+   "광고 공개일 2026년 9월 25일 — Inc https://www.inc.com/amaya-nichole/lady-gaga-recruiting-convenience-store-workers-celebrity-ad-only-part-of-the-pitch/91410785 , The Malaysian Reserve",
+   "일본 내 1만6455곳 매장에서 아르바이트 1만481명 모집 — 한국경제 https://www.hankyung.com/article/2026093056751 , Seoul Economic Daily https://en.sedaily.com/international/2026/10/01/lady-gaga-fronts-familymart-hiring-ad-as-japan-labor-crunch",
+   "1만6천여 곳 중 약 30%가 일손 부족(회사 대변인, AFP·재팬타임스) — Kuwait Times(AFP) https://kuwaittimes.com/article/50659/lifestyle/movies-music/japanese-convenience-store-enlists-lady-gaga-to-bolster-recruitment/ , Inc",
+   "유통경제연구소 이케다 마스지 '편의점이 유명인으로 일하는 것을 홍보한 건 사실상 처음' — 한국경제, Seoul Economic Daily"
+  ],
+  "slug": "2026-10-14_1800_lady-gaga-familymart-mop",
+  "late": false,
+  "video_id": "q7Z3iW1xz-U",
+  "url": "https://youtube.com/shorts/q7Z3iW1xz-U",
+  "privacy": "private",
+  "scheduled_for": "2026-10-14T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6acf21700d20fd1527825e66",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-14T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-14_1800_lady-gaga-familymart-mop/video.mp4"
+  },
+  "seconds": 412
  }
 ]
