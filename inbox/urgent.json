@@ -1,56 +1,33 @@
 {
- "detected_at": "2026-10-14T16:18+09:00",
+ "detected_at": "2026-10-14T22:05+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] \"비번에만 했다\"더니 필로폰 투약 후 운전…中국적 버스기사 징역 2년 6개월",
-   "url": "https://n.news.naver.com/article/215/0001269127",
-   "press": "한국경제TV",
+   "title": "[속보] 법원, ‘선관위 사태’ 대법관 등에 대한 압수수색 ‘불허’",
+   "url": "https://n.news.naver.com/article/016/0002709354",
+   "press": "헤럴드경제",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "디지털타임스",
-     "title": "“대형참사 날뻔”…중국 국적 버스기사 ‘마약 투약 후 운전’, 2년 6개월형",
-     "url": "https://n.news.naver.com/article/029/0003053050"
+     "press": "부산일보",
+     "title": "[속보] 선관위 특검 \"법원, 전·현직 고위법관 수사 확대에 압수수색 불허\"",
+     "url": "https://n.news.naver.com/article/082/0001402510"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "청와대 새 비서실장에 임광현 국세청장",
-   "url": "https://n.news.naver.com/article/214/0001528994",
-   "press": "MBC",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 李대통령 “범죄자, 해외 숨어도 법 심판 못피해…끝까지 추적해 송환”",
+   "url": "https://n.news.naver.com/article/029/0003053180",
+   "press": "디지털타임스",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "동아일보",
-     "title": "새 靑비서실장에 임광현…처남은 李선거법-대북송금 변호",
-     "url": "https://n.news.naver.com/article/020/0003754889"
-    },
-    {
-     "press": "조선일보",
-     "title": "새 비서실장에 임광현 국세청장... 처남은 李 선거법·대북송금 변호",
-     "url": "https://n.news.naver.com/article/023/0004003775"
-    },
-    {
-     "press": "JTBC",
-     "title": "새 대통령 비서실장에 임광현 국세청장…떠나는 강훈식 \"이재명 정부 반드시 성공\"",
-     "url": "https://n.news.naver.com/article/437/0000515636"
-    },
-    {
-     "press": "강원도민일보",
-     "title": "[속보] 이 대통령, 신임 비서실장에 임광현 국세청장 임명",
-     "url": "https://n.news.naver.com/article/654/0000205315"
+     "press": "연합뉴스",
+     "title": "李대통령 \"해외 숨는다고 법 심판 못피해…끝까지 추적해 송환\"",
+     "url": "https://n.news.naver.com/article/001/0016377217"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]코스피, 다시 5천선대로 주저앉아",
-   "url": "https://n.news.naver.com/article/079/0004198754",
-   "press": "노컷뉴스",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
