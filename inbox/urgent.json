@@ -1,102 +1,22 @@
 {
- "detected_at": "2026-10-15T13:37+09:00",
+ "detected_at": "2026-10-15T15:18+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "요즘 황당한 오해로 사망자가 급증하고 있는 이유.jpg",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77031140",
-   "board": "루리웹 베스트",
-   "why": "커뮤니티 3곳 동시 화제",
-   "news": []
-  },
-  {
    "kind": "news",
-   "title": "추미애 “소방이 재정 빨대” 발언에···소방관들 “명예 훼손” 사과 촉구",
-   "url": "https://n.news.naver.com/article/032/0003476400",
-   "press": "경향신문",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "title": "한동훈, 민주당 겨냥 \"야비한 정치깡패들 쓸어버릴 것\"…가족 허위공격 주장",
+   "url": "https://n.news.naver.com/article/437/0000515771",
+   "press": "JTBC",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "서울경제",
-     "title": "추미애 “소방은 골치 아픈 재정 빨대” 발언 ‘일파만파’… 소방관들 “모독 행위” 분노",
-     "url": "https://n.news.naver.com/article/011/0004671447"
+     "press": "한국일보",
+     "title": "'딸 의혹'에 더 험해진 한동훈 입… \"야비한 민주당 정치깡패들 쓸어버릴 것\"",
+     "url": "https://n.news.naver.com/article/469/0000959593"
     },
     {
-     "press": "한국경제",
-     "title": "\"소방이 가장 골치 아픈 재정 빨대\" 추미애 발언 '후폭풍' [영상]",
-     "url": "https://n.news.naver.com/article/015/0005342815"
-    },
-    {
-     "press": "중앙일보",
-     "title": "추미애 “소방이 골치 아픈 재정 빨대”…소방노조 “모독 행위” 반발",
-     "url": "https://n.news.naver.com/article/025/0003558082"
-    },
-    {
-     "press": "뉴시스",
-     "title": "추미애 \"소방은 재정 빨대\"…소방 노조 \"명예훼손 망언\" 사과 요구",
-     "url": "https://n.news.naver.com/article/003/0014255347"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "선관위 특검 \"전국 30개 시군구 선관위, 투표자 수 허위 입력 확인\"",
-   "url": "https://n.news.naver.com/article/055/0001395656",
-   "press": "SBS",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "국민일보",
-     "title": "[속보] 특검 “30개 시군구 선관위, 투표자수 허위입력”",
-     "url": "https://n.news.naver.com/article/005/0001878859"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "[속보] 특검 \"전국 선관위 30곳, 투표자수 허위 입력\"",
-     "url": "https://n.news.naver.com/article/422/0000915854"
-    },
-    {
-     "press": "채널A",
-     "title": "특검 “전국 30개 시군구 선관위, 투표자수 허위입력 확인”",
-     "url": "https://n.news.naver.com/article/449/0000364128"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "이 대통령 지지율 44%…민주 33%·국힘 28% [NBS]",
-   "url": "https://n.news.naver.com/article/009/0005748937",
-   "press": "매일경제",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "노컷뉴스",
-     "title": "[속보]李 국정지지율 44%로 1%p↑…민주 33%·국힘 28%",
-     "url": "https://n.news.naver.com/article/079/0004199076"
-    },
-    {
-     "press": "오마이뉴스",
-     "title": "이 대통령 국정지지율 44%... 민주당 지지도는 또 하락",
-     "url": "https://n.news.naver.com/article/047/0002532292"
-    },
-    {
-     "press": "디지털타임스",
-     "title": "[속보] ‘李 잘 한다’ 1%p 오른 44%…민주 33% vs 국힘 28%",
-     "url": "https://n.news.naver.com/article/029/0003053309"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 코스닥에 이어 코스피 서킷브레이커 발동…코스닥은 거래 재개",
-   "url": "https://n.news.naver.com/article/056/0012274307",
-   "press": "KBS",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "SBS Biz",
-     "title": "코스닥 폭락에 서킷브레이커 발동…20분간 거래 중단",
-     "url": "https://n.news.naver.com/article/374/0000537980"
+     "press": "경기일보",
+     "title": "한동훈 \"야비한 정치깡패 쓸어버리겠다\"…가족 논란 제기에 분노",
+     "url": "https://n.news.naver.com/article/666/0000127570"
     }
    ]
   }
