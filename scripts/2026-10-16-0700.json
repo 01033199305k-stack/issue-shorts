@@ -1,0 +1,313 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "toddler-chair-saves-mom",
+ "title_lines": [
+  "3살이 끌고 간 것",
+  "쓰러진 엄마 구한 딸"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "엄마가 쓰러지자 3살 딸이 끌고 간 것",
+   "say": "엄마가 쓰러지자 세 살 딸이 끌고 간 것",
+   "sfx": "punch",
+   "tone": "글 제목 읽어 주듯 또렷하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "엄마가 쓰러지자\n3살 딸이 끌고 간 것",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "미국에서 엄마가 쓰러졌는데 집엔 3살 딸뿐임.",
+   "say": "미국에서 엄마가 쓰러졌는데 집엔 세 살 딸뿐임.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "living",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "倒れる 女性",
+       "病気 女性",
+       "気絶"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 꼬마가 쓴 방법이 대박임.",
+   "say": "근데 꼬마가 쓴 방법이 대박임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "女の子 幼児",
+       "子供 女の子",
+       "幼児"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "딸은 멀리 사는 할머니한테 영상통화 걺.",
+   "say": "딸은 멀리 사는 할머니한테 영상통화 걺.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "living",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ビデオ通話 子供",
+       "ビデオ通話",
+       "スマートフォン 子供"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "smartphone video call",
+     "phone screen call",
+     "tablet video call"
+    ]
+   }
+  },
+  {
+   "text": "아니, 신고는 됐는데 현관문이 잠겨 있었음.",
+   "say": "아니, 신고는 됐는데 현관문이 잠겨 있었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "warn",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "救急車",
+       "パトカー 救急車",
+       "サイレン"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그때 3살이 한 일 공개함.",
+   "say": "그때 세 살이 한 일 공개함.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로, 말끝은 분명하게",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ドア 鍵",
+       "鍵 ドア",
+       "ドア"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.0,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "세상에, 식탁 의자를 끌고 가 밟고 문을 땀.",
+   "say": "세상에, 식탁 의자를 끌고 가 밟고 문을 땀.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "living",
+    "tr": "flash",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "椅子 子供",
+       "踏み台 子供",
+       "椅子"
+      ],
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🪑",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "할머니 말대로 외쳐서 구급대도 불렀음.",
+   "say": "할머니 말대로 외쳐서 구급대도 불렀음.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "救急隊員",
+       "救命士",
+       "救急"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚑",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "ambulance lights night",
+     "ambulance street",
+     "ambulance emergency"
+    ]
+   }
+  },
+  {
+   "text": "님들이면 3살한테 이거 가르침? 아직 이름?",
+   "say": "님들이면 세 살한테 이거 가르침? 아직 이름?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "label",
+      "text": "님들 선택은?",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "椅子 子供",
+       "踏み台 子供",
+       "椅子"
+      ],
+      "pos": "center",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "style": "row",
+      "text": "① 가르침",
+      "pos": "bottom-left",
+      "at": 0.3,
+      "fx": "slide-left"
+     },
+     {
+      "type": "text",
+      "style": "row",
+      "text": "② 아직 이름",
+      "pos": "bottom-right",
+      "at": 0.5,
+      "fx": "slide-right"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "엄마가 쓰러지자 3살 딸이 현관문까지 끌고 간 것 #shorts",
+  "description": "미국 텍사스 러스크에서 뇌전증이 있는 엄마가 발작으로 쓰러지자, 집에 단둘이 있던 3살 딸이 조지아에 사는 조부모에게 영상통화를 걸었음.\n조부모가 911에 신고했지만 현관문이 잠겨 있었고, 아이는 식탁 의자를 문까지 끌고 가 올라서서 잠금을 풀고 소리를 질러 구급대를 불렀음.\n아이는 지역 응급구조대에서 용감한 시민 상장과 기념 코인을 받았다고 함.\n\n※ AI 음성으로 제작했습니다.\n#3살 #엄마 #구조 #영상통화 #감동 #shorts",
+  "tags": [
+   "3살",
+   "엄마구한딸",
+   "영상통화",
+   "구급대",
+   "감동사연",
+   "미국",
+   "해외토픽",
+   "썰"
+  ]
+ },
+ "source_post": "https://www.kltv.com/2026/09/08/3-year-old-honored-saving-mom-rusk-home/",
+ "facts_used": [
+  "텍사스 러스크의 3살 노에미(에미)가 엄마의 발작 때 단둘이 집에 있었고, 엄마는 움직이거나 말하지 못했음 — KLTV https://www.kltv.com/2026/09/08/3-year-old-honored-saving-mom-rusk-home/ , WFAA https://www.wfaa.com/article/news/local/3-year-old-hailed-hero-for-saving-mom-during-seizure-in-rusk-apartment/501-5bac28a1-7109-468b-b839-b955fbca08dd",
+  "아이가 애틀랜타(조지아) 근처 조부모에게 페이스타임을 걸었고 조부모가 911에 신고 — WSB-TV https://www.wsbtv.com/news/trending/i-helped-mommy-3-year-old-honored-911-call-that-helped-save-parent-who-had-seizure/VRAMO4HK2RD2HPOPZBMSEUY4XE/ , EMS1 https://www.ems1.com/911-and-dispatch/texas-3-year-old-honored-after-helping-ems-reach-mother-during-seizure",
+  "현관문이 잠겨 있어 아이가 식탁 의자를 문까지 옮겨 올라서서 잠금을 풂, 할머니가 소리치라고 하자 외쳐 구조대가 집을 찾게 함 — WFAA, KAGS https://www.kagstv.com/article/news/local/3-year-old-hailed-hero-for-saving-mom-during-seizure-in-rusk-apartment/501-5bac28a1-7109-468b-b839-b955fbca08dd , WSB-TV",
+  "9월 8일 UT Health East Texas EMS가 용감한 시민 상장과 챌린지 코인 수여 — KLTV, Tyler Morning Telegraph https://tylerpaper.com/2026/09/12/ut-health-east-texas-ems-honors-3-year-old-for-helping-save-her-mother-during-medical-emergency/"
+ ],
+ "brief": "점수표: 3살 딸 의자로 문 열어 엄마 구함 22(이게됨4 궁금증4 감정5x2 대상4) / 누명 벗으려 녹취했다 왕따(루리웹) 탈락(보도 확인 못 함) / 경주 불법주차 신고자 살해협박 탈락(보도 확인 못 함) / 맛집 가는 길 쇠말뚝 차량 파손 탈락(감정2, 보도 없음) / 엘리베이터 4대 문 열림 탈락(보도 없음). inbox 는 정치·증시 위주라 WebSearch 로 찾음 (9월 8~12일 보도, 9월 중순부터 Cox 계열 방송 트렌딩으로 재확산).\n첫장면: 사람\n확인된 사실: facts_used 참고. '700마일' 거리는 한 매체에만 있어 안 씀. 아이 실명·엄마 이름은 안 씀. '미리 가르쳤다'는 내용은 일부 매체에만 있어 대본엔 안 씀(마지막 질문은 시청자 선택으로만). 할머니 발언 직접 인용 없음, 대사 cap 없음.\n훅 3안: ①엄마가 쓰러지자 3살 딸이 끌고 간 것(선택: 아이+위기+물건을 숨김) ②3살이 엄마를 살린 방법 ③911도 못 거는 3살의 구조 작전 — ①은 의자를 숨겨 끝까지 보게 하고 7번에서 회수. 제목 틀: 어제 18시 상황형과 다른 물건형, 오늘 첫 편이라 '~한 이유'형 아님.\n이해검사: 미국 텍사스에서 엄마가 발작으로 쓰러지자 3살 딸이 조지아 할머니에게 영상통화를 걸어 신고하게 했고, 잠긴 현관문은 식탁 의자를 끌고 가 올라서서 열어 구급대가 들어왔음.\n그림대조: 완료 (미국 이야기라 한국 거리·아파트 bg 안 씀, living·night·white만, 일본 지도·국기 없음, 스톡은 스마트폰 영상통화·구급차만)"
+}
