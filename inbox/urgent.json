@@ -1,40 +1,42 @@
 {
- "detected_at": "2026-10-15T18:27+09:00",
+ "detected_at": "2026-10-15T23:24+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 李대통령 “여성 등 약자가 피해…관계성 강력범죄에 전쟁 선포”",
-   "url": "https://n.news.naver.com/article/029/0003053344",
-   "press": "디지털타임스",
+   "title": "[속보] 19세 여성 여전히 의식불명…인천 흉기난동범, 살인미수에도 '집유' 후환 키웠다",
+   "url": "https://n.news.naver.com/article/082/0001402565",
+   "press": "부산일보",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "“삼전 7만원, 하닉 20만원” 일주일 전 영상, 뒤늦게 터졌다",
-   "url": "https://n.news.naver.com/article/018/0006388695",
-   "press": "이데일리",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "이 대통령, 김지용 중수청장 임명…범여권 ‘부적격 논란’ 여전",
+   "url": "https://n.news.naver.com/article/028/0002827681",
+   "press": "한겨레",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "문화일보",
-     "title": "“삼전 7만, 하닉 20만원이 적정” ‘검은 목요일’에 소환된 한 애널의 분석",
-     "url": "https://n.news.naver.com/article/021/0002825424"
+     "press": "KBS",
+     "title": "이 대통령, 김지용 초대 중대범죄수사청장 임명안 재가",
+     "url": "https://n.news.naver.com/article/056/0012274524"
     },
     {
-     "press": "아시아경제",
-     "title": "\"삼성전자 7만원, 하이닉스 20만원\"…'역대급 실적'에도 어두운 전망, 왜",
-     "url": "https://n.news.naver.com/article/277/0005829024"
+     "press": "MBC",
+     "title": "이 대통령, 김지용 중수청장 후보자 임명안 재가‥지명 37일만",
+     "url": "https://n.news.naver.com/article/214/0001529338"
+    },
+    {
+     "press": "MBN",
+     "title": "이 대통령, 김지용 임명…청문보고서 채택 당일 '속전속결'",
+     "url": "https://n.news.naver.com/article/057/0001973693"
+    },
+    {
+     "press": "미디어오늘",
+     "title": "이재명 대통령, 김지용 중수청장 임명 재가",
+     "url": "https://n.news.naver.com/article/006/0000138236"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]특검, 대법원에 김건희 추가 구속영장 발부 요청···“이달말 구속 만료돼 연장 필요”",
-   "url": "https://n.news.naver.com/article/032/0003476486",
-   "press": "경향신문",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
