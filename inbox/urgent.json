@@ -1,24 +1,40 @@
 {
- "detected_at": "2026-10-15T15:18+09:00",
+ "detected_at": "2026-10-15T18:27+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "한동훈, 민주당 겨냥 \"야비한 정치깡패들 쓸어버릴 것\"…가족 허위공격 주장",
-   "url": "https://n.news.naver.com/article/437/0000515771",
-   "press": "JTBC",
+   "title": "[속보] 李대통령 “여성 등 약자가 피해…관계성 강력범죄에 전쟁 선포”",
+   "url": "https://n.news.naver.com/article/029/0003053344",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "“삼전 7만원, 하닉 20만원” 일주일 전 영상, 뒤늦게 터졌다",
+   "url": "https://n.news.naver.com/article/018/0006388695",
+   "press": "이데일리",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "한국일보",
-     "title": "'딸 의혹'에 더 험해진 한동훈 입… \"야비한 민주당 정치깡패들 쓸어버릴 것\"",
-     "url": "https://n.news.naver.com/article/469/0000959593"
+     "press": "문화일보",
+     "title": "“삼전 7만, 하닉 20만원이 적정” ‘검은 목요일’에 소환된 한 애널의 분석",
+     "url": "https://n.news.naver.com/article/021/0002825424"
     },
     {
-     "press": "경기일보",
-     "title": "한동훈 \"야비한 정치깡패 쓸어버리겠다\"…가족 논란 제기에 분노",
-     "url": "https://n.news.naver.com/article/666/0000127570"
+     "press": "아시아경제",
+     "title": "\"삼성전자 7만원, 하이닉스 20만원\"…'역대급 실적'에도 어두운 전망, 왜",
+     "url": "https://n.news.naver.com/article/277/0005829024"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]특검, 대법원에 김건희 추가 구속영장 발부 요청···“이달말 구속 만료돼 연장 필요”",
+   "url": "https://n.news.naver.com/article/032/0003476486",
+   "press": "경향신문",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
