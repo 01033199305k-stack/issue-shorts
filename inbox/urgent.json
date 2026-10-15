@@ -1,33 +1,32 @@
 {
- "detected_at": "2026-10-14T22:05+09:00",
+ "detected_at": "2026-10-15T09:07+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 법원, ‘선관위 사태’ 대법관 등에 대한 압수수색 ‘불허’",
-   "url": "https://n.news.naver.com/article/016/0002709354",
-   "press": "헤럴드경제",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "아내 살해 후 도주한 70대, 음독 상태로 검거…스토킹·폭행 전력",
+   "url": "https://n.news.naver.com/article/082/0001402554",
+   "press": "부산일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "부산일보",
-     "title": "[속보] 선관위 특검 \"법원, 전·현직 고위법관 수사 확대에 압수수색 불허\"",
-     "url": "https://n.news.naver.com/article/082/0001402510"
+     "press": "한국경제TV",
+     "title": "'가정폭력 후 아내 살해' 또 터졌다...70대男 범행 후 '음독'",
+     "url": "https://n.news.naver.com/article/215/0001269212"
+    },
+    {
+     "press": "헤럴드경제",
+     "title": "[속보] 상습 가정폭력 70대男, 아내 살해 긴급 체포",
+     "url": "https://n.news.naver.com/article/016/0002709419"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 李대통령 “범죄자, 해외 숨어도 법 심판 못피해…끝까지 추적해 송환”",
-   "url": "https://n.news.naver.com/article/029/0003053180",
-   "press": "디지털타임스",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "연합뉴스",
-     "title": "李대통령 \"해외 숨는다고 법 심판 못피해…끝까지 추적해 송환\"",
-     "url": "https://n.news.naver.com/article/001/0016377217"
-    }
-   ]
+   "title": "[속보] '김수현 명예훼손' 가세연 김세의, 보석 청구…오전 11시 심문 진행",
+   "url": "https://n.news.naver.com/article/002/0002461006",
+   "press": "프레시안",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
