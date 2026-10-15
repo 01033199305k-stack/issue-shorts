@@ -2541,5 +2541,52 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-15_1200_chair-hero-stops-knife-attack/video.mp4"
   },
   "seconds": 420
+ },
+ {
+  "key": "2026-10-15-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-15T18:00:00+09:00",
+  "started": "2026-10-15T15:23:53.810460+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-13370/",
+   "https://pixabay.com/videos/id-1261/"
+  ],
+  "duration": 24.75,
+  "matches": [
+   0.93,
+   0.95,
+   0.88,
+   1.0,
+   0.94,
+   1.0,
+   1.0,
+   0.97,
+   0.97
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "빵값 모자라 포기한 초등생 4명이 위층에서 짠 작전 #shorts",
+  "source_post": "https://www.mt.co.kr/society/2026/10/11/2026101112245995163",
+  "facts_used": [
+   "부산 남구 카페 운영자 A씨가 CCTV 영상과 사연을 SNS에 공개(9~10일) — 머니투데이 https://www.mt.co.kr/society/2026/10/11/2026101112245995163 , 한국경제 https://www.hankyung.com/article/2026101138517 , 전자신문 https://www.etnews.com/20261010000026",
+   "초등학생 4명이 돈이 모자라 빵 구매를 포기하자 사장이 크루아상을 서비스(무료)로 줌 — 머니투데이, 한국경제, SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008792238",
+   "빵을 다 먹은 아이들이 1층 카운터 앞에 일렬로 서서 직원들을 향해 바닥에 엎드려 동시에 큰절, 이후 90도 인사 반복 — 한국경제, 머니투데이, 서울신문 https://www.seoul.co.kr/news/society/2026/10/11/20261011500002",
+   "직원이 홀을 점검하러 위층에 올라갔다가 아이들이 무언가 작당 모의하는 소리를 들었고 그게 이 인사 준비였다 — 서울신문, SBS 보도 요약, 위키트리 https://www.wikitree.co.kr/articles/1165284"
+  ],
+  "slug": "2026-10-15_1800_kids-bow-for-free-croissant",
+  "late": false,
+  "video_id": "IAA2mcRQZjg",
+  "url": "https://youtube.com/shorts/IAA2mcRQZjg",
+  "privacy": "private",
+  "scheduled_for": "2026-10-15T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad0735cbaaf8bed1c0044ee",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-15T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-15_1800_kids-bow-for-free-croissant/video.mp4"
+  },
+  "seconds": 484
  }
 ]
