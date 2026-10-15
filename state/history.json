@@ -2588,5 +2588,52 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-15_1800_kids-bow-for-free-croissant/video.mp4"
   },
   "seconds": 484
+ },
+ {
+  "key": "2026-10-16-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-16T07:00:00+09:00",
+  "started": "2026-10-16T04:23:29.544479+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-202987/",
+   "https://pixabay.com/videos/id-7012/"
+  ],
+  "duration": 22.27,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   0.91,
+   1.0,
+   0.96,
+   0.97,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 9,
+  "title": "엄마가 쓰러지자 3살 딸이 현관문까지 끌고 간 것 #shorts",
+  "source_post": "https://www.kltv.com/2026/09/08/3-year-old-honored-saving-mom-rusk-home/",
+  "facts_used": [
+   "텍사스 러스크의 3살 노에미(에미)가 엄마의 발작 때 단둘이 집에 있었고, 엄마는 움직이거나 말하지 못했음 — KLTV https://www.kltv.com/2026/09/08/3-year-old-honored-saving-mom-rusk-home/ , WFAA https://www.wfaa.com/article/news/local/3-year-old-hailed-hero-for-saving-mom-during-seizure-in-rusk-apartment/501-5bac28a1-7109-468b-b839-b955fbca08dd",
+   "아이가 애틀랜타(조지아) 근처 조부모에게 페이스타임을 걸었고 조부모가 911에 신고 — WSB-TV https://www.wsbtv.com/news/trending/i-helped-mommy-3-year-old-honored-911-call-that-helped-save-parent-who-had-seizure/VRAMO4HK2RD2HPOPZBMSEUY4XE/ , EMS1 https://www.ems1.com/911-and-dispatch/texas-3-year-old-honored-after-helping-ems-reach-mother-during-seizure",
+   "현관문이 잠겨 있어 아이가 식탁 의자를 문까지 옮겨 올라서서 잠금을 풂, 할머니가 소리치라고 하자 외쳐 구조대가 집을 찾게 함 — WFAA, KAGS https://www.kagstv.com/article/news/local/3-year-old-hailed-hero-for-saving-mom-during-seizure-in-rusk-apartment/501-5bac28a1-7109-468b-b839-b955fbca08dd , WSB-TV",
+   "9월 8일 UT Health East Texas EMS가 용감한 시민 상장과 챌린지 코인 수여 — KLTV, Tyler Morning Telegraph https://tylerpaper.com/2026/09/12/ut-health-east-texas-ems-honors-3-year-old-for-helping-save-her-mother-during-medical-emergency/"
+  ],
+  "slug": "2026-10-16_0700_toddler-chair-saves-mom",
+  "late": false,
+  "video_id": "Tpgkin4rQBI",
+  "url": "https://youtube.com/shorts/Tpgkin4rQBI",
+  "privacy": "private",
+  "scheduled_for": "2026-10-15T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad129838fb2c19f54dea563",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-15T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-16_0700_toddler-chair-saves-mom/video.mp4"
+  },
+  "seconds": 340
  }
 ]
