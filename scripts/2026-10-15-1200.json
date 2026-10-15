@@ -1,0 +1,313 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "chair-hero-stops-knife-attack",
+ "title_lines": [
+  "팔 걷자 다들 놀람",
+  "칼부림 막은 청년"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "칼 든 남자 앞에 의자 들고 선 31살",
+   "say": "칼 든 남자 앞에 의자 들고 선 서른한 살",
+   "sfx": "dudung",
+   "tone": "글 제목 읽어 주듯 또렷하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "칼 든 남자 앞에\n의자 들고 선 31살",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "쇼핑몰서 칼 휘두른 남자를 식당 사장님이 의자로 막음.",
+   "say": "쇼핑몰서 칼 휘두른 남자를 식당 사장님이 의자로 막음.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "restaurant",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "椅子 男性",
+       "椅子"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그걸 본 손님이 같이 의자 들고 뛰어듦.",
+   "say": "그걸 본 손님이 같이 의자 들고 뛰어듦.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "走る 男性",
+       "急ぐ 男性"
+      ],
+      "at": 0.0,
+      "fx": "run-right"
+     },
+     {
+      "type": "emoji",
+      "text": "💨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "chairs restaurant",
+     "chair cafe",
+     "restaurant tables"
+    ]
+   }
+  },
+  {
+   "text": "근데 이 청년 정체에 인터넷이 뒤집힘.",
+   "say": "근데 이 청년 정체에 인터넷이 뒤집힘.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマートフォン"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "에스컬레이터까지 쫓아가 흉기를 빼앗음.",
+   "say": "에스컬레이터까지 쫓아가 흉기를 빼앗음.",
+   "sfx": "stamp",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "store",
+    "tr": "whoosh",
+    "cam": "push",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "エスカレーター",
+       "エスカレーター 男性"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💪",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "escalator mall",
+     "escalator shopping",
+     "shopping mall interior"
+    ]
+   }
+  },
+  {
+   "text": "자, 인터뷰에서 정체가 공개됨.",
+   "say": "자, 인터뷰에서 정체가 공개됨.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로, 말끝은 분명하게",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "インタビュー 男性",
+       "インタビュー"
+      ],
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.0,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "팔을 들자 팔 전체가 문신이었음.",
+   "say": "팔을 들자 팔 전체가 문신이었음.",
+   "sfx": "exclaim",
+   "cap": "hit",
+   "tone": "믿기지 않는다는 듯 목소리를 확 높여서",
+   "visual": {
+    "bg": "office",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "タトゥー",
+       "入れ墨"
+      ],
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "댓글엔 문신이 멋있긴 처음이란 반응이 쏟아짐.",
+   "say": "댓글엔 문신이 멋있긴 처음이란 반응이 쏟아짐.",
+   "sfx": "none",
+   "cap": "quote",
+   "tone": "가슴이 뭉클해진 듯 낮고 따뜻하게, 말끝은 분명하게",
+   "visual": {
+    "bg": "white",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ヒーロー 男性",
+       "ヒーロー"
+      ],
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "👏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "님들이면 뛰어듦? 일단 피함?",
+   "say": "님들이면 뛰어듦? 일단 피함?",
+   "sfx": "none",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "label",
+      "text": "님들 선택은?",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "style": "row",
+      "text": "① 의자 들고 뛰어듦",
+      "pos": "center",
+      "at": 0.2,
+      "fx": "slide-left"
+     },
+     {
+      "type": "text",
+      "style": "row",
+      "text": "② 일단 피함",
+      "pos": "bottom",
+      "at": 0.5,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "椅子"
+      ],
+      "at": 0.6,
+      "fx": "pop",
+      "pos": "top-right",
+      "size": "s"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "\"문신이 멋있어 보이긴 처음\" 의자 들고 칼부림 막아선 31살 #shorts",
+  "description": "13일 인천 남동구 구월동 대형 상업시설 식당가에서 50대 남성이 흉기를 휘둘러 여러 명이 다침.\n식당 사장이 의자로 막아서자 31살 시민이 의자를 들고 합류했고, 시민 서너 명이 에스컬레이터 앞에서 흉기를 빼앗아 경찰에 넘김.\n인터뷰 영상에서 팔 전체 문신이 드러나자 '문신이 멋있어 보이긴 처음'이라는 반응이 쏟아짐. 경찰과 인천시는 시민 포상을 검토 중.\n\n※ AI 음성으로 제작했습니다.\n#인천 #의인 #용감한시민 #문신 #썰 #shorts",
+  "tags": [
+   "인천",
+   "구월동",
+   "의인",
+   "용감한시민",
+   "의자",
+   "문신",
+   "시민영웅",
+   "썰"
+  ]
+ },
+ "source_post": "https://www.bobaedream.co.kr/view?code=best&No=1039897",
+ "facts_used": [
+  "10월 13일 오후 인천 남동구 구월동 대형 상업시설에서 50대(59세) 남성이 흉기를 휘둘러 여러 명(8~9명) 다침, 현행범 체포 — 뉴시스 2026-10-13 https://www.newsis.com/view/NISX20261013_0003824609 , 머니투데이 2026-10-13 https://www.mt.co.kr/society/2026/10/13/2026101320230513571",
+  "2층 식당 사장(음식점 관계자)이 혼자 의자로 막는 것을 보고 31세 시민 나현준씨가 의자를 들고 합류 — 머니투데이, 경기일보 https://www.kyeonggi.com/article/20261013580454 , 뉴스1 https://www.news1.kr/local/incheon/6320257",
+  "'저 찌르려 하길래 피하고 의자로' — 아이뉴스24 https://m.inews24.com/v/2014707 , 파이낸셜뉴스 2026-10-15 https://www.fnnews.com/news/202610150645403593 (의자로 공격을 가까스로 막음)",
+  "피의자가 에스컬레이터로 이동했고 시민들이 따라가 의자로 막아 시민 3~4명이 흉기를 빼앗고 경찰 도착 전 제압 — 아주경제 https://www.ajunews.com/view/20261013155750000 , 위키트리 https://www.wikitree.co.kr/articles/1166264 , 이데일리, 경기일보",
+  "인터뷰 영상에서 팔 전체 문신(이레즈미)이 드러나 '문신이 멋있어 보이긴 처음' 반응 — 아시아경제 2026-10-15 https://view.asiae.co.kr/article/2026101508332979475 , 파이낸셜뉴스 2026-10-15, 머니투데이 2026-10-14 https://www.mt.co.kr/society/2026/10/14/2026101414384313637",
+  "경찰·인천시 시민 포상 검토 — 노컷뉴스 https://nocutnews.co.kr/news/6591622 , 데일리안"
+ ],
+ "brief": "점수표: 인천 흉기 난동 의자로 막은 문신 청년 21(이게됨4 궁금증4 공감5×2 대상3) / 응애참새 키운 썰 14(보도 없음, 탈락) / 야쿠르트 아줌마 비밀병기 12(보도 없음) / 미국 수출 굴 폐기 9(감정1 탈락) / 네팔 전도 체포 0(종교). inbox 는 시사·연예 위주, news_hot 은 정치 위주라 inbox 보배드림 글을 언론 보도로 확인.\n첫장면: 사람\n확인된 사실: facts_used 참고. 부상자 수가 매체마다 8·9명으로 달라 '여러 명'으로 씀. 심정지 피해자 등 피해 상세는 다루지 않음(담담하게, 웃음 tone·absurd 효과음 없음). 시민 이름은 화면에 안 씀, 피의자 신상 없음. 여자친구가 말렸다는 말은 출처 하나뿐이라 버림.\n훅 3안: ①칼 든 남자 앞에 의자 들고 선 31살(선택: 사람+숫자+의외의 물건) ②칼부림 막은 청년 팔에 있던 것 ③식당 사장님이 의자로 버틴 10분 — ①이 첫 1초에 위험한 장면과 '누구지?' 궁금증을 같이 줌, 답(팔 전체 문신과 반응)은 6·7번에서 회수.\n이해검사: 인천 쇼핑몰에서 흉기 든 남자를 식당 사장과 손님들이 의자로 막아 흉기를 빼앗았는데, 앞장선 31살 청년이 인터뷰에서 팔 전체 문신을 드러내 '문신이 멋있어 보이긴 처음'이라는 반응이 쏟아졌음.\n그림대조: 완료 (한국 이야기라 일본 지도·국기 없음, 장소 restaurant·store, 스톡 영상은 의자·에스컬레이터만, 사람 검색어 없음)"
+}
