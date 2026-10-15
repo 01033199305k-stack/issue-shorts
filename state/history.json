@@ -2492,5 +2492,54 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-15_0700_son-seaweed-soup-for-sick-mom/video.mp4"
   },
   "seconds": 349
+ },
+ {
+  "key": "2026-10-15-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-15T12:00:00+09:00",
+  "started": "2026-10-15T09:16:31.116948+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-230436/",
+   "https://pixabay.com/videos/id-3609/"
+  ],
+  "duration": 24.2,
+  "matches": [
+   0.94,
+   1.0,
+   0.94,
+   1.0,
+   0.89,
+   1.0,
+   1.0,
+   0.98,
+   0.88
+  ],
+  "sfx": 6,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "\"문신이 멋있어 보이긴 처음\" 의자 들고 칼부림 막아선 31살 #shorts",
+  "source_post": "https://www.bobaedream.co.kr/view?code=best&No=1039897",
+  "facts_used": [
+   "10월 13일 오후 인천 남동구 구월동 대형 상업시설에서 50대(59세) 남성이 흉기를 휘둘러 여러 명(8~9명) 다침, 현행범 체포 — 뉴시스 2026-10-13 https://www.newsis.com/view/NISX20261013_0003824609 , 머니투데이 2026-10-13 https://www.mt.co.kr/society/2026/10/13/2026101320230513571",
+   "2층 식당 사장(음식점 관계자)이 혼자 의자로 막는 것을 보고 31세 시민 나현준씨가 의자를 들고 합류 — 머니투데이, 경기일보 https://www.kyeonggi.com/article/20261013580454 , 뉴스1 https://www.news1.kr/local/incheon/6320257",
+   "'저 찌르려 하길래 피하고 의자로' — 아이뉴스24 https://m.inews24.com/v/2014707 , 파이낸셜뉴스 2026-10-15 https://www.fnnews.com/news/202610150645403593 (의자로 공격을 가까스로 막음)",
+   "피의자가 에스컬레이터로 이동했고 시민들이 따라가 의자로 막아 시민 3~4명이 흉기를 빼앗고 경찰 도착 전 제압 — 아주경제 https://www.ajunews.com/view/20261013155750000 , 위키트리 https://www.wikitree.co.kr/articles/1166264 , 이데일리, 경기일보",
+   "인터뷰 영상에서 팔 전체 문신(이레즈미)이 드러나 '문신이 멋있어 보이긴 처음' 반응 — 아시아경제 2026-10-15 https://view.asiae.co.kr/article/2026101508332979475 , 파이낸셜뉴스 2026-10-15, 머니투데이 2026-10-14 https://www.mt.co.kr/society/2026/10/14/2026101414384313637",
+   "경찰·인천시 시민 포상 검토 — 노컷뉴스 https://nocutnews.co.kr/news/6591622 , 데일리안"
+  ],
+  "slug": "2026-10-15_1200_chair-hero-stops-knife-attack",
+  "late": false,
+  "video_id": "UTjmP6NFMCI",
+  "url": "https://youtube.com/shorts/UTjmP6NFMCI",
+  "privacy": "private",
+  "scheduled_for": "2026-10-15T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad01d0129c470dd80b70e09",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-15T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-15_1200_chair-hero-stops-knife-attack/video.mp4"
+  },
+  "seconds": 420
  }
 ]
