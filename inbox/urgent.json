@@ -1,65 +1,41 @@
 {
- "detected_at": "2026-10-16T20:16+09:00",
+ "detected_at": "2026-10-17T00:31+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "\"소방이 빨대\" 추미애, 화재 현장서 \"그 질문 말라\"…소방관은 울었다",
-   "url": "https://n.news.naver.com/article/437/0000516049",
-   "press": "JTBC",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "조국 \"한동훈 딸 '천재'인지, 부부 결백한지…특검서 확인하자\"",
+   "url": "https://n.news.naver.com/article/014/0005590215",
+   "press": "파이낸셜뉴스",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "경향신문",
-     "title": "‘소방관 5명 중경상’ 부천 화재 현장 찾은 추미애···빨대 발언 해명 요구에 “그런 얘기 마시라”",
-     "url": "https://n.news.naver.com/article/032/0003476753"
+     "press": "뉴스1",
+     "title": "조국 \"한동훈 딸 천재인지, 부부가 결백한지 특검으로 확인하자\"",
+     "url": "https://n.news.naver.com/article/421/0009231213"
     },
     {
-     "press": "뉴시스",
-     "title": "추미애 \"소방은 재정 빨대\" 발언…곳곳서 \"헌신 모독 말라\" 분노",
-     "url": "https://n.news.naver.com/article/003/0014259002"
-    },
-    {
-     "press": "SBS",
-     "title": "부천 화재 현장 찾은 추미애, '재정 빨대' 질문에…인상 찡그리며",
-     "url": "https://n.news.naver.com/article/055/0001395986"
+     "press": "디지털타임스",
+     "title": "조국 “한동훈 부부 결백한지, 딸 천재인지…특검으로 확인하자”",
+     "url": "https://n.news.naver.com/article/029/0003053451"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "‘빨대 발언’ 추미애, 소방관 부상 현장 방문 “희생에 위로를”",
-   "url": "https://n.news.naver.com/article/005/0001879116",
-   "press": "국민일보",
+   "title": "'조희대 탄핵 카드' 공식화…\"돌이킬 수 없는 강 건너\"",
+   "url": "https://n.news.naver.com/article/055/0001396093",
+   "press": "SBS",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "경향신문",
-     "title": "‘소방관 5명 중경상’ 부천 화재 현장 찾은 추미애···빨대 발언 해명 요구에 “그런 얘기 마시라”",
-     "url": "https://n.news.naver.com/article/032/0003476753"
+     "press": "부산일보",
+     "title": "[속보] 김민석, '조희대 탄핵 추진' 논의 공식화…與법사위원 \"反헌법 단죄\"",
+     "url": "https://n.news.naver.com/article/082/0001402749"
     },
     {
-     "press": "연합뉴스",
-     "title": "추미애, 부천 공장화재 현장 방문…\"소방관 치료·회복 만전\"(종합)",
-     "url": "https://n.news.naver.com/article/001/0016381937"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "‘인천 흉기난동’ 피의자 신상정보 공개…59세 최충락",
-   "url": "https://n.news.naver.com/article/056/0012275306",
-   "press": "KBS",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "채널A",
-     "title": "인천 흉기 난동범은 59세 최충락…경찰 신상공개",
-     "url": "https://n.news.naver.com/article/449/0000364316"
-    },
-    {
-     "press": "데일리안",
-     "title": "[속보] '8명 부상' 인천 묻지마 흉기난동범, 59세 남성 최충락 신상 공개",
-     "url": "https://n.news.naver.com/article/119/0003143731"
+     "press": "미디어오늘",
+     "title": "김민석 \"조희대 탄핵 논의 시작했다고 보면 돼\"",
+     "url": "https://n.news.naver.com/article/006/0000138241"
     }
    ]
   }
