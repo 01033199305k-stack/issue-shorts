@@ -1,13 +1,72 @@
 {
- "detected_at": "2026-10-16T09:17+09:00",
+ "detected_at": "2026-10-16T14:49+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 국민연금 지역가입자 지원 기준 '80만→100만원' 상향 추진",
-   "url": "https://n.news.naver.com/article/215/0001269356",
-   "press": "한국경제TV",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "김민석 \"조희대 탄핵 논의 시작\"…한동훈 \"수첩에 'ㅌ'자 적고 허세\"",
+   "url": "https://n.news.naver.com/article/586/0000140048",
+   "press": "시사저널",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "MBC",
+     "title": "\"조희대 탄핵 논의 시작\"‥\"자신 있으면 하라\"",
+     "url": "https://n.news.naver.com/article/214/0001529493"
+    },
+    {
+     "press": "미디어오늘",
+     "title": "김민석 \"조희대 탄핵 논의 시작했다고 보면 돼\"",
+     "url": "https://n.news.naver.com/article/006/0000138241"
+    },
+    {
+     "press": "문화일보",
+     "title": "김민석 “조희대 탄핵 논의 시작”… 초유의 ‘사법부 공격’",
+     "url": "https://n.news.naver.com/article/021/0002825676"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "부천 공장 화재로 7명 부상…소방관 1명 심정지·1명 중상",
+   "url": "https://n.news.naver.com/article/374/0000538165",
+   "press": "SBS Biz",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "부산일보",
+     "title": "[속보] 부천 공장 화재로 소방관 3명 부상…1명은 심정지",
+     "url": "https://n.news.naver.com/article/082/0001402765"
+    },
+    {
+     "press": "헤럴드경제",
+     "title": "[속보] 경기 부천 금속부품 공장서 큰불…연기흡입 소방관 1명 심정지 [세상&]",
+     "url": "https://n.news.naver.com/article/016/0002710232"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "특검, ‘평양 무인기’ 윤석열 2심 징역 30년 구형…김용현도 30년",
+   "url": "https://n.news.naver.com/article/025/0003558403",
+   "press": "중앙일보",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "파이낸셜뉴스",
+     "title": "[속보] 특검, 윤석열 '평양 무인기 작전' 2심 징역 30년 구형",
+     "url": "https://n.news.naver.com/article/014/0005590270"
+    },
+    {
+     "press": "연합뉴스",
+     "title": "특검, 尹 '평양무인기' 2심 징역30년 구형…\"내란보다 죄질 무거워\"(종합)",
+     "url": "https://n.news.naver.com/article/001/0016381187"
+    },
+    {
+     "press": "JTBC",
+     "title": "윤 '평양 무인기' 2심도 징역 30년 구형…특검 \"내란보다 죄질 무거워\"",
+     "url": "https://n.news.naver.com/article/437/0000516036"
+    }
+   ]
   }
  ]
 }
