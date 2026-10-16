@@ -1,30 +1,11 @@
 {
- "detected_at": "2026-10-16T07:12+09:00",
+ "detected_at": "2026-10-16T09:17+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "이 대통령 \"개혁 지향점 변함없어…연임 목적 개헌은 음모론\"",
-   "url": "https://n.news.naver.com/article/654/0000205658",
-   "press": "강원도민일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "뉴스1",
-     "title": "李대통령 \"개헌 음모론에서 벗어나도 된다…개혁 지향점 바뀐 것 없어\"",
-     "url": "https://n.news.naver.com/article/421/0009230835"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "이 대통령 \"연임 개헌 음모론서 벗어나도 돼\"",
-     "url": "https://n.news.naver.com/article/422/0000916072"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 뉴욕증시, 일제히 상승 마감…다우 1% ↑",
-   "url": "https://n.news.naver.com/article/374/0000538096",
-   "press": "SBS Biz",
+   "title": "[속보] 국민연금 지역가입자 지원 기준 '80만→100만원' 상향 추진",
+   "url": "https://n.news.naver.com/article/215/0001269356",
+   "press": "한국경제TV",
    "why": "[속보] 기사",
    "related": []
   }
