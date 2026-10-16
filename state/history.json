@@ -2729,5 +2729,52 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-16_1800_oldest-hippo-hasun-keeper-memory/video.mp4"
   },
   "seconds": 426
+ },
+ {
+  "key": "2026-10-17-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-17T07:00:00+09:00",
+  "started": "2026-10-17T04:22:57.301274+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-159729/",
+   "https://pixabay.com/videos/id-287/"
+  ],
+  "duration": 24.38,
+  "matches": [
+   0.93,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   0.95,
+   0.95,
+   1.0,
+   0.98
+  ],
+  "sfx": 7,
+  "illustrations": 7,
+  "cuts": 9,
+  "title": "사라진 치매 남편을 찾은 할머니가 지구대에서 끝까지 안 놓은 것 #shorts",
+  "source_post": "https://www.mt.co.kr/society/2026/10/08/2026100819533121166",
+  "facts_used": [
+   "할머니가 '남편이 치매를 앓고 있는데 없어졌다'며 관할 지구대에 실종 신고 — 머니투데이 2026-10-08, 재경일보, 노컷뉴스",
+   "경찰이 아내가 알려 준 단서로 할아버지 동선을 추적, 순찰차가 한 도로에서 좌회전하던 순간 길가 벤치에 홀로 앉은 할아버지 포착 — 머니투데이 2026-10-08, 재경일보",
+   "지구대에서 다시 마주한 노부부는 서로의 얼굴을 확인하자마자 두 손을 잡았고, 경찰관들에게 감사 인사를 전한 뒤 손을 놓지 않고 지구대를 나섬 — 머니투데이 2026-10-08, 이데일리, 재경일보",
+   "대한민국 경찰청 유튜브 '이제 집에 갑시다, 손부터 맞잡은 노부부' 영상으로 공개 — 노컷뉴스"
+  ],
+  "slug": "2026-10-17_0700_dementia-husband-found-held-hands",
+  "late": false,
+  "video_id": "LEWBgmPbs80",
+  "url": "https://youtube.com/shorts/LEWBgmPbs80",
+  "privacy": "private",
+  "scheduled_for": "2026-10-16T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad27b53e038e7a747d2be35",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-16T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-17_0700_dementia-husband-found-held-hands/video.mp4"
+  },
+  "seconds": 454
  }
 ]
