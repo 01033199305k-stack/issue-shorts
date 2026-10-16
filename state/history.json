@@ -2635,5 +2635,51 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-16_0700_toddler-chair-saves-mom/video.mp4"
   },
   "seconds": 340
+ },
+ {
+  "key": "2026-10-16-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-16T12:00:00+09:00",
+  "started": "2026-10-16T09:23:11.822676+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-31967/",
+   "https://pixabay.com/videos/id-23258/"
+  ],
+  "duration": 22.3,
+  "matches": [
+   1.0,
+   0.97,
+   1.0,
+   0.95,
+   0.95,
+   1.0,
+   0.96,
+   1.0,
+   0.94
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 9,
+  "title": "택시 탔다가 갑자기 큰 소리로 말하게 된 승객 #shorts",
+  "source_post": "https://www.mt.co.kr/society/2026/09/20/2026092013411521613",
+  "facts_used": [
+   "택시 조수석 뒤에 기사 손녀의 손편지가 붙어 있었고, 승객이 SNS에 올려 화제 — 문화일보 2026-09-20 https://www.munhwa.com/article/11618346 , 머니투데이 2026-09-20 https://www.mt.co.kr/society/2026/09/20/2026092013411521613",
+   "편지 내용 \"운전하시는 기사님은 저의 사랑하는 할아버지세요\", \"할아버지는 청각이 좋지 않으셔서 조금 크게 해주시면 감사하겠습니다\", \"오늘도 좋은 하루 되세요\"와 손그림 — 문화일보, 머니투데이, YTN 앵커리포트(2026-09-21, 네이트 https://m.news.nate.com/view/20260921n39856)",
+   "글쓴이(승객)는 이 글을 보자마자 최대한 목소리를 크게 내는 중이라고 적음 — 머니투데이, 문화일보"
+  ],
+  "slug": "2026-10-16_1200_taxi-granddaughter-loud-letter",
+  "late": false,
+  "video_id": "8drjcfeaF0U",
+  "url": "https://youtube.com/shorts/8drjcfeaF0U",
+  "privacy": "private",
+  "scheduled_for": "2026-10-16T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad16fd7fb64fffcf1a911b2",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-16T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-16_1200_taxi-granddaughter-loud-letter/video.mp4"
+  },
+  "seconds": 362
  }
 ]
