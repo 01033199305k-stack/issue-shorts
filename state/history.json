@@ -2681,5 +2681,53 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-16_1200_taxi-granddaughter-loud-letter/video.mp4"
   },
   "seconds": 362
+ },
+ {
+  "key": "2026-10-16-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-16T18:00:00+09:00",
+  "started": "2026-10-16T15:25:48.321686+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-133586/",
+   "https://pixabay.com/videos/id-85226/"
+  ],
+  "duration": 22.28,
+  "matches": [
+   1.0,
+   1.0,
+   0.97,
+   0.87,
+   0.97,
+   1.0,
+   0.9,
+   0.94
+  ],
+  "sfx": 6,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "46년 산 하마를 떠나보낸 사육사가 못 잊는 장면 하나 #shorts",
+  "source_post": "https://n.news.naver.com/article/662/0000106242",
+  "facts_used": [
+   "서울대공원 하마 하순이 1980년생, 46년 살다 떠남 — 경기일보·세계일보·아주경제·한국일보 2026-10-16",
+   "1984년 서울대공원 개원 멤버 — 농민신문·위키트리·데일리안 2026-10-16",
+   "식사도 잘하고 건강하던 중 갑자기 기력이 떨어짐, 진료팀·사육사가 곁을 지켰고 특별한 질병 없이 평온하게 생을 마감 — 아시아경제·아주경제·한국일보 2026-10-16",
+   "사육사: 훈련 시간만 되면 대기 장소에 얼굴을 기대고 기다리던 모습이 생생, 안약 넣기·구강 관리를 하나씩 해내던 모습을 못 잊음 — 아주경제·한국일보 2026-10-16",
+   "사육사: 커다란 몸집만큼 남겨진 빈자리도 크고 깊게 느껴진다 — 아시아경제·아주경제 2026-10-16",
+   "서울대공원 15일 홈페이지에 온라인 추모 공간 개설 — 세계일보·위키트리 2026-10-16"
+  ],
+  "slug": "2026-10-16_1800_oldest-hippo-hasun-keeper-memory",
+  "late": false,
+  "video_id": "wb-OerCEIrI",
+  "url": "https://youtube.com/shorts/wb-OerCEIrI",
+  "privacy": "private",
+  "scheduled_for": "2026-10-16T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad1c515ee2c696029c1e6a4",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-16T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-16_1800_oldest-hippo-hasun-keeper-memory/video.mp4"
+  },
+  "seconds": 426
  }
 ]
