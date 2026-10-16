@@ -1,43 +1,13 @@
 {
- "detected_at": "2026-10-17T00:31+09:00",
+ "detected_at": "2026-10-17T07:03+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "조국 \"한동훈 딸 '천재'인지, 부부 결백한지…특검서 확인하자\"",
-   "url": "https://n.news.naver.com/article/014/0005590215",
-   "press": "파이낸셜뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "뉴스1",
-     "title": "조국 \"한동훈 딸 천재인지, 부부가 결백한지 특검으로 확인하자\"",
-     "url": "https://n.news.naver.com/article/421/0009231213"
-    },
-    {
-     "press": "디지털타임스",
-     "title": "조국 “한동훈 부부 결백한지, 딸 천재인지…특검으로 확인하자”",
-     "url": "https://n.news.naver.com/article/029/0003053451"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "'조희대 탄핵 카드' 공식화…\"돌이킬 수 없는 강 건너\"",
-   "url": "https://n.news.naver.com/article/055/0001396093",
-   "press": "SBS",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "부산일보",
-     "title": "[속보] 김민석, '조희대 탄핵 추진' 논의 공식화…與법사위원 \"反헌법 단죄\"",
-     "url": "https://n.news.naver.com/article/082/0001402749"
-    },
-    {
-     "press": "미디어오늘",
-     "title": "김민석 \"조희대 탄핵 논의 시작했다고 보면 돼\"",
-     "url": "https://n.news.naver.com/article/006/0000138241"
-    }
-   ]
+   "title": "[속보] '한동훈 딸 의혹' 사건 서울청 이관 \"면밀히 검토 후 사건 배당\"",
+   "url": "https://n.news.naver.com/article/002/0002461313",
+   "press": "프레시안",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
