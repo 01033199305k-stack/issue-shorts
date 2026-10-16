@@ -1,70 +1,65 @@
 {
- "detected_at": "2026-10-16T14:49+09:00",
+ "detected_at": "2026-10-16T20:16+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "김민석 \"조희대 탄핵 논의 시작\"…한동훈 \"수첩에 'ㅌ'자 적고 허세\"",
-   "url": "https://n.news.naver.com/article/586/0000140048",
-   "press": "시사저널",
+   "title": "\"소방이 빨대\" 추미애, 화재 현장서 \"그 질문 말라\"…소방관은 울었다",
+   "url": "https://n.news.naver.com/article/437/0000516049",
+   "press": "JTBC",
    "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "MBC",
-     "title": "\"조희대 탄핵 논의 시작\"‥\"자신 있으면 하라\"",
-     "url": "https://n.news.naver.com/article/214/0001529493"
+     "press": "경향신문",
+     "title": "‘소방관 5명 중경상’ 부천 화재 현장 찾은 추미애···빨대 발언 해명 요구에 “그런 얘기 마시라”",
+     "url": "https://n.news.naver.com/article/032/0003476753"
     },
     {
-     "press": "미디어오늘",
-     "title": "김민석 \"조희대 탄핵 논의 시작했다고 보면 돼\"",
-     "url": "https://n.news.naver.com/article/006/0000138241"
+     "press": "뉴시스",
+     "title": "추미애 \"소방은 재정 빨대\" 발언…곳곳서 \"헌신 모독 말라\" 분노",
+     "url": "https://n.news.naver.com/article/003/0014259002"
     },
     {
-     "press": "문화일보",
-     "title": "김민석 “조희대 탄핵 논의 시작”… 초유의 ‘사법부 공격’",
-     "url": "https://n.news.naver.com/article/021/0002825676"
+     "press": "SBS",
+     "title": "부천 화재 현장 찾은 추미애, '재정 빨대' 질문에…인상 찡그리며",
+     "url": "https://n.news.naver.com/article/055/0001395986"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "부천 공장 화재로 7명 부상…소방관 1명 심정지·1명 중상",
-   "url": "https://n.news.naver.com/article/374/0000538165",
-   "press": "SBS Biz",
+   "title": "‘빨대 발언’ 추미애, 소방관 부상 현장 방문 “희생에 위로를”",
+   "url": "https://n.news.naver.com/article/005/0001879116",
+   "press": "국민일보",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "부산일보",
-     "title": "[속보] 부천 공장 화재로 소방관 3명 부상…1명은 심정지",
-     "url": "https://n.news.naver.com/article/082/0001402765"
+     "press": "경향신문",
+     "title": "‘소방관 5명 중경상’ 부천 화재 현장 찾은 추미애···빨대 발언 해명 요구에 “그런 얘기 마시라”",
+     "url": "https://n.news.naver.com/article/032/0003476753"
     },
     {
-     "press": "헤럴드경제",
-     "title": "[속보] 경기 부천 금속부품 공장서 큰불…연기흡입 소방관 1명 심정지 [세상&]",
-     "url": "https://n.news.naver.com/article/016/0002710232"
+     "press": "연합뉴스",
+     "title": "추미애, 부천 공장화재 현장 방문…\"소방관 치료·회복 만전\"(종합)",
+     "url": "https://n.news.naver.com/article/001/0016381937"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "특검, ‘평양 무인기’ 윤석열 2심 징역 30년 구형…김용현도 30년",
-   "url": "https://n.news.naver.com/article/025/0003558403",
-   "press": "중앙일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "‘인천 흉기난동’ 피의자 신상정보 공개…59세 최충락",
+   "url": "https://n.news.naver.com/article/056/0012275306",
+   "press": "KBS",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "파이낸셜뉴스",
-     "title": "[속보] 특검, 윤석열 '평양 무인기 작전' 2심 징역 30년 구형",
-     "url": "https://n.news.naver.com/article/014/0005590270"
+     "press": "채널A",
+     "title": "인천 흉기 난동범은 59세 최충락…경찰 신상공개",
+     "url": "https://n.news.naver.com/article/449/0000364316"
     },
     {
-     "press": "연합뉴스",
-     "title": "특검, 尹 '평양무인기' 2심 징역30년 구형…\"내란보다 죄질 무거워\"(종합)",
-     "url": "https://n.news.naver.com/article/001/0016381187"
-    },
-    {
-     "press": "JTBC",
-     "title": "윤 '평양 무인기' 2심도 징역 30년 구형…특검 \"내란보다 죄질 무거워\"",
-     "url": "https://n.news.naver.com/article/437/0000516036"
+     "press": "데일리안",
+     "title": "[속보] '8명 부상' 인천 묻지마 흉기난동범, 59세 남성 최충락 신상 공개",
+     "url": "https://n.news.naver.com/article/119/0003143731"
     }
    ]
   }
