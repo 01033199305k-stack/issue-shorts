@@ -325,17 +325,14 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
 .spk { position:absolute; width:96px; height:96px; margin:-48px 0 0 -48px; background:#FFF6B0; opacity:0;
   clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);
   filter:drop-shadow(0 0 10px #FFD400); }
-/* 2026-10-17 like easter egg: on matching videos YouTube turns the like button into a topic icon
-   (dog -> paw, cat -> cat). At the very end a bubble by the like button says what it turns into - only
-   for topics confirmed on Shorts (EGGS, script "like_egg"), so the line is never a false promise. */
+/* 2026-10-17 like easter egg: on matching videos YouTube itself turns the like button into a topic icon
+   (dog -> paw). The video only carries the line that makes people try it - a banner at the top of the
+   panel from the last sentence to the end. Nothing is drawn at the button (사용자: "이미지를 맞춰 넣을
+   필요 없어, 유튜브 안에서 바뀌는 거라 안내 문구로 유도하는 것"). */
 .cat { overflow:visible; display:block; }
-#likeh { position:absolute; z-index:10; visibility:hidden; pointer-events:none; }
-#likeh svg { width:100%; height:100%; overflow:visible; filter:drop-shadow(0 4px 8px rgba(0,0,0,.55)); }
-#likeb { position:absolute; z-index:10; visibility:hidden; background:#fff; color:#111; border:6px solid #111;
-  border-radius:34px; padding:16px 32px 8px; font-size:54px; line-height:1.16; text-align:center; white-space:nowrap;
-  box-shadow:0 8px 0 rgba(0,0,0,.2); transform-origin:88% 120%; }
-#likeb::after { content:''; position:absolute; right:40px; bottom:-34px; width:40px; height:40px; background:#fff;
-  border-right:6px solid #111; border-bottom:6px solid #111; transform:skewX(-28deg) rotate(45deg); }
+#likeb { position:absolute; left:50%; z-index:10; visibility:hidden; background:#fff; color:#111; border:6px solid #111;
+  border-radius:40px; padding:18px 40px 10px; font-size:64px; line-height:1.12; text-align:center; white-space:nowrap;
+  box-shadow:0 10px 0 rgba(0,0,0,.25); }
 #likeb b { color:#e01e1e; font-weight:400; }
 #likeb .em { font-family:'Segoe UI Emoji','Noto Color Emoji','Apple Color Emoji',sans-serif; }
 .post .ava.cat { background:none; border-radius:0; }
@@ -363,7 +360,6 @@ def cat_svg(cls: str = "cat") -> str:
 EGGS = {"dog": ("🐾", "발바닥으로 변해요~"), "cat": ("🐱", "고양이로 변해요~"),
         "learning": ("💡", "전구로 변해요~"), "cooking": ("🍴", "포크·숟가락으로 변해요~"),
         "travel": ("✈️", "비행기로 변해요~"), "horror": ("😱", "놀란 얼굴로 변해요~"), "car": ("🛞", "타이어로 변해요~")}
-HEART_PATH = "M50 88 C20 66 6 50 6 32 C6 18 17 8 30 8 C39 8 46 13 50 20 C54 13 61 8 70 8 C83 8 94 18 94 32 C94 50 80 66 50 88 Z"
 
 JS = r"""
 const C = x => x < 0 ? 0 : x > 1 ? 1 : x;
@@ -426,20 +422,18 @@ function item(el, d, t, s) {
   }
 }
 
-// like easter egg (last sentence to the end): a heart beats over the app's like button and a bubble
-// says what the button turns into on this kind of video
-const likeH = document.getElementById('likeh'), likeB = document.getElementById('likeb');
+// like easter egg (last sentence to the end): the guidance banner pops in and bobs
+const likeB = document.getElementById('likeb');
 function likeNudge(t) {
   const L = D.like;
   if (!L || !likeB) return;
   const a = t - L.t0, vis = a >= 0;
-  [likeH, likeB].forEach(e => e.style.visibility = vis ? 'visible' : 'hidden');
+  likeB.style.visibility = vis ? 'visible' : 'hidden';
   if (!vis) return;
-  const bb = C(a / .3), beat = Math.pow(Math.abs(Math.sin(a * Math.PI * 1.6)), 3);
+  if (!likeB.dataset.fit) likeB.dataset.fit = Math.min(1, 1000 / likeB.offsetWidth);   // one line may run wide
+  const bb = C(a / .3), fit = +likeB.dataset.fit;
   likeB.style.opacity = C(bb * 3).toFixed(3);
-  likeB.style.transform = `translateY(${(Math.sin(a * 4) * 4).toFixed(1)}px) scale(${(.4 + .6 * eb(bb)).toFixed(3)})`;
-  likeH.style.opacity = C(a / .2).toFixed(3);
-  likeH.style.transform = `scale(${((.6 + .4 * eb(a / .3)) * (1 + .16 * beat)).toFixed(3)})`;
+  likeB.style.transform = `translate(-50%, ${(Math.sin(a * 4) * 5).toFixed(1)}px) scale(${((.4 + .6 * eb(bb)) * fit).toFixed(3)})`;
 }
 
 const TR = .24;   // whoosh transition length
@@ -742,23 +736,19 @@ def _prop(it: dict, d: dict) -> tuple[int, int, str]:
 
 
 def like_timing(segments, times, cfg, egg=None) -> dict | None:
-    """The like easter egg plays from the last sentence to the end (the payoff, then the loop) - and
+    """The like easter egg line shows from the last sentence to the end (the payoff, then the loop) - and
     only when the script names a topic YouTube animates on Shorts (config like_cta.eggs)."""
     if not cfg or not cfg.get("enabled", True) or not times or egg not in EGGS or egg not in (cfg.get("eggs") or []):
         return None
-    return {"t0": round(times[-1][0] - LEAD + 0.15, 3), "egg": egg,
-            "x": int(cfg.get("x", 975)), "y": int(cfg.get("y", 1150)), "size": int(cfg.get("size", 120))}
+    return {"t0": round(times[-1][0] - LEAD + 0.15, 3), "egg": egg}
 
 
 def _like_html(L: dict | None) -> str:
     if not L:
         return ""
-    x, y, s = L["x"], L["y"], L["size"]
     emoji, text = EGGS[L["egg"]]
-    heart = f'<svg viewBox="0 0 100 96"><path d="{HEART_PATH}" fill="#fff" fill-opacity=".25" stroke="#fff" stroke-width="9"/></svg>'
-    return (f'<div id="likeh" style="left:{x - s // 2}px;top:{y - s // 2}px;width:{s}px;height:{s}px">{heart}</div>'
-            f'<div id="likeb" style="right:{max(16, W - x - 70)}px;top:{y - s // 2 - 205}px">'
-            f'좋아요 누르면<br><span class="em">{emoji}</span> <b>{esc(text)}</b></div>')
+    return (f'<div id="likeb" style="top:{PANEL_TOP + 40}px">'
+            f'좋아요 누르면 <span class="em">{emoji}</span> <b>{esc(text)}</b></div>')
 
 
 def build(segments, visuals, times, cues, title, credit, picker, font_path, clips=None,
