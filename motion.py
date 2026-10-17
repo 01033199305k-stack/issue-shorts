@@ -325,16 +325,7 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
 .spk { position:absolute; width:96px; height:96px; margin:-48px 0 0 -48px; background:#FFF6B0; opacity:0;
   clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);
   filter:drop-shadow(0 0 10px #FFD400); }
-/* 2026-10-17 like easter egg: on matching videos YouTube itself turns the like button into a topic icon
-   (dog -> paw). The video only carries the line that makes people try it - a banner at the top of the
-   panel from the last sentence to the end. Nothing is drawn at the button (사용자: "이미지를 맞춰 넣을
-   필요 없어, 유튜브 안에서 바뀌는 거라 안내 문구로 유도하는 것"). */
 .cat { overflow:visible; display:block; }
-#likeb { position:absolute; left:50%; z-index:10; visibility:hidden; background:#fff; color:#111; border:6px solid #111;
-  border-radius:40px; padding:18px 40px 10px; font-size:64px; line-height:1.12; text-align:center; white-space:nowrap;
-  box-shadow:0 10px 0 rgba(0,0,0,.25); }
-#likeb b { color:#e01e1e; font-weight:400; }
-#likeb .em { font-family:'Segoe UI Emoji','Noto Color Emoji','Apple Color Emoji',sans-serif; }
 .post .ava.cat { background:none; border-radius:0; }
 """
 
@@ -354,12 +345,26 @@ def cat_svg(cls: str = "cat") -> str:
             f'<path d="M43 69 Q46.5 73 50 69 Q53.5 73 57 69" fill="none" stroke="{line}" stroke-width="3" stroke-linecap="round"/></svg>')
 
 
-# YouTube's topic like animations (launched 2025-10 on long videos; the Shorts heart button turns into a
-# dog paw / cat in 2026). Only topics seen on Shorts are switched on (config like_cta.eggs); the others
-# are known from long videos and wait for a check on a phone before they are used.
-EGGS = {"dog": ("🐾", "발바닥으로 변해요~"), "cat": ("🐱", "고양이로 변해요~"),
-        "learning": ("💡", "전구로 변해요~"), "cooking": ("🍴", "포크·숟가락으로 변해요~"),
-        "travel": ("✈️", "비행기로 변해요~"), "horror": ("😱", "놀란 얼굴로 변해요~"), "car": ("🛞", "타이어로 변해요~")}
+# YouTube's topic like animations: on a matching video the like button itself turns into a topic icon
+# (2025-10 long videos, 2026 the Shorts heart; our own dog short turned into a paw - user, 2026-10-17).
+# The video only says so: the renderer appends this line as the last sentence when the script sets
+# "like_egg" and config like_cta.eggs allows it (사용자: "읽어 주는 게 더 좋지 않나").
+EGGS = {
+    "dog": {"text": "좋아요 누르면 좋아요가 강아지 발바닥으로 변해요~", "say": "좋아요 누르면 좋아요가 강아지 발바닥으로 변해요", "icon": "🐾"},
+    "cat": {"text": "좋아요 누르면 좋아요가 고양이로 변해요~", "say": "좋아요 누르면 좋아요가 고양이로 변해요", "icon": "🐱"},
+}
+
+
+def egg_segment(egg: str) -> dict:
+    """The spoken easter-egg line with its picture: a heart, an arrow, the icon it turns into."""
+    e = EGGS[egg]
+    return {"text": e["text"], "say": e["say"], "sfx": "whoosh", "cap": "sweet",
+            "tone": "친구한테 비밀 알려 주듯 신나게, 끝을 살짝 올려서",
+            "visual": {"bg": "white", "items": [
+                {"type": "emoji", "text": "❤️", "pos": "left", "size": "m", "dx": -50, "at": 0.0, "fx": "pop", "fixed": True},
+                {"type": "emoji", "text": "➡️", "pos": "center", "size": "s", "at": 0.3, "fx": "slide-left", "fixed": True},
+                {"type": "emoji", "text": e["icon"], "pos": "right", "size": "m", "dx": 50, "at": 0.5, "fx": "sparkle", "fixed": True}]}}
+
 
 JS = r"""
 const C = x => x < 0 ? 0 : x > 1 ? 1 : x;
@@ -422,20 +427,6 @@ function item(el, d, t, s) {
   }
 }
 
-// like easter egg (last sentence to the end): the guidance banner pops in and bobs
-const likeB = document.getElementById('likeb');
-function likeNudge(t) {
-  const L = D.like;
-  if (!L || !likeB) return;
-  const a = t - L.t0, vis = a >= 0;
-  likeB.style.visibility = vis ? 'visible' : 'hidden';
-  if (!vis) return;
-  if (!likeB.dataset.fit) likeB.dataset.fit = Math.min(1, 1000 / likeB.offsetWidth);   // one line may run wide
-  const bb = C(a / .3), fit = +likeB.dataset.fit;
-  likeB.style.opacity = C(bb * 3).toFixed(3);
-  likeB.style.transform = `translate(-50%, ${(Math.sin(a * 4) * 5).toFixed(1)}px) scale(${((.4 + .6 * eb(bb)) * fit).toFixed(3)})`;
-}
-
 const TR = .24;   // whoosh transition length
 const OUTLINED = new Set(['shout', 'sweet', 'react']);   // drawn as a rim layer + a fill layer, no box
 
@@ -480,7 +471,6 @@ window.render = function (t) {
   });
   cam.style.transform = shake ? `translate(${Math.sin(t * 90) * 16 * shake}px, ${Math.cos(t * 75) * 12 * shake}px)` : '';
   flashEl.style.opacity = flash.toFixed(3);
-  likeNudge(t);
   // captions: boxed lines light up word by word (karaoke); outlined ones land whole
   let k = -1;
   for (let i = 0; i < D.caps.length; i++) if (t >= D.caps[i].s - .05 && t < D.caps[i].e) { k = i; break; }
@@ -684,7 +674,7 @@ def _hero(items: list, has_clip: bool, picker=None, place: bool = False) -> list
     elif len(pics) == 2:   # two people/props side by side
         for it, side in zip(pics, ("left", "right")):   # m each: two l/xl pictures overlap in the middle
             it["size"], it["pos"], it["dx"], it["dy"] = "m", side, 0, 0
-    elif not pics and not has_clip:
+    elif not pics and not has_clip and not any(it.get("fixed") for it in items):
         emo = next((it for it in items if it.get("type") == "emoji"), None)
         if emo:
             emo["size"], emo["pos"], emo["dx"], emo["dy"] = "xl", "center", 0, 0
@@ -735,28 +725,11 @@ def _prop(it: dict, d: dict) -> tuple[int, int, str]:
     return 700, 640, '<div class="tri"></div><div class="tri2"></div><div class="ex" style="font-size:330px">!</div>'
 
 
-def like_timing(segments, times, cfg, egg=None) -> dict | None:
-    """The like easter egg line shows from the last sentence to the end (the payoff, then the loop) - and
-    only when the script names a topic YouTube animates on Shorts (config like_cta.eggs)."""
-    if not cfg or not cfg.get("enabled", True) or not times or egg not in EGGS or egg not in (cfg.get("eggs") or []):
-        return None
-    return {"t0": round(times[-1][0] - LEAD + 0.15, 3), "egg": egg}
-
-
-def _like_html(L: dict | None) -> str:
-    if not L:
-        return ""
-    emoji, text = EGGS[L["egg"]]
-    return (f'<div id="likeb" style="top:{PANEL_TOP + 40}px">'
-            f'좋아요 누르면 <span class="em">{emoji}</span> <b>{esc(text)}</b></div>')
-
-
 def build(segments, visuals, times, cues, title, credit, picker, font_path, clips=None,
-          like=None, episode=None, egg=None) -> tuple[str, list]:
+          episode=None) -> tuple[str, list]:
     """segments: [{sfx}], visuals: [{bg, items}], times: [(start, end)],
     clips: per scene None or {dir, n} from stock.clip_frames (background footage),
-    like: config like_cta (position of the app's like button) or None, episode: number on the post card,
-    egg: the script's like_egg topic (dog/cat) - the end bubble says what the like button turns into."""
+    episode: number on the post card."""
     scenes_html, scenes_data = [], []
     clips = clips or [None] * len(segments)
     last_place = None
@@ -891,12 +864,11 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
     t1, t2 = title
     cap_font = Path(font_path).with_name("DoHyeon-Regular.ttf")
     css = CSS.replace("CAPFONT", file_url(cap_font if cap_font.exists() else font_path)).replace("FONT", file_url(font_path))
-    like_at = like_timing(segments, times, like, egg)
-    payload = {"scenes": scenes_data, "caps": cues, "lead": LEAD, "fps": FPS, "like": like_at}
+    payload = {"scenes": scenes_data, "caps": cues, "lead": LEAD, "fps": FPS}
     html = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>{css}</style></head><body>'
             f'<div id="title" style="font-size:{title_size([t1, t2])}px"><div>{esc(t1)}</div><div class="t2">{esc(t2)}</div></div>'
             f'<div id="panel"><div id="credit">{esc(credit)}</div><div id="cam">{"".join(scenes_html)}</div><div id="flash"></div></div>'
-            f'<div id="cap"></div>{_like_html(like_at)}<script>window.DATA={json.dumps(payload, ensure_ascii=False)};</script>'
+            f'<div id="cap"></div><script>window.DATA={json.dumps(payload, ensure_ascii=False)};</script>'
             f'<script>{JS}</script></body></html>')
     return html, [s["start"] for s in scenes_data[1:]]
 

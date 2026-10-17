@@ -63,7 +63,11 @@ def voice_instruct(base: str, tone: str | None, persona: str = "") -> str:
 
 def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) -> dict:
     work_dir.mkdir(parents=True, exist_ok=True)
-    segments = script["segments"]
+    segments = list(script["segments"])
+    egg = script.get("like_egg")
+    like = cfg.get("like_cta") or {}
+    if egg in motion.EGGS and like.get("enabled", True) and egg in (like.get("eggs") or []):
+        segments.append(motion.egg_segment(egg))   # spoken "좋아요 누르면 좋아요가 … 변해요~" last line
 
     wavs, results = [], []
     for i, seg in enumerate(segments):
@@ -105,8 +109,7 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     print(f"  stock clips: {sum(1 for c in clips if c)}/{sum(1 for v in visuals if (v or {}).get('video'))}")
     html, cuts = motion.build(segments, visuals, times, cues, script["title_lines"], script.get("credit", ""),
                               picker, repo / "assets" / "fonts" / "BlackHanSans-Regular.ttf", clips,
-                              like=cfg.get("like_cta"), episode=script.get("episode"),
-                              egg=script.get("like_egg"))
+                              episode=script.get("episode"))
     page = work_dir / "motion.html"
     page.write_text(html, encoding="utf-8")
     print(f"  frames: {int(total * motion.FPS)} ({len(picker.used)} illustrations)")
