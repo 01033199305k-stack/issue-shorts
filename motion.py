@@ -349,16 +349,29 @@ def cat_svg(cls: str = "cat") -> str:
 # (2025-10 long videos, 2026 the Shorts heart; our own dog short turned into a paw - user, 2026-10-17).
 # The video only says so: the renderer appends this line as the last sentence when the script sets
 # "like_egg" and config like_cta.eggs allows it (사용자: "읽어 주는 게 더 좋지 않나").
+# Shapes as reported for the 2025-10 long-video set (Android Police, 9to5Google, GadgetBond - "보도 기준",
+# 사용자 2026-10-17); dog is the only one checked on our own Short so far.
 EGGS = {
-    "dog": {"text": "좋아요 누르면 좋아요가 강아지 발바닥으로 변해요~", "say": "좋아요 누르면 좋아요가 강아지 발바닥으로 변해요", "icon": "🐾"},
-    "cat": {"text": "좋아요 누르면 좋아요가 고양이로 변해요~", "say": "좋아요 누르면 좋아요가 고양이로 변해요", "icon": "🐱"},
+    "dog": {"shape": "강아지 발바닥", "icon": "🐾"},
+    "cat": {"shape": "고양이", "icon": "🐱"},
+    "food": {"shape": "포크랑 숟가락", "icon": "🥄"},
+    "car": {"shape": "연기 나는 타이어", "icon": "🛞"},
+    "learning": {"shape": "반짝이는 전구", "icon": "💡"},
+    "music": {"shape": "춤추는 음표", "icon": "🎵"},
+    "travel": {"shape": "비행기", "icon": "✈️"},
+    "comedy": {"shape": "웃는 얼굴", "icon": "😂"},
+    "horror": {"shape": "놀란 얼굴", "icon": "😱"},
+    "soccer": {"shape": "축구공", "icon": "⚽"},
+    "baseball": {"shape": "야구공", "icon": "⚾"},
+    "basketball": {"shape": "농구공", "icon": "🏀"},
 }
 
 
 def egg_segment(egg: str) -> dict:
     """The spoken easter-egg line with its picture: a heart, an arrow, the icon it turns into."""
     e = EGGS[egg]
-    return {"text": e["text"], "say": e["say"], "sfx": "whoosh", "cap": "sweet",
+    say = f"좋아요 누르면 좋아요가 {e['shape']}{'으로' if (ord(e['shape'][-1]) - 0xAC00) % 28 not in (0, 8) else '로'} 변해요"
+    return {"text": say + "~", "say": say, "sfx": "whoosh", "cap": "sweet",
             "tone": "친구한테 비밀 알려 주듯 신나게, 끝을 살짝 올려서",
             "visual": {"bg": "white", "items": [
                 {"type": "emoji", "text": "❤️", "pos": "left", "size": "m", "dx": -50, "at": 0.0, "fx": "pop", "fixed": True},
