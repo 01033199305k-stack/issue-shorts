@@ -387,6 +387,25 @@ def lint(script: dict) -> list[str]:
             p.append("last scene is a vote board - the ending is the payoff picture, not a poll")
         if not any(s.get("cap") in ("hit", "react") for s in segs[-2:]):
             p.append("the payoff is not marked - give one of the last two sentences cap 'hit' (the answer) or 'react'")
+    # 2026-10-17 retention curves (28 shorts, 10/7-10/15): the hook sentence right after the title loses
+    # 4.1 %/s on average vs 1.6 %/s for story sentences. Worst hooks opened on a time/place setting
+    # ("새벽 2시, 35주 산모가..." 6.5 %/s, "한일 결승 당일, ..." 5.3) or were an empty tease ("근데 데려간
+    # 이유가 더 의외임." 5.4); the best added a concrete new picture ("전화 받은 공무원이 자기 컵라면 들고
+    # 뛰쳐나감." 2.8, "카메라 달린 AI 안경이 걸렸음." 2.4).
+    if len(segs) > 1:
+        hook = segs[1].get("text", "")
+        if re.match(r"^[^,.]{1,14}(새벽|아침|저녁|밤|낮|오후|오전|당일|날|길|중|때|\d+시|지난|최근)[^,.]{0,4},\s", hook) or                 re.match(r"^(새벽|아침|저녁|밤|지난|최근|당일)[^,.]{0,12},\s", hook):
+            p.append(f"segment 1 (hook) opens on a time/place setting {hook[:20]!r} - viewers leave here fastest; "
+                     "open on the strangest concrete thing that happened, put the setting later")
+        if re.search(r"따로 있|더 (의외|어이없|황당|놀라)|이유가 (더|따로)|아니었음|공개됨|반전", hook):
+            p.append(f"segment 1 (hook) is a tease {hook[:24]!r} - right after the title it must show something new "
+                     "(who did what, the number); the tease belongs in segment 2 or later")
+    # 10/7-10/15: titles with the story's number kept 61.4 % of feed viewers vs 55.1 % without
+    story_digits = re.findall(r"\d+", " ".join(s.get("text", "") for s in segs[1:]))
+    head = " ".join(script.get("title_lines", [])) + " " + (segs[0].get("text", "") if segs else "")
+    if story_digits and not re.search(r"\d|하루|이틀|사흘|나흘|열흘|[한두세네] ?(번|명|살|장|개|달|시간|마리)", head):
+        p.append("the story has a number but the title/card has none - put the most striking number in "
+                 "title_lines or the card title (titles with a number kept 61% vs 55% of viewers)")
     likes = [i for i, s in enumerate(segs) if s.get("like")]
     if len(likes) != 1:
         p.append(f"{len(likes)} sentences with like: true - mark exactly one, the reveal teaser (~60-75% in), "

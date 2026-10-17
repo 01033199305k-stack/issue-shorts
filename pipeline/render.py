@@ -19,6 +19,30 @@ from pipeline import assemble, tts
 from pipeline.tts import Word
 
 SFX_GAIN = {"whoosh": -15.0}   # the cut whoosh fires 10+ times a video - keep it under the voice
+# 2026-10-17: the references move from one sentence to the next in ~0.1 s and only hold a beat after
+# the title and before a turn. Our clips kept 0.17 s of padding everywhere (5.3-6.7 syl/s over the
+# first 6 s vs 6.7-8.4 for @dolongcha/@통찰맨).
+HEAD_PAD, TAIL_PAD = 0.04, 0.06
+TURN = ("헐", "근데", "결국", "여기서", "자,", "아니", "그런데", "알고 보니")
+# phone-speaker clarity for the narration: cut rumble, a little less boom, more presence, even level
+VOICE_CHAIN = ("highpass=f=75,equalizer=f=250:t=q:w=1:g=-1.5,equalizer=f=3500:t=q:w=1.2:g=2.5,"
+               "acompressor=threshold=-20dB:ratio=3:attack=5:release=90:makeup=2")
+
+
+def gap_after(i: int, segments: list) -> float:
+    """Extra silence after sentence i: a beat after the title card, a short one before a turn."""
+    if i >= len(segments) - 1:
+        return 0.0
+    if i == 0:
+        return 0.16
+    return 0.1 if segments[i + 1].get("text", "").startswith(TURN) else 0.0
+
+
+def _pad(path: Path, seconds: float) -> None:
+    import numpy as np
+    import soundfile as sf
+    a, sr = sf.read(str(path), dtype="float32")
+    sf.write(str(path), np.concatenate([a, np.zeros((int(seconds * sr),) + a.shape[1:], dtype=np.float32)]), sr)
 
 
 def voice_instruct(base: str, tone: str | None, persona: str = "") -> str:
@@ -47,7 +71,11 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
         res = tts.synthesize(
             seg.get("say") or seg["text"], work_dir / f"seg_{i:02d}.wav",
             engine=cfg["engine"], voice=cfg["voice"], instruct=voice_instruct(cfg.get("instruct", ""), seg.get("tone"), cfg.get("instruct_persona", "")),
-            speed=float(cfg.get("speed", 1.0)), display=seg["text"], seed=7 + i)
+            speed=float(cfg.get("speed", 1.0)), display=seg["text"], seed=7 + i,
+            head_pad=HEAD_PAD, tail_pad=TAIL_PAD, takes=int(cfg.get("tts_takes", 1)))
+        if (g := gap_after(i, segments)):
+            _pad(res.audio_path, g)
+            res.duration = round(res.duration + g, 3)
         print(f"    {res.duration:.1f}s, match {res.match:.2f}")
         wavs.append(res.audio_path)
         results.append(res)
@@ -82,7 +110,9 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     page.write_text(html, encoding="utf-8")
     print(f"  frames: {int(total * motion.FPS)} ({len(picker.used)} illustrations)")
     video = motion.capture(page, work_dir / "video.mp4", total)
-    narration = assemble.concat_audio(wavs, work_dir / "narration.wav")
+    narration = assemble.concat_audio(wavs, work_dir / "narration_raw.wav")
+    tts.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(narration), "-af", VOICE_CHAIN, str(work_dir / "narration.wav")])
+    narration = work_dir / "narration.wav"
 
     sfx_dir = repo / cfg.get("sfx_dir", "assets/sfx")
     default_sfx = cfg.get("transition_sfx", "whoosh")

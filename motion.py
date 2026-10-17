@@ -912,6 +912,11 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                             "cam": cam_mode if cam_mode in CAMS else "", "tr": vis.get("tr") if vis.get("tr") in TRS else "",
                             "focus": [round(hero["x"]), round(min(hero["y"], 600))] if hero else [540, 430],
                             "clip": {"base": base, "n": clip["n"]} if clip else None})
+    # 2026-10-17: while the title card is read, the card is the caption - @dolongcha shows no caption box
+    # there and @군림보/@통찰맨 only the title. Ours stacked title bar + card + caption box (three texts).
+    has_post = bool(segments) and any(it.get("style") == "post" for it in (visuals[0] or {}).get("items", []))
+    if has_post:
+        cues = [c for c in cues if c.get("seg") != 0]
     for c in cues:   # caption colour from the sentence it belongs to (old scripts: all narration)
         c["st"] = segments[c["seg"]].get("cap", "narr") if c.get("seg", -1) < len(segments) else "narr"
         c["st"] = c["st"] if c["st"] in CAPS else "narr"

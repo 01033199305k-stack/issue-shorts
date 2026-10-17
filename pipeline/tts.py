@@ -30,7 +30,12 @@ MAX_TAKES = 3
 # Give it a throwaway tail after a pause so the real sentence ends naturally,
 # then cut inside that pause.
 TAIL = " ... 네."
-TTS_VERSION = "sent-v3"   # part of the take cache key: bump when generation changes
+TTS_VERSION = "sent-v4"   # part of the take cache key: bump when generation changes
+# 2026-10-17 "pick the liveliest take": our openings measured 3.2-4.1 semitones of pitch spread and
+# 5.3-6.7 syllables/s against 4.2-5.6 st and 6.7-8.4 syl/s for @dolongcha/@군림보/@통찰맨. Rendering
+# a few takes and keeping the one with the most pitch movement (B test 10/13: 4.6 st, 7.3 syl/s)
+# closes most of that gap with the same voice.
+PICK_MATCH = 0.9    # takes at least this close to the script compete on liveliness
 
 
 @dataclass
@@ -234,6 +239,22 @@ def _norm(s: str) -> str:
     return "".join(out)
 
 
+def pitch_spread(path: Path) -> float:
+    """Standard deviation of the voice's pitch in semitones - how much the line moves
+    up and down. A flat read-aloud take scores ~3, a lively storyteller ~5."""
+    import numpy as np
+    try:
+        import librosa
+    except ImportError:   # no pitch tracker: every take ties and the closest match wins
+        return 0.0
+    y = _load16k(path)
+    f0, voiced, _ = librosa.pyin(y, fmin=80, fmax=500, sr=16000, frame_length=1024)
+    f0 = f0[voiced & ~np.isnan(f0)]
+    if len(f0) < 10:
+        return 0.0
+    return float(np.std(12 * np.log2(f0 / np.median(f0))))
+
+
 def _similarity(heard: str, *scripts: str) -> float:
     h = _norm(heard)
     return max(difflib.SequenceMatcher(None, h, _norm(s)).ratio() for s in scripts if s)
@@ -251,12 +272,15 @@ def synthesize(
     seed: int = 7,
     head_pad: float = 0.05,
     tail_pad: float = 0.12,
+    takes: int = 1,
 ) -> TTSResult:
     """Render one segment, trimmed of dead air, with word timings.
 
     text is what the voice reads (numbers spelled out); display is what the
-    captions show. Takes that mishear the script get re-rolled up to
-    MAX_TAKES times and the closest one is kept.
+    captions show. takes=1: takes that mishear the script get re-rolled up to
+    MAX_TAKES times and the closest one is kept. takes>1: that many takes are
+    rendered and, among those that match the script (PICK_MATCH), the one whose
+    pitch moves most wins - a long or rushed outlier is marked down.
     """
     out_wav = Path(out_wav)
     out_wav.parent.mkdir(parents=True, exist_ok=True)
@@ -266,7 +290,7 @@ def synthesize(
     # Same sentence, same voice settings -> reuse the take (re-renders and retries skip TTS)
     import hashlib
     import shutil
-    key = hashlib.sha1(json.dumps([TTS_VERSION, engine, voice, instruct, speed, seed, text, display],
+    key = hashlib.sha1(json.dumps([TTS_VERSION, engine, voice, instruct, speed, seed, text, display, takes],
                                   ensure_ascii=False).encode()).hexdigest()[:20]
     cdir = Path(__file__).resolve().parent.parent / "cache" / "tts"
     if (cdir / f"{key}.json").exists() and (cdir / f"{key}.wav").exists():
@@ -274,7 +298,7 @@ def synthesize(
         shutil.copyfile(cdir / f"{key}.wav", out_wav)
         return TTSResult(out_wav, [Word(*w) for w in meta["words"]], meta["duration"], meta["match"])
     res = _synthesize_fresh(text, out_wav, gen=gen, voice=voice, instruct=instruct, speed=speed,
-                            display=display, seed=seed, head_pad=head_pad, tail_pad=tail_pad)
+                            display=display, seed=seed, head_pad=head_pad, tail_pad=tail_pad, takes=takes)
     cdir.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(out_wav, cdir / f"{key}.wav")
     (cdir / f"{key}.json").write_text(json.dumps(
@@ -283,24 +307,44 @@ def synthesize(
     return res
 
 
-def _synthesize_fresh(text, out_wav, *, gen, voice, instruct, speed, display, seed, head_pad, tail_pad) -> TTSResult:
+def _take(text, out_wav, take, *, gen, voice, instruct, speed, display, seed):
+    """One rendered take: (match, path, heard words, duration)."""
+    raw = out_wav.with_suffix(f".take{take}.wav")
+    full = out_wav.with_suffix(f".take{take}.full.wav")
+    sped = out_wav.with_suffix(f".take{take}.sped.wav")
+    gen(text + TAIL, voice, instruct, seed + take * 101, raw)
+    run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw),
+         "-af", f"atempo={speed:.3f}", "-ar", "24000", "-ac", "1", str(full)])
+    raw.unlink(missing_ok=True)
+    _trim_tail(full, sped, _cut_tail(full))
+    full.unlink(missing_ok=True)
+    _squeeze_pauses(sped)
+    segs, _ = _whisper_model().transcribe(_load16k(sped), language="ko", word_timestamps=True)
+    heard = [Word(w.word.strip(), w.start, w.end)
+             for s in segs for w in (s.words or []) if w.word.strip()]
+    return _similarity(" ".join(w.text for w in heard), text, display), sped, heard, ffprobe_duration(sped)
+
+
+def _synthesize_fresh(text, out_wav, *, gen, voice, instruct, speed, display, seed, head_pad, tail_pad,
+                      takes=1) -> TTSResult:
 
     best = None
-    for take in range(MAX_TAKES):
-        raw = out_wav.with_suffix(f".take{take}.wav")
-        full = out_wav.with_suffix(f".take{take}.full.wav")
-        sped = out_wav.with_suffix(f".take{take}.sped.wav")
-        gen(text + TAIL, voice, instruct, seed + take * 101, raw)
-        run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(raw),
-             "-af", f"atempo={speed:.3f}", "-ar", "24000", "-ac", "1", str(full)])
-        raw.unlink(missing_ok=True)
-        _trim_tail(full, sped, _cut_tail(full))
-        full.unlink(missing_ok=True)
-        _squeeze_pauses(sped)
-        segs, _ = _whisper_model().transcribe(_load16k(sped), language="ko", word_timestamps=True)
-        heard = [Word(w.word.strip(), w.start, w.end)
-                 for s in segs for w in (s.words or []) if w.word.strip()]
-        match = _similarity(" ".join(w.text for w in heard), text, display)
+    if takes > 1:
+        cands = [_take(text, out_wav, k, gen=gen, voice=voice, instruct=instruct, speed=speed,
+                       display=display, seed=seed) for k in range(takes)]
+        ok = [c for c in cands if c[0] >= PICK_MATCH] or [max(cands, key=lambda c: c[0])]
+        med = sorted(c[3] for c in ok)[len(ok) // 2]
+        spread = {id(c): pitch_spread(c[1]) for c in ok}
+        pick = max(ok, key=lambda c: spread[id(c)] - 2.0 * abs(c[3] - med) / med)
+        print("    takes " + " ".join(f"[m{c[0]:.2f} {spread.get(id(c), 0):.1f}st {c[3]:.1f}s]" for c in cands)
+              + f" -> {cands.index(pick) + 1}")
+        for c in cands:
+            if c is not pick:
+                c[1].unlink(missing_ok=True)
+        best = pick[:3]
+    for take in range(MAX_TAKES if best is None else 0):
+        match, sped, heard, _ = _take(text, out_wav, take, gen=gen, voice=voice, instruct=instruct,
+                                      speed=speed, display=display, seed=seed)
         if best is None or match > best[0]:
             if best:
                 best[1].unlink(missing_ok=True)
