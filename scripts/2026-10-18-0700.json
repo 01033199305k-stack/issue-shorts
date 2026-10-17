@@ -1,0 +1,157 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "tteokbokki-hair-refund-cctv",
+ "title_lines": [
+  "떡볶이 다 먹고",
+  "5000원 환불 요구"
+ ],
+ "credit": "",
+ "like_egg": {"topic": "food", "q": ["トッポギ", "韓国料理", "屋台"]},
+ "segments": [
+  {
+   "text": "떡볶이 다 먹고 5000원 환불해 간 손님",
+   "say": "떡볶이 다 먹고 오천 원 환불해 간 손님",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {"type": "text", "style": "post", "text": "떡볶이 다 먹고\n5000원 환불해 간 손님", "pos": "center", "at": 0.0, "fx": "pop"}
+    ]
+   }
+  },
+  {
+   "text": "떡 서너 개만 남긴 손님이 머리카락 나왔다고 사장 부름.",
+   "say": "떡 서너 개만 남긴 손님이 머리카락 나왔다고 사장 부름.",
+   "sfx": "punch",
+   "tone": "어이없어 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "restaurant",
+    "cam": "punch",
+    "items": [
+     {"type": "illust", "q": ["怒る 女性", "クレーム 女性", "女性 怒る"], "pos": "center", "at": 0.0, "fx": "pop"},
+     {"type": "emoji", "text": "💢", "pos": "top-right", "size": "s", "at": 0.5, "fx": "pop"}
+    ]
+   }
+  },
+  {
+   "text": "서울 전통시장 분식집에서 있었던 일임.",
+   "say": "서울 전통시장 분식집에서 있었던 일임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "market",
+    "video": ["market stall food", "street food market", "food stall night"],
+    "items": [
+     {"type": "illust", "q": ["屋台 店員", "屋台", "店員 女性"], "pos": "center", "at": 0.0, "fx": "slide-left"}
+    ]
+   }
+  },
+  {
+   "text": "사장님은 일단 떡볶이값 5000원을 돌려줌.",
+   "say": "사장님은 일단 떡볶이값 오천 원을 돌려줌.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {"type": "price", "label": "떡볶이값 환불", "new": "5000원"},
+     {"type": "illust", "q": ["お金 渡す", "お金を払う", "お金"], "pos": "center", "at": 0.0, "fx": "pop"}
+    ]
+   }
+  },
+  {
+   "text": "근데 환불받고도 계속 짜증 내는 게 이상했음.",
+   "say": "근데 환불받고도 계속 짜증 내는 게 이상했음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {"type": "warn"},
+     {"type": "illust", "q": ["考える 女性", "悩む 女性"], "pos": "center", "at": 0.0, "fx": "pop"}
+    ]
+   }
+  },
+  {
+   "text": "아니, CCTV 돌려 보니 먹다 말고 접힌 휴지를 꺼냄.",
+   "say": "아니, 씨씨티비 돌려 보니 먹다 말고 접힌 휴지를 꺼냄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": ["security camera", "surveillance camera", "camera monitor"],
+    "items": [
+     {"type": "illust", "q": ["防犯カメラ", "監視カメラ"], "pos": "center", "at": 0.0, "fx": "pop"},
+     {"type": "emoji", "text": "🧻", "pos": "top-right", "size": "s", "at": 0.5, "fx": "pop"}
+    ]
+   }
+  },
+  {
+   "text": "자, 그다음 행동이 이거임.",
+   "say": "자, 그다음 행동이 이거임.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {"type": "illust", "q": ["ティッシュ", "ティッシュペーパー"], "pos": "center", "at": 0.0, "fx": "fade"},
+     {"type": "emoji", "text": "👀", "pos": "top-left", "size": "s", "at": 0.5, "fx": "fade"}
+    ]
+   }
+  },
+  {
+   "text": "헐, 자기 머리카락을 뜯어서 그릇에 넣음.",
+   "say": "헐, 자기 머리카락을 뜯어서 그릇에 넣음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "restaurant",
+    "tr": "flash",
+    "items": [
+     {"type": "illust", "q": ["髪の毛 抜ける", "抜け毛", "髪の毛"], "pos": "center", "at": 0.0, "fx": "pop"},
+     {"type": "emoji", "text": "💥", "pos": "top-right", "size": "s", "at": 0.5, "fx": "pop"}
+    ]
+   }
+  },
+  {
+   "text": "변호사는 업무방해죄가 될 수 있다고 함.",
+   "say": "변호사는 업무방해죄가 될 수 있다고 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {"type": "illust", "q": ["弁護士", "弁護士 男性"], "pos": "center", "at": 0.0, "fx": "pop"},
+     {"type": "emoji", "text": "⚖️", "pos": "top-right", "size": "s", "at": 0.5, "fx": "pop"}
+    ]
+   }
+  },
+  {
+   "text": "와, 양심은 환불이 안 됨.",
+   "say": "와, 양심은 환불이 안 됨.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "market",
+    "video": ["tteokbokki", "rice cake spicy", "korean street food"],
+    "items": [
+     {"type": "illust", "q": ["トッポギ", "韓国料理"], "pos": "center", "at": 0.0, "fx": "stamp"}
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "떡볶이 거의 다 먹고 머리카락 나왔다던 손님, CCTV에 찍힌 장면 #shorts",
+  "description": "서울의 한 전통시장 분식집에서 떡을 3~4개만 남긴 손님이 머리카락이 나왔다며 환불을 요구해 5000원을 돌려받았음.\n환불 뒤에도 짜증 내는 모습이 이상해 사장이 CCTV를 확인해 보니, 접힌 휴지를 꺼내 펼쳐 본 뒤 자기 머리카락을 뜯어 그릇에 넣는 장면이 찍혀 있었음.\n변호사는 업무방해죄가 될 수 있다고 봤음.\n\n※ AI 음성으로 제작했습니다.\n#떡볶이 #환불 #CCTV #자영업자 #분식집 #shorts",
+  "tags": ["떡볶이 환불", "머리카락 자작극", "CCTV", "분식집 사장", "진상 손님", "전통시장", "썰", "쇼츠"]
+ },
+ "source_post": "https://www.fnnews.com/news/202609151409437046",
+ "facts_used": [
+  "서울 전통시장 분식집, 여성 손님이 떡볶이를 거의 다 먹고(떡 3~4개만 남김) 머리카락이 나왔다며 환불 요구, 환불액 5000원 — 파이낸셜뉴스 2026-09-15 https://www.fnnews.com/news/202609151409437046 , 헤럴드경제 https://biz.heraldcorp.com/article/10873999 , 인사이트 https://www.insight.co.kr/news/573615",
+  "환불 뒤에도 계속 짜증 내는 모습이 이상해 사장이 CCTV 확인 — 헤럴드경제 https://biz.heraldcorp.com/article/10873999 , 미디어데일 https://www.mediadale.com/news/articleView.html?idxno=289692",
+  "CCTV: 식사 도중 반으로 접힌 휴지를 꺼내 펼침, 내용물이 떨어지자 바닥을 봄, 자기 머리카락을 뜯어 그릇에 넣음 — 파이낸셜뉴스, 인사이트, 헤럴드경제 (JTBC 사건반장 보도 인용)",
+  "박지훈 변호사 '거의 다 먹고 자기 머리카락을 떨어뜨린 건 업무방해죄' — 헤럴드경제, 미디어데일"
+ ],
+ "brief": "점수표: 이게됨4+궁금증5+감정4×2+대상5+판정5=27/30 (후보: 떡볶이 비닐 환불 잠수 23 — 답이 '잠수'라 약함, 보성 버스기사 지갑 사례금 사양 18 — 잔잔한 미담, 무인매장 냉동고 충전 — 이미 다룬 소재, 김제 축제 식중독 900명 — 숨긴 답 없음 탈락). inbox(10/18 04:10)는 정치·해외 정치·연예 위주라 WebSearch로 찾음. 9/15 JTBC 사건반장 보도, 여러 매체 확인. 첫장면: 사람. 훅 3안: ①'떡 서너 개만 남긴 손님이 머리카락 나왔다고 사장 부름'(채택: 제목의 '다 먹고'를 숫자로 한 발 더) ②'거의 빈 그릇에서 머리카락이 나왔다는 손님' ③'환불받고도 계속 짜증 낸 손님'. 글 카드 제목은 가장 센 숫자 5000원을 넣음. 이해검사: 서울 시장 분식집에서 떡볶이를 거의 다 먹은 손님이 머리카락이 나왔다며 5000원을 환불받았는데, CCTV를 보니 자기 머리카락을 뜯어 넣은 거였고 변호사는 업무방해죄가 될 수 있다고 했다. 증거: price 소품(떡볶이값 환불 5000원 — 파이낸셜뉴스·헤럴드경제). like_egg: 이야기에 나온 떡볶이 → food. 마지막: 7번 답(hit) → 8번 결과(quote) → 9번 리액션(react), 질문 없음. 그림대조: 완료 (한국 시장 → market·restaurant 배경, 일본 지도·국기 없음). 주의: 손님 신상·가게 이름 없음, 손님 측 입장은 보도에 없음 — 사장 진술·CCTV 보도 범위로만 씀."
+}
