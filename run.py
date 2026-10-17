@@ -134,6 +134,8 @@ def main() -> int:
     from pipeline.render import render
     video = out_dir / "video.mp4"
     script["credit"] = ""   # 영상 속 출처 자막도 쓰지 않는다 (2026-10-04 방침)
+    # 글 카드의 '썰 #N' (2026-10-17): 지금까지 올린 영상 수 + 1 - 매번 같은 진행자(가챠냥)의 연재로 보이게
+    script.setdefault("episode", 1 + sum(1 for h in history if h.get("video_id")))
     stats = render(script, cfg, REPO, out_dir / "work", video)
     record.update(stats)
     print(f"  {stats}")

@@ -325,7 +325,47 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
 .spk { position:absolute; width:96px; height:96px; margin:-48px 0 0 -48px; background:#FFF6B0; opacity:0;
   clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);
   filter:drop-shadow(0 0 10px #FFD400); }
+/* 2026-10-17 like nudge: a heart by the app's like button grows cat ears and becomes the channel's
+   cat (가챠냥) - drawn in the video, so it points at the button without a spoken "좋아요 눌러 주세요" */
+.cat { overflow:visible; display:block; }
+.cat .ln { fill:none; stroke:#111; stroke-linecap:round; stroke-linejoin:round; }
+#like { position:absolute; z-index:10; visibility:hidden; pointer-events:none; }
+#like .cat { width:100%; height:100%; filter:drop-shadow(0 6px 10px rgba(0,0,0,.45)); }
+#like .ears, #like .face { transform-box:fill-box; transform-origin:50% 100%; }
+#likeb { position:absolute; z-index:10; visibility:hidden; background:#fff; color:#111; border:6px solid #111;
+  border-radius:34px; padding:16px 30px 8px; font-size:56px; line-height:1.12; text-align:center; white-space:nowrap;
+  box-shadow:0 8px 0 rgba(0,0,0,.2); transform-origin:85% 120%; }
+#likeb::after { content:''; position:absolute; right:46px; bottom:-34px; width:40px; height:40px; background:#fff;
+  border-right:6px solid #111; border-bottom:6px solid #111; transform:skewX(-28deg) rotate(45deg); }
+#likeb b { color:#e01e1e; font-weight:400; }
+#likenya { position:absolute; z-index:10; visibility:hidden; font-size:64px; color:#FFE14D; white-space:nowrap;
+  -webkit-text-stroke:12px #111; paint-order:stroke fill; }
+.post .ava.cat { background:none; border-radius:0; }
 """
+
+# The channel cat: a heart whose two lobes are the head; ears and face are separate groups so the
+# like nudge can grow them out of a plain heart. fill: white heart -> yellow cat (#FFE14D, the title yellow)
+CAT_HEART = "M50 92 C18 70 4 54 4 34 C4 19 16 8 30 8 C39 8 46 13 50 20 C54 13 61 8 70 8 C84 8 96 19 96 34 C96 54 82 70 50 92 Z"
+
+
+def cat_svg(cls: str = "cat", morph: bool = False) -> str:
+    """morph=True: every part is drawn and JS animates them (ears/face/yellow start hidden);
+    False: the finished cat (post-card avatar)."""
+    hide = ' style="opacity:0"' if morph else ""
+    flat = ' style="transform:scaleY(0)"' if morph else ""
+    ears = (f'<g class="ears"{flat}>'
+            '<path d="M13 30 L16 -14 L44 12 Z" fill="#FFE14D" stroke="#111" stroke-width="6" stroke-linejoin="round"/>'
+            '<path d="M87 30 L84 -14 L56 12 Z" fill="#FFE14D" stroke="#111" stroke-width="6" stroke-linejoin="round"/>'
+            '<path d="M20 20 L21 -2 L36 13 Z" fill="#ff9db5"/><path d="M80 20 L79 -2 L64 13 Z" fill="#ff9db5"/></g>')
+    white = (f'<path class="hw" d="{CAT_HEART}" fill="#fff" stroke="#111" stroke-width="6"/>' if morph else "")
+    yellow = f'<path class="hy" d="{CAT_HEART}" fill="#FFE14D" stroke="#111" stroke-width="6"{hide}/>'
+    face = (f'<g class="face"{hide}>'
+            '<path class="ln" stroke-width="5" d="M28 40 Q35 32 42 40 M58 40 Q65 32 72 40"/>'
+            '<ellipse cx="25" cy="53" rx="7" ry="4.5" fill="#ff9db5"/><ellipse cx="75" cy="53" rx="7" ry="4.5" fill="#ff9db5"/>'
+            '<path d="M45 49 L55 49 L50 55 Z" fill="#ff6b8a"/>'
+            '<path class="ln" stroke-width="4" d="M39 58 Q44.5 65 50 58 Q55.5 65 61 58"/>'
+            '<path class="ln" stroke-width="3" d="M18 49 L-6 45 M18 56 L-6 58 M82 49 L106 45 M82 56 L106 58"/></g>')
+    return f'<svg class="{cls}" viewBox="-8 -18 116 112">{ears}{white}{yellow}{face}</svg>'
 
 JS = r"""
 const C = x => x < 0 ? 0 : x > 1 ? 1 : x;
@@ -388,6 +428,34 @@ function item(el, d, t, s) {
   }
 }
 
+// like nudge: heart pops in by the like button and beats (0-1.1 s), grows ears and a face and turns
+// yellow (1.1-1.5 s) - "좋아요가 냥이로 변신" - then bobs until it fades at dur
+const likeEl = document.getElementById('like'), likeB = document.getElementById('likeb'), likeN = document.getElementById('likenya');
+function likeNudge(t) {
+  const L = D.like;
+  if (!L || !likeEl) return;
+  const a = t - L.t0, vis = a >= 0 && a < L.dur + .25;
+  [likeEl, likeB, likeN].forEach(e => e.style.visibility = vis ? 'visible' : 'hidden');
+  if (!vis) return;
+  const out = C((a - L.dur) / .25), fade = 1 - out;
+  const m = C((a - 1.1) / .4);                                   // morph progress
+  let sx = .3 + .7 * eb(a / .3), sy = sx;
+  if (a > .3 && a < 1.1) { const b = Math.pow(Math.abs(Math.sin((a - .3) * Math.PI * 2.5)), 3); sx = sy = 1 + .14 * b; }
+  if (m > 0 && m < 1) { sx = 1 + .18 * Math.sin(m * Math.PI); sy = 1 - .14 * Math.sin(m * Math.PI); }
+  const bob = a > 1.5 ? Math.sin((a - 1.5) * 5) * 5 : 0;
+  likeEl.style.opacity = fade;
+  likeEl.style.transform = `translateY(${bob.toFixed(1)}px) scale(${(sx * (1 - .3 * out)).toFixed(3)}, ${(sy * (1 - .3 * out)).toFixed(3)})`;
+  likeEl.querySelector('.ears').style.transform = `scaleY(${m > 0 ? eb(m).toFixed(3) : 0})`;
+  likeEl.querySelector('.face').style.opacity = C((a - 1.25) / .2).toFixed(3);
+  likeEl.querySelector('.hy').style.opacity = m.toFixed(3);
+  const bb = C((a - .15) / .3);
+  likeB.style.opacity = (C(bb * 3) * fade).toFixed(3);
+  likeB.style.transform = `scale(${(.4 + .6 * eb(bb)).toFixed(3)})`;
+  const n = C((a - 1.45) / .3);
+  likeN.style.opacity = (C(n * 3) * fade).toFixed(3);
+  likeN.style.transform = `translateY(${(-30 * eo(n)).toFixed(1)}px) scale(${(.5 + .5 * eb(n)).toFixed(3)}) rotate(-8deg)`;
+}
+
 const TR = .24;   // whoosh transition length
 const OUTLINED = new Set(['shout', 'sweet', 'react']);   // drawn as a rim layer + a fill layer, no box
 
@@ -432,6 +500,7 @@ window.render = function (t) {
   });
   cam.style.transform = shake ? `translate(${Math.sin(t * 90) * 16 * shake}px, ${Math.cos(t * 75) * 12 * shake}px)` : '';
   flashEl.style.opacity = flash.toFixed(3);
+  likeNudge(t);
   // captions: boxed lines light up word by word (karaoke); outlined ones land whole
   let k = -1;
   for (let i = 0; i < D.caps.length; i++) if (t >= D.caps[i].s - .05 && t < D.caps[i].e) { k = i; break; }
@@ -686,9 +755,40 @@ def _prop(it: dict, d: dict) -> tuple[int, int, str]:
     return 700, 640, '<div class="tri"></div><div class="tri2"></div><div class="ex" style="font-size:330px">!</div>'
 
 
-def build(segments, visuals, times, cues, title, credit, picker, font_path, clips=None) -> tuple[str, list]:
+def like_timing(segments, times, cfg) -> dict | None:
+    """When and where the like nudge plays: on the sentence marked "like": true (the reveal teaser,
+    ~60-75% in - @이비온 puts its one CTA there), else on the sentence ~60% in. Never on the
+    post card or the last sentence, and it must finish before the video does."""
+    if not cfg or not cfg.get("enabled", True) or len(times) < 4:
+        return None
+    idx = next((i for i, s in enumerate(segments) if s.get("like")), None)
+    if idx is None or not 1 <= idx < len(times) - 1:
+        idx = min(len(times) - 2, max(2, round(len(times) * 0.6)))
+    t0 = times[idx][0] - LEAD + 0.1
+    dur = min(float(cfg.get("seconds", 2.8)), times[-1][1] - t0 - 0.3)
+    if dur < 1.8:
+        return None
+    return {"t0": round(t0, 3), "dur": round(dur, 3), "seg": idx,
+            "x": int(cfg.get("x", 975)), "y": int(cfg.get("y", 1150)), "size": int(cfg.get("size", 190))}
+
+
+def _like_html(L: dict | None) -> str:
+    if not L:
+        return ""
+    x, y, s = L["x"], L["y"], L["size"]
+    h = int(s * 112 / 116)
+    bw = 430   # bubble above-left, its tail pointing down at the heart
+    return (f'<div id="like" style="left:{x - s // 2}px;top:{y - h // 2}px;width:{s}px;height:{h}px">{cat_svg("cat", True)}</div>'
+            f'<div id="likeb" style="left:{min(x - 60, W - 20) - bw}px;top:{y - h // 2 - 190}px;width:{bw}px">'
+            f'좋아요 누르면<br><b>냥이로 변신!</b></div>'
+            f'<div id="likenya" style="left:{x - 55}px;top:{y - h // 2 - 105}px">냥!</div>')   # above the ears, clear of the caption
+
+
+def build(segments, visuals, times, cues, title, credit, picker, font_path, clips=None,
+          like=None, episode=None) -> tuple[str, list]:
     """segments: [{sfx}], visuals: [{bg, items}], times: [(start, end)],
-    clips: per scene None or {dir, n} from stock.clip_frames (background footage)."""
+    clips: per scene None or {dir, n} from stock.clip_frames (background footage),
+    like: config like_cta (position of the app's like button) or None, episode: number on the post card."""
     scenes_html, scenes_data = [], []
     clips = clips or [None] * len(segments)
     last_place = None
@@ -759,9 +859,12 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                 w, h = 1000, int(fs * 1.3 * lines + 280)
                 d.update(w=w, h=h, type="text")
                 today = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).strftime("%Y.%m.%d")
+                # the writer is the channel cat with a running episode number: the same face every video
+                # and in the like nudge, so the feed sees one recurring host instead of an anonymous post
+                ep = f"<span>썰 #{int(episode)}</span>" if episode else ""
                 parts.append(f'<div class="it tx post" style="width:{w}px;height:{h}px;z-index:{Z["text"]};display:flex">'
                              f'<div class="board">🔥 썰가챠 썰 게시판 ›</div><div class="ttl" style="font-size:{fs}px">{esc(text)}</div>'
-                             f'<div class="meta"><div class="ava"></div><b>익명</b><span>{today}</span></div></div>')
+                             f'<div class="meta">{cat_svg("cat ava")}<b>가챠냥</b>{ep}<span>{today}</span></div></div>')
             else:
                 style = it.get("style", "label")
                 text = str(it.get("text", ""))
@@ -815,11 +918,12 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
     t1, t2 = title
     cap_font = Path(font_path).with_name("DoHyeon-Regular.ttf")
     css = CSS.replace("CAPFONT", file_url(cap_font if cap_font.exists() else font_path)).replace("FONT", file_url(font_path))
-    payload = {"scenes": scenes_data, "caps": cues, "lead": LEAD, "fps": FPS}
+    like_at = like_timing(segments, times, like)
+    payload = {"scenes": scenes_data, "caps": cues, "lead": LEAD, "fps": FPS, "like": like_at}
     html = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>{css}</style></head><body>'
             f'<div id="title" style="font-size:{title_size([t1, t2])}px"><div>{esc(t1)}</div><div class="t2">{esc(t2)}</div></div>'
             f'<div id="panel"><div id="credit">{esc(credit)}</div><div id="cam">{"".join(scenes_html)}</div><div id="flash"></div></div>'
-            f'<div id="cap"></div><script>window.DATA={json.dumps(payload, ensure_ascii=False)};</script>'
+            f'<div id="cap"></div>{_like_html(like_at)}<script>window.DATA={json.dumps(payload, ensure_ascii=False)};</script>'
             f'<script>{JS}</script></body></html>')
     return html, [s["start"] for s in scenes_data[1:]]
 

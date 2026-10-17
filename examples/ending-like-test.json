@@ -1,0 +1,304 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "kid-orders-jajangmyeon-from-112",
+ "title_lines": [
+  "짜장면 시켰는데",
+  "경찰이 출동함"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "112에 짜장면 시킨 9살 아이",
+   "say": "백십이에 짜장면 시킨 아홉 살 아이",
+   "sfx": "dudung",
+   "tone": "글 제목 읽어 주듯 또렷하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "112에 짜장면 시킨\n9살 아이",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "9살 아이가 방에 숨어서 경찰한테 짜장면 한 그릇 달라 함.",
+   "say": "아홉 살 아이가 방에 숨어서 경찰한테 짜장면 한 그릇 달라 함.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "smartphone screen dark",
+     "phone call screen",
+     "smartphone night"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 子供",
+       "子供 電話",
+       "電話をかける"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "지난 4일 저녁 6시쯤 안산의 한 집에서 걸려 온 신고였음.",
+   "say": "지난 사 일 저녁 여섯 시쯤 안산의 한 집에서 걸려 온 신고였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "112 신고",
+      "lines": [
+       "10/4 오후 6시 8분",
+       "\"짜장면 한 그릇 주세요\""
+      ],
+      "mark": 1,
+      "at": 0.0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "警察官",
+       "警察 電話"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 이게 장난 전화가 아니었음.",
+   "say": "근데 이게 장난 전화가 아니었음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ジャージャー麺",
+       "中華料理",
+       "ラーメン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아이는 통화하면서 집에 가족이 몇 명 있는지도 설명함.",
+   "say": "아이는 통화하면서 집에 가족이 몇 명 있는지도 설명함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "living",
+    "cam": "push",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "家族 四人",
+       "家族"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏠",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 아이가 짜장면 대신 진짜 하려던 말은 이거였음.",
+   "say": "자, 아이가 짜장면 대신 진짜 하려던 말은 이거였음.",
+   "sfx": "none",
+   "like": true,
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "子供 隠れる",
+       "かくれんぼ",
+       "子供 怖い"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아빠가 엄마를 때리려 한다는 신고였음.",
+   "say": "아빠가 엄마를 때리려 한다는 신고였음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "living",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "夫婦喧嘩",
+       "けんか 夫婦",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰은 3분 만에 와서 아빠를 입건함.",
+   "say": "경찰은 삼 분 만에 와서 아빠를 입건함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "police car lights night",
+     "police lights",
+     "siren lights night"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パトカー",
+       "警察官"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "짜장면 한 그릇으로 엄마를 지킴.",
+   "say": "짜장면 한 그릇으로 엄마를 지킴.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "가슴이 찡해서 감탄하듯 힘 있게, 말끝은 분명하게",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "親子 抱きしめる",
+       "母親 子供",
+       "親子"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "❤️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "\"짜장면 한 그릇 주세요\" 112에 걸려 온 9살의 전화 #shorts",
+  "description": "지난 4일 저녁 경기 안산의 한 집에서 9살 아이가 112에 전화해 짜장면을 주문하는 척했음.\n아빠한테 들키지 않으려고 쓴 방법이었고, 아빠가 엄마를 때리려 한다는 신고였음.\n경찰은 약 3분 만에 도착해 40대 아빠를 입건하고 집에서 퇴거시키는 임시조치를 했음.\n\n※ AI 음성으로 제작했습니다.\n#112신고 #짜장면 #경찰 #가정폭력 #shorts",
+  "tags": [
+   "112 신고",
+   "짜장면 신고",
+   "9살 아이",
+   "경찰 출동",
+   "가정폭력 신고",
+   "안산",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://view.asiae.co.kr/article/2026100718045121050",
+ "facts_used": [
+  "10월 4일 오후 6시 8분쯤 경기 안산 상록구 다세대주택에서 9살 아이가 112에 '짜장면 한 그릇 주세요'라고 신고 — 아시아경제 2026-10-07 https://view.asiae.co.kr/article/2026100718045121050 , 서울신문 2026-10-07 https://www.seoul.co.kr/news/society/accident/2026/10/07/20261007500250 , 경기일보 https://www.kyeonggi.com/article/20261007580461",
+  "아이는 방 안에 숨어 전화했고 집에 가족이 몇 명 있는지 설명함 — 헤럴드경제 https://biz.heraldcorp.com/article/10895957 , 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2076903",
+  "들키지 않으려 짜장면 주문하는 척 기지 발휘(경찰 관계자), '아빠가 엄마를 때리려 한다'고 알림 — 경기일보 https://www.kyeonggi.com/article/20261007580461 , 매일신문 https://www.imaeil.com/page/view/2026100715411842708",
+  "경찰 약 3분 뒤 오후 6시 11분쯤 도착, 40대 아버지 A씨 특수폭행·아동복지법 위반 혐의 입건, 퇴거·100m 접근금지 임시조치 — 서울신문 2026-10-07 https://www.seoul.co.kr/news/society/accident/2026/10/07/20261007500250 , 헤럴드경제 https://biz.heraldcorp.com/article/10895957 , 경기일보 https://www.kyeonggi.com/article/20261007580461"
+ ],
+ "brief": "[2026-10-17 형식 예시 - 10/8 짜장면 편(17.5천 회)을 새 기준으로 고쳐 씀] 점수표: 이게됨4+궁금증5+감정5×2+대상5+판정3=27/30. 첫장면: 사람. 이해검사: 9살 아이가 아빠가 엄마를 때리려 하자 방에 숨어 112에 짜장면 주문하는 척 신고했고, 경찰이 3분 만에 와서 아빠를 입건했다. 증거: 112 신고 문서(10/4 18:08, '짜장면 한 그릇 주세요' - 서울신문·경기일보). like: 5번 공개 예고. 마지막: 6번 답(hit) → 7번 결과 → 8번 리액션(react)으로 끝, 질문 없음. 그림대조: 완료. 주의: 가정폭력·아동 - 웃음 tone·absurd 없음, 신상 없음, 폭행 장면 묘사 없음."
+}

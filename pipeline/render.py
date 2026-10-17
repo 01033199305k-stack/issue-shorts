@@ -76,7 +76,8 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
         clips.append(clip)
     print(f"  stock clips: {sum(1 for c in clips if c)}/{sum(1 for v in visuals if (v or {}).get('video'))}")
     html, cuts = motion.build(segments, visuals, times, cues, script["title_lines"], script.get("credit", ""),
-                              picker, repo / "assets" / "fonts" / "BlackHanSans-Regular.ttf", clips)
+                              picker, repo / "assets" / "fonts" / "BlackHanSans-Regular.ttf", clips,
+                              like=cfg.get("like_cta"), episode=script.get("episode"))
     page = work_dir / "motion.html"
     page.write_text(html, encoding="utf-8")
     print(f"  frames: {int(total * motion.FPS)} ({len(picker.used)} illustrations)")

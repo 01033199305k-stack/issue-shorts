@@ -22,6 +22,12 @@ caption_words: 7
 caption_line_chars: 13
 caption_lines: 2
 
+# 좋아요 유도 (2026-10-17 사용자: "댓글 유도 질문은 별로, 요새는 좋아요가 고양이로 변하게 해서 유도하던데"):
+# 쇼츠 앱의 좋아요 버튼 자리에 하트가 떠서 귀가 돋고 가챠냥으로 변한다. 말로 하는 부탁은 없다.
+# x·y 는 1080x1920 영상 좌표의 하트 중심 - 폰에서 실제 좋아요 버튼과 어긋나면 여기만 고친다.
+# 대본에서 "like": true 를 단 문장(공개 예고)에 시작, 없으면 60% 지점 문장.
+like_cta: {enabled: true, x: 975, y: 1150, size: 190, seconds: 2.8}
+
 bgm: assets/bgm/sneaking_around.mp3   # OpenGameArt CC0
 bgm_gain_db: -10                      # 배경음악 크기 (클수록 큼, -16 이면 말소리에 묻혀 거의 안 들림)
 sfx_dir: assets/sfx                   # 비공개 저장소(issue-shorts-assets)에서 받아 온다

@@ -176,11 +176,11 @@ def validate(script: dict) -> list[str]:
     if len(script["credit"]) > 44:
         p.append(f"credit is {len(script['credit'])} chars (max 40)")
     segs = script["segments"]
-    if not 6 <= len(segs) <= 12:   # hard limit; the 6-8 house target is in lint() so older scripts still render
-        p.append(f"{len(segs)} segments (want 6-8: one picture per sentence)")
+    if not 6 <= len(segs) <= 12:   # hard limit; the 7-9 house target is in lint() so older scripts still render
+        p.append(f"{len(segs)} segments (want the title + 7-9: one picture per sentence)")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
     if not 130 <= total <= 290:
-        p.append(f"narration {total} chars (want 140-190, about 18-25 s - cut sentences that repeat or explain too much)")
+        p.append(f"narration {total} chars (want 170-230, about 24-30 s - cut sentences that repeat or explain too much)")
     queries = {json.dumps(it.get("q"), ensure_ascii=False) for s in segs for it in (s.get("visual") or {}).get("items", [])
                if it.get("type") in ("illust", "crowd") and it.get("q")}
     n_video = sum(1 for s in segs if (s.get("visual") or {}).get("video"))
@@ -210,6 +210,8 @@ def validate(script: dict) -> list[str]:
             p.append(f"segment {i}: say has bare jamo (ㅋㅋ, ㄹㅇ ...) the voice cannot read")
         if s.get("cap") is not None and s.get("cap") not in CAPS:
             p.append(f"segment {i}: cap {s.get('cap')!r} not in {CAPS}")
+        if s.get("like") is not None and not isinstance(s.get("like"), bool):
+            p.append(f"segment {i}: like must be true/false (true on the one sentence the like nudge plays over)")
         tone = s.get("tone")
         if tone is not None and not (isinstance(tone, str) and len(tone.strip()) <= 40):
             p.append(f"segment {i}: tone must be a short delivery note for the voice (max 40 chars)")
@@ -342,8 +344,13 @@ def lint(script: dict) -> list[str]:
                 p.append(f"segment {i}: text style {st!r} repeats the caption (two subtitles on screen) - "
                          "use a picture/emoji; panel words only as the post card or the vote board")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
-    if len(segs) > 9 or total > 200:   # 2026-10-06: 18-25 s like @dolongcha (its 2.2M-view short ran 17 s)
-        p.append(f"{len(segs)} sentences / {total} chars - write the title + 6-8 sentences, 150-200 chars (20-26 s)")
+    # 2026-10-17: 18-25 s squeezed the setup out - comments "뭔소린지?", "설명으로만 들어서는 모르겠음".
+    # One more setup sentence: title + 7-9 sentences, 170-230 chars (24-30 s)
+    if len(segs) > 10 or total > 235:
+        p.append(f"{len(segs)} sentences / {total} chars - write the title + 7-9 sentences, 170-230 chars (24-30 s)")
+    if total < 165:
+        p.append(f"only {total} chars - too compressed for a first-time viewer to follow; add the setup sentence "
+                 "(who / what happened / why it matters) - target 170-230 chars")
     post = next((it for it in ((segs[0].get("visual") or {}).get("items", []) if segs else [])
                  if it.get("style") == "post"), None)
     if post:   # 2026-10-07: @dolongcha/@군림보 read the title aloud first; ours jumped straight into the story
@@ -369,6 +376,29 @@ def lint(script: dict) -> list[str]:
         p.append(f"{trs.count('whoosh')} whoosh / {trs.count('flash')} flash cuts - max 3 whoosh and 1 flash (a reveal) per video")
     if trs and trs[0]:
         p.append("segment 0: the video opens on the post card - no transition")
+    # 2026-10-17 ending (사용자: "마지막에 댓글 유도형 질문은 별로"): no question to the viewer - the video ends
+    # on the payoff and loops; the like nudge (renderer) plays over the reveal teaser instead
+    if segs:
+        last = segs[-1]
+        if re.search(r"\?\s*$|님들|여러분", last.get("text", "")):
+            p.append("last sentence asks the viewer something - end on the payoff instead (the answer / one-line "
+                     "reaction, cap hit/react), no question, no 님들 (ROUTINE 마지막)")
+        if sum(1 for it in (last.get("visual") or {}).get("items", []) if it.get("style") == "row") >= 2:
+            p.append("last scene is a vote board - the ending is the payoff picture, not a poll")
+        if not any(s.get("cap") in ("hit", "react") for s in segs[-2:]):
+            p.append("the payoff is not marked - give one of the last two sentences cap 'hit' (the answer) or 'react'")
+    likes = [i for i, s in enumerate(segs) if s.get("like")]
+    if len(likes) != 1:
+        p.append(f"{len(likes)} sentences with like: true - mark exactly one, the reveal teaser (~60-75% in), "
+                 "where the like nudge (heart -> 가챠냥) plays")
+    elif not 2 <= likes[0] <= len(segs) - 2:
+        p.append("like: true belongs on the reveal teaser in the second half, not the title, hook or last sentence")
+    brief = str(script.get("brief", ""))
+    if "이해검사:" not in brief:
+        p.append("brief has no '이해검사:' line - write who / what / how it ended in one sentence using only the script's words")
+    if not any(k in kinds for k in ("doc", "sms", "price")) and "증거없음:" not in brief:
+        p.append("no evidence prop - show the story's real paper/text/price (doc/sms/price from the reports) in one scene, "
+                 "or write '증거없음: <why>' in brief (viewer comment, 레이디 가가 편: \"사실이면 영상이라도 올리던가\")")
     sfx = [s.get("sfx") for s in segs]
     if len(sfx) > 1 and sfx[0] == "dudung" and sfx[1] == "question":
         p.append("opening sfx dudung -> question is the pattern every video used - open by the hook's mood (see ROUTINE sfx)")
