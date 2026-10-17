@@ -2821,5 +2821,52 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-17_1200_teen-gives-shoes-grieving-stranger/video.mp4"
   },
   "seconds": 321
+ },
+ {
+  "key": "2026-10-17-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-17T18:00:00+09:00",
+  "started": "2026-10-17T15:15:27.205117+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-5626/",
+   "https://pixabay.com/videos/id-55691/"
+  ],
+  "duration": 27.02,
+  "matches": [
+   1.0,
+   0.95,
+   0.9,
+   0.97,
+   1.0,
+   0.97,
+   0.95,
+   0.99,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "범퍼 살짝 박았는데 두 번째 견적서에 적혀 있던 부품 #shorts",
+  "source_post": "https://n.news.naver.com/article/009/0005749895",
+  "facts_used": [
+   "벤츠 뒷범퍼 접촉사고에 견적서 두 장, 합계 1855만 원 — 매일경제 2026-10 '벤츠는 뒷범퍼 박으면 엔진도 고장나나?…1855만원 견적서에 멘붕' https://n.news.naver.com/article/009/0005749895 , 재경일보 '벤츠 뒷범퍼 접촉사고에 수리비 1855만원 청구 논란' https://news.jkn.co.kr/post/1029820",
+   "피해 차량 2019년식 E300e(주행 약 11만9000km), 사고 부위 오른쪽 뒷범퍼 하단 — 재경일보 https://news.jkn.co.kr/post/1029820 , 매일경제 https://n.news.naver.com/article/009/0005749895",
+   "첫 견적 범퍼·몰딩 교체 약 431만 원, 두 번째 견적 실린더 헤드·배기 밸브·점화 코일 등 엔진 부품 약 1424만 원 — 재경일보, 매일경제",
+   "가해 차주는 후방 충격으로 엔진 부품이 파손될 수 있는지 의문 제기 — 재경일보, 매일경제(제목 '뒷범퍼 박으면 엔진도 고장나나?')"
+  ],
+  "slug": "2026-10-17_1800_benz-bumper-engine-repair-estimate",
+  "late": false,
+  "video_id": "_vcUY_9zu3I",
+  "url": "https://youtube.com/shorts/_vcUY_9zu3I",
+  "privacy": "private",
+  "scheduled_for": "2026-10-17T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad317198ac6cfe54433e47e",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-17T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-17_1800_benz-bumper-engine-repair-estimate/video.mp4"
+  },
+  "seconds": 1180
  }
 ]
