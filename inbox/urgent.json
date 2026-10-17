@@ -1,27 +1,32 @@
 {
- "detected_at": "2026-10-17T15:10+09:00",
+ "detected_at": "2026-10-17T18:16+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "부천 화재 순직 김진석 소방위 특진… 장례는 경기도청장으로",
-   "url": "https://n.news.naver.com/article/082/0001402844",
-   "press": "부산일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "추미애 “사과 바라시니 마음 다해 사과…폄훼 의도 아니었다”",
+   "url": "https://n.news.naver.com/article/020/0003755676",
+   "press": "동아일보",
+   "why": "언론사 10곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "경향신문",
-     "title": "부천 화재 순직 소방관 장례 경기도청장으로···추미애 지사, 빈소 조문 예정",
-     "url": "https://n.news.naver.com/article/032/0003476835"
+     "press": "중앙일보",
+     "title": "추미애 “사과를 바라시니까…” 빈소서 ‘재정 빨대’ 발언 사과",
+     "url": "https://n.news.naver.com/article/025/0003558562"
     },
     {
-     "press": "문화일보",
-     "title": "[속보] 부천 공장화재 순직 소방관 1계급 특진…장례 ‘경기도청장’으로",
-     "url": "https://n.news.naver.com/article/021/0002825790"
+     "press": "JTBC",
+     "title": "추미애, 순직 소방관 빈소서 '재정 빨대' 발언 사과…\"마음 다해 사과드려\"",
+     "url": "https://n.news.naver.com/article/437/0000516194"
     },
     {
-     "press": "뉴시스",
-     "title": "소방청, '부천 화재 순직' 故 김진석 소방위 옥조근정훈장 추서",
-     "url": "https://n.news.naver.com/article/003/0014259513"
+     "press": "이데일리",
+     "title": "추미애 \"발언 실수 인정, 마음 다해 사과\"..순직 소방관 빈소 조문",
+     "url": "https://n.news.naver.com/article/018/0006390169"
+    },
+    {
+     "press": "CJB청주방송",
+     "title": "추미애, 결국 '소방 재정 빨대 발언' 공식 사과…\"폄훼 의도 없었다\"",
+     "url": "https://n.news.naver.com/article/655/0000033204"
     }
    ]
   }
