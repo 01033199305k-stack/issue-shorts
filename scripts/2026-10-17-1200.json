@@ -1,0 +1,293 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "teen-gives-shoes-grieving-stranger",
+ "title_lines": [
+  "신발 벗어 준 18살",
+  "약국 앞 할아버지"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "은행 가다 말고 신발 벗어 준 18살",
+   "say": "은행 가다 말고 신발 벗어 준 열여덟 살",
+   "sfx": "exclaim",
+   "tone": "글 제목 읽어 주듯 또렷하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "은행 가다 말고\n신발 벗어 준 18살",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 미국 18살이 신던 신발을 그 자리에서 벗어 줌.",
+   "say": "헐, 미국 열여덟 살이 신던 신발을 그 자리에서 벗어 줌.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "store",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スニーカー",
+       "靴",
+       "運動靴"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "sneakers shoes",
+     "shoes pair",
+     "sneaker street"
+    ]
+   }
+  },
+  {
+   "text": "약국 앞에서 낡은 신발로 힘겹게 걷던 할아버지한테.",
+   "say": "약국 앞에서 낡은 신발로 힘겹게 걷던 할아버지한테.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "おじいさん 歩く",
+       "おじいさん 杖",
+       "おじいさん"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "slide-left"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 더 마음 아픈 사정이 따로 있었음.",
+   "say": "근데 더 마음 아픈 사정이 따로 있었음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "はてな マーク",
+       "疑問",
+       "クエスチョンマーク"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "점심 같이 먹다가 아내분 계시냐고 물어봤음.",
+   "say": "점심 같이 먹다가 아내분 계시냐고 물어봤음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "restaurant",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "おじいさん 食事",
+       "食事 男性",
+       "ハンバーガー"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니, 할머니가 딱 2주 전에 떠났다는 거임.",
+   "say": "아니, 할머니가 딱 이 주 전에 떠났다는 거임.",
+   "sfx": "none",
+   "cap": "hit",
+   "tone": "목이 메어 울컥하듯, 말끝은 분명하게",
+   "visual": {
+    "bg": "living",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む おじいさん",
+       "おじいさん 泣く",
+       "おじいさん 悲しい"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "💔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "몰래 찍힌 영상이 퍼져 모금이 1만 5천 달러 넘음.",
+   "say": "몰래 찍힌 영상이 퍼져 모금이 만 오천 달러 넘음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "뭉클해서 벅차오르듯 밝게",
+   "visual": {
+    "bg": "sky",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "募金箱",
+       "寄付 お金",
+       "お金"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "💖",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "tr": "whoosh",
+    "video": [
+     "money counting",
+     "cash dollar bills",
+     "dollar bills"
+    ]
+   }
+  },
+  {
+   "text": "님들이면 벗어 줌? 그냥 감?",
+   "say": "님들이면 벗어 줌? 그냥 감?",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "친구한테 묻듯 가볍게 말끝을 확 끌어올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "label",
+      "text": "님들 선택은?",
+      "pos": "top",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "text",
+      "style": "row",
+      "text": "① 벗어 준다",
+      "pos": "center",
+      "at": 0.2,
+      "fx": "slide-left"
+     },
+     {
+      "type": "text",
+      "style": "row",
+      "text": "② 그냥 간다",
+      "pos": "center",
+      "at": 0.5,
+      "fx": "slide-right"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "スニーカー",
+       "靴"
+      ],
+      "pos": "bottom-right",
+      "size": "s",
+      "at": 0.6,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "은행 가다 말고 약국 앞에서 신발 벗어 준 18살 #shorts",
+  "description": "미국 애리조나의 18살 청년이 은행 가던 길에 약국 앞에서 낡은 신발로 힘겹게 걷던 할아버지를 봤습니다.\n청년은 신고 있던 신발을 벗어 주고 함께 점심을 먹었는데, 할아버지의 아내가 2주 전 세상을 떠났다는 이야기를 듣게 됩니다.\n누군가 찍어 올린 영상이 퍼지면서 청년이 연 모금에는 1만 5천 달러 넘게 모였습니다.\n\n※ AI 음성으로 제작했습니다.\n#감동 #선행 #미국 #할아버지 #썰 #shorts",
+  "tags": [
+   "감동",
+   "선행",
+   "미국",
+   "신발",
+   "할아버지",
+   "18살",
+   "모금",
+   "썰"
+  ]
+ },
+ "source_post": "https://www.fox10phoenix.com/news/arizona-teen-gives-shoes-off-his-feet-struggling-stranger-viral-act-kindness",
+ "facts_used": [
+  "애리조나 메리코파의 18살 조던 호프가 은행 가던 길에 월그린 약국 앞에서 힘겹게 걷던 노인을 보고 신고 있던 신발을 벗어 줌 (FOX 10 Phoenix, TODAY, Yahoo/People, Hoodline 2026-10)",
+  "함께 점심을 먹으며 아내가 있냐고 묻자 2주 전에 세상을 떠났다고 답함 (TODAY, Hoodline, Yahoo)",
+  "지나가던 사람이 찍어 지역 페이스북에 올렸고, 호프가 연 고펀드미 모금이 1만 5천 달러를 넘음 (FOX 10 Phoenix, Hoodline)"
+ ],
+ "brief": "점수표: 신발 18살(이게됨3·궁금4·감정5x2·대상3=20) / 종이넥타이 아빠(3·4·5x2·4=21이나 2021년 일·보관 경위 보도 엇갈림→제외) / 야쿠르트 매니저 고독사 발견(2·2·4x2·4=16, 결말 사망) / 염전 학대(1·2·3x2·2=11) / 주사 두 번 이상(2·2·2x2·4=12).\n첫장면: 의외\n확인된 사실: 2026-10-05 애리조나 메리코파, 18살 조던 호프(최근 고교 졸업)가 은행 가던 길 월그린 앞에서 낡은 신발로 힘겹게 걷던 노인('미스터 로이')에게 신고 있던 신발을 벗어 줌. 같이 점심, 아내 있냐 묻자 2주 전 사별. 차 불러 주고 집 들어가는 것까지 따라가 확인. 야렐리 마드리드가 찍어 지역 페북에 올림. 고펀드미 1만 5천 달러 돌파(FOX10), 다른 매체 1만 9천 달러.\n출처: FOX 10 Phoenix https://www.fox10phoenix.com/news/arizona-teen-gives-shoes-off-his-feet-struggling-stranger-viral-act-kindness / TODAY https://www.today.com/parents/teens/arizona-teen-gives-shoes-elderly-man-recording-facebook-post-rcna602973 / Hoodline https://hoodline.com/2026/10/maricopa-teen-gives-shoes-to-grieving-stranger-sparks-viral-fundraiser/ / Yahoo(People) https://www.yahoo.com/lifestyle/articles/arizona-teen-gives-stranger-shoes-132840395.html\n주의: 신발 종류(운동화/슬리퍼) 보도 엇갈림→'신발'로만. 보행기는 한 매체만→뺌. 할아버지 실명·얼굴 비공개 요청→이름 안 씀.\n훅 3안: ①은행 가다 말고 신발 벗어 준 18살 ②약국 앞에서 맨발 된 18살(맨발 미확인→탈락) ③모르는 할아버지한테 신발 준 청년(밋밋) → ①, 상황형이라 앞 회차 물건형('~한 것')과 틀이 다름.\n이해검사: 미국 18살이 약국 앞 할아버지에게 신발을 벗어 줬는데, 알고 보니 할아버지는 2주 전 아내를 잃었고, 그 장면을 찍은 영상이 퍼져 1만 5천 달러가 모였다.\n그림대조: 완료"
+}
