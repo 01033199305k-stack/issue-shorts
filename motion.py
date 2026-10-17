@@ -325,47 +325,45 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
 .spk { position:absolute; width:96px; height:96px; margin:-48px 0 0 -48px; background:#FFF6B0; opacity:0;
   clip-path:polygon(50% 0,61% 39%,100% 50%,61% 61%,50% 100%,39% 61%,0 50%,39% 39%);
   filter:drop-shadow(0 0 10px #FFD400); }
-/* 2026-10-17 like nudge: a heart by the app's like button grows cat ears and becomes the channel's
-   cat (가챠냥) - drawn in the video, so it points at the button without a spoken "좋아요 눌러 주세요" */
+/* 2026-10-17 like easter egg: on matching videos YouTube turns the like button into a topic icon
+   (dog -> paw, cat -> cat). At the very end a bubble by the like button says what it turns into - only
+   for topics confirmed on Shorts (EGGS, script "like_egg"), so the line is never a false promise. */
 .cat { overflow:visible; display:block; }
-.cat .ln { fill:none; stroke:#111; stroke-linecap:round; stroke-linejoin:round; }
-#like { position:absolute; z-index:10; visibility:hidden; pointer-events:none; }
-#like .cat { width:100%; height:100%; filter:drop-shadow(0 6px 10px rgba(0,0,0,.45)); }
-#like .ears, #like .face { transform-box:fill-box; transform-origin:50% 100%; }
+#likeh { position:absolute; z-index:10; visibility:hidden; pointer-events:none; }
+#likeh svg { width:100%; height:100%; overflow:visible; filter:drop-shadow(0 4px 8px rgba(0,0,0,.55)); }
 #likeb { position:absolute; z-index:10; visibility:hidden; background:#fff; color:#111; border:6px solid #111;
-  border-radius:34px; padding:16px 30px 8px; font-size:56px; line-height:1.12; text-align:center; white-space:nowrap;
-  box-shadow:0 8px 0 rgba(0,0,0,.2); transform-origin:85% 120%; }
-#likeb::after { content:''; position:absolute; right:46px; bottom:-34px; width:40px; height:40px; background:#fff;
+  border-radius:34px; padding:16px 32px 8px; font-size:54px; line-height:1.16; text-align:center; white-space:nowrap;
+  box-shadow:0 8px 0 rgba(0,0,0,.2); transform-origin:88% 120%; }
+#likeb::after { content:''; position:absolute; right:40px; bottom:-34px; width:40px; height:40px; background:#fff;
   border-right:6px solid #111; border-bottom:6px solid #111; transform:skewX(-28deg) rotate(45deg); }
 #likeb b { color:#e01e1e; font-weight:400; }
-#likenya { position:absolute; z-index:10; visibility:hidden; font-size:64px; color:#FFE14D; white-space:nowrap;
-  -webkit-text-stroke:12px #111; paint-order:stroke fill; }
+#likeb .em { font-family:'Segoe UI Emoji','Noto Color Emoji','Apple Color Emoji',sans-serif; }
 .post .ava.cat { background:none; border-radius:0; }
 """
 
-# The channel cat: a heart whose two lobes are the head; ears and face are separate groups so the
-# like nudge can grow them out of a plain heart. fill: white heart -> yellow cat (#FFE14D, the title yellow)
-CAT_HEART = "M50 92 C18 70 4 54 4 34 C4 19 16 8 30 8 C39 8 46 13 50 20 C54 13 61 8 70 8 C84 8 96 19 96 34 C96 54 82 70 50 92 Z"
+# The channel cat 가챠냥 (post-card avatar): round face, big shiny eyes. 2026-10-17 the first version was
+# a heart with ears and the user found it creepy.
+def cat_svg(cls: str = "cat") -> str:
+    fur, line, inner = "#FFF6E6", "#4a3426", "#ffb3c1"
+    return (f'<svg class="{cls}" viewBox="-6 2 112 96">'
+            f'<path d="M12 44 L14 6 Q15 1 20 4 L46 20 Z" fill="{fur}" stroke="{line}" stroke-width="5" stroke-linejoin="round"/>'
+            f'<path d="M88 44 L86 6 Q85 1 80 4 L54 20 Z" fill="{fur}" stroke="{line}" stroke-width="5" stroke-linejoin="round"/>'
+            f'<path d="M19 30 L20 13 L34 22 Z" fill="{inner}"/><path d="M81 30 L80 13 L66 22 Z" fill="{inner}"/>'
+            f'<path d="M50 14 C79 14 96 33 96 57 C96 80 76 94 50 94 C24 94 4 80 4 57 C4 33 21 14 50 14 Z" fill="{fur}" stroke="{line}" stroke-width="5"/>'
+            f'<ellipse cx="33" cy="55" rx="7" ry="8.5" fill="{line}"/><ellipse cx="67" cy="55" rx="7" ry="8.5" fill="{line}"/>'
+            '<circle cx="30.5" cy="51.5" r="2.8" fill="#fff"/><circle cx="64.5" cy="51.5" r="2.8" fill="#fff"/>'
+            '<ellipse cx="21" cy="67" rx="7" ry="4.2" fill="#ff9fb2" opacity=".85"/><ellipse cx="79" cy="67" rx="7" ry="4.2" fill="#ff9fb2" opacity=".85"/>'
+            '<path d="M46.5 63 Q50 61.5 53.5 63 Q50 67.5 46.5 63 Z" fill="#ff7d96"/>'
+            f'<path d="M43 69 Q46.5 73 50 69 Q53.5 73 57 69" fill="none" stroke="{line}" stroke-width="3" stroke-linecap="round"/></svg>')
 
 
-def cat_svg(cls: str = "cat", morph: bool = False) -> str:
-    """morph=True: every part is drawn and JS animates them (ears/face/yellow start hidden);
-    False: the finished cat (post-card avatar)."""
-    hide = ' style="opacity:0"' if morph else ""
-    flat = ' style="transform:scaleY(0)"' if morph else ""
-    ears = (f'<g class="ears"{flat}>'
-            '<path d="M13 30 L16 -14 L44 12 Z" fill="#FFE14D" stroke="#111" stroke-width="6" stroke-linejoin="round"/>'
-            '<path d="M87 30 L84 -14 L56 12 Z" fill="#FFE14D" stroke="#111" stroke-width="6" stroke-linejoin="round"/>'
-            '<path d="M20 20 L21 -2 L36 13 Z" fill="#ff9db5"/><path d="M80 20 L79 -2 L64 13 Z" fill="#ff9db5"/></g>')
-    white = (f'<path class="hw" d="{CAT_HEART}" fill="#fff" stroke="#111" stroke-width="6"/>' if morph else "")
-    yellow = f'<path class="hy" d="{CAT_HEART}" fill="#FFE14D" stroke="#111" stroke-width="6"{hide}/>'
-    face = (f'<g class="face"{hide}>'
-            '<path class="ln" stroke-width="5" d="M28 40 Q35 32 42 40 M58 40 Q65 32 72 40"/>'
-            '<ellipse cx="25" cy="53" rx="7" ry="4.5" fill="#ff9db5"/><ellipse cx="75" cy="53" rx="7" ry="4.5" fill="#ff9db5"/>'
-            '<path d="M45 49 L55 49 L50 55 Z" fill="#ff6b8a"/>'
-            '<path class="ln" stroke-width="4" d="M39 58 Q44.5 65 50 58 Q55.5 65 61 58"/>'
-            '<path class="ln" stroke-width="3" d="M18 49 L-6 45 M18 56 L-6 58 M82 49 L106 45 M82 56 L106 58"/></g>')
-    return f'<svg class="{cls}" viewBox="-8 -18 116 112">{ears}{white}{yellow}{face}</svg>'
+# YouTube's topic like animations (launched 2025-10 on long videos; the Shorts heart button turns into a
+# dog paw / cat in 2026). Only topics seen on Shorts are switched on (config like_cta.eggs); the others
+# are known from long videos and wait for a check on a phone before they are used.
+EGGS = {"dog": ("🐾", "발바닥으로 변해요~"), "cat": ("🐱", "고양이로 변해요~"),
+        "learning": ("💡", "전구로 변해요~"), "cooking": ("🍴", "포크·숟가락으로 변해요~"),
+        "travel": ("✈️", "비행기로 변해요~"), "horror": ("😱", "놀란 얼굴로 변해요~"), "car": ("🛞", "타이어로 변해요~")}
+HEART_PATH = "M50 88 C20 66 6 50 6 32 C6 18 17 8 30 8 C39 8 46 13 50 20 C54 13 61 8 70 8 C83 8 94 18 94 32 C94 50 80 66 50 88 Z"
 
 JS = r"""
 const C = x => x < 0 ? 0 : x > 1 ? 1 : x;
@@ -428,32 +426,20 @@ function item(el, d, t, s) {
   }
 }
 
-// like nudge: heart pops in by the like button and beats (0-1.1 s), grows ears and a face and turns
-// yellow (1.1-1.5 s) - "좋아요가 냥이로 변신" - then bobs until it fades at dur
-const likeEl = document.getElementById('like'), likeB = document.getElementById('likeb'), likeN = document.getElementById('likenya');
+// like easter egg (last sentence to the end): a heart beats over the app's like button and a bubble
+// says what the button turns into on this kind of video
+const likeH = document.getElementById('likeh'), likeB = document.getElementById('likeb');
 function likeNudge(t) {
   const L = D.like;
-  if (!L || !likeEl) return;
-  const a = t - L.t0, vis = a >= 0 && a < L.dur + .25;
-  [likeEl, likeB, likeN].forEach(e => e.style.visibility = vis ? 'visible' : 'hidden');
+  if (!L || !likeB) return;
+  const a = t - L.t0, vis = a >= 0;
+  [likeH, likeB].forEach(e => e.style.visibility = vis ? 'visible' : 'hidden');
   if (!vis) return;
-  const out = C((a - L.dur) / .25), fade = 1 - out;
-  const m = C((a - 1.1) / .4);                                   // morph progress
-  let sx = .3 + .7 * eb(a / .3), sy = sx;
-  if (a > .3 && a < 1.1) { const b = Math.pow(Math.abs(Math.sin((a - .3) * Math.PI * 2.5)), 3); sx = sy = 1 + .14 * b; }
-  if (m > 0 && m < 1) { sx = 1 + .18 * Math.sin(m * Math.PI); sy = 1 - .14 * Math.sin(m * Math.PI); }
-  const bob = a > 1.5 ? Math.sin((a - 1.5) * 5) * 5 : 0;
-  likeEl.style.opacity = fade;
-  likeEl.style.transform = `translateY(${bob.toFixed(1)}px) scale(${(sx * (1 - .3 * out)).toFixed(3)}, ${(sy * (1 - .3 * out)).toFixed(3)})`;
-  likeEl.querySelector('.ears').style.transform = `scaleY(${m > 0 ? eb(m).toFixed(3) : 0})`;
-  likeEl.querySelector('.face').style.opacity = C((a - 1.25) / .2).toFixed(3);
-  likeEl.querySelector('.hy').style.opacity = m.toFixed(3);
-  const bb = C((a - .15) / .3);
-  likeB.style.opacity = (C(bb * 3) * fade).toFixed(3);
-  likeB.style.transform = `scale(${(.4 + .6 * eb(bb)).toFixed(3)})`;
-  const n = C((a - 1.45) / .3);
-  likeN.style.opacity = (C(n * 3) * fade).toFixed(3);
-  likeN.style.transform = `translateY(${(-30 * eo(n)).toFixed(1)}px) scale(${(.5 + .5 * eb(n)).toFixed(3)}) rotate(-8deg)`;
+  const bb = C(a / .3), beat = Math.pow(Math.abs(Math.sin(a * Math.PI * 1.6)), 3);
+  likeB.style.opacity = C(bb * 3).toFixed(3);
+  likeB.style.transform = `translateY(${(Math.sin(a * 4) * 4).toFixed(1)}px) scale(${(.4 + .6 * eb(bb)).toFixed(3)})`;
+  likeH.style.opacity = C(a / .2).toFixed(3);
+  likeH.style.transform = `scale(${((.6 + .4 * eb(a / .3)) * (1 + .16 * beat)).toFixed(3)})`;
 }
 
 const TR = .24;   // whoosh transition length
@@ -755,40 +741,32 @@ def _prop(it: dict, d: dict) -> tuple[int, int, str]:
     return 700, 640, '<div class="tri"></div><div class="tri2"></div><div class="ex" style="font-size:330px">!</div>'
 
 
-def like_timing(segments, times, cfg) -> dict | None:
-    """When and where the like nudge plays: on the sentence marked "like": true (the reveal teaser,
-    ~60-75% in - @이비온 puts its one CTA there), else on the sentence ~60% in. Never on the
-    post card or the last sentence, and it must finish before the video does."""
-    if not cfg or not cfg.get("enabled", True) or len(times) < 4:
+def like_timing(segments, times, cfg, egg=None) -> dict | None:
+    """The like easter egg plays from the last sentence to the end (the payoff, then the loop) - and
+    only when the script names a topic YouTube animates on Shorts (config like_cta.eggs)."""
+    if not cfg or not cfg.get("enabled", True) or not times or egg not in EGGS or egg not in (cfg.get("eggs") or []):
         return None
-    idx = next((i for i, s in enumerate(segments) if s.get("like")), None)
-    if idx is None or not 1 <= idx < len(times) - 1:
-        idx = min(len(times) - 2, max(2, round(len(times) * 0.6)))
-    t0 = times[idx][0] - LEAD + 0.1
-    dur = min(float(cfg.get("seconds", 2.8)), times[-1][1] - t0 - 0.3)
-    if dur < 1.8:
-        return None
-    return {"t0": round(t0, 3), "dur": round(dur, 3), "seg": idx,
-            "x": int(cfg.get("x", 975)), "y": int(cfg.get("y", 1150)), "size": int(cfg.get("size", 190))}
+    return {"t0": round(times[-1][0] - LEAD + 0.15, 3), "egg": egg,
+            "x": int(cfg.get("x", 975)), "y": int(cfg.get("y", 1150)), "size": int(cfg.get("size", 120))}
 
 
 def _like_html(L: dict | None) -> str:
     if not L:
         return ""
     x, y, s = L["x"], L["y"], L["size"]
-    h = int(s * 112 / 116)
-    bw = 430   # bubble above-left, its tail pointing down at the heart
-    return (f'<div id="like" style="left:{x - s // 2}px;top:{y - h // 2}px;width:{s}px;height:{h}px">{cat_svg("cat", True)}</div>'
-            f'<div id="likeb" style="left:{min(x - 60, W - 20) - bw}px;top:{y - h // 2 - 190}px;width:{bw}px">'
-            f'좋아요 누르면<br><b>냥이로 변신!</b></div>'
-            f'<div id="likenya" style="left:{x - 55}px;top:{y - h // 2 - 105}px">냥!</div>')   # above the ears, clear of the caption
+    emoji, text = EGGS[L["egg"]]
+    heart = f'<svg viewBox="0 0 100 96"><path d="{HEART_PATH}" fill="#fff" fill-opacity=".25" stroke="#fff" stroke-width="9"/></svg>'
+    return (f'<div id="likeh" style="left:{x - s // 2}px;top:{y - s // 2}px;width:{s}px;height:{s}px">{heart}</div>'
+            f'<div id="likeb" style="right:{max(16, W - x - 70)}px;top:{y - s // 2 - 205}px">'
+            f'좋아요 누르면<br><span class="em">{emoji}</span> <b>{esc(text)}</b></div>')
 
 
 def build(segments, visuals, times, cues, title, credit, picker, font_path, clips=None,
-          like=None, episode=None) -> tuple[str, list]:
+          like=None, episode=None, egg=None) -> tuple[str, list]:
     """segments: [{sfx}], visuals: [{bg, items}], times: [(start, end)],
     clips: per scene None or {dir, n} from stock.clip_frames (background footage),
-    like: config like_cta (position of the app's like button) or None, episode: number on the post card."""
+    like: config like_cta (position of the app's like button) or None, episode: number on the post card,
+    egg: the script's like_egg topic (dog/cat) - the end bubble says what the like button turns into."""
     scenes_html, scenes_data = [], []
     clips = clips or [None] * len(segments)
     last_place = None
@@ -923,7 +901,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
     t1, t2 = title
     cap_font = Path(font_path).with_name("DoHyeon-Regular.ttf")
     css = CSS.replace("CAPFONT", file_url(cap_font if cap_font.exists() else font_path)).replace("FONT", file_url(font_path))
-    like_at = like_timing(segments, times, like)
+    like_at = like_timing(segments, times, like, egg)
     payload = {"scenes": scenes_data, "caps": cues, "lead": LEAD, "fps": FPS, "like": like_at}
     html = (f'<!doctype html><html lang="ko"><head><meta charset="utf-8"><style>{css}</style></head><body>'
             f'<div id="title" style="font-size:{title_size([t1, t2])}px"><div>{esc(t1)}</div><div class="t2">{esc(t2)}</div></div>'

@@ -286,6 +286,13 @@ def service_number_problems(script: dict) -> list[str]:
     return p
 
 
+# YouTube's topic like animations confirmed on the Shorts heart button (2026): dog -> paw, cat -> cat.
+# learning/cooking/travel/horror/car exist on long videos only (2025-10) - add them here and to
+# config like_cta.eggs after checking a Short on a phone.
+EGGS_ON = {"dog", "cat"}
+EGG_WORDS = {"dog": r"강아지|반려견|댕댕|애견|견주|유기견|진돗개|푸들|리트리버|시바견|(?<![가-힣])개(가|를|는|한테|에게|의|랑|와) ",
+             "cat": r"고양이|냥이|길냥|반려묘|유기묘"}
+
 NEWSY = re.compile(r"논란|발언|입장|제동|의혹|촉구|비판|공방|파문|일파만파")
 POLITICS = re.compile(r"대통령|국회|의원|장관|여당|야당|민주당|국민의힘|대법원장|헌재소장|총리|선거|탄핵|대선|총선|국감|국정감사")
 
@@ -425,12 +432,16 @@ def lint(script: dict) -> list[str]:
     if story_digits and not re.search(r"\d|하루|이틀|사흘|나흘|열흘|[한두세네] ?(번|명|살|장|개|달|시간|마리)", head):
         p.append("the story has a number but the title/card has none - put the most striking number in "
                  "title_lines or the card title (titles with a number kept 61% vs 55% of viewers)")
-    likes = [i for i, s in enumerate(segs) if s.get("like")]
-    if len(likes) != 1:
-        p.append(f"{len(likes)} sentences with like: true - mark exactly one, the reveal teaser (~60-75% in), "
-                 "where the like nudge (heart -> 가챠냥) plays")
-    elif not 2 <= likes[0] <= len(segs) - 2:
-        p.append("like: true belongs on the reveal teaser in the second half, not the title, hook or last sentence")
+    # like easter egg (2026-10-17): YouTube turns the like button into a topic icon on matching videos.
+    # The end bubble "좋아요 누르면 🐾 발바닥으로 변해요~" must be true: only topics seen on Shorts, and
+    # only when the story is really about that animal (YouTube classifies the video, not us).
+    egg = script.get("like_egg")
+    if egg is not None:
+        if egg not in EGGS_ON:
+            p.append(f"like_egg {egg!r} - only {sorted(EGGS_ON)} are confirmed on Shorts; leave it out otherwise")
+        elif not re.search(EGG_WORDS[egg], " ".join([script.get("youtube", {}).get("title", "")] + [s.get("text", "") for s in segs])):
+            p.append(f"like_egg {egg!r} but the story never names it ({EGG_WORDS[egg]}) - YouTube would not see a "
+                     f"{egg} video, so the bubble would lie; drop like_egg")
     brief = str(script.get("brief", ""))
     if "이해검사:" not in brief:
         p.append("brief has no '이해검사:' line - write who / what / how it ended in one sentence using only the script's words")
