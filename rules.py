@@ -286,7 +286,7 @@ def service_number_problems(script: dict) -> list[str]:
     return p
 
 
-# YouTube's topic like animations: dog -> paw seen on our own Short (2026-10-17); the rest as reported for
+# YouTube's topic like animations: dog/cat/car checked on Shorts by the user (2026-10-17); the rest as reported for
 # long videos (2025-10) and used on Shorts too (사용자 2026-10-17: "보도 기준으로 적용"). A topic that turns
 # out not to change on our videos comes out of here and config like_cta.eggs.
 EGG_WORDS = {"dog": r"강아지|반려견|댕댕|애견|견주|유기견|진돗개|푸들|리트리버|시바견|(?<![가-힣])개(가|를|는|한테|에게|의|랑|와) ",

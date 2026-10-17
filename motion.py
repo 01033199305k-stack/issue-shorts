@@ -350,7 +350,7 @@ def cat_svg(cls: str = "cat") -> str:
 # The video only says so: the renderer appends this line as the last sentence when the script sets
 # "like_egg" and config like_cta.eggs allows it (사용자: "읽어 주는 게 더 좋지 않나").
 # Shapes as reported for the 2025-10 long-video set (Android Police, 9to5Google, GadgetBond - "보도 기준",
-# 사용자 2026-10-17); dog is the only one checked on our own Short so far.
+# 사용자 2026-10-17); dog, cat and car checked on Shorts by the user (2026-10-17).
 EGGS = {
     "dog": {"shape": "강아지 발바닥", "icon": "🐾"},
     "cat": {"shape": "고양이", "icon": "🐱"},

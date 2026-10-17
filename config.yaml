@@ -28,7 +28,7 @@ caption_lines: 2
 # 좋아요 이스터에그 (2026-10-17 사용자): 유튜브는 영상 주제를 자동 분류해 좋아요 버튼을 주제 아이콘으로 바꾼다.
 # 대본의 like_egg 가 eggs 에 있으면 렌더러가 마지막에 한 문장을 붙여 읽는다:
 # "좋아요 누르면 좋아요가 강아지 발바닥으로 변해요~" (자막 분홍 + 하트→발바닥 그림, motion.EGGS / egg_segment).
-# eggs 는 보도된 주제 전부(2026-10-17 사용자: "보도 기준으로 적용"). dog 는 우리 10/10 개 간식 편에서 발바닥 변신 확인(사용자 폰).
+# eggs 는 보도된 주제 전부(2026-10-17 사용자: "보도 기준으로 적용"). dog·cat·car 는 쇼츠에서 변신 확인(사용자 폰, dog 는 우리 10/10 개 간식 편).
 # 우리 영상에서 안 변하는 게 확인된 주제는 여기서 빼면 그 뒤로 안 붙는다.
 like_cta: {enabled: true, eggs: [dog, cat, food, car, learning, music, travel, comedy, horror, soccer, baseball, basketball]}
 
