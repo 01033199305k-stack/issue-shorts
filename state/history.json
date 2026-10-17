@@ -2868,5 +2868,55 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-17_1800_benz-bumper-engine-repair-estimate/video.mp4"
   },
   "seconds": 1180
+ },
+ {
+  "key": "2026-10-18-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-18T07:00:00+09:00",
+  "started": "2026-10-18T04:15:53.736048+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-18089/",
+   "https://pixabay.com/videos/id-173103/",
+   "https://pixabay.com/videos/id-163382/"
+  ],
+  "duration": 31.3,
+  "matches": [
+   0.93,
+   0.95,
+   0.99,
+   0.99,
+   0.97,
+   0.99,
+   0.9,
+   0.97,
+   0.95,
+   0.95,
+   0.99
+  ],
+  "sfx": 9,
+  "illustrations": 9,
+  "cuts": 11,
+  "title": "떡볶이 거의 다 먹고 머리카락 나왔다던 손님, CCTV에 찍힌 장면 #shorts",
+  "source_post": "https://www.fnnews.com/news/202609151409437046",
+  "facts_used": [
+   "서울 전통시장 분식집, 여성 손님이 떡볶이를 거의 다 먹고(떡 3~4개만 남김) 머리카락이 나왔다며 환불 요구, 환불액 5000원 — 파이낸셜뉴스 2026-09-15 https://www.fnnews.com/news/202609151409437046 , 헤럴드경제 https://biz.heraldcorp.com/article/10873999 , 인사이트 https://www.insight.co.kr/news/573615",
+   "환불 뒤에도 계속 짜증 내는 모습이 이상해 사장이 CCTV 확인 — 헤럴드경제 https://biz.heraldcorp.com/article/10873999 , 미디어데일 https://www.mediadale.com/news/articleView.html?idxno=289692",
+   "CCTV: 식사 도중 반으로 접힌 휴지를 꺼내 펼침, 내용물이 떨어지자 바닥을 봄, 자기 머리카락을 뜯어 그릇에 넣음 — 파이낸셜뉴스, 인사이트, 헤럴드경제 (JTBC 사건반장 보도 인용)",
+   "박지훈 변호사 '거의 다 먹고 자기 머리카락을 떨어뜨린 건 업무방해죄' — 헤럴드경제, 미디어데일"
+  ],
+  "slug": "2026-10-18_0700_tteokbokki-hair-refund-cctv",
+  "late": false,
+  "video_id": "ap4tR3qPTh8",
+  "url": "https://youtube.com/shorts/ap4tR3qPTh8",
+  "privacy": "private",
+  "scheduled_for": "2026-10-17T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad3ce330b0d72757af08390",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-17T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-18_0700_tteokbokki-hair-refund-cctv/video.mp4"
+  },
+  "seconds": 1228
  }
 ]
