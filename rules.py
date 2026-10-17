@@ -267,6 +267,25 @@ def _shown_strings(script: dict):
     yield "youtube.tags", " ".join(yt.get("tags", []))
 
 
+# Emergency / service numbers are read digit by digit: 112 = 일일이, 119 = 일일구, 1330 = 일삼삼공
+# (2026-10-17 사용자: "112면 백십이가 아니라 일일이"). A counter after the number makes it a quantity
+# ("119명" = 백십구 명), so only bare numbers count.
+SERVICE_NUM = re.compile(r"(?<![\d,.])(112|119|114|120|182|117|110|1330|1345|1366|1388|1577|1588|1644|1661|1899|911|999)(?![\d,.])"
+                         r"(?!\s?(명|m|미터|원|개|년|kg|킬로|살|층|대|곳|건|%|퍼센트|일|시|분|초|마리|장|배|km|cm|만|억|천|번째|호|위))")
+DIGIT_KO = dict(zip("0123456789", ["공", "일", "이", "삼", "사", "오", "육", "칠", "팔", "구"]))
+
+
+def service_number_problems(script: dict) -> list[str]:
+    p = []
+    for i, s in enumerate(script.get("segments", [])):
+        for m in SERVICE_NUM.finditer(s.get("text", "")):
+            spoken = "".join(DIGIT_KO[c] for c in m.group(1))
+            if spoken not in re.sub(r"\s", "", s.get("say", "")):
+                p.append(f"segment {i}: {m.group(1)} is a service number - say it digit by digit {spoken!r} "
+                         f"(not 백십이 style), e.g. say \"{spoken}에 신고함\"")
+    return p
+
+
 NEWSY = re.compile(r"논란|발언|입장|제동|의혹|촉구|비판|공방|파문|일파만파")
 POLITICS = re.compile(r"대통령|국회|의원|장관|여당|야당|민주당|국민의힘|대법원장|헌재소장|총리|선거|탄핵|대선|총선|국감|국정감사")
 
@@ -276,7 +295,7 @@ def lint(script: dict) -> list[str]:
     written still renders): no hanja anywhere a viewer reads, and a varied set of pictures."""
     if script.get("skip"):
         return []
-    p = []
+    p = service_number_problems(script)
     for where, text in _shown_strings(script):
         if (m := HANJA.search(text)):
             p.append(f"{where}: hanja {m.group(0)!r} - write it in hangul (李 -> 이재명 대통령/이 대통령, 美 -> 미국)")
