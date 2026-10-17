@@ -381,8 +381,9 @@ def egg_parts(egg) -> tuple[str | None, list]:
 def egg_segment(egg: str, q: list | None = None) -> dict:
     """The spoken easter-egg line over a big drawing of the thing, heart -> icon along the top."""
     e = EGGS[egg]
-    say = f"좋아요 누르면 좋아요가 {e['shape']}{'으로' if (ord(e['shape'][-1]) - 0xAC00) % 28 not in (0, 8) else '로'} 변해요"
-    return {"text": say + "~", "say": say, "sfx": "whoosh", "cap": "sweet",
+    # "지금": the button only turns while the drawing is on screen (사용자: "누르는 타이밍도 알려줘야")
+    say = f"지금 좋아요 누르면 좋아요가 {e['shape']}{'으로' if (ord(e['shape'][-1]) - 0xAC00) % 28 not in (0, 8) else '로'} 변해요"
+    return {"text": say + "~", "say": say, "sfx": "whoosh", "cap": "sweet", "hold": 2.0,
             "tone": "친구한테 비밀 알려 주듯 신나게, 끝을 살짝 올려서",
             "visual": {"bg": "white", "items": [
                 {"type": "illust", "q": list(q or []) + e["q"], "pos": "center", "size": "xl", "at": 0.0, "fx": "pop"},

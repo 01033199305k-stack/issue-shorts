@@ -30,9 +30,10 @@ VOICE_CHAIN = ("highpass=f=75,equalizer=f=250:t=q:w=1:g=-1.5,equalizer=f=3500:t=
 
 
 def gap_after(i: int, segments: list) -> float:
-    """Extra silence after sentence i: a beat after the title card, a short one before a turn."""
+    """Extra silence after sentence i: a beat after the title card, a short one before a turn,
+    and the last sentence's own hold (the like line)."""
     if i >= len(segments) - 1:
-        return 0.0
+        return float(segments[i].get("hold", 0.0))   # the like line keeps its drawing up while viewers press
     if i == 0:
         return 0.16
     return 0.1 if segments[i + 1].get("text", "").startswith(TURN) else 0.0
