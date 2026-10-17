@@ -64,10 +64,10 @@ def voice_instruct(base: str, tone: str | None, persona: str = "") -> str:
 def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) -> dict:
     work_dir.mkdir(parents=True, exist_ok=True)
     segments = list(script["segments"])
-    egg = script.get("like_egg")
+    egg, egg_q = motion.egg_parts(script.get("like_egg"))
     like = cfg.get("like_cta") or {}
     if egg in motion.EGGS and like.get("enabled", True) and egg in (like.get("eggs") or []):
-        segments.append(motion.egg_segment(egg))   # spoken "좋아요 누르면 좋아요가 … 변해요~" last line
+        segments.append(motion.egg_segment(egg, egg_q))   # spoken "좋아요 누르면 좋아요가 … 변해요~" over its drawing
 
     wavs, results = [], []
     for i, seg in enumerate(segments):

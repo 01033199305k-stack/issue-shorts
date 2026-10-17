@@ -442,16 +442,17 @@ def lint(script: dict) -> list[str]:
     if story_digits and not re.search(r"\d|하루|이틀|사흘|나흘|열흘|[한두세네] ?(번|명|살|장|개|달|시간|마리)", head):
         p.append("the story has a number but the title/card has none - put the most striking number in "
                  "title_lines or the card title (titles with a number kept 61% vs 55% of viewers)")
-    # like easter egg (2026-10-17): YouTube turns the like button into a topic icon on matching videos.
-    # The end line "좋아요 누르면 좋아요가 강아지 발바닥으로 변해요~" must be true: only reported topics, and
-    # only when the story is really about that animal (YouTube classifies the video, not us).
+    # like easter egg (2026-10-17): the like button turns into a topic icon when that thing is ON SCREEN as it
+    # is pressed (사용자 test on the 10/10 dog short). The renderer draws the thing big under the last line; the
+    # thing must come from the story (사용자: "보도에 있는 것 중에 하나 골라서"), so the line is never a bluff.
     egg = script.get("like_egg")
     if egg is not None:
-        if egg not in EGGS_ON:
+        topic = egg.get("topic") if isinstance(egg, dict) else egg
+        if topic not in EGGS_ON:
             p.append(f"like_egg {egg!r} - only {sorted(EGGS_ON)} are reported to change the button; leave it out otherwise")
-        elif not re.search(EGG_WORDS[egg], " ".join([script.get("youtube", {}).get("title", "")] + [s.get("text", "") for s in segs])):
-            p.append(f"like_egg {egg!r} but the story never names it ({EGG_WORDS[egg]}) - YouTube would not see a "
-                     f"{egg} video, so the line would lie; drop like_egg")
+        elif not re.search(EGG_WORDS[topic], " ".join([script.get("youtube", {}).get("title", "")] + [s.get("text", "") for s in segs])):
+            p.append(f"like_egg {topic!r} but the story never names it ({EGG_WORDS[topic]}) - pick a thing that is in "
+                     "the story, or drop like_egg")
     brief = str(script.get("brief", ""))
     if "이해검사:" not in brief:
         p.append("brief has no '이해검사:' line - write who / what / how it ended in one sentence using only the script's words")

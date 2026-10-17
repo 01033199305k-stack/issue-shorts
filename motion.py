@@ -351,32 +351,44 @@ def cat_svg(cls: str = "cat") -> str:
 # "like_egg" and config like_cta.eggs allows it (사용자: "읽어 주는 게 더 좋지 않나").
 # Shapes as reported for the 2025-10 long-video set (Android Police, 9to5Google, GadgetBond - "보도 기준",
 # 사용자 2026-10-17); dog, cat and car checked on Shorts by the user (2026-10-17).
+# The button follows what is ON SCREEN when it is pressed, not the whole video (사용자 2026-10-17, 10/10 dog
+# short: heart over the court scene stayed a heart, over the dog drawing it became a paw). So the last line
+# shows a big いらすとや drawing of the thing ("q") the whole time it is spoken.
 EGGS = {
-    "dog": {"shape": "강아지 발바닥", "icon": "🐾"},
-    "cat": {"shape": "고양이", "icon": "🐱"},
-    "food": {"shape": "포크랑 숟가락", "icon": "🥄"},
-    "car": {"shape": "연기 나는 타이어", "icon": "🛞"},
-    "learning": {"shape": "반짝이는 전구", "icon": "💡"},
-    "music": {"shape": "춤추는 음표", "icon": "🎵"},
-    "travel": {"shape": "비행기", "icon": "✈️"},
-    "comedy": {"shape": "웃는 얼굴", "icon": "😂"},
-    "horror": {"shape": "놀란 얼굴", "icon": "😱"},
-    "soccer": {"shape": "축구공", "icon": "⚽"},
-    "baseball": {"shape": "야구공", "icon": "⚾"},
-    "basketball": {"shape": "농구공", "icon": "🏀"},
+    "dog": {"shape": "강아지 발바닥", "icon": "🐾", "q": ["犬", "子犬"]},
+    "cat": {"shape": "고양이", "icon": "🐱", "q": ["三毛猫", "猫の親子"]},
+    "food": {"shape": "포크랑 숟가락", "icon": "🥄", "q": ["オムライス", "ハンバーグ", "ラーメン"]},
+    "car": {"shape": "연기 나는 타이어", "icon": "🛞", "q": ["乗用車", "軽自動車"]},
+    "learning": {"shape": "반짝이는 전구", "icon": "💡", "q": ["英語を勉強する女の子", "教科書を一緒に読む学生"]},
+    "music": {"shape": "춤추는 음표", "icon": "🎵", "q": ["アコースティックギター", "エレキギター"]},
+    "travel": {"shape": "비행기", "icon": "✈️", "q": ["着陸した飛行機", "飛行機のキャラクター"]},
+    "comedy": {"shape": "웃는 얼굴", "icon": "😂", "q": ["漫才", "お笑い芸人"]},
+    "horror": {"shape": "놀란 얼굴", "icon": "😱", "q": ["ハロウィンのイラスト「おばけ」", "おばけの仮装"]},
+    "soccer": {"shape": "축구공", "icon": "⚽", "q": ["サッカーボール", "サッカー"]},
+    "baseball": {"shape": "야구공", "icon": "⚾", "q": ["ボール 野球 グローブ", "ボール 野球"]},
+    "basketball": {"shape": "농구공", "icon": "🏀", "q": ["バスケットボールのイラスト", "バスケットボール"]},
 }
 
 
-def egg_segment(egg: str) -> dict:
-    """The spoken easter-egg line with its picture: a heart, an arrow, the icon it turns into."""
+def egg_parts(egg) -> tuple[str | None, list]:
+    """like_egg is "dog" or {"topic": "food", "q": ["フライドチキン"]} (the story's own thing)."""
+    if isinstance(egg, dict):
+        q = egg.get("q") or []
+        return egg.get("topic"), ([q] if isinstance(q, str) else list(q))
+    return egg, []
+
+
+def egg_segment(egg: str, q: list | None = None) -> dict:
+    """The spoken easter-egg line over a big drawing of the thing, heart -> icon along the top."""
     e = EGGS[egg]
     say = f"좋아요 누르면 좋아요가 {e['shape']}{'으로' if (ord(e['shape'][-1]) - 0xAC00) % 28 not in (0, 8) else '로'} 변해요"
     return {"text": say + "~", "say": say, "sfx": "whoosh", "cap": "sweet",
             "tone": "친구한테 비밀 알려 주듯 신나게, 끝을 살짝 올려서",
             "visual": {"bg": "white", "items": [
-                {"type": "emoji", "text": "❤️", "pos": "left", "size": "m", "dx": -50, "at": 0.0, "fx": "pop", "fixed": True},
-                {"type": "emoji", "text": "➡️", "pos": "center", "size": "s", "at": 0.3, "fx": "slide-left", "fixed": True},
-                {"type": "emoji", "text": e["icon"], "pos": "right", "size": "m", "dx": 50, "at": 0.5, "fx": "sparkle", "fixed": True}]}}
+                {"type": "illust", "q": list(q or []) + e["q"], "pos": "center", "size": "xl", "at": 0.0, "fx": "pop"},
+                {"type": "emoji", "text": "❤️", "pos": "top-left", "size": "s", "at": 0.0, "fx": "pop", "fixed": True},
+                {"type": "emoji", "text": "➡️", "pos": "top", "size": "s", "at": 0.3, "fx": "slide-left", "fixed": True},
+                {"type": "emoji", "text": e["icon"], "pos": "top-right", "size": "s", "at": 0.5, "fx": "sparkle", "fixed": True}]}}
 
 
 JS = r"""
