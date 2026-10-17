@@ -1,13 +1,43 @@
 {
- "detected_at": "2026-10-17T07:03+09:00",
+ "detected_at": "2026-10-17T09:17+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] '한동훈 딸 의혹' 사건 서울청 이관 \"면밀히 검토 후 사건 배당\"",
-   "url": "https://n.news.naver.com/article/002/0002461313",
-   "press": "프레시안",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "화재 현장 달려온 추미애, \"재정 빨대\" 묻자 '손사래'…민주당, 대리 사과",
+   "url": "https://n.news.naver.com/article/448/0000645344",
+   "press": "TV조선",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "세계일보",
+     "title": "“소방, 재정 빨대” 실언에 궁지 몰린 추미애…민주당이 대신 사과 [어떻게 생각하십니까]",
+     "url": "https://n.news.naver.com/article/022/0004167329"
+    },
+    {
+     "press": "KBS",
+     "title": "추미애에 등 돌린 소방관…‘재정 빨대’ 발언 후폭풍",
+     "url": "https://n.news.naver.com/article/056/0012275328"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "한동훈 “브라질 계란 수입, 이 대통령이 룰라에 준 선물”…외교부 “사실 아냐”",
+   "url": "https://n.news.naver.com/article/028/0002827857",
+   "press": "한겨레",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "오마이뉴스",
+     "title": "윤석열 때도 계란 수입했는데... 한동훈의 '브라질 선물' 공세",
+     "url": "https://n.news.naver.com/article/047/0002532483"
+    },
+    {
+     "press": "대전일보",
+     "title": "한동훈 \"브라질 계란 수입 '선물' 의심\"… 외교부 즉각 반박",
+     "url": "https://n.news.naver.com/article/656/0000189731"
+    }
+   ]
   }
  ]
 }
