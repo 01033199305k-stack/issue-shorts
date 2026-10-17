@@ -1,41 +1,139 @@
 {
- "detected_at": "2026-10-17T09:17+09:00",
+ "detected_at": "2026-10-17T13:59+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "화재 현장 달려온 추미애, \"재정 빨대\" 묻자 '손사래'…민주당, 대리 사과",
-   "url": "https://n.news.naver.com/article/448/0000645344",
-   "press": "TV조선",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "추미애 \"순직 소방관 마지막 길, 한 치의 소홀함 없이 예우해야\"",
+   "url": "https://n.news.naver.com/article/437/0000516173",
+   "press": "JTBC",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "세계일보",
-     "title": "“소방, 재정 빨대” 실언에 궁지 몰린 추미애…민주당이 대신 사과 [어떻게 생각하십니까]",
-     "url": "https://n.news.naver.com/article/022/0004167329"
+     "press": "MBC",
+     "title": "추미애, 부천 소방관 순직에 \"용기와 헌신 결코 잊지 않겠다\"",
+     "url": "https://n.news.naver.com/article/214/0001529664"
     },
     {
-     "press": "KBS",
-     "title": "추미애에 등 돌린 소방관…‘재정 빨대’ 발언 후폭풍",
-     "url": "https://n.news.naver.com/article/056/0012275328"
+     "press": "조선비즈",
+     "title": "추미애 “순직 소방관 애도… 마지막 길 소홀함 없도록 예우” 당부",
+     "url": "https://n.news.naver.com/article/366/0001198547"
+    },
+    {
+     "press": "한국경제",
+     "title": "[속보] 추미애, 부천 화재 순직 소방관 애도…\"헌신 잊지 않겠다\"",
+     "url": "https://n.news.naver.com/article/015/0005343542"
+    },
+    {
+     "press": "국민일보",
+     "title": "소방관 순직에 커진 분노…추미애 ‘재정 빨대’ 논란 확산",
+     "url": "https://n.news.naver.com/article/005/0001879216"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "한동훈 “브라질 계란 수입, 이 대통령이 룰라에 준 선물”…외교부 “사실 아냐”",
-   "url": "https://n.news.naver.com/article/028/0002827857",
-   "press": "한겨레",
+   "title": "추미애 “고(故) 김진석 소방위 마지막 가는 길, 정성을 다해 예우” 당부",
+   "url": "https://n.news.naver.com/article/081/0003689834",
+   "press": "서울신문",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "오마이뉴스",
-     "title": "윤석열 때도 계란 수입했는데... 한동훈의 '브라질 선물' 공세",
-     "url": "https://n.news.naver.com/article/047/0002532483"
+     "press": "조선비즈",
+     "title": "추미애 “순직 소방관 애도… 마지막 길 소홀함 없도록 예우” 당부",
+     "url": "https://n.news.naver.com/article/366/0001198547"
     },
     {
-     "press": "대전일보",
-     "title": "한동훈 \"브라질 계란 수입 '선물' 의심\"… 외교부 즉각 반박",
-     "url": "https://n.news.naver.com/article/656/0000189731"
+     "press": "오마이뉴스",
+     "title": "추미애 \"소방관의 헌신 잊지 않겠다\"… 김진석 소방위 애도",
+     "url": "https://n.news.naver.com/article/047/0002532493"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "추미애 \"순직 소방관께 깊은 애도…용기와 헌신 잊지 않을 것\"(종합)",
+   "url": "https://n.news.naver.com/article/001/0016382604",
+   "press": "연합뉴스",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "MBC",
+     "title": "추미애, 부천 소방관 순직에 \"용기와 헌신 결코 잊지 않겠다\"",
+     "url": "https://n.news.naver.com/article/214/0001529664"
+    },
+    {
+     "press": "채널A",
+     "title": "추미애 “순직 소방관께 깊은 애도…근무 환경 살피겠다”",
+     "url": "https://n.news.naver.com/article/449/0000364372"
+    },
+    {
+     "press": "한국경제",
+     "title": "[속보] 추미애, 부천 화재 순직 소방관 애도…\"헌신 잊지 않겠다\"",
+     "url": "https://n.news.naver.com/article/015/0005343542"
+    },
+    {
+     "press": "오마이뉴스",
+     "title": "추미애 \"소방관의 헌신 잊지 않겠다\"… 김진석 소방위 애도",
+     "url": "https://n.news.naver.com/article/047/0002532493"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]“순직 소방관은 김진석 소방위”…내년 초교입학 딸 두고 떠나",
+   "url": "https://n.news.naver.com/article/016/0002710625",
+   "press": "헤럴드경제",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "오마이뉴스",
+     "title": "추미애 \"소방관의 헌신 잊지 않겠다\"… 김진석 소방위 애도",
+     "url": "https://n.news.naver.com/article/047/0002532493"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] “퇴근 20분 남기고 화마 속으로“…순직 소방관 유족, 구조 지연 의혹 제기",
+   "url": "https://n.news.naver.com/article/087/0001224279",
+   "press": "강원일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] “분명히, 확실히 진상 규명하라”…이태원참사 유족, 4주기 앞 ‘진상규명’ 촉구",
+   "url": "https://n.news.naver.com/article/029/0003053539",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "\"희생 잊지 않겠다\"...이 대통령, 부천 화재 순직 소방관 애도",
+   "url": "https://n.news.naver.com/article/660/0000119364",
+   "press": "kbc광주방송",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "MBC",
+     "title": "추미애, 부천 소방관 순직에 \"용기와 헌신 결코 잊지 않겠다\"",
+     "url": "https://n.news.naver.com/article/214/0001529664"
+    },
+    {
+     "press": "한국경제",
+     "title": "[속보] 추미애, 부천 화재 순직 소방관 애도…\"헌신 잊지 않겠다\"",
+     "url": "https://n.news.naver.com/article/015/0005343542"
+    },
+    {
+     "press": "YTN",
+     "title": "[속보] 이 대통령, '부천 화재' 소방관 순직에 \"헌신 깊이 새길 것\"",
+     "url": "https://n.news.naver.com/article/052/0002419962"
+    },
+    {
+     "press": "오마이뉴스",
+     "title": "추미애 \"소방관의 헌신 잊지 않겠다\"… 김진석 소방위 애도",
+     "url": "https://n.news.naver.com/article/047/0002532493"
     }
    ]
   }
