@@ -3015,5 +3015,54 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-18_1800_dog-stops-police-car-owner-garage/video.mp4"
   },
   "seconds": 1400
+ },
+ {
+  "key": "2026-10-19-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-19T07:00:00+09:00",
+  "started": "2026-10-19T04:16:47.077827+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-135669/",
+   "https://pixabay.com/videos/id-11621/"
+  ],
+  "duration": 25.35,
+  "matches": [
+   0.97,
+   0.91,
+   0.97,
+   0.94,
+   0.95,
+   0.96,
+   1.0,
+   0.95,
+   1.0,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 7,
+  "cuts": 10,
+  "title": "민속촌 귀신한테 편식 일러바친 부모가 유치원에서 받은 연락 #shorts",
+  "source_post": "https://www.bobaedream.co.kr/view?code=best&No=1040825",
+  "facts_used": [
+   "한국민속촌 가을 축제 '귀신사바 귀신놀이'(9월 12일~11월 15일)의 귀신 캐릭터 배우들 — 뉴시스(네이트 재게재) 2026-10-13 https://news.nate.com/view/20261013n00754 , 머니투데이 2026-10-13 https://www.mt.co.kr/index.php/amp/society/2026/10/13/2026101309284894997",
+   "부모가 아이의 편식·떼쓰기를 귀신에게 털어놓으면 귀신이 '엄마 말을 안 들으면 잡아가겠다'고 겁을 준 뒤 약속을 받아냄, 아이들 눈물('말 잘 들을게요') — 뉴시스 https://news.nate.com/view/20261013n00754 , 머니투데이 https://www.mt.co.kr/index.php/amp/society/2026/10/13/2026101309284894997 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008794100",
+   "맘카페 화제, 귀신 앞에 줄 선 부모들 — 네이트뉴스 2026-10-13 https://m.news.nate.com/view/20261013n36837",
+   "네 살 아이 부모: 다녀온 뒤 편식하지 않고 밥을 잘 먹게 됐고 유치원에서도 요즘 밥 잘 먹는다는 연락을 받음 — YTN 2026-10-13 https://www.ytn.co.kr/_ln/0545_202610131520021508 , 아시아경제 2026-10-13 https://view.asiae.co.kr/article/2026101308365573482 , 경향신문 https://www.khan.co.kr/article/202610031124001/",
+   "누리꾼 '엄마 말보다 귀신 말이 더 잘 통한다' / 트라우마 우려 — YTN, 아시아경제"
+  ],
+  "slug": "2026-10-19_0700_folk-village-ghost-picky-eater",
+  "late": false,
+  "video_id": "ro__SLF5_Ew",
+  "url": "https://youtube.com/shorts/ro__SLF5_Ew",
+  "privacy": "private",
+  "scheduled_for": "2026-10-18T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad520410a208cb3237bf9aa",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-18T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-19_0700_folk-village-ghost-picky-eater/video.mp4"
+  },
+  "seconds": 1316
  }
 ]
