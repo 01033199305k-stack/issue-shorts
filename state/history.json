@@ -2918,5 +2918,54 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-18_0700_tteokbokki-hair-refund-cctv/video.mp4"
   },
   "seconds": 1228
+ },
+ {
+  "key": "2026-10-18-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-18T12:00:00+09:00",
+  "started": "2026-10-18T09:15:23.227801+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-255761/",
+   "https://pixabay.com/videos/id-31967/"
+  ],
+  "duration": 31.84,
+  "matches": [
+   0.91,
+   0.96,
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   0.94,
+   0.93,
+   1.0,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 9,
+  "cuts": 10,
+  "title": "\"아시니까 빼 드릴게요\" 공항 택시가 6000원 깎아 준 이유 #shorts",
+  "source_post": "https://www.news1.kr/society/general-society/6321383",
+  "facts_used": [
+   "구독자 41만(일부 40만) 유튜버 '재호캉스'가 새벽 4시 넘어 인천공항에 도착해 김포시 운양동으로 택시 탐, 시외 할증이 붙음 — 뉴스1 https://www.news1.kr/society/general-society/6321383 , 머니투데이 2026-10-15 https://www.mt.co.kr/society/2026/10/15/2026101513565268565 , 아이뉴스24 https://inews24.com/view/2015644",
+   "할증이 원래 붙냐고 묻자 기사는 '김포랑 서울 갈 때 붙는다'고 답함 — 머니투데이, 뉴스1",
+   "유튜버가 AI 검색으로 확인하니 공동 사업구역으로 나옴. 인천공항과 김포 등은 택시 공동사업구역이라 시계외 할증 미적용 — 머니투데이, 뉴스1, 나무위키(할증) 참고",
+   "지적하자 기사가 '대부분 다 그냥 하는데. 아시니까'라며 '6000원 정도 더 나왔다', '6000원 빼 드리면 된다'고 하고 할증을 받지 않음 — 아이뉴스24 제목 '아시는 구나? 6000원 빼드릴게', 뉴스1 제목 '아시는구나, 돈 빼드릴게요', 머니투데이",
+   "JTBC '사건반장' 10월 14일 보도"
+  ],
+  "slug": "2026-10-18_1200_airport-taxi-surcharge-6000-won",
+  "late": false,
+  "video_id": "VniaPofGF9k",
+  "url": "https://youtube.com/shorts/VniaPofGF9k",
+  "privacy": "private",
+  "scheduled_for": "2026-10-18T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad414f2ae173d6e00dd17f3",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-18T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-18_1200_airport-taxi-surcharge-6000-won/video.mp4"
+  },
+  "seconds": 1368
  }
 ]
