@@ -1,0 +1,307 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "dog-stops-police-car-owner-garage",
+ "title_lines": [
+  "경찰차 막아선 개",
+  "50m 따라갔더니"
+ ],
+ "credit": "",
+ "like_egg": "dog",
+ "segments": [
+  {
+   "text": "목줄 찬 채 경찰차를 막아선 개",
+   "say": "목줄 찬 채 경찰차를 막아선 개",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "목줄 찬 채\n경찰차를 막아선 개",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "개 한 마리가 도로 한가운데서 순찰차를 보고 짖어 댐.",
+   "say": "개 한 마리가 도로 한가운데서 순찰차를 보고 짖어 댐.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "road",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 吠える",
+       "吠える 犬",
+       "犬"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "drop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "미국 캔자스 주택가를 순찰하던 경찰관 앞이었음.",
+   "say": "미국 캔자스 주택가를 순찰하던 경찰관 앞이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "tr": "whoosh",
+    "video": [
+     "suburban street houses",
+     "neighborhood houses street",
+     "residential street"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官",
+       "警察官 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏡",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 목줄은 찼는데 주인이 안 보였음.",
+   "say": "근데 목줄은 찼는데 주인이 안 보였음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 散歩",
+       "リード 犬",
+       "犬の散歩"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 개가 앞장서며 자꾸 돌아봐서 경찰관이 50m쯤 따라감.",
+   "say": "와, 개가 앞장서며 자꾸 돌아봐서 경찰관이 오십 미터쯤 따라감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "video": [
+     "police car driving",
+     "police car street",
+     "patrol car"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "振り返る 犬",
+       "犬 歩く",
+       "柴犬"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "slide-left"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "text": "그리고 차고 문 열린 집 앞에서 개가 딱 멈춤.",
+   "say": "그리고 차고 문 열린 집 앞에서 개가 딱 멈춤.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "warn"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "ガレージ",
+       "車庫",
+       "家"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "차고 바닥에 주인이 넘어져 못 일어나고 있었음.",
+   "say": "차고 바닥에 주인이 넘어져 못 일어나고 있었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "parking",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "転倒",
+       "転ぶ 人",
+       "倒れる 人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "3시간 넘게 쓰러져 있던 주인은 구조돼 회복 중임.",
+   "say": "세 시간 넘게 쓰러져 있던 주인은 구조돼 회복 중임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "video": [
+     "ambulance lights",
+     "ambulance street",
+     "emergency lights"
+    ],
+    "items": [
+     {
+      "type": "doc",
+      "title": "경찰 발표",
+      "lines": [
+       "차고 바닥에 쓰러져",
+       "3시간 넘게 방치",
+       "치료 후 집에서 회복 중"
+      ],
+      "mark": 1,
+      "at": 0.0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "救急車",
+       "救急隊員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "목줄 찬 채 경찰을 불러온 거임.",
+   "say": "목줄 찬 채 경찰을 불러온 거임.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "가슴이 찡해서 감탄하듯 힘 있게, 말끝은 분명하게",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犬 笑顔",
+       "犬 座る",
+       "犬"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "❤️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "목줄 찬 채 혼자 경찰차를 막아선 개가 경찰을 데려간 곳 #shorts",
+  "description": "미국 캔자스주 리우드의 주택가에서 목줄을 찬 개가 도로 한가운데서 순찰차를 막아섰음.\n경찰관이 개를 따라 반 블록(약 50m)을 가 보니, 차고 문이 열린 집 바닥에 주인이 넘어져 3시간 넘게 일어나지 못하고 있었음.\n주인은 치료를 받고 집에서 회복 중이라고 리우드 경찰이 밝혔음.\n\n※ AI 음성으로 제작했습니다.\n#반려견 #강아지 #충견 #경찰 #미국 #shorts",
+  "tags": [
+   "반려견",
+   "강아지",
+   "충견",
+   "경찰",
+   "보디캠",
+   "미국 캔자스",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.nocutnews.co.kr/news/6586688",
+ "facts_used": [
+  "미국 캔자스주 리우드 주택가를 순찰하던 경관이 목줄을 늘어뜨린 채 도로 중앙을 막아서며 짖는 개를 발견, 주인은 보이지 않음 — 노컷뉴스 https://www.nocutnews.co.kr/news/6586688 , 인사이트 https://www.insight.co.kr/news/576586 , Fox News https://www.foxnews.com/us/loyal-dog-fetches-police-help-owner-who-fell-kansas-home.amp",
+  "경관이 개를 집으로 쫓으려 했으나 개가 앞장서 걸으며 여러 차례 뒤를 돌아봄, 경관은 차로 반 블록(약 50m) 따라감 — 노컷뉴스, Fox 26 https://www.fox26houston.com/news/dog-hails-police-leads-them-home-find-owner-needing-help",
+  "차고 문이 열린 집에서 집주인이 바닥에 넘어져 일어나지 못한 채 3시간 넘게 있었음, 의료진 치료 후 집에서 회복 중 — 리우드 경찰 발표(Fox News, Fox 26), 노컷뉴스, 인사이트"
+ ],
+ "brief": "점수표: 이게됨4+궁금증4+감정4×2+대상5+판정1=22/30 (비교: 셀린느 파리 매장 털림 감정2 탈락 / 7살 패스트패스 칼럼 숨긴 답 없음 탈락 / 노원 미사일 조형물 보도 확인 안 됨 / A20 임금체불 장례비 실명 고발성·확인 부족 / 반품 배송비 커뮤니티 글뿐). 해외: 오늘 07·12시가 국내라 하루 1편 이내. 첫장면: 의외. 훅 3안: ①개 한 마리가 도로 한가운데서 순찰차를 보고 짖어 댐 ②순찰차 앞에 목줄 찬 개가 혼자 서 있었음 ③경찰관이 개한테 길을 막힘 → ①이 행동이 가장 구체적이라 채택. 제목줄은 숫자 50m 넣음, 유튜브 제목은 '~한 이유'를 피한 장소형(12시가 '~한 이유'). 이해검사: 미국 캔자스에서 목줄 찬 개가 순찰차를 막고 경찰관을 집으로 데려갔고, 차고에 3시간 넘게 쓰러져 있던 주인이 구조돼 회복 중이다. 증거: 경찰 발표 문서(차고 바닥·3시간 넘게·회복 중 — Fox News·Fox 26·노컷뉴스). 그림대조: 완료 (주인 성별·나이 미보도라 성별 없는 넘어지는 사람 그림, 해외라 한국 풍경 bg 안 씀). like_egg: dog. 주의: 개가 '신고하려 했다'는 건 해석이라 대본에선 '앞장서며 자꾸 돌아봐서'처럼 보도된 행동만 씀, 마지막 리액션은 내레이터 감상. 경관 첫 반응은 매체마다 조금 다름(Fox 26: 집으로 쫓으려 함). 출처: 노컷뉴스 2026-10-03, 인사이트, Fox News 2026-10-01, Fox 26, 리우드 경찰 페이스북 9/30."
+}
