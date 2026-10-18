@@ -1,32 +1,22 @@
 {
- "detected_at": "2026-10-17T18:16+09:00",
+ "detected_at": "2026-10-18T09:10+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "추미애 “사과 바라시니 마음 다해 사과…폄훼 의도 아니었다”",
-   "url": "https://n.news.naver.com/article/020/0003755676",
-   "press": "동아일보",
-   "why": "언론사 10곳이 댓글 많은 기사 1위로",
+   "title": "李대통령, 순직 故김진석 소방위 빈소 찾아 \"님의 희생, 영원히 기억할 것\"",
+   "url": "https://n.news.naver.com/article/002/0002461448",
+   "press": "프레시안",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "중앙일보",
-     "title": "추미애 “사과를 바라시니까…” 빈소서 ‘재정 빨대’ 발언 사과",
-     "url": "https://n.news.naver.com/article/025/0003558562"
+     "press": "MBN",
+     "title": "이 대통령, 부천 화재 소방관 순직에 \"희생 영원히 기억할 것\"…빈소 조문해 위로",
+     "url": "https://n.news.naver.com/article/057/0001973962"
     },
     {
-     "press": "JTBC",
-     "title": "추미애, 순직 소방관 빈소서 '재정 빨대' 발언 사과…\"마음 다해 사과드려\"",
-     "url": "https://n.news.naver.com/article/437/0000516194"
-    },
-    {
-     "press": "이데일리",
-     "title": "추미애 \"발언 실수 인정, 마음 다해 사과\"..순직 소방관 빈소 조문",
-     "url": "https://n.news.naver.com/article/018/0006390169"
-    },
-    {
-     "press": "CJB청주방송",
-     "title": "추미애, 결국 '소방 재정 빨대 발언' 공식 사과…\"폄훼 의도 없었다\"",
-     "url": "https://n.news.naver.com/article/655/0000033204"
+     "press": "강원도민일보",
+     "title": "[속보] 이 대통령, 부천 화재 순직 김진석 소방위 빈소 찾아 조문",
+     "url": "https://n.news.naver.com/article/654/0000205878"
     }
    ]
   }
