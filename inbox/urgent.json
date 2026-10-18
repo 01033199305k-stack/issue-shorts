@@ -1,30 +1,98 @@
 {
- "detected_at": "2026-10-18T15:10+09:00",
+ "detected_at": "2026-10-18T18:03+09:00",
  "candidates": [
   {
-   "kind": "news",
-   "title": "[속보] ‘보수 대권’ 국힘서 한동훈 27.1% 장동혁 24.6% 오세훈 20.2%…韓, TK·PK 선두로",
-   "url": "https://n.news.naver.com/article/029/0003053655",
-   "press": "디지털타임스",
-   "why": "[속보] 기사",
-   "related": []
+   "kind": "community",
+   "title": "[이갤] [속보] 정부, 임금체계 개편 추진…'동일가치노동 동일임금' 법제화",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=471264&_dcbest=1&page=1",
+   "board": "디시 실베",
+   "why": "커뮤니티 2곳 동시 화제 + 기사화(이코노미스트)",
+   "news": [
+    {
+     "url": "https://n.news.naver.com/article/243/0000104355",
+     "headline": "[속보] 정부, 임금체계 개편 추진…'동일가치노동 동일임금' 법제화"
+    }
+   ]
   },
   {
    "kind": "news",
-   "title": "‘가수 공연 끊고 인사말’ 김민석 과잉 의전 논란…金 “불편 끼쳐 죄송”",
-   "url": "https://n.news.naver.com/article/020/0003755707",
-   "press": "동아일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "李대통령 \"'국무회의 공개라 말 못한다'는 거짓말…이해 안 돼\"",
+   "url": "https://n.news.naver.com/article/001/0016383785",
+   "press": "연합뉴스",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
+    {
+     "press": "뉴시스",
+     "title": "이 대통령 \"국민들 다 환영하는 국무회의 일부 공개…비공개 압박 이해 어려워\"",
+     "url": "https://n.news.naver.com/article/003/0014260410"
+    },
+    {
+     "press": "MBN",
+     "title": "이 대통령 \"거짓말까지 하며 국무회의 비공개 압박…이해 어려워\"",
+     "url": "https://n.news.naver.com/article/057/0001973999"
+    },
+    {
+     "press": "뉴스1",
+     "title": "李대통령 \"거짓말하며 국무회의 공개 말라는 압박 이해 어려워\"",
+     "url": "https://n.news.naver.com/article/421/0009234059"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "국힘 \"축제 도중 노래 끊고 무대 난입한 김민석, 오만함의 극치\"",
+   "url": "https://n.news.naver.com/article/214/0001529735",
+   "press": "MBC",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "머니투데이",
+     "title": "가수 흰 무대 끊고 무대로…김민석 \"갑자기 호명돼 인사\" 사과",
+     "url": "https://n.news.naver.com/article/008/0005427912"
+    },
+    {
+     "press": "데일리안",
+     "title": "국민의힘, 가수 공연 도중 마이크 뺏어 든 김민석 향해 \"갑질 난입…오만함의 극치\"",
+     "url": "https://n.news.naver.com/article/119/0003143905"
+    },
+    {
+     "press": "한국경제TV",
+     "title": "가수 흰 공연 도중 무대 올랐다가…김민석 결국 사과",
+     "url": "https://n.news.naver.com/article/215/0001269553"
+    },
+    {
+     "press": "부산일보",
+     "title": "축제 가수 공연 끊고 무대 인사…논란 커지자 김민석 결국 사과",
+     "url": "https://n.news.naver.com/article/082/0001402920"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "가수 공연 중단시키고 무대 오른 김민석…국민의힘 \"황당 촌극, 사과해야\"",
+   "url": "https://n.news.naver.com/article/469/0000960082",
+   "press": "한국일보",
+   "why": "언론사 7곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "서울신문",
+     "title": "“사회자가 불러서”…가수 공연 끊고 무대 오른 김민석 “죄송”",
+     "url": "https://n.news.naver.com/article/081/0003689957"
+    },
     {
      "press": "중앙일보",
      "title": "가수 공연 끊고 무대 올라간 김민석…지역축제 ‘과잉 의전’ 논란",
      "url": "https://n.news.naver.com/article/025/0003558611"
     },
     {
-     "press": "서울신문",
-     "title": "가수 공연 뚝 끊고 “김민석 당대표님 모십니다”…국힘 “무대 모욕했다” 맹공",
-     "url": "https://n.news.naver.com/article/081/0003689914"
+     "press": "머니투데이",
+     "title": "가수 흰 무대 끊고 무대로…김민석 \"갑자기 호명돼 인사\" 사과",
+     "url": "https://n.news.naver.com/article/008/0005427912"
+    },
+    {
+     "press": "데일리안",
+     "title": "국민의힘, 가수 공연 도중 마이크 뺏어 든 김민석 향해 \"갑질 난입…오만함의 극치\"",
+     "url": "https://n.news.naver.com/article/119/0003143905"
     }
    ]
   }
