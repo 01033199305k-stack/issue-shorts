@@ -1,22 +1,73 @@
 {
- "detected_at": "2026-10-18T09:10+09:00",
+ "detected_at": "2026-10-18T13:23+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李대통령, 순직 故김진석 소방위 빈소 찾아 \"님의 희생, 영원히 기억할 것\"",
-   "url": "https://n.news.naver.com/article/002/0002461448",
-   "press": "프레시안",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "[속보]인천서 나체로 주택가 배회한 40대…테이저건 맞고 체포",
+   "url": "https://n.news.naver.com/article/016/0002710797",
+   "press": "헤럴드경제",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] \"사과 바라니 사과한다\" 추미애에…국힘 \"'사퇴' 바라시니까 사퇴하라\"",
+   "url": "https://n.news.naver.com/article/082/0001402871",
+   "press": "부산일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "MBN",
-     "title": "이 대통령, 부천 화재 소방관 순직에 \"희생 영원히 기억할 것\"…빈소 조문해 위로",
-     "url": "https://n.news.naver.com/article/057/0001973962"
+     "press": "조선비즈",
+     "title": "추미애 “사과 바라시니까 사과”… 정성호 “입은 재앙 불러들이는 문”",
+     "url": "https://n.news.naver.com/article/366/0001198628"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "국민연금, 3분기 보유주식 182조원 증발…'삼전닉스' 폭락 직격탄",
+   "url": "https://n.news.naver.com/article/057/0001973985",
+   "press": "MBN",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선일보",
+     "title": "국민연금, 3분기 182조원 손실... 7분기 만에 ‘마이너스’",
+     "url": "https://n.news.naver.com/article/023/0004004434"
     },
     {
-     "press": "강원도민일보",
-     "title": "[속보] 이 대통령, 부천 화재 순직 김진석 소방위 빈소 찾아 조문",
-     "url": "https://n.news.naver.com/article/654/0000205878"
+     "press": "연합뉴스",
+     "title": "국민연금, 3분기에 보유주식 182조원 손실…7분기만에 '마이너스'",
+     "url": "https://n.news.naver.com/article/001/0016383223"
+    },
+    {
+     "press": "전자신문",
+     "title": "“삼전닉스가 72% 삼켰다”…국민연금 보유주식 182조원 '증발'",
+     "url": "https://n.news.naver.com/article/030/0003475999"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "국내 증시 폭락에 국민연금 ‘휘청’…3분기 182조 원 손실",
+   "url": "https://n.news.naver.com/article/056/0012275768",
+   "press": "KBS",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "SBS",
+     "title": "국민연금도 폭락장 못 버텼다…100일만에 182조 원 손실",
+     "url": "https://n.news.naver.com/article/055/0001396288"
+    },
+    {
+     "press": "조선일보",
+     "title": "국민연금, 3분기 182조원 손실... 7분기 만에 ‘마이너스’",
+     "url": "https://n.news.naver.com/article/023/0004004434"
+    },
+    {
+     "press": "연합뉴스",
+     "title": "국민연금, 3분기에 보유주식 182조원 손실…7분기만에 '마이너스'",
+     "url": "https://n.news.naver.com/article/001/0016383223"
     }
    ]
   }
