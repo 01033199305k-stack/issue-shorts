@@ -2967,5 +2967,53 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-18_1200_airport-taxi-surcharge-6000-won/video.mp4"
   },
   "seconds": 1368
+ },
+ {
+  "key": "2026-10-18-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-18T18:00:00+09:00",
+  "started": "2026-10-18T15:15:45.628327+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-31094/",
+   "https://pixabay.com/videos/id-184738/",
+   "https://pixabay.com/videos/id-7012/"
+  ],
+  "duration": 33.52,
+  "matches": [
+   0.95,
+   0.98,
+   0.98,
+   0.97,
+   0.95,
+   0.97,
+   1.0,
+   0.98,
+   0.92,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 9,
+  "cuts": 10,
+  "title": "목줄 찬 채 혼자 경찰차를 막아선 개가 경찰을 데려간 곳 #shorts",
+  "source_post": "https://www.nocutnews.co.kr/news/6586688",
+  "facts_used": [
+   "미국 캔자스주 리우드 주택가를 순찰하던 경관이 목줄을 늘어뜨린 채 도로 중앙을 막아서며 짖는 개를 발견, 주인은 보이지 않음 — 노컷뉴스 https://www.nocutnews.co.kr/news/6586688 , 인사이트 https://www.insight.co.kr/news/576586 , Fox News https://www.foxnews.com/us/loyal-dog-fetches-police-help-owner-who-fell-kansas-home.amp",
+   "경관이 개를 집으로 쫓으려 했으나 개가 앞장서 걸으며 여러 차례 뒤를 돌아봄, 경관은 차로 반 블록(약 50m) 따라감 — 노컷뉴스, Fox 26 https://www.fox26houston.com/news/dog-hails-police-leads-them-home-find-owner-needing-help",
+   "차고 문이 열린 집에서 집주인이 바닥에 넘어져 일어나지 못한 채 3시간 넘게 있었음, 의료진 치료 후 집에서 회복 중 — 리우드 경찰 발표(Fox News, Fox 26), 노컷뉴스, 인사이트"
+  ],
+  "slug": "2026-10-18_1800_dog-stops-police-car-owner-garage",
+  "late": false,
+  "video_id": "ViDQwitS3lU",
+  "url": "https://youtube.com/shorts/ViDQwitS3lU",
+  "privacy": "private",
+  "scheduled_for": "2026-10-18T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad46988938409f1d0bbb634",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-18T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-18_1800_dog-stops-police-car-owner-garage/video.mp4"
+  },
+  "seconds": 1400
  }
 ]
