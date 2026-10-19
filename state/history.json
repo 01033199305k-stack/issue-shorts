@@ -3064,5 +3064,55 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-19_0700_folk-village-ghost-picky-eater/video.mp4"
   },
   "seconds": 1316
+ },
+ {
+  "key": "2026-10-19-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-19T12:00:00+09:00",
+  "started": "2026-10-19T09:17:14.568379+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-5278/",
+   "https://pixabay.com/videos/id-131033/"
+  ],
+  "duration": 30.46,
+  "matches": [
+   1.0,
+   1.0,
+   0.96,
+   0.97,
+   1.0,
+   0.92,
+   0.99,
+   1.0,
+   0.92,
+   0.91,
+   1.0
+  ],
+  "sfx": 10,
+  "illustrations": 8,
+  "cuts": 11,
+  "title": "백화점 주차장에 5시간 갇힌 손님들이 들은 해결책 #shorts",
+  "source_post": "https://www.hankyung.com/article/2026101992317",
+  "facts_used": [
+   "10월 18일(토) 폭우와 주말 인파로 신세계백화점 강남점 지하주차장 출차가 4~5시간 지연 — 한국경제 https://www.hankyung.com/article/2026101992317 , 세계일보 https://www.segye.com/newsView/20261018517047 , 한국일보 https://www.hankookilbo.com/news/article/A2026101907010004878 , 경기일보 https://www.kyeonggi.com/article/20261018580371",
+   "'5시간째 차가 꼼짝도 안 해/5시간째 제자리' 이용객 호소 — 세계일보, 한국NGO신문 https://www.ngonews.kr/news/articleView.html?idxno=240831",
+   "백화점이 오후 5시께부터 출차 제한, 안내방송으로 '주변 도로의 극심한 교통정체로 출차가 지연되고 있다' 반복 — 세계일보, 한국경제",
+   "지하주차장 온도 40도 넘었다는 호소 — 아시아경제 https://view.asiae.co.kr/article/2026101908135655546 , 재경일보 https://news.jkn.co.kr/post/1032721",
+   "차량을 두고 귀가한 뒤 다음 날 출차하도록 안내, 출차 대기로 인한 추가 요금은 받지 않겠다고 함 — 한국경제, 세계일보"
+  ],
+  "slug": "2026-10-19_1200_department-store-parking-5-hours",
+  "late": false,
+  "video_id": "hz4MLGaRZME",
+  "url": "https://youtube.com/shorts/hz4MLGaRZME",
+  "privacy": "private",
+  "scheduled_for": "2026-10-19T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad565d40a208cb32389c385",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-19T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-19_1200_department-store-parking-5-hours/video.mp4"
+  },
+  "seconds": 1099
  }
 ]
