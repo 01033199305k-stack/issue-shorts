@@ -3114,5 +3114,53 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-19_1200_department-store-parking-5-hours/video.mp4"
   },
   "seconds": 1099
+ },
+ {
+  "key": "2026-10-19-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-19T18:00:00+09:00",
+  "started": "2026-10-19T15:18:04.841515+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-63970/",
+   "https://pixabay.com/videos/id-7315/"
+  ],
+  "duration": 28.53,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   0.99,
+   1.0,
+   0.92,
+   1.0,
+   0.97,
+   0.92,
+   0.98
+  ],
+  "sfx": 8,
+  "illustrations": 8,
+  "cuts": 10,
+  "title": "\"도와주세요\" 비명에 50대 폭행범을 쫓아간 24살의 진짜 직업 #shorts",
+  "source_post": "https://www.fnnews.com/news/202610190730008952",
+  "facts_used": [
+   "10월 5일 새벽 1시쯤 경기 용인시 처인구 도로에서 50대 A씨가 아르바이트 마치고 귀가하던 일면식 없는 20대 여성 뒷머리를 돌로 내리침, 전치 2주 — 파이낸셜뉴스 2026-10-19 https://www.fnnews.com/news/202610190730008952 , 머니투데이 2026-10-18 https://www.mt.co.kr/society/2026/10/18/2026101814475214294",
+   "'도와주세요' 외침을 듣고 친구들과 식사 후 귀가하던 육군 21사단 민모 중사(24)가 추격해 제압 — 헤럴드경제 https://biz.heraldcorp.com/article/10906612 , 아주경제 https://www.ajunews.com/view/20261019092022735 , 데일리안 https://www.dailian.co.kr/news/view/1702797",
+   "경찰은 처음 일반 시민으로 알았다가 현역 군인임을 확인, 경찰서장 표창장·검거 포상금 수여 방침 — 파이낸셜뉴스, 머니투데이",
+   "(대본 미사용) A씨는 술에 취해 기억나지 않는다는 취지로 진술, 용인동부경찰서가 특수상해 혐의로 구속 송치(18일 발표) — 파이낸셜뉴스, 머니투데이"
+  ],
+  "slug": "2026-10-19_1800_soldier-on-leave-catches-attacker",
+  "late": false,
+  "video_id": "T7MxFTcPxcQ",
+  "url": "https://youtube.com/shorts/T7MxFTcPxcQ",
+  "privacy": "private",
+  "scheduled_for": "2026-10-19T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad5bb3cfe198605b4cc1d17",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-19T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-19_1800_soldier-on-leave-catches-attacker/video.mp4"
+  },
+  "seconds": 1314
  }
 ]
