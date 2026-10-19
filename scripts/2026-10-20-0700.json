@@ -1,0 +1,295 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "paju-convenience-store-wet-shelf",
+ "title_lines": [
+  "물인 줄 알고 닦은",
+  "50만 원어치 상품"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "물 쏟은 줄 알고 닦은 편의점 진열대",
+   "say": "물 쏟은 줄 알고 닦은 편의점 진열대",
+   "sfx": "absurd",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "물 쏟은 줄 알고 닦은\n편의점 진열대",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "직원이 닦은 젖은 상품을 사장님이 하나하나 만져 봄.",
+   "say": "직원이 닦은 젖은 상품을 사장님이 하나하나 만져 봄.",
+   "sfx": "whoosh",
+   "tone": "황당한 걸 본 듯 눈을 크게 뜨고 목소리를 높여서",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コンビニ 店長",
+       "コンビニ 店員",
+       "店長"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경기 파주의 한 편의점, 다시 팔 수 있나 보려던 거임.",
+   "say": "경기 파주의 한 편의점, 다시 팔 수 있나 보려던 거임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "store",
+    "video": [
+     "convenience store shelf",
+     "supermarket shelf",
+     "snacks shelf"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お菓子 袋",
+       "スナック菓子",
+       "お菓子"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏪",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "세상에, CCTV를 돌려 본 사장님이 경악함.",
+   "say": "세상에, 씨씨티비를 돌려 본 사장님이 경악함.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "warn",
+      "at": 0.0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "防犯カメラ",
+       "監視カメラ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "새벽에 취한 듯한 남자가 진열대에 몸을 바짝 붙였다 나감.",
+   "say": "새벽에 취한 듯한 남자가 진열대에 몸을 바짝 붙였다 나감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "doc",
+      "title": "CCTV 기록",
+      "lines": [
+       "10월 10일 새벽",
+       "경기 파주 편의점",
+       "술 취한 듯한 남성"
+      ],
+      "mark": 2,
+      "at": 0.0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "酔っ払い 男性",
+       "酔っ払い"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 진열대를 적신 그 물의 정체가 공개됨.",
+   "say": "자, 진열대를 적신 그 물의 정체가 공개됨.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "水たまり",
+       "水 こぼれる",
+       "雑巾"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 그건 물이 아니라 남자의 소변이었음.",
+   "say": "헐, 그건 물이 아니라 남자의 소변이었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "store",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 店員",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "center",
+      "size": "l",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "상품 50만 원어치를 버리고 사장님은 경찰에 신고함.",
+   "say": "상품 오십만 원어치를 버리고 사장님은 경찰에 신고함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "video": [
+     "police car lights night",
+     "police lights",
+     "siren lights night"
+    ],
+    "items": [
+     {
+      "type": "price",
+      "label": "젖은 상품 피해",
+      "new": "약 50만 원",
+      "at": 0.0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "パトカー",
+       "警察官"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이건 진짜 선 넘었음.",
+   "say": "이건 진짜 선 넘었음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "怒る 店長"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "shake"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "직원이 물인 줄 알고 닦은 진열대, 상품 50만 원어치를 버린 이유 #shorts",
+  "description": "지난 10일 새벽 경기 파주의 한 편의점 진열대가 흥건하게 젖어 있었음.\n직원은 누가 물을 쏟은 줄 알고 닦았고, 사장님도 다시 팔 수 있나 상품을 만져 봤음.\nCCTV를 돌려 보니 술 취한 듯한 남성이 진열대에 소변을 보고 나간 거였음. 젖은 상품 약 50만 원어치 피해, 점주는 경찰에 신고함.\n\n※ AI 음성으로 제작했습니다.\n#편의점 #CCTV #진상손님 #자영업 #shorts",
+  "tags": [
+   "편의점",
+   "편의점 진열대",
+   "CCTV",
+   "진상 손님",
+   "자영업자",
+   "파주 편의점",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.mt.co.kr/society/2026/10/13/2026101308363411907",
+ "facts_used": [
+  "10월 10일 새벽 경기 파주 편의점, 술 취한 듯한 남성이 진열대에 몸을 붙이고 소변을 본 뒤 떠남 — 머니투데이 2026-10-13 https://www.mt.co.kr/society/2026/10/13/2026101308363411907 , 파이낸셜뉴스 2026-10-14 https://www.fnnews.com/news/202610141104481675 , 한국경제TV https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610130184",
+  "직원은 물을 쏟은 줄 알고 닦았고, 점주는 다음 날 재판매 가능한지 상품을 만져 보다 CCTV를 보고 경악 — 파이낸셜뉴스, 한국경제TV, 위키트리 https://www.wikitree.co.kr/articles/1165695",
+  "오염 상품 피해 약 50만 원(일부 보도 46만 4700원), 업체 불러 청소·소독, 점주 경찰 신고 — 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=473702 , 머니투데이, 헤럴드경제 https://biz.heraldcorp.com/article/10901267"
+ ],
+ "brief": "점수표: 이게됨4+궁금증4+감정4×2+대상5+판정4=25/30 (비교: 식혜 국자 손님 15, 칼 든 상대 제압 정당방위 보도 미확인, 5일 굶은 메모 4월 사건이라 제외, 중국 사극 대향로 갈등 소재 0점). 원 보도 JTBC 사건반장(10/12~13) 인용 기사들. 첫장면: 손해. 훅 3안: '직원이 닦은 젖은 상품을 사장님이 하나하나 만져 봄'(제목보다 한 발 더 나간 행동, 선택) / '진열대 앞이 흥건하게 젖어 있었음'(제목 반복) / '상품 50만 원어치가 하루아침에 못 쓰게 됨'(답 암시가 너무 이름). 제목줄에 가장 센 숫자 50만 원. 증거: doc(10월 10일 새벽·파주·술 취한 듯한 남성), price(젖은 상품 피해 약 50만 원). 이해검사: 파주 편의점 직원과 사장이 물인 줄 알고 젖은 진열대와 상품을 닦고 만졌는데, CCTV를 보니 술 취한 남자가 본 소변이었고, 상품 50만 원어치를 버리고 경찰에 신고했다. 떡밥(3번 경악) → 6번 공개 예고 → 7번 답(hit) → 결과 → 리액션(react)으로 끝, 질문 없음. like_egg 없음(12개 주제 해당 없음). 그림대조: 완료. 주의: 선정적 묘사 없이 '소변' 한 단어로만, 소변 보는 그림 금지(취객·놀란 얼굴·🚫로), 가해 남성 신상 없음, 혐의 단정 없이 '신고함'까지만."
+}
