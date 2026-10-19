@@ -1,34 +1,29 @@
 {
- "detected_at": "2026-10-19T09:11+09:00",
+ "detected_at": "2026-10-19T14:17+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "김민석, 지역축제 무대인사에 가수 공연 중단 '사과'…\"갑질 난입\"",
-   "url": "https://n.news.naver.com/article/660/0000119419",
-   "press": "kbc광주방송",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "이데일리",
-     "title": "\"갑자기 불러서\" 김민석 사과...공연 중단 가수 반응은",
-     "url": "https://n.news.naver.com/article/018/0006391054"
-    },
-    {
-     "press": "파이낸셜뉴스",
-     "title": "\"김민석, 가수 공연 중 무대 난입\"... '과잉 의전' 논란에 결국 사과",
-     "url": "https://n.news.naver.com/article/014/0005590852"
-    },
-    {
-     "press": "SBS",
-     "title": "추미애 사과에도 파장 계속…김민석 '공연 중단' 사과",
-     "url": "https://n.news.naver.com/article/055/0001396351"
-    },
-    {
-     "press": "전주MBC",
-     "title": "김민석 당대표, 가수 공연 중 인사 논란에 \"죄송하다\"",
-     "url": "https://n.news.naver.com/article/659/0000047872"
-    }
-   ]
+   "title": "[속보] 분당서 60대 여성, 전남편에 흉기 피습…스마트워치도 소용 없었다",
+   "url": "https://n.news.naver.com/article/016/0002711252",
+   "press": "헤럴드경제",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 이찬진 금감원장 “SK하닉 솔리다임, 중복상장 저촉 판단”",
+   "url": "https://n.news.naver.com/article/024/0000109018",
+   "press": "매경이코노미",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보]중국 수출 호조 속 소비도 반등, 3분기 경제 4.5% 성장",
+   "url": "https://n.news.naver.com/article/018/0006391353",
+   "press": "이데일리",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
