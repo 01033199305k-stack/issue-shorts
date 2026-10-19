@@ -3162,5 +3162,51 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-19_1800_soldier-on-leave-catches-attacker/video.mp4"
   },
   "seconds": 1314
+ },
+ {
+  "key": "2026-10-20-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-20T07:00:00+09:00",
+  "started": "2026-10-20T04:17:12.984815+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-130651/",
+   "https://pixabay.com/videos/id-7315/"
+  ],
+  "duration": 26.68,
+  "matches": [
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.95
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "직원이 물인 줄 알고 닦은 진열대, 상품 50만 원어치를 버린 이유 #shorts",
+  "source_post": "https://www.mt.co.kr/society/2026/10/13/2026101308363411907",
+  "facts_used": [
+   "10월 10일 새벽 경기 파주 편의점, 술 취한 듯한 남성이 진열대에 몸을 붙이고 소변을 본 뒤 떠남 — 머니투데이 2026-10-13 https://www.mt.co.kr/society/2026/10/13/2026101308363411907 , 파이낸셜뉴스 2026-10-14 https://www.fnnews.com/news/202610141104481675 , 한국경제TV https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202610130184",
+   "직원은 물을 쏟은 줄 알고 닦았고, 점주는 다음 날 재판매 가능한지 상품을 만져 보다 CCTV를 보고 경악 — 파이낸셜뉴스, 한국경제TV, 위키트리 https://www.wikitree.co.kr/articles/1165695",
+   "오염 상품 피해 약 50만 원(일부 보도 46만 4700원), 업체 불러 청소·소독, 점주 경찰 신고 — 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=473702 , 머니투데이, 헤럴드경제 https://biz.heraldcorp.com/article/10901267"
+  ],
+  "slug": "2026-10-20_0700_paju-convenience-store-wet-shelf",
+  "late": false,
+  "video_id": "TwBJA4_1Rpk",
+  "url": "https://youtube.com/shorts/TwBJA4_1Rpk",
+  "privacy": "private",
+  "scheduled_for": "2026-10-19T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad671b8ff33544eb0909aee",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-19T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-20_0700_paju-convenience-store-wet-shelf/video.mp4"
+  },
+  "seconds": 1281
  }
 ]
