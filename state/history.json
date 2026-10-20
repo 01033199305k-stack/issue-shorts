@@ -3305,5 +3305,51 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-20_1800_wedding-gift-short-by-10000-won/video.mp4"
   },
   "seconds": 1178
+ },
+ {
+  "key": "2026-10-21-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-21T07:00:00+09:00",
+  "started": "2026-10-21T04:16:47.776348+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-201676/",
+   "https://pixabay.com/videos/id-313203/"
+  ],
+  "duration": 24.72,
+  "matches": [
+   0.97,
+   0.98,
+   0.93,
+   0.95,
+   0.95,
+   1.0,
+   0.95,
+   0.93
+  ],
+  "sfx": 6,
+  "illustrations": 6,
+  "cuts": 8,
+  "title": "엄마 몰래 BJ한테 200만 원 보낸 초등생 딸이 털어놓은 한마디 #shorts",
+  "source_post": "https://www.news1.kr/society/general-society/6325249",
+  "facts_used": [
+   "초등학생 딸이 엑셀방송 BJ에게 여러 차례 후원해 약 200만 원을 보냄 — 뉴스1 2026-10-20 https://www.news1.kr/society/general-society/6325249 , 머니투데이 2026-10-20 https://www.mt.co.kr/society/2026/10/20/2026102005414976249 , 헤럴드경제 https://biz.heraldcorp.com/article/10908529",
+   "엑셀방송은 여러 BJ가 출연해 후원금 액수로 실시간 순위를 매기며 경쟁하는 방송 — 헤럴드경제, 노컷뉴스 https://nocutnews.co.kr/news/6594057",
+   "엄마가 플랫폼·BJ 측에 환불을 문의했으나 '규정 때문에 안 된다', '경찰에 신고하라'는 말만 반복했다고 주장 — 아시아경제 https://view.asiae.co.kr/article/2026102013592765067 , 스포츠경향 https://sports.khan.co.kr/article/202610200916003/ , 리포테라",
+   "딸은 BJ가 자기 닉네임을 불러 주고 리액션해 주는 게 좋아서 계속 보냈다고 말함 — 헤럴드경제, 위키트리, 머니투데이"
+  ],
+  "slug": "2026-10-21_0700_kid-sends-2-million-won-to-bj",
+  "late": false,
+  "video_id": "x6NfScEgBt4",
+  "url": "https://youtube.com/shorts/x6NfScEgBt4",
+  "privacy": "private",
+  "scheduled_for": "2026-10-20T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad7c2d87f4365d4df45fb68",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-20T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-21_0700_kid-sends-2-million-won-to-bj/video.mp4"
+  },
+  "seconds": 1211
  }
 ]
