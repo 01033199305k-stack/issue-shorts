@@ -1,21 +1,59 @@
 {
- "detected_at": "2026-10-20T15:16+09:00",
+ "detected_at": "2026-10-20T21:08+09:00",
  "candidates": [
   {
-   "kind": "news",
-   "title": "[속보]“누가 불 질렀다” 강남구 역삼동 200m 거리 빌딩 2곳서 동시다발 화재…1명 심정지·18명 중경상",
-   "url": "https://n.news.naver.com/article/087/0001224957",
-   "press": "강원일보",
-   "why": "[속보] 기사",
-   "related": []
+   "kind": "community",
+   "title": "동남아 관광 인기 줄어드는 이유",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1041348",
+   "board": "보배드림 베스트",
+   "why": "커뮤니티 3곳 동시 화제",
+   "news": []
+  },
+  {
+   "kind": "community",
+   "title": "[중갤] [단독] 정부, 우크라 대사관 철수…교민에 폴란드로 이동 권고",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=471796&_dcbest=1&page=1",
+   "board": "디시 실베",
+   "why": "커뮤니티 2곳 동시 화제 + 기사화(동행미디어 시대)",
+   "news": [
+    {
+     "url": "https://n.news.naver.com/article/417/0001161476",
+     "headline": "[단독] 정부, 우크라 대사관 철수 수순…교민에 폴란드로 이동 권고"
+    }
+   ]
   },
   {
    "kind": "news",
-   "title": "[속보] 현대차그룹 의왕연구소에 화재 발생…소방당국 진화 중",
-   "url": "https://n.news.naver.com/article/654/0000206394",
-   "press": "강원도민일보",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "김정은 ‘뇌출혈 사망설’ 확산…北매체들은 일제히 딸 주애와 공개활동 보도",
+   "url": "https://n.news.naver.com/article/081/0003690839",
+   "press": "서울신문",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "한국경제TV",
+     "title": "\"김정은 뇌출혈로 이송\"…또 퍼진 황당 '사망설' 해외 확산",
+     "url": "https://n.news.naver.com/article/215/0001269818"
+    },
+    {
+     "press": "주간조선",
+     "title": "김정은 뇌출혈 사망설 전 세계 확산…北이 급히 공개한 사진 보니",
+     "url": "https://n.news.naver.com/article/053/0000062424"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 역삼 연쇄방화 70대 \"3일 전부터 준비…특허법인이 사기쳐\"",
+   "url": "https://n.news.naver.com/article/082/0001403345",
+   "press": "부산일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "KBS",
+     "title": "역삼방화 70대 “특허법인이 사기쳐 불 질렀다” 주장",
+     "url": "https://n.news.naver.com/article/056/0012277261"
+    }
+   ]
   }
  ]
 }
