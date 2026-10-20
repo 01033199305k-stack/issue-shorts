@@ -3258,5 +3258,52 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-20_1200_delivery-rider-returns-gift-cake/video.mp4"
   },
   "seconds": 1361
+ },
+ {
+  "key": "2026-10-20-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-20T18:00:00+09:00",
+  "started": "2026-10-20T15:21:17.197575+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-189020/",
+   "https://pixabay.com/videos/id-50622/"
+  ],
+  "duration": 27.26,
+  "matches": [
+   0.97,
+   0.95,
+   1.0,
+   1.0,
+   0.94,
+   0.97,
+   0.92,
+   1.0,
+   0.95
+  ],
+  "sfx": 8,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "축의금 10만 원 냈다가 '1만 원 적자' 소리 들은 하객이 보낸 돈 #shorts",
+  "source_post": "https://www.news1.kr/society/general-society/6324552",
+  "facts_used": [
+   "글쓴이 A씨는 왕복 2시간 거리 서울 강남 예식장의 대학 동기 결혼식에 가서 축의금 10만 원을 내고 식사·사진 촬영까지 함 — 파이낸셜뉴스 2026-10-20 https://www.fnnews.com/news/202610200828467051 , 머니투데이 2026-10-20 https://www.mt.co.kr/society/2026/10/20/2026102005383821193",
+   "신혼여행 후 장부를 정리하던 친구가 '1인 식대 11만 원인데 10만 원을 냈다, 내가 1만 원을 더 얹어 밥을 사 준 셈'이라며 항의 — 뉴스1 2026-10-20 https://www.news1.kr/society/general-society/6324552 , 아이뉴스24 https://m.inews24.com/v/2016776 , 파이낸셜뉴스",
+   "친구는 강남·호텔 예식은 15만~20만 원을 맞추는 게 기본 도리라고 주장 — 파이낸셜뉴스, 머니투데이",
+   "A씨는 차액 1만 원을 송금하고 친구를 차단 — 전자신문 2026-10-20 https://www.etnews.com/20261020000204 , 한국경제 https://www.hankyung.com/article/2026102020077 , 아이뉴스24"
+  ],
+  "slug": "2026-10-20_1800_wedding-gift-short-by-10000-won",
+  "late": false,
+  "video_id": "vacx9FcsZAw",
+  "url": "https://youtube.com/shorts/vacx9FcsZAw",
+  "privacy": "private",
+  "scheduled_for": "2026-10-20T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad70cf5cba41b014064e7fa",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-20T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-20_1800_wedding-gift-short-by-10000-won/video.mp4"
+  },
+  "seconds": 1178
  }
 ]
