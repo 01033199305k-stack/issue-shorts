@@ -1,31 +1,44 @@
 {
- "detected_at": "2026-10-20T09:10+09:00",
+ "detected_at": "2026-10-20T10:15+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 건보 소득정산 확대 적용 추진…394만 세대 추가 납부",
-   "url": "https://n.news.naver.com/article/082/0001403181",
-   "press": "부산일보",
+   "title": "[속보] 민주 33%·국힘 47%…격차 14%p 벌어져 [여론조사공정]",
+   "url": "https://n.news.naver.com/article/016/0002711616",
+   "press": "헤럴드경제",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스",
-     "title": "건보 소득정산 확대…394만 세대 추가 납부·'1.5조 재정 확충'",
-     "url": "https://n.news.naver.com/article/001/0016387064"
+     "press": "세계일보",
+     "title": "[속보] 민주 33%·국힘 47% [여론조사공정]",
+     "url": "https://n.news.naver.com/article/022/0004168078"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 김민석, 부승찬 논란에 사과…\"모두가 말과 행동 무겁게 해야\"",
-   "url": "https://n.news.naver.com/article/215/0001269751",
-   "press": "한국경제TV",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "[속보] '장모 살해·아내 납치' 26세 김성우 구속 송치",
+   "url": "https://n.news.naver.com/article/654/0000206366",
+   "press": "강원도민일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "'소방이 재정 쭉쭉' 부승찬 발언에 김민석 \"전후 맥락이 어쨌든 간에 죄송하다\"",
+   "url": "https://n.news.naver.com/article/082/0001403188",
+   "press": "부산일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스TV",
-     "title": "김민석, 부승찬 논란에 사과…\"모두가 말과 행동 무겁게 해야\"",
-     "url": "https://n.news.naver.com/article/422/0000917364"
+     "press": "서울신문",
+     "title": "김민석, ‘소방이 재정 쭉쭉’ 부승찬 발언에 공개 사과 “말과 행동 무거워야”",
+     "url": "https://n.news.naver.com/article/081/0003690557"
+    },
+    {
+     "press": "경기일보",
+     "title": "김민석, '소방 재정 쭉쭉' 부승찬 발언에 결국 사과…“국민께 죄송”",
+     "url": "https://n.news.naver.com/article/666/0000128215"
     }
    ]
   }
