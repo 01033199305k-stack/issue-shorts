@@ -1,159 +1,31 @@
 {
- "detected_at": "2026-10-19T20:14+09:00",
+ "detected_at": "2026-10-20T09:10+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "이 대통령 \"부동산 공급, 2028년 넘어 정상화…'집값 잡으려 세금 올렸다' 사실 아냐\"",
-   "url": "https://n.news.naver.com/article/003/0014264084",
-   "press": "뉴시스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 건보 소득정산 확대 적용 추진…394만 세대 추가 납부",
+   "url": "https://n.news.naver.com/article/082/0001403181",
+   "press": "부산일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
-    {
-     "press": "이데일리",
-     "title": "李대통령 \"집값 잡으려 세금 올린 것 아냐…조세정의 문제\"",
-     "url": "https://n.news.naver.com/article/018/0006391698"
-    },
-    {
-     "press": "데일리안",
-     "title": "[속보] 李대통령 \"집값 잡으려 세금 올린거 아냐…변곡점·충격 최소화 준비\"",
-     "url": "https://n.news.naver.com/article/119/0003144439"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "이 대통령 “韓 주식시장 매우 저평가…정상화 조치할 것”",
-   "url": "https://n.news.naver.com/article/005/0001879560",
-   "press": "국민일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "MBC",
-     "title": "이 대통령 \"주식 많이 오르면 조정 불가피‥한국 시장 매우 저평가\"",
-     "url": "https://n.news.naver.com/article/214/0001530008"
-    },
-    {
-     "press": "한국경제",
-     "title": "李대통령 \"주식시장 매우 저평가돼 있다\"",
-     "url": "https://n.news.naver.com/article/015/0005344104"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 이 대통령 \"이상하게 부동산에 투자하면 세금 거의 없어... 조세 정의에 안 맞아\"",
-   "url": "https://n.news.naver.com/article/469/0000960370",
-   "press": "한국일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 이 대통령 “전작권 반드시 조기 환수…한-미 협의 잘 되고 있다”",
-   "url": "https://n.news.naver.com/article/028/0002828118",
-   "press": "한겨레",
-   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "뉴스1",
-     "title": "李대통령 \"전작권 반드시 조기 환수…北핵무기, 실전 아닌 최후 방어무기\"",
-     "url": "https://n.news.naver.com/article/421/0009237116"
-    },
-    {
-     "press": "한국경제",
-     "title": "李대통령 \"주식시장 매우 저평가돼 있다\"",
-     "url": "https://n.news.naver.com/article/015/0005344104"
-    },
     {
      "press": "연합뉴스",
-     "title": "李대통령 \"전작권 맡겨놓고 방치할 상황아냐…반드시 신속 환수\"",
-     "url": "https://n.news.naver.com/article/001/0016386847"
+     "title": "건보 소득정산 확대…394만 세대 추가 납부·'1.5조 재정 확충'",
+     "url": "https://n.news.naver.com/article/001/0016387064"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 이 대통령, 송두환 특조위원장에 \"이태원 참사, 의아한 부분 해소해야\"",
-   "url": "https://n.news.naver.com/article/052/0002420755",
-   "press": "YTN",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보]“소방관 국가직인데” 인건비 92%는 지방 몫",
-   "url": "https://n.news.naver.com/article/050/0000112129",
-   "press": "한경비즈니스",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "김여정 \"이재명정부 반공, 윤석열 능가\"..대남확성기 방송 재개 피력",
-   "url": "https://n.news.naver.com/article/014/0005591444",
-   "press": "파이낸셜뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 김민석, 부승찬 논란에 사과…\"모두가 말과 행동 무겁게 해야\"",
+   "url": "https://n.news.naver.com/article/215/0001269751",
+   "press": "한국경제TV",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "경기일보",
-     "title": "北 김여정 “남부 국경 매우 불안정…대남 확성기방송 재개 검토”",
-     "url": "https://n.news.naver.com/article/666/0000128154"
-    },
-    {
-     "press": "아시아경제",
-     "title": "[속보]北김여정 \"남부 국경 불안정…대남 확성기방송 재개 검토\"",
-     "url": "https://n.news.naver.com/article/277/0005830590"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 이 대통령 \"전시작전권 신속하게 돌려받아야\"",
-   "url": "https://n.news.naver.com/article/422/0000917201",
-   "press": "연합뉴스TV",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 김여정 “남부국경 매우 불안정…대남 확성기방송 재개 검토”",
-   "url": "https://n.news.naver.com/article/032/0003477219",
-   "press": "경향신문",
-   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "경기일보",
-     "title": "北 김여정 “남부 국경 매우 불안정…대남 확성기방송 재개 검토”",
-     "url": "https://n.news.naver.com/article/666/0000128154"
-    },
-    {
-     "press": "아시아경제",
-     "title": "[속보]北김여정 \"남부 국경 불안정…대남 확성기방송 재개 검토\"",
-     "url": "https://n.news.naver.com/article/277/0005830590"
-    },
-    {
-     "press": "아이뉴스24",
-     "title": "[속보] 北김여정 \"남부국경 매우 불안정…대남 확성기방송 재개 검토\"",
-     "url": "https://n.news.naver.com/article/031/0001067333"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "김민석, 응급환자 전용구역에 주차... 순직 소방관 조문 중 또 논란",
-   "url": "https://n.news.naver.com/article/023/0004004669",
-   "press": "조선일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "KBS",
-     "title": "[단독] 소방관 조문 김민석 타고 온 차량, ‘응급환자 전용주차장’에 주차",
-     "url": "https://n.news.naver.com/article/056/0012276136"
-    },
-    {
-     "press": "매일경제",
-     "title": "김민석 대표, 이번엔 응급환자 구역 주차 구설수…비서실장 “변명 없이 잘못”",
-     "url": "https://n.news.naver.com/article/009/0005750743"
+     "press": "연합뉴스TV",
+     "title": "김민석, 부승찬 논란에 사과…\"모두가 말과 행동 무겁게 해야\"",
+     "url": "https://n.news.naver.com/article/422/0000917364"
     }
    ]
   }
