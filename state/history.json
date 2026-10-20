@@ -3208,5 +3208,55 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-20_0700_paju-convenience-store-wet-shelf/video.mp4"
   },
   "seconds": 1281
+ },
+ {
+  "key": "2026-10-20-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-20T12:00:00+09:00",
+  "started": "2026-10-20T09:17:32.544260+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-14476/",
+   "https://pixabay.com/videos/id-146578/"
+  ],
+  "duration": 31.34,
+  "matches": [
+   1.0,
+   0.95,
+   0.93,
+   0.96,
+   0.91,
+   1.0,
+   0.97,
+   0.99,
+   1.0,
+   0.95,
+   0.99
+  ],
+  "sfx": 9,
+  "illustrations": 8,
+  "cuts": 11,
+  "title": "2만 원 상품권 받은 배달기사가 손님 집에 다시 들고 간 것 #shorts",
+  "source_post": "https://www.mt.co.kr/society/2026/10/01/2026100105534515845",
+  "facts_used": [
+   "배달기사가 주문지 주소인 동물병원에 갔으나 불이 꺼진 채 문이 닫혀 있었고, 통화해 보니 고객이 주소를 잘못 입력함 — 머니투데이 2026-10-01 https://www.mt.co.kr/society/2026/10/01/2026100105534515845 , 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=469658 , 뉴스1 https://www.news1.kr/society/general-society/6307351",
+   "고객은 아기를 두고 나갈 수 없는 상황(아이 엄마) — 머니투데이(제목 '아이 엄마 실수'), 스페셜타임스, 뉴시스(네이트) https://m.news.nate.com/view/20260930n41632",
+   "기사는 남은 배달 2건을 먼저 마치고 신규 배차를 끈 뒤 실제 주소지로 배달, 몇천 원 손해를 각오 — 스페셜타임스, 노컷뉴스 https://nocutnews.co.kr/news/6586065 , 뉴시스(네이트, 제목 '몇천원 손해 보자')",
+   "고객이 '죄송하고 감사하다. 좋은 하루 보내시라'며 2만 원 상당 카페 모바일 상품권 선물 — 머니투데이, 스페셜타임스, 뉴스1",
+   "기사는 추석 연휴 전날 쿠폰으로 커피를 마시고 남은 금액으로 커피와 케이크를 사서 고객에게 전달, '뿌듯하다' — 스페셜타임스, 머니투데이, 노컷뉴스"
+  ],
+  "slug": "2026-10-20_1200_delivery-rider-returns-gift-cake",
+  "late": false,
+  "video_id": "Q_BZ2P4fSxM",
+  "url": "https://youtube.com/shorts/Q_BZ2P4fSxM",
+  "privacy": "private",
+  "scheduled_for": "2026-10-20T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad6b86b2fcafd0f1843360b",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-20T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-20_1200_delivery-rider-returns-gift-cake/video.mp4"
+  },
+  "seconds": 1361
  }
 ]
