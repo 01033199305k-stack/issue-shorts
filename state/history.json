@@ -3399,5 +3399,51 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-21_1200_rest-area-beef-seaweed-soup/video.mp4"
   },
   "seconds": 1586
+ },
+ {
+  "key": "2026-10-21-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-21T18:00:00+09:00",
+  "started": "2026-10-21T15:22:40.072256+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-11704/",
+   "https://pixabay.com/videos/id-170914/"
+  ],
+  "duration": 24.36,
+  "matches": [
+   0.94,
+   0.96,
+   1.0,
+   1.0,
+   0.96,
+   1.0,
+   0.96,
+   1.0,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 8,
+  "cuts": 9,
+  "title": "4만 원어치 먹은 손님 셋이 고깃집 후드 속에 남기고 간 것 #shorts",
+  "source_post": "https://www.news1.kr/society/general-society/6324754",
+  "facts_used": [
+   "10월 9일 밤 경기 시흥의 한 음식점, 남성 손님 3명이 약 4만 원어치 식사 후 환기 후드를 불판에 대고 지지고 콩나물국에 깊숙이 담금, 서로 웃는 모습 CCTV — 머니투데이 2026-10-19 https://www.mt.co.kr/society/2026/10/19/2026101905134396109 , 파이낸셜뉴스 2026-10-19 https://www.fnnews.com/news/202610190819174380 , 뉴스1 https://www.news1.kr/society/general-society/6324754 (JTBC 사건반장 제보 인용)",
+   "업주: 뭐 하냐고 물었지만 별다른 사과 없이 태연하게 떠남, 술 취한 상태도 아니었음 — 머니투데이, 파이낸셜뉴스",
+   "후드를 살펴보니 국물이 떨어졌고 안에 청양고추와 콩나물이 들어 있었음 — 머니투데이, 파이낸셜뉴스, 뉴스1"
+  ],
+  "slug": "2026-10-21_1800_bbq-hood-dunked-in-soup",
+  "late": false,
+  "video_id": "x45lsrlMbYY",
+  "url": "https://youtube.com/shorts/x45lsrlMbYY",
+  "privacy": "private",
+  "scheduled_for": "2026-10-21T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad85f4faff466fe09072617",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-21T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-21_1800_bbq-hood-dunked-in-soup/video.mp4"
+  },
+  "seconds": 1313
  }
 ]
