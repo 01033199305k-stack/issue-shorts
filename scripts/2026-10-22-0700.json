@@ -1,0 +1,303 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "busan-shark-leaves-canal",
+ "title_lines": [
+  "33일 버틴 상어",
+  "9시간 만에 나감"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "33일 수로에 눌러앉은 3.5m 상어",
+   "say": "삼십삼 일 수로에 눌러앉은 삼 점 오 미터 상어",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "33일 수로에 눌러앉은\n3.5m 상어",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "잠수사까지 동원해 상어 한 마리를 9시간 몰았음.",
+   "say": "잠수사까지 동원해 상어 한 마리를 아홉 시간 몰았음.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "harbor",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ダイバー",
+       "潜水士",
+       "スキューバダイビング"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🦈",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "부산 북항 공원 수로에 들어온 흑상어 부캉이 얘기임.",
+   "say": "부산 북항 공원 수로에 들어온 흑상어 부캉이 얘기임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "park",
+    "video": [
+     "canal water city",
+     "harbor water city",
+     "port water"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サメ",
+       "サメ 海"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 앞서 두 번은 내보내기 실패했음.",
+   "say": "근데 앞서 두 번은 내보내기 실패했음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "harbor",
+    "items": [
+     {
+      "type": "warn",
+      "at": 0.0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 男性",
+       "困る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 이번엔 그물을 발판에 묶어 막음.",
+   "say": "와, 이번엔 그물을 발판에 묶어 막음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "harbor",
+    "video": [
+     "fishing net boat",
+     "net water",
+     "boat harbor"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "漁網",
+       "網 漁師",
+       "漁師"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🕸️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그리고 오후 5시 58분, 드디어 수로 밖으로 나감.",
+   "say": "그리고 오후 다섯 시 오십팔 분, 드디어 수로 밖으로 나감.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "3차 유도작업",
+      "lines": [
+       "10월 21일",
+       "오후 5시 58분",
+       "수로 밖으로 이동"
+      ],
+      "mark": 1,
+      "at": 0.0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "公務員 男性",
+       "作業員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 반전, 밤에 다시 보니 이랬음.",
+   "say": "근데 반전, 밤에 다시 보니 이랬음.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "双眼鏡",
+       "双眼鏡 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "fade"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "상어가 밤늦도록 수로 입구 앞을 맴돌고 있었음.",
+   "say": "상어가 밤늦도록 수로 입구 앞을 맴돌고 있었음.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "night",
+    "tr": "flash",
+    "video": [
+     "sea water night",
+     "ocean night",
+     "harbor night"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サメ",
+       "サメ 海"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이 정도면 부산 사람 다 됐음.",
+   "say": "이 정도면 부산 사람 다 됐음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "harbor",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サメ キャラクター",
+       "サメ 笑顔",
+       "サメ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "😂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "33일 버틴 3.5m 상어, 9시간 작전 끝에 나가서 한 일 #shorts",
+  "description": "부산 북항 친수공원 수로에 들어온 3.5m 흑상어 '부캉이'가 33일 동안 나가지 않았음.\n10월 21일 그물과 발판, 잠수사까지 동원한 세 번째 유도작업 끝에 오후 5시 58분쯤 수로 밖으로 나감.\n그런데 밤늦도록 수로 입구 주변을 맴돌았고, 당국은 그물로 재진입을 막고 지켜보기로 함.\n\n※ AI 음성으로 제작했습니다.\n#부캉이 #상어 #부산 #북항 #shorts",
+  "tags": [
+   "부캉이",
+   "상어",
+   "흑상어",
+   "부산 북항",
+   "친수공원",
+   "유도작업",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/277/0005831689",
+ "facts_used": [
+  "부산 북항 친수공원 수로에 3.5m 상어(흑상어/무태상어) '부캉이'가 9월 18일께 나타나 머묾, 애칭 부캉이 - YTN 2026-10-04 https://www.ytn.co.kr/_ln/0115_202610041636567230 , 경향신문 2026-10-04 https://khan.co.kr/article/202610042117005 , 한국경제 https://www.hankyung.com/article/202610065980Y",
+  "10월 21일 3차 유도작업으로 33일 만에 수로 밖으로, 앞선 시도 실패 - 이투데이 https://www.etoday.co.kr/news/view/2638581 , 세계일보 https://www.segye.com/newsView/20261021523319 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008809127 , 머니투데이 https://www.mt.co.kr/society/2026/10/21/2026102119254230964",
+  "오전 9시 30분께 착수, 오후 5시 58분께 1부두 방면 수로 밖 확인, 6시 10분께 종료(약 9시간), 대형 그물·폰툰·잠수사 동원, 폰툰에 그물 고정 - 한국경제 https://www.hankyung.com/article/2026102169007 , 이투데이 https://www.etoday.co.kr/news/view/2638581 , 재경일보 https://news.jkn.co.kr/post/1039999",
+  "작업 뒤 밤늦도록 수로 입구 주변 배회, 그물로 재진입 차단 - 뉴스1 https://www.news1.kr/local/busan-gyeongnam/6327860 , 머니투데이 https://mt.co.kr/society/2026/10/21/2026102123290145007 , 톱스타뉴스 https://www.topstarnews.net/news/articleView.html?idxno=16254262"
+ ],
+ "brief": "점수표: 이게됨4+궁금증4+감정3×2+대상5+판정1=20/30 (택시 48만원 바가지 25점 후보는 수법·결과가 재경일보 한 곳뿐이라 탈락, 커뮤니티 후보는 정치·연애 잡담 위주). 첫장면: 의외. 이해검사: 부산 북항 공원 수로에 33일 눌러앉은 3.5m 상어를 9시간 작전 끝에 내보냈는데, 밤늦도록 입구를 맴돌아 그물로 막아 뒀다. 증거: 3차 유도작업 문서(10/21, 오후 5시 58분 수로 밖 - 이투데이·세계일보·한경). 훅 3안: '잠수사까지 동원해 상어 한 마리를 9시간 몰았음'(선택: 사람·숫자·행동이 다 있음) / '공원 수로에 3.5m 상어가 33일 살았음'(제목 반복) / '상어 하나 내보내려고 그물·배·잠수사 총출동'. 글카드는 33일·3.5m 두 숫자. like_egg: 없음 (상어는 주제 목록에 없음). 마지막: 8번 답(hit) → 9번 리액션(react), 질문 없음. 오후 4시 재진입·첫 주말 2만 명은 한 곳 보도라 뺌. 그림대조: 완료 (부산 배경이라 일본 지도·국기 없음). 해외 아님(국내)."
+}
