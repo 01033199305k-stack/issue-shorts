@@ -3351,5 +3351,53 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-21_0700_kid-sends-2-million-won-to-bj/video.mp4"
   },
   "seconds": 1211
+ },
+ {
+  "key": "2026-10-21-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-21T12:00:00+09:00",
+  "started": "2026-10-21T09:16:51.009439+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-11704/",
+   "https://pixabay.com/videos/id-125004/"
+  ],
+  "duration": 31.6,
+  "matches": [
+   0.91,
+   0.93,
+   1.0,
+   1.0,
+   0.92,
+   0.88,
+   0.95,
+   1.0,
+   0.96,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 8,
+  "cuts": 10,
+  "title": "40년 전 군대 미역국과 비교당한 휴게소 소고기미역국 #shorts",
+  "source_post": "https://www.seoul.co.kr/news/society/2026/10/21/20261021500008",
+  "facts_used": [
+   "10월 18일 온라인 커뮤니티에 '어느 고속도로 휴게소 소고기 미역국' 글이 올라옴 — 파이낸셜뉴스 2026-10-20 https://www.fnnews.com/news/202610200648514735 , 머니투데이 2026-10-20 https://www.mt.co.kr/society/2026/10/20/2026102007300531791",
+   "글쓴이가 미역국 건더기를 모두 건져 공깃밥 뚜껑 위에 올린 사진 공개, 고기는 손가락으로 셀 수 있을 만큼 극소량(서울신문은 5점, 다른 매체는 6~7점으로 보도 — 대본엔 개수 대신 '몇 점') — 서울신문 2026-10-21 https://www.seoul.co.kr/news/society/2026/10/21/20261021500008 , 머니투데이 https://www.mt.co.kr/society/2026/10/20/2026102007300531791 , 인사이트 https://www.insight.co.kr/news/578386",
+   "글쓴이: 40년 전 군 부대 취사병이 끓여 준 미역국보다 고기가 적다 — 파이낸셜뉴스 https://www.fnnews.com/news/202610200648514735 , 한국경제 https://www.hankyung.com/article/2026101916537 , 서울신문",
+   "휴게소 이름·가격은 공개되지 않음 — 서울신문, 머니투데이"
+  ],
+  "slug": "2026-10-21_1200_rest-area-beef-seaweed-soup",
+  "late": false,
+  "video_id": "BXS3JDCZqPM",
+  "url": "https://youtube.com/shorts/BXS3JDCZqPM",
+  "privacy": "private",
+  "scheduled_for": "2026-10-21T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad80aa39fdbc474fbf31a5b",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-21T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-21_1200_rest-area-beef-seaweed-soup/video.mp4"
+  },
+  "seconds": 1586
  }
 ]
