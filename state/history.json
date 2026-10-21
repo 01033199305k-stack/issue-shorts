@@ -3445,5 +3445,55 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-21_1800_bbq-hood-dunked-in-soup/video.mp4"
   },
   "seconds": 1313
+ },
+ {
+  "key": "2026-10-22-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-22T07:00:00+09:00",
+  "started": "2026-10-22T04:17:54.682493+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-28303/",
+   "https://pixabay.com/videos/id-325380/",
+   "https://pixabay.com/videos/id-16160/"
+  ],
+  "duration": 25.28,
+  "matches": [
+   0.94,
+   0.92,
+   0.92,
+   1.0,
+   0.9,
+   1.0,
+   1.0,
+   0.92,
+   1.0
+  ],
+  "sfx": 7,
+  "illustrations": 6,
+  "cuts": 9,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "33일 버틴 3.5m 상어, 9시간 작전 끝에 나가서 한 일 #shorts",
+  "source_post": "https://n.news.naver.com/article/277/0005831689",
+  "facts_used": [
+   "부산 북항 친수공원 수로에 3.5m 상어(흑상어/무태상어) '부캉이'가 9월 18일께 나타나 머묾, 애칭 부캉이 - YTN 2026-10-04 https://www.ytn.co.kr/_ln/0115_202610041636567230 , 경향신문 2026-10-04 https://khan.co.kr/article/202610042117005 , 한국경제 https://www.hankyung.com/article/202610065980Y",
+   "10월 21일 3차 유도작업으로 33일 만에 수로 밖으로, 앞선 시도 실패 - 이투데이 https://www.etoday.co.kr/news/view/2638581 , 세계일보 https://www.segye.com/newsView/20261021523319 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008809127 , 머니투데이 https://www.mt.co.kr/society/2026/10/21/2026102119254230964",
+   "오전 9시 30분께 착수, 오후 5시 58분께 1부두 방면 수로 밖 확인, 6시 10분께 종료(약 9시간), 대형 그물·폰툰·잠수사 동원, 폰툰에 그물 고정 - 한국경제 https://www.hankyung.com/article/2026102169007 , 이투데이 https://www.etoday.co.kr/news/view/2638581 , 재경일보 https://news.jkn.co.kr/post/1039999",
+   "작업 뒤 밤늦도록 수로 입구 주변 배회, 그물로 재진입 차단 - 뉴스1 https://www.news1.kr/local/busan-gyeongnam/6327860 , 머니투데이 https://mt.co.kr/society/2026/10/21/2026102123290145007 , 톱스타뉴스 https://www.topstarnews.net/news/articleView.html?idxno=16254262"
+  ],
+  "slug": "2026-10-22_0700_busan-shark-leaves-canal",
+  "late": false,
+  "video_id": "mkvATcsLTSM",
+  "url": "https://youtube.com/shorts/mkvATcsLTSM",
+  "privacy": "private",
+  "scheduled_for": "2026-10-21T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad91427199855ce0d3bb546",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-21T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-22_0700_busan-shark-leaves-canal/video.mp4"
+  },
+  "seconds": 1095
  }
 ]
