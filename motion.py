@@ -157,6 +157,7 @@ _PUNCT_TAGS = {"SF", "SP", "SS", "SSO", "SSC", "SE", "SO", "SW"}
 _NOUNISH = {"NNG", "NNP", "NNB", "NR", "NP", "SN", "SL", "SH", "XSN", "XR"}
 _PARTICLES = {"JKS", "JKO", "JKB", "JX", "JKC", "JKV", "JKQ"}
 _AUX = ("보", "주", "버리", "놓", "두", "있", "내", "가", "오", "대", "싶")
+_TIME_END = {"때", "순간", "후", "뒤", "전", "중", "동안", "다음", "무렵", "날", "사이", "당시"}   # "고등학생 때 / ..." ends a clause
 
 
 def _kiwi():
@@ -201,6 +202,8 @@ def _pos_cost(a: str, b: str, ta, tb) -> float:
         return 100.0                     # 한 / 사람, 10만 / 원
     if bt == "NNB":
         return 80.0                      # 기사님 / 쪽에서, 좋았다는 / 거임, 아기 / 때문에
+    if alt in ("NNG", "NNB") and al in _TIME_END:
+        return 6.0                       # 고등학생 때 / 여친한테, 좌회전하던 순간 / 벤치의
     if alt == "ETM":                     # 올라간 / 고기 양이 (a long clause may still break here),
         return 45.0 if bt in _NOUNISH else 20.0   # 닦은 / 젖은 상품을 (two modifiers) is milder
     if bt == "VX" or (alt == "EC" and al in ("어", "아", "여", "해", "고") and bf in _AUX):
@@ -210,7 +213,7 @@ def _pos_cost(a: str, b: str, ta, tb) -> float:
     if alt in _NOUNISH and bt in _NOUNISH:
         return 55.0                      # 메뉴 / 이름, 남자 / 손님들
     if alt in _NOUNISH and bt in ("VV", "VA"):
-        return 30.0                      # 닉네임 / 불러 (one syllable - 불 / 꺼진 - adds 20 below)
+        return 12.0                      # 닉네임 / 불러 주는 게 (particle dropped); 불 / 꺼진 gets +20 below
     if alt == "JKG":
         return 40.0                      # 남자의 / 소변
     if alt == "JC":
@@ -234,7 +237,7 @@ def _break_costs(words) -> list[float]:
     for k in range(1, len(texts)):
         a, b = texts[k - 1], texts[k]
         c = _pos_cost(a, b, tags[k - 1], tags[k]) if tags else _break_cost(a, b)
-        if tags and not a.endswith(_PUNCT_END) and (len(a) == 1 or len(b.rstrip(",.?!~")) == 1):
+        if tags and c >= 10 and (len(a) == 1 or len(b.rstrip(",.?!~")) == 1):
             c += 20.0   # a lone one-syllable word left dangling reads as a typo
         out.append(c)
     return out
