@@ -183,6 +183,7 @@ jobs:
             output/*/video.mp4
             output/*/script.json
             output/*/record.json
+            output/*/qa_sheet.jpg
             output/*/cards/*.png
           retention-days: 7
           if-no-files-found: ignore

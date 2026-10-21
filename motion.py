@@ -130,10 +130,15 @@ _PUNCT_END = (",", ".", "?", "!", "…", "·", ")", "\"", "'", "”", "’")
 
 
 def _break_cost(a: str, b: str) -> float:
-    """How bad it is to break a caption between word a and word b (0 = natural)."""
+    """How bad it is to break a caption between word a and word b (0 = natural) - spelling only,
+    used when Kiwi is missing. _pos_cost is the real rule."""
     if a.endswith(_PUNCT_END):
         return 0.0
     if a in _BEFORE_COUNTER or (a[-1:].isdigit() and not b[:1].isdigit()):
+        return 100.0
+    # "10만 / 원이냐", "몇천 / 원": a number ending in a unit still needs its counter
+    if (any(c.isdigit() for c in a) or a in ("몇십", "몇백", "몇천", "몇만")) and a[-1:] in "십백천만억조" \
+            and b.startswith(("원", "명", "개", "번", "살", "년", "분", "배")):
         return 100.0
     if any(c.isdigit() for c in a) and any(b.startswith(k) and len(b) - len(k) <= 1 for k in _COUNTERS):
         return 100.0
@@ -144,22 +149,133 @@ def _break_cost(a: str, b: str) -> float:
     return 10.0
 
 
-def _width(ws) -> int:
-    return sum(len(w.text) for w in ws) + max(0, len(ws) - 1)
+# 2026-10-22 (사용자: "이상하게 줄바꿈"): the spelling rules above let through "불 / 꺼진 동물병원",
+# "10만 / 원이냐", "메뉴 / 이름에만", "기사님 / 쪽에서", "돌려 / 본", "좋았다는 / 거임". Those are
+# grammar, so the break is judged on Kiwi's part-of-speech tags of the two words around it.
+_KIWI = None
+_PUNCT_TAGS = {"SF", "SP", "SS", "SSO", "SSC", "SE", "SO", "SW"}
+_NOUNISH = {"NNG", "NNP", "NNB", "NR", "NP", "SN", "SL", "SH", "XSN", "XR"}
+_PARTICLES = {"JKS", "JKO", "JKB", "JX", "JKC", "JKV", "JKQ"}
+_AUX = ("보", "주", "버리", "놓", "두", "있", "내", "가", "오", "대", "싶")
 
 
-def _best_lines(ws, line_chars: int, max_lines: int = 2):
-    """Split one cue into 1-2 lines at the most natural point; None if it cannot fit."""
-    if _width(ws) <= line_chars:
-        return 0.0, [ws]
-    if max_lines < 2:
+def _kiwi():
+    global _KIWI
+    if _KIWI is None:
+        try:
+            from kiwipiepy import Kiwi
+            _KIWI = Kiwi()
+            for w in ("좋아요", "썰가챠", "가챠냥"):   # the like button, not "좋다 + 어요"
+                _KIWI.add_user_word(w, "NNP")
+        except Exception as ex:   # caption breaks fall back to the spelling rules
+            print(f"  kiwi unavailable ({ex}) - caption breaks use the spelling rules")
+            _KIWI = False
+    return _KIWI or None
+
+
+def _word_tags(texts: list[str]):
+    """Per word: ((first form, tag), (last form, tag)) ignoring punctuation; None without Kiwi."""
+    import bisect
+    k = _kiwi()
+    if not k or not texts:
         return None
-    best = None
+    starts, pos = [], 0
+    for t in texts:
+        starts.append(pos)
+        pos += len(t) + 1
+    morphs = [[] for _ in texts]
+    for tok in k.tokenize(" ".join(texts)):
+        tag = tok.tag.split("-")[0]   # VV-I (irregular) -> VV
+        if tag not in _PUNCT_TAGS:
+            morphs[bisect.bisect_right(starts, tok.start) - 1].append((tok.form, tag))
+    return [(m[0], m[-1]) if m else (("", "SW"), ("", "SW")) for m in morphs]
+
+
+def _pos_cost(a: str, b: str, ta, tb) -> float:
+    """Break cost between words a and b from their tags (see _word_tags)."""
+    (_, _), (al, alt) = ta
+    (bf, bt), _ = tb
+    if a.endswith(_PUNCT_END) or alt in ("EF", "ETN", "IC"):   # sentence end (음슴체 -음/-함) / "헐"
+        return 0.0
+    if alt == "MM" or (alt in ("SN", "NR") and bt in ("NNB", "NR", "SN", "NNG")):
+        return 100.0                     # 한 / 사람, 10만 / 원
+    if bt == "NNB":
+        return 80.0                      # 기사님 / 쪽에서, 좋았다는 / 거임, 아기 / 때문에
+    if alt == "ETM":                     # 올라간 / 고기 양이 (a long clause may still break here),
+        return 45.0 if bt in _NOUNISH else 20.0   # 닦은 / 젖은 상품을 (two modifiers) is milder
+    if bt == "VX" or (alt == "EC" and al in ("어", "아", "여", "해", "고") and bf in _AUX):
+        return 70.0                      # 돌려 / 본, 적립해 / 줌
+    if alt == "MAG":
+        return 70.0 if len(a) == 1 else 30.0   # 못 / 나오는, 진짜 / 주소로
+    if alt in _NOUNISH and bt in _NOUNISH:
+        return 55.0                      # 메뉴 / 이름, 남자 / 손님들
+    if alt in _NOUNISH and bt in ("VV", "VA"):
+        return 30.0                      # 닉네임 / 불러 (one syllable - 불 / 꺼진 - adds 20 below)
+    if alt == "JKG":
+        return 40.0                      # 남자의 / 소변
+    if alt == "JC":
+        return 15.0                      # 포크랑 / 숟가락
+    if alt in ("JKS", "JKO"):
+        return 8.0                       # BJ가 / ...  (a clause boundary reads better)
+    if alt in _PARTICLES:
+        return 5.0                       # 사장님은 / ..., 고깃집에서 / ...
+    if alt == "EC":
+        return 3.0                       # 갔더니 / ..., 끝내고 / ...
+    if alt == "MAJ":
+        return 8.0                       # 근데 / ...
+    return 15.0
+
+
+def _break_costs(words) -> list[float]:
+    """costs[k] = how bad a break between words[k-1] and words[k] is (costs[0] unused)."""
+    texts = [w.text for w in words]
+    tags = _word_tags(texts)
+    out = [0.0]
+    for k in range(1, len(texts)):
+        a, b = texts[k - 1], texts[k]
+        c = _pos_cost(a, b, tags[k - 1], tags[k]) if tags else _break_cost(a, b)
+        if tags and not a.endswith(_PUNCT_END) and (len(a) == 1 or len(b.rstrip(",.?!~")) == 1):
+            c += 20.0   # a lone one-syllable word left dangling reads as a typo
+        out.append(c)
+    return out
+
+
+def _cw(ch: str) -> float:
+    """Width of one character in Hangul-syllable units, measured on Do Hyeon (2026-10-22):
+    Hangul .77 em, digits/Latin .51, punctuation .34, space .30."""
+    if ch.isascii():
+        return 0.39 if ch == " " else 0.66 if ch.isalnum() else 0.44
+    return 1.0
+
+
+def _width(ws) -> float:
+    return sum(_cw(c) for w in ws for c in w.text) + 0.39 * max(0, len(ws) - 1)
+
+
+OVER = 1.5          # a line may run this far past line_chars (the box shrinks to fit) ...
+OVER_COST = 15.0    # ... at this cost per unit, when that saves a bad break
+BALANCE = 0.6       # cost per unit of length difference between the two lines of a cue
+
+
+def _line_cost(ws, line_chars: int) -> float | None:
+    over = _width(ws) - line_chars
+    return 0.0 if over <= 0 else (over * OVER_COST if over <= OVER else None)
+
+
+def _best_lines(ws, line_chars: int, max_lines: int = 2, costs=None, base: int = 0):
+    """Split one cue into 1-2 lines at the most natural point; None if it cannot fit.
+    costs/base: break costs of the whole sentence and where ws starts in it."""
+    one = _line_cost(ws, line_chars)
+    best = (one, [ws]) if one is not None else None
+    if max_lines < 2 or (one == 0.0):
+        return best
     for k in range(1, len(ws)):
         a, b = ws[:k], ws[k:]
-        if _width(a) > line_chars or _width(b) > line_chars:
+        ca, cb = _line_cost(a, line_chars), _line_cost(b, line_chars)
+        if ca is None or cb is None:
             continue
-        c = _break_cost(a[-1].text, b[0].text) * 0.6 + abs(_width(a) - _width(b)) * 0.3
+        brk = costs[base + k] if costs else _break_cost(a[-1].text, b[0].text)
+        c = brk * 0.6 + abs(_width(a) - _width(b)) * BALANCE + ca + cb
         if best is None or c < best[0]:
             best = (c, [a, b])
     return best
@@ -169,6 +285,7 @@ def _phrase_cues(words, line_chars: int, max_words: int, max_lines: int = 2):
     """Split one sentence into caption cues (each 1-2 lines) at natural breaks.
     Dynamic programming over cue boundaries: break costs + a small per-cue cost."""
     n = len(words)
+    costs = _break_costs(words)
     INF = float("inf")
     dp = [(INF, None, None)] * (n + 1)
     dp[0] = (0.0, None, None)
@@ -176,14 +293,15 @@ def _phrase_cues(words, line_chars: int, max_words: int, max_lines: int = 2):
         for i in range(max(0, j - max_words), j):
             if dp[i][0] == INF:
                 continue
-            fit = _best_lines(words[i:j], line_chars, max_lines)
+            fit = _best_lines(words[i:j], line_chars, max_lines, costs, i)
             if fit is None:
                 if j - i == 1:          # a single word longer than the line - show it anyway
                     fit = (50.0, [words[i:j]])
                 else:
                     continue
-            edge = _break_cost(words[i - 1].text, words[i].text) if i else 0.0
-            short = 25.0 if (j - i < n and _width(words[i:j]) <= 5) else 0.0   # no lone "자," / "근데" cue
+            edge = costs[i] if i else 0.0
+            w = _width(words[i:j])      # no lone "자," / "근데" / "없이 나감." cue
+            short = 0.0 if j - i == n else 25.0 if w <= 5 else 10.0 if w <= 7 else 0.0
             c = dp[i][0] + edge + fit[0] + short + 8.0
             if c < dp[j][0]:
                 dp[j] = (c, i, fit[1])
@@ -193,6 +311,23 @@ def _phrase_cues(words, line_chars: int, max_words: int, max_lines: int = 2):
         out.append(lines)
         j = i
     return out[::-1]
+
+
+def bad_breaks(cues, words, limit: float = 50.0) -> list[str]:
+    """Caption breaks (between cues or lines) that still cost >= limit - for the QA report."""
+    out = []
+    for n, seg in enumerate(words):
+        costs = _break_costs(seg)
+        cut = {}
+        k = 0
+        for c in (c for c in cues if c.get("seg") == n):
+            for li, ln in enumerate(c["lines"]):
+                k += len(ln)
+                cut[k] = "/" if li < len(c["lines"]) - 1 else "|"
+        for k, mark in cut.items():
+            if 0 < k < len(seg) and costs[k] >= limit:
+                out.append(f"{seg[k - 1].text} {mark} {seg[k].text} ({costs[k]:.0f})")
+    return out
 
 
 # a shouted line is cut into short one-line bursts and drawn huge (@dolongcha: "너 한 번만 더 울어" = one
@@ -253,7 +388,8 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
   font-family:'Noto Sans CJK KR','Malgun Gothic',sans-serif; font-weight:500; flex-direction:column;
   align-items:flex-start !important; justify-content:center; }
 .post .board { color:#19b35b; font-size:40px; font-weight:700; margin-bottom:38px; }
-.post .ttl { line-height:1.3; letter-spacing:-1px; white-space:pre-line; }
+.post .ttl { line-height:1.3; letter-spacing:-1px; white-space:pre; }   /* only the script's own 
+ breaks */
 .post .meta { display:flex; align-items:center; gap:18px; margin-top:44px; color:#999; font-size:34px; }
 .post .meta b { color:#333; font-weight:700; }
 .post .ava { width:70px; height:70px; border-radius:50%; background:#e6e6e6; }
@@ -299,7 +435,8 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
 .doc { background:#fff; color:#111; border-radius:6px; padding:46px 54px 0; box-shadow:0 18px 40px rgba(0,0,0,.35);
   font-family:'Noto Sans CJK KR','Malgun Gothic',sans-serif; font-weight:700; display:flex; flex-direction:column;
   align-items:center; clip-path:polygon(0 0,100% 0,100% calc(100% - 70px),calc(100% - 70px) 100%,0 100%); }
-.doc .dt { font-family:BH, sans-serif; font-weight:400; font-size:120px; letter-spacing:4px; margin-bottom:26px; }
+.doc .dt { font-family:BH, sans-serif; font-weight:400; font-size:120px; letter-spacing:4px; margin-bottom:26px;
+  white-space:nowrap; }   /* '사건반장 제보' wrapped to '제 / 보' (2026-10-21) - fitText shrinks it instead */
 .doc .dl { font-size:56px; line-height:1.55; position:relative; white-space:nowrap; }
 .doc .mk { position:absolute; left:-30px; top:-14px; width:calc(100% + 60px); height:calc(100% + 28px); overflow:visible; }
 .doc .mk ellipse { fill:none; stroke:#e01e1e; stroke-width:9; stroke-linecap:round; }
@@ -314,6 +451,7 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
   margin-bottom:18px; max-width:100%; white-space:nowrap; }
 .price { background:#fff; border-radius:22px; border:8px solid #111; box-shadow:0 16px 36px rgba(0,0,0,.35); color:#111;
   display:flex; flex-direction:column; align-items:center; justify-content:center; font-family:BH, sans-serif; font-weight:400; }
+.price > div { white-space:nowrap; }
 .price .pl { font-size:76px; margin-bottom:10px; }
 .price .po { font-size:70px; color:#888; text-decoration:line-through; text-decoration-color:#e01e1e; text-decoration-thickness:8px; }
 .price .pn { font-size:130px; color:#e01e1e; line-height:1.1; }
@@ -415,6 +553,7 @@ function item(el, d, t, s) {
   const t0 = s.start + d.at * (s.end - s.start) - D.lead - (d.at < 0.05 ? 0.14 : 0);
   const p = (t - t0) / 0.42, life = t - t0;
   let x = d.x, y = d.y, sc = 1, rot = d.rot || 0, op = 1;
+  el._life = life;
   if (p <= 0) { el.style.opacity = 0; return; }
   switch (d.fx) {
     case 'pop': sc = .35 + .65 * eb(p); op = C(p * 3); break;
@@ -455,6 +594,7 @@ function item(el, d, t, s) {
 
 const TR = .24;   // whoosh transition length
 const OUTLINED = new Set(['shout', 'sweet', 'react']);   // drawn as a rim layer + a fill layer, no box
+const CAP_MAX_W = 880;   // centred caption box ends at x 980 - right of that the like/comment buttons sit (phone)
 
 window.render = function (t) {
   let shake = 0, flash = 0;
@@ -508,7 +648,7 @@ window.render = function (t) {
       const lines = c.lines.map(ln => '<div class="ln">' + ln.map(word).join(' ') + '</div>').join('');
       capEl.innerHTML = `<div class="box ${st}">` + (OUTLINED.has(st) ? `<div class="ol">${lines}</div><div class="fg">${lines}</div>` : lines) + '</div>';
       const box = capEl.firstChild;
-      box.dataset.fit = Math.min(1, 1030 / box.offsetWidth);   // never wider than the frame
+      box.dataset.fit = Math.min(1, CAP_MAX_W / box.offsetWidth);   // never under the like/comment rail
     }
     lastCue = k;
   }
@@ -525,7 +665,97 @@ window.render = function (t) {
   }
   return Promise.all(waits);   // capture waits until the clip frame is decoded
 };
-window.READY = true;
+// ── text fitting (2026-10-22, 사용자: "이상하게 줄바꿈하거나 짤리는 부분"): Python only guesses widths from
+// character counts, so a doc title like '사건반장 제보' wrapped to '제 / 보' and pushed the paper's last line
+// under the caption box. Every fixed word box is shrunk here, with the real fonts, until its words fit.
+const PARENT_FIT = '#title > div, .doc .dt, .doc .dl, .price > div, .post .ttl';   // shrink-wrapped lines in a column
+const SELF_FIT = '.it.tx:not(.post), .sms .bb';                                    // words inside a sized box
+function room(el) {   // free width (px) around the words; < 0 = they overflow
+  if (el.matches(PARENT_FIT)) {
+    const p = el.parentElement, cs = getComputedStyle(p);
+    return p.clientWidth - parseFloat(cs.paddingLeft) - parseFloat(cs.paddingRight) - el.offsetWidth
+      - (el.matches('.price > div') ? 40 : 0);
+  }
+  return el.clientWidth - el.scrollWidth;
+}
+function shrink(el, target, fits) {
+  let fs = parseFloat(getComputedStyle(target).fontSize), n = 0;
+  while (!fits() && fs > 16 && n++ < 80) { fs *= .97; target.style.fontSize = fs.toFixed(1) + 'px'; }
+}
+function fitText() {
+  const title = document.getElementById('title'), lines = [...title.children];
+  shrink(lines[0], title, () => lines.every(el => room(el) >= 0));   // both title lines keep one size
+  document.querySelectorAll(PARENT_FIT + ', ' + SELF_FIT).forEach(el => {
+    if (!el.matches('#title > div')) shrink(el, el, () => room(el) >= 0);
+  });
+}
+
+// ── QA: what a phone viewer would see cut, covered or overflowing at time t, measured on the page.
+// capture() calls it at every caption's middle and just before every cut; run.py keeps a video
+// with problems off the public schedule.
+const RAIL_X = 980;
+const TEXT_SEL = '.it.tx:not(.post), .doc .dt, .doc .dl, .sms .bb, .price > div, .post .ttl';
+function lineCount(el) {   // rendered lines of the element's own text (a wrapped '제 / 보' gives 2)
+  const tops = [], w = document.createTreeWalker(el, NodeFilter.SHOW_TEXT);
+  for (let n = w.nextNode(); n; n = w.nextNode()) {
+    const r = document.createRange(); r.selectNodeContents(n);
+    for (const q of r.getClientRects()) if (q.width > 1) tops.push(q.top);
+  }
+  tops.sort((a, b) => a - b);
+  const gap = .5 * parseFloat(getComputedStyle(el).fontSize);
+  return tops.filter((y, i) => i === 0 || y - tops[i - 1] > gap).length;
+}
+function bottomIn(el, card) {   // el's bottom edge in the card's own (untransformed) coordinates
+  let top = 0;
+  for (let n = el; n && n !== card; n = n.offsetParent) top += n.offsetTop;
+  return top + el.offsetHeight;
+}
+function opacityOf(el) { let o = 1; for (let e = el; e && e !== document.body; e = e.parentElement) o *= +getComputedStyle(e).opacity; return o; }
+window.qaTimes = function () {
+  const ts = D.caps.map(c => (c.s + c.e) / 2);
+  D.scenes.forEach(s => { const t = s.end - D.lead - .1; if (t > s.start + .5) ts.push(t); });
+  return ts.sort((a, b) => a - b);
+};
+window.qa = function (t) {
+  const out = [], P = panel.getBoundingClientRect();
+  const box = capEl.firstChild, C = box ? box.getBoundingClientRect() : null;
+  const say = (kind, el, msg) => out.push({t: +t.toFixed(2), kind, msg,
+    text: (el.innerText || el.textContent || '').replace(/\s+/g, ' ').trim().slice(0, 40)});
+  if (C && C.right > RAIL_X + 2) say('caption-rail', box, `caption box reaches x ${Math.round(C.right)} (like/comment buttons)`);
+  if (C && C.left < -1) say('caption-cut', box, 'caption box leaves the frame');
+  [...document.getElementById('title').children].forEach(el => {
+    if (room(el) < -2) say('title-cut', el, `title ${-Math.round(room(el))}px wider than the frame`);
+    if (lineCount(el) > 1) say('wrapped', el, 'title line wraps'); });
+  scenes.forEach((sc, i) => {
+    if (getComputedStyle(sc).visibility === 'hidden' || +(sc.style.opacity || 1) < .99) return;
+    const moving = !!D.scenes[i].cam;   // punch/push/pull zoom past the edges on purpose
+    sc.querySelectorAll(TEXT_SEL).forEach(el => {
+      const it = el.closest('.it');
+      if (!it || (it._life ?? -1) < .6 || opacityOf(el) < .5) return;   // not landed yet
+      if (room(el) < -2) say('overflow', el, `words ${-Math.round(room(el))}px wider than their box`);
+      const want = el.querySelectorAll('br').length + 1, got = lineCount(el);
+      if (got > want) say('wrapped', el, `${got} lines instead of ${want}`);
+      const card = el.closest('.doc, .sms, .price');   // the paper/phone/tag clips what runs off it
+      if (card && card !== el && bottomIn(el, card) > card.clientHeight + 2)
+        say('cut', el, `runs ${Math.round(bottomIn(el, card) - card.clientHeight)}px off the bottom of its ${card.classList[1]}`);
+      if (moving) return;
+      const r = el.getBoundingClientRect(), cut = Math.max(P.left - r.left, r.right - P.right, P.top - r.top, r.bottom - P.bottom);
+      if (cut > 10) say('cut', el, `${Math.round(cut)}px past the panel edge`);
+      if (C) {
+        const ox = Math.min(r.right, C.right) - Math.max(r.left, C.left), oy = Math.min(r.bottom, C.bottom) - Math.max(r.top, C.top);
+        if (ox > 4 && oy > .25 * r.height) say('covered', el, 'under the caption box');
+      }
+    });
+  });
+  return out;
+};
+
+(async () => {
+  try { await Promise.all(['BH', 'CAP'].map(f => document.fonts.load(`100px ${f}`, '가나1A'))); } catch (e) {}
+  await document.fonts.ready;
+  fitText();
+  window.READY = true;
+})();
 """
 
 
@@ -911,7 +1141,8 @@ def find_chrome() -> str:
     raise RuntimeError("Chrome not found")
 
 
-def capture(html_path: Path, out_mp4: Path, total: float) -> Path:
+def capture(html_path: Path, out_mp4: Path, total: float, qa: dict | None = None) -> Path:
+    """qa: filled with {"issues": [...], "frames": [(t, jpeg bytes), ...]} from window.qa at qaTimes()."""
     from playwright.sync_api import sync_playwright
     frames = int(round(total * FPS))
     ff = subprocess.Popen(
@@ -926,11 +1157,56 @@ def capture(html_path: Path, out_mp4: Path, total: float) -> Path:
         pg.wait_for_function("window.READY === true", timeout=30000)
         pg.evaluate("document.fonts.ready")
         pg.wait_for_timeout(300)
+        checks = {}
+        if qa is not None:
+            qa.setdefault("issues", [])
+            qa.setdefault("frames", [])
+            for t in pg.evaluate("qaTimes()"):
+                if 0 <= (f := int(round(t * FPS))) < frames:
+                    checks.setdefault(f, t)
         for f in range(frames):
             pg.evaluate("t => render(t)", f / FPS)
-            ff.stdin.write(pg.screenshot(type="jpeg", quality=92))
+            shot = pg.screenshot(type="jpeg", quality=92)
+            ff.stdin.write(shot)
+            if f in checks:
+                found = pg.evaluate("t => qa(t)", f / FPS)
+                qa["issues"] += found
+                qa["frames"].append((round(f / FPS, 2), shot, bool(found)))
         b.close()
     ff.stdin.close()
     if ff.wait() != 0:
         raise RuntimeError("ffmpeg encode failed")
     return out_mp4
+
+
+def qa_summary(issues: list[dict]) -> list[dict]:
+    """One row per (kind, text): the first time it was seen and how many checks saw it."""
+    rows: dict = {}
+    for x in issues:
+        k = (x["kind"], x["text"])
+        if k in rows:
+            rows[k]["seen"] += 1
+        else:
+            rows[k] = dict(x, seen=1)
+    return list(rows.values())
+
+
+def qa_sheet(frames: list, out: Path, cols: int = 6, tw: int = 270) -> Path | None:
+    """Contact sheet of the QA frames (one per caption + one before every cut); red border = a problem."""
+    import io
+    from PIL import Image, ImageDraw
+    if not frames:
+        return None
+    th = tw * H // W
+    rows = -(-len(frames) // cols)
+    sheet = Image.new("RGB", (cols * (tw + 8) + 8, rows * (th + 8) + 8), (40, 40, 40))
+    for n, (t, jpg, bad) in enumerate(frames):
+        im = Image.open(io.BytesIO(jpg)).convert("RGB").resize((tw, th))
+        d = ImageDraw.Draw(im)
+        d.rectangle((0, 0, 58, 18), fill=(0, 0, 0))
+        d.text((4, 3), f"{t:.1f}s", fill=(255, 255, 0))
+        if bad:
+            d.rectangle((0, 0, tw - 1, th - 1), outline=(255, 0, 0), width=6)
+        sheet.paste(im, (8 + (n % cols) * (tw + 8), 8 + (n // cols) * (th + 8)))
+    sheet.save(out, quality=88)
+    return out

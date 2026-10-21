@@ -161,6 +161,13 @@ def main() -> int:
             # 회차 시각보다 90분 넘게 늦었으면 공개하지 않고 비공개로만 둔다 (운영자가 스튜디오에서 판단)
             late = dt.datetime.now(KST) - publish_at > dt.timedelta(minutes=90)
             print("[5/5] 유튜브 업로드 " + ("(회차 시각을 넘겨 비공개로만)" if late else "(예약 공개)"))
+        # 화면 검수(2026-10-22): 글자가 잘리거나 자막 상자에 가리면 예약 공개하지 않고 비공개로만 (틱톡도 안 올림)
+        held = bool(stats.get("layout_issues"))
+        if held:
+            print("::warning::화면 검수에 걸려 비공개로만 올림: "
+                  + " | ".join(f"{x['kind']} '{x['text']}'" for x in stats["layout_issues"]))
+            record["held_for_layout"] = True
+            late = True
         # 설명란 외부 링크는 '스팸·현혹' 정책으로 영상이 삭제된 적 있어 URL·출처 줄은 전부 제거한다
         desc = re.sub(r"https?://\S+", "", yt["description"])
         desc = "\n".join(l.rstrip() for l in desc.splitlines() if not l.lstrip().startswith("출처"))
@@ -172,7 +179,8 @@ def main() -> int:
         print(f"  {res}")
         # 틱톡: Buffer 로 같은 시각에 예약 게시. 실패해도 유튜브 결과는 그대로 둔다
         import tiktok
-        why = tiktok.ready() or ("회차 시각을 넘김 - 틱톡은 올리지 않음" if late else "")
+        why = tiktok.ready() or ("화면 검수에 걸림 - 틱톡은 올리지 않음" if held else
+                                  "회차 시각을 넘김 - 틱톡은 올리지 않음" if late else "")
         if why:
             print("  틱톡 건너뜀:", why)
             record["tiktok"] = {"skipped": why}
@@ -194,6 +202,10 @@ def main() -> int:
     (out_dir / "record.json").write_text(json.dumps(record, ensure_ascii=False, indent=1), encoding="utf-8")
     print("done:", json.dumps({k: record.get(k) for k in ("key", "title", "url", "duration", "cost_usd", "seconds")},
                               ensure_ascii=False))
+    if record.get("held_for_layout"):
+        # 기록은 남겼으니 다시 렌더되지 않는다. 실패로 끝내서 GitHub 실패 메일로 알린다 (스튜디오에서 보고 직접 공개/삭제)
+        print("::error::화면 검수에 걸려 비공개로 올림 - Artifacts 의 qa_sheet.jpg 확인")
+        return 2
     return 0
 
 

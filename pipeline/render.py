@@ -114,7 +114,18 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     page = work_dir / "motion.html"
     page.write_text(html, encoding="utf-8")
     print(f"  frames: {int(total * motion.FPS)} ({len(picker.used)} illustrations)")
-    video = motion.capture(page, work_dir / "video.mp4", total)
+    qa: dict = {}
+    video = motion.capture(page, work_dir / "video.mp4", total, qa)
+    # 2026-10-22 (사용자: "줄바꿈하거나 짤리는 부분 검수 제대로"): the page measures every caption and word box
+    # at each caption and before each cut - cut/covered/overflowing words are layout_issues (run.py keeps such a
+    # video off the public schedule); captions still broken at a bad point are listed as caption_breaks.
+    issues = motion.qa_summary(qa.get("issues", []))
+    breaks = motion.bad_breaks(cues, words)
+    motion.qa_sheet(qa.get("frames", []), out_path.parent / "qa_sheet.jpg")
+    for x in issues:
+        print(f"  ::warning::화면 검수 {x['t']}s {x['kind']}: '{x['text']}' - {x['msg']}")
+    for b in breaks:
+        print(f"  자막 끊김 주의: {b}")
     narration = assemble.concat_audio(wavs, work_dir / "narration_raw.wav")
     tts.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(narration), "-af", VOICE_CHAIN, str(work_dir / "narration.wav")])
     narration = work_dir / "narration.wav"
@@ -143,4 +154,5 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     assemble.mux_final(video, narration, None, out_path, bgm_path=bgm, sfx=sfx,
                        bgm_gain_db=float(cfg.get("bgm_gain_db", -10)))
     return {"stock_clips": [c["url"] for c in clips if c], "duration": round(cursor, 2), "matches": [round(r.match, 2) for r in results],
-            "sfx": len(sfx), "illustrations": len(picker.used), "cuts": len(cuts) + 1}
+            "sfx": len(sfx), "illustrations": len(picker.used), "cuts": len(cuts) + 1,
+            "layout_issues": issues, "caption_breaks": breaks}

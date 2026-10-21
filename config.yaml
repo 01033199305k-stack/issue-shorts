@@ -22,7 +22,7 @@ pin_top: 535
 # 문장의 cap 값으로 색이 바뀐다 (motion.py CSS #cap). 2026-10-06엔 한 줄 62px였는데 레퍼런스보다 1.5배 작았다
 fontsize: 74
 caption_words: 7
-caption_line_chars: 13
+caption_line_chars: 12     # 한글 12자 폭 단위(숫자·영문·공백은 좁게 셈, motion._cw). 2026-10-22: 상자가 x 980(좋아요·댓글 버튼) 안에 들게
 caption_lines: 2
 
 # 좋아요 이스터에그 (2026-10-17 사용자): 유튜브는 영상 주제를 자동 분류해 좋아요 버튼을 주제 아이콘으로 바꾼다.
