@@ -1,19 +1,50 @@
 {
- "detected_at": "2026-10-21T15:17+09:00",
+ "detected_at": "2026-10-21T18:39+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 특검 조사받던 선관위 40대 직원… 숨진 채 발견",
-   "url": "https://n.news.naver.com/article/082/0001403442",
-   "press": "부산일보",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "‘내란 혐의’ 박성재 전 장관, 항소심서 징역 9년…1심 25년서 대폭 줄어",
+   "url": "https://n.news.naver.com/article/028/0002828464",
+   "press": "한겨레",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "뉴시스",
-     "title": "특검 조사받던 선관위 직원, 아파트서 숨진 채 발견",
-     "url": "https://n.news.naver.com/article/003/0014268716"
+     "press": "KBS",
+     "title": "‘내란 가담’ 박성재 전 장관, 항소심서 징역 9년…16년 감형",
+     "url": "https://n.news.naver.com/article/056/0012277995"
+    },
+    {
+     "press": "MBC",
+     "title": "'내란 가담' 박성재 2심 징역 9년‥1심 25년서 대폭 감형",
+     "url": "https://n.news.naver.com/article/214/0001530481"
+    },
+    {
+     "press": "노컷뉴스",
+     "title": "[속보]'내란 가담' 박성재, 1심 징역 25년→2심 징역 9년",
+     "url": "https://n.news.naver.com/article/079/0004201203"
+    },
+    {
+     "press": "채널A",
+     "title": "‘내란 가담’ 혐의 박성재 전 법무장관, 2심서 징역 25년→9년",
+     "url": "https://n.news.naver.com/article/449/0000364819"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 문정인 “한미동맹은 저주…북한을 있는 그대로 인정하면 돼”",
+   "url": "https://n.news.naver.com/article/029/0003054455",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 탈북 어민 강제북송 정의용·서훈, 2심서 징역형 집행유예…노영민은 무죄",
+   "url": "https://n.news.naver.com/article/654/0000206647",
+   "press": "강원도민일보",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
