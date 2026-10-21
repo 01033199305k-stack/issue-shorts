@@ -301,7 +301,8 @@ EGG_WORDS = {"dog": r"강아지|반려견|댕댕|애견|견주|유기견|진돗�
              "soccer": r"축구|월드컵|K리그|프리미어리그|손흥민",
              "baseball": r"야구|KBO|투수|타자|홈런|메이저리그",
              "basketball": r"농구|NBA|KBL|덩크"}
-EGGS_ON = set(EGG_WORDS)
+EGGS_OFF = {"food"}   # 2026-10-22 사용자: 떡볶이·케이크·미역국 편에서 눌러도 포크·숟가락으로 안 변함
+EGGS_ON = set(EGG_WORDS) - EGGS_OFF
 
 NEWSY = re.compile(r"논란|발언|입장|제동|의혹|촉구|비판|공방|파문|일파만파")
 POLITICS = re.compile(r"대통령|국회|의원|장관|여당|야당|민주당|국민의힘|대법원장|헌재소장|총리|선거|탄핵|대선|총선|국감|국정감사")
