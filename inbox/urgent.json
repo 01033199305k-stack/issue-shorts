@@ -1,59 +1,32 @@
 {
- "detected_at": "2026-10-20T21:08+09:00",
+ "detected_at": "2026-10-21T09:11+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "동남아 관광 인기 줄어드는 이유",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1041348",
-   "board": "보배드림 베스트",
-   "why": "커뮤니티 3곳 동시 화제",
-   "news": []
-  },
-  {
-   "kind": "community",
-   "title": "[중갤] [단독] 정부, 우크라 대사관 철수…교민에 폴란드로 이동 권고",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=471796&_dcbest=1&page=1",
-   "board": "디시 실베",
-   "why": "커뮤니티 2곳 동시 화제 + 기사화(동행미디어 시대)",
-   "news": [
-    {
-     "url": "https://n.news.naver.com/article/417/0001161476",
-     "headline": "[단독] 정부, 우크라 대사관 철수 수순…교민에 폴란드로 이동 권고"
-    }
-   ]
-  },
-  {
    "kind": "news",
-   "title": "김정은 ‘뇌출혈 사망설’ 확산…北매체들은 일제히 딸 주애와 공개활동 보도",
-   "url": "https://n.news.naver.com/article/081/0003690839",
-   "press": "서울신문",
+   "title": "‘소방 재정 빨대’ 논란 추미애…소방노조 만나 고개 숙였다",
+   "url": "https://n.news.naver.com/article/009/0005751504",
+   "press": "매일경제",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "한국경제TV",
-     "title": "\"김정은 뇌출혈로 이송\"…또 퍼진 황당 '사망설' 해외 확산",
-     "url": "https://n.news.naver.com/article/215/0001269818"
+     "press": "강원도민일보",
+     "title": "추미애, '소방 재정 빨대' 발언 직접 사과…\"저의 불찰\"",
+     "url": "https://n.news.naver.com/article/654/0000206482"
     },
     {
-     "press": "주간조선",
-     "title": "김정은 뇌출혈 사망설 전 세계 확산…北이 급히 공개한 사진 보니",
-     "url": "https://n.news.naver.com/article/053/0000062424"
+     "press": "MBN",
+     "title": "추미애, 소방노조 만나 \"상처 컸다면 진심으로 사과\"",
+     "url": "https://n.news.naver.com/article/057/0001974348"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 역삼 연쇄방화 70대 \"3일 전부터 준비…특허법인이 사기쳐\"",
-   "url": "https://n.news.naver.com/article/082/0001403345",
-   "press": "부산일보",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "KBS",
-     "title": "역삼방화 70대 “특허법인이 사기쳐 불 질렀다” 주장",
-     "url": "https://n.news.naver.com/article/056/0012277261"
-    }
-   ]
+   "title": "[속보]만취 상태로 SUV 몰던 30대 역주행 사고…면허취소 수준",
+   "url": "https://n.news.naver.com/article/087/0001225172",
+   "press": "강원일보",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
