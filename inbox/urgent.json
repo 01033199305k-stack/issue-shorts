@@ -1,62 +1,17 @@
 {
- "detected_at": "2026-10-21T13:36+09:00",
+ "detected_at": "2026-10-21T15:17+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李 \"제미나이에 물어봤다…중수청장 국무회의 배석불가는 억지\"",
-   "url": "https://n.news.naver.com/article/015/0005344818",
-   "press": "한국경제",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "한겨레",
-     "title": "이 대통령 “중수청장 국무회의 배제론 위헌적 억지…AI에도 물어봐”",
-     "url": "https://n.news.naver.com/article/028/0002828393"
-    },
-    {
-     "press": "연합뉴스",
-     "title": "李대통령 \"중수청장 국무회의 배석불가는 억지\"…AI답변 공개",
-     "url": "https://n.news.naver.com/article/001/0016390548"
-    },
-    {
-     "press": "전자신문",
-     "title": "李대통령 “중수청장 국무회의 배석, 제미나이에 물어봤더니…”",
-     "url": "https://n.news.naver.com/article/030/0003477065"
-    },
-    {
-     "press": "한국일보",
-     "title": "이 대통령 \"제미나이에 물어보니\"... 중수청장 국무회의 참석 비판에 \"위헌적 억지\" 반박",
-     "url": "https://n.news.naver.com/article/469/0000960703"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] “비정규직만 늘었다”…근로자 11만명 증가 중 10만명이 비정규직, 사상 최대",
-   "url": "https://n.news.naver.com/article/029/0003054353",
-   "press": "디지털타임스",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보]'대장동 청탁자금 수수' 박영수 전 특검, 2심서 징역 6년...1년 감형",
-   "url": "https://n.news.naver.com/article/660/0000119634",
-   "press": "kbc광주방송",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 李대통령 \"국정 생중계도, SNS도 늘릴 것\"",
-   "url": "https://n.news.naver.com/article/215/0001269898",
-   "press": "한국경제TV",
+   "title": "[속보] 특검 조사받던 선관위 40대 직원… 숨진 채 발견",
+   "url": "https://n.news.naver.com/article/082/0001403442",
+   "press": "부산일보",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "대전일보",
-     "title": "李대통령 \"국정 생중계·언론접촉·현장 방문·SNS 모두 늘릴 것\"",
-     "url": "https://n.news.naver.com/article/656/0000190141"
+     "press": "뉴시스",
+     "title": "특검 조사받던 선관위 직원, 아파트서 숨진 채 발견",
+     "url": "https://n.news.naver.com/article/003/0014268716"
     }
    ]
   }
