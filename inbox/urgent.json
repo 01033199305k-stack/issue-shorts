@@ -1,24 +1,43 @@
 {
- "detected_at": "2026-10-22T07:44+09:00",
+ "detected_at": "2026-10-22T10:28+09:00",
  "candidates": [
   {
+   "kind": "community",
+   "title": "한국 편의점에 먹을거 없다고 따지는 무슬림",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1041776",
+   "board": "보배드림 베스트",
+   "why": "커뮤니티 3곳 동시 화제",
+   "news": []
+  },
+  {
    "kind": "news",
-   "title": "[속보]김여정 \"국경선에 확성기와 새 대응수단 준비중\"",
-   "url": "https://n.news.naver.com/article/014/0005592790",
-   "press": "파이낸셜뉴스",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 국토부 장관 “전세의 월세화, 1인 가구 증가·전세사기 여파”",
+   "url": "https://n.news.naver.com/article/024/0000109084",
+   "press": "매경이코노미",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "KBS",
-     "title": "김여정 “이달 모든 국경선에 대남확성기”…군 지휘부와 ‘국경’ 시찰도",
-     "url": "https://n.news.naver.com/article/056/0012278255"
-    },
-    {
-     "press": "한국경제TV",
-     "title": "[속보] 김여정 \"전 국경선서 새 대응수단 임무대기…확성기도 대기\"",
-     "url": "https://n.news.naver.com/article/215/0001270021"
+     "press": "부산일보",
+     "title": "[속보] 국토부장관 \"전세의 월세화, 1인 가구 증가·전세사기 여파\"",
+     "url": "https://n.news.naver.com/article/082/0001403555"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] ‘부산 돌려차기’ 가해자 월 10만원 영치금 사용 유지…피해자 “손배금 회수 못해”",
+   "url": "https://n.news.naver.com/article/029/0003054557",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 李대통령 지지율 '반등' 37.5%…'진보' 의제 조국혁신당 9%대로 올라",
+   "url": "https://n.news.naver.com/article/002/0002462109",
+   "press": "프레시안",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
