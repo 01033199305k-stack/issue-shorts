@@ -1,49 +1,41 @@
 {
- "detected_at": "2026-10-22T21:23+09:00",
+ "detected_at": "2026-10-23T08:58+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보]이정현 “광역공소청장·지방공소청장에 공소 취소 검토 지시한 적 없다…사건 공정하게 처리”",
-   "url": "https://n.news.naver.com/article/087/0001225696",
-   "press": "강원일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "한동훈 “대통령이 중수청 지휘 안하면 탄핵사유? 정확히 반대로 말한 것”",
-   "url": "https://n.news.naver.com/article/016/0002713082",
-   "press": "헤럴드경제",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "오늘 오세훈 2심 선고…시장직·대선 출마 갈림길",
+   "url": "https://n.news.naver.com/article/422/0000918561",
+   "press": "연합뉴스TV",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "국민일보",
-     "title": "李 “중수청 지휘·감독 포기는 탄핵사유”",
-     "url": "https://n.news.naver.com/article/005/0001880339"
+     "press": "SBS",
+     "title": "'시장직·정치생명' 걸린 2심…오늘 선고 생중계",
+     "url": "https://n.news.naver.com/article/055/0001397599"
     },
     {
-     "press": "한국경제",
-     "title": "李 \"중수청 지휘 안 하면 탄핵 사유\"…한동훈 \"정확히 반대\"",
-     "url": "https://n.news.naver.com/article/015/0005345381"
-    },
-    {
-     "press": "문화일보",
-     "title": "[속보]한동훈 “李대통령 수사지휘 ‘하면’ 탄핵…왕으로 착각”",
-     "url": "https://n.news.naver.com/article/021/0002827103"
+     "press": "KBS",
+     "title": "‘시장직 상실 위기’ 오세훈, 오늘 항소심 선고…법원 생중계",
+     "url": "https://n.news.naver.com/article/056/0012279345"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 전국 법원 전산망 오후 4시부터 장애…영장 업무 등 차질 우려",
-   "url": "https://n.news.naver.com/article/082/0001403709",
-   "press": "부산일보",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "\"딸 갖고 개떼처럼 달려들더니\"...한동훈, '아들 학폭 의혹'에 분노",
+   "url": "https://n.news.naver.com/article/018/0006394035",
+   "press": "이데일리",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "아이뉴스24",
-     "title": "[속보] 전국 법원 전산망 오후 4시부터 장애⋯영장 등 사법 전산시스템 영향",
-     "url": "https://n.news.naver.com/article/031/0001068567"
+     "press": "뉴스1",
+     "title": "한동훈, '아들 학폭 의혹' 제기 與 박균택에 \"흑색선전…법적 대응\"",
+     "url": "https://n.news.naver.com/article/421/0009245231"
+    },
+    {
+     "press": "파이낸셜뉴스",
+     "title": "\"딸 가지고 개떼처럼 달려들더니\" 한동훈, '아들 학폭 의혹'에 분노...법적 조치 예고",
+     "url": "https://n.news.naver.com/article/014/0005593360"
     }
    ]
   }
