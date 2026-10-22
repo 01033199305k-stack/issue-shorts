@@ -3600,5 +3600,58 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-22_1800_campers-unplug-restroom-alarm/video.mp4"
   },
   "seconds": 1358
+ },
+ {
+  "key": "2026-10-23-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-23T07:00:00+09:00",
+  "started": "2026-10-23T05:03:39.104188+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-95479/",
+   "https://pixabay.com/videos/id-51212/",
+   "https://pixabay.com/videos/id-45358/"
+  ],
+  "duration": 32.33,
+  "matches": [
+   0.98,
+   1.0,
+   0.92,
+   0.97,
+   0.97,
+   0.91,
+   0.91,
+   1.0,
+   0.95,
+   0.94,
+   1.0
+  ],
+  "sfx": 9,
+  "illustrations": 9,
+  "cuts": 11,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "\"절대 만들지 마세요\" 고구마라떼 5잔 주문서에 숨은 이름 #shorts",
+  "source_post": "https://www.inews24.com/view/2017585",
+  "facts_used": [
+   "울산의 한 카페 사장이 턱(뼈)이 부러진 길고양이를 약 1년간 돌보고 병원 치료를 받게 해 고양이가 상당 부분 회복 — 아이뉴스24 2026-10-21 https://www.inews24.com/view/2017585 , 머니투데이 2026-10-22 https://www.mt.co.kr/society/2026/10/22/2026102211164471395",
+   "옆에서 가게를 하는 A씨가 이 사연을 SNS(스레드)에 올린 뒤 약 2시간 만에 다른 지역 손님이 고구마라떼 5잔 주문 — 아이뉴스24, 머니투데이",
+   "주문 요청사항 '사장님 절대(절대절대)로 음료 만들지 말아주세요', '고양이 치료해주셔서 감사합니다' — 아이뉴스24 제목 '\"절대 음료 만들지 마세요\"', 머니투데이 제목 '\"절대 만들지 마세요\"'",
+   "고양이 이름이 '라떼' — 머니투데이, 아이뉴스24 ('메뉴는 고구마라떼 5잔인데 고양이 이름이 라떼')",
+   "카페 사장이 주문을 보고 눈물/울컥 — 머니투데이 제목 '카페 사장 울린 사연', 아이뉴스24 제목 '카페 사장 울린 주문'"
+  ],
+  "slug": "2026-10-23_0700_five-lattes-for-cat-latte",
+  "late": false,
+  "video_id": "AmBNkgNaFIs",
+  "url": "https://youtube.com/shorts/AmBNkgNaFIs",
+  "privacy": "private",
+  "scheduled_for": "2026-10-22T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ada706e80b62e657505044f",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-22T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-23_0700_five-lattes-for-cat-latte/video.mp4"
+  },
+  "seconds": 1110
  }
 ]
