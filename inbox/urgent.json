@@ -1,42 +1,51 @@
 {
- "detected_at": "2026-10-22T15:12+09:00",
+ "detected_at": "2026-10-22T21:23+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李대통령 \"중수청 지휘감독 포기하는 건 탄핵 사유\"",
-   "url": "https://n.news.naver.com/article/015/0005345350",
-   "press": "한국경제",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "title": "[속보]이정현 “광역공소청장·지방공소청장에 공소 취소 검토 지시한 적 없다…사건 공정하게 처리”",
+   "url": "https://n.news.naver.com/article/087/0001225696",
+   "press": "강원일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "한동훈 “대통령이 중수청 지휘 안하면 탄핵사유? 정확히 반대로 말한 것”",
+   "url": "https://n.news.naver.com/article/016/0002713082",
+   "press": "헤럴드경제",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스",
-     "title": "李대통령 \"중수청 지휘감독, 대통령 책임…포기하는건 탄핵사유\"",
-     "url": "https://n.news.naver.com/article/001/0016394266"
+     "press": "국민일보",
+     "title": "李 “중수청 지휘·감독 포기는 탄핵사유”",
+     "url": "https://n.news.naver.com/article/005/0001880339"
     },
     {
-     "press": "KBS",
-     "title": "이 대통령 “중수청 지휘 감독 포기는 탄핵 사유…대통령 권한인 동시에 책임”",
-     "url": "https://n.news.naver.com/article/056/0012278785"
+     "press": "한국경제",
+     "title": "李 \"중수청 지휘 안 하면 탄핵 사유\"…한동훈 \"정확히 반대\"",
+     "url": "https://n.news.naver.com/article/015/0005345381"
     },
     {
-     "press": "세계일보",
-     "title": "李대통령 “중수청 지휘감독 포기하는 건 탄핵 사유…공개회의 열외는 무논리”",
-     "url": "https://n.news.naver.com/article/022/0004168811"
-    },
-    {
-     "press": "서울경제",
-     "title": "李대통령 “중수청 지휘감독 포기하는 건 탄핵 사유”",
-     "url": "https://n.news.naver.com/article/011/0004674025"
+     "press": "문화일보",
+     "title": "[속보]한동훈 “李대통령 수사지휘 ‘하면’ 탄핵…왕으로 착각”",
+     "url": "https://n.news.naver.com/article/021/0002827103"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 집값 89주째 올랐는데 전세도 뛴다…무주택자 ‘매수 압박’ 커지나",
-   "url": "https://n.news.naver.com/article/009/0005752392",
-   "press": "매일경제",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "[속보] 전국 법원 전산망 오후 4시부터 장애…영장 업무 등 차질 우려",
+   "url": "https://n.news.naver.com/article/082/0001403709",
+   "press": "부산일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "아이뉴스24",
+     "title": "[속보] 전국 법원 전산망 오후 4시부터 장애⋯영장 등 사법 전산시스템 영향",
+     "url": "https://n.news.naver.com/article/031/0001068567"
+    }
+   ]
   }
  ]
 }
