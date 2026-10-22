@@ -1,0 +1,331 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "bricklayer-ai-farm-woman",
+ "title_lines": [
+  "전 재산 팔고",
+  "1930km 간 남자"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "전 재산 팔고 1930km 달려간 남자",
+   "say": "전 재산 팔고 천구백삼십 킬로 달려간 남자",
+   "sfx": "punch",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "전 재산 팔고\n1930km 달려간 남자",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "브라질 49살 벽돌공이 틱톡 여자 보고 버스표를 끊음.",
+   "say": "브라질 마흔아홉 살 벽돌공이 틱톡 여자 보고 버스표를 끊음.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "construction",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "左官",
+       "大工",
+       "作業員 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "팔로워 30만 명, 농장 사는 미녀였음.",
+   "say": "팔로워 삼십만 명, 농장 사는 미녀였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "field",
+    "video": [
+     "farm field cows",
+     "farm landscape",
+     "cattle pasture"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "農家 女性",
+       "農業 女性",
+       "牧場"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 내 농장 오면 평생 일 안 하게 해 준다 함.",
+   "say": "와, 내 농장 오면 평생 일 안 하게 해 준다 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "틱톡 영상",
+      "lines": [
+       "팔로워 30만 명",
+       "내 농장에 와서",
+       "평생 일 안 하게"
+      ],
+      "mark": 2,
+      "at": 0.0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマホ 見る 男性"
+      ],
+      "pos": "center",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 버스로 이틀 가 보니 농장이 없음.",
+   "say": "근데 버스로 이틀 가 보니 농장이 없음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "road",
+    "tr": "whoosh",
+    "video": [
+     "bus highway",
+     "bus road travel",
+     "coach bus"
+    ],
+    "items": [
+     {
+      "type": "warn"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "バス",
+       "路線バス"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 결국 라디오 방송국에 찾아가 물어봄.",
+   "say": "헐, 결국 라디오 방송국에 찾아가 물어봄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "cam": "push",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ラジオ DJ",
+       "ラジオ 放送",
+       "マイク"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "자, 방송국의 대답은 이거였음.",
+   "say": "자, 방송국의 대답은 이거였음.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그런 여자는 없음, AI로 만든 가짜였음.",
+   "say": "그런 여자는 없음, 에이아이로 만든 가짜였음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "人工知能",
+       "AI ロボット",
+       "ロボット"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "돈 떨어져서 시청 도움으로 겨우 집에 감.",
+   "say": "돈 떨어져서 시청 도움으로 겨우 집에 감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 男性",
+       "がっかり 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "run-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그래도 다른 여자 또 찾겠다 함.",
+   "say": "그래도 다른 여자 또 찾겠다 함.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ガッツポーズ 男性",
+       "笑う 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "❤️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "버스표 끊고 1930km 달려간 벽돌공이 방송국에서 들은 대답 #shorts",
+  "description": "브라질 마라냥주의 49살 벽돌공 에디마르 마르틴스가 틱톡 팔로워 30만 명의 '농장주 제시카'를 만나려고 가진 물건을 팔아 버스표를 샀음.\n이틀 만에 벨루오리존치에 도착했지만 여자를 찾지 못했고, 현지 라디오 방송국에서 그 여성이 AI로 만든 가상 인물이라는 말을 들었음.\n돈이 떨어진 그는 시 당국의 도움으로 고향에 돌아갔고, 후회하지 않는다며 다른 사람을 찾겠다고 말했음.\n\n※ AI 음성으로 제작했습니다.\n#AI #틱톡 #브라질 #가상인물 #shorts",
+  "tags": [
+   "AI 가상 인물",
+   "틱톡",
+   "브라질",
+   "AI 여친",
+   "농장주 제시카",
+   "해외 토픽",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.hankyung.com/article/202610199324H",
+ "facts_used": [
+  "브라질 마라냥주 임페라트리스의 벽돌공 에디마르 마르틴스(49)가 10월 9일 가진 물건을 모두 처분해 버스표를 삼 — 한국경제 2026-10-19 https://www.hankyung.com/article/202610199324H , 세계일보 2026-10-20 https://www.segye.com/newsView/20261020513072 , 전자신문 https://www.etnews.com/20261019000250",
+  "상대는 '제시카 올리베이라', 일명 '제시카 파젠데이라(농장주 제시카)', 틱톡 팔로워 약 30만 명 — 한국경제, 세계일보, IBTimes UK https://www.ibtimes.co.uk/brazilian-man-travels-meet-ai-generated-woman-1826339",
+  "영상에서 '내 농장에 와서 평생 다시는 일하지 않아도 되도록 해주고 싶다'는 취지로 말함 — AI포스트 https://www.aipostkorea.com/news/articleView.html?idxno=12987 , 아시아경제 2026-10-19 https://view.asiae.co.kr/article/2026101915515296210 , Complex https://complex.com/life/a/backwoodsaltar/brazilian-bricklayer-ai-girlfriend-belo-horizonte",
+  "버스로 약 1930km 이동, 11일 벨루오리존치 도착(이틀) — 재경일보 https://news.jkn.co.kr/post/1034421 , 한국경제, Complex",
+  "현지 라디오 방송국(Rádio Itatiaia)을 찾아가 그런 여성은 존재하지 않고 AI로 만든 것이라는 말을 들음 — 한국경제, 세계일보, Dexerto https://www.dexerto.com/entertainment/man-sells-everything-and-travels-1200-miles-for-woman-he-met-online-only-to-find-out-shes-ai-3420014/",
+  "돈이 거의 없어 벨루오리존치 시 당국의 도움(식사·숙소·버스표)으로 귀향 — 재경일보, Terra https://www.terra.com.br/noticias/pedreiro-diz-que-vendeu-tudo-para-viajar-mais-de-2-mil-km-e-encontrar-mulher-criada-por-ia,2eb509de6f6d2f0b52603540b33cbe4b29dovads.html",
+  "후회하지 않으며 '다른 사람을 찾겠다(vou encontrar outra)'고 말함 — Imirante 2026-10-16 https://m.imirante.com/noticias/imperatriz/2026/10/16/pedreiro-enganado-ia-retorna-vou-encontrar-outra , Mais Goiás https://www.maisgoias.com.br/brasil/cotidiano/vou-encontrar-outra-pedreiro-que-viajou-2-mil-km-por-mulher-de-ia-volta-para-casa/"
+ ],
+ "brief": "점수표: 이게됨5+궁금증5+감정4×2+대상4+판정3=25/30 (후보: 김정식 원장 38년 무료 진료 미담 이게됨2+궁금증3+감정3×2+대상3+판정1=15 / 커피 1잔 40분 대기 감정2 탈락 / 편의점 알바 인사 썰·쿠바 장인 한강라면 - 보도 확인 안 됨 / inbox 나머지 시사·정치). 해외 소재: 오늘 0700 부산 상어(국내), 오늘 첫 해외편. 첫장면: 사람. 훅 3안: '브라질 49살 벽돌공이 틱톡 속 여자 하나 보고 버스표를 끊음.'(채택 - 제목의 '전 재산'보다 한 발 나간 '틱톡 여자·버스표') / '49살 벽돌공이 가진 물건을 전부 팔아 버림.'(제목 반복) / '팔로워 30만 명 미녀가 자기 농장으로 오라 함.'. 글 카드 제목은 가장 센 숫자 1930km를 넣음. 이해검사: 브라질 49살 벽돌공이 틱톡 '농장주 제시카'를 만나려고 물건을 팔아 1930km를 갔는데, 방송국에서 그 여자는 AI 가짜라는 말을 듣고 시청 도움으로 집에 돌아갔다. 증거: 틱톡 영상 문서(팔로워 30만·'내 농장에 와서 평생 일 안 하게' 취지 - AI포스트·아시아경제·Complex). 주의: 거리는 보도마다 1900~2100km, 한국 보도 다수인 1930km 사용. 운영자는 직접 연락한 적 없다고 주장(남성은 대화했다고 함) - 엇갈려서 대본에 안 씀. 피해자 실명은 설명란에만(보도된 공개 인터뷰 인물), 조롱 없이. like_egg: 없음 (dog·cat·car 등 해당 낱말 없음). 마지막: 7번 답(hit) → 8번 결과 → 9번 리액션(react), 질문 없음. 그림대조: 완료 (해외라 street·apartment·market 안 씀)."
+}
