@@ -3495,5 +3495,58 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-22_0700_busan-shark-leaves-canal/video.mp4"
   },
   "seconds": 1095
+ },
+ {
+  "key": "2026-10-22-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-22T12:00:00+09:00",
+  "started": "2026-10-22T09:18:27.094632+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-175305/",
+   "https://pixabay.com/videos/id-88921/"
+  ],
+  "duration": 28.58,
+  "matches": [
+   0.97,
+   0.9,
+   0.94,
+   0.93,
+   1.0,
+   1.0,
+   0.96,
+   1.0,
+   1.0,
+   0.94
+  ],
+  "sfx": 8,
+  "illustrations": 9,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "버스표 끊고 1930km 달려간 벽돌공이 방송국에서 들은 대답 #shorts",
+  "source_post": "https://www.hankyung.com/article/202610199324H",
+  "facts_used": [
+   "브라질 마라냥주 임페라트리스의 벽돌공 에디마르 마르틴스(49)가 10월 9일 가진 물건을 모두 처분해 버스표를 삼 — 한국경제 2026-10-19 https://www.hankyung.com/article/202610199324H , 세계일보 2026-10-20 https://www.segye.com/newsView/20261020513072 , 전자신문 https://www.etnews.com/20261019000250",
+   "상대는 '제시카 올리베이라', 일명 '제시카 파젠데이라(농장주 제시카)', 틱톡 팔로워 약 30만 명 — 한국경제, 세계일보, IBTimes UK https://www.ibtimes.co.uk/brazilian-man-travels-meet-ai-generated-woman-1826339",
+   "영상에서 '내 농장에 와서 평생 다시는 일하지 않아도 되도록 해주고 싶다'는 취지로 말함 — AI포스트 https://www.aipostkorea.com/news/articleView.html?idxno=12987 , 아시아경제 2026-10-19 https://view.asiae.co.kr/article/2026101915515296210 , Complex https://complex.com/life/a/backwoodsaltar/brazilian-bricklayer-ai-girlfriend-belo-horizonte",
+   "버스로 약 1930km 이동, 11일 벨루오리존치 도착(이틀) — 재경일보 https://news.jkn.co.kr/post/1034421 , 한국경제, Complex",
+   "현지 라디오 방송국(Rádio Itatiaia)을 찾아가 그런 여성은 존재하지 않고 AI로 만든 것이라는 말을 들음 — 한국경제, 세계일보, Dexerto https://www.dexerto.com/entertainment/man-sells-everything-and-travels-1200-miles-for-woman-he-met-online-only-to-find-out-shes-ai-3420014/",
+   "돈이 거의 없어 벨루오리존치 시 당국의 도움(식사·숙소·버스표)으로 귀향 — 재경일보, Terra https://www.terra.com.br/noticias/pedreiro-diz-que-vendeu-tudo-para-viajar-mais-de-2-mil-km-e-encontrar-mulher-criada-por-ia,2eb509de6f6d2f0b52603540b33cbe4b29dovads.html",
+   "후회하지 않으며 '다른 사람을 찾겠다(vou encontrar outra)'고 말함 — Imirante 2026-10-16 https://m.imirante.com/noticias/imperatriz/2026/10/16/pedreiro-enganado-ia-retorna-vou-encontrar-outra , Mais Goiás https://www.maisgoias.com.br/brasil/cotidiano/vou-encontrar-outra-pedreiro-que-viajou-2-mil-km-por-mulher-de-ia-volta-para-casa/"
+  ],
+  "slug": "2026-10-22_1200_bricklayer-ai-farm-woman",
+  "late": false,
+  "video_id": "rYEgYRm4inE",
+  "url": "https://youtube.com/shorts/rYEgYRm4inE",
+  "privacy": "private",
+  "scheduled_for": "2026-10-22T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ad95c36282deeeeb2c12220",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-22T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-22_1200_bricklayer-ai-farm-woman/video.mp4"
+  },
+  "seconds": 1509
  }
 ]
