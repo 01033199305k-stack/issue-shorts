@@ -1,41 +1,40 @@
 {
- "detected_at": "2026-10-22T10:28+09:00",
+ "detected_at": "2026-10-22T15:12+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "한국 편의점에 먹을거 없다고 따지는 무슬림",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1041776",
-   "board": "보배드림 베스트",
-   "why": "커뮤니티 3곳 동시 화제",
-   "news": []
-  },
-  {
    "kind": "news",
-   "title": "[속보] 국토부 장관 “전세의 월세화, 1인 가구 증가·전세사기 여파”",
-   "url": "https://n.news.naver.com/article/024/0000109084",
-   "press": "매경이코노미",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "李대통령 \"중수청 지휘감독 포기하는 건 탄핵 사유\"",
+   "url": "https://n.news.naver.com/article/015/0005345350",
+   "press": "한국경제",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "부산일보",
-     "title": "[속보] 국토부장관 \"전세의 월세화, 1인 가구 증가·전세사기 여파\"",
-     "url": "https://n.news.naver.com/article/082/0001403555"
+     "press": "연합뉴스",
+     "title": "李대통령 \"중수청 지휘감독, 대통령 책임…포기하는건 탄핵사유\"",
+     "url": "https://n.news.naver.com/article/001/0016394266"
+    },
+    {
+     "press": "KBS",
+     "title": "이 대통령 “중수청 지휘 감독 포기는 탄핵 사유…대통령 권한인 동시에 책임”",
+     "url": "https://n.news.naver.com/article/056/0012278785"
+    },
+    {
+     "press": "세계일보",
+     "title": "李대통령 “중수청 지휘감독 포기하는 건 탄핵 사유…공개회의 열외는 무논리”",
+     "url": "https://n.news.naver.com/article/022/0004168811"
+    },
+    {
+     "press": "서울경제",
+     "title": "李대통령 “중수청 지휘감독 포기하는 건 탄핵 사유”",
+     "url": "https://n.news.naver.com/article/011/0004674025"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] ‘부산 돌려차기’ 가해자 월 10만원 영치금 사용 유지…피해자 “손배금 회수 못해”",
-   "url": "https://n.news.naver.com/article/029/0003054557",
-   "press": "디지털타임스",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 李대통령 지지율 '반등' 37.5%…'진보' 의제 조국혁신당 9%대로 올라",
-   "url": "https://n.news.naver.com/article/002/0002462109",
-   "press": "프레시안",
+   "title": "[속보] 집값 89주째 올랐는데 전세도 뛴다…무주택자 ‘매수 압박’ 커지나",
+   "url": "https://n.news.naver.com/article/009/0005752392",
+   "press": "매일경제",
    "why": "[속보] 기사",
    "related": []
   }
