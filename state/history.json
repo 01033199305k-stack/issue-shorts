@@ -3653,5 +3653,55 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-23_0700_five-lattes-for-cat-latte/video.mp4"
   },
   "seconds": 1110
+ },
+ {
+  "key": "2026-10-23-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-23T12:00:00+09:00",
+  "started": "2026-10-23T09:17:54.167672+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-32975/",
+   "https://pixabay.com/videos/id-115113/"
+  ],
+  "duration": 26.06,
+  "matches": [
+   0.97,
+   0.96,
+   1.0,
+   0.98,
+   0.94,
+   1.0,
+   1.0,
+   0.97,
+   0.96
+  ],
+  "sfx": 8,
+  "illustrations": 7,
+  "cuts": 9,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "\"누가 돌아가셨어요?\" 3시간 운 옆자리 승객이 한 대답 #shorts",
+  "source_post": "https://www.seoul.co.kr/news/international/USA-amrica/2026/10/22/20261022500156",
+  "facts_used": [
+   "미국 여행 인플루언서 토미코 하비(55)가 이스탄불발 워싱턴DC행 약 10시간 항공편에서 겪은 일을 SNS에 올림 — 서울신문 2026-10-22 https://www.seoul.co.kr/news/international/USA-amrica/2026/10/22/20261022500156 , 아시아경제 2026-10-22 https://view.asiae.co.kr/article/2026102215462520675 , Latestly https://www.latestly.com/us/travel-blogger-tomiko-harvey-refuses-to-swap-aisle-seat-on-10-hour-flight-woman-cries-for-3-hours-video-goes-viral-7651578.html",
+   "옆자리 여성이 통로석을 두 줄 앞 가운데 좌석의 남편 자리와 바꿔 달라고 요청, 하비가 거절 — 파이낸셜뉴스 2026-10-22 https://www.fnnews.com/news/202610222147378262 , Fashion Times https://www.fashiontimes.co.uk/woman-cries-after-flight-seat-swap-refusal-1766075",
+   "하비는 카자흐스탄 여행 중 아버지 부고를 듣고 귀국하던 길 — 서울신문, 아시아경제, Latestly(위 URL)",
+   "거절 뒤 여성이 약 3시간 울었고, 누가 죽었냐는 물음에 아무도 안 죽었고 남편이 보고 싶고 남편 어깨에 기대고 싶다고 답함(하비 주장) — 파이낸셜뉴스, 위키트리 https://www.wikitree.co.kr/articles/1168393 , Yahoo Travel https://travel.yahoo.com/advice/travel-tips/articles/airline-passenger-tears-seatmate-refused-184613284.html",
+   "남편은 헤드폰을 쓴 채 자고 있었다고 함(하비 주장) — 아시아경제, Fashion Times, Yahoo Travel"
+  ],
+  "slug": "2026-10-23_1200_seat-swap-refused-three-hour-cry",
+  "late": false,
+  "video_id": "8rN6_EIYwPk",
+  "url": "https://youtube.com/shorts/8rN6_EIYwPk",
+  "privacy": "private",
+  "scheduled_for": "2026-10-23T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6adaad25535235087b7397a6",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-23T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-23_1200_seat-swap-refused-three-hour-cry/video.mp4"
+  },
+  "seconds": 1397
  }
 ]
