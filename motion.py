@@ -1004,6 +1004,9 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
         last_place = place or last_place
         items = _hero(items, has_clip, picker, bool(place)) or \
             [{"type": "emoji", "text": "🤔", "pos": "center", "size": "xl", "fx": "pop"}]
+        if has_clip and clips[i].get("tag"):   # a real photo (photo.py) stands alone: no cartoon sticker on it
+            items = [it for it in items if it.get("type") not in ("illust", "crowd")] or \
+                [{"type": "emoji", "text": "📸", "pos": "top-left", "size": "s", "fx": "pop"}]
         parts, data = [], []
         pics = {}
         floor = _item_floor(cues, st, en)                    # words stay above the caption box
@@ -1098,7 +1101,8 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
         clip = clips[i] if i < len(clips) else None
         if clip:   # after the items so el.children[j] still indexes them
             base = file_url(Path(clip["dir"]) / "f_")
-            parts.append(f'<img class="bgv" src="{base}0001.jpg"><div class="tag">자료화면</div>')
+            # stock says '자료화면'; an official photo (photo.py) carries its credit, "사진=○○소방본부 제공"
+            parts.append(f'<img class="bgv" src="{base}0001.jpg"><div class="tag">{esc(clip.get("tag") or "자료화면")}</div>')
         elif place:   # after the items too (el.children[j] indexes them); z-index 0 keeps it underneath
             gray = " gray" if any(d["type"] == "warn" for d in data) else ""
             url = file_url(PLACES_DIR / (place + ".jpg"))

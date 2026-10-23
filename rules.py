@@ -51,6 +51,10 @@ def _check_visual(i: int, v: dict) -> list[str]:
     if vq is not None and not (isinstance(vqs, list) and 1 <= len(vqs) <= 3 and all(
             isinstance(q, str) and re.fullmatch(r"[A-Za-z0-9 ,'-]{2,40}", q) for q in vqs)):
         p.append(f"segment {i}: video must be 2-40 chars of English search words (or a list of 1-3 such candidates), got {vq!r}")
+    ph = v.get("photo")
+    if ph is not None and not (isinstance(ph, dict) and isinstance(ph.get("who"), str) and 2 <= len(ph["who"]) <= 20
+                               and (ph.get("src") is None or re.match(r"https?://", str(ph["src"])))):
+        p.append(f"segment {i}: photo must be {{\"who\": \"<agency, e.g. 강원소방본부>\", \"src\": \"<article URL, optional>\"}}")
     items = v.get("items") or []
     if not 1 <= len(items) <= 6:
         p.append(f"segment {i}: visual needs 1-6 items (has {len(items)})")

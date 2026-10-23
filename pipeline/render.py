@@ -10,10 +10,12 @@ the cut into this segment; on segment 0 it fires at t=0), tone (optional acting
 note added to the voice instruction), join (true: the sentence runs on into the
 next screen, so the two are voiced as one take), visual (v2) or card (v1).
 """
+import re
 import zlib
 from pathlib import Path
 
 import motion
+import photo
 import stock
 from illust import Picker
 from pipeline import assemble, tts
@@ -197,9 +199,23 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     picker = Picker()
     used_clips: set = set()
     clips = []
+    found: dict = {}   # agency -> its photo, looked up once per video
+    article_urls = list(dict.fromkeys(re.findall(r"https?://[^\s,)\]\"']+", " ".join(script.get("facts_used") or [])
+                                                 + " " + (script.get("source_post") or ""))))
     for i, (vis, (st, en)) in enumerate(zip(visuals, times)):
         qs = (vis or {}).get("video") or []
         clip = None
+        if (ph := (vis or {}).get("photo")):   # the real photo an agency released beats any stock footage
+            key = ph.get("who", "")
+            if key not in found:
+                found[key] = photo.find([ph["src"]] if ph.get("src") else article_urls, key)
+            if found[key]:
+                clip = photo.frames(found[key], en - st + motion.LEAD + 0.2, work_dir / f"photo_{i:02d}", motion.FPS)
+            else:
+                print(f"    photo: no photo credited to {key!r} - scene keeps its own picture")
+            if clip:
+                clips.append(clip)
+                continue
         for k, q in enumerate([qs] if isinstance(qs, str) else qs):   # candidates in order, like illust q lists
             if (clip := stock.clip_frames(q, en - st + motion.LEAD + 0.2, work_dir / f"clip_{i:02d}_{k}",
                                           motion.FPS, used_clips)):
