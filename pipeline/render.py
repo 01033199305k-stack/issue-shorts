@@ -7,7 +7,8 @@
 
 Segment fields: text (captions), say (what the voice reads), sfx (one-shot on
 the cut into this segment; on segment 0 it fires at t=0), tone (optional acting
-note added to the voice instruction), visual (v2) or card (v1).
+note added to the voice instruction), join (true: the sentence runs on into the
+next screen, so the two are voiced as one take), visual (v2) or card (v1).
 """
 import zlib
 from pathlib import Path
@@ -37,6 +38,99 @@ def gap_after(i: int, segments: list) -> float:
     if i == 0:
         return 0.16
     return 0.1 if segments[i + 1].get("text", "").startswith(TURN) else 0.0
+
+
+def voice_runs(segments: list) -> list[list[int]]:
+    """Screens voiced as one take. 2026-10-23: the references run a sentence on across a cut ("~는데,"),
+    but Sohee voiced alone drops the end of "들어왔는데," like a full stop (4-13 semitones under the line,
+    the same as the "~음." controls) and a "carry on" tone lifted only 2 of 4. A segment with "join": true
+    is voiced together with the next one, so the pitch carries over, and the take is cut back into screens."""
+    runs, cur = [], []
+    for i, seg in enumerate(segments):
+        cur.append(i)
+        if not (seg.get("join") and 0 < i < len(segments) - 1):
+            runs.append(cur)
+            cur = []
+    return runs
+
+
+def run_tone(segs: list) -> str | None:
+    """One acting note for a joined take: each screen's tone in order ("처음엔 A, 이어서 B")."""
+    tones = []
+    for s in segs:
+        t = (s.get("tone") or "").strip().rstrip(".")
+        if t and t not in tones:
+            tones.append(t)
+    if len(tones) <= 1:
+        return tones[0] if tones else None
+    return "처음엔 " + ", 이어서 ".join(tones)
+
+
+def _quiet_point(a, sr: int, lo: float, hi: float) -> float:
+    """The quietest 20 ms inside [lo, hi] - where one syllable hands over to the next."""
+    import numpy as np
+    win, hop = int(0.02 * sr), int(0.005 * sr)
+    i0, i1 = max(0, int(lo * sr)), min(len(a) - win, int(hi * sr))
+    if i1 <= i0:
+        return (lo + hi) / 2
+    starts = range(i0, i1, hop)
+    rms = [float(np.sqrt(np.mean(a[s:s + win] ** 2))) for s in starts]
+    return (starts[int(np.argmin(rms))] + win / 2) / sr
+
+
+def _heard_index(sm, i: int, n: int) -> int:
+    """Where position i of the script lands in what whisper heard (difflib opcodes)."""
+    for tag, i1, i2, j1, j2 in sm.get_opcodes():
+        if i1 <= i < i2:
+            return j1 + (i - i1) if tag == "equal" else j1 + round((i - i1) / (i2 - i1) * (j2 - j1))
+    return n
+
+
+def split_take(res, segs: list, paths: list[Path]) -> list:
+    """Cut one joined take back into per-screen clips in the gap between the words where a screen ends.
+    Whisper hears the take again and the script is lined up with it by sound (tts._norm), because the
+    take's own word times are shares of the caption text, which drift where captions and speech differ
+    (5잔 / 다섯 잔): the first try put "데" of "들어왔는데" on the next screen and cut "카페" in half.
+    The clips are sample-exact neighbours, so played in a row they are the original take."""
+    import difflib
+    import soundfile as sf
+    a, sr = sf.read(str(res.audio_path), dtype="float32")
+    heard = tts.hear(res.audio_path)
+    says = [tts._norm(s.get("say") or s["text"]) for s in segs]
+    sounds, owner = "", []   # every heard sound unit, and the heard word it belongs to
+    for n, w in enumerate(heard):
+        u = tts._norm(w.text)
+        sounds += u
+        owner += [n] * len(u)
+    cut = [0]
+    if sounds:
+        sm = difflib.SequenceMatcher(None, "".join(says), sounds, autojunk=False)
+        starts = [k for k in range(len(owner)) if k == 0 or owner[k] != owner[k - 1]]
+        pos = 0
+        for s in says[:-1]:
+            pos += len(s)
+            h = _heard_index(sm, pos, len(sounds))
+            w = owner[min(starts, key=lambda k: abs(k - h))]   # the heard word the next screen opens with
+            lo, hi = heard[max(0, w - 1)].end - 0.06, heard[w].start + 0.06
+            cut.append(max(cut[-1] + 1, int(round(_quiet_point(a, sr, min(lo, hi), max(lo, hi)) * sr))))
+    else:   # whisper heard nothing: split by each screen's share of the script
+        total = sum(len(s) for s in says) or 1
+        for k in range(1, len(says)):
+            cut.append(int(len(a) * sum(len(s) for s in says[:k]) / total))
+    cut.append(len(a))
+    out = []
+    for j, (seg, path) in enumerate(zip(segs, paths)):
+        piece = a[cut[j]:cut[j + 1]]
+        sf.write(str(path), piece, sr)
+        t0, dur = cut[j] / sr, len(piece) / sr
+        mine = [Word(w.text, w.start - t0, w.end - t0) for w in heard if 0 <= (w.start + w.end) / 2 - t0 < dur]
+        ws = tts._map_words(seg["text"], mine) if mine else []
+        if not ws:   # nothing heard on this screen: spread its caption words over the clip
+            toks = seg["text"].split()
+            ws = [Word(t, dur * k / len(toks), dur * (k + 1) / len(toks)) for k, t in enumerate(toks)]
+        ws = [Word(w.text, min(max(0.0, w.start), dur), min(max(0.0, w.end), dur)) for w in ws]
+        out.append(tts.TTSResult(path, ws, dur, res.match))
+    return out
 
 
 def _pad(path: Path, seconds: float) -> None:
@@ -71,19 +165,23 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
         segments.append(motion.egg_segment(egg, egg_q))   # spoken "좋아요 누르면 좋아요가 … 변해요~" over its drawing
 
     wavs, results = [], []
-    for i, seg in enumerate(segments):
-        print(f"  voice {i + 1}/{len(segments)}: {seg['text'][:40]}")
+    for run in voice_runs(segments):
+        segs, i0 = [segments[i] for i in run], run[0]
+        print(f"  voice {i0 + 1}/{len(segments)}: " + " / ".join(s["text"][:40] for s in segs))
         res = tts.synthesize(
-            seg.get("say") or seg["text"], work_dir / f"seg_{i:02d}.wav",
-            engine=cfg["engine"], voice=cfg["voice"], instruct=voice_instruct(cfg.get("instruct", ""), seg.get("tone"), cfg.get("instruct_persona", "")),
-            speed=float(cfg.get("speed", 1.0)), display=seg["text"], seed=7 + i,
+            " ".join(s.get("say") or s["text"] for s in segs),
+            work_dir / (f"seg_{i0:02d}.wav" if len(run) == 1 else f"run_{i0:02d}.wav"),
+            engine=cfg["engine"], voice=cfg["voice"], instruct=voice_instruct(cfg.get("instruct", ""), run_tone(segs), cfg.get("instruct_persona", "")),
+            speed=float(cfg.get("speed", 1.0)), display=" ".join(s["text"] for s in segs), seed=7 + i0,
             head_pad=HEAD_PAD, tail_pad=TAIL_PAD, takes=int(cfg.get("tts_takes", 1)))
-        if (g := gap_after(i, segments)):
-            _pad(res.audio_path, g)
-            res.duration = round(res.duration + g, 3)
-        print(f"    {res.duration:.1f}s, match {res.match:.2f}")
-        wavs.append(res.audio_path)
-        results.append(res)
+        parts = [res] if len(run) == 1 else split_take(res, segs, [work_dir / f"seg_{i:02d}.wav" for i in run])
+        for i, part in zip(run, parts):
+            if i == run[-1] and (g := gap_after(i, segments)):   # no beat inside a joined take
+                _pad(part.audio_path, g)
+                part.duration = round(part.duration + g, 3)
+            print(f"    {part.duration:.1f}s, match {part.match:.2f}")
+            wavs.append(part.audio_path)
+            results.append(part)
     tts.release_models()
 
     times, words, cursor = [], [], 0.0

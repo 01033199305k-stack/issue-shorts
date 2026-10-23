@@ -215,6 +215,9 @@ def validate(script: dict) -> list[str]:
         tone = s.get("tone")
         if tone is not None and not (isinstance(tone, str) and len(tone.strip()) <= 40):
             p.append(f"segment {i}: tone must be a short delivery note for the voice (max 40 chars)")
+        if s.get("join") is not None and (not isinstance(s["join"], bool) or (s["join"] and not 0 < i < len(segs) - 1)):
+            p.append(f"segment {i}: join must be true/false, and only on a body sentence that runs on into the next "
+                     "(not the title card or the last sentence)")
         if "visual" in s:
             vp = _check_visual(i, s["visual"])
             if in_japan:

@@ -319,10 +319,14 @@ def _take(text, out_wav, take, *, gen, voice, instruct, speed, display, seed):
     _trim_tail(full, sped, _cut_tail(full))
     full.unlink(missing_ok=True)
     _squeeze_pauses(sped)
-    segs, _ = _whisper_model().transcribe(_load16k(sped), language="ko", word_timestamps=True)
-    heard = [Word(w.word.strip(), w.start, w.end)
-             for s in segs for w in (s.words or []) if w.word.strip()]
+    heard = hear(sped)
     return _similarity(" ".join(w.text for w in heard), text, display), sped, heard, ffprobe_duration(sped)
+
+
+def hear(path: Path) -> list[Word]:
+    """What whisper hears in a clip, word by word, on the clip's own timeline."""
+    segs, _ = _whisper_model().transcribe(_load16k(path), language="ko", word_timestamps=True)
+    return [Word(w.word.strip(), w.start, w.end) for s in segs for w in (s.words or []) if w.word.strip()]
 
 
 def _synthesize_fresh(text, out_wav, *, gen, voice, instruct, speed, display, seed, head_pad, tail_pad,
