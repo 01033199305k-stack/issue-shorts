@@ -1,79 +1,140 @@
 {
- "detected_at": "2026-10-23T15:15+09:00",
+ "detected_at": "2026-10-23T18:59+09:00",
  "candidates": [
   {
+   "kind": "community",
+   "title": "아시안게임 금메달 병역혜택 폐지 확정적.JPG",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/77125449",
+   "board": "루리웹 베스트",
+   "why": "커뮤니티 3곳 동시 화제",
+   "news": []
+  },
+  {
    "kind": "news",
-   "title": "‘여론조사비 대납 의혹’ 오세훈, 2심서 무죄…“명태균 진술 믿기 어려워”",
-   "url": "https://n.news.naver.com/article/056/0012279640",
-   "press": "KBS",
-   "why": "언론사 8곳이 댓글 많은 기사 1위로",
+   "title": "특검, 오세훈 무죄에 상고 뜻…“재판부, 결정적 증거 아무 언급 안 해”",
+   "url": "https://n.news.naver.com/article/028/0002828898",
+   "press": "한겨레",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "경향신문",
-     "title": "[속보]‘여론조사비 대납 의혹’ 오세훈 2심서 무죄 선고…1심 유죄 뒤집혀",
-     "url": "https://n.news.naver.com/article/032/0003478151"
-    },
-    {
-     "press": "파이낸셜뉴스",
-     "title": "[속보] 오세훈 서울시장, 2심 무죄...\"명태균 진술 믿기 어려워\"",
-     "url": "https://n.news.naver.com/article/014/0005593603"
-    },
-    {
      "press": "조선비즈",
-     "title": "오세훈 ‘명태균 여론조사비 대납 의혹’ 2심 무죄… 1심 당선무효형 뒤집혀",
-     "url": "https://n.news.naver.com/article/366/0001199928"
+     "title": "與, 오세훈 무죄에 “사법 개혁 도화선 될 것”",
+     "url": "https://n.news.naver.com/article/366/0001199963"
     },
     {
-     "press": "연합뉴스TV",
-     "title": "[속보] 오세훈, '명태균 여론조사' 항소심 무죄…시장직 유지",
-     "url": "https://n.news.naver.com/article/422/0000918742"
+     "press": "kbc광주방송",
+     "title": "與 \"'오세훈 2심 무죄' 상식 벗어나\"…특검 \"납득 어려워, 상고\"",
+     "url": "https://n.news.naver.com/article/660/0000119795"
+    },
+    {
+     "press": "세계일보",
+     "title": "[속보] 특검, 오세훈 2심 무죄에 “실망스러워…상고해 바로잡을 것”",
+     "url": "https://n.news.naver.com/article/022/0004169160"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[2보] 오세훈 '정치자금법' 사건 2심 무죄…1심 뒤집혀",
-   "url": "https://n.news.naver.com/article/001/0016396808",
-   "press": "연합뉴스",
-   "why": "언론사 16곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 민주당 “상식 벗어난 오세훈 판결 강력 유감, 사법개혁 도화선 될 것”",
+   "url": "https://n.news.naver.com/article/016/0002713642",
+   "press": "헤럴드경제",
+   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "경향신문",
-     "title": "[속보]‘여론조사비 대납 의혹’ 오세훈 2심서 무죄 선고…1심 유죄 뒤집혀",
-     "url": "https://n.news.naver.com/article/032/0003478151"
-    },
-    {
-     "press": "파이낸셜뉴스",
-     "title": "[속보] 오세훈 서울시장, 2심 무죄...\"명태균 진술 믿기 어려워\"",
-     "url": "https://n.news.naver.com/article/014/0005593603"
-    },
-    {
      "press": "조선비즈",
-     "title": "오세훈 ‘명태균 여론조사비 대납 의혹’ 2심 무죄… 1심 당선무효형 뒤집혀",
-     "url": "https://n.news.naver.com/article/366/0001199928"
+     "title": "與, 오세훈 무죄에 “사법 개혁 도화선 될 것”",
+     "url": "https://n.news.naver.com/article/366/0001199963"
     },
     {
-     "press": "MBC",
-     "title": "[속보] 오세훈 '정치자금법' 사건 2심 무죄‥1심 '시장직 상실형' 뒤집혀",
-     "url": "https://n.news.naver.com/article/214/0001530997"
+     "press": "디지털타임스",
+     "title": "민주당 “상식 벗어난 오세훈 판결, ‘무죄 자판기’인가…사법개혁 도화선 될 것”",
+     "url": "https://n.news.naver.com/article/029/0003054879"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 민주 한병도 \"오세훈에 면죄부, 재판부 판단 유감\"",
-   "url": "https://n.news.naver.com/article/052/0002422731",
-   "press": "YTN",
+   "title": "오세훈 항소심 무죄…‘보수진영 대권주자’ 계속 간다",
+   "url": "https://n.news.naver.com/article/020/0003757180",
+   "press": "동아일보",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선비즈",
+     "title": "與, 오세훈 무죄에 “사법 개혁 도화선 될 것”",
+     "url": "https://n.news.naver.com/article/366/0001199963"
+    },
+    {
+     "press": "중앙일보",
+     "title": "오세훈, 1심 뒤집은 무죄에 울컥…보수 주도권 거머쥐었다",
+     "url": "https://n.news.naver.com/article/025/0003560048"
+    },
+    {
+     "press": "미디어오늘",
+     "title": "오세훈 여론조사 대납 항소심 극적 무죄 파문 \"명태균 진술 믿을 수 없어\"",
+     "url": "https://n.news.naver.com/article/006/0000138359"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]“끝났다” 외친 서울시 직원들···‘무죄’ 오세훈, 본격 대선모드 들어가나",
+   "url": "https://n.news.naver.com/article/032/0003478152",
+   "press": "경향신문",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선비즈",
+     "title": "與, 오세훈 무죄에 “사법 개혁 도화선 될 것”",
+     "url": "https://n.news.naver.com/article/366/0001199963"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "울먹인 오세훈, 2심서 무죄…\"결백 믿어준 국민께 감사\"(상보)",
+   "url": "https://n.news.naver.com/article/277/0005832720",
+   "press": "아시아경제",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선비즈",
+     "title": "與, 오세훈 무죄에 “사법 개혁 도화선 될 것”",
+     "url": "https://n.news.naver.com/article/366/0001199963"
+    },
+    {
+     "press": "문화일보",
+     "title": "[속보]오세훈 서울시장 2심 무죄…울컥하며 “결백 믿어준 시민께 감사”",
+     "url": "https://n.news.naver.com/article/021/0002827417"
+    },
+    {
+     "press": "매일경제",
+     "title": "[속보] ‘무죄’에 울먹인 오세훈 “결백 믿어준 국민께 감사”",
+     "url": "https://n.news.naver.com/article/009/0005753093"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 보수 서정욱, '장동혁 욕설 녹취록'에 \"보수에선 '장동혁 상남자' 여론 많이 올라와\"",
+   "url": "https://n.news.naver.com/article/002/0002462375",
+   "press": "프레시안",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보]인천공항서 빵 봉지에 불 지른 남성 붙잡혀, 시민이 소화기로 진화",
-   "url": "https://n.news.naver.com/article/021/0002827416",
-   "press": "문화일보",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "[속보]김민석, 오세훈 무죄에 \"납득 어려운 판결…대법 엄정한 판단 기대\"",
+   "url": "https://n.news.naver.com/article/079/0004202192",
+   "press": "노컷뉴스",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선비즈",
+     "title": "與, 오세훈 무죄에 “사법 개혁 도화선 될 것”",
+     "url": "https://n.news.naver.com/article/366/0001199963"
+    }
+   ]
   }
  ]
 }
