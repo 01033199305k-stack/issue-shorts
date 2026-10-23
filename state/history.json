@@ -3754,5 +3754,54 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-23_1800_door-ding-cash-plus-injury-claim/video.mp4"
   },
   "seconds": 1383
+ },
+ {
+  "key": "2026-10-24-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-24T07:00:00+09:00",
+  "started": "2026-10-24T04:16:41.806961+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-49395/",
+   "https://pixabay.com/videos/id-269480/"
+  ],
+  "duration": 27.43,
+  "matches": [
+   0.94,
+   1.0,
+   1.0,
+   1.0,
+   0.99,
+   1.0,
+   0.93,
+   0.96,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 8,
+  "cuts": 9,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "백김치라던 식단표, 15개월 아기 식판에 실제로 올라간 반찬 #shorts",
+  "source_post": "https://www.fnnews.com/news/202610231054520224",
+  "facts_used": [
+   "학부모 A씨가 SNS에 2025년 7월생(15개월) 자녀의 어린이집 식단표와 실제 급식 사진을 올림 — 파이낸셜뉴스 2026-10-23 https://www.fnnews.com/news/202610231054520224 , 아시아경제 2026-10-23 https://view.asiae.co.kr/article/2026102316085370321",
+   "식단표: 백미밥·오징어뭇국·오리훈제부추볶음·잔멸치조림·백김치 / 실제: 햄볶음밥·양념된(빨간) 김치·조미김·잘게 자른 중멸치볶음 — 파이낸셜뉴스, 데일리안 https://www.dailian.co.kr/news/view/1705505 , 위키트리 https://www.wikitree.co.kr/articles/1168501",
+   "등록 당시 키즈노트·식단 사진을 제공하지 않는다는 안내를 받았으나 교사들이 아이들을 아끼고 식사도 잘 나온다는 다른 학부모 말에 지켜보기로 함 — 파이낸셜뉴스, 인사이트 https://www.insight.co.kr/news/578977",
+   "식단과 실제 급식이 다른 걸 확인하고 어린이집을 옮기는 방안까지 고민 — 파이낸셜뉴스, 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02952006645615872"
+  ],
+  "slug": "2026-10-24_0700_daycare-menu-vs-real-tray",
+  "late": false,
+  "video_id": "YeQFIqvWXEI",
+  "url": "https://youtube.com/shorts/YeQFIqvWXEI",
+  "privacy": "private",
+  "scheduled_for": "2026-10-23T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6adbb6fe0b5343d070499355",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-23T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-24_0700_daycare-menu-vs-real-tray/video.mp4"
+  },
+  "seconds": 1127
  }
 ]
