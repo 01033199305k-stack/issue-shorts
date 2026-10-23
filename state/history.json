@@ -3703,5 +3703,56 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-23_1200_seat-swap-refused-three-hour-cry/video.mp4"
   },
   "seconds": 1397
+ },
+ {
+  "key": "2026-10-23-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-23T18:00:00+09:00",
+  "started": "2026-10-23T15:21:03.238714+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-2165/",
+   "https://pixabay.com/videos/id-50622/"
+  ],
+  "duration": 28.69,
+  "matches": [
+   1.0,
+   1.0,
+   0.95,
+   0.93,
+   0.93,
+   0.92,
+   0.92,
+   0.94,
+   0.93,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 8,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "주차장 새 차 문콕 한 번에 현금 30만 원, 다음 날 보험사가 전한 요구 하나 더 #shorts",
+  "source_post": "https://www.mt.co.kr/society/2026/10/22/2026102210553919266",
+  "facts_used": [
+   "아이가 차 문을 열다 옆 차에 문콕, 상대 탑승자들이 아이에게 고함 — 머니투데이 2026-10-22 https://www.mt.co.kr/society/2026/10/22/2026102210553919266 , 인사이트 https://www.insight.co.kr/news/578912 , 위키트리 2026-10-23 https://www.wikitree.co.kr/articles/1168507",
+   "지인이 글쓴이 아이를 태워 가던 중 사고(글쓴이 주장) — 머니투데이, 일요시사 https://www.ilyosisa.co.kr/news/article.html?no=258464",
+   "현장에 경찰·보험사 직원이 왔고 대물 접수가 이뤄짐 — 일요시사, 아이뉴스24 https://m.inews24.com/v/2018318 , 머니투데이",
+   "다음 날 상대 측이 보험사를 통해 '새 차라 수리는 안 하고 현금 30만 원 + 대인 접수' 요구 — 머니투데이, 인사이트, 아이뉴스24, 일요시사",
+   "글쓴이는 현금 30만 원은 주고 대인 접수는 거부하겠다는 생각 — 머니투데이, 위키트리"
+  ],
+  "slug": "2026-10-23_1800_door-ding-cash-plus-injury-claim",
+  "late": false,
+  "video_id": "axwEqIPXafA",
+  "url": "https://youtube.com/shorts/axwEqIPXafA",
+  "privacy": "private",
+  "scheduled_for": "2026-10-23T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6adb02351dc335d347fb7d27",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-23T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-23_1800_door-ding-cash-plus-injury-claim/video.mp4"
+  },
+  "seconds": 1383
  }
 ]
