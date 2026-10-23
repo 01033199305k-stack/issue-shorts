@@ -1,0 +1,300 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "seat-swap-refused-three-hour-cry",
+ "title_lines": [
+  "자리 안 바꿔 주자",
+  "3시간 운 옆자리"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "자리 안 바꿔 줬더니 3시간 운 옆자리 승객",
+   "say": "자리 안 바꿔 줬더니 세 시간 운 옆자리 승객",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "자리 안 바꿔 줬더니\n3시간 운 옆자리 승객",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "옆자리 여자가 내 통로석을 두 줄 앞 남편 자리랑 바꾸자 함.",
+   "say": "옆자리 여자가 내 통로석을 두 줄 앞 남편 자리랑 바꾸자 함.",
+   "sfx": "whoosh",
+   "tone": "어이없어서 눈이 동그래진 듯 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "airplane cabin seats",
+     "aircraft interior seats",
+     "airplane aisle"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "飛行機 座席",
+       "飛行機 乗客",
+       "飛行機"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "미국 인플루언서가 10시간 비행 중 겪었다고 올린 썰임.",
+   "say": "미국 인플루언서가 열 시간 비행 중 겪었다고 올린 썰임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "탑승 정보",
+      "lines": [
+       "이스탄불 → 워싱턴",
+       "비행 약 10시간",
+       "내 자리: 통로석"
+      ],
+      "mark": 2,
+      "at": 0.0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "スマホ 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아버지 부고 듣고 귀국하던 길이라 정중히 거절함.",
+   "say": "아버지 부고 듣고 귀국하던 길이라 정중히 거절함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "bus",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "喪服 女性",
+       "悲しむ 女性",
+       "落ち込む 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그러자 옆자리 여자가 3시간을 울었음.",
+   "say": "그러자 옆자리 여자가 세 시간을 울었음.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "bus",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "泣く 女性",
+       "号泣 女性",
+       "涙 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "shake"
+     },
+     {
+      "type": "emoji",
+      "text": "😭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 누가 돌아가셨냐고 물어봄.",
+   "say": "헐, 누가 돌아가셨냐고 물어봄.",
+   "sfx": "question",
+   "tone": "걱정돼서 숨을 삼키며 조심스럽게, 말끝은 분명하게",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "warn",
+      "at": 0.0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "心配 女性",
+       "考える 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "돌아온 답은, 아무도 안 죽었고 남편 어깨에 기대고 싶다 함.",
+   "say": "돌아온 답은, 아무도 안 죽었고 남편 어깨에 기대고 싶다 함.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "bus",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "夫婦 寄り添う",
+       "カップル 寄り添う",
+       "夫婦"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "stamp"
+     },
+     {
+      "type": "emoji",
+      "text": "💔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니, 정작 남편은 두 줄 앞에서 자는 중이었음.",
+   "say": "아니, 정작 남편은 두 줄 앞에서 자는 중이었음.",
+   "sfx": "absurd",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "headphones sleeping travel",
+     "airplane night cabin",
+     "headphones music"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ヘッドホン 男性",
+       "寝る 男性",
+       "居眠り 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "진짜 울 사람은 따로 있었음.",
+   "say": "진짜 울 사람은 따로 있었음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "bus",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "喪服 女性",
+       "悲しむ 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🫠",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "\"누가 돌아가셨어요?\" 3시간 운 옆자리 승객이 한 대답 #shorts",
+  "description": "이스탄불에서 워싱턴으로 가는 약 10시간 비행기에서 옆자리 승객이 통로석을 두 줄 앞 남편 자리와 바꿔 달라고 부탁했다고 함.\n아버지 부고를 듣고 귀국하던 미국 여행 인플루언서가 거절하자, 그 승객은 3시간 동안 울었다고 본인 SNS에 올림.\n누가 돌아가셨냐는 물음에 돌아온 답은 '남편 어깨에 기대고 싶어서'였고, 남편은 헤드폰 끼고 자고 있었다고 함.\n\n※ AI 음성으로 제작했습니다.\n#비행기 #좌석교환 #기내매너 #해외썰 #shorts",
+  "tags": [
+   "비행기 좌석",
+   "좌석 교환",
+   "기내 매너",
+   "통로석",
+   "해외 썰",
+   "3시간 울음",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.seoul.co.kr/news/international/USA-amrica/2026/10/22/20261022500156",
+ "facts_used": [
+  "미국 여행 인플루언서 토미코 하비(55)가 이스탄불발 워싱턴DC행 약 10시간 항공편에서 겪은 일을 SNS에 올림 — 서울신문 2026-10-22 https://www.seoul.co.kr/news/international/USA-amrica/2026/10/22/20261022500156 , 아시아경제 2026-10-22 https://view.asiae.co.kr/article/2026102215462520675 , Latestly https://www.latestly.com/us/travel-blogger-tomiko-harvey-refuses-to-swap-aisle-seat-on-10-hour-flight-woman-cries-for-3-hours-video-goes-viral-7651578.html",
+  "옆자리 여성이 통로석을 두 줄 앞 가운데 좌석의 남편 자리와 바꿔 달라고 요청, 하비가 거절 — 파이낸셜뉴스 2026-10-22 https://www.fnnews.com/news/202610222147378262 , Fashion Times https://www.fashiontimes.co.uk/woman-cries-after-flight-seat-swap-refusal-1766075",
+  "하비는 카자흐스탄 여행 중 아버지 부고를 듣고 귀국하던 길 — 서울신문, 아시아경제, Latestly(위 URL)",
+  "거절 뒤 여성이 약 3시간 울었고, 누가 죽었냐는 물음에 아무도 안 죽었고 남편이 보고 싶고 남편 어깨에 기대고 싶다고 답함(하비 주장) — 파이낸셜뉴스, 위키트리 https://www.wikitree.co.kr/articles/1168393 , Yahoo Travel https://travel.yahoo.com/advice/travel-tips/articles/airline-passenger-tears-seatmate-refused-184613284.html",
+  "남편은 헤드폰을 쓴 채 자고 있었다고 함(하비 주장) — 아시아경제, Fashion Times, Yahoo Travel"
+ ],
+ "brief": "점수표: 이게됨4+궁금증4+감정4×2+대상5+판정5=26/30. 후보: ①좌석 교환 거절 3시간 울음(26) ②'배짱장사 파이팅' 리뷰에 막말 답글 짬뽕집(19, 가게 망신·궁금증 약함) ③울산 119 '원숭이 엄마' 감사편지(15, 잔잔한 감동 감정2 탈락) ④유성 주차장 차량 현금 6천만 원 도난(14, 결말 없음) ⑤10/7 주차장 196칸 매입 여성(확인 실패). 해외 소재: 오늘 0700(고양이 라떼)·어제 1800(캠핑족) 국내라 오늘 해외 1편으로 씀 - 본인 SNS 썰로 전함('SNS에 올린 썰임', '~라고 함'). 첫장면: 사람. 훅 3안: '옆자리 여자가 내 통로석을 두 줄 앞 가운데 자리랑 바꾸자 함'(채택-제목보다 한 발 더 나간 구체 행동+숫자) / '10시간 비행기에서 통로석 하나로 시작된 일임'(배경형, 탈락) / '남편 옆에 앉고 싶다며 자리 바꿔 달라 함'(답을 일부 노출, 탈락). 글 카드 3안: '자리 안 바꿔 줬더니 3시간 운 옆자리 승객'(채택, 숫자) / '통로석 거절했다가 3시간 울음 들은 사람' / '비행기 옆자리가 3시간 운 이유'(이유형, 오늘 아껴 둠). 이해검사: 아버지 부고로 귀국하던 여행 인플루언서가 비행기 옆자리 여성의 자리 교환 부탁을 거절하자 여성이 3시간 울었고, 이유는 누가 죽어서가 아니라 남편 어깨에 기대고 싶어서였는데 남편은 두 줄 앞에서 자고 있었다. 증거: 경고(5번 떡밥) + 탑승 정보 문서(이스탄불→워싱턴, 약 10시간, 통로석 - 서울신문·아시아경제·Latestly). like_egg: 없음(강아지·고양이 이야기 아님). 마지막: 6번 답(hit) → 7번 결과 → 8번 리액션(react), 질문 없음. 그림대조: 완료 - 기내 장소 사진이 없어 좌석이 늘어선 bus 사진을 기내 대용으로 씀, 일본 지도·국기 없음, 공항·기내는 스톡 영상. 주의: 상대 여성 측 입장은 보도되지 않음 - 하비 주장으로만 전하고 내레이터가 상대를 비난하지 않음(리액션은 상황에 대해서만). 부고 관련 장면엔 웃음 tone 없음."
+}
