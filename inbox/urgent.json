@@ -1,90 +1,79 @@
 {
- "detected_at": "2026-10-23T13:40+09:00",
+ "detected_at": "2026-10-23T15:15+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李대통령 \"강력범죄에 전쟁 선포 각오…사전예방 체계로 전환\"",
-   "url": "https://n.news.naver.com/article/001/0016396116",
-   "press": "연합뉴스",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "‘여론조사비 대납 의혹’ 오세훈, 2심서 무죄…“명태균 진술 믿기 어려워”",
+   "url": "https://n.news.naver.com/article/056/0012279640",
+   "press": "KBS",
+   "why": "언론사 8곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "KBS",
-     "title": "이 대통령 “강력범죄에 전쟁 선포 각오로 임할 것”…이상동기 범죄 등 강력 대응",
-     "url": "https://n.news.naver.com/article/056/0012279461"
+     "press": "경향신문",
+     "title": "[속보]‘여론조사비 대납 의혹’ 오세훈 2심서 무죄 선고…1심 유죄 뒤집혀",
+     "url": "https://n.news.naver.com/article/032/0003478151"
     },
     {
-     "press": "채널A",
-     "title": "강력 범죄 빈발하자…이 대통령 “전쟁 선포 각오로”",
-     "url": "https://n.news.naver.com/article/449/0000365036"
+     "press": "파이낸셜뉴스",
+     "title": "[속보] 오세훈 서울시장, 2심 무죄...\"명태균 진술 믿기 어려워\"",
+     "url": "https://n.news.naver.com/article/014/0005593603"
     },
     {
-     "press": "강원일보",
-     "title": "李대통령 “강력범죄에 전쟁 선포 각오”…초안전사회 범정부 대응회의 열고 ‘액션 플랜’ 논의",
-     "url": "https://n.news.naver.com/article/087/0001225838"
+     "press": "조선비즈",
+     "title": "오세훈 ‘명태균 여론조사비 대납 의혹’ 2심 무죄… 1심 당선무효형 뒤집혀",
+     "url": "https://n.news.naver.com/article/366/0001199928"
+    },
+    {
+     "press": "연합뉴스TV",
+     "title": "[속보] 오세훈, '명태균 여론조사' 항소심 무죄…시장직 유지",
+     "url": "https://n.news.naver.com/article/422/0000918742"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "김민석 \"오세훈 '유죄' 무게…서울시장선거 마음의 준비\"",
-   "url": "https://n.news.naver.com/article/057/0001974769",
-   "press": "MBN",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "title": "[2보] 오세훈 '정치자금법' 사건 2심 무죄…1심 뒤집혀",
+   "url": "https://n.news.naver.com/article/001/0016396808",
+   "press": "연합뉴스",
+   "why": "언론사 16곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "JTBC",
-     "title": "김민석 \"오늘 오세훈 유죄, 그대로 간다…재선거 마음의 준비 중\"",
-     "url": "https://n.news.naver.com/article/437/0000517173"
+     "press": "경향신문",
+     "title": "[속보]‘여론조사비 대납 의혹’ 오세훈 2심서 무죄 선고…1심 유죄 뒤집혀",
+     "url": "https://n.news.naver.com/article/032/0003478151"
     },
     {
-     "press": "국민일보",
-     "title": "오세훈 ‘운명의 날’…김민석 “1심 유죄 그대로 갈 듯, 마음의 준비 중”",
-     "url": "https://n.news.naver.com/article/005/0001880443"
+     "press": "파이낸셜뉴스",
+     "title": "[속보] 오세훈 서울시장, 2심 무죄...\"명태균 진술 믿기 어려워\"",
+     "url": "https://n.news.naver.com/article/014/0005593603"
     },
     {
-     "press": "한국일보",
-     "title": "김민석, 오세훈 선고 앞두고 \"서울시장 선거, 마음의 준비하고 있다\"",
-     "url": "https://n.news.naver.com/article/469/0000961201"
+     "press": "조선비즈",
+     "title": "오세훈 ‘명태균 여론조사비 대납 의혹’ 2심 무죄… 1심 당선무효형 뒤집혀",
+     "url": "https://n.news.naver.com/article/366/0001199928"
     },
     {
      "press": "MBC",
-     "title": "김민석 \"오세훈, 1심 유죄 유지될 것‥'서울시장 선거' 마음의 준비\"",
-     "url": "https://n.news.naver.com/article/214/0001530929"
+     "title": "[속보] 오세훈 '정치자금법' 사건 2심 무죄‥1심 '시장직 상실형' 뒤집혀",
+     "url": "https://n.news.naver.com/article/214/0001530997"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] “진상규명 갈 길 멀다”…‘이태원참사’ 특조위 예산 132억 반영키로",
-   "url": "https://n.news.naver.com/article/029/0003054817",
-   "press": "디지털타임스",
+   "title": "[속보] 민주 한병도 \"오세훈에 면죄부, 재판부 판단 유감\"",
+   "url": "https://n.news.naver.com/article/052/0002422731",
+   "press": "YTN",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] '조희대 탄핵' 반대 39% VS 찬성 34%…오차 범위 내",
-   "url": "https://n.news.naver.com/article/660/0000119779",
-   "press": "kbc광주방송",
-   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선일보",
-     "title": "李대통령 지지율 7주만에 40%대... 조희대 탄핵 찬성 34% 반대 39%",
-     "url": "https://n.news.naver.com/article/023/0004005537"
-    },
-    {
-     "press": "경향신문",
-     "title": "이 대통령 지지율 40%…조희대 탄핵, 찬성 34%·반대 39%[한국갤럽]",
-     "url": "https://n.news.naver.com/article/032/0003478104"
-    },
-    {
-     "press": "동아일보",
-     "title": "조희대 탄핵, 반대 39% vs 찬성 34%…李지지율 40%대 복귀",
-     "url": "https://n.news.naver.com/article/020/0003757143"
-    }
-   ]
+   "title": "[속보]인천공항서 빵 봉지에 불 지른 남성 붙잡혀, 시민이 소화기로 진화",
+   "url": "https://n.news.naver.com/article/021/0002827416",
+   "press": "문화일보",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
