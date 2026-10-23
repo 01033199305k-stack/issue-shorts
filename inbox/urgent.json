@@ -1,140 +1,37 @@
 {
- "detected_at": "2026-10-23T18:59+09:00",
+ "detected_at": "2026-10-24T00:00+09:00",
  "candidates": [
   {
    "kind": "community",
-   "title": "아시안게임 금메달 병역혜택 폐지 확정적.JPG",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77125449",
-   "board": "루리웹 베스트",
+   "title": "인류애 파사삭이라는 요즘 키오스크 먹튀 수법",
+   "url": "https://theqoo.net/hot/4384286245",
+   "board": "더쿠 HOT",
    "why": "커뮤니티 3곳 동시 화제",
    "news": []
   },
   {
    "kind": "news",
-   "title": "특검, 오세훈 무죄에 상고 뜻…“재판부, 결정적 증거 아무 언급 안 해”",
-   "url": "https://n.news.naver.com/article/028/0002828898",
-   "press": "한겨레",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선비즈",
-     "title": "與, 오세훈 무죄에 “사법 개혁 도화선 될 것”",
-     "url": "https://n.news.naver.com/article/366/0001199963"
-    },
-    {
-     "press": "kbc광주방송",
-     "title": "與 \"'오세훈 2심 무죄' 상식 벗어나\"…특검 \"납득 어려워, 상고\"",
-     "url": "https://n.news.naver.com/article/660/0000119795"
-    },
-    {
-     "press": "세계일보",
-     "title": "[속보] 특검, 오세훈 2심 무죄에 “실망스러워…상고해 바로잡을 것”",
-     "url": "https://n.news.naver.com/article/022/0004169160"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 민주당 “상식 벗어난 오세훈 판결 강력 유감, 사법개혁 도화선 될 것”",
-   "url": "https://n.news.naver.com/article/016/0002713642",
-   "press": "헤럴드경제",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선비즈",
-     "title": "與, 오세훈 무죄에 “사법 개혁 도화선 될 것”",
-     "url": "https://n.news.naver.com/article/366/0001199963"
-    },
-    {
-     "press": "디지털타임스",
-     "title": "민주당 “상식 벗어난 오세훈 판결, ‘무죄 자판기’인가…사법개혁 도화선 될 것”",
-     "url": "https://n.news.naver.com/article/029/0003054879"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "오세훈 항소심 무죄…‘보수진영 대권주자’ 계속 간다",
-   "url": "https://n.news.naver.com/article/020/0003757180",
-   "press": "동아일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선비즈",
-     "title": "與, 오세훈 무죄에 “사법 개혁 도화선 될 것”",
-     "url": "https://n.news.naver.com/article/366/0001199963"
-    },
-    {
-     "press": "중앙일보",
-     "title": "오세훈, 1심 뒤집은 무죄에 울컥…보수 주도권 거머쥐었다",
-     "url": "https://n.news.naver.com/article/025/0003560048"
-    },
-    {
-     "press": "미디어오늘",
-     "title": "오세훈 여론조사 대납 항소심 극적 무죄 파문 \"명태균 진술 믿을 수 없어\"",
-     "url": "https://n.news.naver.com/article/006/0000138359"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]“끝났다” 외친 서울시 직원들···‘무죄’ 오세훈, 본격 대선모드 들어가나",
-   "url": "https://n.news.naver.com/article/032/0003478152",
-   "press": "경향신문",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선비즈",
-     "title": "與, 오세훈 무죄에 “사법 개혁 도화선 될 것”",
-     "url": "https://n.news.naver.com/article/366/0001199963"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "울먹인 오세훈, 2심서 무죄…\"결백 믿어준 국민께 감사\"(상보)",
-   "url": "https://n.news.naver.com/article/277/0005832720",
-   "press": "아시아경제",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선비즈",
-     "title": "與, 오세훈 무죄에 “사법 개혁 도화선 될 것”",
-     "url": "https://n.news.naver.com/article/366/0001199963"
-    },
-    {
-     "press": "문화일보",
-     "title": "[속보]오세훈 서울시장 2심 무죄…울컥하며 “결백 믿어준 시민께 감사”",
-     "url": "https://n.news.naver.com/article/021/0002827417"
-    },
-    {
-     "press": "매일경제",
-     "title": "[속보] ‘무죄’에 울먹인 오세훈 “결백 믿어준 국민께 감사”",
-     "url": "https://n.news.naver.com/article/009/0005753093"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 보수 서정욱, '장동혁 욕설 녹취록'에 \"보수에선 '장동혁 상남자' 여론 많이 올라와\"",
-   "url": "https://n.news.naver.com/article/002/0002462375",
-   "press": "프레시안",
+   "title": "[속보] “140㎏대 초고도 비만 김정은 사망설 허위”…국정원, 국회 보고",
+   "url": "https://n.news.naver.com/article/029/0003054896",
+   "press": "디지털타임스",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보]김민석, 오세훈 무죄에 \"납득 어려운 판결…대법 엄정한 판단 기대\"",
-   "url": "https://n.news.naver.com/article/079/0004202192",
-   "press": "노컷뉴스",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선비즈",
-     "title": "與, 오세훈 무죄에 “사법 개혁 도화선 될 것”",
-     "url": "https://n.news.naver.com/article/366/0001199963"
-    }
-   ]
+   "title": "[속보] 대한항공 예약·발권 시스템 운영사서 개인정보 유출 정황… \"고객 예약번호 포함\"",
+   "url": "https://n.news.naver.com/article/654/0000207133",
+   "press": "강원도민일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보]조갑제“판사가 나라 구해…오·한 ‘양훈’ 제휴”",
+   "url": "https://n.news.naver.com/article/021/0002827454",
+   "press": "문화일보",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
