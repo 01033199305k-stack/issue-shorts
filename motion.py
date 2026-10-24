@@ -536,6 +536,8 @@ def egg_segment(egg: str, q: list | None = None) -> dict:
 JS = r"""
 const C = x => x < 0 ? 0 : x > 1 ? 1 : x;
 const eo = x => 1 - Math.pow(1 - C(x), 3);
+const sm = x => { x = C(x); return x * x * (3 - 2 * x); };
+const KB_Z = .07, KB_PAN = 36, DRIFT = 44;   // per scene: 7 % zoom, 36 px pan, a lone picture drifts 44 px more
 const eb = x => { x = C(x); const a = 1.7, b = a + 1; return 1 + b * Math.pow(x - 1, 3) + a * Math.pow(x - 1, 2); };
 const bounce = x => { x = C(x); const n = 7.5625, d = 2.75;
   if (x < 1/d) return n*x*x; if (x < 2/d) return n*(x-=1.5/d)*x+.75; if (x < 2.5/d) return n*(x-=2.25/d)*x+.9375; return n*(x-=2.625/d)*x+.984375; };
@@ -582,6 +584,7 @@ function item(el, d, t, s) {
   if (mk) mk.style.strokeDashoffset = (1 - eo((life - .55) / .45)).toFixed(3);   // red circle drawn after the paper lands
   // idle life: illustrations breathe so nothing on screen is ever frozen
   if (d.type === 'illust' || d.type === 'emoji') { y += Math.sin(life * 2.4 + d.seed) * 6; sc *= 1 + Math.sin(life * 1.7 + d.seed) * .012; }
+  if (d.drift) x += d.drift * DRIFT * (sm((t - s.start) / Math.max(1, s.end - s.start)) - .5);   // walks across, ahead of the pan
   el.style.opacity = op;
   el.style.transform = `translate(${x - d.w / 2}px, ${y - d.h / 2}px) scale(${sc}) rotate(${rot}deg)`;
   if (d.num) {   // count-up
@@ -611,15 +614,23 @@ window.render = function (t) {
     el.style.visibility = on || out ? 'visible' : 'hidden';
     if (!on && !out) return;
     const prog = C((t - s.start) / Math.max(1, s.end - s.start));
-    let z = 1.05 - .05 * eo(age / .16) + .03 * prog, tx = 0, blur = 0, op = 1, ox = 540, oy = 430;
+    let z = 1.05 - .05 * eo(age / .16) + .03 * prog, tx = 0, px = 0, blur = 0, op = 1, ox = 540, oy = 430;
+    if (s.kb && !s.cam) {   // Ken Burns: push in after the landing (or pull out from 1.07) while panning
+      const k = sm(prog);
+      z = s.kb > 0 ? (1.05 - .05 * eo(age / .16)) + KB_Z * k : 1 + KB_Z * (1 - k);
+      px = s.pan * KB_PAN * (k - .5);
+    }
     if (s.cam === 'punch') { z = 1 + .3 * eo(age / .18); ox = s.focus[0]; oy = s.focus[1];
       if (on && age < .35) shake = Math.max(shake, .7 * (1 - age / .35)); }
     else if (s.cam === 'push') z = 1 + .16 * prog * prog * (3 - 2 * prog);
     else if (s.cam === 'pull') z = 1.2 - .2 * eo(age / Math.max(.8, s.end - t0));
+    else if (s.cam === 'detail') { z = 1 + .3 * sm((age - .9) / 1.1); ox = s.focus[0]; oy = s.focus[1]; }   // after the circle is drawn
     if (on && s.tr === 'whoosh' && age < TR) { const k = age / TR; tx = 640 * (1 - eo(k)); blur = 18 * (1 - k); }
     if (on && s.tr === 'flash' && age < .26) flash = 1 - age / .26;
     if (out) { const k = (t - (nx.start - D.lead)) / TR; tx = -640 * eo(k); blur = 18 * k; op = 1 - k; }
-    el.style.transform = `translateX(${tx.toFixed(1)}px) scale(${z.toFixed(4)})`;
+    el.style.transform = `translateX(${(tx + px).toFixed(1)}px) scale(${z.toFixed(4)})`;
+    const pb = s.place && el.querySelector('.pbg');   // parallax: the room slides half as far as the people in it
+    if (pb) pb.style.transform = px ? `translateX(${(-.5 * px).toFixed(1)}px)` : '';
     el.style.transformOrigin = `${ox}px ${oy}px`;
     el.style.filter = blur > .3 ? `blur(${blur.toFixed(1)}px)` : '';
     el.style.opacity = op;
@@ -794,7 +805,7 @@ CAP_BOX_LINE, CAP_BOX_PAD, CAP_BOTTOM = 90 * 1.14, 8, 28   # mirrors #cap .box i
 ZOOM_ROOM = 30      # the camera zooms up to 1.08x around y=430 - the bottom edge drifts ~25 px
 CAP_OVERLAP = 150   # pictures run on behind the caption box like the reference (it covers their feet, not words)
 CAPS = {"narr", "hit", "quote", "shout", "sweet", "react"}
-CAMS = {"punch", "push", "pull"}
+CAMS = {"punch", "push", "pull", "detail"}   # detail: set by build() for a circled paper, not by scripts
 TRS = {"whoosh", "flash"}
 
 
@@ -968,6 +979,8 @@ def _prop(it: dict, d: dict) -> tuple[int, int, str]:
             rows.append(f'<div class="dl" style="font-size:{fs}px">{esc(x)}{ring}</div>')
         h = int(46 + 120 * 1.25 + 26 + fs * 1.55 * max(1, len(lines)) + 100)
         d["rot"] = -3
+        if isinstance(mark, int) and 0 <= mark < len(lines):   # where the circled line sits, from the paper's centre
+            d["mark_dy"] = round(46 + 150 + 26 + fs * 1.55 * (mark + .5) - h / 2)
         return 760, h, f'<div class="dt">{esc(it.get("title", "계약서"))}</div>{"".join(rows)}<div class="fold"></div>'
     if typ == "sms":
         bubbles = "".join(f'<div class="bb" style="font-size:{min(62, int(500 / (0.98 * max(1, len(x)))))}px">{esc(x)}</div>'
@@ -1111,10 +1124,23 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
         # camera: a shouted line punches in on the main picture unless the script says otherwise
         cam_mode = vis.get("cam") or ("punch" if seg.get("cap") == "shout" else "")
         hero = next((d for d in data if d["type"] in ("illust", "crowd", "emoji")), None)
+        focus = [round(hero["x"]), round(min(hero["y"], 600))] if hero else [540, 430]
+        # 2026-10-24 (사용자: "사진이 움직이는 표현 좋은데 왜 안 따라 하지?"): @군림보 moves the picture in 10-11 of
+        # 11-17 scenes (zoom up to 7-12 %/s, pans), ours in 3-4 (2-3 %/s). Every scene now pushes in or pulls out
+        # while it pans, by turns; the place photo slides half as far as the people (parallax); a lone picture drifts
+        # across; and a paper with a circled line gets the camera once the circle is drawn (their "1927" zoom).
+        post_card = any(d.get("style") == "post" for d in data)
+        kb = 0 if post_card else (-1 if i % 3 == 2 else 1)
+        pics = [d for d in data if d["type"] in ("illust", "crowd")]
+        if kb and len(pics) == 1 and not clip:
+            pics[0]["drift"] = 1 if i % 2 else -1
+        doc = next((d for d in data if d["type"] == "doc" and "mark_dy" in d), None)
+        if doc and not cam_mode and not clip:
+            cam_mode, focus = "detail", [round(doc["x"]), round(min(doc["y"] + doc["mark_dy"], 620))]
         scenes_data.append({"start": st, "end": en, "items": data, "bg": BG.get(bg_key, BG["white"]),
                             "dark": bg_key in ("night", "red") or bool(place), "place": place, "shake": seg.get("sfx") in SHAKE_SFX,
                             "cam": cam_mode if cam_mode in CAMS else "", "tr": vis.get("tr") if vis.get("tr") in TRS else "",
-                            "focus": [round(hero["x"]), round(min(hero["y"], 600))] if hero else [540, 430],
+                            "focus": focus, "kb": kb, "pan": 1 if i % 2 else -1,
                             "clip": {"base": base, "n": clip["n"]} if clip else None})
     # 2026-10-17: while the title card is read, the card is the caption - @dolongcha shows no caption box
     # there and @군림보/@통찰맨 only the title. Ours stacked title bar + card + caption box (three texts).
