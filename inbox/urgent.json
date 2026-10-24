@@ -1,24 +1,21 @@
 {
- "detected_at": "2026-10-24T09:10+09:00",
+ "detected_at": "2026-10-24T14:48+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "\"명태균, 오세훈 건방지다며 1등 조사 조작\"",
-   "url": "https://n.news.naver.com/article/422/0000918932",
-   "press": "연합뉴스TV",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "중앙일보",
-     "title": "“명태균, 오세훈 건방지다며 1등 여론조사 조작 지시했다”",
-     "url": "https://n.news.naver.com/article/025/0003560118"
-    },
-    {
-     "press": "한겨레",
-     "title": "“오세훈, 울면서 나경원 이기는 조사 요청” 명태균 진술 배척한 2심",
-     "url": "https://n.news.naver.com/article/028/0002828916"
-    }
-   ]
+   "title": "[속보] 국힘 홍석준 \"이진숙, 대통령 후보 '대망론'? 가능성 있다…국힘 '새 간판' 될 수도\"",
+   "url": "https://n.news.naver.com/article/002/0002462497",
+   "press": "프레시안",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보]‘빨대’ 논란 추미애, ‘1억 삭감’으로 축소된 순직 소방관 추모행사 참석…“소방관이 지켜야 할 생명에는 소방관 자신의 생명도 포함”",
+   "url": "https://n.news.naver.com/article/021/0002827491",
+   "press": "문화일보",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
