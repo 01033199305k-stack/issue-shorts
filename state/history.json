@@ -3803,5 +3803,56 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-24_0700_daycare-menu-vs-real-tray/video.mp4"
   },
   "seconds": 1127
+ },
+ {
+  "key": "2026-10-24-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-24T12:00:00+09:00",
+  "started": "2026-10-24T09:17:10.156853+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-14239/",
+   "https://pixabay.com/videos/id-951/"
+  ],
+  "duration": 25.9,
+  "matches": [
+   1.0,
+   0.92,
+   0.97,
+   1.0,
+   1.0,
+   0.92,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 8,
+  "cuts": 9,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "환불받은 빵 40% 먹은 손님이 경찰 앞에서 바꾼 말 #shorts",
+  "source_post": "https://m.news.nate.com/view/20260218n11280",
+  "facts_used": [
+   "서울 관악구에서 5년째 제빵점을 하는 곽모(39)씨가 설날(2/17) 오전 배달앱으로부터 '음료가 쏟아지는 등 배송 상태 불량' 사유의 주문 취소 통보를 받음 — 세계일보 2026-02-18 단독 https://m.news.nate.com/view/20260218n11280 , 아시아경제 2026-03-30 https://www.asiae.co.kr/article/2026032923290424603",
+   "주문(환불)액 4만 3천 원 — 세계일보 2026-02-21 후속 https://m.news.nate.com/view/20260221n08426 , 아시아경제 2026-03-30",
+   "사장은 음료가 밀봉돼 있었고 배달기사도 문제없었다고 확인 — 세계일보 2026-02-18",
+   "사장이 경찰과 함께 음식을 돌려받으러 고객 집을 찾아갔을 때 음식의 약 40%(아시아경제: 절반 가까이)를 먹은 상태 — 세계일보, 아시아경제",
+   "고객은 20대 여성 2명, '취소된 음식은 먹어도 된다'(아시아경제: '어차피 취소된 음식인데 배고파서 그냥 조금 먹었다')고 하다가 불리해지자 '한 번만 봐달라' — 세계일보 제목·본문, 아시아경제",
+   "사장은 두 사람을 사기·업무방해 혐의로 고소, 금천경찰서 사기 혐의 수사 — 세계일보 2026-02-21, 아시아경제 2026-03-30"
+  ],
+  "slug": "2026-10-24_1200_refunded-bread-forty-percent-eaten",
+  "late": false,
+  "video_id": "zD2IowMu_Ew",
+  "url": "https://youtube.com/shorts/zD2IowMu_Ew",
+  "privacy": "private",
+  "scheduled_for": "2026-10-24T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6adbfdadbd33ce99c3f9ac39",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-24T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-24_1200_refunded-bread-forty-percent-eaten/video.mp4"
+  },
+  "seconds": 1193
  }
 ]
