@@ -3854,5 +3854,60 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-24_1200_refunded-bread-forty-percent-eaten/video.mp4"
   },
   "seconds": 1193
+ },
+ {
+  "key": "2026-10-24-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-24T18:00:00+09:00",
+  "started": "2026-10-24T15:17:51.367719+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-6456/",
+   "https://pixabay.com/videos/id-23258/"
+  ],
+  "duration": 32.41,
+  "matches": [
+   0.93,
+   0.98,
+   0.98,
+   0.97,
+   1.0,
+   1.0,
+   0.96,
+   0.96,
+   1.0,
+   0.68,
+   1.0
+  ],
+  "sfx": 10,
+  "illustrations": 9,
+  "cuts": 11,
+  "layout_issues": [],
+  "caption_breaks": [
+   "서울 | 구로 (55)",
+   "선수 / 유우성이었던 (55)"
+  ],
+  "title": "\"맞짱 뜰래\" 차 막아선 취객 둘이 운전자 얼굴 보고 한 행동 #shorts",
+  "source_post": "https://www.mt.co.kr/society/2026/10/24/2026102323403316088",
+  "facts_used": [
+   "이달 2일 새벽 서울 구로디지털단지역 인근 도로에서 술 취한 남성 2명이 차를 막아섬 (JTBC 사건반장 제보) — 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01863046645616200 , 머니투데이 2026-10-24 https://www.mt.co.kr/society/2026/10/24/2026102323403316088 , 뉴스1 https://www.news1.kr/society/general-society/6330589",
+   "운전자가 경적을 울리자 남성들이 '한판 붙자', '맞짱 뜰래(뜨자)'며 욕설·시비 — 이데일리, 머니투데이 제목 '\"맞짱 뜨자\" 차 막고 욕한 취객들', 뉴스1 제목 '\"맞짱 뜰래\" 차 막고 욕설한 남성 둘'",
+   "한 명이 운전자를 알아보고 말을 더듬으며 '유우성 아니냐(아니세요)' — 이데일리, 머니투데이",
+   "운전자는 국내 1세대 종합격투기 선수 출신 유우성 — 이데일리, 머니투데이, 뉴스1",
+   "두 사람이 '형님, 용서를(용서해주십쇼)'하며 술에 취해 그랬다고 사과 — 이데일리 제목, 뉴스1 제목, 머니투데이 본문"
+  ],
+  "slug": "2026-10-24_1800_drunk-men-blocked-fighter-car",
+  "late": false,
+  "video_id": "Y0-3gVUm74M",
+  "url": "https://youtube.com/shorts/Y0-3gVUm74M",
+  "privacy": "private",
+  "scheduled_for": "2026-10-24T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6adc5256bd33ce99c30c66a2",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-24T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-24_1800_drunk-men-blocked-fighter-car/video.mp4"
+  },
+  "seconds": 1226
  }
 ]
