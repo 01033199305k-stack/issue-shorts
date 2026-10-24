@@ -3909,5 +3909,56 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-24_1800_drunk-men-blocked-fighter-car/video.mp4"
   },
   "seconds": 1226
+ },
+ {
+  "key": "2026-10-25-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-25T07:00:00+09:00",
+  "started": "2026-10-25T04:17:14.909969+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-11704/",
+   "https://pixabay.com/videos/id-304598/"
+  ],
+  "duration": 26.99,
+  "matches": [
+   1.0,
+   0.97,
+   0.97,
+   0.96,
+   0.91,
+   0.91,
+   1.0,
+   0.96,
+   0.96,
+   0.91
+  ],
+  "sfx": 9,
+  "illustrations": 8,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "짬뽕 먹다 10초 만에 손님 살린 경찰관들, 계산대 앞에서 생긴 일 #shorts",
+  "source_post": "https://supple.kr/news/cmv5zbxsf0089gho90u21eyie",
+  "facts_used": [
+   "인천 남동구 논현동의 한 짬뽕집에서 3일 오전 11시15분쯤 식사하던 손님 B씨가 의식을 잃고 테이블 위로 쓰러짐 (식당 주인 A씨 글) — 숟가락 내려놓고 '벌떡'…식당서 쓰러진 손님 살린 경찰들[오따뉴] https://supple.kr/news/cmv5zbxsf0089gho90u21eyie , YTN 2026-10-13 https://www.ytn.co.kr/_ln/0134_202610131505266964",
+   "옆옆 테이블에서 식사하던 인천논현경찰서 교통안전과 경찰관들이 벌떡 일어나, 직원이 B씨를 소파에 눕히자 곧바로 심폐소생술 실시 — 오따뉴 기사, YTN",
+   "한 경찰관은 기도 확보를 위해 B씨 입에 손을 넣음 — 오따뉴 기사, 커뮤니티 원글 요약 https://supple.kr/community/society/136857832",
+   "십여 초가량 심폐소생술 끝에 B씨가 혈색과 의식을 되찾았고 출동한 119 구급대에 인계 — 오따뉴 기사, YTN",
+   "식당 주인이 고마운 마음에 경찰관들에게 새 음식을 내줌, 다른 테이블 손님들이 경찰관들 식사비를 대신 내겠다고 나섰으나 경찰관들은 한사코 거절 — 오따뉴 기사, YTN('식사비 결제를 두고 상당히 훈훈한 장면')"
+  ],
+  "slug": "2026-10-25_0700_police-cpr-jjamppong-meal-bill",
+  "late": false,
+  "video_id": "lCVlqa_CV0M",
+  "url": "https://youtube.com/shorts/lCVlqa_CV0M",
+  "privacy": "private",
+  "scheduled_for": "2026-10-24T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6add08fb8b3d437ddcd5f84b",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-24T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-25_0700_police-cpr-jjamppong-meal-bill/video.mp4"
+  },
+  "seconds": 1218
  }
 ]
