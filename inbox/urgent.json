@@ -1,37 +1,24 @@
 {
- "detected_at": "2026-10-24T07:37+09:00",
+ "detected_at": "2026-10-24T09:10+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "\"소주병 잡았지만 안 휘둘렀다\"…승리, 특수폭행 혐의 부인",
-   "url": "https://n.news.naver.com/article/660/0000119822",
-   "press": "kbc광주방송",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "\"명태균, 오세훈 건방지다며 1등 조사 조작\"",
+   "url": "https://n.news.naver.com/article/422/0000918932",
+   "press": "연합뉴스TV",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스TV",
-     "title": "빅뱅 출신 승리 측 \"소주병 휘두른 적 없어\"…특수폭행 혐의 부인",
-     "url": "https://n.news.naver.com/article/422/0000918910"
+     "press": "중앙일보",
+     "title": "“명태균, 오세훈 건방지다며 1등 여론조사 조작 지시했다”",
+     "url": "https://n.news.naver.com/article/025/0003560118"
     },
     {
-     "press": "한국경제TV",
-     "title": "\"소주병 집었지만 휘두르진 않았다\"…승리, 특수폭행 혐의 부인",
-     "url": "https://n.news.naver.com/article/215/0001270284"
-    },
-    {
-     "press": "머니투데이",
-     "title": "\"승리, 소주병 들기만 했다\"...특수폭행 피소→합의 거부",
-     "url": "https://n.news.naver.com/article/008/0005430961"
+     "press": "한겨레",
+     "title": "“오세훈, 울면서 나경원 이기는 조사 요청” 명태균 진술 배척한 2심",
+     "url": "https://n.news.naver.com/article/028/0002828916"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 트럼프 \"이란 상대로 또 '장대한 분노' 작전 할 수도\"",
-   "url": "https://n.news.naver.com/article/421/0009247291",
-   "press": "뉴스1",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
