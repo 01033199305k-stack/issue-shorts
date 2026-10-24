@@ -1,18 +1,96 @@
 {
- "detected_at": "2026-10-24T14:48+09:00",
+ "detected_at": "2026-10-24T19:51+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 국힘 홍석준 \"이진숙, 대통령 후보 '대망론'? 가능성 있다…국힘 '새 간판' 될 수도\"",
-   "url": "https://n.news.naver.com/article/002/0002462497",
-   "press": "프레시안",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "김민석, 조희대 탄핵론에 “국정조사 포함해 차근차근 진행”",
+   "url": "https://n.news.naver.com/article/022/0004169326",
+   "press": "세계일보",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "MBN",
+     "title": "김민석, '조희대 탄핵' 묻자 \"국조 포함해 원래 생각대로 차근차근\"",
+     "url": "https://n.news.naver.com/article/057/0001974948"
+    },
+    {
+     "press": "조선일보",
+     "title": "오세훈 무죄에 조희대 탄핵론…與 “차근차근 진행” 野 “만물 조희대설”",
+     "url": "https://n.news.naver.com/article/023/0004005736"
+    },
+    {
+     "press": "KBS",
+     "title": "김민석, ‘조희대 탄핵’ 질문에 “국조 포함해 원래 생각대로 차근차근”",
+     "url": "https://n.news.naver.com/article/056/0012280167"
+    },
+    {
+     "press": "노컷뉴스",
+     "title": "김민석 \"조희대 탄핵, 국정조사 포함해 원래 생각대로 차근차근\"",
+     "url": "https://n.news.naver.com/article/079/0004202306"
+    }
+   ]
   },
   {
    "kind": "news",
-   "title": "[속보]‘빨대’ 논란 추미애, ‘1억 삭감’으로 축소된 순직 소방관 추모행사 참석…“소방관이 지켜야 할 생명에는 소방관 자신의 생명도 포함”",
-   "url": "https://n.news.naver.com/article/021/0002827491",
+   "title": "[속보] 김정은, 당일치기로 중국 갔나…여권 관계자 “오늘 귀국 유력”",
+   "url": "https://n.news.naver.com/article/009/0005753423",
+   "press": "매일경제",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "이데일리",
+     "title": "[속보]여권 관계자 \"김정은, 오늘 방중 일정 끝내고 귀국할 듯\"",
+     "url": "https://n.news.naver.com/article/018/0006395435"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 추미애 \"소방관 처우·예우 바꾸겠다\"…추모식은 예산 삭감에 대폭 축소",
+   "url": "https://n.news.naver.com/article/654/0000207149",
+   "press": "강원도민일보",
+   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선비즈",
+     "title": "추미애, ‘재정 빨대’ 논란 뒤 소방관 추모식 참석 …“처우 개선할 것\"",
+     "url": "https://n.news.naver.com/article/366/0001200059"
+    },
+    {
+     "press": "뉴스1",
+     "title": "'재정 빨대' 논란 뒤 추모식 선 추미애…\"소방관 처우·예우 꼭 바꿀 것\"",
+     "url": "https://n.news.naver.com/article/421/0009247512"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "'오세훈 무죄' 이후 김민석, '대법원장 탄핵' 질문에 \"차근차근\"",
+   "url": "https://n.news.naver.com/article/082/0001403853",
+   "press": "부산일보",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "MBN",
+     "title": "김민석, '조희대 탄핵' 묻자 \"국조 포함해 원래 생각대로 차근차근\"",
+     "url": "https://n.news.naver.com/article/057/0001974948"
+    },
+    {
+     "press": "KBS",
+     "title": "김민석, ‘조희대 탄핵’ 질문에 “국조 포함해 원래 생각대로 차근차근”",
+     "url": "https://n.news.naver.com/article/056/0012280167"
+    },
+    {
+     "press": "대구MBC",
+     "title": "김민석 “조희대 대법원장 탄핵, 국정조사 포함 차근차근 진행”",
+     "url": "https://n.news.naver.com/article/657/0000056641"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]이틀간 사라졌던 ‘부캉이’ 다시 나타나…최종 목격지점서 2㎞ 떨어진 곳서 유영",
+   "url": "https://n.news.naver.com/article/021/0002827509",
    "press": "문화일보",
    "why": "[속보] 기사",
    "related": []
