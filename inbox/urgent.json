@@ -1,30 +1,80 @@
 {
- "detected_at": "2026-10-25T09:10+09:00",
+ "detected_at": "2026-10-25T14:15+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 14세 여학생에 성범죄 저지른 20대…징역 1년6개월",
-   "url": "https://n.news.naver.com/article/081/0003692090",
-   "press": "서울신문",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "한동훈 “오세훈과 손 놓은 적 없어, 보수 승리 함께 가야할 분”",
+   "url": "https://n.news.naver.com/article/011/0004674816",
+   "press": "서울경제",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "JTBC",
+     "title": "한동훈 \"오세훈과 손 놓은 적 없어…보수 승리 위해 함께 가야\"",
+     "url": "https://n.news.naver.com/article/437/0000517404"
+    },
+    {
+     "press": "KBS",
+     "title": "한동훈 “오세훈과 손 놓은 적 없어…보수 승리 위해 함께 가야”",
+     "url": "https://n.news.naver.com/article/056/0012280324"
+    },
+    {
+     "press": "조선일보",
+     "title": "한동훈 “오세훈과 손 놓은 적 없어…보수 승리 위해 함께 가야”",
+     "url": "https://n.news.naver.com/article/023/0004005771"
+    },
+    {
+     "press": "문화일보",
+     "title": "[속보]한동훈 “오세훈과 손 놓은 적 없어…함께 가야”",
+     "url": "https://n.news.naver.com/article/021/0002827602"
+    }
+   ]
   },
   {
    "kind": "news",
-   "title": "법무장관 후보 박균택·양부남으로 압축",
-   "url": "https://n.news.naver.com/article/023/0004005751",
-   "press": "조선일보",
+   "title": "[인터뷰] 추미애 \"정치적 화형 당하더라도 소방 인건비 해결\"",
+   "url": "https://n.news.naver.com/article/001/0016398553",
+   "press": "연합뉴스",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "뉴시스",
-     "title": "이 대통령, 차기 법무부 장관에 민주당 박균택·양부남 의원 검토",
-     "url": "https://n.news.naver.com/article/003/0014276066"
+     "press": "한국일보",
+     "title": "추미애 '정치적 화형' 언급에… 이준석 \"추다르크 되려 하나\"",
+     "url": "https://n.news.naver.com/article/469/0000961472"
     },
     {
-     "press": "연합뉴스",
-     "title": "법무장관 檢출신 박균택·양부남 2인 압축…李대통령 막판 고심",
-     "url": "https://n.news.naver.com/article/001/0016398461"
+     "press": "중앙일보",
+     "title": "추미애 “정치적 화형 당하더라도 소방 재정 문제 해결하겠다”",
+     "url": "https://n.news.naver.com/article/025/0003560246"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "한동훈 \"오세훈과 손 놓은 적 없다\"…딸 의혹엔 \"정치 보복·3탕·4탕\"",
+   "url": "https://n.news.naver.com/article/654/0000207191",
+   "press": "강원도민일보",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "JTBC",
+     "title": "한동훈 \"오세훈과 손 놓은 적 없어…보수 승리 위해 함께 가야\"",
+     "url": "https://n.news.naver.com/article/437/0000517404"
+    },
+    {
+     "press": "KBS",
+     "title": "한동훈 “오세훈과 손 놓은 적 없어…보수 승리 위해 함께 가야”",
+     "url": "https://n.news.naver.com/article/056/0012280324"
+    },
+    {
+     "press": "조선일보",
+     "title": "한동훈 “오세훈과 손 놓은 적 없어…보수 승리 위해 함께 가야”",
+     "url": "https://n.news.naver.com/article/023/0004005771"
+    },
+    {
+     "press": "문화일보",
+     "title": "[속보]한동훈 “오세훈과 손 놓은 적 없어…함께 가야”",
+     "url": "https://n.news.naver.com/article/021/0002827602"
     }
    ]
   }
