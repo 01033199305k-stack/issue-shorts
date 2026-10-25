@@ -1,82 +1,13 @@
 {
- "detected_at": "2026-10-25T14:15+09:00",
+ "detected_at": "2026-10-25T19:07+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "한동훈 “오세훈과 손 놓은 적 없어, 보수 승리 함께 가야할 분”",
-   "url": "https://n.news.naver.com/article/011/0004674816",
-   "press": "서울경제",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "JTBC",
-     "title": "한동훈 \"오세훈과 손 놓은 적 없어…보수 승리 위해 함께 가야\"",
-     "url": "https://n.news.naver.com/article/437/0000517404"
-    },
-    {
-     "press": "KBS",
-     "title": "한동훈 “오세훈과 손 놓은 적 없어…보수 승리 위해 함께 가야”",
-     "url": "https://n.news.naver.com/article/056/0012280324"
-    },
-    {
-     "press": "조선일보",
-     "title": "한동훈 “오세훈과 손 놓은 적 없어…보수 승리 위해 함께 가야”",
-     "url": "https://n.news.naver.com/article/023/0004005771"
-    },
-    {
-     "press": "문화일보",
-     "title": "[속보]한동훈 “오세훈과 손 놓은 적 없어…함께 가야”",
-     "url": "https://n.news.naver.com/article/021/0002827602"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[인터뷰] 추미애 \"정치적 화형 당하더라도 소방 인건비 해결\"",
-   "url": "https://n.news.naver.com/article/001/0016398553",
-   "press": "연합뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "한국일보",
-     "title": "추미애 '정치적 화형' 언급에… 이준석 \"추다르크 되려 하나\"",
-     "url": "https://n.news.naver.com/article/469/0000961472"
-    },
-    {
-     "press": "중앙일보",
-     "title": "추미애 “정치적 화형 당하더라도 소방 재정 문제 해결하겠다”",
-     "url": "https://n.news.naver.com/article/025/0003560246"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "한동훈 \"오세훈과 손 놓은 적 없다\"…딸 의혹엔 \"정치 보복·3탕·4탕\"",
-   "url": "https://n.news.naver.com/article/654/0000207191",
-   "press": "강원도민일보",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "JTBC",
-     "title": "한동훈 \"오세훈과 손 놓은 적 없어…보수 승리 위해 함께 가야\"",
-     "url": "https://n.news.naver.com/article/437/0000517404"
-    },
-    {
-     "press": "KBS",
-     "title": "한동훈 “오세훈과 손 놓은 적 없어…보수 승리 위해 함께 가야”",
-     "url": "https://n.news.naver.com/article/056/0012280324"
-    },
-    {
-     "press": "조선일보",
-     "title": "한동훈 “오세훈과 손 놓은 적 없어…보수 승리 위해 함께 가야”",
-     "url": "https://n.news.naver.com/article/023/0004005771"
-    },
-    {
-     "press": "문화일보",
-     "title": "[속보]한동훈 “오세훈과 손 놓은 적 없어…함께 가야”",
-     "url": "https://n.news.naver.com/article/021/0002827602"
-    }
-   ]
+   "title": "[속보] 5·18 다룬 드라마 '닥터X', 방영 중단 국민청원 올라왔다",
+   "url": "https://n.news.naver.com/article/002/0002462579",
+   "press": "프레시안",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
