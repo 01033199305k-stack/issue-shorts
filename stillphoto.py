@@ -26,7 +26,9 @@ import stock
 
 CACHE = Path.home() / ".cache" / "issue-shorts" / "stills"
 MIN_W = 960
-OLD = re.compile(r"\b(historical|historic|antique|vintage|retro|old|nostalgia|nostalgic|museum|ancient)\b")
+# not the real thing: old ones ('cash register' -> a 1900s brass register) and toys ('cash register' -> a toy one)
+OLD = re.compile(r"\b(historical|historic|antique|vintage|retro|old|nostalgia|nostalgic|museum|ancient|"
+                 r"toys?|miniature|figurines?|lego|plaything|model)\b")
 PEOPLE = stock.PEOPLE
 
 

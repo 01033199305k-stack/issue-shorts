@@ -84,6 +84,11 @@ def _relevant(video: dict, query: str) -> bool:
     # someone in the story. Clips tagged with people are out unless the words ask for them.
     if PEOPLE.search(desc) and not PEOPLE.search(query.lower()):
         return False
+    # and one more of the words when there are more: 'store shelves night' took a Dubai fountain at night
+    # (2026-10-25). Not all of them - footage is scarcer than photos and 2-3 clips a video are required.
+    rest = [w for w in re.findall(r"[a-z]+", query.lower())[1:] if len(w) > 2]
+    if rest and not any(re.search(r"\b" + w, desc) for w in rest):
+        return False
     return head in desc and not any(c in desc for c in CHROMA)
 
 
