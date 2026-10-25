@@ -4061,5 +4061,57 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-25_1800_coin-bag-delivery-left-behind/video.mp4"
   },
   "seconds": 978
+ },
+ {
+  "key": "2026-10-26-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-26T07:00:00+09:00",
+  "started": "2026-10-26T04:16:34.766518+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-145737/",
+   "https://pixabay.com/photos/military-training-parade-uniform-6869493/",
+   "https://pixabay.com/photos/skyscraper-building-courthouse-4863730/",
+   "https://pixabay.com/videos/id-54904/"
+  ],
+  "duration": 25.4,
+  "matches": [
+   0.93,
+   0.96,
+   0.98,
+   0.98,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   0.9
+  ],
+  "sfx": 9,
+  "illustrations": 6,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "상관 험담하다 1계급 깎인 병사의 반격 #shorts",
+  "source_post": "https://n.news.naver.com/article/005/0001880615",
+  "facts_used": [
+   "공군 병사 A씨가 2024년 휴가 전 교육을 기다리던 병사들 앞에서 상관 B씨를 두고 'X 패고 싶다', '그 XX 부서에서 하는 것도 없음', '폐급간부'라고 말했다며 신고돼 징계위원회에서 1계급 강등 처분을 받음 — 국민일보 https://www.kmib.co.kr/article/20261025500011 , 인사이트 https://www.insight.co.kr/news/579074 , 매일신문 https://www.imaeil.com/page/view/2026102513344818015",
+   "서울행정법원 행정12부는 A씨가 여단장을 상대로 낸 징계처분 취소 소송에서 15일 원고 승소 판결 — 국민일보, 데일리안 https://www.dailian.co.kr/news/view/1705794 , 한국경제 https://www.hankyung.com/article/2026102534901",
+   "법원은 B씨가 발언을 듣지 못했고 군기·상명하복 질서가 실제로 문란해졌다고 볼 사정도 없어 '비행 정도가 가볍고 경과실'에 해당, 근신·견책 범위인데 강등은 지나치게 무겁다고 판단 — 국민일보, 서울경제 https://m.sedaily.com/article/20105884 , 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=478173",
+   "네이버 댓글 많은 기사(국민일보) — https://n.news.naver.com/article/005/0001880615"
+  ],
+  "slug": "2026-10-26_0700_airforce-soldier-demotion-overturned",
+  "late": false,
+  "video_id": "vJWKdHwnQA4",
+  "url": "https://youtube.com/shorts/vJWKdHwnQA4",
+  "privacy": "private",
+  "scheduled_for": "2026-10-25T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ade5a500b5343d070eb2c42",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-25T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-26_0700_airforce-soldier-demotion-overturned/video.mp4"
+  },
+  "seconds": 1215
  }
 ]
