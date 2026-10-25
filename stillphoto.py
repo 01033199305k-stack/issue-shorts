@@ -26,8 +26,8 @@ import stock
 
 CACHE = Path.home() / ".cache" / "issue-shorts" / "stills"
 MIN_W = 960
-PEOPLE = re.compile(r"\b(people|persons?|man|men|woman|women|girls?|boys?|child(ren)?|kids?|baby|portrait|face|selfie|"
-                    r"couple|family|model|businessman|businesswoman|student|worker|crowd|lady|guy)\b")
+OLD = re.compile(r"\b(historical|historic|antique|vintage|retro|old|nostalgia|nostalgic|museum|ancient)\b")
+PEOPLE = stock.PEOPLE
 
 
 def _get_json(url: str, headers: dict | None = None) -> dict:
@@ -63,7 +63,11 @@ def _openverse(query: str, _key: str = "") -> list[dict]:
 def relevant(hit: dict, query: str) -> bool:
     desc = hit["desc"].lower()
     words = [w for w in re.findall(r"[a-z]+", query.lower()) if len(w) > 2]
-    if not words or words[0] not in desc:   # the head word must be in the photo's own description
+    # every word must be in the photo's own description (2026-10-25: 'transit card' took a train photo tagged
+    # 'transit' - no card in it); old things only when asked ('cash register' took a 1900s brass register)
+    if not words or not all(re.search(r"\b" + w, desc) for w in words):
+        return False
+    if OLD.search(desc) and not OLD.search(query.lower()):
         return False
     if stock.FAKE.search(desc) or (stock.ANIMAL.search(desc) and not stock.ANIMAL.search(query.lower())):
         return False

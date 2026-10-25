@@ -328,7 +328,7 @@ WebFetch 는 대부분 막혀 있으니 한 번 시도해서 `EGRESS_BLOCKED` �
   - 문장이 말하는 **장소·사물·음식·탈것**이 화면에 그대로 나오는 문장을 고른다 (배달 → `delivery motorbike`, 동전 → `coins counting`, 치킨 → `fried chicken`, 사진관 → `photo studio camera`, 편의점 → `convenience store shelf`, 바다 → `ocean waves boat`, 판결 → `courthouse building`). 7~9문장 썰이면 이런 문장이 거의 늘 2~3개 있다.
   - 문장과 상관없는 장소로 장면 수를 채우지 않는다 (사과 장면에 `airport arrival hall` ✗, 유도 실격에 `judo mat dojo` → 요가장이 나왔음 ✗). 감정 리액션·추상 개념(가격·정책·책임) 문장은 그림 장면으로 둔다.
 - `pic` (**실사 사진 장면, 영상마다 2~4장면 필수**, 2026-10-25 사용자: "패턴이 너무 동일해서 재미가 없어, 실사 사진이 짧주처럼 들어가면 좋을 것 같은데"):
-  `"pic": ["convenience store counter", "cash register", "store checkout"]` — 그 문장이 말하는 **실제 장소·물건의 사진**(Pixabay·Pexels 무료 사진, 상업 이용 가능·출처 표기 불필요)이 패널을 꽉 채우고 천천히 당겨지며 구석에 '자료사진'이 붙는다. 영어 2~4단어, 첫 단어가 핵심 명사, 후보 2~3개.
+  `"pic": ["convenience store counter", "cash register", "store checkout"]` — 그 문장이 말하는 **실제 장소·물건의 사진**(Pixabay·Pexels 무료 사진, 상업 이용 가능·출처 표기 불필요)이 패널을 꽉 채우고 천천히 당겨지며 구석에 '자료사진'이 붙는다. **영어 2단어**(많아야 3), 후보 2~3개 — 렌더러는 **검색어의 모든 단어가 사진 태그에 있어야** 쓴다 ('transit card' 에 'transit' 태그만 있는 기차 사진이 붙은 적 있음). 옛날 물건 사진(vintage·antique·historical)도 거른다. 소품(doc·sms·price) 장면엔 `cam` 을 달아도 렌더러가 무시한다(확대하면 종이가 잘림).
   - @짧은주녑은 장면마다 실사 사진을 깔지만 **남의 SNS 사진·앨범 표지를 허락 없이 퍼 온 것**이다(역검색: 개인 스레드 글 2건). 우리는 라이선스가 있는 사진만 쓴다 — 뉴스·커뮤니티·SNS 사진은 절대 안 된다.
   - 사람 사진은 렌더러가 거른다(실존 인물이 피의자·피해자로 오해되면 안 됨). 장소·물건·음식·탈것만: `convenience store shelf`, `police car`, `jjamppong noodle soup`, `transit card`, `hospital corridor`, `bakery bread`.
   - **사진만 있는 장면**(items 에 이모지 하나만)을 영상당 1장면 이상 넣는다 — 그림 없이 사진 + 자막이 짧주처럼 보이는 장면이다. 나머지 `pic` 장면은 그림이 왼쪽 위 작은 스티커가 된다.

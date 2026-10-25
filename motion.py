@@ -1230,6 +1230,9 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
             pics[0]["drift"] = 1 if i % 2 else -1
         doc = next((d for d in data if d["type"] == "doc" and "mark_dy" in d), None)
         zmax = 1.3
+        # a paper/phone/tag is read, not punched into: 2026-10-25 a punch on the 충전 알림 phone cut its left side
+        if cam_mode in ("punch", "push", "pull") and any(d["type"] in ("doc", "sms", "price") for d in data):
+            cam_mode = ""
         if doc and not cam_mode and not clip:
             cam_mode, focus = "detail", [round(doc["x"]), round(min(doc["y"] + doc["mark_dy"], 620))]
             # 2026-10-25: a fixed 1.3x pushed '사건반장 제보' off the top and the paper's side out of frame. Zoom only

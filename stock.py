@@ -59,6 +59,8 @@ CHROMA = ("green screen", "greenscreen", "chroma", "blue screen", "alpha channel
 # Pixabay's AI clips pass any word test: "camera photographer studio" got an owl in a sweater
 # holding a camera (tags: ai generated, animal, anthropomorphic, ..., photographer, camera, studio).
 FAKE = re.compile(r"\b(ai[ -]?generated|generative|anthropomorphic|animation|animated|cartoon|3d|render(ing)?|cgi)\b")
+PEOPLE = re.compile(r"\b(people|persons?|man|men|woman|women|girls?|boys?|child(ren)?|kids?|baby|portrait|face|selfie|"
+                    r"couple|family|model|businessman|businesswoman|student|worker|crowd|lady|guy|fashion|dress)\b")
 ANIMAL = re.compile(r"\b(animals?|owls?|birds?|cats?|kittens?|dogs?|puppy|monkeys?|bears?|fox(es)?|rabbits?|wildlife|pets?)\b")
 
 
@@ -77,6 +79,10 @@ def _relevant(video: dict, query: str) -> bool:
     desc = _describe(video)
     head = query.split()[0].lower()
     if FAKE.search(desc) or (ANIMAL.search(desc) and not ANIMAL.search(query.lower())):
+        return False
+    # 2026-10-25: 'store shelves night' gave a clothes rack with a woman's back - a stranger standing in for
+    # someone in the story. Clips tagged with people are out unless the words ask for them.
+    if PEOPLE.search(desc) and not PEOPLE.search(query.lower()):
         return False
     return head in desc and not any(c in desc for c in CHROMA)
 
