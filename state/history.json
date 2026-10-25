@@ -3960,5 +3960,55 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-25_0700_police-cpr-jjamppong-meal-bill/video.mp4"
   },
   "seconds": 1218
+ },
+ {
+  "key": "2026-10-25-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-25T12:00:00+09:00",
+  "started": "2026-10-25T09:18:49.142218+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-1006/",
+   "https://pixabay.com/videos/id-209456/"
+  ],
+  "duration": 28.99,
+  "matches": [
+   1.0,
+   0.98,
+   0.98,
+   0.96,
+   0.99,
+   0.99,
+   0.98,
+   0.94,
+   1.0
+  ],
+  "sfx": 8,
+  "illustrations": 7,
+  "cuts": 9,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "첫 출근 5시간 만에 사라진 편의점 알바, 돈통 털기 전 먼저 충전한 것 #shorts",
+  "source_post": "https://supple.kr/news/cmvc03q6s001814a40sfcdgqm",
+  "facts_used": [
+   "울산에서 부모님과 편의점을 운영하는 점주 A씨가 최근 30대 남성을 야간 아르바이트생으로 채용 — 머니투데이 2026-10-17 '근무 첫날 돈통 털고 사라진 알바생…부산·울산 편의점 당했다' https://www.mt.co.kr/society/2026/10/17/2026101714103212839 (JTBC 사건반장 10월 16일 방송 인용), 재경일보 '첫 출근 편의점 턴 30대 남성' https://news.jkn.co.kr/post/1029649",
+   "남성은 신분증과 주민등록등본까지 보여 주며 '당장 일할 수 있다'고 강조했고, 포스기 사용이 능숙해 교육이 거의 필요 없었음 — 머니투데이, 사건반장 재인용 기사 https://supple.kr/news/cmvc03q6s001814a40sfcdgqm",
+   "근무 시작 약 5시간 뒤(10일 새벽) 점주에게 '교통카드·포인트 머니·선불형 충전 카드 누적 충전금이 초과했으니 점포에서 확인하라'는 문자가 옴 — 머니투데이, 재경일보",
+   "점주 말로는 오전 4시 25분까지 정상 근무, 누군가와 계속 연락을 주고받으며 현금성 충전을 계속했고 오전 4시 39분 돈통을 열어 잔돈과 정산 금액까지 챙겨 나감, 피해액 대략 265만 원 — 머니투데이, 재경일보",
+   "이 남성은 울산 범행 며칠 전인 7일 부산의 한 편의점에서도 아르바이트를 시작해 비슷한 피해가 났고, 피해 점주들이 신고했지만 아직 붙잡히지 않음 — 머니투데이, 재경일보"
+  ],
+  "slug": "2026-10-25_1200_first-shift-store-cash-drawer",
+  "late": false,
+  "video_id": "zbt05ajxqks",
+  "url": "https://youtube.com/shorts/zbt05ajxqks",
+  "privacy": "private",
+  "scheduled_for": "2026-10-25T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6add4fa06887a2efc1e0954b",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-25T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-25_1200_first-shift-store-cash-drawer/video.mp4"
+  },
+  "seconds": 1209
  }
 ]
