@@ -114,14 +114,16 @@ def find(urls: list[str], who: str = "") -> dict | None:
     return None
 
 
-def frames(photo: dict, seconds: float, out_dir: Path, fps: int = 30) -> dict | None:
-    """The photo as a scene background: panel-filling frames with a slow push-in (same shape as stock.clip_frames)."""
+def frames(photo: dict, seconds: float, out_dir: Path, fps: int = 30, tag: str = "",
+           strip_bottom: bool = True) -> dict | None:
+    """The photo as a scene background: panel-filling frames with a slow push-in (same shape as stock.clip_frames).
+    tag: the corner label (default "사진=<agency> 제공"); strip_bottom: cut the news site's logo strip."""
     w, h = PANEL
     n = max(1, int(round((seconds + 0.3) * fps)))
     out_dir.mkdir(parents=True, exist_ok=True)
     # the bottom strip goes first: news sites stamp their logo there (뉴스1 bottom-right) - the photo is the
     # agency's, the logo is not
-    vf = (f"crop=iw:ih*0.86:0:0,scale={w * 2}:{h * 2}:force_original_aspect_ratio=increase,crop={w * 2}:{h * 2},"
+    vf = (("crop=iw:ih*0.86:0:0," if strip_bottom else "") + f"scale={w * 2}:{h * 2}:force_original_aspect_ratio=increase,crop={w * 2}:{h * 2},"
           f"zoompan=z='min(1+0.0009*on,1.10)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s={w}x{h}:fps={fps}")
     try:
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", photo["path"], "-vf", vf, "-frames:v", str(n),
@@ -130,4 +132,4 @@ def frames(photo: dict, seconds: float, out_dir: Path, fps: int = 30) -> dict | 
         print(f"    photo: frames failed: {ex}")
         return None
     got = len(list(out_dir.glob("f_*.jpg")))
-    return {"dir": str(out_dir), "n": got, "url": photo["url"], "tag": f"사진={photo['who']} 제공"} if got else None
+    return {"dir": str(out_dir), "n": got, "url": photo["url"], "tag": tag or f"사진={photo['who']} 제공"} if got else None

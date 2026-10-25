@@ -51,6 +51,11 @@ def _check_visual(i: int, v: dict) -> list[str]:
     if vq is not None and not (isinstance(vqs, list) and 1 <= len(vqs) <= 3 and all(
             isinstance(q, str) and re.fullmatch(r"[A-Za-z0-9 ,'-]{2,40}", q) for q in vqs)):
         p.append(f"segment {i}: video must be 2-40 chars of English search words (or a list of 1-3 such candidates), got {vq!r}")
+    pq = v.get("pic")   # stillphoto.py: free stock stills of the place/object (2026-10-25)
+    pqs = [pq] if isinstance(pq, str) else pq
+    if pq is not None and not (isinstance(pqs, list) and 1 <= len(pqs) <= 3 and all(
+            isinstance(q, str) and re.fullmatch(r"[A-Za-z0-9 ,'-]{2,40}", q) for q in pqs)):
+        p.append(f"segment {i}: pic must be 2-40 chars of English search words (or a list of 1-3 such candidates), got {pq!r}")
     ph = v.get("photo")
     if ph is not None and not (isinstance(ph, dict) and isinstance(ph.get("who"), str) and 2 <= len(ph["who"]) <= 20
                                and (ph.get("src") is None or re.match(r"https?://", str(ph["src"])))):
@@ -359,11 +364,28 @@ def lint(script: dict) -> list[str]:
         p.append("segment 0: the opening post card takes no stock video")
     if any(a and b for a, b in zip(vids, vids[1:])):
         p.append("two stock-video scenes in a row - put a picture scene between the clips")
+    # 2026-10-25 (사용자: "실사 사진이 짧주처럼 들어가면 좋을 것 같은데"): 2-3 real photos of the place/object per video
     segs_ = script.get("segments", [])
+    pics = [bool((s.get("visual") or {}).get("pic")) for s in segs_]
+    media = [a or b or bool((s.get("visual") or {}).get("photo")) for a, b, s in zip(vids, pics, segs_)]
+    if sum(pics) < 2:
+        p.append(f"only {sum(pics)} scenes with a real photo - give 2-3 sentences \"pic\": [English words for the place/"
+                 "object they name] (ROUTINE pic: stock stills, no people)")
+    if sum(pics) > 3:
+        p.append(f"{sum(pics)} pic scenes - max 3")
+    if sum(media) > 6:
+        p.append(f"{sum(media)} scenes on footage/photos - max 6, the illustrated scenes are still half the look")
+    if any(a and b and c for a, b, c in zip(media, media[1:], media[2:])):
+        p.append("three footage/photo scenes in a row - put an illustrated scene between them")
+    if pics and pics[0]:
+        p.append("segment 0: the opening post card takes no pic")
+    if sum(pics) >= 2 and not any(pc and not any(it.get("type") in ("illust", "crowd") for it in (s.get("visual") or {}).get("items", []))
+                                  for pc, s in zip(pics, segs_)):
+        p.append("no photo-only scene - leave the illustration out of one pic scene (just the photo + an emoji), the @짧은주녑 look")
     bgs = [(s.get("visual") or {}).get("bg", "white") for s in segs_]
     kinds = [it.get("type") for s in segs_ for it in (s.get("visual") or {}).get("items", [])]
-    n_place = sum(1 for b, v in zip(bgs, vids) if b in PLACES and not v)
-    if n_place < 3:   # 2026-10-12: @통찰맨 puts every person in a real room/street; our white panel looked empty
+    n_place = sum(1 for b, v in zip(bgs, media) if b in PLACES and not v)
+    if n_place < (2 if sum(pics) >= 2 else 3):   # 2026-10-12: @통찰맨 puts every person in a real room/street
         p.append(f"only {n_place} scenes on a place photo - put the people in 3+ scenes where the story happens "
                  f"(bg one of {PLACES}, ROUTINE 장소 사진)")
     if sum(kinds.count(k) for k in ("doc", "sms", "price")) > 3 or kinds.count("warn") > 1:
@@ -461,6 +483,20 @@ def lint(script: dict) -> list[str]:
         elif not re.search(EGG_WORDS[topic], " ".join([script.get("youtube", {}).get("title", "")] + [s.get("text", "") for s in segs])):
             p.append(f"like_egg {topic!r} but the story never names it ({EGG_WORDS[topic]}) - pick a thing that is in "
                      "the story, or drop like_egg")
+    # 2026-10-25 @짧은주녑 (432 shorts): one sentence of ~17 chars, the same words on screen and in the feed
+    yt_title = (script.get("youtube") or {}).get("title", "")
+    core = re.sub(r"\s*#shorts\s*$", "", yt_title).strip()
+    norm = lambda x: re.sub(r"[^0-9A-Za-z가-힣%]", "", x)
+    if norm(core) != norm("".join(script.get("title_lines", []))):
+        p.append(f"youtube.title {core!r} is not the two title_lines {script.get('title_lines')} - write one sentence and "
+                 "split it into the two lines (ROUTINE 제목: the feed title and the screen title are the same words)")
+    n_core = len(re.sub(r"\s", "", core))
+    if n_core > 26:
+        p.append(f"youtube.title is {n_core} chars without spaces (max 26, @짧은주녑 median 17)")
+    if "," in core:
+        p.append("youtube.title joins two sentences with a comma - one sentence (ROUTINE 제목)")
+    if re.search(r"(것|거)$", core):
+        p.append("youtube.title ends on '~것/거' (@짧은주녑: 0.47x the median) - end on the thing itself, '~한 이유' or '~의 진실'")
     brief = str(script.get("brief", ""))
     if "이해검사:" not in brief:
         p.append("brief has no '이해검사:' line - write who / what / how it ended in one sentence using only the script's words")
@@ -473,10 +509,36 @@ def lint(script: dict) -> list[str]:
     return p
 
 
+def series_problems(path: Path, script: dict) -> list[str]:
+    """Checks against the scripts just before this one (2026-10-25 사용자: "패턴이 너무 동일해서 재미가 없어"):
+    no ⚠ warn two videos running, and not the same title opener three times in a row."""
+    if script.get("skip") or not path.parent.is_dir():
+        return []
+    prev = []
+    for f in sorted(path.parent.glob("*.json")):
+        if f.name >= path.name:
+            break
+        try:
+            d = json.loads(f.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        if not d.get("skip"):
+            prev.append(d)
+    prev = prev[-2:]
+    p = []
+    kinds = lambda d: [it.get("type") for s in d.get("segments", []) for it in (s.get("visual") or {}).get("items", [])]
+    if prev and "warn" in kinds(prev[-1]) and "warn" in kinds(script):
+        p.append("the previous video already used the ⚠ warn sign - turn this one with cam punch + 💥 or a photo scene")
+    opener = lambda d: (re.match(r"(결국|현재|진짜|지금|드디어|알고 보니)", (d.get("youtube") or {}).get("title", "")) or [None])[0]
+    if len(prev) == 2 and opener(script) and opener(prev[0]) == opener(prev[1]) == opener(script):
+        p.append(f"title opener {opener(script)!r} three videos running - pick another (ROUTINE 제목)")
+    return p
+
+
 if __name__ == "__main__":
     sys.stdout.reconfigure(encoding="utf-8")
     script = json.loads(open(sys.argv[1], encoding="utf-8").read())
-    problems = validate(script) + lint(script)
+    problems = validate(script) + lint(script) + series_problems(Path(sys.argv[1]).resolve(), script)
     for x in problems:
         print("PROBLEM:", x)
     print("OK" if not problems else f"{len(problems)} problem(s)")

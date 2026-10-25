@@ -279,6 +279,8 @@ def _best_lines(ws, line_chars: int, max_lines: int = 2, costs=None, base: int =
             continue
         brk = costs[base + k] if costs else _break_cost(a[-1].text, b[0].text)
         c = brk * 0.6 + abs(_width(a) - _width(b)) * BALANCE + ca + cb
+        if _width(b) < 0.42 * _width(a) or _width(a) < 0.42 * _width(b):   # '... 싹 들고 / 나감.' (2026-10-25)
+            c += 40.0
         if best is None or c < best[0]:
             best = (c, [a, b])
     return best
@@ -624,7 +626,7 @@ window.render = function (t) {
       if (on && age < .35) shake = Math.max(shake, .7 * (1 - age / .35)); }
     else if (s.cam === 'push') z = 1 + .16 * prog * prog * (3 - 2 * prog);
     else if (s.cam === 'pull') z = 1.2 - .2 * eo(age / Math.max(.8, s.end - t0));
-    else if (s.cam === 'detail') { z = 1 + .3 * sm((age - .9) / 1.1); ox = s.focus[0]; oy = s.focus[1]; }   // after the circle is drawn
+    else if (s.cam === 'detail') { z = 1 + ((s.zmax || 1.3) - 1) * sm((age - .9) / 1.1); ox = s.focus[0]; oy = s.focus[1]; }   // after the circle is drawn
     if (on && s.tr === 'whoosh' && age < TR) { const k = age / TR; tx = 640 * (1 - eo(k)); blur = 18 * (1 - k); }
     if (on && s.tr === 'flash' && age < .26) flash = 1 - age / .26;
     if (out) { const k = (t - (nx.start - D.lead)) / TR; tx = -640 * eo(k); blur = 18 * k; op = 1 - k; }
@@ -725,6 +727,56 @@ function bottomIn(el, card) {   // el's bottom edge in the card's own (untransfo
   return top + el.offsetHeight;
 }
 function opacityOf(el) { let o = 1; for (let e = el; e && e !== document.body; e = e.parentElement) o *= +getComputedStyle(e).opacity; return o; }
+// how far the words' corners reach into the red ellipse (box left/top/width/height in the line's own px):
+// > 1 = the stroke (9 px, centred on the path) runs through the ink. Glyph ink is ~.84 em tall.
+function markK(ln, l, t, w, h, fs) {
+  const mk = ln.querySelector('.mk'), el = mk && mk.querySelector('ellipse'), vb = mk && mk.viewBox.baseVal;
+  const sx = el ? w / vb.width : 1, sy = el ? h / vb.height : 1;
+  const rx = (el ? el.rx.baseVal.value * sx : w / 2) - 4.5, ry = (el ? el.ry.baseVal.value * sy : h / 2) - 4.5;   // stroke's inner edge
+  const cx = l + (el ? el.cx.baseVal.value * sx : w / 2), cy = t + (el ? el.cy.baseVal.value * sy : h / 2);
+  const ex = Math.abs(cx - ln.offsetWidth / 2) + ln.offsetWidth / 2, ey = Math.abs(cy - ln.offsetHeight / 2) + .45 * fs;
+  return (ex / rx) ** 2 + (ey / ry) ** 2;
+}
+// 2026-10-25 (사용자: "동그라미 치는 부분이 이상하게 짤리거나"): the ring was the line box + 30 px, so a wide line's
+// ends ran through the stroke, and anything past the paper was clipped by its folded-corner clip-path. Size the
+// ellipse to really contain the words, inside the paper's 54 px side padding; shrink the line if it cannot.
+function fitMarks() {
+  // Python sizes a paper's lines from character counts, which runs small on lines with digits and spaces
+  // ('04:39 돈통 열고 나감' came out at ~30 px on a 760 px paper). Grow them together, up to 72 px, while the
+  // widest stays under 560 px (room for the ring) and the extra height fits the paper's empty foot (90 px).
+  document.querySelectorAll('.doc').forEach(doc => {
+    const ls = [...doc.querySelectorAll('.dl')];
+    if (!ls.length) return;
+    const fs0 = parseFloat(getComputedStyle(ls[0]).fontSize), top = fs0 + 90 / (1.55 * ls.length);
+    let fs = fs0;
+    const widest = () => Math.max(...ls.map(l => l.offsetWidth));
+    while (fs * 1.03 <= Math.min(72, top) && widest() * 1.03 <= 560) {
+      fs *= 1.03; ls.forEach(l => { l.style.fontSize = fs.toFixed(1) + 'px'; });
+    }
+  });
+  document.querySelectorAll('.doc .mk').forEach(mk => {
+    const ln = mk.parentElement;
+    for (let n = 0; n < 30; n++) {
+      const fs = parseFloat(getComputedStyle(ln).fontSize), w = ln.offsetWidth, h = ln.offsetHeight;
+      // widest the paper allows (its 54 px padding), then just tall enough that the words' corners clear the
+      // stroke's inner edge with 5 % to spare; too tall for the line pitch -> smaller words and try again
+      const rx = Math.min(w / 2 + 49, Math.max(w / 2 * 1.22, w / 2 + .7 * fs)), a = (w / 2) / (rx - 4.5);
+      const need = a < .95 ? .45 * fs / Math.sqrt(.95 - a * a) + 4.5 : Infinity;
+      if (need <= 1.0 * fs) {   // up to the gap between lines (next ink starts 1.1 em away)
+        const ry = Math.max(.62 * fs, need);
+        const bw = 2 * rx + 12, bh = 2 * ry + 12, el = mk.querySelector('ellipse');
+        mk.setAttribute('viewBox', `0 0 ${bw.toFixed(1)} ${bh.toFixed(1)}`);
+        mk.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+        el.setAttribute('cx', (bw / 2).toFixed(1)); el.setAttribute('cy', (bh / 2).toFixed(1));
+        el.setAttribute('rx', rx.toFixed(1)); el.setAttribute('ry', ry.toFixed(1));
+        Object.assign(mk.style, {left: `${(w / 2 - bw / 2).toFixed(1)}px`, width: `${bw.toFixed(1)}px`,
+                                 top: `${(h / 2 - bh / 2).toFixed(1)}px`, height: `${bh.toFixed(1)}px`});
+        break;
+      }
+      ln.style.fontSize = (fs * .96).toFixed(1) + 'px';
+    }
+  });
+}
 window.qaTimes = function () {
   const ts = D.caps.map(c => (c.s + c.e) / 2);
   D.scenes.forEach(s => { const t = s.end - D.lead - .1; if (t > s.start + .5) ts.push(t); });
@@ -742,7 +794,9 @@ window.qa = function (t) {
     if (lineCount(el) > 1) say('wrapped', el, 'title line wraps'); });
   scenes.forEach((sc, i) => {
     if (getComputedStyle(sc).visibility === 'hidden' || +(sc.style.opacity || 1) < .99) return;
-    const moving = !!D.scenes[i].cam;   // punch/push/pull zoom past the edges on purpose
+    // punch/push/pull zoom past the edges on purpose; 'detail' (the circled paper) must keep the paper in view -
+    // 2026-10-25 it cut '사건반장 제보' off the top and the paper's left edge, and this check skipped it
+    const moving = !!D.scenes[i].cam && D.scenes[i].cam !== 'detail';
     sc.querySelectorAll(TEXT_SEL).forEach(el => {
       const it = el.closest('.it');
       if (!it || (it._life ?? -1) < .6 || opacityOf(el) < .5) return;   // not landed yet
@@ -761,6 +815,42 @@ window.qa = function (t) {
       }
     });
   });
+  // the red circle: the marked words must sit inside the ellipse, the stroke must not run through them
+  // (2026-10-25: '04:39 돈통 열고 나감' - the ellipse crossed '나감'), and the whole ring must stay in the panel
+  scenes.forEach((sc, i) => {
+    if (getComputedStyle(sc).visibility === 'hidden' || +(sc.style.opacity || 1) < .99) return;
+    if (D.scenes[i].cam && D.scenes[i].cam !== 'detail') return;
+    sc.querySelectorAll('.doc').forEach(doc => {   // the paper itself (the detail zoom pushed its edge out)
+      const it = doc.closest('.it');
+      if (!it || (it._life ?? -1) < .6) return;
+      const r = doc.getBoundingClientRect(), cut = Math.max(P.left - r.left, r.right - P.right, P.top - r.top);
+      if (cut > 14) say('cut', doc.querySelector('.dt') || doc, `paper ${Math.round(cut)}px past the panel edge`);
+    });
+    sc.querySelectorAll('.doc .mk').forEach(mk => {
+      const it = mk.closest('.it');
+      if (!it || (it._life ?? -1) < 1.1 || opacityOf(mk) < .5) return;   // circle drawn by life 1.0
+      // measured in the paper's own (unrotated) layout: the paper leans -3 deg, so screen boxes look roomier than
+      // they are. The line box shrink-wraps its words (.doc is a centred column), so its width is the words' width.
+      const ln = mk.parentElement, fs = parseFloat(getComputedStyle(ln).fontSize), e = mk.getBoundingClientRect();
+      const k = markK(ln, mk.offsetLeft, mk.offsetTop, mk.offsetWidth, mk.offsetHeight, fs);
+      const q = document.createRange(); q.selectNodeContents(ln.firstChild);
+      const r = q.getBoundingClientRect(), cy = (r.top + r.bottom) / 2, gy = .42 * fs * (r.height / ln.offsetHeight);
+      if (k > 1) say('circle-cut', ln, `red circle runs through the marked words (${k.toFixed(2)})`);
+      const cut = Math.max(P.left - e.left, e.right - P.right, P.top - e.top, e.bottom - P.bottom);
+      if (cut > 6) say('cut', ln, `red circle ${Math.round(cut)}px past the panel edge`);
+      if (C) {
+        const ox = Math.min(r.right, C.right) - Math.max(r.left, C.left), oy = Math.min(cy + gy, C.bottom) - Math.max(cy - gy, C.top);
+        if (ox > 4 && oy > 4) say('covered', ln, 'circled line under the caption box');
+      }
+    });
+  });
+  // a caption whose last line is one short word ('돈통이랑 정산금 싹 들고 / 나감.') reads as a stray
+  if (box) {
+    const ls = [...box.querySelectorAll(OUTLINED.has((D.caps.find(c => t >= c.s - .05 && t < c.e) || {}).st || 'narr') ? '.fg .ln' : '.ln')];
+    const inkW = el => { const q = document.createRange(); q.selectNodeContents(el); return q.getBoundingClientRect().width; };
+    if (ls.length === 2 && inkW(ls[1]) < .34 * inkW(ls[0]))
+      say('orphan', ls[1], `caption's 2nd line is ${Math.round(100 * inkW(ls[1]) / inkW(ls[0]))}% of the 1st`);
+  }
   return out;
 };
 
@@ -768,6 +858,7 @@ window.qa = function (t) {
   try { await Promise.all(['BH', 'CAP'].map(f => document.fonts.load(`100px ${f}`, '가나1A'))); } catch (e) {}
   await document.fonts.ready;
   fitText();
+  if (!window.NOFIT) fitMarks();
   window.READY = true;
 })();
 """
@@ -970,12 +1061,13 @@ def _prop(it: dict, d: dict) -> tuple[int, int, str]:
     lines = [str(x) for x in (it.get("lines") or [])][:4]
     if typ == "doc":
         longest = max([len(x) for x in lines] + [1])
-        fs = min(76, int(640 / (0.95 * longest)))
+        # 580 not 640: the red ring needs ~50 px each side inside the paper's padding (2026-10-25)
+        fs = min(76, int((580 if isinstance(it.get("mark"), int) else 640) / (0.95 * longest)))
         mark = it.get("mark")
         rows = []
         for n, x in enumerate(lines):
             ring = ('<svg class="mk" viewBox="0 0 100 100" preserveAspectRatio="none"><ellipse cx="50" cy="50" rx="48" ry="44" '
-                    'pathLength="1" stroke-dasharray="1" stroke-dashoffset="1" vector-effect="non-scaling-stroke"/></svg>') if mark == n else ""
+                    'pathLength="1" stroke-dasharray="1" stroke-dashoffset="1"/></svg>') if mark == n else ""
             rows.append(f'<div class="dl" style="font-size:{fs}px">{esc(x)}{ring}</div>')
         h = int(46 + 120 * 1.25 + 26 + fs * 1.55 * max(1, len(lines)) + 100)
         d["rot"] = -3
@@ -1105,7 +1197,9 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                 d["y"] = 430
             elif d["type"] in PROPS:   # papers sit high: the caption box covers the panel's bottom
                 d["y"] = max(d["h"] / 2 + 20, min(PANEL_H / 2 - 40, floor - d["h"] / 2))
-            margin = 60 if d["fx"] == "stamp" else 10   # a stamp lands rotated ~9 deg - its corners swing out
+            # a stamp lands rotated ~9 deg - its corners swing out; a paper/phone/tag rides the Ken Burns push and
+            # pan, which carried a side-placed paper's edge 15-28 px out of frame (2026-10-25)
+            margin = 60 if d["fx"] == "stamp" else 56 if d["type"] in PROPS else 10
             d["x"] = min(max(d["x"], d["w"] / 2 + margin), W - d["w"] / 2 - margin) if d["w"] < W - 2 * margin else W / 2
             data.append(d)
         _unstack(data, floor)
@@ -1135,12 +1229,27 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
         if kb and len(pics) == 1 and not clip:
             pics[0]["drift"] = 1 if i % 2 else -1
         doc = next((d for d in data if d["type"] == "doc" and "mark_dy" in d), None)
+        zmax = 1.3
         if doc and not cam_mode and not clip:
             cam_mode, focus = "detail", [round(doc["x"]), round(min(doc["y"] + doc["mark_dy"], 620))]
+            # 2026-10-25: a fixed 1.3x pushed '사건반장 제보' off the top and the paper's side out of frame. Zoom only
+            # as far as the whole paper (leaning -3 deg: +4 % of its height sideways) stays in the panel, its
+            # last line above the caption box.
+            ox, oy = focus
+            pad = 0.03 * doc["h"] + 8
+            x0, x1 = doc["x"] - doc["w"] / 2 - pad, doc["x"] + doc["w"] / 2 + pad
+            y0, y1 = doc["y"] - doc["h"] / 2 - 10, doc["y"] + doc["h"] / 2 - 100   # 100: the empty foot of the paper
+            lim = [(ox - 20) / (ox - x0) if ox > x0 else 9, (W - 20 - ox) / (x1 - ox) if x1 > ox else 9,
+                   (oy - 16) / (oy - y0) if oy > y0 else 9, (floor + ZOOM_ROOM - oy) / (y1 - oy) if y1 > oy else 9]
+            zmax = max(1.0, min(1.3, *lim))
+            if zmax < 1.06:   # no room to move: hold the paper still (the Ken Burns push/pan would cut its edge too)
+                cam_mode = ""
+                zmax = 1.0
+                kb = 0
         scenes_data.append({"start": st, "end": en, "items": data, "bg": BG.get(bg_key, BG["white"]),
                             "dark": bg_key in ("night", "red") or bool(place), "place": place, "shake": seg.get("sfx") in SHAKE_SFX,
                             "cam": cam_mode if cam_mode in CAMS else "", "tr": vis.get("tr") if vis.get("tr") in TRS else "",
-                            "focus": focus, "kb": kb, "pan": 1 if i % 2 else -1,
+                            "focus": focus, "kb": kb, "pan": 1 if i % 2 else -1, "zmax": round(zmax, 3),
                             "clip": {"base": base, "n": clip["n"]} if clip else None})
     # 2026-10-17: while the title card is read, the card is the caption - @dolongcha shows no caption box
     # there and @군림보/@통찰맨 only the title. Ours stacked title bar + card + caption box (three texts).

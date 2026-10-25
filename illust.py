@@ -68,7 +68,11 @@ KANJI = re.compile(r"^[一-鿿々]+")
 # Sheets of several faces/poses read as clutter in a single panel slot.
 SHEET = re.compile(r"いろいろな|色々な|表情のイラスト「|ポーズのイラスト「|セット|まとめ|一覧|段階|アイコン")
 # Drawings with readable Japanese on them (謝罪文 showed up for 謝罪) - viewers see foreign text.
-TEXTY = re.compile(r"文のイラスト|謝罪文|文章|文字|新聞|看板|ポスター|張り紙|貼り紙|手紙|メッセージ|お知らせ|標識|カード|メモ|書き初め|習字|円|将来")
+# 2026-10-25: 運転免許証（おばあさん） stood in for a 30s man's ID and 一万円 notes for a Korean meal bill - both
+# printed in Japanese. IDs, money, tickets and papers are Japanese documents in いらすとや; use an emoji or a doc prop.
+TEXTY = re.compile(r"文のイラスト|謝罪文|文章|文字|新聞|看板|ポスター|張り紙|貼り紙|手紙|メッセージ|お知らせ|標識|カード|メモ|書き初め|習字|円|将来|"
+                   r"免許証|身分証|保険証|マイナンバー|パスポート|お札|紙幣|札束|お金|通帳|レシート|領収書|切符|チケット|"
+                   r"カレンダー|時刻表|地図|国旗|メニュー|値札|請求書|契約書|書類|履歴書|名刺")
 
 
 PARTICLES = "のとやでをがはも・"

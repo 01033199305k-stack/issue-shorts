@@ -16,6 +16,7 @@ from pathlib import Path
 
 import motion
 import photo
+import stillphoto
 import stock
 from illust import Picker
 from pipeline import assemble, tts
@@ -216,12 +217,17 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
             if clip:
                 clips.append(clip)
                 continue
+        # a free stock still of the real place/object (stillphoto.py) - the @짧은주녑 look without their copying
+        if (pq := (vis or {}).get("pic")) and (clip := stillphoto.frames(pq, en - st + motion.LEAD + 0.2,
+                                                                         work_dir / f"still_{i:02d}", motion.FPS, used_clips)):
+            clips.append(clip)
+            continue
         for k, q in enumerate([qs] if isinstance(qs, str) else qs):   # candidates in order, like illust q lists
             if (clip := stock.clip_frames(q, en - st + motion.LEAD + 0.2, work_dir / f"clip_{i:02d}_{k}",
                                           motion.FPS, used_clips)):
                 break
         clips.append(clip)
-    print(f"  stock clips: {sum(1 for c in clips if c)}/{sum(1 for v in visuals if (v or {}).get('video'))}")
+    print(f"  stock clips: {sum(1 for c in clips if c)}/{sum(1 for v in visuals if (v or {}).get('video') or (v or {}).get('pic'))}")
     html, cuts = motion.build(segments, visuals, times, cues, script["title_lines"], script.get("credit", ""),
                               picker, repo / "assets" / "fonts" / "BlackHanSans-Regular.ttf", clips,
                               episode=script.get("episode"))

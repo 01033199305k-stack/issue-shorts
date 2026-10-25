@@ -63,7 +63,7 @@ def preview(script_path: Path, cfg: dict) -> dict:
     visuals = [seg.get("visual") or motion.card_to_visual(seg.get("card") or {}) for seg in segments]
     cues = motion.caption_cues(words, int(cfg.get("caption_line_chars", 11)), int(cfg.get("caption_words", 6)),
                                int(cfg.get("caption_lines", 2)), [seg.get("cap") for seg in segments])
-    clips = [grey_clip(work) if (v or {}).get("video") else None for v in visuals]
+    clips = [grey_clip(work) if (v or {}).get("video") or (v or {}).get("pic") else None for v in visuals]
     html, _ = motion.build(segments, visuals, times, cues, script["title_lines"], "", Picker(),
                            REPO / "assets" / "fonts" / "BlackHanSans-Regular.ttf", clips,
                            episode=script.get("episode", 1))
