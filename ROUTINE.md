@@ -327,6 +327,9 @@ WebFetch 는 대부분 막혀 있으니 한 번 시도해서 `EGRESS_BLOCKED` �
   - 2026-10-06~07 대본 6편이 전부 영상 0장면이라 그림만 넘어가는 정지 화면이 됐다 → 검사기가 **최소 2, 최대 3장면**, 연달아 두 장면 금지, 0번 글 카드엔 금지로 막는다.
   - 문장이 말하는 **장소·사물·음식·탈것**이 화면에 그대로 나오는 문장을 고른다 (배달 → `delivery motorbike`, 동전 → `coins counting`, 치킨 → `fried chicken`, 사진관 → `photo studio camera`, 편의점 → `convenience store shelf`, 바다 → `ocean waves boat`, 판결 → `courthouse building`). 7~9문장 썰이면 이런 문장이 거의 늘 2~3개 있다.
   - 문장과 상관없는 장소로 장면 수를 채우지 않는다 (사과 장면에 `airport arrival hall` ✗, 유도 실격에 `judo mat dojo` → 요가장이 나왔음 ✗). 감정 리액션·추상 개념(가격·정책·책임) 문장은 그림 장면으로 둔다.
+- `cc` (선택, 2026-10-25 사용자: "재사용 허용 ccby된 영상들 ... 추가하면 좋을거같은데"): **`video` 장면에 덧붙이는** 유튜브 CC BY 실제 영상 검색어. 일반 스톡엔 없는 **구체적인 실제 장소·탈것·명소**가 문장에 나올 때만 쓴다 (`"cc": ["seoul subway line 2", "seoul subway train"], "video": ["subway train", "subway station"]`). 렌더러가 유튜브 크리에이티브 커먼즈 영상을 찾아 원본 페이지의 라이선스가 CC BY 인지 다시 확인하고, 방송사·뉴스·재업로드·브이로그·리뷰·사람 위주 영상은 거른 뒤 영상 중간 몇 초만 쓴다. 구석 표기는 '자료화면' 대신 **'영상: 채널명 · CC BY'** 가 자동으로 붙는다 (설명란 출처 금지 규칙은 그대로 — 출처는 화면에만).
+  - `cc` 는 `video` 가 있는 장면에만 단다 (못 찾으면 `video` 로 넘어간다). 장면 수 규칙은 `video` 기준 그대로.
+  - 영어 3~4단어, 지명·고유명사를 앞에: `jeju island coast`, `gyeongbokgung palace`, `ktx train station`, `han river bridge night`, `tokyo shibuya crossing`. 사람·사건 현장·뉴스 장면을 찾지 않는다 (`fire scene`, `police arrest` ✗ — 남의 뉴스 재업로드가 걸린다).
 - `pic` (**실사 사진 장면, 영상마다 2~4장면 필수**, 2026-10-25 사용자: "패턴이 너무 동일해서 재미가 없어, 실사 사진이 짧주처럼 들어가면 좋을 것 같은데"):
   `"pic": ["convenience store counter", "cash register", "store checkout"]` — 그 문장이 말하는 **실제 장소·물건의 사진**(Pixabay·Pexels 무료 사진, 상업 이용 가능·출처 표기 불필요)이 패널을 꽉 채우고 천천히 당겨지며 구석에 '자료사진'이 붙는다. **영어 2단어**(많아야 3), 후보 2~3개 — 렌더러는 **검색어의 모든 단어가 사진 태그에 있어야** 쓴다 ('transit card' 에 'transit' 태그만 있는 기차 사진이 붙은 적 있음). 옛날 물건 사진(vintage·antique·historical)도 거른다. 소품(doc·sms·price) 장면엔 `cam` 을 달아도 렌더러가 무시한다(확대하면 종이가 잘림).
   - @짧은주녑은 장면마다 실사 사진을 깔지만 **남의 SNS 사진·앨범 표지를 허락 없이 퍼 온 것**이다(역검색: 개인 스레드 글 2건). 우리는 라이선스가 있는 사진만 쓴다 — 뉴스·커뮤니티·SNS 사진은 절대 안 된다.

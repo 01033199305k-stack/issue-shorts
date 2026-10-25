@@ -56,6 +56,13 @@ def _check_visual(i: int, v: dict) -> list[str]:
     if pq is not None and not (isinstance(pqs, list) and 1 <= len(pqs) <= 3 and all(
             isinstance(q, str) and re.fullmatch(r"[A-Za-z0-9 ,'-]{2,40}", q) for q in pqs)):
         p.append(f"segment {i}: pic must be 2-40 chars of English search words (or a list of 1-3 such candidates), got {pq!r}")
+    cq = v.get("cc")   # ccvideo.py: CC BY YouTube footage, credited on screen (2026-10-25)
+    cqs = [cq] if isinstance(cq, str) else cq
+    if cq is not None and not (isinstance(cqs, list) and 1 <= len(cqs) <= 3 and all(
+            isinstance(q, str) and re.fullmatch(r"[A-Za-z0-9 ,'-]{2,40}", q) for q in cqs)):
+        p.append(f"segment {i}: cc must be 2-40 chars of English search words (or a list of 1-3 such candidates), got {cq!r}")
+    if cq is not None and not vq:
+        p.append(f"segment {i}: cc needs a `video` list too - it is the fallback when no CC BY clip passes")
     ph = v.get("photo")
     if ph is not None and not (isinstance(ph, dict) and isinstance(ph.get("who"), str) and 2 <= len(ph["who"]) <= 20
                                and (ph.get("src") is None or re.match(r"https?://", str(ph["src"])))):
