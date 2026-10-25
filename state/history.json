@@ -4010,5 +4010,56 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-25_1200_first-shift-store-cash-drawer/video.mp4"
   },
   "seconds": 1209
+ },
+ {
+  "key": "2026-10-25-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-25T18:00:00+09:00",
+  "started": "2026-10-25T15:21:55.731695+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/coins-banknotes-money-currency-1726618/",
+   "https://pixabay.com/videos/id-292930/",
+   "https://pixabay.com/photos/house-door-entrance-stone-stairway-7614753/",
+   "https://pixabay.com/videos/id-138317/"
+  ],
+  "duration": 27.75,
+  "matches": [
+   0.97,
+   0.89,
+   0.89,
+   0.92,
+   0.92,
+   0.96,
+   0.96,
+   0.92,
+   0.87
+  ],
+  "sfx": 8,
+  "illustrations": 7,
+  "cuts": 9,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "문 앞 지퍼백에 담겼다는 동전 3만 원 #shorts",
+  "source_post": "https://www.seoul.co.kr/news/society/2026/10/03/20261003500009",
+  "facts_used": [
+   "서울 관악구 판자촌 인근으로 음식 배달을 간 기사(글쓴이)가 온라인 커뮤니티에 '배달하고 동전으로 3만원 받음'이라는 글과 사진을 올림 (2026-10-03) — 서울신문 https://www.seoul.co.kr/news/society/2026/10/03/20261003500009 , 헤럴드경제 https://www.heraldk.com/article/2026100405393415247 , 위키트리 https://www.wikitree.co.kr/articles/1163896",
+   "주문자가 요청사항에 현금을 문 앞에 두었으니 음식도 문 앞에 놓아 달라고 적음 — 헤럴드경제, 위키트리",
+   "문 앞 작은 지퍼백에 1000원짜리 지폐와 100원짜리 동전이 담겨 있었고, 메모에 '3만원 맞아요. 열 번 넘게 셌어요' — 서울신문 제목, 헤럴드경제, 경북매일 https://kbmaeil.com/article/20261003500059",
+   "기사는 돈과 음식을 그대로 두고 왔다며 '돼지저금통 깼으면 통장 직행해야지'라는 취지의 말을 남김 — 서울신문('기사는 음식값을 그대로 두고 왔다'), 서플(오따뉴) https://supple.kr/news/cmus3v40z000b6sp2aj9pxrf4 , 위키트리"
+  ],
+  "slug": "2026-10-25_1800_coin-bag-delivery-left-behind",
+  "late": false,
+  "video_id": "eAEBvXp67TY",
+  "url": "https://youtube.com/shorts/eAEBvXp67TY",
+  "privacy": "private",
+  "scheduled_for": "2026-10-25T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6adda3d36887a2efc1f05c28",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-25T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-25_1800_coin-bag-delivery-left-behind/video.mp4"
+  },
+  "seconds": 978
  }
 ]
