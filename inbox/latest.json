@@ -1,30 +1,39 @@
 {
- "generated_at": "2026-10-25T19:07+09:00",
+ "generated_at": "2026-10-25T23:22+09:00",
  "warnings": [
   "에펨 포텐: HTTPError HTTP Error 430: Unknown",
-  "개드립: HTTPError HTTP Error 403: Forbidden"
+  "개드립: HTTPError HTTP Error 403: Forbidden",
+  "엠팍 불펜: RemoteDisconnected Remote end closed connection without response"
  ],
  "posts": [
   {
-   "title": "[더갤] \"딸, 언제 들어와?\" 8시만 돼도 불안...밤길 안전했던 한국, 어쩌다",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473001&_dcbest=1&page=1",
-   "views": 13245,
-   "comments": 498,
+   "title": "활협전) 욱죽 귀여움 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/77156250",
+   "views": 1335,
+   "comments": 22,
+   "board": "루리웹 베스트",
+   "heat": 0.8709677419354839,
+   "also_on": [
+    "보배드림"
+   ],
+   "score": 1.371,
+   "news": []
+  },
+  {
+   "title": "[싱갤] 이거 믿는 사람이랑은 말이 안통함 ㄹㅇ.jpg",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473075&_dcbest=1&page=1",
+   "views": 27881,
+   "comments": 1053,
    "board": "디시 실베",
    "heat": 1.0,
    "also_on": [],
    "score": 1.0,
-   "news": [
-    {
-     "url": "https://n.news.naver.com/article/008/0005431139?type=editn&cds=news_edit",
-     "headline": "\"딸, 언제 들어와?\" 8시만 돼도 불안...밤길 안전했던 한국, 어쩌다"
-    }
-   ]
+   "news": []
   },
   {
    "title": "그 시절, 우리가 사랑했던 디시인사이드...manhwa",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17806&page=1",
-   "views": 141737,
+   "views": 141772,
    "comments": 924,
    "board": "디시 HIT",
    "heat": 1.0,
@@ -33,10 +42,10 @@
    "news": []
   },
   {
-   "title": "불쾌한 장난만 치는 남편 투명인간 취급이 답일까?",
-   "url": "https://theqoo.net/hot/4385886050",
-   "views": 51490,
-   "comments": 779,
+   "title": "당신은 무인도에 표류되었습니다. 지급품은 마지막으로 구입한 물건입니다.",
+   "url": "https://theqoo.net/hot/4386224912",
+   "views": 16630,
+   "comments": 1173,
    "board": "더쿠 HOT",
    "heat": 1.0,
    "also_on": [],
@@ -46,8 +55,8 @@
   {
    "title": "미처버린 한국 경제상황",
    "url": "https://bbs.ruliweb.com/best/board/300143/read/77151522",
-   "views": 11713,
-   "comments": 110,
+   "views": 38641,
+   "comments": 171,
    "board": "루리웹 베스트",
    "heat": 1.0,
    "also_on": [],
@@ -57,8 +66,8 @@
   {
    "title": "드라마 닥터x 518 어이가 없네 하차한다",
    "url": "https://pann.nate.com/talk/375685441",
-   "views": 39787,
-   "comments": 124,
+   "views": 59788,
+   "comments": 180,
    "board": "네이트판",
    "heat": 1.0,
    "also_on": [],
@@ -66,10 +75,23 @@
    "news": []
   },
   {
-   "title": "과실여부 알려주시면 감사하겠습니다. 정말 황당한 사고가 났습니다. 도와주세요",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1042616",
-   "views": 1781,
-   "comments": 23,
+   "title": "신천지는나의것 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1042635",
+   "views": 0,
+   "comments": 10,
+   "board": "보배드림 베스트",
+   "heat": 0.5,
+   "also_on": [
+    "루리웹"
+   ],
+   "score": 1.0,
+   "news": []
+  },
+  {
+   "title": "엄마 한테 낙태하라고 했다가 뺨 맞은 여대생",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1042622",
+   "views": 0,
+   "comments": 35,
    "board": "보배드림 베스트",
    "heat": 1.0,
    "also_on": [],
@@ -77,26 +99,21 @@
    "news": []
   },
   {
-   "title": "[중갤] [속보] 추미애 \"비난한다고 소방재정 풀리지 않아…정치적 화형당해도 이뤄",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473015&_dcbest=1&page=1",
-   "views": 17623,
-   "comments": 485,
+   "title": "[싱갤] 현재 신태일 옆방 가게 생겼다는 유튜버",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473031&_dcbest=1&page=1",
+   "views": 44495,
+   "comments": 566,
    "board": "디시 실베",
    "heat": 0.9795918367346939,
    "also_on": [],
    "score": 0.98,
-   "news": [
-    {
-     "url": "https://n.news.naver.com/article/002/0002462548",
-     "headline": "추미애 \"비난한다고 소방재정 풀리지 않아…정치적 화형당해도 이뤄내겠다\""
-    }
-   ]
+   "news": []
   },
   {
    "title": "이 얼굴이 자연이라니",
    "url": "https://pann.nate.com/talk/375685541",
-   "views": 28827,
-   "comments": 42,
+   "views": 45035,
+   "comments": 59,
    "board": "네이트판",
    "heat": 0.98,
    "also_on": [],
@@ -106,8 +123,8 @@
   {
    "title": "메피스토펠레스 완성 + 제작 과정",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17809&page=1",
-   "views": 130243,
-   "comments": 821,
+   "views": 130275,
+   "comments": 823,
    "board": "디시 HIT",
    "heat": 0.9787234042553191,
    "also_on": [],
@@ -115,10 +132,10 @@
    "news": []
   },
   {
-   "title": "한국에서 취업하기 힘들다는 이슬람 여성",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77152065",
-   "views": 11580,
-   "comments": 110,
+   "title": "러시아가 우크라이나 전쟁을 시작함으로서 정말 잃어버린 것",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/77151746",
+   "views": 32684,
+   "comments": 114,
    "board": "루리웹 베스트",
    "heat": 0.967741935483871,
    "also_on": [],
@@ -126,10 +143,10 @@
    "news": []
   },
   {
-   "title": "스파 탕안에서 100일 된 아이한테 젖물리고 있던 엄마",
-   "url": "https://pann.nate.com/talk/375685363",
-   "views": 23516,
-   "comments": 36,
+   "title": "닥터엑스 518 성역화 ㅋㅋ 잘가라",
+   "url": "https://pann.nate.com/talk/375685412",
+   "views": 14711,
+   "comments": 58,
    "board": "네이트판",
    "heat": 0.96,
    "also_on": [],
@@ -137,20 +154,25 @@
    "news": []
   },
   {
-   "title": "[싱갤] 현재 신태일 옆방 가게 생겼다는 유튜버",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473031&_dcbest=1&page=1",
-   "views": 33630,
-   "comments": 473,
+   "title": "[더갤] \"딸, 언제 들어와?\" 8시만 돼도 불안...밤길 안전했던 한국, 어쩌다",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473001&_dcbest=1&page=1",
+   "views": 16399,
+   "comments": 553,
    "board": "디시 실베",
    "heat": 0.9591836734693877,
    "also_on": [],
    "score": 0.959,
-   "news": []
+   "news": [
+    {
+     "url": "https://n.news.naver.com/article/008/0005431139?type=editn&cds=news_edit",
+     "headline": "\"딸, 언제 들어와?\" 8시만 돼도 불안...밤길 안전했던 한국, 어쩌다"
+    }
+   ]
   },
   {
    "title": "전에 주워서 키웠던 응애참새",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17763&page=1",
-   "views": 99021,
+   "views": 99031,
    "comments": 759,
    "board": "디시 HIT",
    "heat": 0.9574468085106383,
@@ -159,10 +181,10 @@
    "news": []
   },
   {
-   "title": "다른 가수 음방무대 중에 계속 유진아!!외치는 아이브팬",
-   "url": "https://theqoo.net/hot/4385947130",
-   "views": 48354,
-   "comments": 500,
+   "title": "같은 원피스 입은 장원영 김지원.jpg",
+   "url": "https://theqoo.net/hot/4386136634",
+   "views": 67601,
+   "comments": 598,
    "board": "더쿠 HOT",
    "heat": 0.95,
    "also_on": [],
@@ -170,10 +192,21 @@
    "news": []
   },
   {
-   "title": "대책도없이 길고양이 데려온 엄마 때문에 집안 싸움날...",
-   "url": "https://pann.nate.com/talk/375684927",
-   "views": 9286,
+   "title": "실시간 고속도로 휴게소 ㄷㄷ",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1042637",
+   "views": 0,
    "comments": 33,
+   "board": "보배드림 베스트",
+   "heat": 0.95,
+   "also_on": [],
+   "score": 0.95,
+   "news": []
+  },
+  {
+   "title": "엄마같은 여자가 이상형이라고하면 도망쳐",
+   "url": "https://pann.nate.com/talk/375685479",
+   "views": 18903,
+   "comments": 28,
    "board": "네이트판",
    "heat": 0.94,
    "also_on": [],
@@ -181,20 +214,25 @@
    "news": []
   },
   {
-   "title": "[싱갤] \"태극기 모양이 이상한데 빨갱이임?\"",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=472985&_dcbest=1&page=1",
-   "views": 22840,
-   "comments": 424,
+   "title": "[중갤] [속보] 추미애 \"비난한다고 소방재정 풀리지 않아…정치적 화형당해도 이뤄",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473015&_dcbest=1&page=1",
+   "views": 20723,
+   "comments": 522,
    "board": "디시 실베",
    "heat": 0.9387755102040817,
    "also_on": [],
    "score": 0.939,
-   "news": []
+   "news": [
+    {
+     "url": "https://n.news.naver.com/article/002/0002462548",
+     "headline": "추미애 \"비난한다고 소방재정 풀리지 않아…정치적 화형당해도 이뤄내겠다\""
+    }
+   ]
   },
   {
    "title": "야쿠르트 아줌마의 비밀병기",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17808&page=1",
-   "views": 125266,
+   "views": 125297,
    "comments": 528,
    "board": "디시 HIT",
    "heat": 0.9361702127659575,
@@ -203,43 +241,30 @@
    "news": []
   },
   {
-   "title": "역풍 부는 도경완 생활고 연출 ㅋㅋ",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77149862",
-   "views": 32481,
-   "comments": 101,
+   "title": "평화 시위가 이해가 안가는 프랑스인",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/77152021",
+   "views": 19779,
+   "comments": 110,
    "board": "루리웹 베스트",
    "heat": 0.9354838709677419,
    "also_on": [],
-   "score": 0.935,
-   "news": []
+   "score": 0.935
   },
   {
-   "title": "도축장에서 5년을 일한 중국인의 회고",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1042589",
-   "views": 0,
-   "comments": 21,
-   "board": "보배드림 베스트",
-   "heat": 0.9285714285714286,
-   "also_on": [],
-   "score": 0.929,
-   "news": []
-  },
-  {
-   "title": "닥터엑스 518 성역화 ㅋㅋ 잘가라",
-   "url": "https://pann.nate.com/talk/375685412",
-   "views": 5771,
-   "comments": 32,
+   "title": "해외여행 가면 배울것도 없는데 왜 가는거임?",
+   "url": "https://pann.nate.com/talk/375685571",
+   "views": 4646,
+   "comments": 19,
    "board": "네이트판",
    "heat": 0.92,
    "also_on": [],
-   "score": 0.92,
-   "news": []
+   "score": 0.92
   },
   {
-   "title": "[해갤] 손흥민이 왜 빅클럽 안간지 이해가 안간다는 스콜스 .jpg",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=472997&_dcbest=1&page=1",
-   "views": 26554,
-   "comments": 406,
+   "title": "[코갤] 30대 공시생 보면서 힘 낸다",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473045&_dcbest=1&page=1",
+   "views": 22457,
+   "comments": 500,
    "board": "디시 실베",
    "heat": 0.9183673469387755,
    "also_on": [],
@@ -248,7 +273,7 @@
   {
    "title": "하와이안 미트 피자",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17776&page=1",
-   "views": 74477,
+   "views": 74485,
    "comments": 458,
    "board": "디시 HIT",
    "heat": 0.9148936170212766,
@@ -256,40 +281,50 @@
    "score": 0.915
   },
   {
-   "title": "부캉이 관련 민원, 시위 근황",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77152394",
-   "views": 3504,
-   "comments": 30,
+   "title": "혹시 나만 서큐버스의 이런점 꼴림??",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/77156248",
+   "views": 4209,
+   "comments": 23,
    "board": "루리웹 베스트",
    "heat": 0.9032258064516129,
    "also_on": [],
    "score": 0.903
   },
   {
-   "title": "나 인천공항에서 뚱바 사려고 하는데 외국인이 툭툭 치면서",
-   "url": "https://theqoo.net/hot/4385927715",
-   "views": 70553,
-   "comments": 477,
+   "title": "이거 누구로 보임?",
+   "url": "https://theqoo.net/hot/4386161519",
+   "views": 48010,
+   "comments": 559,
    "board": "더쿠 HOT",
    "heat": 0.9,
    "also_on": [],
    "score": 0.9
   },
   {
-   "title": "상대방이 식사 끝날때까지 있어야하나요?",
-   "url": "https://pann.nate.com/talk/375685036",
-   "views": 7195,
-   "comments": 24,
+   "title": "요리 못하면 결혼하지마",
+   "url": "https://pann.nate.com/talk/375685792",
+   "views": 3253,
+   "comments": 15,
    "board": "네이트판",
    "heat": 0.9,
    "also_on": [],
    "score": 0.9
   },
   {
-   "title": "[부갤] 애플 CEO : 옛날 폴더블은 싸구려같고 조잡했다",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=472989&_dcbest=1&page=1",
-   "views": 16690,
-   "comments": 401,
+   "title": "학폭 가해자 부모가, 판사에게 하는 말",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1042629",
+   "views": 0,
+   "comments": 23,
+   "board": "보배드림 베스트",
+   "heat": 0.9,
+   "also_on": [],
+   "score": 0.9
+  },
+  {
+   "title": "[싱갤] 요즘 취업난 많이 심각하다네",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473069&_dcbest=1&page=1",
+   "views": 28829,
+   "comments": 485,
    "board": "디시 실베",
    "heat": 0.8979591836734694,
    "also_on": [],
@@ -298,7 +333,7 @@
   {
    "title": "전 특수부대 저격수 예비군 갔다 온 만화",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17764&page=1",
-   "views": 87361,
+   "views": 87374,
    "comments": 456,
    "board": "디시 HIT",
    "heat": 0.8936170212765957,
@@ -306,20 +341,20 @@
    "score": 0.894
   },
   {
-   "title": "연인으로 안되면",
-   "url": "https://pann.nate.com/talk/375684814",
-   "views": 5648,
-   "comments": 21,
+   "title": "헬스장 이렇게 가는게 맞는거냐?",
+   "url": "https://pann.nate.com/talk/375685689",
+   "views": 44030,
+   "comments": 14,
    "board": "네이트판",
    "heat": 0.88,
    "also_on": [],
    "score": 0.88
   },
   {
-   "title": "[중갤] \"부캉이 자기결정권 보장하라\"…퇴거 반대 피켓에 청원까지 등장",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=472991&_dcbest=1&page=1",
-   "views": 12435,
-   "comments": 391,
+   "title": "[유갤] 일본원작 드라마에 5.18 넣어서 욕먹는 닥터X 근황",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473057&_dcbest=1&page=1",
+   "views": 13128,
+   "comments": 468,
    "board": "디시 실베",
    "heat": 0.8775510204081632,
    "also_on": [],
@@ -328,7 +363,7 @@
   {
    "title": "추석 .MANHWA",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17802&page=1",
-   "views": 156419,
+   "views": 156444,
    "comments": 437,
    "board": "디시 HIT",
    "heat": 0.8723404255319149,
@@ -336,41 +371,21 @@
    "score": 0.872
   },
   {
-   "title": "정의란 무엇인가에서도 나온 철학적 난제",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77152391",
-   "views": 3244,
-   "comments": 28,
-   "board": "루리웹 베스트",
-   "heat": 0.8709677419354839,
-   "also_on": [],
-   "score": 0.871
-  },
-  {
-   "title": "엄마같은 여자가 이상형이라고하면 도망쳐",
-   "url": "https://pann.nate.com/talk/375685479",
-   "views": 10588,
-   "comments": 21,
+   "title": "전남친 와이프한테 집착하는 여자친구와의 결혼이 고...",
+   "url": "https://pann.nate.com/talk/375686308",
+   "views": 989,
+   "comments": 12,
    "board": "네이트판",
    "heat": 0.86,
    "also_on": [],
    "score": 0.86
   },
   {
-   "title": "[주갤] 누가 흉기들고 협박해도 한녀혼은 하면 안된다.News",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=472983&_dcbest=1&page=1",
-   "views": 14352,
-   "comments": 382,
+   "title": "[이갤] 프랑스는 정년연장에 폭동, 한국은 90% 찬성…왜?",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473007&_dcbest=1&page=1",
+   "views": 12409,
+   "comments": 400,
    "board": "디시 실베",
-   "heat": 0.8571428571428571,
-   "also_on": [],
-   "score": 0.857
-  },
-  {
-   "title": "애널자위 하다 병원 갔단 여잔데",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1042558",
-   "views": 0,
-   "comments": 19,
-   "board": "보배드림 베스트",
    "heat": 0.8571428571428571,
    "also_on": [],
    "score": 0.857
@@ -378,7 +393,7 @@
   {
    "title": "세트병) 프리큐어 20년 즈언통의 굿즈모음",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17768&page=1",
-   "views": 49878,
+   "views": 49886,
    "comments": 403,
    "board": "디시 HIT",
    "heat": 0.851063829787234,
@@ -386,97 +401,285 @@
    "score": 0.851
   },
   {
-   "title": "의외로 낮은.. 부모님 생활비 드리는 비율..jpg",
-   "url": "https://theqoo.net/hot/4385985830",
-   "views": 29338,
-   "comments": 419,
+   "title": "세탁소 사장님이 알려준 옷걸기 꿀팁.tip",
+   "url": "https://theqoo.net/hot/4386289765",
+   "views": 20073,
+   "comments": 407,
    "board": "더쿠 HOT",
    "heat": 0.85,
    "also_on": [],
    "score": 0.85
   },
   {
-   "title": "할로윈때 하트여왕했던 카리나",
-   "url": "https://pann.nate.com/talk/375684737",
-   "views": 20527,
-   "comments": 15,
+   "title": "한국 '獨+日'도 제쳤다 … 경상흑자 세계 2위로",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1042628",
+   "views": 4598,
+   "comments": 19,
+   "board": "보배드림 베스트",
+   "heat": 0.85,
+   "also_on": [],
+   "score": 0.85
+  },
+  {
+   "title": "외국인들은 왜 이렇게 무례하고 불친절할까?",
+   "url": "https://pann.nate.com/talk/375685585",
+   "views": 2142,
+   "comments": 11,
    "board": "네이트판",
    "heat": 0.84,
    "also_on": [],
    "score": 0.84
   },
   {
-   "title": "살빼준다는 PT 싹 말라죽어가는 이유",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77152426",
-   "views": 3422,
-   "comments": 26,
+   "title": "블루아카)요스타떠나도 되겠다",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/77156254",
+   "views": 2512,
+   "comments": 21,
    "board": "루리웹 베스트",
    "heat": 0.8387096774193549,
    "also_on": [],
    "score": 0.839
-  },
-  {
-   "title": "[이갤] 프랑스는 정년연장에 폭동, 한국은 90% 찬성…왜?",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473007&_dcbest=1&page=1",
-   "views": 9987,
-   "comments": 379,
-   "board": "디시 실베",
-   "heat": 0.8367346938775511,
-   "also_on": [],
-   "score": 0.837
-  },
-  {
-   "title": "대보협 Mr.YMCA 대회 참가 후기",
-   "url": "https://gall.dcinside.com/board/view/?id=hit&no=17779&page=1",
-   "views": 65919,
-   "comments": 374,
-   "board": "디시 HIT",
-   "heat": 0.8297872340425532,
-   "also_on": [],
-   "score": 0.83
   }
  ],
  "news_hot": [
   {
-   "title": "120억 집 살면서 “돈 없어 시계 팔았다”는 도경완에 시선 싸늘",
-   "url": "https://n.news.naver.com/article/009/0005753560",
-   "press": "매일경제",
+   "title": "[단독] 남편 보고 무너진 아내…\"이게 살인미수 아니면\" 울분",
+   "url": "https://n.news.naver.com/article/055/0001398072",
+   "press": "SBS",
    "rank": 1
   },
   {
-   "title": "靑, 이대통령 1년 연설·SNS 묶은 연설집 발간",
-   "url": "https://n.news.naver.com/article/005/0001880670",
+   "title": "‘닥터X’ 5·18 다룬 뒤 방영중단 청원까지···CP “두렵지 않다”",
+   "url": "https://n.news.naver.com/article/032/0003478354",
+   "press": "경향신문",
+   "rank": 1
+  },
+  {
+   "title": "5·18 조명한 ‘닥터X’ 논란에…방송 직후, 프로듀서 “두려움 없다”",
+   "url": "https://n.news.naver.com/article/025/0003560247",
+   "press": "중앙일보",
+   "rank": 1
+  },
+  {
+   "title": "\"‘700억 갑부’ 서장훈 집은 35억, 소박하네\"…어딘가 봤더니[누구집]",
+   "url": "https://n.news.naver.com/article/018/0006395597",
+   "press": "이데일리",
+   "rank": 1
+  },
+  {
+   "title": "\"편의점에 왜 할랄 식품 없지?\"…히잡도 안 쓰고 짜증 낸 여성 '너는 뭐냐'",
+   "url": "https://n.news.naver.com/article/421/0009247933",
+   "press": "뉴스1",
+   "rank": 1
+  },
+  {
+   "title": "독·일 제친 경상흑자에…이 대통령 \"국민 모두의 삶 바꾸는 힘 돼야\"",
+   "url": "https://n.news.naver.com/article/437/0000517430",
+   "press": "JTBC",
+   "rank": 1
+  },
+  {
+   "title": "5·18 다룬 ‘닥터X’에 방영 중단 청원… 제작 CP는 “두려움 없다”",
+   "url": "https://n.news.naver.com/article/023/0004005811",
+   "press": "조선일보",
+   "rank": 1
+  },
+  {
+   "title": "“日 원작인데 5·18 피해자?” ‘닥터X’ 방영중단 요구까지…“두렵지 않다” 글 올린 제작진 [이슈픽]",
+   "url": "https://n.news.naver.com/article/081/0003692145",
+   "press": "서울신문",
+   "rank": 1
+  },
+  {
+   "title": "“내려올 텐데 왜 가냐고요?”…‘등산’ 반대족도 수긍할법한 ‘산타기’ 꿀팁",
+   "url": "https://n.news.naver.com/article/662/0000106879",
+   "press": "농민신문",
+   "rank": 1
+  },
+  {
+   "title": "또 스토킹 살해… 이번엔 대전서 범행 후 강릉 도주",
+   "url": "https://n.news.naver.com/article/005/0001880707",
    "press": "국민일보",
    "rank": 1
   },
   {
-   "title": "\"3시간 동안 514차례 폭행\"…여친 살해한 남성의 섬뜩한 규칙",
-   "url": "https://n.news.naver.com/article/008/0005431217",
+   "title": "작년 외국인 건강보험 흑자인데, 중국인 가입자는 409억원 적자",
+   "url": "https://n.news.naver.com/article/366/0001200121",
+   "press": "조선비즈",
+   "rank": 1
+  },
+  {
+   "title": "골드만, 코스피 목표치 25%↓ 조정…\"지나친 비관론, 여전히 매력적\"",
+   "url": "https://n.news.naver.com/article/277/0005833135",
+   "press": "아시아경제",
+   "rank": 1
+  },
+  {
+   "title": "이 대통령, 대규모 경상수지 흑자에 “이제 세계경제 선도국가”",
+   "url": "https://n.news.naver.com/article/056/0012280384",
+   "press": "KBS",
+   "rank": 1
+  },
+  {
+   "title": "박균택 \"경찰, 고발인 조사만 6번...정작 한동훈 딸은 보지도 못해, 압색 0번, 조국 딸과 왜 이리 다른가\"[여의도초대석]",
+   "url": "https://n.news.naver.com/article/660/0000119882",
+   "press": "kbc광주방송",
+   "rank": 1
+  },
+  {
+   "title": "오세훈 무죄에 복잡해진 PK 국힘 셈법",
+   "url": "https://n.news.naver.com/article/082/0001403970",
+   "press": "부산일보",
+   "rank": 1
+  },
+  {
+   "title": "김민석, 신천지 의혹 키우자니 ‘수사 부담’…덮자니 ‘공개 압박’",
+   "url": "https://n.news.naver.com/article/028/0002829100",
+   "press": "한겨레",
+   "rank": 1
+  },
+  {
+   "title": "법무장관 후보 박균택·양부남 압축...이 대통령 막판 고심",
+   "url": "https://n.news.naver.com/article/052/0002423385",
+   "press": "YTN",
+   "rank": 1
+  },
+  {
+   "title": "“한국증시 세계서 가장 싸고, 금융위기 떄만큼 싸다”…주가수익률 4배로 인니 절반",
+   "url": "https://n.news.naver.com/article/030/0003478370",
+   "press": "전자신문",
+   "rank": 1
+  },
+  {
+   "title": "케네디 인용한 李 “밀물 오면 모든 배 떠…경상수지, 기회의 물결”",
+   "url": "https://n.news.naver.com/article/020/0003757420",
+   "press": "동아일보",
+   "rank": 1
+  },
+  {
+   "title": "오세훈과 '훈훈 연대'? 가능성 묻자 한동훈 답변",
+   "url": "https://n.news.naver.com/article/047/0002533404",
+   "press": "오마이뉴스",
+   "rank": 1
+  },
+  {
+   "title": "조국 “오세훈 무죄, 정부와 집권 민주당에 무시당한 엘리트 법관들의 반격”",
+   "url": "https://n.news.naver.com/article/009/0005753530",
+   "press": "매일경제",
+   "rank": 1
+  },
+  {
+   "title": "저수지 낚시터서 초등학생 방갈로 사이 이동하다 물에 빠져 숨져",
+   "url": "https://n.news.naver.com/article/087/0001226003",
+   "press": "강원일보",
+   "rank": 1
+  },
+  {
+   "title": "시청률 19.5% ‘닥터X’, 5·18 꺼내 들자 방영 중단 청원까지",
+   "url": "https://n.news.naver.com/article/016/0002714002",
+   "press": "헤럴드경제",
+   "rank": 1
+  },
+  {
+   "title": "\"집값 5억 올랐다는데 통장은 텅텅\"…서울 1주택자의 기막힌 현실 [하우스 시그널]",
+   "url": "https://n.news.naver.com/article/014/0005594096",
+   "press": "파이낸셜뉴스",
+   "rank": 1
+  },
+  {
+   "title": "“韓 편의점, 정말 먹을 거 없다” 한숨 쉰 외국인 여성…‘빈손 퇴장’한 이유 보니",
+   "url": "https://n.news.naver.com/article/011/0004674842",
+   "press": "서울경제",
+   "rank": 1
+  },
+  {
+   "title": "\"의학드라마인데 5·18이 왜 나와?\"…'방영 중단' 청원에 제작CP 반응은",
+   "url": "https://n.news.naver.com/article/215/0001270388",
+   "press": "한국경제TV",
+   "rank": 1
+  },
+  {
+   "title": "\"美에 왕은 없다\" 들불처럼 번진 함성…'트럼프 제국' 흔들리나",
+   "url": "https://n.news.naver.com/article/586/0000140812",
+   "press": "시사저널",
+   "rank": 1
+  },
+  {
+   "title": "\"518 버스까지\" 잘 나가던 닥터X, 난데없는 정치 논란에 시끌",
+   "url": "https://n.news.naver.com/article/015/0005346190",
+   "press": "한국경제",
+   "rank": 1
+  },
+  {
+   "title": "\"이 동네도 저 동네도 20억\"...비강남으로 번진 '국평 20억 클럽'",
+   "url": "https://n.news.naver.com/article/008/0005431259",
    "press": "머니투데이",
    "rank": 1
   },
   {
-   "title": "\"부캉이 보겠다\" 배 띄운 유튜버…국가보안시설 찍다 '덜미'",
-   "url": "https://n.news.naver.com/article/003/0014276781",
-   "press": "뉴시스",
+   "title": "5·18 다룬 '닥터X', 방영중단 청원 등장⋯제작 CP \"두려움 없다\"",
+   "url": "https://n.news.naver.com/article/031/0001069065",
+   "press": "아이뉴스24",
    "rank": 1
   },
   {
-   "title": "가석방 없는 무기징역 논란 재점화…\"흉악범 엄벌\" vs \"교화 차단\"",
-   "url": "https://n.news.naver.com/article/001/0016399225",
+   "title": "韓 카메라에 찍힐만큼 내려온 북한군 자주포…접경지 긴장고조",
+   "url": "https://n.news.naver.com/article/001/0016399353",
    "press": "연합뉴스",
    "rank": 1
   },
   {
-   "title": "오세훈 무죄 TV조선 앵커 \"명태균에 놀아나\" MBC 앵커 \"조희대 반격 비판 나와\"",
-   "url": "https://n.news.naver.com/article/006/0000138390",
-   "press": "미디어오늘",
+   "title": "5·18 다뤘다고 \"방영 중단하라\" 청원… '닥터X' CP가 올린 한마디",
+   "url": "https://n.news.naver.com/article/469/0000961533",
+   "press": "한국일보",
    "rank": 1
   },
   {
-   "title": "[속보] 5·18 다룬 드라마 '닥터X', 방영 중단 국민청원 올라왔다",
-   "url": "https://n.news.naver.com/article/002/0002462579",
-   "press": "프레시안",
+   "title": "북한 \"한국, 자체 핵무기 개발한다는 건가\"‥유엔에서 또 남북 '설전'",
+   "url": "https://n.news.naver.com/article/214/0001531275",
+   "press": "MBC",
+   "rank": 1
+  },
+  {
+   "title": "北, 남쪽 겨눈 자주포 최전방 배치…군사회담 제안엔 침묵(종합)",
+   "url": "https://n.news.naver.com/article/003/0014277068",
+   "press": "뉴시스",
+   "rank": 1
+  },
+  {
+   "title": "김근식 “이준석, 오세훈 빌어 한동훈 비난 ‘비겁’…서로 자제, 유승민까지 연대해야”",
+   "url": "https://n.news.naver.com/article/029/0003055119",
+   "press": "디지털타임스",
+   "rank": 1
+  },
+  {
+   "title": "北, 122mm 자주포 설치…경기 북부 사정권",
+   "url": "https://n.news.naver.com/article/449/0000365219",
+   "press": "채널A",
+   "rank": 1
+  },
+  {
+   "title": "한발 더 남았다…11월 금리인상 가를 GDP·연준에 쏠린 눈",
+   "url": "https://n.news.naver.com/article/648/0000051911",
+   "press": "비즈워치",
+   "rank": 1
+  },
+  {
+   "title": "조국 \"민주당이 내란 격퇴 손놓아 오세훈 무죄\"…김민석 사과 요구",
+   "url": "https://n.news.naver.com/article/448/0000646801",
+   "press": "TV조선",
+   "rank": 1
+  },
+  {
+   "title": "李대통령 “경상흑자 독·일 합계 넘어…성장 결실 국민 삶으로”",
+   "url": "https://n.news.naver.com/article/666/0000129054",
+   "press": "경기일보",
+   "rank": 1
+  },
+  {
+   "title": "조국 “오세훈 무죄에 민주당 안도? 욕 나올 뻔, 집권당 자격 있나”",
+   "url": "https://n.news.naver.com/article/022/0004169464",
+   "press": "세계일보",
    "rank": 1
   }
  ]
