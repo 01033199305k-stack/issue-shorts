@@ -1,11 +1,141 @@
 {
- "detected_at": "2026-10-26T10:40+09:00",
+ "detected_at": "2026-10-26T15:12+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보]윤상현 “오세훈, 가장 강력한 대선주자…장동혁은 견제 못해”",
-   "url": "https://n.news.naver.com/article/021/0002827742",
+   "title": "[속보]이준석, 한동훈 겨냥…“민주 주장에 부화뇌동, 안에다가 수류탄 까넣어”",
+   "url": "https://n.news.naver.com/article/021/0002827762",
    "press": "문화일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "주진우 \"김혜경 여사, 태릉CC서 '황제레슨'…비용은 누가?\"",
+   "url": "https://n.news.naver.com/article/079/0004202550",
+   "press": "노컷뉴스",
+   "why": "언론사 9곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "더팩트",
+     "title": "주진우 '김혜경 여사 황제골프' 의혹 제기…청와대 \"사실 근거 안해\"",
+     "url": "https://n.news.naver.com/article/629/0000545475"
+    },
+    {
+     "press": "조선비즈",
+     "title": "주진우 “김혜경 여사, 태릉CC서 황제 골프” 與 “황당무계한 소설…스토커 행태”",
+     "url": "https://n.news.naver.com/article/366/0001200288"
+    },
+    {
+     "press": "MBC",
+     "title": "주진우 \"김혜경 여사, 프로골퍼와 레슨\"‥여당 \"황당무계 소설\"",
+     "url": "https://n.news.naver.com/article/214/0001531380"
+    },
+    {
+     "press": "이데일리",
+     "title": "'김혜경 여사 골프 의혹' 주진우에 與 \"사이버래커\"...靑 \"엄중 책임\"",
+     "url": "https://n.news.naver.com/article/018/0006396196"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "민주당, ‘김혜경 여사 황제 골프’ 주장에 “소설 쓰는 사이버레커 행태”",
+   "url": "https://n.news.naver.com/article/056/0012280749",
+   "press": "KBS",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선비즈",
+     "title": "주진우 “김혜경 여사, 태릉CC서 황제 골프” 與 “황당무계한 소설…스토커 행태”",
+     "url": "https://n.news.naver.com/article/366/0001200288"
+    },
+    {
+     "press": "한국일보",
+     "title": "주진우 \"김혜경 여사, 프로 골퍼 대동 '황제 골프'… 영상 공개할 것\"",
+     "url": "https://n.news.naver.com/article/469/0000961614"
+    },
+    {
+     "press": "매일신문",
+     "title": "민주당, 김혜경 여사 '황제 골프' 의혹에 \"소설 쓰는 사이버렉카 행태\"",
+     "url": "https://n.news.naver.com/article/088/0001036492"
+    },
+    {
+     "press": "뉴스1",
+     "title": "주진우 \"김혜경 여사, 평일에 유명 프로골퍼 대동 황제 골프\"",
+     "url": "https://n.news.naver.com/article/421/0009249604"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "주진우 “金여사, 역삼 화재 날 ‘황제 골프’”…靑 “허위사실 유포”",
+   "url": "https://n.news.naver.com/article/025/0003560465",
+   "press": "중앙일보",
+   "why": "언론사 8곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선비즈",
+     "title": "주진우 “김혜경 여사, 태릉CC서 황제 골프” 與 “황당무계한 소설…스토커 행태”",
+     "url": "https://n.news.naver.com/article/366/0001200288"
+    },
+    {
+     "press": "연합뉴스",
+     "title": "靑, '金여사 골프' 주진우 인용 보도에 \"허위사실 유포 행위\"",
+     "url": "https://n.news.naver.com/article/001/0016400356"
+    },
+    {
+     "press": "SBS",
+     "title": "청와대, '김 여사 골프' 주진우 인용 보도에 \"허위사실 유포 행위\"",
+     "url": "https://n.news.naver.com/article/055/0001398208"
+    },
+    {
+     "press": "한국일보",
+     "title": "주진우 \"김혜경 여사, 프로 골퍼 대동 '황제 골프'… 영상 공개할 것\"",
+     "url": "https://n.news.naver.com/article/469/0000961614"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 홈플러스 6개 점포, 전기요금 못냈다…한전, ‘단전 예고’",
+   "url": "https://n.news.naver.com/article/029/0003055217",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 60대가 몰던 스타렉스 중앙선 넘어 차량 7대 연쇄 충돌…운전자 숨지고 7명 부상",
+   "url": "https://n.news.naver.com/article/087/0001226243",
+   "press": "강원일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "김혜경 ‘황제 골프레슨’ 의혹 꺼낸 주진우…靑 “허위 보도 책임 묻겠다”",
+   "url": "https://n.news.naver.com/article/009/0005753799",
+   "press": "매일경제",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "이데일리",
+     "title": "'김혜경 여사 골프 의혹' 주진우에 與 \"사이버래커\"...靑 \"엄중 책임\"",
+     "url": "https://n.news.naver.com/article/018/0006396196"
+    },
+    {
+     "press": "kbc광주방송",
+     "title": "민주·청와대 \"주진우 '金여사 황제골프' 의혹은 허위…법적 책임 묻겠다\"",
+     "url": "https://n.news.naver.com/article/660/0000119932"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 브라질 대선서 81세 룰라 당선 확정…4선 대통령 기록",
+   "url": "https://n.news.naver.com/article/024/0000109170",
+   "press": "매경이코노미",
    "why": "[속보] 기사",
    "related": []
   }
