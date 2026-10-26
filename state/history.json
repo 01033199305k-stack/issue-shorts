@@ -4113,5 +4113,56 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-26_0700_airforce-soldier-demotion-overturned/video.mp4"
   },
   "seconds": 1215
+ },
+ {
+  "key": "2026-10-26-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-26T12:00:00+09:00",
+  "started": "2026-10-26T09:17:17.334014+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/gift-present-wood-package-gift-box-1420830/",
+   "https://pixabay.com/videos/id-736/",
+   "https://pixabay.com/photos/spring-cherry-bloom-blossom-nature-2174750/",
+   "https://pixabay.com/videos/id-5183/"
+  ],
+  "duration": 24.69,
+  "matches": [
+   0.95,
+   1.0,
+   0.98,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.94
+  ],
+  "sfx": 8,
+  "illustrations": 7,
+  "cuts": 9,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "당근에 반값으로 올라온 친정 추석 선물 판매자 #shorts",
+  "source_post": "https://www.news1.kr/society/general-society/6330113",
+  "facts_used": [
+   "친정 부모가 시댁에 정성껏 보낸 명절(추석) 선물을 손윗동서 부부가 중고거래 플랫폼에 판매한 사실을 알게 됐다는 여성의 온라인 커뮤니티 사연 — 뉴스1 2026-10-25 https://www.news1.kr/society/general-society/6330113 , 위키트리 https://www.wikitree.co.kr/articles/1168918 , 인사이트 https://www.insight.co.kr/news/579083",
+   "선물이 반값에 이미 판매된 상태 — 위키트리 제목 '반값 중고 거래', 뉴스1 제목 '반값에 중고 거래 등장', 인사이트 본문",
+   "글쓴이가 (당근에서) 인테리어 소품을 찾다가 손윗동서 계정으로 의심되는 판매글을 보고 남편에게 확인하니 남편 형 부부의 계정이었음 — 인사이트, 뉴스1('판매자 알고 보니 형님네'), 위키트리('판매자 알고 소름')",
+   "사연을 들은 시어머니가 미안하다며 사과 — 뉴스1 부제, 위키트리"
+  ],
+  "slug": "2026-10-26_1200_parents-gift-resold-half-price",
+  "late": false,
+  "video_id": "YA-ZcygGoFE",
+  "url": "https://youtube.com/shorts/YA-ZcygGoFE",
+  "privacy": "private",
+  "scheduled_for": "2026-10-26T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ade9ff3bd33ce99c39ccf86",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-26T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-26_1200_parents-gift-resold-half-price/video.mp4"
+  },
+  "seconds": 1000
  }
 ]
