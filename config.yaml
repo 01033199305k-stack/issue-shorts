@@ -31,7 +31,8 @@ caption_lines: 2
 # eggs 는 보도된 주제 전부(2026-10-17 사용자: "보도 기준으로 적용"). dog·cat·car 는 쇼츠에서 변신 확인(사용자 폰, dog 는 우리 10/10 개 간식 편).
 # 우리 영상에서 안 변하는 게 확인된 주제는 여기서 빼면 그 뒤로 안 붙는다.
 # food 는 뺌 (2026-10-22 사용자: 10/18 떡볶이·10/20 케이크·10/21 미역국 편에서 눌러도 안 변함).
-like_cta: {enabled: true, eggs: [dog, cat, car, learning, music, travel, comedy, horror, soccer, baseball, basketball]}
+# 2026-10-26 사용자: "안 바뀌니까 거슬려" - 전부 끔. 다시 켜지 말 것.
+like_cta: {enabled: false, eggs: [dog, cat, car, learning, music, travel, comedy, horror, soccer, baseball, basketball]}
 
 bgm: assets/bgm/sneaking_around.mp3   # OpenGameArt CC0
 bgm_gain_db: -10                      # 배경음악 크기 (클수록 큼, -16 이면 말소리에 묻혀 거의 안 들림)
