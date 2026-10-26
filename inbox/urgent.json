@@ -1,70 +1,69 @@
 {
- "detected_at": "2026-10-25T23:22+09:00",
+ "detected_at": "2026-10-26T09:11+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "‘닥터X’ 5·18 다룬 뒤 방영중단 청원까지···CP “두렵지 않다”",
-   "url": "https://n.news.naver.com/article/032/0003478354",
-   "press": "경향신문",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선일보",
-     "title": "5·18 다룬 ‘닥터X’에 방영 중단 청원… 제작 CP는 “두려움 없다”",
-     "url": "https://n.news.naver.com/article/023/0004005811"
-    },
-    {
-     "press": "서울신문",
-     "title": "“日 원작인데 5·18 피해자?” ‘닥터X’ 방영중단 요구까지…“두렵지 않다” 글 올린 제작진 [이슈픽]",
-     "url": "https://n.news.naver.com/article/081/0003692145"
-    },
-    {
-     "press": "헤럴드경제",
-     "title": "시청률 19.5% ‘닥터X’, 5·18 꺼내 들자 방영 중단 청원까지",
-     "url": "https://n.news.naver.com/article/016/0002714002"
-    },
-    {
-     "press": "아이뉴스24",
-     "title": "5·18 다룬 '닥터X', 방영중단 청원 등장⋯제작 CP \"두려움 없다\"",
-     "url": "https://n.news.naver.com/article/031/0001069065"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "5·18 조명한 ‘닥터X’ 논란에…방송 직후, 프로듀서 “두려움 없다”",
-   "url": "https://n.news.naver.com/article/025/0003560247",
-   "press": "중앙일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선일보",
-     "title": "5·18 다룬 ‘닥터X’에 방영 중단 청원… 제작 CP는 “두려움 없다”",
-     "url": "https://n.news.naver.com/article/023/0004005811"
-    },
-    {
-     "press": "아이뉴스24",
-     "title": "5·18 다룬 '닥터X', 방영중단 청원 등장⋯제작 CP \"두려움 없다\"",
-     "url": "https://n.news.naver.com/article/031/0001069065"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "조국 “오세훈 무죄, 정부와 집권 민주당에 무시당한 엘리트 법관들의 반격”",
-   "url": "https://n.news.naver.com/article/009/0005753530",
+   "title": "[속보] 이 대통령 지지율 35.3%…국힘, 민주에 오차범위 밖 우세 [리얼미터]",
+   "url": "https://n.news.naver.com/article/009/0005753767",
    "press": "매일경제",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "why": "[속보] 기사 + 언론사 6곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "TV조선",
-     "title": "조국 \"민주당이 내란 격퇴 손놓아 오세훈 무죄\"…김민석 사과 요구",
-     "url": "https://n.news.naver.com/article/448/0000646801"
+     "press": "연합뉴스",
+     "title": "李대통령 지지율 35.3%…민주 36.0%·국힘 42.6% 오차밖 격차[리얼미터]",
+     "url": "https://n.news.naver.com/article/001/0016399536"
     },
     {
      "press": "세계일보",
-     "title": "조국 “오세훈 무죄에 민주당 안도? 욕 나올 뻔, 집권당 자격 있나”",
-     "url": "https://n.news.naver.com/article/022/0004169464"
+     "title": "[속보] 李 대통령 지지율 35.3%…한 주 만에 2.0%p 하락 [리얼미터]",
+     "url": "https://n.news.naver.com/article/022/0004169642"
+    },
+    {
+     "press": "kbc광주방송",
+     "title": "[속보] 李대통령 지지율 35.3% \"수도권·진보층 이탈\"…국힘, 민주에 오차범위 밖 우세",
+     "url": "https://n.news.naver.com/article/660/0000119912"
+    },
+    {
+     "press": "뉴스1",
+     "title": "[속보] 李 지지율 2%p 하락한 35.3%…野, 오차범위 밖 與 앞서 [리얼미터]",
+     "url": "https://n.news.naver.com/article/421/0009248897"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 배달료 수억원 가로채고 잠적한 대행업체 대표…경찰 수사",
+   "url": "https://n.news.naver.com/article/654/0000207410",
+   "press": "강원도민일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "李 지지율 소폭 하락한 35.3%…부정 평가는 62.3% [리얼미터]",
+   "url": "https://n.news.naver.com/article/366/0001200208",
+   "press": "조선비즈",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "연합뉴스",
+     "title": "李대통령 지지율 35.3%…민주 36.0%·국힘 42.6% 오차밖 격차[리얼미터]",
+     "url": "https://n.news.naver.com/article/001/0016399536"
+    },
+    {
+     "press": "세계일보",
+     "title": "[속보] 李 대통령 지지율 35.3%…한 주 만에 2.0%p 하락 [리얼미터]",
+     "url": "https://n.news.naver.com/article/022/0004169642"
+    },
+    {
+     "press": "서울경제",
+     "title": "李 지지율 반등 1주일 만에 다시 하락…35.3% 기록 [리얼미터]",
+     "url": "https://n.news.naver.com/article/011/0004675051"
+    },
+    {
+     "press": "뉴스1",
+     "title": "[속보] 李 지지율 2%p 하락한 35.3%…野, 오차범위 밖 與 앞서 [리얼미터]",
+     "url": "https://n.news.naver.com/article/421/0009248897"
     }
    ]
   }
