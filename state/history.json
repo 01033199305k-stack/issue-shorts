@@ -4164,5 +4164,57 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-26_1200_parents-gift-resold-half-price/video.mp4"
   },
   "seconds": 1000
+ },
+ {
+  "key": "2026-10-26-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-26T18:00:00+09:00",
+  "started": "2026-10-26T15:19:50.259219+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/money-cash-dollars-finance-7881948/",
+   "https://pixabay.com/videos/id-4727/",
+   "https://pixabay.com/photos/chihuahua-dog-pet-animal-cute-8722626/",
+   "https://pixabay.com/videos/id-50622/"
+  ],
+  "duration": 31.31,
+  "matches": [
+   0.9,
+   0.94,
+   0.98,
+   0.98,
+   0.95,
+   0.95,
+   0.96,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 9,
+  "illustrations": 7,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "5분 만에 취소했다는 애견펜션 위약금 #shorts",
+  "source_post": "https://www.seoul.co.kr/news/society/2021/09/19/20210919500058",
+  "facts_used": [
+   "추석 연휴 경주의 한 애견펜션 예약, 15만 9천 원 입금 후 5~10분 만에 환불 요청했지만 7만 5600원만 돌려받음 — 서울신문 2021-09-19 https://www.seoul.co.kr/news/society/2021/09/19/20210919500058 , 데일리안 https://www.dailian.co.kr/news/view/1034751/",
+   "펜션은 반려견 몸무게 5kg 미만만 받는 곳이라 이용 불가, 펜션 측은 '4일 전 취소라 위약금이 있다'고 답함 — 데일리안, 한국경제 https://www.hankyung.com/society/article/2021091957607",
+   "논란이 커지자 업주가 사과하고 전액 환불 — 네이트(뉴스) https://news.nate.com/view/20210919n08765 , 국제뉴스 https://www.gukjenews.com/news/articleView.html?idxno=2313019 , 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01472726629182088",
+   "2026년 10월 여러 커뮤니티에 '5분 만에 예약 취소하고 위약금 40%받은 펜션'으로 다시 퍼짐 — inbox 네이트판 랭킹·루리웹 베스트"
+  ],
+  "slug": "2026-10-26_1800_dog-pension-cancel-penalty",
+  "late": false,
+  "video_id": "DAkAw5heTtQ",
+  "url": "https://youtube.com/shorts/DAkAw5heTtQ",
+  "privacy": "private",
+  "scheduled_for": "2026-10-26T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6adef61f44e0f3cdcac4456a",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-26T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-26_1800_dog-pension-cancel-penalty/video.mp4"
+  },
+  "seconds": 1307
  }
 ]
