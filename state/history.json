@@ -4216,5 +4216,57 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-26_1800_dog-pension-cancel-penalty/video.mp4"
   },
   "seconds": 1307
+ },
+ {
+  "key": "2026-10-27-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-27T07:00:00+09:00",
+  "started": "2026-10-27T04:18:45.414826+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/lenses-yellow-bag-lens-food-4960354/",
+   "https://pixabay.com/videos/id-149927/",
+   "https://pixabay.com/photos/windshield-rain-glass-surface-5366584/",
+   "https://pixabay.com/videos/id-41746/"
+  ],
+  "duration": 28.17,
+  "matches": [
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   0.92,
+   0.94,
+   0.99,
+   0.99,
+   1.0,
+   1.0
+  ],
+  "sfx": 9,
+  "illustrations": 8,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "빗길에 음식 쏟고 변상하러 간 배달기사 #shorts",
+  "source_post": "https://www.fnnews.com/news/202609030723569987",
+  "facts_used": [
+   "배달기사 A씨가 비 오는 날 빗길에 미끄러져 넘어져 음식 일부가 훼손됨 — 파이낸셜뉴스 2026-09-03 https://www.fnnews.com/news/202609030723569987 , 헤럴드경제(네이트) https://m.news.nate.com/view/20260903n38893 , 아시아경제 2026-09-07 https://view.asiae.co.kr/article/2026090708041808282",
+   "A씨는 고객을 찾아가 정중히 사과하고 변상하겠다며 계좌번호를 알려 달라고 함 — 파이낸셜뉴스, 오늘의따뜻한뉴스 https://supple.kr/news/cmtjp95uu0096x12uh09fmtn4",
+   "고객(아주머니)은 '괜찮다. 그냥 먹겠다. 비 오는데 너무 고생 많으시다'며 아들 같다고 용돈을 건넴, A씨가 극구 거절했지만 계속 쥐여줌 — 파이낸셜뉴스, 헤럴드경제, 아시아경제",
+   "A씨는 글에 '엄마가 보고 싶었던 밤이었다'고 적음 — 파이낸셜뉴스, 오늘의따뜻한뉴스"
+  ],
+  "slug": "2026-10-27_0700_rain-delivery-rider-pocket-money",
+  "late": false,
+  "video_id": "GjvgmzhDVRU",
+  "url": "https://youtube.com/shorts/GjvgmzhDVRU",
+  "privacy": "private",
+  "scheduled_for": "2026-10-26T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6adfabddbdfa14d4600a59ae",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-26T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-27_0700_rain-delivery-rider-pocket-money/video.mp4"
+  },
+  "seconds": 1098
  }
 ]
