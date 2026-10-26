@@ -1,71 +1,13 @@
 {
- "detected_at": "2026-10-26T09:11+09:00",
+ "detected_at": "2026-10-26T10:40+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 이 대통령 지지율 35.3%…국힘, 민주에 오차범위 밖 우세 [리얼미터]",
-   "url": "https://n.news.naver.com/article/009/0005753767",
-   "press": "매일경제",
-   "why": "[속보] 기사 + 언론사 6곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "연합뉴스",
-     "title": "李대통령 지지율 35.3%…민주 36.0%·국힘 42.6% 오차밖 격차[리얼미터]",
-     "url": "https://n.news.naver.com/article/001/0016399536"
-    },
-    {
-     "press": "세계일보",
-     "title": "[속보] 李 대통령 지지율 35.3%…한 주 만에 2.0%p 하락 [리얼미터]",
-     "url": "https://n.news.naver.com/article/022/0004169642"
-    },
-    {
-     "press": "kbc광주방송",
-     "title": "[속보] 李대통령 지지율 35.3% \"수도권·진보층 이탈\"…국힘, 민주에 오차범위 밖 우세",
-     "url": "https://n.news.naver.com/article/660/0000119912"
-    },
-    {
-     "press": "뉴스1",
-     "title": "[속보] 李 지지율 2%p 하락한 35.3%…野, 오차범위 밖 與 앞서 [리얼미터]",
-     "url": "https://n.news.naver.com/article/421/0009248897"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 배달료 수억원 가로채고 잠적한 대행업체 대표…경찰 수사",
-   "url": "https://n.news.naver.com/article/654/0000207410",
-   "press": "강원도민일보",
+   "title": "[속보]윤상현 “오세훈, 가장 강력한 대선주자…장동혁은 견제 못해”",
+   "url": "https://n.news.naver.com/article/021/0002827742",
+   "press": "문화일보",
    "why": "[속보] 기사",
    "related": []
-  },
-  {
-   "kind": "news",
-   "title": "李 지지율 소폭 하락한 35.3%…부정 평가는 62.3% [리얼미터]",
-   "url": "https://n.news.naver.com/article/366/0001200208",
-   "press": "조선비즈",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "연합뉴스",
-     "title": "李대통령 지지율 35.3%…민주 36.0%·국힘 42.6% 오차밖 격차[리얼미터]",
-     "url": "https://n.news.naver.com/article/001/0016399536"
-    },
-    {
-     "press": "세계일보",
-     "title": "[속보] 李 대통령 지지율 35.3%…한 주 만에 2.0%p 하락 [리얼미터]",
-     "url": "https://n.news.naver.com/article/022/0004169642"
-    },
-    {
-     "press": "서울경제",
-     "title": "李 지지율 반등 1주일 만에 다시 하락…35.3% 기록 [리얼미터]",
-     "url": "https://n.news.naver.com/article/011/0004675051"
-    },
-    {
-     "press": "뉴스1",
-     "title": "[속보] 李 지지율 2%p 하락한 35.3%…野, 오차범위 밖 與 앞서 [리얼미터]",
-     "url": "https://n.news.naver.com/article/421/0009248897"
-    }
-   ]
   }
  ]
 }
