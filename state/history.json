@@ -4378,5 +4378,58 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-27_1800_mudeungsan-grandma-police-piggyback/video.mp4"
   },
   "seconds": 981
+ },
+ {
+  "key": "2026-10-28-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-28T07:00:00+09:00",
+  "started": "2026-10-28T04:21:39.699505+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-60266/",
+   "https://pixabay.com/videos/id-131034/",
+   "https://pixabay.com/photos/office-notes-notepad-entrepreneur-620817/",
+   "https://pixabay.com/photos/fence-railing-wrought-iron-barrier-450670/"
+  ],
+  "cc_clips": [],
+  "duration": 25.81,
+  "matches": [
+   0.92,
+   0.99,
+   0.97,
+   0.97,
+   1.0,
+   1.0,
+   0.98,
+   0.98,
+   1.0,
+   1.0
+  ],
+  "sfx": 9,
+  "illustrations": 7,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "교도관 2명 지나쳐 정문 나갔다는 수형자 #shorts",
+  "source_post": "https://www.hankookilbo.com/news/article/A2026102713420001809",
+  "facts_used": [
+   "8월 10일 오전 11시 30분께 천안교도소에서 수형자 A씨가 다른 출소자의 짐을 교도관과 함께 나눠 들다 제지 없이 정문을 통과 — 한국일보 2026-10-27 https://www.hankookilbo.com/news/article/A2026102713420001809 , 파이낸셜뉴스 2026-10-27 https://www.fnnews.com/news/202610271349564498 , 데일리안 https://www.dailian.co.kr/news/view/1706735",
+   "정문 밖에 있던 천안교도소장이 A씨를 발견, A씨는 별다른 저항 없이 곧바로 교도소 안으로 복귀 — 한국경제 https://www.hankyung.com/article/2026102891007 , 파이낸셜뉴스",
+   "교도소 측 설명: A씨는 모범 수용자로 교도소를 이탈할 의도가 전혀 없었다 — 파이낸셜뉴스, 아시아경제 https://view.asiae.co.kr/article/2026102713580557658",
+   "대전지방교정청이 당시 정문 근무 교도관 2명에게 경고 조치 — 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2080707 , 데일리안, 위키트리 https://www.wikitree.co.kr/articles/1169611"
+  ],
+  "slug": "2026-10-28_0700_inmate-carried-bags-out-gate",
+  "late": false,
+  "video_id": "cbOKvNffQiM",
+  "url": "https://youtube.com/shorts/cbOKvNffQiM",
+  "privacy": "private",
+  "scheduled_for": "2026-10-27T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae0fe94944977ae0252d719",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-27T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-28_0700_inmate-carried-bags-out-gate/video.mp4"
+  },
+  "seconds": 1234
  }
 ]
