@@ -89,11 +89,18 @@ def main() -> int:
     out = {"generated_at": dt.datetime.now(KST).isoformat(timespec="minutes"),
            "warnings": warns, "posts": ranked,
            "news_hot": news[:40]}
+    try:   # 2026-10-27: 지금 검색·화제인 단어 (구글 트렌드 + 여러 커뮤니티 제목에 동시에 나온 단어)
+        import trends
+        out["trends"], tw = trends.collect(posts)
+        warns += tw
+    except Exception as ex:
+        warns.append(f"트렌드: {type(ex).__name__} {str(ex)[:100]}")
     path = REPO / "inbox" / "latest.json"
     path.parent.mkdir(exist_ok=True)
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{len(ranked)} posts ({', '.join(sorted({p['board'] for p in ranked}))}), "
-          f"{len(out['news_hot'])} news; warnings: {warns}")
+          f"{len(out['news_hot'])} news, trends {[t['keyword'] for t in out.get('trends', {}).get('google', [])][:5]} "
+          f"buzz {[b['word'] for b in out.get('trends', {}).get('buzz', [])][:5]}; warnings: {warns}")
     try:   # 긴급 소재가 새로 보이면 inbox/urgent.json 을 쓴다 → gather.yml 이 긴급 대본 루틴을 깨운다
         import urgent
         urgent.detect(out, dt.datetime.now(KST))

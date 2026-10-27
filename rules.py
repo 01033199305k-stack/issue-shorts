@@ -499,6 +499,8 @@ def lint(script: dict) -> list[str]:
     brief = str(script.get("brief", ""))
     if "이해검사:" not in brief:
         p.append("brief has no '이해검사:' line - write who / what / how it ended in one sentence using only the script's words")
+    if "유행:" not in brief:   # 2026-10-27 사용자: "유행에 민감하게 반응은 해야지" - ROUTINE 유행 레인
+        p.append("brief has no '유행:' line - name the trending word this story rides (inbox trends), or '유행: 없음 (<words you checked>)'")
     if not any(k in kinds for k in ("doc", "sms", "price")) and "증거없음:" not in brief:
         p.append("no evidence prop - show the story's real paper/text/price (doc/sms/price from the reports) in one scene, "
                  "or write '증거없음: <why>' in brief (viewer comment, 레이디 가가 편: \"사실이면 영상이라도 올리던가\")")
