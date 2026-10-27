@@ -4323,5 +4323,60 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-27_1200_rear-end-crash-calming-pill-reply/video.mp4"
   },
   "seconds": 1349
+ },
+ {
+  "key": "2026-10-27-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-27T18:00:00+09:00",
+  "started": "2026-10-27T15:21:38.554619+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/yellow-fruits-thorn-tree-8609272/",
+   "https://pixabay.com/videos/id-174773/",
+   "https://pixabay.com/photos/backpack-boots-rocks-backpacking-1868720/",
+   "https://pixabay.com/videos/id-17013/"
+  ],
+  "duration": 26.93,
+  "matches": [
+   0.92,
+   0.94,
+   0.94,
+   0.94,
+   1.0,
+   1.0,
+   1.0,
+   0.92,
+   0.98,
+   0.84
+  ],
+  "sfx": 9,
+  "illustrations": 6,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [
+   "건 / 80대 (75)",
+   "해발 / 250m에서 (55)"
+  ],
+  "title": "위치 모른다며 112 건 80대 할머니 구조 #shorts",
+  "source_post": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008815920",
+  "facts_used": [
+   "10월 25일 오후 8시 3분쯤 광주 동부경찰서에 '산속에서 길을 잃었는데 위치를 모르겠다'는 80대 여성 112 신고 접수 — 국민일보 2026-10-26 https://www.kmib.co.kr/article/20261026501264 , 인사이트 https://www.insight.co.kr/news/579203",
+   "휴대전화 GPS 위치로 수색했으나 비가 내리고 GPS 지점에 등산로가 없어 접근 어려움, 가시덤불 우거진 급경사지를 올라 출동 약 50분 만에 해발 250m 지점에서 발견 — SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008815920 , 국민일보",
+   "할머니는 장시간 비를 맞아 탈진 상태, 경찰 2명이 번갈아 업고 약 40분 동안 하산 — SBS, 국민일보·인사이트(번갈아 업고 40분)",
+   "치매 환자로 혼자 산에 올랐다가 길을 잃음, 건강에 큰 지장 없음 — 국민일보, SBS"
+  ],
+  "slug": "2026-10-27_1800_mudeungsan-grandma-police-piggyback",
+  "late": false,
+  "video_id": "5_j41UVCDYk",
+  "url": "https://youtube.com/shorts/5_j41UVCDYk",
+  "privacy": "private",
+  "scheduled_for": "2026-10-27T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae046c53e883895e59c78a0",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-27T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-27_1800_mudeungsan-grandma-police-piggyback/video.mp4"
+  },
+  "seconds": 981
  }
 ]
