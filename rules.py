@@ -362,15 +362,14 @@ def lint(script: dict) -> list[str]:
         if sum(1 for it in its if it.get("type") in ("illust", "crowd")) > 2:
             p.append(f"segment {i}: more than 2 pictures - one big picture (or two side by side) per scene")
     vids = [bool((s.get("visual") or {}).get("video")) for s in script.get("segments", [])]
-    if sum(vids) < 2:   # 2026-10-06~07: six videos in a row went out with no footage at all
-        p.append(f"only {sum(vids)} scenes with stock video - give 2-3 sentences a real clip of the place/thing they name "
+    # 2026-10-27 사용자 "영상 좀 많이 넣기로 했는데 왜 조금만 들어가": the routine always wrote the minimum (2)
+    if sum(vids) < 3:   # 2026-10-06~07: six videos in a row went out with no footage at all
+        p.append(f"only {sum(vids)} scenes with stock video - give 3-5 sentences a real clip of the place/thing they name "
                  "(ROUTINE video: a list of 2-3 English candidates per scene)")
-    if sum(vids) > 3:
-        p.append(f"{sum(vids)} scenes with stock video (max 3 - the illustrations are still the channel's look)")
+    if sum(vids) > 5:
+        p.append(f"{sum(vids)} scenes with stock video (max 5)")
     if vids and vids[0] and any(it.get("style") == "post" for it in (script["segments"][0].get("visual") or {}).get("items", [])):
         p.append("segment 0: the opening post card takes no stock video")
-    if any(a and b for a, b in zip(vids, vids[1:])):
-        p.append("two stock-video scenes in a row - put a picture scene between the clips")
     # 2026-10-25 (사용자: "실사 사진이 짧주처럼 들어가면 좋을 것 같은데"): 2-3 real photos of the place/object per video
     segs_ = script.get("segments", [])
     pics = [bool((s.get("visual") or {}).get("pic")) for s in segs_]
@@ -380,10 +379,10 @@ def lint(script: dict) -> list[str]:
                  "object they name] (ROUTINE pic: stock stills, no people)")
     if sum(pics) > 3:
         p.append(f"{sum(pics)} pic scenes - max 3")
-    if sum(media) > 6:
-        p.append(f"{sum(media)} scenes on footage/photos - max 6, the illustrated scenes are still half the look")
-    if any(a and b and c for a, b, c in zip(media, media[1:], media[2:])):
-        p.append("three footage/photo scenes in a row - put an illustrated scene between them")
+    if sum(media) > 7:
+        p.append(f"{sum(media)} scenes on footage/photos - max 7")
+    if any(a and b and c and d for a, b, c, d in zip(media, media[1:], media[2:], media[3:])):
+        p.append("four footage/photo scenes in a row - put an illustrated scene between them")
     if pics and pics[0]:
         p.append("segment 0: the opening post card takes no pic")
     if sum(pics) >= 2 and not any(pc and not any(it.get("type") in ("illust", "crowd") for it in (s.get("visual") or {}).get("items", []))
