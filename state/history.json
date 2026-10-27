@@ -4268,5 +4268,60 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-27_0700_rain-delivery-rider-pocket-money/video.mp4"
   },
   "seconds": 1098
+ },
+ {
+  "key": "2026-10-27-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-27T12:00:00+09:00",
+  "started": "2026-10-27T09:21:27.331893+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/bicycle-traffic-light-red-2367705/",
+   "https://pixabay.com/photos/iphone-smartphone-apps-apple-inc-410324/",
+   "https://pixabay.com/videos/id-336253/",
+   "https://pixabay.com/videos/id-1101/"
+  ],
+  "duration": 32.02,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.98,
+   0.98,
+   0.94,
+   0.93,
+   1.0
+  ],
+  "sfx": 10,
+  "illustrations": 9,
+  "cuts": 11,
+  "layout_issues": [],
+  "caption_breaks": [
+   "피해 / 차주 (55)"
+  ],
+  "title": "빨간불에 앞차 박고 다음 날 받은 문자 #shorts",
+  "source_post": "https://www.mt.co.kr/society/2026/10/26/2026102608292917494",
+  "facts_used": [
+   "피해 차주 답장: 차와 몸에 이상 없는 것 같다, 많이 놀랐을 텐데 청심환 먹고 안전운전하라 — 머니투데이 2026-10-26 https://www.mt.co.kr/society/2026/10/26/2026102608292917494 , 위키트리 https://www.wikitree.co.kr/articles/1169390 , 파이낸셜뉴스 영문 2026-10-26 https://en.fnnews.com/news/202610261402458227",
+   "운전자 A씨가 신호 대기(빨간불) 중이던 차를 뒤에서 들이받고 바로 사과함, 25일 보배드림에 '세상에 살다 보니 이런 날도 있네요' 글 — 머니투데이, 위키트리",
+   "결혼식 다녀와 아내를 만나러 가던 길, 집에 가는 길 아내에게 혼날 걱정·보험료 오를 걱정, 사과 문자를 보내고 하루 동안 마음 졸임, 다음 날 아침 답장 — 머니투데이, 위키트리, 파이낸셜뉴스",
+   "아내는 화내지 않고 다음부터 조심하자고 함 — 머니투데이, 위키트리"
+  ],
+  "slug": "2026-10-27_1200_rear-end-crash-calming-pill-reply",
+  "late": false,
+  "video_id": "9nwAkWHLdtY",
+  "url": "https://youtube.com/shorts/9nwAkWHLdtY",
+  "privacy": "private",
+  "scheduled_for": "2026-10-27T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6adff3ca14a7789a82fafb44",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-27T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-27_1200_rear-end-crash-calming-pill-reply/video.mp4"
+  },
+  "seconds": 1349
  }
 ]
