@@ -1,107 +1,34 @@
 {
- "detected_at": "2026-10-27T19:57+09:00",
+ "detected_at": "2026-10-27T22:40+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "[야갤] 100만 유튜버 '수탉' 납치·살해시도 일당, 2심서 감형",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=473543&_dcbest=1&page=1",
-   "board": "디시 실베",
-   "why": "커뮤니티 3곳 동시 화제",
-   "news": []
-  },
-  {
    "kind": "news",
-   "title": "민주, 조희대 대법원장 국정조사 실시하기로",
-   "url": "https://n.news.naver.com/article/028/0002829386",
-   "press": "한겨레",
-   "why": "언론사 8곳이 댓글 많은 기사 1위로",
+   "title": "김건희 구속 최장 8개월 연장…'매관매직' 추가 영장 발부",
+   "url": "https://n.news.naver.com/article/003/0014282458",
+   "press": "뉴시스",
+   "why": "언론사 7곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "SBS",
-     "title": "민주 \"조희대 대법원장 의혹 국정조사 실시…다음달 5일 본회의 처리 목표\"",
-     "url": "https://n.news.naver.com/article/055/0001398496"
+     "press": "조선비즈",
+     "title": "대법, 김건희 추가 구속영장 발부…연말까지 구속 연장",
+     "url": "https://n.news.naver.com/article/366/0001200705"
     },
     {
-     "press": "이데일리",
-     "title": "與, 조희대 국정조사 추진... “내달 5일 본회의 처리 목표”",
-     "url": "https://n.news.naver.com/article/018/0006397213"
+     "press": "JTBC",
+     "title": "김건희 \"남편이 얼마나 깨끗한데\" 안 통했다…구속 연장",
+     "url": "https://n.news.naver.com/article/437/0000517781"
     },
     {
-     "press": "경향신문",
-     "title": "[속보]민주당, 의총서 ‘조희대 국정조사 추진’ 결론···“내달 5일 본회의 처리 목표”",
-     "url": "https://n.news.naver.com/article/032/0003478800"
+     "press": "한겨레",
+     "title": "대법, 김건희 추가 구속영장 발부…31일 구속 만료 앞두고 기한 연장",
+     "url": "https://n.news.naver.com/article/028/0002829438"
     },
     {
-     "press": "조선일보",
-     "title": "초유의 대법원장 국정조사... 민주당, 의총서 밀어붙였다",
-     "url": "https://n.news.naver.com/article/023/0004006202"
+     "press": "프레시안",
+     "title": "[속보] 대법, '구속기한 D-4' 김건희에 추가 구속영장 발부",
+     "url": "https://n.news.naver.com/article/002/0002462996"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]與 “주진우, 국회의원 내려놓고 사이버 레커 유튜버 전향하길”",
-   "url": "https://n.news.naver.com/article/021/0002828187",
-   "press": "문화일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "정동영 \"지뢰는 방어용 무기\" 한동훈 \"남의 땅 설치는 공격\"",
-   "url": "https://n.news.naver.com/article/015/0005347003",
-   "press": "한국경제",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "헤럴드경제",
-     "title": "정동영 “北지뢰는 방어용”…한동훈 “남의 담 넘으면 공격”",
-     "url": "https://n.news.naver.com/article/016/0002715015"
-    },
-    {
-     "press": "디지털타임스",
-     "title": "한동훈 “장관님 댁 지뢰 놔도 공격 아니냐” 정동영 “北 한치도 안넘어왔다 해, 고의로 보냐”",
-     "url": "https://n.news.naver.com/article/029/0003055595"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]“중국 공안이냐” 경찰에 침 뱉은 40대, 징역 10개월",
-   "url": "https://n.news.naver.com/article/081/0003692876",
-   "press": "서울신문",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "연합뉴스",
-     "title": "잠실 개표소 시위서 경찰에 침 뱉은 40대 1심서 징역 10개월",
-     "url": "https://n.news.naver.com/article/001/0016403399"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 원안위, 고리 3·4호기 계속운전 허가…10년 수명연장",
-   "url": "https://n.news.naver.com/article/469/0000961969",
-   "press": "한국일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 대법원, 김건희 여사 구속영장 발부…\"증거인멸·도망 염려\"",
-   "url": "https://n.news.naver.com/article/031/0001069821",
-   "press": "아이뉴스24",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 구로구 주택가서 비닐·신문에 싸인 시신 발견",
-   "url": "https://n.news.naver.com/article/082/0001404354",
-   "press": "부산일보",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
