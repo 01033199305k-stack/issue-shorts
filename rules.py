@@ -56,6 +56,13 @@ def _check_visual(i: int, v: dict) -> list[str]:
     if pq is not None and not (isinstance(pqs, list) and 1 <= len(pqs) <= 3 and all(
             isinstance(q, str) and re.fullmatch(r"[A-Za-z0-9 ,'-]{2,40}", q) for q in pqs)):
         p.append(f"segment {i}: pic must be 2-40 chars of English search words (or a list of 1-3 such candidates), got {pq!r}")
+    cq = v.get("cc")   # ccvideo.py: CC BY YouTube footage, credited on screen (2026-10-25)
+    cqs = [cq] if isinstance(cq, str) else cq
+    if cq is not None and not (isinstance(cqs, list) and 1 <= len(cqs) <= 3 and all(
+            isinstance(q, str) and re.fullmatch(r"[A-Za-z0-9 ,'-]{2,40}", q) for q in cqs)):
+        p.append(f"segment {i}: cc must be 2-40 chars of English search words (or a list of 1-3 such candidates), got {cq!r}")
+    if cq is not None and not vq:
+        p.append(f"segment {i}: cc needs a `video` list too - it is the fallback when no CC BY clip passes")
     ph = v.get("photo")
     if ph is not None and not (isinstance(ph, dict) and isinstance(ph.get("who"), str) and 2 <= len(ph["who"]) <= 20
                                and (ph.get("src") is None or re.match(r"https?://", str(ph["src"])))):
@@ -472,17 +479,10 @@ def lint(script: dict) -> list[str]:
     if story_digits and not re.search(r"\d|하루|이틀|사흘|나흘|열흘|[한두세네] ?(번|명|살|장|개|달|시간|마리)", head):
         p.append("the story has a number but the title/card has none - put the most striking number in "
                  "title_lines or the card title (titles with a number kept 61% vs 55% of viewers)")
-    # like easter egg (2026-10-17): the like button turns into a topic icon when that thing is ON SCREEN as it
-    # is pressed (사용자 test on the 10/10 dog short). The renderer draws the thing big under the last line; the
-    # thing must come from the story (사용자: "보도에 있는 것 중에 하나 골라서"), so the line is never a bluff.
+    # like easter egg (2026-10-17~10-26): dropped - the button often stayed a heart and the promise read as a lie
     egg = script.get("like_egg")
-    if egg is not None:
-        topic = egg.get("topic") if isinstance(egg, dict) else egg
-        if topic not in EGGS_ON:
-            p.append(f"like_egg {egg!r} - only {sorted(EGGS_ON)} are reported to change the button; leave it out otherwise")
-        elif not re.search(EGG_WORDS[topic], " ".join([script.get("youtube", {}).get("title", "")] + [s.get("text", "") for s in segs])):
-            p.append(f"like_egg {topic!r} but the story never names it ({EGG_WORDS[topic]}) - pick a thing that is in "
-                     "the story, or drop like_egg")
+    if egg is not None:   # 2026-10-26 사용자: "안 바뀌니까 거슬려" - the line is gone for good
+        p.append("like_egg is off (2026-10-26: the button often doesn't change and viewers notice) - remove it")
     # 2026-10-25 @짧은주녑 (432 shorts): one sentence of ~17 chars, the same words on screen and in the feed
     yt_title = (script.get("youtube") or {}).get("title", "")
     core = re.sub(r"\s*#shorts\s*$", "", yt_title).strip()

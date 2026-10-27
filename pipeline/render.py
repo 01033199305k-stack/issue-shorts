@@ -17,6 +17,7 @@ from pathlib import Path
 import motion
 import photo
 import stillphoto
+import ccvideo
 import stock
 from illust import Picker
 from pipeline import assemble, tts
@@ -222,6 +223,15 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
                                                                          work_dir / f"still_{i:02d}", motion.FPS, used_clips)):
             clips.append(clip)
             continue
+        # CC BY YouTube footage of the real place/thing (ccvideo.py), credited on screen; `video` is the fallback
+        cq = (vis or {}).get("cc") or []
+        for k, q in enumerate([cq] if isinstance(cq, str) else cq):
+            if (clip := ccvideo.clip_frames(q, en - st + motion.LEAD + 0.2, work_dir / f"cc_{i:02d}_{k}",
+                                            motion.FPS, used_clips)):
+                break
+        if clip:
+            clips.append(clip)
+            continue
         for k, q in enumerate([qs] if isinstance(qs, str) else qs):   # candidates in order, like illust q lists
             if (clip := stock.clip_frames(q, en - st + motion.LEAD + 0.2, work_dir / f"clip_{i:02d}_{k}",
                                           motion.FPS, used_clips)):
@@ -273,6 +283,7 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     bgm = repo / cfg["bgm"] if cfg.get("bgm") else None
     assemble.mux_final(video, narration, None, out_path, bgm_path=bgm, sfx=sfx,
                        bgm_gain_db=float(cfg.get("bgm_gain_db", -10)))
-    return {"stock_clips": [c["url"] for c in clips if c], "duration": round(cursor, 2), "matches": [round(r.match, 2) for r in results],
+    return {"stock_clips": [c["url"] for c in clips if c],
+            "cc_clips": [{"url": c["url"], "by": c["by"], "license": c["license"]} for c in clips if c and c.get("license")], "duration": round(cursor, 2), "matches": [round(r.match, 2) for r in results],
             "sfx": len(sfx), "illustrations": len(picker.used), "cuts": len(cuts) + 1,
             "layout_issues": issues, "caption_breaks": breaks}
