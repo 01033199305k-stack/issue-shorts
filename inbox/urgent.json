@@ -1,65 +1,55 @@
 {
- "detected_at": "2026-10-27T09:14+09:00",
+ "detected_at": "2026-10-27T14:34+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "김혜경 여사 라운딩 앞뒤팀 '정상 경기'…리디아 고는 '골프레슨' 일축",
-   "url": "https://n.news.naver.com/article/088/0001036640",
-   "press": "매일신문",
+   "title": "농지조사 장관 제안 아닌데... 대통령에 말 못하는 농식품부",
+   "url": "https://n.news.naver.com/article/023/0004006148",
+   "press": "조선일보",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "조선비즈",
-     "title": "리디아 고, 김혜경 여사 ‘골프 레슨’ 의혹 일축… “사실 아니다”",
-     "url": "https://n.news.naver.com/article/366/0001200398"
+     "press": "디지털타임스",
+     "title": "[속보] ‘송미령이 농지조사 제안’ 李대통령에…국힘 “원성 빗발치니 장관탓”",
+     "url": "https://n.news.naver.com/article/029/0003055456"
     },
     {
-     "press": "MBC",
-     "title": "리디아 고 \"저 아닌데\"‥주진우 '김 여사 골프레슨' 공방",
-     "url": "https://n.news.naver.com/article/214/0001531519"
+     "press": "문화일보",
+     "title": "李대통령 “농지전수조사 송미령 장관이 제안한 것”",
+     "url": "https://n.news.naver.com/article/021/0002828085"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "강신철 “북한과 전쟁 나면 미군은 믿을 수 있나”",
-   "url": "https://n.news.naver.com/article/025/0003560586",
-   "press": "중앙일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "\"소방관 빨대 맞다…왜 영웅 대접하나\" 누리꾼 '갑론을박'",
+   "url": "https://n.news.naver.com/article/448/0000647166",
+   "press": "TV조선",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "조선일보",
-     "title": "강신철 “북한과 전쟁 났을때 미군 믿을 수 있나… 그렇지 않은 것”",
-     "url": "https://n.news.naver.com/article/023/0004006101"
+     "press": "중앙일보",
+     "title": "“소방관 빨대 맞다…연봉 2배에 영웅 대접” 글에 갑론을박",
+     "url": "https://n.news.naver.com/article/025/0003560729"
     },
     {
-     "press": "동아일보",
-     "title": "강신철 “北과 전쟁시 미군 믿을 수 있나” 전작권 전환 신중론 반박",
-     "url": "https://n.news.naver.com/article/020/0003757837"
-    },
-    {
-     "press": "MBN",
-     "title": "강신철 \"북한과 전쟁나면 미군은 믿을 수 있나\"",
-     "url": "https://n.news.naver.com/article/057/0001975239"
+     "press": "머니투데이",
+     "title": "\"소방관 개꿀…출동 없으면 꿀잠, 빨대 맞다\" 공무원글 논란",
+     "url": "https://n.news.naver.com/article/008/0005432157"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 반도체 호황에 3분기 한국 경제 1.0% 성장…민간소비는 줄어",
-   "url": "https://n.news.naver.com/article/082/0001404205",
-   "press": "부산일보",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "[속보] '채상병 순직' 임성근 전 사단장 징역 3년 확정",
+   "url": "https://n.news.naver.com/article/422/0000919842",
+   "press": "연합뉴스TV",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
      "press": "kbc광주방송",
-     "title": "\"반도체 호황에 예상 밖 성장\"…3분기 경제 1.0% 성장, 민간소비는 뒷걸음질",
-     "url": "https://n.news.naver.com/article/660/0000119985"
-    },
-    {
-     "press": "서울신문",
-     "title": "한국 경제 3분기 1.0% ‘깜짝 성장’…한은 전망치 3배 웃돌아",
-     "url": "https://n.news.naver.com/article/081/0003692742"
+     "title": "'채상병 순직' 임성근 前사단장 징역 3년 확정...사고 1,196일 만",
+     "url": "https://n.news.naver.com/article/660/0000120003"
     }
    ]
   }
