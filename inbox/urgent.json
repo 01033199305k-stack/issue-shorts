@@ -1,27 +1,65 @@
 {
- "detected_at": "2026-10-27T00:09+09:00",
+ "detected_at": "2026-10-27T09:14+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "서영교 \"골프 영상 재생 안 돼\"…주진우 \"청담동 술자리는?\"",
-   "url": "https://n.news.naver.com/article/015/0005346738",
-   "press": "한국경제",
+   "title": "김혜경 여사 라운딩 앞뒤팀 '정상 경기'…리디아 고는 '골프레슨' 일축",
+   "url": "https://n.news.naver.com/article/088/0001036640",
+   "press": "매일신문",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선비즈",
+     "title": "리디아 고, 김혜경 여사 ‘골프 레슨’ 의혹 일축… “사실 아니다”",
+     "url": "https://n.news.naver.com/article/366/0001200398"
+    },
+    {
+     "press": "MBC",
+     "title": "리디아 고 \"저 아닌데\"‥주진우 '김 여사 골프레슨' 공방",
+     "url": "https://n.news.naver.com/article/214/0001531519"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "강신철 “북한과 전쟁 나면 미군은 믿을 수 있나”",
+   "url": "https://n.news.naver.com/article/025/0003560586",
+   "press": "중앙일보",
    "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "매일신문",
-     "title": "'김혜경 여사 골프 의혹 영상' 서영교 \"국감서 상영 불허\"…주진우 페북 공개본 보니 [여의도.gif]",
-     "url": "https://n.news.naver.com/article/088/0001036591"
+     "press": "조선일보",
+     "title": "강신철 “북한과 전쟁 났을때 미군 믿을 수 있나… 그렇지 않은 것”",
+     "url": "https://n.news.naver.com/article/023/0004006101"
     },
     {
-     "press": "채널A",
-     "title": "주진우, 태릉 골프 영상 공개…靑 “허위 사실”",
-     "url": "https://n.news.naver.com/article/449/0000365333"
+     "press": "동아일보",
+     "title": "강신철 “北과 전쟁시 미군 믿을 수 있나” 전작권 전환 신중론 반박",
+     "url": "https://n.news.naver.com/article/020/0003757837"
     },
     {
-     "press": "오마이뉴스",
-     "title": "[영상] 서영교, 주진우 향해 \"막 던지면 되겠냐\"",
-     "url": "https://n.news.naver.com/article/047/0002533557"
+     "press": "MBN",
+     "title": "강신철 \"북한과 전쟁나면 미군은 믿을 수 있나\"",
+     "url": "https://n.news.naver.com/article/057/0001975239"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 반도체 호황에 3분기 한국 경제 1.0% 성장…민간소비는 줄어",
+   "url": "https://n.news.naver.com/article/082/0001404205",
+   "press": "부산일보",
+   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "kbc광주방송",
+     "title": "\"반도체 호황에 예상 밖 성장\"…3분기 경제 1.0% 성장, 민간소비는 뒷걸음질",
+     "url": "https://n.news.naver.com/article/660/0000119985"
+    },
+    {
+     "press": "서울신문",
+     "title": "한국 경제 3분기 1.0% ‘깜짝 성장’…한은 전망치 3배 웃돌아",
+     "url": "https://n.news.naver.com/article/081/0003692742"
     }
    ]
   }
