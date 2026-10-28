@@ -1,34 +1,21 @@
 {
- "detected_at": "2026-10-27T22:40+09:00",
+ "detected_at": "2026-10-28T09:11+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "김건희 구속 최장 8개월 연장…'매관매직' 추가 영장 발부",
-   "url": "https://n.news.naver.com/article/003/0014282458",
-   "press": "뉴시스",
-   "why": "언론사 7곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선비즈",
-     "title": "대법, 김건희 추가 구속영장 발부…연말까지 구속 연장",
-     "url": "https://n.news.naver.com/article/366/0001200705"
-    },
-    {
-     "press": "JTBC",
-     "title": "김건희 \"남편이 얼마나 깨끗한데\" 안 통했다…구속 연장",
-     "url": "https://n.news.naver.com/article/437/0000517781"
-    },
-    {
-     "press": "한겨레",
-     "title": "대법, 김건희 추가 구속영장 발부…31일 구속 만료 앞두고 기한 연장",
-     "url": "https://n.news.naver.com/article/028/0002829438"
-    },
-    {
-     "press": "프레시안",
-     "title": "[속보] 대법, '구속기한 D-4' 김건희에 추가 구속영장 발부",
-     "url": "https://n.news.naver.com/article/002/0002462996"
-    }
-   ]
+   "title": "[속보] ‘5·18 북한군 개입설’ 보수논객 지만원 구속",
+   "url": "https://n.news.naver.com/article/081/0003693062",
+   "press": "서울신문",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] SK하이닉스, 3분기 영업익 83조원…100조원 환원 추진",
+   "url": "https://n.news.naver.com/article/374/0000540165",
+   "press": "SBS Biz",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
