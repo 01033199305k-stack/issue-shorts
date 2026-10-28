@@ -1,51 +1,79 @@
 {
- "detected_at": "2026-10-28T15:12+09:00",
+ "detected_at": "2026-10-28T22:30+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "이 대통령 “짜장면 좋다는 건 짬뽕 폄훼···대통령 욕하는 게 국민스포츠이던 그때가 떠오른다”",
-   "url": "https://n.news.naver.com/article/032/0003478991",
-   "press": "경향신문",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "진성준 국방위원장, 미국 비자 거부…\"한미동맹 신뢰 훼손\"",
+   "url": "https://n.news.naver.com/article/079/0004204101",
+   "press": "노컷뉴스",
+   "why": "언론사 11곳이 댓글 많은 기사 1위로",
    "related": [
     {
      "press": "한국일보",
-     "title": "이 대통령, '장관 책임 전가' 논란에 \"'짜장면 좋다는 건 짬뽕 폄훼' 시대 도래\"",
-     "url": "https://n.news.naver.com/article/469/0000962103"
+     "title": "정청래 美 비자 발급 '보류' 이어 진성준은 '거부'",
+     "url": "https://n.news.naver.com/article/469/0000962259"
     },
     {
-     "press": "kbc광주방송",
-     "title": "李대통령 \"짜장면 좋다는 건 짬뽕 폄훼라더니\"…농지조사 책임 전가 비판 반박",
-     "url": "https://n.news.naver.com/article/660/0000120081"
+     "press": "국민일보",
+     "title": "민주당 또 美 비자 거부 당해…정청래 이어 진성준도",
+     "url": "https://n.news.naver.com/article/005/0001881536"
     },
     {
-     "press": "TV조선",
-     "title": "李 \"대통령 욕하는 게 국민스포츠이던 그때가 떠올라\"…잇따라 언론 직격",
-     "url": "https://n.news.naver.com/article/448/0000647442"
+     "press": "연합뉴스TV",
+     "title": "진성준 국방위원장 美 비자 발급 거부…\"강력한 유감\"",
+     "url": "https://n.news.naver.com/article/422/0000920472"
+    },
+    {
+     "press": "중앙일보",
+     "title": "정청래 이어 진성준 국방위원장도 美 비자 거부…“동맹 대접 아냐”",
+     "url": "https://n.news.naver.com/article/025/0003561213"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 80대 운전자 SUV, 택시 충돌 후 어린이집 돌진…등원 시간대 ‘아찔’",
-   "url": "https://n.news.naver.com/article/087/0001226850",
-   "press": "강원일보",
+   "title": "[속보] 올림픽공원 투표지 247만장 검증 파행…참관단, 촬영 불허에 항의",
+   "url": "https://n.news.naver.com/article/654/0000207945",
+   "press": "강원도민일보",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] 정부, 엘리엇 ISDS 환송중재 '패소' 취소소송 제기 안 해",
-   "url": "https://n.news.naver.com/article/015/0005347500",
-   "press": "한국경제",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "정청래 이어 진성준도 美비자 발급 거부당해..與 \"강력 유감\"",
+   "url": "https://n.news.naver.com/article/014/0005596086",
+   "press": "파이낸셜뉴스",
+   "why": "언론사 10곳이 댓글 많은 기사 1위로",
    "related": [
     {
+     "press": "한국일보",
+     "title": "정청래 美 비자 발급 '보류' 이어 진성준은 '거부'",
+     "url": "https://n.news.naver.com/article/469/0000962259"
+    },
+    {
+     "press": "국민일보",
+     "title": "민주당 또 美 비자 거부 당해…정청래 이어 진성준도",
+     "url": "https://n.news.naver.com/article/005/0001881536"
+    },
+    {
      "press": "연합뉴스TV",
-     "title": "[속보] 정부, 엘리엇 국제투자분쟁 최종 패소…배상 확정",
-     "url": "https://n.news.naver.com/article/422/0000920368"
+     "title": "진성준 국방위원장 美 비자 발급 거부…\"강력한 유감\"",
+     "url": "https://n.news.naver.com/article/422/0000920472"
+    },
+    {
+     "press": "중앙일보",
+     "title": "정청래 이어 진성준 국방위원장도 美 비자 거부…“동맹 대접 아냐”",
+     "url": "https://n.news.naver.com/article/025/0003561213"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]3호선 원당역서 20대 여성 역무원 흉기 피습…가해자는 동료",
+   "url": "https://n.news.naver.com/article/021/0002828516",
+   "press": "문화일보",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
