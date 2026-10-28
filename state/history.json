@@ -4542,5 +4542,61 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-28_1800_team-leader-card-sushi-lunch/video.mp4"
   },
   "seconds": 1171
+ },
+ {
+  "key": "2026-10-29-0700",
+  "slot": "0700",
+  "publish_at": "2026-10-29T07:00:00+09:00",
+  "started": "2026-10-29T04:21:13.946440+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/chrysanthemum-white-flower-8756866/",
+   "https://pixabay.com/photos/wallet-empty-poverty-bankrupt-3548021/",
+   "https://pixabay.com/videos/id-3176/",
+   "https://pixabay.com/videos/id-3928/",
+   "https://pixabay.com/videos/id-50621/"
+  ],
+  "cc_clips": [],
+  "duration": 26.76,
+  "matches": [
+   0.95,
+   0.94,
+   0.97,
+   0.97,
+   0.95,
+   0.95,
+   0.95,
+   1.0,
+   0.94,
+   0.9
+  ],
+  "sfx": 9,
+  "illustrations": 6,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [
+   "지인 / 6명 (55)"
+  ],
+  "title": "750만원 낸 조카한테 부의금 달라는 작은아버지 #shorts",
+  "source_post": "https://www.news1.kr/society/general-society/6333729",
+  "facts_used": [
+   "직장인 커뮤니티에 26일 올라온 글: 아버지 병간호부터 장례까지 혼자 책임진 아들 A씨, 장례비 총 750만 원을 다른 가족·친척 도움 없이 전액 결제 — 뉴스1 2026-10-28 https://www.news1.kr/society/general-society/6333729 , 헤럴드경제 https://biz.heraldcorp.com/article/10917798 , 아이뉴스24 https://m.inews24.com/v/2019680",
+   "작은아버지는 장례비를 전혀 보태지 않았다고 A씨가 주장, 아버지 앞으로 들어온 종중 부의금과 작은아버지 지인들이 낸 부의금을 모두 넘기라고 요구 — 뉴스1, 위키트리 https://www.wikitree.co.kr/articles/1169726 , 아이뉴스24",
+   "A씨는 판례상 부의금은 상주가 낸 장례비에 먼저 충당하고 남은 돈만 정산하는 게 원칙이라는 점을 알아봄 — 뉴스1, 재경일보 https://news.jkn.co.kr/post/1053678",
+   "A씨는 작은아버지 지인 6명(10만 원 1명, 5만 원 5명) 몫 35만 원만 입금하고 '이걸로 장례 정산은 끝이고 앞으로 더 이상 연락하지 말라'고 통보 — 뉴스1, 헤럴드경제, 위키트리"
+  ],
+  "slug": "2026-10-29_0700_funeral-cost-uncle-condolence-money",
+  "late": false,
+  "video_id": "dVloL9QD5dU",
+  "url": "https://youtube.com/shorts/dVloL9QD5dU",
+  "privacy": "private",
+  "scheduled_for": "2026-10-28T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae250b751d546be1f60f936",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-28T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-29_0700_funeral-cost-uncle-condolence-money/video.mp4"
+  },
+  "seconds": 1424
  }
 ]
