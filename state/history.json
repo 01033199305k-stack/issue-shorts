@@ -4488,5 +4488,59 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-28_1200_lottery-first-prize-fixed-spots/video.mp4"
   },
   "seconds": 1191
+ },
+ {
+  "key": "2026-10-28-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-28T18:00:00+09:00",
+  "started": "2026-10-28T15:19:05.566161+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/sushi-take-away-food-meal-seafood-1858696/",
+   "https://pixabay.com/videos/id-19454/",
+   "https://pixabay.com/photos/glass-facade-building-architecture-8016589/",
+   "https://pixabay.com/videos/id-3176/",
+   "https://pixabay.com/videos/id-304598/"
+  ],
+  "cc_clips": [],
+  "duration": 25.11,
+  "matches": [
+   0.91,
+   0.97,
+   0.97,
+   0.97,
+   0.95,
+   0.97,
+   0.97,
+   0.98,
+   0.98,
+   0.96
+  ],
+  "sfx": 9,
+  "illustrations": 7,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "신입 둘이 팀장 카드로 긁었다는 7만4천 원 #shorts",
+  "source_post": "https://www.seoul.co.kr/news/society/2026/09/03/20260903500001",
+  "facts_used": [
+   "팀장 A씨가 신입 직원 두 명에게 서로 친해지라며 '맛있는 거 먹고 오라'고 자기 카드를 줌 — 서울신문 2026-09-03 https://www.seoul.co.kr/news/society/2026/09/03/20260903500001 , 전자신문 2026-09-02 https://www.etnews.com/20260902000458",
+   "두 사람은 스시집에서 스페셜 초밥 세트를 주문, 총 7만4000원 결제(1인당 3만7000원) — 서울신문, 전자신문, SBS Biz https://biz.sbs.co.kr/amp/article/20000332342",
+   "회사 평소 점심 식대 1인당 1만2000원 — 세계일보 https://www.segye.com/newsView/20260904501007 , 서울신문",
+   "A씨는 '5만원까지는 그러려니 했을 것 같다'고 부연, 사전에 한도를 말하지 않은 팀장을 지적하는 의견도 적지 않았음 — 세계일보, 전자신문, 위키트리 https://www.wikitree.co.kr/articles/1156881"
+  ],
+  "slug": "2026-10-28_1800_team-leader-card-sushi-lunch",
+  "late": false,
+  "video_id": "JcOwGZd9k3U",
+  "url": "https://youtube.com/shorts/JcOwGZd9k3U",
+  "privacy": "private",
+  "scheduled_for": "2026-10-28T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae1986bf2db54e878c75257",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-28T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-28_1800_team-leader-card-sushi-lunch/video.mp4"
+  },
+  "seconds": 1171
  }
 ]
