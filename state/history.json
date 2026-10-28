@@ -4431,5 +4431,62 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-28_0700_inmate-carried-bags-out-gate/video.mp4"
   },
   "seconds": 1234
+ },
+ {
+  "key": "2026-10-28-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-28T12:00:00+09:00",
+  "started": "2026-10-28T09:20:01.494140+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-3188/",
+   "https://pixabay.com/videos/id-736/",
+   "https://pixabay.com/photos/lottery-tickets-white-unsorted-1422097/",
+   "https://pixabay.com/photos/office-wall-armchair-desk-calendar-4827467/",
+   "https://pixabay.com/videos/id-23258/"
+  ],
+  "cc_clips": [],
+  "duration": 26.82,
+  "matches": [
+   0.91,
+   0.94,
+   0.93,
+   0.93,
+   0.98,
+   0.98,
+   0.97,
+   0.97,
+   0.92,
+   1.0
+  ],
+  "sfx": 9,
+  "illustrations": 7,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [
+   "1000원짜리 / 전자복권 (55)"
+  ],
+  "title": "결국 들통났다는 5억 복권 1등 4장의 자리 #shorts",
+  "source_post": "https://n.news.naver.com/article/018/0006397413",
+  "facts_used": [
+   "즉석식 전자복권 '트리플럭'은 1500만 장 중 1등 당첨권 4장, 2010년 출시 이후 지난해(2025년) 7월까지 1500만 장을 375만 장씩 4구간으로 나눠 구간마다 1등 1장씩 배치 — 서울신문 2026-10-27 https://www.seoul.co.kr/news/economy/2026/10/27/20261027500239 , 이데일리 https://www.edaily.co.kr/News/Read?newsId=06015526645617184&mediaCodeNo=257",
+   "복권위 관계자 '1등을 25%, 50%, 75%, 100% 지점에 하나씩 두는 방식', 완전 무작위로 바꾸면 1%만 팔려도 1등 4장이 나올 수 있음 — 파이낸셜뉴스 2026-10-28 https://www.fnnews.com/news/202610280635525833 , 뉴스1 https://www.news1.kr/economy/trend/6332365",
+   "동행복권은 2024년 7월 배치 구조를 내부 공유하고도 복권위에 보고하지 않았고, 현장점검을 앞두고 관련 이메일을 삭제한 정황 — 머니투데이 2026-10-27 https://www.mt.co.kr/economy/2026/10/27/2026102711261947359 , 더스쿠프 https://www.thescoop.co.kr/news/articleView.html?idxno=312087",
+   "복권위가 위약벌 3000만 원 추가 부과(누적 6000만 원), 책임자 인사조치 요구·감사원 감사 청구 — 서울신문, 머니투데이, 뉴스1",
+   "트리플럭 1게임 1000원, 1등 5억 원, 1등 확률 375만분의 1 — 동행복권 게임 안내 https://www.dhlottery.co.kr/inslt/isnt/tlGmInfo"
+  ],
+  "slug": "2026-10-28_1200_lottery-first-prize-fixed-spots",
+  "late": false,
+  "video_id": "flJFPl0nVNc",
+  "url": "https://youtube.com/shorts/flJFPl0nVNc",
+  "privacy": "private",
+  "scheduled_for": "2026-10-28T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae14457b24fed5fb49254ba",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-28T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-28_1200_lottery-first-prize-fixed-spots/video.mp4"
+  },
+  "seconds": 1191
  }
 ]
