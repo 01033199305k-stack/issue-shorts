@@ -1,79 +1,121 @@
 {
- "detected_at": "2026-10-28T22:30+09:00",
+ "detected_at": "2026-10-29T08:11+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "진성준 국방위원장, 미국 비자 거부…\"한미동맹 신뢰 훼손\"",
-   "url": "https://n.news.naver.com/article/079/0004204101",
+   "title": "유시민 “李, 국민 신임 못받아... 尹과 똑같이 한다”",
+   "url": "https://n.news.naver.com/article/023/0004006477",
+   "press": "조선일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "헤럴드경제",
+     "title": "유시민, 李대통령에 “윤석열 자기 집 다 해체…똑같이 한다” 또 정면비판",
+     "url": "https://n.news.naver.com/article/016/0002715776"
+    },
+    {
+     "press": "문화일보",
+     "title": "이 대통령 또 공격 유시민 “尹과 똑같이 한다…자기 집 다 해체”",
+     "url": "https://n.news.naver.com/article/021/0002828591"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "올림픽공원 투표지 검증 종료…국힘 의원들 이송 저지 농성(종합)",
+   "url": "https://n.news.naver.com/article/001/0016407390",
+   "press": "연합뉴스",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "MBC",
+     "title": "투표지 공개검증 종료‥국힘 '이송 저지' 농성",
+     "url": "https://n.news.naver.com/article/214/0001532074"
+    },
+    {
+     "press": "매일경제",
+     "title": "올림픽공원 투표지 검증 끝나자…국힘 측 이송 막고 ‘밤샘 농성’ 돌입",
+     "url": "https://n.news.naver.com/article/009/0005755634"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 검증 마친 6·3 지선 송파 투표함 반출…시위대 집결 속 경찰 통제",
+   "url": "https://n.news.naver.com/article/022/0004170692",
+   "press": "세계일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "유시민 \"이 대통령, 계속 자신을 고립시켜…윤석열처럼 자기 집 해체\"",
+   "url": "https://n.news.naver.com/article/055/0001398923",
+   "press": "SBS",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "헤럴드경제",
+     "title": "유시민, 李대통령에 “윤석열 자기 집 다 해체…똑같이 한다” 또 정면비판",
+     "url": "https://n.news.naver.com/article/016/0002715776"
+    },
+    {
+     "press": "한겨레",
+     "title": "유시민, 이 대통령 향해 “윤석열처럼 자기 집 해체하고 있다”",
+     "url": "https://n.news.naver.com/article/028/0002829682"
+    },
+    {
+     "press": "TV조선",
+     "title": "유시민 \"李, 윤석열처럼 자기 집 다 해체…임기 못 채울 수도\"",
+     "url": "https://n.news.naver.com/article/448/0000647616"
+    },
+    {
+     "press": "문화일보",
+     "title": "이 대통령 또 공격 유시민 “尹과 똑같이 한다…자기 집 다 해체”",
+     "url": "https://n.news.naver.com/article/021/0002828591"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "입 연 경찰 장윤기 父 \"착한 아들, 그런 일 저질렀다니 납득 안 돼\"",
+   "url": "https://n.news.naver.com/article/031/0001070253",
+   "press": "아이뉴스24",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "부산일보",
+     "title": "'여고생 살해범' 장윤기 아버지 \"착한 아들인데… 납득 안 돼\"",
+     "url": "https://n.news.naver.com/article/082/0001404623"
+    },
+    {
+     "press": "MBN",
+     "title": "장윤기 부친 \"착한 아들이 그런 일 저질렀다니…미안합니다\"",
+     "url": "https://n.news.naver.com/article/057/0001975632"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 공개검증 마친 투표지함 6시간 만에 반출…이상없는 투표지",
+   "url": "https://n.news.naver.com/article/079/0004204169",
    "press": "노컷뉴스",
-   "why": "언론사 11곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "한국일보",
-     "title": "정청래 美 비자 발급 '보류' 이어 진성준은 '거부'",
-     "url": "https://n.news.naver.com/article/469/0000962259"
-    },
-    {
-     "press": "국민일보",
-     "title": "민주당 또 美 비자 거부 당해…정청래 이어 진성준도",
-     "url": "https://n.news.naver.com/article/005/0001881536"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "진성준 국방위원장 美 비자 발급 거부…\"강력한 유감\"",
-     "url": "https://n.news.naver.com/article/422/0000920472"
-    },
-    {
-     "press": "중앙일보",
-     "title": "정청래 이어 진성준 국방위원장도 美 비자 거부…“동맹 대접 아냐”",
-     "url": "https://n.news.naver.com/article/025/0003561213"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 올림픽공원 투표지 247만장 검증 파행…참관단, 촬영 불허에 항의",
-   "url": "https://n.news.naver.com/article/654/0000207945",
-   "press": "강원도민일보",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "정청래 이어 진성준도 美비자 발급 거부당해..與 \"강력 유감\"",
-   "url": "https://n.news.naver.com/article/014/0005596086",
-   "press": "파이낸셜뉴스",
-   "why": "언론사 10곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 선관위, 올공 개표소 투표함 일부 반출 시작",
+   "url": "https://n.news.naver.com/article/422/0000920605",
+   "press": "연합뉴스TV",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "한국일보",
-     "title": "정청래 美 비자 발급 '보류' 이어 진성준은 '거부'",
-     "url": "https://n.news.naver.com/article/469/0000962259"
-    },
-    {
-     "press": "국민일보",
-     "title": "민주당 또 美 비자 거부 당해…정청래 이어 진성준도",
-     "url": "https://n.news.naver.com/article/005/0001881536"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "진성준 국방위원장 美 비자 발급 거부…\"강력한 유감\"",
-     "url": "https://n.news.naver.com/article/422/0000920472"
-    },
-    {
-     "press": "중앙일보",
-     "title": "정청래 이어 진성준 국방위원장도 美 비자 거부…“동맹 대접 아냐”",
-     "url": "https://n.news.naver.com/article/025/0003561213"
+     "press": "프레시안",
+     "title": "[속보] 올림픽공원 투표함 반출 시작…검증 후 반출까지 6시간가량 지체",
+     "url": "https://n.news.naver.com/article/002/0002463221"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]3호선 원당역서 20대 여성 역무원 흉기 피습…가해자는 동료",
-   "url": "https://n.news.naver.com/article/021/0002828516",
-   "press": "문화일보",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
