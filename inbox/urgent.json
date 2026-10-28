@@ -1,21 +1,51 @@
 {
- "detected_at": "2026-10-28T09:11+09:00",
+ "detected_at": "2026-10-28T15:12+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] ‘5·18 북한군 개입설’ 보수논객 지만원 구속",
-   "url": "https://n.news.naver.com/article/081/0003693062",
-   "press": "서울신문",
+   "title": "이 대통령 “짜장면 좋다는 건 짬뽕 폄훼···대통령 욕하는 게 국민스포츠이던 그때가 떠오른다”",
+   "url": "https://n.news.naver.com/article/032/0003478991",
+   "press": "경향신문",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "한국일보",
+     "title": "이 대통령, '장관 책임 전가' 논란에 \"'짜장면 좋다는 건 짬뽕 폄훼' 시대 도래\"",
+     "url": "https://n.news.naver.com/article/469/0000962103"
+    },
+    {
+     "press": "kbc광주방송",
+     "title": "李대통령 \"짜장면 좋다는 건 짬뽕 폄훼라더니\"…농지조사 책임 전가 비판 반박",
+     "url": "https://n.news.naver.com/article/660/0000120081"
+    },
+    {
+     "press": "TV조선",
+     "title": "李 \"대통령 욕하는 게 국민스포츠이던 그때가 떠올라\"…잇따라 언론 직격",
+     "url": "https://n.news.naver.com/article/448/0000647442"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 80대 운전자 SUV, 택시 충돌 후 어린이집 돌진…등원 시간대 ‘아찔’",
+   "url": "https://n.news.naver.com/article/087/0001226850",
+   "press": "강원일보",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] SK하이닉스, 3분기 영업익 83조원…100조원 환원 추진",
-   "url": "https://n.news.naver.com/article/374/0000540165",
-   "press": "SBS Biz",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "[속보] 정부, 엘리엇 ISDS 환송중재 '패소' 취소소송 제기 안 해",
+   "url": "https://n.news.naver.com/article/015/0005347500",
+   "press": "한국경제",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "연합뉴스TV",
+     "title": "[속보] 정부, 엘리엇 국제투자분쟁 최종 패소…배상 확정",
+     "url": "https://n.news.naver.com/article/422/0000920368"
+    }
+   ]
   }
  ]
 }
