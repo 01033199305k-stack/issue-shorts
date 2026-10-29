@@ -4655,5 +4655,60 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-29_1200_motel-apology-letters-fake-prosecutor/video.mp4"
   },
   "seconds": 1167
+ },
+ {
+  "key": "2026-10-29-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-29T18:00:00+09:00",
+  "started": "2026-10-29T15:20:12.581995+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/caffeine-coffee-cup-coffee-cup-1866758/",
+   "https://pixabay.com/videos/id-3593/",
+   "https://pixabay.com/videos/id-47245/",
+   "https://pixabay.com/videos/id-9728/",
+   "https://pixabay.com/photos/kimchi-spicy-kimchi-side-dish-709607/",
+   "https://pixabay.com/videos/id-27230/"
+  ],
+  "cc_clips": [],
+  "duration": 25.21,
+  "matches": [
+   1.0,
+   1.0,
+   0.96,
+   0.96,
+   0.97,
+   1.0,
+   0.98,
+   0.98,
+   0.97,
+   1.0
+  ],
+  "sfx": 9,
+  "illustrations": 8,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "공항에서 김이라 했더니 김치 찍혀 나온 커피 #shorts",
+  "source_post": "https://www.koreaherald.com/article/10909962",
+  "facts_used": [
+   "10월 11일 홍콩 국제공항 출국장 스타벅스에서 한국인 김씨가 서울행 비행기 타기 전 성 '김(Kim)'으로 주문했는데 컵에 '김치(Kimchi)'가 찍힘 — 코리아헤럴드 https://www.koreaherald.com/article/10909962 , SBS https://news.sbs.co.kr/english/article.do?news_id=N1008814400 , 매일신문 https://www.imaeil.com/page/view/2026102512371099338",
+   "김씨는 직원 두 명이 모니터를 보며 웃고 있었다고 말함 — 매일신문 https://www.imaeil.com/page/view/2026102512371099338 , 아시아뉴스네트워크(코리아헤럴드) https://asianews.network/?p=309795",
+   "매장은 실수라고 해명: 직원이 '김'을 입력하다 목록을 넘기던 중 실수로 '김치'를 선택했다는 설명 — 코리아헤럴드 https://www.koreaherald.com/article/10909962 , SBS https://news.sbs.co.kr/english/article.do?news_id=N1008814400 , 매일신문(실수 해명) https://www.imaeil.com/page/view/2026102512371099338",
+   "스타벅스 홍콩은 언론 문의 뒤(코리아헤럴드 문의 6일 뒤, 10월 20일) 서면 사과, 심적 고통에 사과하고 직원 교육 강화하겠다고 밝힘 — 코리아헤럴드 https://www.koreaherald.com/article/10909962 , 매일신문 https://www.imaeil.com/page/view/2026102512371099338"
+  ],
+  "slug": "2026-10-29_1800_kim-kimchi-starbucks-cup",
+  "late": false,
+  "video_id": "584QHSD0ZL4",
+  "url": "https://youtube.com/shorts/584QHSD0ZL4",
+  "privacy": "private",
+  "scheduled_for": "2026-10-29T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae2e9d0b8abb6631d10caf7",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-29T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-29_1800_kim-kimchi-starbucks-cup/video.mp4"
+  },
+  "seconds": 1078
  }
 ]
