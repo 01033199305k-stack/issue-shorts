@@ -1,119 +1,105 @@
 {
- "detected_at": "2026-10-29T08:11+09:00",
+ "detected_at": "2026-10-29T09:12+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "유시민 “李, 국민 신임 못받아... 尹과 똑같이 한다”",
-   "url": "https://n.news.naver.com/article/023/0004006477",
-   "press": "조선일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "헤럴드경제",
-     "title": "유시민, 李대통령에 “윤석열 자기 집 다 해체…똑같이 한다” 또 정면비판",
-     "url": "https://n.news.naver.com/article/016/0002715776"
-    },
-    {
-     "press": "문화일보",
-     "title": "이 대통령 또 공격 유시민 “尹과 똑같이 한다…자기 집 다 해체”",
-     "url": "https://n.news.naver.com/article/021/0002828591"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "올림픽공원 투표지 검증 종료…국힘 의원들 이송 저지 농성(종합)",
-   "url": "https://n.news.naver.com/article/001/0016407390",
+   "title": "[속보] 이상있는 투표지 국과수 등으로…무결점 투표지는 선관위 보관",
+   "url": "https://n.news.naver.com/article/001/0016407520",
    "press": "연합뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "MBC",
-     "title": "투표지 공개검증 종료‥국힘 '이송 저지' 농성",
-     "url": "https://n.news.naver.com/article/214/0001532074"
-    },
-    {
-     "press": "매일경제",
-     "title": "올림픽공원 투표지 검증 끝나자…국힘 측 이송 막고 ‘밤샘 농성’ 돌입",
-     "url": "https://n.news.naver.com/article/009/0005755634"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 검증 마친 6·3 지선 송파 투표함 반출…시위대 집결 속 경찰 통제",
-   "url": "https://n.news.naver.com/article/022/0004170692",
-   "press": "세계일보",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "유시민 \"이 대통령, 계속 자신을 고립시켜…윤석열처럼 자기 집 해체\"",
-   "url": "https://n.news.naver.com/article/055/0001398923",
-   "press": "SBS",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "title": "유시민 “정권 교체 가능성 높아지면 언론, 李대통령 본격 공격”",
+   "url": "https://n.news.naver.com/article/081/0003693680",
+   "press": "서울신문",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
+    {
+     "press": "문화일보",
+     "title": "이 대통령 또 공격 유시민 “尹과 똑같이 한다…자기 집 다 해체”",
+     "url": "https://n.news.naver.com/article/021/0002828591"
+    },
+    {
+     "press": "미디어오늘",
+     "title": "유시민 \"언론, 정권 교체 높아지면 본격적으로 李대통령 공격\"",
+     "url": "https://n.news.naver.com/article/006/0000138459"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "李대통령 \"외국인 노동자, 국가경제 크게 도움 안 돼\"[팩트체크]",
+   "url": "https://n.news.naver.com/article/079/0004204149",
+   "press": "노컷뉴스",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "YTN",
+     "title": "이 대통령 '외국인 노동자·다문화' 발언 논란...진보진영 반발",
+     "url": "https://n.news.naver.com/article/052/0002425243"
+    },
+    {
+     "press": "국민일보",
+     "title": "李 “크게 도움 안 된다”…외국인 노동자, 농촌 일손 64%",
+     "url": "https://n.news.naver.com/article/005/0001881566"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "유시민 \"李대통령, 윤석열과 똑같이 해…김민석은 진영 박살 앞장\"",
+   "url": "https://n.news.naver.com/article/088/0001037088",
+   "press": "매일신문",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "뉴스1",
+     "title": "유시민, 尹 빗대 \"李대통령, 고립의 길로…김민석, 진영 박살 앞장\"",
+     "url": "https://n.news.naver.com/article/421/0009256547"
+    },
+    {
+     "press": "kbc광주방송",
+     "title": "유시민 \"李대통령, 윤석열처럼 자기 집 해체...임기 못 채울 수도\"",
+     "url": "https://n.news.naver.com/article/660/0000120152"
+    },
+    {
+     "press": "문화일보",
+     "title": "이 대통령 또 공격 유시민 “尹과 똑같이 한다…자기 집 다 해체”",
+     "url": "https://n.news.naver.com/article/021/0002828591"
+    },
     {
      "press": "헤럴드경제",
      "title": "유시민, 李대통령에 “윤석열 자기 집 다 해체…똑같이 한다” 또 정면비판",
      "url": "https://n.news.naver.com/article/016/0002715776"
-    },
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 당정 “퇴직금 사외적립 단계적 의무화…기금형 퇴직연금 활성화”",
+   "url": "https://n.news.naver.com/article/011/0004676386",
+   "press": "서울경제",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "유시민 \"이재명, 윤석열과 똑같다…극단적 경우 임기 못 채우기도\" 또 작심 비판",
+   "url": "https://n.news.naver.com/article/586/0000141095",
+   "press": "시사저널",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
     {
-     "press": "한겨레",
-     "title": "유시민, 이 대통령 향해 “윤석열처럼 자기 집 해체하고 있다”",
-     "url": "https://n.news.naver.com/article/028/0002829682"
+     "press": "kbc광주방송",
+     "title": "유시민 \"李대통령, 윤석열처럼 자기 집 해체...임기 못 채울 수도\"",
+     "url": "https://n.news.naver.com/article/660/0000120152"
     },
     {
      "press": "TV조선",
      "title": "유시민 \"李, 윤석열처럼 자기 집 다 해체…임기 못 채울 수도\"",
      "url": "https://n.news.naver.com/article/448/0000647616"
-    },
-    {
-     "press": "문화일보",
-     "title": "이 대통령 또 공격 유시민 “尹과 똑같이 한다…자기 집 다 해체”",
-     "url": "https://n.news.naver.com/article/021/0002828591"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "입 연 경찰 장윤기 父 \"착한 아들, 그런 일 저질렀다니 납득 안 돼\"",
-   "url": "https://n.news.naver.com/article/031/0001070253",
-   "press": "아이뉴스24",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "부산일보",
-     "title": "'여고생 살해범' 장윤기 아버지 \"착한 아들인데… 납득 안 돼\"",
-     "url": "https://n.news.naver.com/article/082/0001404623"
-    },
-    {
-     "press": "MBN",
-     "title": "장윤기 부친 \"착한 아들이 그런 일 저질렀다니…미안합니다\"",
-     "url": "https://n.news.naver.com/article/057/0001975632"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 공개검증 마친 투표지함 6시간 만에 반출…이상없는 투표지",
-   "url": "https://n.news.naver.com/article/079/0004204169",
-   "press": "노컷뉴스",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 선관위, 올공 개표소 투표함 일부 반출 시작",
-   "url": "https://n.news.naver.com/article/422/0000920605",
-   "press": "연합뉴스TV",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "프레시안",
-     "title": "[속보] 올림픽공원 투표함 반출 시작…검증 후 반출까지 6시간가량 지체",
-     "url": "https://n.news.naver.com/article/002/0002463221"
     }
    ]
   }
