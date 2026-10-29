@@ -4598,5 +4598,62 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-29_0700_funeral-cost-uncle-condolence-money/video.mp4"
   },
   "seconds": 1424
+ },
+ {
+  "key": "2026-10-29-1200",
+  "slot": "1200",
+  "publish_at": "2026-10-29T12:00:00+09:00",
+  "started": "2026-10-29T09:19:26.467218+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-135141/",
+   "https://pixabay.com/photos/phone-smartphone-screen-display-4846515/",
+   "https://pixabay.com/videos/id-11018/",
+   "https://cdnweb01.wikitree.co.kr/webdata/editor/202610/28/img_20261028114513_51d176d5.webp",
+   "https://pixabay.com/photos/notebook-notes-pen-writing-diary-1840276/"
+  ],
+  "cc_clips": [],
+  "duration": 26.45,
+  "matches": [
+   0.93,
+   0.94,
+   0.94,
+   0.94,
+   0.92,
+   1.0,
+   0.97,
+   0.97,
+   1.0,
+   0.95
+  ],
+  "sfx": 8,
+  "illustrations": 6,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [
+   "추가 / 대출은 (55)"
+  ],
+  "title": "연차 내고 반성문 45장 썼다는 30대 #shorts",
+  "source_post": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008818586",
+  "facts_used": [
+   "30대 A씨가 공소청 검사라고 소개한 사람에게 '명의 계좌가 범죄에 쓰였고 구속영장이 발부됐다'는 전화를 받고 회사에 연차를 낸 뒤 서울 강동구 모텔로 감 — 세계일보 2026-10-28 https://www.segye.com/newsView/20261028505753 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008818586 , 위키트리 https://www.wikitree.co.kr/articles/1169818",
+   "모텔에서 사흘(약 50시간) 머물며 휴대전화 메모장에 A4 약 45장 분량 반성문 작성 — SBS, 세계일보, 위키트리, 파이낸셜뉴스 https://www.fnnews.com/news/202610281130177596",
+   "조사 명목으로 대출을 받아 3100만 원 송금, 이미 출금돼 지급정지 불가 — 시사저널 https://www.sisajournal.com/news/articleView.html?idxno=392051 , 인천일보 https://www.incheonilbo.com/news/articleView.html?idxno=1335301 , SBS",
+   "A씨가 경찰 연락도 보이스피싱으로 의심하자 경찰이 무전 소리를 들려주며 실제 경찰관임을 알렸고 A씨가 경계를 풂 — 인천일보, 파이낸셜뉴스",
+   "경기북부경찰청 광역예방순찰대가 22일 구조, 금융기관에 연락해 4200만 원 추가 대출 지급을 막음 — 위키트리, 경향신문 https://www.khan.co.kr/article/202610281126001/ , 파이낸셜뉴스"
+  ],
+  "slug": "2026-10-29_1200_motel-apology-letters-fake-prosecutor",
+  "late": false,
+  "video_id": "54MKljG6ygA",
+  "url": "https://youtube.com/shorts/54MKljG6ygA",
+  "privacy": "private",
+  "scheduled_for": "2026-10-29T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae2959b7a72c9efac0abe3c",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-29T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-29_1200_motel-apology-letters-fake-prosecutor/video.mp4"
+  },
+  "seconds": 1167
  }
 ]
