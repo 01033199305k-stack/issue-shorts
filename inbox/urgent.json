@@ -1,56 +1,101 @@
 {
- "detected_at": "2026-10-29T11:50+09:00",
+ "detected_at": "2026-10-29T15:13+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 한수원, 체코 원전 시공계약 협상 최종 결렬",
-   "url": "https://n.news.naver.com/article/277/0005835039",
-   "press": "아시아경제",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "특검, 윤석열 ‘내란 우두머리’ 항소심서 사형 구형…“헌정질서 파괴한 친위 쿠데타”",
+   "url": "https://n.news.naver.com/article/056/0012283319",
+   "press": "KBS",
+   "why": "언론사 13곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "서울경제",
-     "title": "‘26조’ 체코 원전 시공협상 결렬…한수원, 새 시공사 선정 추진",
-     "url": "https://n.news.naver.com/article/011/0004676404"
+     "press": "채널A",
+     "title": "특검, ‘내란 우두머리 혐의’ 윤석열 2심도 사형 구형",
+     "url": "https://n.news.naver.com/article/449/0000365685"
     },
     {
-     "press": "파이낸셜뉴스",
-     "title": "[속보]한수원, 체코 두코바니 원전 시공계약 협상 최종 결렬",
-     "url": "https://n.news.naver.com/article/014/0005596234"
+     "press": "한국경제",
+     "title": "\"사형 선고 주저할 이유 없어\"…특검, 尹에 '극형' 구형",
+     "url": "https://n.news.naver.com/article/015/0005347965"
+    },
+    {
+     "press": "YTN",
+     "title": "[속보] 특검, '내란 우두머리 혐의' 윤석열 2심 사형 구형",
+     "url": "https://n.news.naver.com/article/052/0002425462"
+    },
+    {
+     "press": "조선일보",
+     "title": "특검, 尹 내란 2심도 사형 구형...“단죄만이 제2의 尹 예방”",
+     "url": "https://n.news.naver.com/article/023/0004006644"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 김포 등 서울 인접 경기권 6곳에 신규택지…7만6700호 공급",
-   "url": "https://n.news.naver.com/article/022/0004170738",
-   "press": "세계일보",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "[폴폴뉴스]李대통령 지지율 8주만 '골든크로스'…긍정평가 46% vs 부정평가 44%\"",
+   "url": "https://n.news.naver.com/article/277/0005835241",
+   "press": "아시아경제",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "디지털타임스",
+     "title": "“李대통령 잘함 46% 못함 44% 골든크로스”…조희대 탄핵 반대 45% 강세 [NBS]",
+     "url": "https://n.news.naver.com/article/029/0003056038"
+    },
+    {
+     "press": "머니투데이",
+     "title": "李대통령 지지율 46%, 다시 '골든크로스'…조희대 탄핵 '찬성' 34%",
+     "url": "https://n.news.naver.com/article/008/0005433554"
+    }
+   ]
   },
   {
    "kind": "news",
-   "title": "[속보] 제주에서 옛 연인 스토킹·보복살해...61세 강성은 신상공개",
-   "url": "https://n.news.naver.com/article/031/0001070376",
-   "press": "아이뉴스24",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "“용서 못할 헌정 파괴”…윤석열 2심에서도 사형 구형",
+   "url": "https://n.news.naver.com/article/005/0001881679",
+   "press": "국민일보",
+   "why": "언론사 10곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "채널A",
+     "title": "특검, ‘내란 우두머리 혐의’ 윤석열 2심도 사형 구형",
+     "url": "https://n.news.naver.com/article/449/0000365685"
+    },
+    {
+     "press": "YTN",
+     "title": "[속보] 특검, '내란 우두머리 혐의' 윤석열 2심 사형 구형",
+     "url": "https://n.news.naver.com/article/052/0002425462"
+    },
+    {
+     "press": "동아일보",
+     "title": "특검, 윤석열 ‘내란 우두머리’ 2심도 사형 구형",
+     "url": "https://n.news.naver.com/article/020/0003758645"
+    },
+    {
+     "press": "연합뉴스",
+     "title": "'내란우두머리' 尹 2심에서도 사형 구형…\"국민 배신한 반역\"(종합)",
+     "url": "https://n.news.naver.com/article/001/0016408730"
+    }
+   ]
   },
   {
    "kind": "news",
-   "title": "[속보]“인사 안해?” 구리 고급빌라서 40대가 60대 관리소장 폭행",
-   "url": "https://n.news.naver.com/article/021/0002828761",
-   "press": "문화일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 수도권 신규택지 후보지 7.7만호 추가 발표",
-   "url": "https://n.news.naver.com/article/422/0000920673",
-   "press": "연합뉴스TV",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "이 대통령 지지율 46%… '행정기관 세종 이전' 찬성 55%·반대 32%",
+   "url": "https://n.news.naver.com/article/656/0000190936",
+   "press": "대전일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "머니투데이",
+     "title": "李대통령 지지율 46%, 다시 '골든크로스'…조희대 탄핵 '찬성' 34%",
+     "url": "https://n.news.naver.com/article/008/0005433554"
+    },
+    {
+     "press": "서울경제",
+     "title": "李대통령 지지율 2%P 오른 46%…조희대 탄핵은 ‘반대’ 높아[NBS]",
+     "url": "https://n.news.naver.com/article/011/0004676526"
+    }
+   ]
   }
  ]
 }
