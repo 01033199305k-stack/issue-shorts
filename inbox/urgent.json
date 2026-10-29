@@ -1,99 +1,102 @@
 {
- "detected_at": "2026-10-29T15:13+09:00",
+ "detected_at": "2026-10-29T18:51+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "특검, 윤석열 ‘내란 우두머리’ 항소심서 사형 구형…“헌정질서 파괴한 친위 쿠데타”",
-   "url": "https://n.news.naver.com/article/056/0012283319",
-   "press": "KBS",
-   "why": "언론사 13곳이 댓글 많은 기사 1위로",
+   "title": "[속보] '원당역 칼부림' 30대 남성 \"피해자가 담배 냄새 지적해\"",
+   "url": "https://n.news.naver.com/article/031/0001070587",
+   "press": "아이뉴스24",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "주진우 \"李 가족, 황제 골프 후 헬기 이동\"…추가 의혹 제기",
+   "url": "https://n.news.naver.com/article/015/0005348067",
+   "press": "한국경제",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "채널A",
-     "title": "특검, ‘내란 우두머리 혐의’ 윤석열 2심도 사형 구형",
-     "url": "https://n.news.naver.com/article/449/0000365685"
+     "press": "연합뉴스TV",
+     "title": "주진우 \"이대통령 부부·장남 내외, 골프 마치고 헬기로 숙소 이동\"",
+     "url": "https://n.news.naver.com/article/422/0000920826"
     },
     {
-     "press": "한국경제",
-     "title": "\"사형 선고 주저할 이유 없어\"…특검, 尹에 '극형' 구형",
-     "url": "https://n.news.naver.com/article/015/0005347965"
+     "press": "시사저널",
+     "title": "주진우, 李대통령 부부 '황제 골프' 의혹 경찰 고발",
+     "url": "https://n.news.naver.com/article/586/0000141121"
     },
     {
-     "press": "YTN",
-     "title": "[속보] 특검, '내란 우두머리 혐의' 윤석열 2심 사형 구형",
-     "url": "https://n.news.naver.com/article/052/0002425462"
-    },
-    {
-     "press": "조선일보",
-     "title": "특검, 尹 내란 2심도 사형 구형...“단죄만이 제2의 尹 예방”",
-     "url": "https://n.news.naver.com/article/023/0004006644"
+     "press": "한국일보",
+     "title": "'황제 골프 의혹' 고발당한 주진우, 이 대통령 부부 맞고발",
+     "url": "https://n.news.naver.com/article/469/0000962421"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[폴폴뉴스]李대통령 지지율 8주만 '골든크로스'…긍정평가 46% vs 부정평가 44%\"",
-   "url": "https://n.news.naver.com/article/277/0005835241",
-   "press": "아시아경제",
+   "title": "[속보]“귀신 소리, 동물 울음소리 등 기분 나쁜 소리 들려”⋯北, 김여정이 공언한대로 대남 확성기 시험 방송 시작",
+   "url": "https://n.news.naver.com/article/087/0001227238",
+   "press": "강원일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "천하람 \"한남동 관저에 李 차남 거주‥'아빠 찬스' 납득 못해\"",
+   "url": "https://n.news.naver.com/article/214/0001532241",
+   "press": "MBC",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "뉴시스",
+     "title": "천하람 \"李대통령 차남 한남동 관저에 거주…아빠찬스, 청년들 납득하겠나\"",
+     "url": "https://n.news.naver.com/article/003/0014288041"
+    },
+    {
+     "press": "매일경제",
+     "title": "천하람 “李 대통령 차남, 한남동 관저 거주…청년들 주거 현실과 대비돼”",
+     "url": "https://n.news.naver.com/article/009/0005755887"
+    },
+    {
+     "press": "CJB청주방송",
+     "title": "[속보] 천하람 \"李대통령 차남 한남동 관저에 거주…아빠찬스, 청년들 납득하겠나\"",
+     "url": "https://n.news.naver.com/article/655/0000033366"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 오세훈 선두, 추격자 된 한동훈…강훈식 넣자 김민석 균열, 추미애 빼자 조국 약진 [천지-KIR]",
+   "url": "https://n.news.naver.com/article/029/0003056125",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 사형 구형에 '뿔'난 尹변호인 \"윤석열 사형? 대한민국 사법 무너지고 있다\"",
+   "url": "https://n.news.naver.com/article/002/0002463394",
+   "press": "프레시안",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "주진우, ‘황제골프’ 의혹 이재명 부부 고발…“맞고발로 진실 밝힐 것”",
+   "url": "https://n.news.naver.com/article/666/0000129710",
+   "press": "경기일보",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "디지털타임스",
-     "title": "“李대통령 잘함 46% 못함 44% 골든크로스”…조희대 탄핵 반대 45% 강세 [NBS]",
-     "url": "https://n.news.naver.com/article/029/0003056038"
+     "press": "시사저널",
+     "title": "주진우, 李대통령 부부 '황제 골프' 의혹 경찰 고발",
+     "url": "https://n.news.naver.com/article/586/0000141121"
     },
     {
-     "press": "머니투데이",
-     "title": "李대통령 지지율 46%, 다시 '골든크로스'…조희대 탄핵 '찬성' 34%",
-     "url": "https://n.news.naver.com/article/008/0005433554"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "“용서 못할 헌정 파괴”…윤석열 2심에서도 사형 구형",
-   "url": "https://n.news.naver.com/article/005/0001881679",
-   "press": "국민일보",
-   "why": "언론사 10곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "채널A",
-     "title": "특검, ‘내란 우두머리 혐의’ 윤석열 2심도 사형 구형",
-     "url": "https://n.news.naver.com/article/449/0000365685"
-    },
-    {
-     "press": "YTN",
-     "title": "[속보] 특검, '내란 우두머리 혐의' 윤석열 2심 사형 구형",
-     "url": "https://n.news.naver.com/article/052/0002425462"
-    },
-    {
-     "press": "동아일보",
-     "title": "특검, 윤석열 ‘내란 우두머리’ 2심도 사형 구형",
-     "url": "https://n.news.naver.com/article/020/0003758645"
-    },
-    {
-     "press": "연합뉴스",
-     "title": "'내란우두머리' 尹 2심에서도 사형 구형…\"국민 배신한 반역\"(종합)",
-     "url": "https://n.news.naver.com/article/001/0016408730"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "이 대통령 지지율 46%… '행정기관 세종 이전' 찬성 55%·반대 32%",
-   "url": "https://n.news.naver.com/article/656/0000190936",
-   "press": "대전일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "머니투데이",
-     "title": "李대통령 지지율 46%, 다시 '골든크로스'…조희대 탄핵 '찬성' 34%",
-     "url": "https://n.news.naver.com/article/008/0005433554"
-    },
-    {
-     "press": "서울경제",
-     "title": "李대통령 지지율 2%P 오른 46%…조희대 탄핵은 ‘반대’ 높아[NBS]",
-     "url": "https://n.news.naver.com/article/011/0004676526"
+     "press": "한국일보",
+     "title": "'황제 골프 의혹' 고발당한 주진우, 이 대통령 부부 맞고발",
+     "url": "https://n.news.naver.com/article/469/0000962421"
     }
    ]
   }
