@@ -1,36 +1,17 @@
 {
- "detected_at": "2026-10-31T00:19+09:00",
+ "detected_at": "2026-10-31T08:45+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 李대통령 지지율 39%…민주당 35%·국힘 30%[한국갤럽]",
-   "url": "https://n.news.naver.com/article/022/0004171073",
-   "press": "세계일보",
+   "title": "[속보]인텔 폭락에 나스닥 2.9% 급락…AI 투자 불안 확산",
+   "url": "https://n.news.naver.com/article/018/0006400572",
+   "press": "이데일리",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "SBS",
-     "title": "이 대통령 지지율 39%…민주 35%·국힘 30% 오차 범위 내 [한국갤럽]",
-     "url": "https://n.news.naver.com/article/055/0001399338"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "주진우 \"황제골프 후 헬기\" vs 박지원 \"대통령 부부가 택시타냐\"",
-   "url": "https://n.news.naver.com/article/448/0000647931",
-   "press": "TV조선",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "JTBC",
-     "title": "박지원 \"대통령이 그럼 택시타냐\"…주진우 \"거짓말하려니 스텝 꼬였나\"",
-     "url": "https://n.news.naver.com/article/437/0000518270"
-    },
-    {
-     "press": "뉴스1",
-     "title": "주진우 \"황제골프 조사해야\" vs 박지원 \"대통령 부부가 택시타야 하나\"",
-     "url": "https://n.news.naver.com/article/421/0009259826"
+     "press": "머니투데이",
+     "title": "인텔 실적 쇼크 '28% 폭락'...AI 투자 불안 반도체지수 7%↓[뉴욕마감]",
+     "url": "https://n.news.naver.com/article/008/0005434554"
     }
    ]
   }
