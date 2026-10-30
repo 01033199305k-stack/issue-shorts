@@ -1,125 +1,36 @@
 {
- "detected_at": "2026-10-30T17:33+09:00",
+ "detected_at": "2026-10-31T00:19+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "[기갤] 아주대 소아응급센터장 사표 제출",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=474268&_dcbest=1&page=1",
-   "board": "디시 실베",
-   "why": "커뮤니티 2곳 동시 화제 + 기사화(SBS Biz)",
-   "news": [
-    {
-     "url": "https://n.news.naver.com/article/374/0000540823",
-     "headline": "아주대 소아응급센터, 의사 이어 센터장도 사표"
-    }
-   ]
-  },
-  {
-   "kind": "community",
-   "title": "'계엄 출동'·'햄버거 회동' 전직 군인 8명 전원 무죄",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1044067",
-   "board": "보배드림 베스트",
-   "why": "커뮤니티 2곳 동시 화제 + 기사화(연합뉴스)",
-   "news": [
-    {
-     "url": "https://n.news.naver.com/article/001/0016411623",
-     "headline": "'계엄 출동'·'햄버거 회동' 전직 군인 8명 전원 무죄(종합)"
-    }
-   ]
-  },
-  {
    "kind": "news",
-   "title": "'탱크데이' 불매 여파?…광주 스타벅스 대형매장 첫 폐점",
-   "url": "https://n.news.naver.com/article/052/0002426075",
-   "press": "YTN",
-   "why": "언론사 7곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "국민일보",
-     "title": "스타벅스, 불매운동 이후 광주 대형매장 첫 폐점",
-     "url": "https://n.news.naver.com/article/005/0001881942"
-    },
-    {
-     "press": "동아일보",
-     "title": "‘탱크데이’ 불매 여파?…스벅 광주 대형매장 문닫았다",
-     "url": "https://n.news.naver.com/article/020/0003758930"
-    },
-    {
-     "press": "SBS",
-     "title": "스타벅스, '탱크데이' 불매운동 후 광주 대형 매장 첫 폐점",
-     "url": "https://n.news.naver.com/article/055/0001399356"
-    },
-    {
-     "press": "MBN",
-     "title": "스타벅스 '탱크데이' 불매 후…광주 대형매장 문 닫았다",
-     "url": "https://n.news.naver.com/article/057/0001975944"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] '김건희 명품백 선물' 김기현 의원 1심 무죄",
-   "url": "https://n.news.naver.com/article/079/0004204860",
-   "press": "노컷뉴스",
-   "why": "[속보] 기사 + 언론사 7곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "한겨레",
-     "title": "‘김건희 로저비비에 선물’ 김기현 1심 무죄…아내는 벌금 500만원",
-     "url": "https://n.news.naver.com/article/028/0002829987"
-    },
-    {
-     "press": "아시아경제",
-     "title": "[속보]'김건희 명품 선물' 김기현 의원 1심 무죄",
-     "url": "https://n.news.naver.com/article/277/0005835938"
-    },
-    {
-     "press": "MBC",
-     "title": "'김건희에 명품백 선물' 김기현 무죄‥배우자는 벌금 500만 원",
-     "url": "https://n.news.naver.com/article/214/0001532509"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "'김건희에게 명품 선물' 김기현 1심 무죄…부인은 벌금 500만 원",
-     "url": "https://n.news.naver.com/article/422/0000921236"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 특검, '오세훈 무죄' 항소심에 상고...\"핵심증거 배척\"",
-   "url": "https://n.news.naver.com/article/014/0005596988",
-   "press": "파이낸셜뉴스",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] '박원순 피해자 신상공개·후배 성추행' 정철승 2심서 법정구속",
-   "url": "https://n.news.naver.com/article/082/0001404875",
-   "press": "부산일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 北, 자폭드론 날려 ‘남측 GP’ 쾅…김정은, 주먹 흔들며 “힘이 곧 평화”",
-   "url": "https://n.news.naver.com/article/029/0003056243",
-   "press": "디지털타임스",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보]박지원“유시민, DJ에 퍼붓던 저주 왜 李대통령에 반복”",
-   "url": "https://n.news.naver.com/article/021/0002829178",
-   "press": "문화일보",
+   "title": "[속보] 李대통령 지지율 39%…민주당 35%·국힘 30%[한국갤럽]",
+   "url": "https://n.news.naver.com/article/022/0004171073",
+   "press": "세계일보",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "한국경제TV",
-     "title": "박지원 \"유시민, DJ에 이어 李에 반복…돌아와 '장한오'와 싸우자\"",
-     "url": "https://n.news.naver.com/article/215/0001271123"
+     "press": "SBS",
+     "title": "이 대통령 지지율 39%…민주 35%·국힘 30% 오차 범위 내 [한국갤럽]",
+     "url": "https://n.news.naver.com/article/055/0001399338"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "주진우 \"황제골프 후 헬기\" vs 박지원 \"대통령 부부가 택시타냐\"",
+   "url": "https://n.news.naver.com/article/448/0000647931",
+   "press": "TV조선",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "JTBC",
+     "title": "박지원 \"대통령이 그럼 택시타냐\"…주진우 \"거짓말하려니 스텝 꼬였나\"",
+     "url": "https://n.news.naver.com/article/437/0000518270"
+    },
+    {
+     "press": "뉴스1",
+     "title": "주진우 \"황제골프 조사해야\" vs 박지원 \"대통령 부부가 택시타야 하나\"",
+     "url": "https://n.news.naver.com/article/421/0009259826"
     }
    ]
   }
