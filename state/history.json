@@ -4766,5 +4766,57 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-31_1800_fourth-grader-envelope-for-mom/video.mp4"
   },
   "seconds": 1017
+ },
+ {
+  "key": "2026-11-01-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-01T07:00:00+09:00",
+  "started": "2026-11-01T04:16:41.007407+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-120795/",
+   "https://pixabay.com/videos/id-21118/",
+   "https://pixabay.com/photos/iphone-hand-screen-smartphone-apps-410311/",
+   "https://pixabay.com/photos/candy-lemondrop-lemon-hard-candy-4010679/"
+  ],
+  "cc_clips": [],
+  "duration": 25.36,
+  "matches": [
+   0.92,
+   0.95,
+   0.96,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.91
+  ],
+  "sfx": 8,
+  "illustrations": 6,
+  "cuts": 9,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "16만 명 몰린 밤 듀오링고 탈이 준 사탕 #shorts",
+  "source_post": "https://www.newsis.com/view/NISX20261101_0003849459",
+  "facts_used": [
+   "10월 31일 핼러윈 밤 홍대에서 유명 외국어 학습 앱(듀오링고) 캐릭터 인형 탈을 쓴 남성이 마약류로 의심되는 사탕을 나눠 준다는 신고가 접수돼 경찰이 출동 — 뉴시스 https://www.newsis.com/view/NISX20261101_0003849459 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008824552 , 연합뉴스(경북매일 전재) https://www.kbmaeil.com/article/20261101500016 (2026-11-01)",
+   "SNS에 이 남성에게서 받은 사탕을 먹은 뒤 이상 증세를 느꼈다는 전언이 퍼져 신고로 이어짐 — 뉴시스, 연합뉴스(경북매일)",
+   "경찰 조사 결과 사탕에서 마약류 등이 검출되지 않아 범죄 혐의점이 없었고 오인 신고로 파악됨 — 뉴시스, SBS, 연합뉴스(경북매일)",
+   "핼러윈 밤 홍대·이태원에 최대 16만 명 안팎의 인파가 몰림 — 연합뉴스(경북매일 https://www.kbmaeil.com/article/20261101500016 , 연합뉴스 한민족센터 https://www.koreancenter.or.kr/news/articleView.html?idxno=1432730)"
+  ],
+  "slug": "2026-11-01_0700_hongdae-halloween-candy-costume",
+  "late": false,
+  "video_id": "0HuirHZUqY0",
+  "url": "https://youtube.com/shorts/0HuirHZUqY0",
+  "privacy": "private",
+  "scheduled_for": "2026-10-31T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae642dfab019b90871f0700",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-31T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-01_0700_hongdae-halloween-candy-costume/video.mp4"
+  },
+  "seconds": 1096
  }
 ]
