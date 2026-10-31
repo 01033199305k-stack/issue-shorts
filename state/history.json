@@ -4710,5 +4710,61 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-29_1800_kim-kimchi-starbucks-cup/video.mp4"
   },
   "seconds": 1078
+ },
+ {
+  "key": "2026-10-31-1800",
+  "slot": "1800",
+  "publish_at": "2026-10-31T18:00:00+09:00",
+  "started": "2026-10-31T15:18:10.445204+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/coffee-envelopes-work-desk-notebook-1128136/",
+   "https://pixabay.com/videos/id-27230/",
+   "https://pixabay.com/videos/id-33555/",
+   "https://pixabay.com/videos/id-192724/",
+   "https://pixabay.com/photos/letter-calligraphy-ink-written-447577/",
+   "https://pixabay.com/videos/id-137702/"
+  ],
+  "cc_clips": [],
+  "duration": 24.45,
+  "matches": [
+   0.97,
+   0.98,
+   1.0,
+   1.0,
+   0.98,
+   0.98,
+   1.0,
+   1.0,
+   0.98,
+   1.0
+  ],
+  "sfx": 9,
+  "illustrations": 7,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "커피 쏟은 다음 날 초4 딸이 둔 봉투 #shorts",
+  "source_post": "https://www.munhwa.com/article/11624129",
+  "facts_used": [
+   "A씨가 SNS(스레드)에 '부자재통에 커피를 쏟아서 재료를 다 버려야 하는 일이 있었다'고 글을 올림 — 문화일보 https://www.munhwa.com/article/11624129 , 뉴시스(뉴스통) https://www.newstong.co.kr/view3.aspx?seq=14751684 , 재경일보 https://news.jkn.co.kr/post/1028554 (2026-10-15~16)",
+   "다음 날 초등학교 4학년 딸이 작업 책상에 현금(용돈) 봉투와 편지를 올려둠 — 문화일보('자기 용돈 건넨'), 뉴시스, 재경일보",
+   "편지: '엄마, 똑딱 핀 재료에 커피 쏟아서 다시 사야 하지? 그러니까 (이 돈) 가져', '나 다시 주지 말고 꼭 보태 줬으면 좋겠어' — 문화일보 제목 '마미, 나 다시 주지 마!', 뉴시스, 재경일보",
+   "A씨는 감동했지만 코 묻은 돈을 받아도 되나 고민 — 문화일보, 뉴시스",
+   "고민 끝에 받기로 하고 '딸의 마음을 고맙게 받고 이 돈으로 둘이 데이트하기로 했다' — 문화일보, 뉴시스"
+  ],
+  "slug": "2026-10-31_1800_fourth-grader-envelope-for-mom",
+  "late": false,
+  "video_id": "MWuzgZCRETo",
+  "url": "https://youtube.com/shorts/MWuzgZCRETo",
+  "privacy": "private",
+  "scheduled_for": "2026-10-31T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae58c13406ab8a018a1c08c",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-10-31T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-10-31_1800_fourth-grader-envelope-for-mom/video.mp4"
+  },
+  "seconds": 1017
  }
 ]
