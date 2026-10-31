@@ -1,54 +1,22 @@
 {
- "detected_at": "2026-10-31T20:12+09:00",
+ "detected_at": "2026-11-01T08:42+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李, ‘집값 하락’ 전망 공유하며…“자산시장 정상화 인내의 시간”",
-   "url": "https://n.news.naver.com/article/020/0003759125",
-   "press": "동아일보",
+   "title": "정청래, 유시민 발언에 “독립운동도 노선 여럿…얘기 들어주고 고개 끄덕여줘야”",
+   "url": "https://n.news.naver.com/article/028/0002830098",
+   "press": "한겨레",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "KBS",
-     "title": "이 대통령, ‘서울 집값 하락 전망’ 공유하며 “지금은 견디는 중”",
-     "url": "https://n.news.naver.com/article/056/0012284776"
+     "press": "경향신문",
+     "title": "‘유시민 발언 논란’에 입 연 정청래 “독립운동도 노선 하나 아냐···토닥이며 함께 가야”",
+     "url": "https://n.news.naver.com/article/032/0003479812"
     },
     {
-     "press": "대전일보",
-     "title": "李 \"자산시장 정상화 향한 힘든 길…시간 지나면 알게 될 것\"",
-     "url": "https://n.news.naver.com/article/656/0000191089"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] \"주식 손실로 함께 죽으려 했다\"…일본 여성 살해범 진술에 의문 투성",
-   "url": "https://n.news.naver.com/article/660/0000120331",
-   "press": "kbc광주방송",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 이 대통령 “시간 지나면 결국 알게 될 것”…‘서울 집값 하락 불가피’ 게시글 공유",
-   "url": "https://n.news.naver.com/article/016/0002717011",
-   "press": "헤럴드경제",
-   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "KBS",
-     "title": "이 대통령, ‘서울 집값 하락 전망’ 공유하며 “지금은 견디는 중”",
-     "url": "https://n.news.naver.com/article/056/0012284776"
-    },
-    {
-     "press": "대전일보",
-     "title": "李 \"자산시장 정상화 향한 힘든 길…시간 지나면 알게 될 것\"",
-     "url": "https://n.news.naver.com/article/656/0000191089"
-    },
-    {
-     "press": "미디어오늘",
-     "title": "이재명 대통령 '서울 집값 하락' 글 공유하며 \"견디는 기간\"",
-     "url": "https://n.news.naver.com/article/006/0000138503"
+     "press": "한국일보",
+     "title": "유시민 '李 비판' 논란에… 정청래 \"독립운동 노선도 하나 아니었다\"",
+     "url": "https://n.news.naver.com/article/469/0000962827"
     }
    ]
   }
