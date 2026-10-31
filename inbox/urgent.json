@@ -1,116 +1,54 @@
 {
- "detected_at": "2026-10-31T14:29+09:00",
+ "detected_at": "2026-10-31T20:12+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李대통령 \"링거 맞고 코피 터지는 해외순방 …돼지 눈에 돼지만 보여\"",
-   "url": "https://n.news.naver.com/article/448/0000648135",
-   "press": "TV조선",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "연합뉴스",
-     "title": "李대통령, 野 '순방' 비판에 \"링거 맞고 코피…그결과 성과차이\"",
-     "url": "https://n.news.naver.com/article/001/0016413261"
-    },
-    {
-     "press": "YTN",
-     "title": "이 대통령 \"코피 터지는 해외 순방\"...야권 지적에 반박",
-     "url": "https://n.news.naver.com/article/052/0002426489"
-    },
-    {
-     "press": "서울신문",
-     "title": "[속보] 李대통령, 해외순방 비판에 “코피 터지는 일정…놀러 가는 줄 아나”",
-     "url": "https://n.news.naver.com/article/081/0003694467"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "진성준 국방위원장, 美 비자 거부 통보 사흘 만에 발급…“예정대로 내일 출국”",
-   "url": "https://n.news.naver.com/article/366/0001201680",
-   "press": "조선비즈",
+   "title": "李, ‘집값 하락’ 전망 공유하며…“자산시장 정상화 인내의 시간”",
+   "url": "https://n.news.naver.com/article/020/0003759125",
+   "press": "동아일보",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "MBN",
-     "title": "진성준 국방위원장 '미국 비자' 발급…내일 출국",
-     "url": "https://n.news.naver.com/article/057/0001976048"
+     "press": "KBS",
+     "title": "이 대통령, ‘서울 집값 하락 전망’ 공유하며 “지금은 견디는 중”",
+     "url": "https://n.news.naver.com/article/056/0012284776"
     },
     {
-     "press": "SBS",
-     "title": "진성준, '거부' 사흘 만에 미국 비자 발급…\"뒤늦게나마 다행\"",
-     "url": "https://n.news.naver.com/article/055/0001399596"
+     "press": "대전일보",
+     "title": "李 \"자산시장 정상화 향한 힘든 길…시간 지나면 알게 될 것\"",
+     "url": "https://n.news.naver.com/article/656/0000191089"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] “돼지 눈엔 돼지만”…李대통령, 야당 ‘외유성 순방’ 비판에 강력 반박",
-   "url": "https://n.news.naver.com/article/022/0004171309",
-   "press": "세계일보",
+   "title": "[속보] \"주식 손실로 함께 죽으려 했다\"…일본 여성 살해범 진술에 의문 투성",
+   "url": "https://n.news.naver.com/article/660/0000120331",
+   "press": "kbc광주방송",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "이 대통령 “다문화가정 지원 필요하지만 역차별까지 정당화할 순 없어”···‘펨코 글’ 공유 이후 나흘째 다문화 정책 언급",
-   "url": "https://n.news.naver.com/article/032/0003479793",
-   "press": "경향신문",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 이 대통령 “시간 지나면 결국 알게 될 것”…‘서울 집값 하락 불가피’ 게시글 공유",
+   "url": "https://n.news.naver.com/article/016/0002717011",
+   "press": "헤럴드경제",
+   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "뉴시스",
-     "title": "이 대통령 \"다문화가정 지원 필요하지만…역차별 낳는 정책까지 정당화 될 수 없어\"",
-     "url": "https://n.news.naver.com/article/003/0014291945"
+     "press": "KBS",
+     "title": "이 대통령, ‘서울 집값 하락 전망’ 공유하며 “지금은 견디는 중”",
+     "url": "https://n.news.naver.com/article/056/0012284776"
     },
     {
-     "press": "JTBC",
-     "title": "이 대통령 \"다문화가정 지원 필요한 거 맞지만, 역차별 정책까지 정당화할 이유 없어\"",
-     "url": "https://n.news.naver.com/article/437/0000518472"
+     "press": "대전일보",
+     "title": "李 \"자산시장 정상화 향한 힘든 길…시간 지나면 알게 될 것\"",
+     "url": "https://n.news.naver.com/article/656/0000191089"
     },
     {
-     "press": "부산일보",
-     "title": "이 대통령, 3일 연속 반박글 \"다문화 지원 필요하지만 잘못된 부분 시정\"",
-     "url": "https://n.news.naver.com/article/082/0001404948"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 현직 판사, 위기에 침묵하는 사법 현실 ‘동물농장’ 비유…“비겁한 벤자민”",
-   "url": "https://n.news.naver.com/article/029/0003056260",
-   "press": "디지털타임스",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "채널A",
-     "title": "현직 판사 “부당한 공격 맞서야”…‘동물농장’ 비유도",
-     "url": "https://n.news.naver.com/article/449/0000365911"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "이 대통령 \"다문화 지원, 역차별 낳는 정책까지 정당화 안 돼\"…사흘 연속 반박글",
-   "url": "https://n.news.naver.com/article/654/0000208528",
-   "press": "강원도민일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "뉴시스",
-     "title": "이 대통령 \"다문화가정 지원 필요하지만…역차별 낳는 정책까지 정당화 될 수 없어\"",
-     "url": "https://n.news.naver.com/article/003/0014291945"
-    },
-    {
-     "press": "JTBC",
-     "title": "이 대통령 \"다문화가정 지원 필요한 거 맞지만, 역차별 정책까지 정당화할 이유 없어\"",
-     "url": "https://n.news.naver.com/article/437/0000518472"
-    },
-    {
-     "press": "부산일보",
-     "title": "이 대통령, 3일 연속 반박글 \"다문화 지원 필요하지만 잘못된 부분 시정\"",
-     "url": "https://n.news.naver.com/article/082/0001404948"
+     "press": "미디어오늘",
+     "title": "이재명 대통령 '서울 집값 하락' 글 공유하며 \"견디는 기간\"",
+     "url": "https://n.news.naver.com/article/006/0000138503"
     }
    ]
   }
