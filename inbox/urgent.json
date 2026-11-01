@@ -1,22 +1,111 @@
 {
- "detected_at": "2026-11-01T08:42+09:00",
+ "detected_at": "2026-11-01T14:54+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "정청래, 유시민 발언에 “독립운동도 노선 여럿…얘기 들어주고 고개 끄덕여줘야”",
-   "url": "https://n.news.naver.com/article/028/0002830098",
-   "press": "한겨레",
+   "title": "北, 축구장 18개 초토화 ‘악마의 강철비’ 도발…軍, 발표는 안 했다",
+   "url": "https://n.news.naver.com/article/025/0003561929",
+   "press": "중앙일보",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "경향신문",
-     "title": "‘유시민 발언 논란’에 입 연 정청래 “독립운동도 노선 하나 아냐···토닥이며 함께 가야”",
-     "url": "https://n.news.naver.com/article/032/0003479812"
+     "press": "조선일보",
+     "title": "北, “13㏊ 초토화” 탄도 발사…軍, 포착하고도 발표 안 해",
+     "url": "https://n.news.naver.com/article/023/0004007092"
     },
     {
-     "press": "한국일보",
-     "title": "유시민 '李 비판' 논란에… 정청래 \"독립운동 노선도 하나 아니었다\"",
-     "url": "https://n.news.naver.com/article/469/0000962827"
+     "press": "서울신문",
+     "title": "北 “초토화” 악마의 무기 쐈다…軍, 포착하고도 발표 안 한 이유",
+     "url": "https://n.news.naver.com/article/081/0003694511"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "시속 171㎞ 만취 질주로 사망 사고 낸 30대…감형 이유는",
+   "url": "https://n.news.naver.com/article/015/0005348829",
+   "press": "한국경제",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "강원도민일보",
+     "title": "[속보] 음주상태로 터널서 시속 171㎞ 질주…30대 여성, 항소심서 징역형",
+     "url": "https://n.news.naver.com/article/654/0000208578"
+    },
+    {
+     "press": "강원일보",
+     "title": "[속보]만취 상태로 터널서 시속 171㎞로 차 몰다 사망사고 낸 30대 여성, 징역 2년 6개월에 벌금 100만원",
+     "url": "https://n.news.naver.com/article/087/0001227516"
+    },
+    {
+     "press": "경기일보",
+     "title": "171㎞ 음주 질주로 두 자녀 아빠 숨지게 한 30대…항소심서 감형",
+     "url": "https://n.news.naver.com/article/666/0000130030"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "누적 수출 9000억 달러 돌파…李 \"감격, 경제영토 더 넓히겠다\"",
+   "url": "https://n.news.naver.com/article/277/0005836256",
+   "press": "아시아경제",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "MBN",
+     "title": "이 대통령, 수출 9천억 돌파에 감격…\"국익 외교로 경제영토 확장할 것\"",
+     "url": "https://n.news.naver.com/article/057/0001976143"
+    },
+    {
+     "press": "조선비즈",
+     "title": "李, 수출 9000억달러 돌파에 “실용적 국익외교 통해 경제영토 확장”",
+     "url": "https://n.news.naver.com/article/366/0001201758"
+    },
+    {
+     "press": "부산일보",
+     "title": "이 대통령, 수출 9000억 달러 돌파에 자축 \"위대한 대한국민 만세\"",
+     "url": "https://n.news.naver.com/article/082/0001404983"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]FBI “北, 바이낸스 60억달러 가상화폐 탈취 배후”",
+   "url": "https://n.news.naver.com/article/016/0002717164",
+   "press": "헤럴드경제",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "대통령 \"돼지 눈\" 반박 이어 외교부 등판...국힘 \"비뚤어진 국정 인식\"",
+   "url": "https://n.news.naver.com/article/052/0002426770",
+   "press": "YTN",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "서울경제",
+     "title": "李 ‘돼지 눈’ 반박에…국힘 “野 땐 ‘혈세낭비’, 집권하니 ‘링거투혼’”",
+     "url": "https://n.news.naver.com/article/011/0004677388"
+    },
+    {
+     "press": "매일신문",
+     "title": "李대통령 \"돼지 눈엔 돼지만\" 발언에…국힘 \"돼지 눈으로 보니 돼지 같은 일만\"",
+     "url": "https://n.news.naver.com/article/088/0001037600"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 李대통령, 韓 수출액 9천억달러 돌파 자축 \"위대한 한국…기업인·노동자에 감사\"",
+   "url": "https://n.news.naver.com/article/002/0002463690",
+   "press": "프레시안",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "부산일보",
+     "title": "이 대통령, 수출 9000억 달러 돌파에 자축 \"위대한 대한국민 만세\"",
+     "url": "https://n.news.naver.com/article/082/0001404983"
     }
    ]
   }
