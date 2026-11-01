@@ -1,0 +1,712 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "elevator-delivery-landlord-fee",
+ "title_lines": [
+  "엘베 탄 배달 사장한테",
+  "500만원 내라던 건물주"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "엘베 탔다고 500만 원 내라던 건물주",
+   "say": "엘베 탔다고 오백만 원 내라던 건물주",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "엘베 탔다고\n500만 원 내라던 건물주",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "200kg 오토바이에 깔린 배달 사장님.",
+   "say": "이백 킬로 오토바이에 깔린 배달 사장님.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "street",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バイク 事故",
+       "バイク 転倒",
+       "事故 バイク"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "익산에서 배달 가게 하는 사장님이",
+   "say": "익산에서 배달 가게 하는 사장님이",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "restaurant",
+    "video": [
+     "delivery motorbike",
+     "motorbike delivery street",
+     "scooter city street"
+    ],
+    "cc": [
+     "korean delivery motorcycle",
+     "seoul delivery scooter"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "料理人 男性",
+       "コック 男性",
+       "店長 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "빌라 4층 단골한테 엘베 타고 갔는데,",
+   "say": "빌라 사 층 단골한테 엘베 타고 갔는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "apartment",
+    "pic": [
+     "elevator door",
+     "elevator buttons",
+     "elevator interior"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "出前",
+       "出前 バイク",
+       "配達員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🛗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "건물주가 입구를 딱 막아섰다고.",
+   "say": "건물주가 입구를 딱 막아섰다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "apartment",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒鳴る 男性",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "\"4층까지 뛰어 올라가면 되지\"",
+   "say": "\"사 층까지 뛰어 올라가면 되지\"",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "video": [
+     "stairs building",
+     "staircase apartment",
+     "stairway"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "階段 上る",
+       "階段 男性",
+       "階段"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏃",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "\"왜 엘리베이터를 타냐\"며 따짐.",
+   "say": "\"왜 엘리베이터를 타냐\"며 따짐.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "エレベーター",
+       "エレベーター 乗る"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "배달 때문에 관리비 많이 나온다고.",
+   "say": "배달 때문에 관리비 많이 나온다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "건물주 주장",
+      "lines": [
+       "배달기사 엘베 이용",
+       "관리비 많이 나옴"
+      ],
+      "mark": 1,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "文句 男性",
+       "怒る 男性"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "출발하려는 사장님 팔꿈치를 확 잡아당김.",
+   "say": "출발하려는 사장님 팔꿈치를 확 잡아당김.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "믿기지 않는다는 듯 목소리를 확 높여서",
+   "visual": {
+    "bg": "street",
+    "cam": "punch",
+    "video": [
+     "motorcycle engine start",
+     "motorbike parked street",
+     "scooter parked"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "腕 引っ張る",
+       "引っ張る 男性",
+       "喧嘩 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 오토바이째 넘어져 그 밑에 깔림.",
+   "say": "헐, 오토바이째 넘어져 그 밑에 깔림.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "pic": [
+     "motorcycle fallen",
+     "motorbike road",
+     "motorcycle street"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 건물주 첫마디가 이거였음.",
+   "say": "근데 건물주 첫마디가 이거였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "壊れた バイク",
+       "故障 バイク",
+       "修理 バイク"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "\"난 당긴 적 없다\"",
+   "say": "\"난 당긴 적 없다\"",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "tone": "뻔뻔한 말투를 흉내 내듯 딱 잘라서",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "知らんぷり 男性",
+       "そっぽを向く 男性",
+       "無視 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "\"너 혼자 넘어져 놓고 왜 그러냐\"",
+   "say": "\"너 혼자 넘어져 놓고 왜 그러냐\"",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "転ぶ 男性",
+       "転倒 男性",
+       "転ぶ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "수리비 200만 원 넘는다니까",
+   "say": "수리비 이백만 원 넘는다니까",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "desk",
+    "video": [
+     "motorcycle repair",
+     "motorcycle garage",
+     "broken motorcycle parts"
+    ],
+    "items": [
+     {
+      "type": "price",
+      "label": "오토바이 수리비",
+      "new": "200만 원+",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "\"배달 기사가 엘리베이터 타면 500만 원 내야 한다\"",
+   "say": "\"배달 기사가 엘리베이터 타면 오백만 원 내야 한다\"",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "請求 男性",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "결국 사장님이 경찰에 고소함.",
+   "say": "결국 사장님이 경찰에 고소함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "video": [
+     "police station building",
+     "police car lights",
+     "police car"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察署",
+       "警察官",
+       "交番"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "건물주는 검찰에 넘겨질 예정임.",
+   "say": "건물주는 검찰에 넘겨질 예정임.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "경찰 수사",
+      "lines": [
+       "폭행",
+       "재물손괴",
+       "검찰 송치 예정"
+      ],
+      "mark": 2,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "진짜 황당한 건 조사 때 나옴.",
+   "say": "진짜 황당한 건 조사 때 나옴.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "取り調べ",
+       "警察 事情聴取",
+       "刑事"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰이 배달 엘베 제한 안내문을 권했는데,",
+   "say": "경찰이 배달 엘베 제한 안내문을 권했는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "notice board wall",
+     "paper notice wall",
+     "bulletin board"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "📄",
+      "pos": "center",
+      "size": "l",
+      "at": 0.1,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 여기가 대학가 원룸촌이라",
+   "say": "알고 보니 여기가 대학가 원룸촌이라",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "video": [
+     "university campus street",
+     "college town street",
+     "residential buildings night"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "大学生 男性",
+       "大学生",
+       "学生 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그런 거 붙이면 대학생 안 온다며 거부함.",
+   "say": "그런 거 붙이면 대학생 안 온다며 거부함.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "bg": "apartment",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "空き部屋",
+       "空室",
+       "引っ越し"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "정작 음식 시킨 4층 단골도 세입자였는데.",
+   "say": "정작 음식 시킨 사 층 단골도 세입자였는데.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "food delivery bag",
+     "takeout food bag",
+     "food container"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "出前 受け取る",
+       "料理 受け取る",
+       "食事 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "세입자는 좋고 배달은 싫은 거임.",
+   "say": "세입자는 좋고 배달은 싫은 거임.",
+   "sfx": "absurd",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "apartment",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "腕組み 男性",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "엘베 탄 배달 사장한테 500만원 내라던 건물주 #shorts",
+  "description": "전북 익산 빌라 4층 단골 세입자에게 음식을 배달하고 엘리베이터를 탄 배달 가게 사장이 건물주에게 붙잡혔음.\n건물주는 \"4층까지 뛰어 올라가면 되지 왜 엘리베이터를 타냐\"며 팔꿈치를 잡아당겼고, 사장은 약 200kg 오토바이에 깔렸다고.\n수리비 얘기에 \"엘리베이터 타면 500만 원 내야 한다\"고 했고, 경찰이 권한 안내문은 대학생 세입자가 안 들어온다며 거부했다고 함.\n\n※ AI 음성으로 제작했습니다.\n#배달 #엘리베이터 #건물주 #갑질 #썰 #shorts",
+  "tags": [
+   "배달",
+   "엘리베이터",
+   "건물주",
+   "빌라",
+   "오토바이",
+   "갑질",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.fnnews.com/news/202611010922312775",
+ "facts_used": [
+  "2026년 10월 19일 전북 익산, 한식 배달 가게를 7년째 운영하는 30대 사장이 빌라 4층 단골 세입자에게 음식을 전하려 엘리베이터를 탐, 1층 출입구를 건물주가 막고 시비 — JTBC 사건반장 10/30 보도 인용: 파이낸셜뉴스 2026-11-01 https://www.fnnews.com/news/202611010922312775 , 인사이트 https://www.insight.co.kr/news/580099 , 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=480518 , 네이트뉴스 https://news.nate.com/view/20261031n08382",
+  "건물주: \"네가 4층까지 뛰어 올라가면 되지 왜 엘리베이터를 타냐\", 배달기사들 때문에 관리비가 많이 나온다고 주장 — 파이낸셜뉴스, 인사이트",
+  "시동 걸고 출발하려는데 건물주가 오른쪽 팔꿈치를 잡아당겨 약 200kg 오토바이가 넘어지며 사장이 깔림, 부품 파손(사장 주장) — 파이낸셜뉴스, 인사이트, 스페셜타임스",
+  "건물주: \"난 당긴 적 없다. 너 혼자 넘어져 놓고 왜 그러냐\" — 파이낸셜뉴스, 인사이트",
+  "수리비가 200만 원 넘을 것 같다고 하자 \"배달 기사가 엘리베이터를 타면 500만원을 내야 한다\"며 쫓아냄 — 파이낸셜뉴스, 인사이트",
+  "사장은 진단서·오토바이 파손 사진으로 고소, 익산경찰서는 건물주를 폭행·재물손괴 혐의로 검찰 송치 예정 — 인사이트, 스페셜타임스, 파이낸셜뉴스",
+  "건물주는 조사에서 관리비 때문에 기분 나빴다는 취지 진술, 경찰이 배달기사 엘리베이터 이용 제한 안내문을 제안했으나 대학가 원룸촌이라 대학생 세입자가 안 들어온다며 거부 — 인사이트, 파이낸셜뉴스(검색 요약 2건)"
+ ],
+ "brief": "점수표: [선택] 엘베 탔다고 500만 원 요구·폭행한 익산 빌라 건물주(JTBC 사건반장 10/30 → 파이낸셜뉴스 11/1·인사이트·스페셜타임스·네이트뉴스) 이게됨4+궁금증4(500만 원 발언·안내문 거부 이유를 뒤에 숨김)+감정8(억울한 배달 사장, 200kg 오토바이에 깔림)+대상5(배달·엘베·건물주)+판정5(일을 키운 건물주, 말이 점점 세짐)=26 / 서울 마라톤 교통 통제 시민 분노(보배·디시, 유행 '마라톤') 3+1+5+5+3+3=20 숨긴 답 없음 / 신형 아반떼 언덕 시동 꺼짐(디시·엠팍, 유행 '아반떼') 보도 확인 안 됨 탈락 / 공군 장성 군악대 술판(SBS 단독) 3+2+4+2+4=15 / 축의금 부모님이 가져가나(네이트판) 2+2+4+4+3=15. 유행: 없음 (마라톤·아반떼·할로윈·리버풀 아스널 확인 — 마라톤은 숨긴 답 없음, 아반떼는 보도 없음, 할로윈은 11/1 07시 편에서 씀). 아이 레인: 아님(오늘 12시·18시 회차에서). 해외 아님(국내). 구조: 시작=4층 단골 세입자에게 배달하러 엘베 탐 / 커짐=입구 막고 \"4층까지 뛰어 올라가면 되지\"→팔꿈치 잡아당겨 200kg 오토바이에 깔림→\"난 당긴 적 없다\"→수리비 200만 원에 \"엘베 타면 500만 원\" / 뒤집힘=고소, 폭행·재물손괴 송치 예정 / 정체=경찰이 권한 배달 엘베 제한 안내문을 '대학생 세입자 안 온다'며 거부 / 그 뒤=정작 음식 시킨 단골도 세입자, 세입자는 좋고 배달은 싫은 건물주. 첫장면: 손해 (200kg 오토바이에 깔린 배달 사장). 훅 3안: ①'200kg 오토바이에 깔린 배달 사장님'(선택: 제목보다 한 발 나간 구체 장면) ②'4층까지 뛰어 올라가라는 건물주'(인용을 너무 일찍 씀) ③'엘베 한 번 탔다가 고소까지 감'(결말 노출). 제목: 사람(배달 사장·건물주)+무슨 일(엘베·500만 원)+궁금함(왜 그런 말을). 500만 원은 사건의 핵심 숫자. 앞 회차 제목 앞머리 없음. 인용: 4층까지 뛰어 올라가면 되지 / 왜 엘리베이터를 타냐 / 난 당긴 적 없다 / 너 혼자 넘어져 놓고 왜 그러냐 / 배달 기사가 엘리베이터 타면 500만 원 내야 한다 (보도 그대로, 5번). 욕할 대상: 건물주의 대응(실명·건물 위치 없음). 주의: 팔을 당겼다는 건 사장 주장이고 건물주는 부인 — 대본에 '난 당긴 적 없다' 반론을 그대로 넣음, 송치 '예정'으로만 씀, 허리디스크·사과 없음은 보도 1건뿐이라 뺌. 증거: doc(건물주 주장·경찰 수사), price(수리비 200만 원+). warn 은 앞 회차가 써서 안 씀. 이해검사: 익산에서 배달 가게 하는 사장님이 빌라 4층 단골한테 엘베 타고 배달 갔다가 건물주한테 팔꿈치를 잡혀 오토바이에 깔리고 '엘베 타면 500만 원'이란 말까지 들었는데, 고소해서 건물주는 검찰에 넘겨질 예정이고, 경찰이 권한 안내문은 대학생 세입자가 안 온다며 거부했다. 그림대조: 완료 (한국 빌라·거리, 일본 지도·국기·엔화 없음, 돈 그림 대신 💸·price 소품, 남성 배달 사장·건물주는 나이가 보도에 없어 일반 남성 그림)."
+}
