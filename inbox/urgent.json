@@ -1,75 +1,29 @@
 {
- "detected_at": "2026-11-01T22:13+09:00",
+ "detected_at": "2026-11-02T07:23+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "박근혜, 장동혁에 \"총선 이겨 정권 가져와야 대한민국 시스템 지켜\"",
-   "url": "https://n.news.naver.com/article/656/0000191174",
-   "press": "대전일보",
+   "title": "한동훈 \"경찰대 로스쿨?...국민을 '생체실험 대상'으로 보냐\"",
+   "url": "https://n.news.naver.com/article/437/0000518572",
+   "press": "JTBC",
    "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "문화일보",
-     "title": "박근혜, 장동혁에 “좋은 인재로 총선 이기고, 정권가져와야”",
-     "url": "https://n.news.naver.com/article/021/0002829412"
+     "press": "국민일보",
+     "title": "한동훈 “경찰대에 로스쿨? 국민을 생체실험 대상처럼 보나”",
+     "url": "https://n.news.naver.com/article/005/0001882250"
     },
     {
-     "press": "부산일보",
-     "title": "박근혜 \"좋은 인재로 당 채워 정권 가져와야\"…장동혁, 오찬 내용 공개",
-     "url": "https://n.news.naver.com/article/082/0001405043"
+     "press": "뉴시스",
+     "title": "한동훈 \"경찰대에 로스쿨? 국민을 생체실험 대상으로 보나\"",
+     "url": "https://n.news.naver.com/article/003/0014293428"
     },
     {
-     "press": "TV조선",
-     "title": "박근혜 \"총선 이겨 정권 되찾아야\"…장동혁에 당부",
-     "url": "https://n.news.naver.com/article/448/0000648301"
+     "press": "강원일보",
+     "title": "한동훈 “경찰대에 로스쿨? 검찰폐지 하듯이 대충 막던져⋯국민을 ‘생체실험 대상’처럼 보는 민주당 정권”",
+     "url": "https://n.news.naver.com/article/087/0001227740"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "주진우 \"0표가 369표로\"…총선 개표 수치 57곳 불일치 주장",
-   "url": "https://n.news.naver.com/article/088/0001037698",
-   "press": "매일신문",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "서울경제",
-     "title": "주진우 “22대 총선 57곳서 개표 수치 불일치”",
-     "url": "https://n.news.naver.com/article/011/0004677507"
-    },
-    {
-     "press": "디지털타임스",
-     "title": "주진우 “정읍서 0표인데 369표 기재…총선 57곳 허위 기재, 선관위에 못 맡겨”",
-     "url": "https://n.news.naver.com/article/029/0003056439"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "“박근혜, 국가시스템 붕괴 우려…정권 가져와야한다 말해” 장동혁 공개",
-   "url": "https://n.news.naver.com/article/009/0005757264",
-   "press": "매일경제",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "부산일보",
-     "title": "박근혜 \"좋은 인재로 당 채워 정권 가져와야\"…장동혁, 오찬 내용 공개",
-     "url": "https://n.news.naver.com/article/082/0001405043"
-    },
-    {
-     "press": "TV조선",
-     "title": "박근혜 \"총선 이겨 정권 되찾아야\"…장동혁에 당부",
-     "url": "https://n.news.naver.com/article/448/0000648301"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 이 대통령 \"다문화 정책 시정, 차별 아냐…선제적으로 바로잡는 것\"",
-   "url": "https://n.news.naver.com/article/654/0000208659",
-   "press": "강원도민일보",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
