@@ -4818,5 +4818,60 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-01_0700_hongdae-halloween-candy-costume/video.mp4"
   },
   "seconds": 1096
+ },
+ {
+  "key": "2026-11-01-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-01T12:00:00+09:00",
+  "started": "2026-11-01T09:19:55.366006+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-173103/",
+   "https://pixabay.com/photos/soup-tomato-healthy-homemade-1429793/",
+   "https://pixabay.com/videos/id-11710/",
+   "https://pixabay.com/videos/id-267/",
+   "https://pixabay.com/photos/chicken-noodle-soup-dish-meal-food-6784821/"
+  ],
+  "cc_clips": [],
+  "duration": 25.17,
+  "matches": [
+   0.98,
+   0.98,
+   0.98,
+   0.98,
+   0.98,
+   1.0,
+   0.99,
+   0.99,
+   0.93,
+   1.0
+  ],
+  "sfx": 9,
+  "illustrations": 6,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "몰래 물티슈 넣은 단골을 사장님이 감싼 이유 #shorts",
+  "source_post": "https://www.imaeil.com/page/view/2026103119052367038",
+  "facts_used": [
+   "인천 남동구 구월동 국밥집에서 10월 28일 단골손님이 지인과 와서 국밥에서 물티슈가 나왔다고 항의 — 매일신문 https://www.imaeil.com/page/view/2026103119052367038 (2026-10-31), 스포탈코리아 https://www.sportalkorea.com/news/articleView.html?idxno=2025052909553662010 , 네이트뉴스 https://m.news.nate.com/view/20261031n07405 (2026-10-31), JTBC 사건반장 10/30 방송",
+   "놀란 장모(사장)가 고무장갑을 낀 채 주방에서 나와 사과하고 국밥값을 받지 않음 — 매일신문, 스포탈코리아",
+   "CCTV에 손님이 밥을 마는 척 그릇 사이에 숨겨 둔 물티슈를 젓가락으로 집어 국밥에 넣는 모습이 찍힘 — 매일신문, 스포탈코리아, 네이트뉴스",
+   "가게는 장인·장모가 운영, 사위인 제보자는 영업방해로 보고 신고를 고민 — 매일신문, 스포탈코리아",
+   "장인·장모는 '이름도 아는 단골손님', '오죽하면 그랬겠냐'며 손님을 감싸고 처벌을 원치 않음 — 매일신문, 스포탈코리아, 네이트뉴스"
+  ],
+  "slug": "2026-11-01_1200_gukbap-wet-wipe-regular",
+  "late": false,
+  "video_id": "u2r_-nfk3ds",
+  "url": "https://youtube.com/shorts/u2r_-nfk3ds",
+  "privacy": "private",
+  "scheduled_for": "2026-11-01T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae68a7937c1acd2a0dc9d87",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-01T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-01_1200_gukbap-wet-wipe-regular/video.mp4"
+  },
+  "seconds": 1232
  }
 ]
