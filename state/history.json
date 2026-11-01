@@ -4873,5 +4873,61 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-01_1200_gukbap-wet-wipe-regular/video.mp4"
   },
   "seconds": 1232
+ },
+ {
+  "key": "2026-11-01-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-01T18:00:00+09:00",
+  "started": "2026-11-01T15:17:49.900922+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-1137/",
+   "https://pixabay.com/videos/id-28302/",
+   "https://pixabay.com/videos/id-1136/",
+   "https://pixabay.com/photos/door-door-handle-auto-air-intake-4833820/",
+   "https://pixabay.com/videos/id-71015/",
+   "https://pixabay.com/photos/booties-baby-girl-clothes-pink-2047596/"
+  ],
+  "cc_clips": [],
+  "duration": 24.85,
+  "matches": [
+   0.91,
+   0.95,
+   0.99,
+   0.99,
+   0.97,
+   0.98,
+   0.96,
+   0.99,
+   0.99,
+   0.97
+  ],
+  "sfx": 9,
+  "illustrations": 8,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "출고 4일 새 차 긁은 폐지 할아버지의 선물 #shorts",
+  "source_post": "https://www.news1.kr/society/general-society/6337873",
+  "facts_used": [
+   "출고 4일(나흘) 된 새 차를 폐지 줍던 고령 노인이 리어카를 돌리다 긁어 도색 일부가 벗겨짐, 부모님 집 앞 지정 주차구역에 세워 둔 차 — 뉴스1 https://www.news1.kr/society/general-society/6337873 , 파이낸셜뉴스 2026-10-30 https://fnnews.com/news/202610301324084213 , 헤럴드경제 2026-10-29 https://biz.heraldcorp.com/article/10920235",
+   "모르는 번호로 노인이 먼저 전화, 현장에서 연신 고개 숙이며 수리비를 변상하겠다고 사과 — 헤럴드경제, 한국경제 2026-10-31 https://www.hankyung.com/article/2026103173907",
+   "차주는 노인의 생계를 걱정해 수리비를 요구하지 않고 그냥 보냄, 벗겨진 부분은 붓펜으로 직접 칠해 타기로 함 — 헤럴드경제, 한국경제, 문화일보 https://www.munhwa.com/article/11627516",
+   "며칠 뒤 노인이 차주 부모님 집을 다시 찾아와 차주 아기에게 줄 아기 옷 한 벌을 두고 감(차주 어머니가 연락) — 뉴스1, 헤럴드경제, 파이낸셜뉴스, 한국경제",
+   "2년 전 일을 차주가 최근 SNS(스레드)에 공개 — 한국경제, 헤럴드경제"
+  ],
+  "slug": "2026-11-01_1800_new-car-scratch-baby-clothes",
+  "late": false,
+  "video_id": "-wh8ABLlsyE",
+  "url": "https://youtube.com/shorts/-wh8ABLlsyE",
+  "privacy": "private",
+  "scheduled_for": "2026-11-01T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae6dedfab019b90874520e6",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-01T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-01_1800_new-car-scratch-baby-clothes/video.mp4"
+  },
+  "seconds": 1362
  }
 ]
