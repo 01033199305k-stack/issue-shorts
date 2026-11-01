@@ -1,0 +1,593 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "duolingo-mask-stages-example",
+ "title_lines": [
+  "홍대에서 끌려간",
+  "듀오링고 탈 속의 사람"
+ ],
+ "credit": "",
+ "youtube": {
+  "title": "홍대에서 끌려간 듀오링고 탈 속의 사람 #shorts",
+  "description": "구조 시험용 예시. 올리지 않는 파일.\n\n※ AI 음성으로 제작했습니다.\n#shorts",
+  "tags": [
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.newsis.com/view/NISX20261101_0003849459",
+ "facts_used": [
+  "예시 파일: 올리지 않음. 2026-11-02 구조 시험용"
+ ],
+ "brief": "점수표: 예시. 유행: 핼러윈. 첫장면: 의외. 구조: 시작=사탕 나눔 / 커짐=글 하나→5만 조회→주사 자국→경찰 사진 / 뒤집힘=마약 없음 / 정체=10대 / 그 뒤=글쓴이 아니면 말고, 계정 잠금. 이해검사: 사탕 나눠 준 10대가 글 하나로 범인이 됐다가 무혐의로 끝났다. 증거: doc. 그림대조: 완료.",
+ "segments": [
+  {
+   "text": "홍대에서 끌려간 듀오링고 탈 속의 사람",
+   "say": "홍대에서 끌려간 듀오링고 탈 속의 사람",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "홍대에서 끌려간\n듀오링고 탈 속의 사람",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "초록 새 인형 탈이 경찰 손에 끌려갔음.",
+   "say": "초록 새 인형 탈이 경찰 손에 끌려갔음.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 목소리를 높여서",
+   "visual": {
+    "bg": "street",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🦉",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "警察官",
+       "警察官 男性"
+      ],
+      "pos": "right",
+      "at": 0.0,
+      "fx": "slide-left"
+     }
+    ]
+   }
+  },
+  {
+   "text": "핼러윈 밤 홍대 얘기임.",
+   "say": "핼러윈 밤 홍대 얘기임.",
+   "sfx": "none",
+   "tone": "친구한테 썰 풀듯 빠르게",
+   "visual": {
+    "bg": "nightcity",
+    "video": [
+     "city night street",
+     "street night lights",
+     "night crowd city"
+    ],
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🎃",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "길 가는 사람한테 사탕 나눠 주기.",
+   "say": "길 가는 사람한테 사탕 나눠 주기.",
+   "sfx": "none",
+   "tone": "친구한테 썰 풀듯 빠르게",
+   "visual": {
+    "bg": "street",
+    "pic": [
+     "candy pile",
+     "hard candy",
+     "candy wrapped"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🍬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 저녁 6시 44분에 글 하나가 뜸.",
+   "say": "근데 저녁 여섯 시 사십사 분에 글 하나가 뜸.",
+   "sfx": "whoosh",
+   "tone": "친구한테 썰 풀듯 빠르게",
+   "visual": {
+    "bg": "street",
+    "pic": [
+     "smartphone hand",
+     "phone screen",
+     "smartphone night"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "먹은 애들 상태가 안 좋다.",
+   "say": "먹은 애들 상태가 안 좋다.",
+   "sfx": "none",
+   "tone": "소름 돋은 듯 목소리를 낮추고",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "sms",
+      "from": "익명 글",
+      "lines": [
+       "먹은 애들",
+       "상태가 안 좋다"
+      ],
+      "at": 0.0
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "이 글이 순식간에 5만 번 넘게 읽힘.",
+   "say": "이 글이 순식간에 오만 번 넘게 읽힘.",
+   "sfx": "none",
+   "tone": "친구한테 썰 풀듯 빠르게",
+   "visual": {
+    "bg": "street",
+    "video": [
+     "social media phone",
+     "phone scrolling",
+     "typing phone"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그러자 말이 점점 세지기 시작함.",
+   "say": "그러자 말이 점점 세지기 시작함.",
+   "sfx": "none",
+   "tone": "친구한테 썰 풀듯 빠르게",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "噂話 主婦",
+       "噂話",
+       "ひそひそ話"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심각하게 졸리고 다리가 떨린다.",
+   "say": "심각하게 졸리고 다리가 떨린다.",
+   "sfx": "none",
+   "tone": "겁먹은 목소리로",
+   "visual": {
+    "bg": "hospital",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "眠い 女性",
+       "眠い",
+       "具合が悪い 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "사탕 봉지에 주사 자국 같은 구멍이 있다.",
+   "say": "사탕 봉지에 주사 자국 같은 구멍이 있다.",
+   "sfx": "none",
+   "tone": "겁먹은 목소리로",
+   "visual": {
+    "bg": "street",
+    "video": [
+     "syringe medical",
+     "injection needle",
+     "medical syringe"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "💉",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "여기에 경찰이랑 걷는 사진까지 돌았음.",
+   "say": "여기에 경찰이랑 걷는 사진까지 돌았음.",
+   "sfx": "none",
+   "tone": "친구한테 썰 풀듯 빠르게",
+   "visual": {
+    "bg": "street",
+    "video": [
+     "police car lights night",
+     "police car night",
+     "police lights"
+    ],
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이제 사람들 머릿속에선 약 뿌린 범인이 됨.",
+   "say": "이제 사람들 머릿속에선 약 뿌린 범인이 됨.",
+   "sfx": "none",
+   "tone": "어이없다는 듯이",
+   "visual": {
+    "bg": "street",
+    "video": [
+     "pills hand",
+     "medicine pills",
+     "tablets white"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "3년 전 마약 음료 사건을 다들 기억하니까.",
+   "say": "삼 년 전 마약 음료 사건을 다들 기억하니까.",
+   "sfx": "none",
+   "tone": "친구한테 썰 풀듯 빠르게",
+   "visual": {
+    "bg": "street",
+    "video": [
+     "bottle drink",
+     "drink bottle table",
+     "glass bottle"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "😨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 경찰이 사탕을 까 보니까.",
+   "say": "근데 경찰이 사탕을 까 보니까.",
+   "sfx": "question",
+   "tone": "궁금하게 살짝 끌면서",
+   "visual": {
+    "bg": "desk",
+    "pic": [
+     "candy macro",
+     "candy close",
+     "sweets candy"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🔍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "join": true
+  },
+  {
+   "text": "마약은 나오지도 않았음.",
+   "say": "마약은 나오지도 않았음.",
+   "sfx": "stamp",
+   "tone": "결정적 한 방을 터뜨리듯",
+   "visual": {
+    "bg": "desk",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "doc",
+      "title": "경찰 확인",
+      "lines": [
+       "사탕 성분 확인",
+       "마약류 검출 안 됨",
+       "범죄 혐의 없음"
+      ],
+      "mark": 1,
+      "at": 0.0
+     }
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "그럼 탈 속엔 누가 있었냐면.",
+   "say": "그럼 탈 속엔 누가 있었냐면.",
+   "sfx": "none",
+   "tone": "궁금하게 살짝 끌면서",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🦉",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "join": true
+  },
+  {
+   "text": "10대 남자애였음.",
+   "say": "십 대 남자애였음.",
+   "sfx": "stamp",
+   "tone": "크고 단호하게",
+   "visual": {
+    "bg": "classroom",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "高校生 男子",
+       "男子高校生",
+       "中学生 男子"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "경찰은 부모한테 돌려보내고 끝냈음.",
+   "say": "경찰은 부모한테 돌려보내고 끝냈음.",
+   "sfx": "none",
+   "tone": "친구한테 썰 풀듯 빠르게",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "母親 息子",
+       "お母さん 息子",
+       "怒る 母親"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그럼 글 올린 사람은 사과했을까.",
+   "say": "그럼 글 올린 사람은 사과했을까.",
+   "sfx": "none",
+   "tone": "친구한테 썰 풀듯 빠르게",
+   "visual": {
+    "bg": "street",
+    "video": [
+     "typing keyboard",
+     "keyboard hands",
+     "laptop typing"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "다른 사람일 수도 있겠네요.",
+   "say": "다른 사람일 수도 있겠네요.",
+   "sfx": "none",
+   "tone": "남 일처럼 심드렁하게",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "sms",
+      "from": "그 글쓴이",
+      "lines": [
+       "다른 사람일 수도",
+       "있겠네요"
+      ],
+      "at": 0.0
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "어그로만 끌고 아니면 말고였음.",
+   "say": "어그로만 끌고 아니면 말고였음.",
+   "sfx": "none",
+   "tone": "어이없다는 듯이",
+   "visual": {
+    "bg": "street",
+    "pic": [
+     "smartphone screen",
+     "phone hand",
+     "mobile phone"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "😤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "글은 곧 잠겼고 욕은 탈 쓴 애만 먹었음.",
+   "say": "글은 곧 잠겼고 욕은 탈 쓴 애만 먹었음.",
+   "sfx": "none",
+   "tone": "친구한테 썰 풀듯 빠르게",
+   "visual": {
+    "bg": "street",
+    "video": [
+     "padlock door",
+     "lock old",
+     "padlock metal"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🔒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "사탕보다 글 하나가 더 독했음.",
+   "say": "사탕보다 글 하나가 더 독했음.",
+   "sfx": "none",
+   "tone": "짧고 힘 있게",
+   "visual": {
+    "bg": "street",
+    "video": [
+     "candy colorful",
+     "candy sweets",
+     "lollipop candy"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🍬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   },
+   "cap": "react"
+  }
+ ]
+}

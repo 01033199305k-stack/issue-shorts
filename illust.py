@@ -73,6 +73,7 @@ SHEET = re.compile(r"いろいろな|色々な|表情のイラスト「|ポー�
 TEXTY = re.compile(r"文のイラスト|謝罪文|文章|文字|新聞|看板|ポスター|張り紙|貼り紙|手紙|メッセージ|お知らせ|標識|カード|メモ|書き初め|習字|円|将来|"
                    r"免許証|身分証|保険証|マイナンバー|パスポート|お札|紙幣|札束|お金|通帳|レシート|領収書|切符|チケット|"
                    r"カレンダー|時刻表|地図|国旗|メニュー|値札|請求書|契約書|書類|履歴書|名刺")
+OFF_TOPIC = re.compile(r"丼|戦時中|明治|大正|昭和|江戸|縄文|弥生|平安|戦国|古代")
 
 
 PARTICLES = "のとやでをがはも・"
@@ -113,6 +114,9 @@ def _score(title: str, words: list[str]) -> float | None:
     if SHEET.search(title):   # several faces/poses in one image - clutter in a panel slot
         return None
     if TEXTY.search(title):   # Japanese lettering in the drawing
+        return None
+    # 2026-11-02: 親子 found 親子丼 (a rice bowl for "부모"), 男子学生 a wartime soldier-student
+    if OFF_TOPIC.search(title) and not any(OFF_TOPIC.search(w) for w in words):
         return None
     group = "たち" in title and not any(w in ("たち", "人々", "群衆", "大勢") for w in words)
     main = re.sub(r"（[^）]*）|「[^」]*」", "", title)   # 泣いている女性のイラスト beats 泣き寝入りのイラスト（女性）

@@ -104,7 +104,7 @@ def _keyed(frame: Path) -> bool:
 # Pixabay's CDN rate-limits the shared GitHub runner IPs now and then: on 2026-10-11 18:00 every one of
 # ~35 file downloads came back 429 while the searches worked, so the video went out with no footage.
 # Wait and retry (Retry-After when given), within one budget per render so a bad hour can't stall it.
-_WAIT_BUDGET = [240.0]
+_WAIT_BUDGET = [420.0]
 
 
 def _download(url: str, dst: Path) -> None:

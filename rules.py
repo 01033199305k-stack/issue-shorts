@@ -192,16 +192,16 @@ def validate(script: dict) -> list[str]:
     if len(script["credit"]) > 44:
         p.append(f"credit is {len(script['credit'])} chars (max 40)")
     segs = script["segments"]
-    if not 6 <= len(segs) <= 12:   # hard limit; the 7-9 house target is in lint() so older scripts still render
-        p.append(f"{len(segs)} segments (want the title + 7-9: one picture per sentence)")
+    if not 6 <= len(segs) <= 30:   # hard limit; the 15-27 house target is in lint() so older scripts still render
+        p.append(f"{len(segs)} segments (want the title + 14-26 screens)")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
-    if not 130 <= total <= 290:
-        p.append(f"narration {total} chars (want 170-230, about 24-30 s - cut sentences that repeat or explain too much)")
+    if not 130 <= total <= 480:
+        p.append(f"narration {total} chars (want 300-450, about 40-60 s - cut sentences that repeat or explain too much)")
     queries = {json.dumps(it.get("q"), ensure_ascii=False) for s in segs for it in (s.get("visual") or {}).get("items", [])
                if it.get("type") in ("illust", "crowd") and it.get("q")}
     n_video = sum(1 for s in segs if (s.get("visual") or {}).get("video"))
-    if n_video > 6:   # hard limit (render refuses); the house limit of 2 is in lint()
-        p.append(f"{n_video} scenes with stock video (max 6)")
+    if n_video > 12:   # hard limit (render refuses); the house range of 5-10 is in lint()
+        p.append(f"{n_video} scenes with stock video (max 12)")
     if len(queries) > 20:
         p.append(f"{len(queries)} different illustrations - いらすとや licence allows 20 per video")
     for i, s in enumerate(segs):
@@ -348,8 +348,8 @@ def lint(script: dict) -> list[str]:
             p.append(f"illustration {q!r} appears {n} times - max 2; pick a different prop/person/pose for the other scenes")
     n_scenes = sum(1 for s in script.get("segments", []) if any(
         it.get("type") in ("illust", "crowd") for it in (s.get("visual") or {}).get("items", [])))
-    if len(uses) < min(5, n_scenes):
-        p.append(f"only {len(uses)} different illustrations - use at least 5 (the licence allows 20), a new picture for each scene")
+    if len(uses) < min(8, n_scenes):
+        p.append(f"only {len(uses)} different illustrations - use at least 8 (the licence allows 20), a new picture for each scene")
     for i, s in enumerate(script.get("segments", [])):
         v = s.get("visual") or {}
         its = v.get("items", [])
@@ -363,26 +363,26 @@ def lint(script: dict) -> list[str]:
             p.append(f"segment {i}: more than 2 pictures - one big picture (or two side by side) per scene")
     vids = [bool((s.get("visual") or {}).get("video")) for s in script.get("segments", [])]
     # 2026-10-27 사용자 "영상 좀 많이 넣기로 했는데 왜 조금만 들어가": the routine always wrote the minimum (2)
-    if sum(vids) < 3:   # 2026-10-06~07: six videos in a row went out with no footage at all
-        p.append(f"only {sum(vids)} scenes with stock video - give 3-5 sentences a real clip of the place/thing they name "
+    if sum(vids) < 5:   # 2026-10-06~07: six videos in a row went out with no footage at all
+        p.append(f"only {sum(vids)} scenes with stock video - give 5-10 screens a real clip of the place/thing they name "
                  "(ROUTINE video: a list of 2-3 English candidates per scene)")
-    if sum(vids) > 5:
-        p.append(f"{sum(vids)} scenes with stock video (max 5)")
+    if sum(vids) > 10:
+        p.append(f"{sum(vids)} scenes with stock video (max 10)")
     if vids and vids[0] and any(it.get("style") == "post" for it in (script["segments"][0].get("visual") or {}).get("items", [])):
         p.append("segment 0: the opening post card takes no stock video")
     # 2026-10-25 (사용자: "실사 사진이 짧주처럼 들어가면 좋을 것 같은데"): 2-3 real photos of the place/object per video
     segs_ = script.get("segments", [])
     pics = [bool((s.get("visual") or {}).get("pic")) for s in segs_]
     media = [a or b or bool((s.get("visual") or {}).get("photo")) for a, b, s in zip(vids, pics, segs_)]
-    if sum(pics) < 2:
-        p.append(f"only {sum(pics)} scenes with a real photo - give 2-3 sentences \"pic\": [English words for the place/"
+    if sum(pics) < 3:
+        p.append(f"only {sum(pics)} scenes with a real photo - give 3-5 screens \"pic\": [English words for the place/"
                  "object they name] (ROUTINE pic: stock stills, no people)")
-    if sum(pics) > 3:
-        p.append(f"{sum(pics)} pic scenes - max 3")
-    if sum(media) > 7:
-        p.append(f"{sum(media)} scenes on footage/photos - max 7")
-    if any(a and b and c and d for a, b, c, d in zip(media, media[1:], media[2:], media[3:])):
-        p.append("four footage/photo scenes in a row - put an illustrated scene between them")
+    if sum(pics) > 5:
+        p.append(f"{sum(pics)} pic scenes - max 5")
+    if sum(media) > 15:
+        p.append(f"{sum(media)} scenes on footage/photos - max 15")
+    if any(all(media[i:i + 6]) for i in range(len(media) - 5)):
+        p.append("six footage/photo scenes in a row - put an illustrated scene between them")
     if pics and pics[0]:
         p.append("segment 0: the opening post card takes no pic")
     if sum(pics) >= 2 and not any(pc and not any(it.get("type") in ("illust", "crowd") for it in (s.get("visual") or {}).get("items", []))
@@ -394,8 +394,8 @@ def lint(script: dict) -> list[str]:
     if n_place < (2 if sum(pics) >= 2 else 3):   # 2026-10-12: @통찰맨 puts every person in a real room/street
         p.append(f"only {n_place} scenes on a place photo - put the people in 3+ scenes where the story happens "
                  f"(bg one of {PLACES}, ROUTINE 장소 사진)")
-    if sum(kinds.count(k) for k in ("doc", "sms", "price")) > 3 or kinds.count("warn") > 1:
-        p.append("max 3 props (doc/sms/price) and 1 warn per video - they are the key evidence, not decoration")
+    if sum(kinds.count(k) for k in ("doc", "sms", "price")) > 6 or kinds.count("warn") > 1:
+        p.append("max 6 props (doc/sms/price) and 1 warn per video - they are the key evidence, not decoration")
     story = " ".join(s.get("text", "") for s in segs_)
     if ABROAD.search(story) and not re.search(r"한국|국내|서울", story):
         bad = sorted({b for b in bgs if b in KOREAN_PLACES})
@@ -416,13 +416,15 @@ def lint(script: dict) -> list[str]:
                 p.append(f"segment {i}: text style {st!r} repeats the caption (two subtitles on screen) - "
                          "use a picture/emoji; panel words only as the post card or the vote board")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
-    # 2026-10-17: 18-25 s squeezed the setup out - comments "뭔소린지?", "설명으로만 들어서는 모르겠음".
-    # One more setup sentence: title + 7-9 sentences, 170-230 chars (24-30 s)
-    if len(segs) > 10 or total > 235:
-        p.append(f"{len(segs)} sentences / {total} chars - write the title + 7-9 sentences, 170-230 chars (24-30 s)")
-    if total < 165:
-        p.append(f"only {total} chars - too compressed for a first-time viewer to follow; add the setup sentence "
-                 "(who / what happened / why it matters) - target 170-230 chars")
+    # 2026-11-02 듀오링고 편 비교: same story, @쓱삭숏 67 s 17.3만 vs ours 25 s 1.7천 - 30 s has no room for
+    # the rumour growing, the reveal and what happened to the people who spread it
+    if len(segs) > 27 or total > 460:
+        p.append(f"{len(segs)} screens / {total} chars - write the title + 14-26 screens, 300-450 chars (40-60 s)")
+    if len(segs) < 15:
+        p.append(f"only {len(segs)} screens - one short line per screen (a new picture every ~2 s), 15-27 screens")
+    if total < 290:
+        p.append(f"only {total} chars - tell it in stages (how it started, how it grew, the reveal, what happened next), "
+                 "target 300-450 chars; if the story has too few facts pick another one, never pad")
     post = next((it for it in ((segs[0].get("visual") or {}).get("items", []) if segs else [])
                  if it.get("style") == "post"), None)
     if post:   # 2026-10-07: @dolongcha/@군림보 read the title aloud first; ours jumped straight into the story
@@ -432,7 +434,7 @@ def lint(script: dict) -> list[str]:
                      f"{post.get('text', '')!r} (line break -> space), the hook goes to segment 1")
     # caption colours and cuts are accents: used everywhere they stop meaning anything (ROUTINE 자막 색)
     caps = [s.get("cap", "narr") for s in segs]
-    for name, most in (("hit", 2), ("quote", 2), ("shout", 2), ("sweet", 2), ("react", 1)):
+    for name, most in (("hit", 3), ("quote", 6), ("shout", 2), ("sweet", 2), ("react", 1)):
         if caps.count(name) > most:
             p.append(f"cap {name!r} on {caps.count(name)} sentences - max {most} per video")
     if caps and caps[0] != "narr":
@@ -444,8 +446,8 @@ def lint(script: dict) -> list[str]:
             p.append(f"segment {i}: cap {s['cap']!r} wants a short line (max 18 chars, like \"너 한 번만 더 울어!\"), "
                      f"got {len(s['text'])} - split the narration off into its own sentence")
     trs = [(s.get("visual") or {}).get("tr") for s in segs]
-    if trs.count("whoosh") > 3 or trs.count("flash") > 1:
-        p.append(f"{trs.count('whoosh')} whoosh / {trs.count('flash')} flash cuts - max 3 whoosh and 1 flash (a reveal) per video")
+    if trs.count("whoosh") > 5 or trs.count("flash") > 1:
+        p.append(f"{trs.count('whoosh')} whoosh / {trs.count('flash')} flash cuts - max 5 whoosh and 1 flash (a reveal) per video")
     if trs and trs[0]:
         p.append("segment 0: the video opens on the post card - no transition")
     # 2026-10-17 ending (사용자: "마지막에 댓글 유도형 질문은 별로"): no question to the viewer - the video ends
@@ -472,12 +474,6 @@ def lint(script: dict) -> list[str]:
         if re.search(r"따로 있|더 (의외|어이없|황당|놀라)|이유가 (더|따로)|아니었음|공개됨|반전", hook):
             p.append(f"segment 1 (hook) is a tease {hook[:24]!r} - right after the title it must show something new "
                      "(who did what, the number); the tease belongs in segment 2 or later")
-    # 10/7-10/15: titles with the story's number kept 61.4 % of feed viewers vs 55.1 % without
-    story_digits = re.findall(r"\d+", " ".join(s.get("text", "") for s in segs[1:]))
-    head = " ".join(script.get("title_lines", [])) + " " + (segs[0].get("text", "") if segs else "")
-    if story_digits and not re.search(r"\d|하루|이틀|사흘|나흘|열흘|[한두세네] ?(번|명|살|장|개|달|시간|마리)", head):
-        p.append("the story has a number but the title/card has none - put the most striking number in "
-                 "title_lines or the card title (titles with a number kept 61% vs 55% of viewers)")
     # like easter egg (2026-10-17~10-26): dropped - the button often stayed a heart and the promise read as a lie
     egg = script.get("like_egg")
     if egg is not None:   # 2026-10-26 사용자: "안 바뀌니까 거슬려" - the line is gone for good
@@ -497,6 +493,8 @@ def lint(script: dict) -> list[str]:
     if re.search(r"(것|거)$", core):
         p.append("youtube.title ends on '~것/거' (@짧은주녑: 0.47x the median) - end on the thing itself, '~한 이유' or '~의 진실'")
     brief = str(script.get("brief", ""))
+    if "구조:" not in brief:   # 2026-11-02: every video is told in stages (ROUTINE 구성)
+        p.append("brief has no 구조: line - write 구조: 시작 / 커짐 / 뒤집힘 / 정체 / 그 뒤")
     if "이해검사:" not in brief:
         p.append("brief has no '이해검사:' line - write who / what / how it ended in one sentence using only the script's words")
     if "유행:" not in brief:   # 2026-10-27 사용자: "유행에 민감하게 반응은 해야지" - ROUTINE 유행 레인
