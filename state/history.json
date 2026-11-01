@@ -4929,5 +4929,85 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-01_1800_new-car-scratch-baby-clothes/video.mp4"
   },
   "seconds": 1362
+ },
+ {
+  "key": "2026-11-02-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-02T07:00:00+09:00",
+  "started": "2026-11-02T04:19:26.251593+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-292930/",
+   "https://pixabay.com/photos/elevator-nice-view-building-door-939515/",
+   "https://pixabay.com/videos/id-65860/",
+   "https://pixabay.com/videos/id-569/",
+   "https://pixabay.com/photos/road-city-motorcycle-morning-6281973/",
+   "https://pixabay.com/videos/id-191248/",
+   "https://pixabay.com/videos/id-172779/",
+   "https://pixabay.com/photos/signs-regulations-wall-2799416/",
+   "https://pixabay.com/videos/id-90933/",
+   "https://pixabay.com/videos/id-105688/"
+  ],
+  "cc_clips": [],
+  "duration": 51.33,
+  "matches": [
+   1.0,
+   0.94,
+   0.98,
+   0.98,
+   0.98,
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   0.93,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   0.98,
+   0.92,
+   0.92,
+   0.92,
+   0.9,
+   1.0
+  ],
+  "sfx": 23,
+  "illustrations": 14,
+  "cuts": 23,
+  "layout_issues": [
+   {
+    "t": 35.7,
+    "kind": "cut",
+    "msg": "paper 42px past the panel edge",
+    "text": "경찰 수사",
+    "seen": 2
+   }
+  ],
+  "caption_breaks": [],
+  "title": "엘베 탄 배달 사장한테 500만원 내라던 건물주 #shorts",
+  "source_post": "https://www.fnnews.com/news/202611010922312775",
+  "facts_used": [
+   "2026년 10월 19일 전북 익산, 한식 배달 가게를 7년째 운영하는 30대 사장이 빌라 4층 단골 세입자에게 음식을 전하려 엘리베이터를 탐, 1층 출입구를 건물주가 막고 시비 — JTBC 사건반장 10/30 보도 인용: 파이낸셜뉴스 2026-11-01 https://www.fnnews.com/news/202611010922312775 , 인사이트 https://www.insight.co.kr/news/580099 , 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=480518 , 네이트뉴스 https://news.nate.com/view/20261031n08382",
+   "건물주: \"네가 4층까지 뛰어 올라가면 되지 왜 엘리베이터를 타냐\", 배달기사들 때문에 관리비가 많이 나온다고 주장 — 파이낸셜뉴스, 인사이트",
+   "시동 걸고 출발하려는데 건물주가 오른쪽 팔꿈치를 잡아당겨 약 200kg 오토바이가 넘어지며 사장이 깔림, 부품 파손(사장 주장) — 파이낸셜뉴스, 인사이트, 스페셜타임스",
+   "건물주: \"난 당긴 적 없다. 너 혼자 넘어져 놓고 왜 그러냐\" — 파이낸셜뉴스, 인사이트",
+   "수리비가 200만 원 넘을 것 같다고 하자 \"배달 기사가 엘리베이터를 타면 500만원을 내야 한다\"며 쫓아냄 — 파이낸셜뉴스, 인사이트",
+   "사장은 진단서·오토바이 파손 사진으로 고소, 익산경찰서는 건물주를 폭행·재물손괴 혐의로 검찰 송치 예정 — 인사이트, 스페셜타임스, 파이낸셜뉴스",
+   "건물주는 조사에서 관리비 때문에 기분 나빴다는 취지 진술, 경찰이 배달기사 엘리베이터 이용 제한 안내문을 제안했으나 대학가 원룸촌이라 대학생 세입자가 안 들어온다며 거부 — 인사이트, 파이낸셜뉴스(검색 요약 2건)"
+  ],
+  "slug": "2026-11-02_0700_elevator-delivery-landlord-fee",
+  "held_for_layout": true,
+  "late": true,
+  "video_id": "4kFFYgKqCds",
+  "url": "https://youtube.com/shorts/4kFFYgKqCds",
+  "privacy": "private",
+  "scheduled_for": null,
+  "tiktok": {
+   "skipped": "화면 검수에 걸림 - 틱톡은 올리지 않음"
+  },
+  "seconds": 2622
  }
 ]
