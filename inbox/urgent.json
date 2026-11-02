@@ -1,43 +1,153 @@
 {
- "detected_at": "2026-11-02T10:48+09:00",
+ "detected_at": "2026-11-02T15:13+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李대통령 \"'정치적올바름'에 반발하는 이유는 내로남불 때문\"",
-   "url": "https://n.news.naver.com/article/001/0016414742",
-   "press": "연합뉴스",
+   "title": "野 “재판 재개하라” 야유... 李 “하실 말씀 다 하셨나”",
+   "url": "https://n.news.naver.com/article/023/0004007260",
+   "press": "조선일보",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "헤럴드경제",
-     "title": "李대통령 “‘정치적 올바름’ 피로도, ‘내로남불’ 태도 때문”",
-     "url": "https://n.news.naver.com/article/016/0002717329"
+     "press": "중앙일보",
+     "title": "野 “재판 재개하라” 야유…李 “자꾸 방해하는 얘기만” 신경전",
+     "url": "https://n.news.naver.com/article/025/0003562161"
     },
     {
-     "press": "경향신문",
-     "title": "이 대통령 “정치적 올바름 피로감, 내로남불 때문···전두환이 정의사회 구현 외쳐”",
-     "url": "https://n.news.naver.com/article/032/0003480019"
+     "press": "동아일보",
+     "title": "국힘 “재판 재개하라” 야유…李 “자꾸 방해하는 얘기네요”",
+     "url": "https://n.news.naver.com/article/020/0003759353"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "李대통령 지지율 ‘36.9%’…“경상수지 흑자·수도권 주택 공급 확대 요인” [리얼미터]",
-   "url": "https://n.news.naver.com/article/029/0003056487",
-   "press": "디지털타임스",
+   "title": "민주 '박수갈채' 국힘 '야유'...이 대통령 연설 멈추기도",
+   "url": "https://n.news.naver.com/article/052/0002427112",
+   "press": "YTN",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "서울경제",
-     "title": "李대통령 지지율 36.9%…한 주 만에 반등, 민주당도 38.3%로 상승 [리얼미터]",
-     "url": "https://n.news.naver.com/article/011/0004677604"
+     "press": "연합뉴스TV",
+     "title": "이 대통령 시정연설…민주 '30번 박수'·국힘 '피켓시위'",
+     "url": "https://n.news.naver.com/article/422/0000922000"
     },
     {
-     "press": "아시아경제",
-     "title": "수도권 주택 공급 확대 통했다…李대통령 지지율 36.9%, 한 주 만에 반등[아경-리얼미터 여론조사]",
-     "url": "https://n.news.naver.com/article/277/0005836366"
+     "press": "조선비즈",
+     "title": "국힘, 李대통령 연설에 악수 대신 항의… 7개월 전과 ‘딴판’",
+     "url": "https://n.news.naver.com/article/366/0001201929"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 구로 ‘미라 시신’ 50대 중국인, 병원비 못 내 퇴원",
+   "url": "https://n.news.naver.com/article/022/0004171711",
+   "press": "세계일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보]이 대통령 “30년 만에 IMF 졸업···K자 성장 극복은 새 성장 공식으로”",
+   "url": "https://n.news.naver.com/article/032/0003480031",
+   "press": "경향신문",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "이 대통령 \"'소수의 성장' 아닌 '모두의 성장' 대전환해야\"",
+   "url": "https://n.news.naver.com/article/055/0001399898",
+   "press": "SBS",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "연합뉴스",
+     "title": "李대통령 \"불평등 양극화 그늘 여전…'모두의 성장' 대전환해야\"(종합)",
+     "url": "https://n.news.naver.com/article/001/0016415340"
+    },
+    {
+     "press": "KBS",
+     "title": "이 대통령 “양극화 그늘 여전…소수 아닌 ‘모두의 성장’으로 대전환”",
+     "url": "https://n.news.naver.com/article/056/0012285354"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[현장] 李대통령, 야당 향해 \"자꾸 방해를 하시네\"…국민의힘 \"재판 재개하라\"",
+   "url": "https://n.news.naver.com/article/119/0003150115",
+   "press": "데일리안",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "중앙일보",
+     "title": "野 “재판 재개하라” 야유…李 “자꾸 방해하는 얘기만” 신경전",
+     "url": "https://n.news.naver.com/article/025/0003562161"
+    },
+    {
+     "press": "동아일보",
+     "title": "국힘 “재판 재개하라” 야유…李 “자꾸 방해하는 얘기네요”",
+     "url": "https://n.news.naver.com/article/020/0003759353"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]철원 전방부대서 하사 외상 입고 발견…의식불명 끝 사망",
+   "url": "https://n.news.naver.com/article/018/0006401983",
+   "press": "이데일리",
+   "why": "[속보] 기사 + 언론사 6곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "헤럴드경제",
+     "title": "[속보] 육군 “강원 철원 전방부대서 하사 1명, 외상 입고 사망”",
+     "url": "https://n.news.naver.com/article/016/0002717560"
+    },
+    {
+     "press": "강원도민일보",
+     "title": "[속보] \"철원 육군 전방부대 하사 외상 입고 사망\"",
+     "url": "https://n.news.naver.com/article/654/0000208814"
+    },
+    {
+     "press": "머니투데이",
+     "title": "철원 육군 전방부대서 하사 1명 숨져…현장서 총기·탄피 발견",
+     "url": "https://n.news.naver.com/article/008/0005435172"
+    },
+    {
+     "press": "매경이코노미",
+     "title": "[속보] “강원도 철원서 육군 하사 1명 외상 입고 사망”",
+     "url": "https://n.news.naver.com/article/024/0000109326"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "이 대통령 \"모두의 성장으로 대전환…미래성장·격차완화 집중투자\"(종합)",
+   "url": "https://n.news.naver.com/article/003/0014294661",
+   "press": "뉴시스",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "연합뉴스",
+     "title": "李대통령 \"불평등 양극화 그늘 여전…'모두의 성장' 대전환해야\"(종합)",
+     "url": "https://n.news.naver.com/article/001/0016415340"
+    },
+    {
+     "press": "KBS",
+     "title": "이 대통령 “양극화 그늘 여전…소수 아닌 ‘모두의 성장’으로 대전환”",
+     "url": "https://n.news.naver.com/article/056/0012285354"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 李 “공적자금 내년 모두 상환…30년만에 IMF 위기 완벽 졸업”",
+   "url": "https://n.news.naver.com/article/030/0003480930",
+   "press": "전자신문",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
