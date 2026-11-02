@@ -5084,5 +5084,81 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-02_1200_teacher-changed-six-times-complaints/video.mp4"
   },
   "seconds": 2825
+ },
+ {
+  "key": "2026-11-02-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-02T18:00:00+09:00",
+  "started": "2026-11-02T15:21:33.234281+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-22355/",
+   "https://pixabay.com/videos/id-133206/",
+   "https://pixabay.com/videos/id-11720/",
+   "https://pixabay.com/videos/id-3188/",
+   "https://pixabay.com/photos/code-coding-computer-data-1839406/",
+   "https://pixabay.com/videos/id-736/",
+   "https://pixabay.com/videos/id-135480/",
+   "https://pixabay.com/photos/police-police-station-sign-1530531/",
+   "https://pixabay.com/photos/padlock-lock-chain-key-security-597495/",
+   "https://pixabay.com/videos/id-72883/"
+  ],
+  "cc_clips": [],
+  "duration": 54.94,
+  "matches": [
+   1.0,
+   0.93,
+   1.0,
+   0.94,
+   0.94,
+   1.0,
+   1.0,
+   0.94,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.93,
+   0.93,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.98,
+   0.98,
+   0.96,
+   0.94,
+   0.9
+  ],
+  "sfx": 22,
+  "illustrations": 18,
+  "cuts": 23,
+  "layout_issues": [],
+  "caption_breaks": [
+   "한국시리즈 / 8만1000원 (55)"
+  ],
+  "title": "8만 원 야구표를 893만 원에 판 일당 #shorts",
+  "source_post": "https://www.seoul.co.kr/news/society/2026/11/02/20261102500117",
+  "facts_used": [
+   "인천경찰청 사이버수사과, 매크로·타인 명의 계정으로 공연·프로야구 입장권 약 1만5500장 부정 예매해 SNS에서 최대 110배 웃돈 판매, 범죄수익 약 22억 원, 30대 총책 A씨 등 20~60대 24명 업무방해·공연법·국민체육진흥법 위반 혐의 송치 — 서울신문 2026-11-02 https://www.seoul.co.kr/news/society/2026/11/02/20261102500117 , 뉴스1 https://www.news1.kr/local/incheon/6339593 , 경인일보 https://www.kyeongin.com/article/1773883",
+   "정가 8만1000원 2025 한국시리즈 입장권 893만 원(약 110배), 정가 20만 원 공연 입장권 672만 원(약 34배) — 경인일보, 서울경제 https://m.sedaily.com/article/20109083 , 청년일보 https://www.youthdaily.co.kr/news/article.html?no=229205",
+   "PC 22대 설치한 사무실에서 매크로 반복 가동, 타인 명의 계정 동원, 일부 자체 개발 프로그램 사용 — 경인일보, 데일리안 https://www.dailian.co.kr/news/view/1709458 , OBS https://www.obsnews.co.kr/news/articleView.html?idxno=1542367",
+   "수사는 SNS에서 국내 아이돌 공연 티켓을 팔던 외국인의 게시물에서 시작, 예매 정보를 역추적해 최초 구매자 특정 — 경인일보, 브릿지경제 https://www.viva100.com/article/20261102500420 , 미디어인천 http://www.mediaic.co.kr/news/articleView.html?idxno=85463",
+   "범죄수익 약 21억 원(20억9900만 원) 기소 전 추징보전·동결, 경찰 '시민의 공정한 구매 기회를 빼앗는 범죄', 매크로 제작·유포까지 단속 확대 — 서울신문, 브릿지경제, 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2082021",
+   "2026-08-28부터 개정 공연법·국민체육진흥법 시행, 매크로 사용과 관계없이 상습·영업적 웃돈 판매 금지 — 더팩트 https://news.tf.co.kr/read/ogmeta/2365067.htm , 노컷뉴스 https://www.nocutnews.co.kr/news/6580174"
+  ],
+  "slug": "2026-11-02_1800_baseball-ticket-macro-scalpers",
+  "late": false,
+  "video_id": "BAizfI4mfRs",
+  "url": "https://youtube.com/shorts/BAizfI4mfRs",
+  "privacy": "private",
+  "scheduled_for": "2026-11-02T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae834a076279ec7eb99be57",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-02T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-02_1800_baseball-ticket-macro-scalpers/video.mp4"
+  },
+  "seconds": 2228
  }
 ]
