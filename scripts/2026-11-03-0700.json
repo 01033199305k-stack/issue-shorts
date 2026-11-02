@@ -1,0 +1,727 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "cafe-parttimer-three-drinks",
+ "title_lines": [
+  "음료 3잔에 고소당한",
+  "카페 알바생의 진실"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "퇴근길 음료 3잔 챙겼다가 고소당한 알바생",
+   "say": "퇴근길 음료 세 잔 챙겼다가 고소당한 알바생",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "퇴근길 음료 3잔 챙겼다가\n고소당한 알바생",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "사장이 낸 고소장 죄명은 업무상 횡령.",
+   "say": "사장이 낸 고소장 죄명은 업무상 횡령.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "고소 내용",
+      "lines": [
+       "죄명: 업무상 횡령",
+       "음료 3잔",
+       "1만2800원어치"
+      ],
+      "mark": 0,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 店員",
+       "カフェ 店員"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 진짜 얘기는 3잔 뒤부터임.",
+   "say": "근데 진짜 얘기는 세 잔 뒤부터임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コーヒー カップ",
+       "コーヒー"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "청주 한 카페 알바생이",
+   "say": "청주 한 카페 알바생이",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "cafe",
+    "tr": "whoosh",
+    "video": [
+     "coffee shop barista",
+     "cafe counter",
+     "coffee machine"
+    ],
+    "cc": [
+     "korean coffee shop interior",
+     "cafe interior korea"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カフェ 店員",
+       "喫茶店 店員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "☕",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "퇴근길에 음료 3잔을 들고 나감.",
+   "say": "퇴근길에 음료 세 잔을 들고 나감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "cafe",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "帰宅 若者",
+       "持ち帰り コーヒー"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알바생은 잘못 만든 버릴 음료였다고 함.",
+   "say": "알바생은 잘못 만든 버릴 음료였다고 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "coffee cups",
+     "iced coffee"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "失敗 店員",
+       "落ち込む 若者"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🗑️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "사장은 버릴 음료도 돈 내라 했다며 맞섬.",
+   "say": "사장은 버릴 음료도 돈 내라 했다며 맞섬.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "cafe",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 店長",
+       "店長 男性",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 다섯 달간 음료랑 디저트를",
+   "say": "심지어 다섯 달간 음료랑 디저트를",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "video": [
+     "dessert cake display",
+     "cake shop display",
+     "dessert table"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ケーキ",
+       "デザート"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍰",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "35만 원어치 축냈다고 주장했는데,",
+   "say": "삼십오만 원어치 축냈다고 주장했는데,",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "指差す 男性",
+       "責める 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "☝️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "합의금으로 무려 550만 원을 부름.",
+   "say": "합의금으로 무려 오백오십만 원을 부름.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "price",
+      "label": "음료값→합의금",
+      "old": "35만 원",
+      "new": "550만 원",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "stamp"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "수험생이던 알바생은 겁먹고 돈을 냈다고.",
+   "say": "수험생이던 알바생은 겁먹고 돈을 냈다고.",
+   "sfx": "whoosh",
+   "tone": "다 포기한 듯 힘 빠진 목소리로, 말끝은 분명하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "受験生 勉強",
+       "勉強 若者"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그만두고 두 달 뒤엔 고소까지 당함.",
+   "say": "그만두고 두 달 뒤엔 고소까지 당함.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "police station",
+     "police building"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "📨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰은 처음엔 알바생을 검찰에 넘김.",
+   "say": "경찰은 처음엔 알바생을 검찰에 넘김.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官 取り調べ",
+       "刑事",
+       "警察官"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 이 얘기가 퍼지자 판이 뒤집힘.",
+   "say": "와, 이 얘기가 퍼지자 판이 뒤집힘.",
+   "sfx": "whoosh",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "cafe",
+    "items": [
+     {
+      "type": "warn",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン ニュース",
+       "スマホ 見る"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "노동부가 가게를 털어 보니",
+   "say": "노동부가 가게를 털어 보니",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "video": [
+     "documents inspection office",
+     "paperwork office",
+     "office documents"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "調査 書類",
+       "監査"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알바 49명 임금 300만 원을 떼먹었던 거임.",
+   "say": "알바 마흔아홉 명 임금 삼백만 원을 떼먹었던 거임.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "crowd",
+      "q": [
+       "アルバイト 若者",
+       "アルバイト"
+      ],
+      "count": 12,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "가게를 둘로 쪼개 수당까지 피했다고.",
+   "say": "가게를 둘로 쪼개 수당까지 피했다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "悪い顔 男性",
+       "悪だくみ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✂️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "결국 본사가 가게 계약을 끊음.",
+   "say": "결국 본사가 가게 계약을 끊음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "closed shop door",
+     "closed sign door",
+     "shop shutter"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "閉店",
+       "シャッター 店"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "합의금은 돌려주고 고소도 취하함.",
+   "say": "합의금은 돌려주고 고소도 취하함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "money counting hands",
+     "cash counting",
+     "money bills"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お金 返す",
+       "返金"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 횡령은 취하해도 수사가 계속됨.",
+   "say": "근데 횡령은 취하해도 수사가 계속됨.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "police car",
+     "police lights"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰은 거짓말로 볼 증거가 없다며",
+   "say": "경찰은 거짓말로 볼 증거가 없다며",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "visual": {
+    "bg": "office",
+    "video": [
+     "office desk documents",
+     "police office",
+     "desk papers"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官 書類",
+       "警察官 デスク"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📝",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "1년 만에 혐의없음으로 끝냄.",
+   "say": "일 년 만에 혐의없음으로 끝냄.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ガッツポーズ 若者",
+       "喜ぶ 若者"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "✅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "3잔은 따지고 알바비는 안 줬음.",
+   "say": "세 잔은 따지고 알바비는 안 줬음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "cafe",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コーヒー 三つ",
+       "コーヒー カップ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "☕",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "음료 3잔에 고소당한 카페 알바생의 진실 #shorts",
+  "description": "청주의 한 카페 알바생이 퇴근길에 음료 3잔(1만2800원어치)을 챙겼다가 업무상 횡령으로 고소당했음.\n그 전엔 35만 원어치를 축냈다는 이유로 합의금 550만 원까지 냈다고.\n사건이 알려지자 노동부 감독에서 사장이 알바 49명 임금 약 300만 원을 안 준 사실이 드러났고, 알바생은 1년 만에 혐의없음 결정을 받았음.\n\n※ AI 음성으로 제작했습니다.\n#알바 #카페 #합의금 #혐의없음 #썰 #shorts",
+  "tags": [
+   "알바",
+   "카페 알바",
+   "음료 3잔",
+   "횡령 고소",
+   "합의금",
+   "임금체불",
+   "혐의없음",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.newspim.com/news/view/20261030001055",
+ "facts_used": [
+  "청주 카페 알바생, 퇴근길 음료 3잔(1만2800원 상당) 가져갔다며 업무상 횡령 고소당함, 경찰 보완수사 끝 혐의없음 불송치, 경찰 'A씨 진술에 거짓이 있다고 볼 만한 증거를 찾지 못해' — 뉴스핌 https://www.newspim.com/news/view/20261030001055 , 문화일보 https://www.munhwa.com/article/11627021 , 세계일보 https://www.segye.com/newsView/20261028519424 , 충청일보 https://www.ccdailynews.com/news/articleView.html?idxno=2448632 , 시사저널 https://www.sisajournal.com/news/articleView.html?idxno=392355",
+  "2025년 5~10월 근무, 그만둔 지 두 달 뒤인 12월 고소, 알바생은 제조 실수로 생긴 폐기 대상 음료라고 주장, 점주 측은 폐기 음료도 돈을 내야 한다고 고지했다고 반박, 경찰 처음엔 불구속 송치 — 머니투데이 https://www.mt.co.kr/society/2026/03/31/2026033116314385860 , 경기일보 https://www.kyeonggi.com/article/20260331580358 , 헤럴드경제 https://www.heraldk.com/article/2026033021191941516",
+  "5개월간 35만 원어치 음료·디저트 무단 취식 주장하며 합의금 550만 원 받아 냄, 논란 뒤 합의금 반환·고소 취하 — 이데일리 https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02699446645486968 , 머니투데이 https://www.mt.co.kr/society/2026/04/10/2026041014174744134 , 디지털타임스 https://www.dt.co.kr/article/12070368",
+  "노동부 기획감독: 사업장 2곳으로 쪼개 운영해 가산수당 회피, 알바 49명 임금 약 300만 원 미지급, 위약예정 조항으로 형사입건, 직장 내 괴롭힘 인정 과태료 — 서울경제 https://www.sedaily.com/article/20053261 , 경향신문 https://www.khan.co.kr/article/202606081228001",
+  "본사 가맹계약 해지, 7월 13일까지 영업 종료 통보 — 머니투데이 https://www.mt.co.kr/society/2026/06/30/2026062917290553563 , 알파경제 https://www.alphabiz.co.kr/news/articleView.html?idxno=162109 , YTN https://www.ytn.co.kr/_ln/0103_202606300823022668",
+  "업무상 횡령은 반의사불벌죄가 아니라 고소 취하 뒤에도 수사 계속 — 뉴스핌, 문화일보"
+ ],
+ "brief": "점수표: [선택] 퇴근길 음료 3잔(1만2800원)으로 업무상 횡령 고소당한 청주 카페 알바생, 보완수사 끝 혐의없음(뉴스핌 10/30·문화일보·세계일보 10/28·충청일보·시사저널·강원도민일보·서울경제 영상; 합의금 550만 원은 이데일리·머니투데이 4/10·디지털타임스, 노동부 감독 결과는 서울경제·경향 6/8, 가맹 해지는 머니투데이·알파경제·YTN 6/30) 이게됨4(1만2800원 음료로 550만 원 합의금·형사 고소)+궁금증4(합의금 액수→사장의 체불→수사 결론을 차례로 숨김)+감정8(수험생 알바의 억울함, 통쾌한 반전)+대상4(카페 알바)+판정5(일을 키운 쪽이 분명, 단계적으로 커짐)=25 / 운동회 계주 취소 민원(SBS·서울경제 11/2) 3+2+6+4+3=18 숨긴 답 약함·앞 회차 학부모 민원과 겹침 / 아이파크몰 오픈런 침낭 '대반전'(구글 급상승 아이 파크 몰 용산 점) 기사 원문 확인 못 함 탈락 / 샤이니 민호 마라톤 밀어주기 의혹 연예인·의혹 탈락 / 결혼자금 5억 주식 투자 소재 탈락. 유행: 없음 (아이 파크 몰 용산 점·에어부산·김태균 APBC·치이카와·결혼식 축의금 확인 — 오픈런 기사는 세부 사실 확인 못 함). 아이 레인: 아님(이번 실행 1편, 11/3 12·18시 회차에서 채움). 해외 아님. 구조: 시작=청주 카페 알바생이 퇴근길에 음료 3잔을 들고 나감(본인은 잘못 만든 폐기 음료라 주장) / 커짐=사장 '폐기 음료도 돈 내야'→5개월간 음료·디저트 35만 원어치 주장→합의금 550만 원 받아 냄→그만둔 지 두 달 뒤(2025년 12월) 업무상 횡령 고소→경찰 불구속 송치 / 뒤집힘=사건이 알려지자 노동부 기획감독, 사장이 알바 49명 임금 약 300만 원 미지급·사업장 둘로 쪼개 가산수당 회피 / 정체=일을 키운 쪽은 남의 음료값을 따지던 사장 본인(위약예정 조항으로 형사입건, 괴롭힘 과태료) / 그 뒤=합의금 반환·고소 취하, 본사 가맹계약 해지(7/13 영업 종료), 횡령은 반의사불벌죄가 아니라 수사 계속, 10월 말 보완수사 끝 혐의없음(약 1년 만). 첫장면: 의외 (음료 3잔에 '업무상 횡령' 고소장). 훅 3안: ①'사장이 낸 고소장 죄명은 업무상 횡령'(선택: 제목의 고소를 한 발 더 구체적으로, 소품으로 시작) ②'음료값 1만2800원에 합의금 550만 원'(첫 답 노출) ③'알바생이 경찰서에 불려 감'(흐림). 글 카드 3안: '퇴근길 음료 3잔 챙겼다가 고소당한 알바생'(선택) / '음료 3잔 횡령범 된 알바생'(단정적) / '1만2800원짜리 고소장'(흐림). 제목: 사람(카페 알바생)+무슨 일(음료 3잔에 고소)+궁금함(진실=혐의없음·사장 체불), 3잔은 사건의 핵심 숫자, 앞 2회차 앞머리 없음, '~의 진실' 꼬리. 인용(보도 그대로 풀어씀): 알바생 '제조 실수로 인한 폐기 대상 음료' / 사장 측 '폐기 대상 음료도 돈을 내야 한다고 고지' / 사장 측 '5개월간 35만 원어치 음료·디저트를 마시거나 지인에게 제공' / 경찰 'A씨 진술에 거짓이 있다고 볼 만한 증거를 찾지 못해 불송치' — 4번. 사장 측 '상습 무단 처리'(뉴시스 4/2)·'절도죄면 대학도 못 간다'(제목 수준 1건)는 확인 부족으로 안 씀. 욕할 대상: 음료값은 따지면서 알바 임금을 떼먹은 사장의 대응(실명·상호·브랜드명 안 씀, '청주 한 카페'로만). 주의: 매장 2곳(커피전문점·디저트매장) 점주가 같은 사람으로 보도, 인물 표기(A·B·C)가 매체마다 달라 '사장'으로 통일. 알바 나이는 10대·20대·고3·재수생으로 갈려 '수험생'으로만 씀(수능 앞두고 합의했다는 보도). 35만/34만 원은 35만 원으로. 불송치 발표일 28·29일 갈려 '10월 말'. 노동부 체불액 '약 300만 원'. 공갈 고소 건 불송치·이의신청은 복잡해 뺌. warn: 앞 회차(11/2 18시)에 없어서 1번 씀. 증거: doc(고소 내용: 업무상 횡령·음료 3잔·1만2800원어치), price(35만 원→550만 원). 이해검사: 청주 카페 알바생이 퇴근길 음료 3잔 때문에 사장에게 합의금 550만 원을 내고 횡령으로 고소까지 당했는데, 알고 보니 사장은 알바 49명 임금 300만 원을 안 줬고 본사가 계약을 끊었으며, 알바생은 1년 만에 혐의없음을 받았다. 그림대조: 완료 (카페 장면 cafe bg·바리스타 스톡, 경찰·검찰은 경찰관·재판소 그림, 사람 사진 없음, 브랜드 로고·간판 검색어 안 씀). 화면: 23개, 약 450자."
+}
