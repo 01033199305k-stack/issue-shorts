@@ -5160,5 +5160,80 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-02_1800_baseball-ticket-macro-scalpers/video.mp4"
   },
   "seconds": 2228
+ },
+ {
+  "key": "2026-11-03-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-03T07:00:00+09:00",
+  "started": "2026-11-03T04:22:10.109388+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-15482/",
+   "https://pixabay.com/photos/coffee-turkish-coffee-coffee-cups-4413194/",
+   "https://pixabay.com/videos/id-258562/",
+   "https://pixabay.com/photos/police-police-station-sign-1530531/",
+   "https://pixabay.com/videos/id-87146/",
+   "https://pixabay.com/videos/id-214855/",
+   "https://pixabay.com/videos/id-50622/",
+   "https://pixabay.com/photos/car-police-car-police-cops-road-6398127/",
+   "https://pixabay.com/videos/id-34258/"
+  ],
+  "cc_clips": [],
+  "duration": 52.96,
+  "matches": [
+   0.95,
+   0.94,
+   0.97,
+   0.99,
+   0.99,
+   0.97,
+   0.97,
+   0.96,
+   0.96,
+   0.96,
+   1.0,
+   0.95,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.94,
+   0.96,
+   0.97,
+   1.0,
+   0.99,
+   0.99,
+   0.93
+  ],
+  "sfx": 22,
+  "illustrations": 11,
+  "cuts": 23,
+  "layout_issues": [],
+  "caption_breaks": [
+   "달간 / 음료랑 (55)"
+  ],
+  "title": "음료 3잔에 고소당한 카페 알바생의 진실 #shorts",
+  "source_post": "https://www.newspim.com/news/view/20261030001055",
+  "facts_used": [
+   "청주 카페 알바생, 퇴근길 음료 3잔(1만2800원 상당) 가져갔다며 업무상 횡령 고소당함, 경찰 보완수사 끝 혐의없음 불송치, 경찰 'A씨 진술에 거짓이 있다고 볼 만한 증거를 찾지 못해' — 뉴스핌 https://www.newspim.com/news/view/20261030001055 , 문화일보 https://www.munhwa.com/article/11627021 , 세계일보 https://www.segye.com/newsView/20261028519424 , 충청일보 https://www.ccdailynews.com/news/articleView.html?idxno=2448632 , 시사저널 https://www.sisajournal.com/news/articleView.html?idxno=392355",
+   "2025년 5~10월 근무, 그만둔 지 두 달 뒤인 12월 고소, 알바생은 제조 실수로 생긴 폐기 대상 음료라고 주장, 점주 측은 폐기 음료도 돈을 내야 한다고 고지했다고 반박, 경찰 처음엔 불구속 송치 — 머니투데이 https://www.mt.co.kr/society/2026/03/31/2026033116314385860 , 경기일보 https://www.kyeonggi.com/article/20260331580358 , 헤럴드경제 https://www.heraldk.com/article/2026033021191941516",
+   "5개월간 35만 원어치 음료·디저트 무단 취식 주장하며 합의금 550만 원 받아 냄, 논란 뒤 합의금 반환·고소 취하 — 이데일리 https://www.edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02699446645486968 , 머니투데이 https://www.mt.co.kr/society/2026/04/10/2026041014174744134 , 디지털타임스 https://www.dt.co.kr/article/12070368",
+   "노동부 기획감독: 사업장 2곳으로 쪼개 운영해 가산수당 회피, 알바 49명 임금 약 300만 원 미지급, 위약예정 조항으로 형사입건, 직장 내 괴롭힘 인정 과태료 — 서울경제 https://www.sedaily.com/article/20053261 , 경향신문 https://www.khan.co.kr/article/202606081228001",
+   "본사 가맹계약 해지, 7월 13일까지 영업 종료 통보 — 머니투데이 https://www.mt.co.kr/society/2026/06/30/2026062917290553563 , 알파경제 https://www.alphabiz.co.kr/news/articleView.html?idxno=162109 , YTN https://www.ytn.co.kr/_ln/0103_202606300823022668",
+   "업무상 횡령은 반의사불벌죄가 아니라 고소 취하 뒤에도 수사 계속 — 뉴스핌, 문화일보"
+  ],
+  "slug": "2026-11-03_0700_cafe-parttimer-three-drinks",
+  "late": false,
+  "video_id": "fkHE29gFkwM",
+  "url": "https://youtube.com/shorts/fkHE29gFkwM",
+  "privacy": "private",
+  "scheduled_for": "2026-11-02T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae8ed2cfb05897d9d39f966",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-02T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-03_0700_cafe-parttimer-three-drinks/video.mp4"
+  },
+  "seconds": 2635
  }
 ]
