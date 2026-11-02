@@ -1,151 +1,48 @@
 {
- "detected_at": "2026-11-02T15:13+09:00",
+ "detected_at": "2026-11-02T18:23+09:00",
  "candidates": [
   {
-   "kind": "news",
-   "title": "野 “재판 재개하라” 야유... 李 “하실 말씀 다 하셨나”",
-   "url": "https://n.news.naver.com/article/023/0004007260",
-   "press": "조선일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
+   "kind": "community",
+   "title": "[기갤] \"실격 처리해야\" 샤이니 민호, 마라톤 대회 논란…페이스메이커 조력",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=474944&_dcbest=1&page=1",
+   "board": "디시 실베",
+   "why": "커뮤니티 2곳 동시 화제 + 기사화(헤럴드경제)",
+   "news": [
     {
-     "press": "중앙일보",
-     "title": "野 “재판 재개하라” 야유…李 “자꾸 방해하는 얘기만” 신경전",
-     "url": "https://n.news.naver.com/article/025/0003562161"
-    },
-    {
-     "press": "동아일보",
-     "title": "국힘 “재판 재개하라” 야유…李 “자꾸 방해하는 얘기네요”",
-     "url": "https://n.news.naver.com/article/020/0003759353"
+     "url": "https://n.news.naver.com/article/016/0002717741",
+     "headline": "“실격 처리해야” 샤이니 민호 마라톤 ‘페이스 메이커’ 논란…“등 미는 모습 포착”"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "민주 '박수갈채' 국힘 '야유'...이 대통령 연설 멈추기도",
-   "url": "https://n.news.naver.com/article/052/0002427112",
-   "press": "YTN",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "제네시스 생산라인 중단…G80 신차 투입 놓고 노사 충돌",
+   "url": "https://n.news.naver.com/article/015/0005349204",
+   "press": "한국경제",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
-    {
-     "press": "연합뉴스TV",
-     "title": "이 대통령 시정연설…민주 '30번 박수'·국힘 '피켓시위'",
-     "url": "https://n.news.naver.com/article/422/0000922000"
-    },
-    {
-     "press": "조선비즈",
-     "title": "국힘, 李대통령 연설에 악수 대신 항의… 7개월 전과 ‘딴판’",
-     "url": "https://n.news.naver.com/article/366/0001201929"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 구로 ‘미라 시신’ 50대 중국인, 병원비 못 내 퇴원",
-   "url": "https://n.news.naver.com/article/022/0004171711",
-   "press": "세계일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보]이 대통령 “30년 만에 IMF 졸업···K자 성장 극복은 새 성장 공식으로”",
-   "url": "https://n.news.naver.com/article/032/0003480031",
-   "press": "경향신문",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "이 대통령 \"'소수의 성장' 아닌 '모두의 성장' 대전환해야\"",
-   "url": "https://n.news.naver.com/article/055/0001399898",
-   "press": "SBS",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "연합뉴스",
-     "title": "李대통령 \"불평등 양극화 그늘 여전…'모두의 성장' 대전환해야\"(종합)",
-     "url": "https://n.news.naver.com/article/001/0016415340"
-    },
-    {
-     "press": "KBS",
-     "title": "이 대통령 “양극화 그늘 여전…소수 아닌 ‘모두의 성장’으로 대전환”",
-     "url": "https://n.news.naver.com/article/056/0012285354"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[현장] 李대통령, 야당 향해 \"자꾸 방해를 하시네\"…국민의힘 \"재판 재개하라\"",
-   "url": "https://n.news.naver.com/article/119/0003150115",
-   "press": "데일리안",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "중앙일보",
-     "title": "野 “재판 재개하라” 야유…李 “자꾸 방해하는 얘기만” 신경전",
-     "url": "https://n.news.naver.com/article/025/0003562161"
-    },
-    {
-     "press": "동아일보",
-     "title": "국힘 “재판 재개하라” 야유…李 “자꾸 방해하는 얘기네요”",
-     "url": "https://n.news.naver.com/article/020/0003759353"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]철원 전방부대서 하사 외상 입고 발견…의식불명 끝 사망",
-   "url": "https://n.news.naver.com/article/018/0006401983",
-   "press": "이데일리",
-   "why": "[속보] 기사 + 언론사 6곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "헤럴드경제",
-     "title": "[속보] 육군 “강원 철원 전방부대서 하사 1명, 외상 입고 사망”",
-     "url": "https://n.news.naver.com/article/016/0002717560"
-    },
-    {
-     "press": "강원도민일보",
-     "title": "[속보] \"철원 육군 전방부대 하사 외상 입고 사망\"",
-     "url": "https://n.news.naver.com/article/654/0000208814"
-    },
     {
      "press": "머니투데이",
-     "title": "철원 육군 전방부대서 하사 1명 숨져…현장서 총기·탄피 발견",
-     "url": "https://n.news.naver.com/article/008/0005435172"
+     "title": "현대차 생산라인 또 멈췄다…G80 신차 투입 인력 놓고 노사 충돌",
+     "url": "https://n.news.naver.com/article/008/0005435229"
     },
     {
-     "press": "매경이코노미",
-     "title": "[속보] “강원도 철원서 육군 하사 1명 외상 입고 사망”",
-     "url": "https://n.news.naver.com/article/024/0000109326"
+     "press": "한국경제TV",
+     "title": "현대차 울산 제네시스 생산라인 중단…신차 투입 놓고 노사 갈등",
+     "url": "https://n.news.naver.com/article/215/0001271359"
+    },
+    {
+     "press": "디지털타임스",
+     "title": "[속보] 현대차 울산 생산라인 멈춰섰다…노조, 제네시스 신차 투입 막아서",
+     "url": "https://n.news.naver.com/article/029/0003056600"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "이 대통령 \"모두의 성장으로 대전환…미래성장·격차완화 집중투자\"(종합)",
-   "url": "https://n.news.naver.com/article/003/0014294661",
-   "press": "뉴시스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "연합뉴스",
-     "title": "李대통령 \"불평등 양극화 그늘 여전…'모두의 성장' 대전환해야\"(종합)",
-     "url": "https://n.news.naver.com/article/001/0016415340"
-    },
-    {
-     "press": "KBS",
-     "title": "이 대통령 “양극화 그늘 여전…소수 아닌 ‘모두의 성장’으로 대전환”",
-     "url": "https://n.news.naver.com/article/056/0012285354"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 李 “공적자금 내년 모두 상환…30년만에 IMF 위기 완벽 졸업”",
-   "url": "https://n.news.naver.com/article/030/0003480930",
-   "press": "전자신문",
+   "title": "[속보]“아드님이 한남관저 살다보니 청년전월세는…” 정점식의 평가",
+   "url": "https://n.news.naver.com/article/021/0002829489",
+   "press": "문화일보",
    "why": "[속보] 기사",
    "related": []
   }
