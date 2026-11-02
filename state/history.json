@@ -5009,5 +5009,80 @@
    "skipped": "화면 검수에 걸림 - 틱톡은 올리지 않음"
   },
   "seconds": 2622
+ },
+ {
+  "key": "2026-11-02-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-02T12:00:00+09:00",
+  "started": "2026-11-02T09:21:45.283638+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-34767/",
+   "https://pixabay.com/photos/black-board-traces-of-chalk-school-1072366/",
+   "https://pixabay.com/videos/id-846/",
+   "https://pixabay.com/videos/id-12609/",
+   "https://pixabay.com/photos/ball-basketball-sports-spalding-7610545/",
+   "https://pixabay.com/photos/corridor-light-building-1729534/",
+   "https://pixabay.com/videos/id-72883/",
+   "https://pixabay.com/videos/id-43731/",
+   "https://pixabay.com/photos/gavel-hammer-justice-legal-judge-3577254/",
+   "https://pixabay.com/videos/id-215475/"
+  ],
+  "cc_clips": [],
+  "duration": 51.64,
+  "matches": [
+   0.95,
+   0.92,
+   1.0,
+   0.97,
+   0.91,
+   1.0,
+   1.0,
+   0.94,
+   0.94,
+   0.97,
+   0.98,
+   1.0,
+   1.0,
+   0.96,
+   0.96,
+   0.95,
+   0.95,
+   0.93,
+   0.93,
+   1.0,
+   0.8
+  ],
+  "sfx": 20,
+  "illustrations": 16,
+  "cuts": 21,
+  "layout_issues": [],
+  "caption_breaks": [
+   "낸 / 교감 (65)"
+  ],
+  "title": "담임 6번 바뀌게 한 학부모가 받은 판결 #shorts",
+  "source_post": "https://www.fnnews.com/news/202610131954378817",
+  "facts_used": [
+   "2024년 전북 전주의 한 초등학교 5학년 학급 담임이 1년 동안 6차례 바뀜, 학부모 A씨 113차례·B씨 61차례 민원 전화(합 174차례), \"담임이 아이를 째려본다\" \"우리 아이를 방치한다\" 민원, 새 담임이 올 때마다 민원 반복 — 파이낸셜뉴스 2026-10-13 https://www.fnnews.com/news/202610131954378817 , 경기신문 2026-10-14 https://www.kyeonggi.com/article/20261014580074 , 문화일보 https://www.munhwa.com/article/11623563 , 서울경제 https://m.sedaily.com/article/20101485",
+   "2023~2025년 전국 국공립 초중고 학기 중 담임 교체 575건 (교육부 자료) — 파이낸셜뉴스·경기신문 2026-10",
+   "학부모가 생활기록부 교과 평어 수정 등 요구 — 전북도민일보 https://www.domin.co.kr/news/articleView.html?idxno=1487234 , 머니투데이 2026-05-12(생기부 정정 요구) https://www.mt.co.kr/society/2026/05/12/2026051215415824223",
+   "담임교사 변경 안내 뒤 \"기존 교사는 이제 무엇을 하느냐\"고 따짐, \"아이가 아픈데 농구를 왜 시키냐\" 민원 — 체육 교사는 농구를 시킨 적 없음 — 경향신문 2026-05-12 https://www.khan.co.kr/article/202605121552021 , 머니투데이 2026-05-12, 문화일보 https://www.munhwa.com/article/11588451",
+   "교감이 혼합형 불안·우울장애·안면마비로 치료, 전주지법이 학부모에게 3000만 원과 지연손해금 배상 판결 — 뉴시스 2026-05-12 https://www.newsis.com/view/NISX20260512_0003626271 , YTN https://www.ytn.co.kr/_ln/0103_202605121715489213 , 경향신문",
+   "전주교육지원청 특별교육 이수 처분, 학부모 처분 취소 소송 1심 기각·항소 — 뉴시스·경향신문 2026-05-12",
+   "담임 6번 교체와 교감 안면마비를 한 학부모 사례로 묶은 보도 — 위키트리(PD수첩) https://www.wikitree.co.kr/articles/1153132 , 파이낸셜뉴스 2026-10-13"
+  ],
+  "slug": "2026-11-02_1200_teacher-changed-six-times-complaints",
+  "late": false,
+  "video_id": "LuKu0UgH-1E",
+  "url": "https://youtube.com/shorts/LuKu0UgH-1E",
+  "privacy": "private",
+  "scheduled_for": "2026-11-02T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae7e2a1902c3fb1dec93762",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-02T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-02_1200_teacher-changed-six-times-complaints/video.mp4"
+  },
+  "seconds": 2825
  }
 ]
