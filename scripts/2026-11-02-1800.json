@@ -1,0 +1,724 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "baseball-ticket-macro-scalpers",
+ "title_lines": [
+  "8만 원 야구표를",
+  "893만 원에 판 일당"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "8만 원짜리 야구표가 893만 원 된 사무실",
+   "say": "팔만 원짜리 야구표가 팔백구십삼만 원 된 사무실",
+   "sfx": "punch",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "8만 원짜리 야구표가\n893만 원 된 사무실",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이 사무실 컴퓨터 22대는 예매만 했음.",
+   "say": "이 사무실 컴퓨터 이십이 대는 예매만 했음.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "office",
+    "cam": "punch",
+    "video": [
+     "computer office monitors",
+     "computer screens",
+     "office computers"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パソコン 並ぶ",
+       "パソコン 作業",
+       "パソコン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🖥️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 잡힌 건 전혀 다른 데서였음.",
+   "say": "근데 잡힌 건 전혀 다른 데서였음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "探偵",
+       "虫眼鏡 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "작년 한국시리즈 8만1000원 표가",
+   "say": "작년 한국시리즈 팔만 천 원 표가",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "video": [
+     "baseball stadium crowd",
+     "baseball stadium",
+     "baseball game night"
+    ],
+    "cc": [
+     "korean baseball stadium",
+     "jamsil baseball stadium"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "野球場",
+       "野球 観客",
+       "野球"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚾",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "여기선 893만 원에 팔렸음.",
+   "say": "여기선 팔백구십삼만 원에 팔렸음.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "price",
+      "label": "한국시리즈 입장권",
+      "old": "8만1000원",
+      "new": "893만 원",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "悪い顔 男性",
+       "悪だくみ"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 무려 110배임.",
+   "say": "헐, 무려 백십 배임.",
+   "sfx": "exclaim",
+   "tone": "믿기지 않는다는 듯 목소리를 확 높여서",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "びっくり 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "20만 원 공연표는 672만 원에 팔았다고.",
+   "say": "이십만 원 공연표는 육백칠십이만 원에 팔았다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "concert stage lights",
+     "concert crowd",
+     "stage lights"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コンサート",
+       "ライブ 観客",
+       "コンサート 会場"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "쓸어 담은 표만 1만5500장.",
+   "say": "쓸어 담은 표만 만 오천오백 장.",
+   "sfx": "punch",
+   "tone": "또박또박 힘주어 단호하게",
+   "visual": {
+    "bg": "white",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "crowd",
+      "q": [
+       "チケット 持つ",
+       "チケット"
+      ],
+      "count": 12,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "매크로가 먼저 좌석을 낚아챔.",
+   "say": "매크로가 먼저 좌석을 낚아챔.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "keyboard typing fast",
+     "computer keyboard",
+     "typing keyboard"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ロボット パソコン",
+       "ロボット"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚡",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "남의 이름 계정까지 동원했음.",
+   "say": "남의 이름 계정까지 동원했음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "なりすまし",
+       "パソコン 悪い"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🪪",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "직접 만든 프로그램도 썼다고.",
+   "say": "직접 만든 프로그램도 썼다고.",
+   "sfx": "exclaim",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "computer code",
+     "code screen"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ハッカー",
+       "不正アクセス"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "표는 SNS로 웃돈 붙여 팔았음.",
+   "say": "표는 SNS로 웃돈 붙여 팔았음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "smartphone scrolling",
+     "phone social media",
+     "smartphone screen"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマホ 操作"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 꼬리가 잡힌 건",
+   "say": "알고 보니 꼬리가 잡힌 건",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "しっぽ つかむ",
+       "警察官 捜査",
+       "警察官"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아이돌 공연표 팔던 외국인 SNS 글 하나였음.",
+   "say": "아이돌 공연표 팔던 외국인 SNS 글 하나였음.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "外国人 スマートフォン",
+       "外国人 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그 표 예매 기록을 거꾸로 따라가니",
+   "say": "그 표 예매 기록을 거꾸로 따라가니",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察 パソコン",
+       "刑事"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔎",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "처음 산 사람들이 줄줄이 나옴.",
+   "say": "처음 산 사람들이 줄줄이 나옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "police car lights night",
+     "police car",
+     "police lights"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "逮捕 犯人",
+       "逮捕"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "30대 총책 등 24명이었음.",
+   "say": "삼십 대 총책 등 스물네 명이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "crowd",
+      "q": [
+       "犯人",
+       "泥棒"
+      ],
+      "count": 24,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "챙긴 돈만 22억 원.",
+   "say": "챙긴 돈만 이십이억 원.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "수사 결과",
+      "lines": [
+       "입장권 1만5500장",
+       "범죄수익 약 22억 원",
+       "검거 24명"
+      ],
+      "mark": 1,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰은 공정한 구매 기회 빼앗는 범죄라며",
+   "say": "경찰은 공정한 구매 기회 빼앗는 범죄라며",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "police station",
+     "police building"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "재산 21억 원어치를 묶어 둠.",
+   "say": "재산 이십일억 원어치를 묶어 둠.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "padlock chain",
+     "chain lock"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "差し押さえ",
+       "鍵 ロック"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "매크로 퍼뜨리는 쪽까지 잡겠다고 함.",
+   "say": "매크로 퍼뜨리는 쪽까지 잡겠다고 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官 敬礼",
+       "警察官"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "8월부턴 매크로 안 써도 상습 웃돈 장사는 처벌임.",
+   "say": "팔월부턴 매크로 안 써도 상습 웃돈 장사는 처벌임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "video": [
+     "courthouse building",
+     "court building",
+     "law justice"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "裁判官",
+       "裁判官 木槌"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📜",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그 22억, 표 못 구한 팬들이 낸 웃돈이었음.",
+   "say": "그 이십이억, 표 못 구한 팬들이 낸 웃돈이었음.",
+   "sfx": "none",
+   "cap": "hit",
+   "tone": "담담하지만 묵직하게, 말끝은 분명하게",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む ファン",
+       "落ち込む 男性",
+       "がっかり 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🎫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "8만 원 야구표를 893만 원에 판 일당 #shorts",
+  "description": "컴퓨터 22대를 둔 사무실에서 매크로와 남의 이름 계정으로 야구·공연표 1만5500장을 쓸어 담은 일당.\n정가 8만1000원 한국시리즈 표는 893만 원, 20만 원 공연표는 672만 원에 팔렸다고.\n꼬리가 잡힌 건 아이돌 공연표를 팔던 외국인의 SNS 글 하나였고, 24명이 챙긴 돈은 약 22억 원이었음.\n\n※ AI 음성으로 제작했습니다.\n#암표 #한국시리즈 #매크로 #티켓팅 #썰 #shorts",
+  "tags": [
+   "암표",
+   "한국시리즈",
+   "매크로",
+   "티켓팅",
+   "콘서트 티켓",
+   "프로야구",
+   "웃돈",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.seoul.co.kr/news/society/2026/11/02/20261102500117",
+ "facts_used": [
+  "인천경찰청 사이버수사과, 매크로·타인 명의 계정으로 공연·프로야구 입장권 약 1만5500장 부정 예매해 SNS에서 최대 110배 웃돈 판매, 범죄수익 약 22억 원, 30대 총책 A씨 등 20~60대 24명 업무방해·공연법·국민체육진흥법 위반 혐의 송치 — 서울신문 2026-11-02 https://www.seoul.co.kr/news/society/2026/11/02/20261102500117 , 뉴스1 https://www.news1.kr/local/incheon/6339593 , 경인일보 https://www.kyeongin.com/article/1773883",
+  "정가 8만1000원 2025 한국시리즈 입장권 893만 원(약 110배), 정가 20만 원 공연 입장권 672만 원(약 34배) — 경인일보, 서울경제 https://m.sedaily.com/article/20109083 , 청년일보 https://www.youthdaily.co.kr/news/article.html?no=229205",
+  "PC 22대 설치한 사무실에서 매크로 반복 가동, 타인 명의 계정 동원, 일부 자체 개발 프로그램 사용 — 경인일보, 데일리안 https://www.dailian.co.kr/news/view/1709458 , OBS https://www.obsnews.co.kr/news/articleView.html?idxno=1542367",
+  "수사는 SNS에서 국내 아이돌 공연 티켓을 팔던 외국인의 게시물에서 시작, 예매 정보를 역추적해 최초 구매자 특정 — 경인일보, 브릿지경제 https://www.viva100.com/article/20261102500420 , 미디어인천 http://www.mediaic.co.kr/news/articleView.html?idxno=85463",
+  "범죄수익 약 21억 원(20억9900만 원) 기소 전 추징보전·동결, 경찰 '시민의 공정한 구매 기회를 빼앗는 범죄', 매크로 제작·유포까지 단속 확대 — 서울신문, 브릿지경제, 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2082021",
+  "2026-08-28부터 개정 공연법·국민체육진흥법 시행, 매크로 사용과 관계없이 상습·영업적 웃돈 판매 금지 — 더팩트 https://news.tf.co.kr/read/ogmeta/2365067.htm , 노컷뉴스 https://www.nocutnews.co.kr/news/6580174"
+ ],
+ "brief": "점수표: [선택] 8만1000원 한국시리즈 표를 893만 원에 판 매크로 암표 일당 24명(인천경찰청 11/2 발표 — 서울신문·뉴스1·경인일보·OBS·강원도민일보·청년일보·브릿지경제·MBC) 이게됨4(정가 110배, PC 22대 사무실)+궁금증4(잡힌 계기=외국인 SNS 글 하나, 정체=24명·22억을 뒤로 숨김)+감정6(표 못 구해 웃돈 낸 팬들의 억울함)+대상5(야구·아이돌 공연 티켓)+판정5(일을 키운 쪽이 분명한 일당, 단계적으로 커짐)=24 / 초등 운동회 계주 사라짐 민원(서울경제) 3+2+6+4+3=18 12시 편이 학부모 민원이라 연속 회피 / 샤이니 민호 마라톤 페이스메이커 갑론을박(더쿠) 보도 확인 못 함·연예인 탈락 / 남대문 스카프 아저씨(더쿠·디시 동시) 보도 1건뿐 탈락 / 130억 복권 황당(보배) 보도 확인 못 함 탈락. 유행: 한국시리즈·아이돌 콘서트 티켓팅 (커뮤니티 '가격'·'대회' 동시 단어, 포스트시즌 철) — 유행 가산은 안 넣음(구글 급상승엔 없음). 아이 레인: 아님(오늘 12시 편이 아이 레인). 해외 아님. 구조: 시작=작년 한국시리즈 정가 8만1000원 표 / 커짐=893만 원(110배)→20만 원 공연표 672만 원→2022년부터 1만5500장→PC 22대 사무실 매크로→남의 이름 계정→자체 프로그램→SNS로 웃돈 판매 / 뒤집힘=꼬리 잡힌 건 아이돌 공연표 팔던 외국인 SNS 글 하나 / 정체=예매 기록 역추적, 30대 총책 등 24명·범죄수익 약 22억 원 / 그 뒤=재산 21억 원 동결, 매크로 제작·유포까지 단속 예고, 8/28 개정 공연법·국민체육진흥법으로 매크로 안 써도 상습 웃돈 판매 처벌, 그 22억은 팬들이 낸 웃돈. 첫장면: 의외 (컴퓨터 22대가 예매만 하는 사무실). 훅 3안: ①'이 사무실 컴퓨터 22대는 예매만 했음'(선택: 제목의 사무실을 한 발 더 구체적으로) ②'8만 원 표가 893만 원에 팔림'(제목 반복) ③'표 1만5500장을 쓸어 담은 일당'(답 일부 노출). 글 카드 3안: '8만 원짜리 야구표가 893만 원 된 사무실'(선택) / '야구표 110배 장사'(흐림) / '22억 번 예매 사무실'(답 노출). 제목: 사람(일당)+무슨 일(8만 원 표를 893만 원에)+궁금함(누가·어떻게 잡혔나), 숫자는 사건의 핵심. 앞 회차와 다른 틀, 앞머리 없음. 인용: 경찰 '시민의 공정한 구매 기회를 빼앗는 범죄'(보도 표현), '매크로 제작·유포까지 단속' — 보도에 실린 말이 경찰 발표뿐이라 인용 2번, 지어내지 않음. SNS 판매글 문구는 보도에 없어 소품으로 만들지 않음. 욕할 대상: 매크로로 표를 쓸어 담아 웃돈 받은 일당(실명 없음). 주의: 범죄수익 22억(22억100만 원), 동결액은 매체마다 20억9900만~21억 → '21억 원어치'로, 기간은 2022년부터 최근까지(뉴스1·미디어인천), 893만 원은 2025 한국시리즈 표, 외국인 판매상 국적·아이돌 이름은 안 씀, 불구속 송치. warn 은 앞 회차가 써서 안 씀. 증거: price(8만1000원→893만 원), doc(수사 결과 1만5500장·22억·24명). 이해검사: 컴퓨터 22대를 둔 사무실에서 매크로와 남의 계정으로 야구·공연표 1만5500장을 쓸어 담아 8만 원 표를 893만 원에 팔던 24명이, 아이돌 공연표를 팔던 외국인의 SNS 글 하나에서 꼬리가 잡혀 22억 원을 챙긴 게 드러났고 경찰이 21억 원어치 재산을 묶었다. 그림대조: 완료 (야구장·공연장·사무실·경찰, 일본 지도·국기·엔화 없음, 돈은 price·doc 소품, 표 그림은 이모지·crowd, pic·video에 사람 검색어 없음, 아이돌·구단 이름 검색어 없음)."
+}
