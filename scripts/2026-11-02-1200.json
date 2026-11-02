@@ -1,0 +1,689 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "teacher-changed-six-times-complaints",
+ "title_lines": [
+  "담임 6번 바뀌게 한",
+  "학부모가 받은 판결"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "1년에 담임만 6번 바뀐 초등학교 5학년 반",
+   "say": "일 년에 담임만 여섯 번 바뀐 초등학교 오학년 반",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "1년에 담임만 6번 바뀐\n초등학교 5학년 반",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "학부모 한 명이 학교에 건 전화만 113통.",
+   "say": "학부모 한 명이 학교에 건 전화만 백십삼 통.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "desk",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "doc",
+      "title": "민원 전화",
+      "lines": [
+       "학부모 A 113통",
+       "학부모 B 61통"
+      ],
+      "mark": 0,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "クレーマー",
+       "電話 クレーム",
+       "クレーム 電話"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 시작은 이 한마디였음.",
+   "say": "근데 시작은 이 한마디였음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 女性",
+       "電話 かける"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "\"담임이 아이를 째려본다\"",
+   "say": "\"담임이 아이를 째려본다\"",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "先生 黒板",
+       "教師 黒板",
+       "先生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "\"우리 아이를 방치한다\"며 또 전화함.",
+   "say": "\"우리 아이를 방치한다\"며 또 전화함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "telephone ringing",
+     "office phone",
+     "phone desk"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 怒る",
+       "怒る 電話"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "생활기록부 평가 문구까지 고쳐 달라고 함.",
+   "say": "생활기록부 평가 문구까지 고쳐 달라고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "학부모 요구",
+      "lines": [
+       "생활기록부",
+       "교과 평가 문구 수정"
+      ],
+      "mark": 1,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그러다 담임이 바뀌었음.",
+   "say": "그러다 담임이 바뀌었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "pic": [
+     "school blackboard",
+     "blackboard chalk",
+     "empty blackboard"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 先生",
+       "先生 落ち込む",
+       "落ち込む 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 새 담임이 와도 전화는 또 울렸다고.",
+   "say": "근데 새 담임이 와도 전화는 또 울렸다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "school hallway",
+     "school corridor",
+     "school building"
+    ],
+    "cc": [
+     "korean elementary school",
+     "korea school building"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 鳴る",
+       "電話 ベル",
+       "電話"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 그렇게 1년 동안 담임만 6번 바뀜.",
+   "say": "헐, 그렇게 일 년 동안 담임만 여섯 번 바뀜.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "믿기지 않는다는 듯 목소리를 확 높여서",
+   "visual": {
+    "bg": "classroom",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "crowd",
+      "q": [
+       "先生",
+       "教師"
+      ],
+      "count": 6,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "담임 바뀐다고 알리자 돌아온 말.",
+   "say": "담임 바뀐다고 알리자 돌아온 말.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "校長先生",
+       "校長",
+       "教頭"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "\"기존 교사는 이제 무엇을 하느냐\"",
+   "say": "\"기존 교사는 이제 무엇을 하느냐\"",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "クレーム 女性",
+       "怒る 女性",
+       "クレーム"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 \"아이가 아픈데 농구를 왜 시키냐\"고 했는데,",
+   "say": "심지어 \"아이가 아픈데 농구를 왜 시키냐\"고 했는데,",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "video": [
+     "basketball court",
+     "basketball hoop",
+     "basketball game"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バスケットボール 小学生",
+       "バスケットボール",
+       "バスケットボール ボール"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 농구를 시킨 적도 없었음.",
+   "say": "알고 보니 농구를 시킨 적도 없었음.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "cam": "punch",
+    "pic": [
+     "basketball ball",
+     "basketball floor"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "shake"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이 민원을 다 받아 낸 교감 선생님은",
+   "say": "이 민원을 다 받아 낸 교감 선생님은",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "疲れた 会社員",
+       "疲れる 男性",
+       "過労"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "우울증에 안면마비까지 옴.",
+   "say": "우울증에 안면마비까지 옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "pic": [
+     "hospital corridor",
+     "hospital bed",
+     "hospital room"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "顔面神経麻痺",
+       "病院 患者",
+       "診察"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "결국 교감이 학부모를 상대로 소송을 냈는데,",
+   "say": "결국 교감이 학부모를 상대로 소송을 냈는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "video": [
+     "courthouse building",
+     "court building",
+     "law justice"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "裁判 訴える",
+       "訴訟",
+       "弁護士"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "법원은 학부모가 3000만 원 배상하라고 함.",
+   "say": "법원은 학부모가 삼천만 원 배상하라고 함.",
+   "sfx": "stamp",
+   "cap": "quote",
+   "tone": "또박또박 힘주어 단호하게",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "price",
+      "label": "법원 판결 배상금",
+      "new": "3000만 원",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "裁判官",
+       "裁判官 木槌"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "학부모는 교육청 처분에 불복해 소송 냈는데,",
+   "say": "학부모는 교육청 처분에 불복해 소송 냈는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "video": [
+     "school building",
+     "school exterior",
+     "school gate"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "書類 男性",
+       "書類 提出",
+       "書類"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "1심에서 지고 항소했다고.",
+   "say": "일 심에서 지고 항소했다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "judge gavel",
+     "court gavel"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "裁判所",
+       "裁判所 建物"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "전국에서 학기 중 담임이 바뀐 건 3년간 575건.",
+   "say": "전국에서 학기 중 담임이 바뀐 건 삼 년간 오백칠십오 건.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "video": [
+     "empty classroom",
+     "classroom desks",
+     "school classroom"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "グラフ 上昇",
+       "グラフ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📈",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그 1년, 담임 여섯 명을 만난 건 그 반 아이들이었음.",
+   "say": "그 일 년, 담임 여섯 명을 만난 건 그 반 아이들이었음.",
+   "sfx": "none",
+   "cap": "hit",
+   "tone": "담담하지만 묵직하게, 말끝은 분명하게",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "小学生 教室",
+       "授業 小学生",
+       "小学生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🏫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "담임 6번 바뀌게 한 학부모가 받은 판결 #shorts",
+  "description": "한 초등학교 5학년 반에서 학부모 두 명이 \"담임이 아이를 째려본다\", \"방치한다\"며 학교에 113통, 61통 전화를 걸었음.\n새 담임이 올 때마다 민원이 이어져 1년 동안 담임이 6번 바뀌었다고.\n\"아픈데 농구를 왜 시키냐\"는 민원은 사실이 아니었고, 민원을 받아 낸 교감은 안면마비까지 와 소송을 냈는데 법원은 학부모에게 3000만 원 배상을 명령했음.\n\n※ AI 음성으로 제작했습니다.\n#담임교체 #학부모민원 #교권 #초등학교 #썰 #shorts",
+  "tags": [
+   "담임교체",
+   "학부모 민원",
+   "악성 민원",
+   "교권",
+   "초등학교",
+   "교감",
+   "안면마비",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.fnnews.com/news/202610131954378817",
+ "facts_used": [
+  "2024년 전북 전주의 한 초등학교 5학년 학급 담임이 1년 동안 6차례 바뀜, 학부모 A씨 113차례·B씨 61차례 민원 전화(합 174차례), \"담임이 아이를 째려본다\" \"우리 아이를 방치한다\" 민원, 새 담임이 올 때마다 민원 반복 — 파이낸셜뉴스 2026-10-13 https://www.fnnews.com/news/202610131954378817 , 경기신문 2026-10-14 https://www.kyeonggi.com/article/20261014580074 , 문화일보 https://www.munhwa.com/article/11623563 , 서울경제 https://m.sedaily.com/article/20101485",
+  "2023~2025년 전국 국공립 초중고 학기 중 담임 교체 575건 (교육부 자료) — 파이낸셜뉴스·경기신문 2026-10",
+  "학부모가 생활기록부 교과 평어 수정 등 요구 — 전북도민일보 https://www.domin.co.kr/news/articleView.html?idxno=1487234 , 머니투데이 2026-05-12(생기부 정정 요구) https://www.mt.co.kr/society/2026/05/12/2026051215415824223",
+  "담임교사 변경 안내 뒤 \"기존 교사는 이제 무엇을 하느냐\"고 따짐, \"아이가 아픈데 농구를 왜 시키냐\" 민원 — 체육 교사는 농구를 시킨 적 없음 — 경향신문 2026-05-12 https://www.khan.co.kr/article/202605121552021 , 머니투데이 2026-05-12, 문화일보 https://www.munhwa.com/article/11588451",
+  "교감이 혼합형 불안·우울장애·안면마비로 치료, 전주지법이 학부모에게 3000만 원과 지연손해금 배상 판결 — 뉴시스 2026-05-12 https://www.newsis.com/view/NISX20260512_0003626271 , YTN https://www.ytn.co.kr/_ln/0103_202605121715489213 , 경향신문",
+  "전주교육지원청 특별교육 이수 처분, 학부모 처분 취소 소송 1심 기각·항소 — 뉴시스·경향신문 2026-05-12",
+  "담임 6번 교체와 교감 안면마비를 한 학부모 사례로 묶은 보도 — 위키트리(PD수첩) https://www.wikitree.co.kr/articles/1153132 , 파이낸셜뉴스 2026-10-13"
+ ],
+ "brief": "점수표: [선택] 1년에 담임 6번 바뀐 초등 5학년 반·교감 안면마비 3000만 원 배상(파이낸셜뉴스 10/13·경기신문 10/14·문화일보·서울경제 영상, 판결은 뉴시스·경향·YTN·머니투데이 5/12) 이게됨4+궁금증4(담임 몇 번→농구 민원의 진실→배상액을 차례로 숨김)+감정8(같은 반 아이들 1년이 6번 끊김, 교감 안면마비)+대상4(초등 담임·학부모 민원)+판정5(말이 점점 세지고 일을 키운 쪽이 분명)=25 / 밤 10시 안내방송에 5천 세대가 찾아 나선 초1(파이낸셜·헤럴드·SBS·MBC) 3+2+7+4+1=17 숨긴 답 약함(단지 안 자전거) / 엄마 생각은 써 오라는 교사(네이트 댓글 1위 11/1) 보도 내용 확인 못 함 탈락 / 국밥 물티슈(11/1 12시 편에서 씀) 제외 / 당근 문고리 사기 64명(2025년 보도) 탈락. 유행: 없음 (아반떼·마라톤·할로윈·AI·여행 확인 — 썰감 없음). 아이 레인: 예(같은 반 아이들이 피해, 아이 이름·학교명·동네 안 씀, 화면 아이는 いらすとや만). 해외 아님. 10/14 07시 편 점수표에서 '5월 재탕·명예훼손 위험'으로 뺐던 소재 — 10/13~14 다시 보도됐고, 학교명·실명 없이 교육청·법원이 확인한 사실만, 민원 문구는 보도 인용 그대로 씀. 구조: 시작=한 학부모가 학교에 건 전화 113통(다른 학부모 61통) / 커짐=\"째려본다\"→\"방치한다\"→생활기록부 평가 문구 수정 요구→담임 교체→새 담임에도 또 전화→1년 6번 교체→\"기존 교사는 이제 무엇을 하느냐\" / 뒤집힘=\"아픈데 농구 왜 시키냐\" 민원, 체육 교사는 농구를 시킨 적 없음 / 정체=민원 받아 낸 교감이 우울증·안면마비, 소송해 법원이 학부모에게 3000만 원 배상 명령 / 그 뒤=교육청 처분 불복 소송 1심 기각·항소, 전국 학기 중 담임 교체 3년 575건, 담임 여섯 명을 만난 건 그 반 아이들. 첫장면: 손해 (전화 113통 기록 문서). 훅 3안: ①'학부모 한 명이 학교에 건 전화만 113통'(선택: 숫자+사람, 제목보다 한 발 더) ②'째려본다는 민원 하나로 시작'(인용을 너무 일찍 씀) ③'교감 선생님 얼굴이 마비됨'(결말 노출). 글 카드 3안: '1년에 담임만 6번 바뀐 초등학교 5학년 반'(선택) / '담임 6명 갈아 치운 학부모'(과장) / '전화 113통 받은 초등학교'(흐림). 제목: 사람(학부모)+무슨 일(담임 6번)+궁금함(어떤 판결), 6번은 사건의 핵심 숫자. 앞 회차 제목 앞머리 없음. 인용: 담임이 아이를 째려본다 / 우리 아이를 방치한다 / 기존 교사는 이제 무엇을 하느냐 / 아이가 아픈데 농구를 왜 시키냐 / 3000만 원 배상하라(판결, 따옴표 없이 판결 내용으로) — 인용 4번+판결 1번, 전부 보도 그대로. 욕할 대상: 민원을 키운 학부모의 대응(실명·학교명·지역 없음). 주의: 113·61통은 두 학부모 각각(합 174통), 사건은 2024년, 판결 2026-05 전주지법(1심), 특별교육 시간은 보도마다 30·50시간으로 갈려 안 씀, 13명 아동학대 고소는 다른 학교 사례라 안 씀, 교육감 고발은 보도 1건이라 뺌. warn 은 앞 회차가 써서 안 씀. 증거: doc(민원 전화 횟수·학부모 요구), price(배상금 3000만 원). 이해검사: 한 초등학교 5학년 반에서 학부모들이 '째려본다'·'방치한다'며 학교에 전화를 113통·61통 걸어 1년에 담임이 6번 바뀌었고, 있지도 않은 농구 민원까지 받아 낸 교감은 안면마비가 와서 소송을 냈는데 법원이 학부모에게 3000만 원 배상하라고 했다. 그림대조: 완료 (한국 교실·법원, 일본 지도·국기·엔화 없음, 돈은 price 소품, 교사·교감 성별은 보도에 없어 일반 그림, 아이는 いらすとや 그림만, pic·video에 사람 검색어 없음)."
+}
