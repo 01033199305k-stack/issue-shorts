@@ -1,0 +1,736 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "gangneung-fireworks-burn-fake-post",
+ "title_lines": [
+  "아빠가 폭죽 맞았다던",
+  "글쓴이가 있던 곳"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "해변 폭죽에 아버지가 2도 화상 입었다는 글",
+   "say": "해변 폭죽에 아버지가 이도 화상 입었다는 글",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "해변 폭죽에 아버지가\n2도 화상 입었다는 글",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "데인 손가락 사진까지 붙어 있었음.",
+   "say": "데인 손가락 사진까지 붙어 있었음.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "hospital",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "やけど 手",
+       "やけど"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "강릉 해변에서 아버지랑 산책하던 중이었다고.",
+   "say": "강릉 해변에서 아버지랑 산책하던 중이었다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "beach",
+    "video": [
+     "beach night waves",
+     "beach night",
+     "sea shore night"
+    ],
+    "cc": [
+     "gangneung beach",
+     "gangneung sea"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "散歩 親子",
+       "散歩 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌊",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "남자 셋이 폭죽을 낮게 쏘고 있었는데,",
+   "say": "남자 셋이 폭죽을 낮게 쏘고 있었는데,",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "visual": {
+    "bg": "beach",
+    "video": [
+     "fireworks beach night",
+     "fireworks night",
+     "sparklers night"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "花火 若者",
+       "花火 男性",
+       "花火"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎆",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그중 둘이 아버지 쪽으로 쐈다는 거임.",
+   "say": "그중 둘이 아버지 쪽으로 쐈다는 거임.",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "怒る おじいさん"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "폭죽 영상까지 올라옴.",
+   "say": "폭죽 영상까지 올라옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "firework explosion",
+     "fireworks sparks",
+     "firecracker"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 動画",
+       "スマートフォン 撮影"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 일이 더 커짐.",
+   "say": "근데 일이 더 커짐.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "考える 人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰에 신고했더니 돌아온 답이",
+   "say": "경찰에 신고했더니 돌아온 답이",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "police car",
+     "police lights"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🚓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "가해자를 몰라 잡기 어렵다는 거였다고.",
+   "say": "가해자를 몰라 잡기 어렵다는 거였다고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "sms",
+      "from": "글쓴이 주장",
+      "lines": [
+       "가해자 신원 확인 불가",
+       "검거 어렵다"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 女性",
+       "悲しむ 女性"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 경찰이 신고를 뭉갰다는 말까지 돎.",
+   "say": "와, 경찰이 신고를 뭉갰다는 말까지 돎.",
+   "sfx": "whoosh",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官",
+       "警察官 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "폭죽 과태료 0건이란 기사까지 뜸.",
+   "say": "폭죽 과태료 영 건이란 기사까지 뜸.",
+   "sfx": "punch",
+   "cap": "quote",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "기사 제목",
+      "lines": [
+       "폭죽 맞아 2도 화상",
+       "과태료 0건",
+       "단속은 경고 뿐"
+      ],
+      "mark": 1,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "驚く 人"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "시는 현수막과 단속 인력까지 검토함.",
+   "say": "시는 현수막과 단속 인력까지 검토함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "pic": [
+     "city hall building",
+     "city hall"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "公務員 男性",
+       "会議 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📋",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰도 쏜 사람을 찾아 나섰는데,",
+   "say": "경찰도 쏜 사람을 찾아 나섰는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "night",
+    "video": [
+     "police car night",
+     "police lights night",
+     "police siren"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "捜査 警察",
+       "刑事"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 112 신고 기록이 한 건도 없었음.",
+   "say": "알고 보니 일일이 신고 기록이 한 건도 없었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "warn",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "電話 警察",
+       "電話 オペレーター"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "강릉시 민원도 0건이었다고.",
+   "say": "강릉시 민원도 영 건이었다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "office desk",
+     "desk documents"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "📭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "글쓴이를 불러 조사해 봤더니",
+   "say": "글쓴이를 불러 조사해 봤더니",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "取り調べ",
+       "事情聴取"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🕵️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그날 강릉이 아니라 인천에 있었음.",
+   "say": "그날 강릉이 아니라 인천에 있었음.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "cam": "punch",
+    "video": [
+     "incheon city",
+     "city skyline",
+     "city night skyline"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 女性",
+       "びっくり 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "게다가 화상 사진이랑 폭죽 영상도",
+   "say": "게다가 화상 사진이랑 폭죽 영상도",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "fireworks sky",
+     "fireworks night"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パソコン 女性",
+       "パソコン 操作"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "직접 찍은 게 아니라 퍼 온 거였음.",
+   "say": "직접 찍은 게 아니라 퍼 온 거였음.",
+   "sfx": "whoosh",
+   "cap": "hit",
+   "tone": "어이없어 말문이 막힌 듯 힘주어",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コピー",
+       "パソコン 不正"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰은 전혀 사실이 아니라고 못 박음.",
+   "say": "경찰은 전혀 사실이 아니라고 못 박음.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "office",
+    "video": [
+     "police station",
+     "police building",
+     "police car parked"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "記者会見 警察",
+       "警察官 敬礼"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "27살 글쓴이는 명예훼손 혐의로 조사 중임.",
+   "say": "스물일곱 살 글쓴이는 명예훼손 혐의로 조사 중임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "反省 女性",
+       "落ち込む 人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "진짜 폭죽 피해는 따로 잡겠다고 함.",
+   "say": "진짜 폭죽 피해는 따로 잡겠다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "beach",
+    "video": [
+     "beach sand night",
+     "empty beach",
+     "beach waves"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パトロール 警察官",
+       "警察官 パトロール"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎇",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "불붙은 건 폭죽 아닌 글이었음.",
+   "say": "불붙은 건 폭죽 아닌 글이었음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "炎上",
+       "炎上 スマートフォン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "아빠가 폭죽 맞았다던 글쓴이가 있던 곳 #shorts",
+  "description": "강릉 강문해변에서 아버지와 산책하다 남성들이 낮게 쏜 폭죽에 맞아 아버지가 2도 화상을 입었다는 글이 화상 사진·폭죽 영상과 함께 퍼졌음.\n경찰 신고도 소용없었다는 주장에 단속 공백 논란까지 커졌지만, 경찰 확인 결과 112 신고 기록도 강릉시 민원도 없었음.\n글쓴이는 그날 강릉이 아닌 인천에 있었고, 사진과 영상도 직접 찍은 게 아니었다고. 경찰은 명예훼손 등 혐의로 조사 중.\n\n※ AI 음성으로 제작했습니다.\n#강릉 #강문해변 #폭죽 #허위글 #썰 #shorts",
+  "tags": [
+   "강릉",
+   "강문해변",
+   "해변 폭죽",
+   "폭죽 화상",
+   "허위 글",
+   "명예훼손",
+   "강릉경찰서",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://biz.heraldcorp.com/article/10922863",
+ "facts_used": [
+  "10월 24일 SNS·방송사·커뮤니티에 '강문해변에서 아버지와 산책 중 남성 3명이 낮은 방향으로 폭죽을 쏘고 이 중 2명이 아버지를 향해 발사, 손과 손가락 2도 화상' 주장, 폭죽 영상·부상 사진 첨부 — 헤럴드경제 https://biz.heraldcorp.com/article/10922863 , 세계일보 https://www.segye.com/newsView/20261102516765 , 연합뉴스(뉴스통) https://www.newstong.co.kr/view3.aspx?seq=14788613",
+  "글쓴이는 신고 후 '가해자 신원을 확인할 수 없어 검거가 어렵다'는 답을 들었다고 주장, '폭죽 화상·경찰 신고 묵살' 논란 — 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2082038 , 강원신문 https://www.gwnews.org/news/articleView.html?idxno=272338",
+  "폐장 후 단속반 없음, 올해 폭죽 과태료 0건·단속은 계도(경고)뿐, 시는 야간 식별 현수막·인력 배치 검토, 경찰은 사진·영상으로 쏜 사람 확인 중 — 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2080624 , 세계일보 10/28 https://www.segye.com/newsView/20261028516568",
+  "경찰 확인: 112 신고 등 접수된 사항 없음, 강릉시 민원 없음, A(27)씨는 당시 인천에 있었음, 영상·사진은 직접 촬영하지 않음(인터넷 무단 도용), '전혀 사실이 아니다', 명예훼손·업무방해 혐의 검토, 사람 향해 폭죽 쏴 다치게 하면 적극 수사 — 헤럴드경제, 세계일보, 연합뉴스, SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008826397 , 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2082038"
+ ],
+ "brief": "점수표: [선택] 강릉 강문해변 '폭죽에 아버지 2도 화상' 글 → 경찰 '허위', 글쓴이는 그날 인천 (헤럴드경제·세계일보·연합뉴스·SBS·강원도민일보 11/2) 이게됨4+궁금증5(글쓴이 정체·위치)+감정8(분노→뒤집힘)+대상4(해변 폭죽)+판정5(헛소문 키운 쪽 분명)=26 / 평택 고층 그릇 투척 30대 3+3+4+4+2=16 응급입원·스트레스, 욕할 대상 약함 탈락 / 마을버스 기사 유공자 요금 대신 결제 3+2+6+4+1=16 잔잔한 미담·궁금증 약함 탈락 / 미니쉘 단종 부활(더쿠) 2+2+2+5+1=12 감정 미달 탈락 / 학폭 감싼 교장 학폭 소재 금지 탈락. 유행: 없음 (신지애·유언·엘니뇨·agf·버추얼 아이돌·미니쉘 — 썰감 없음). 아이 레인: 아님 — '아이 112 신고', '초등생 경찰 감사', '어린이집 논란', '아이 구조 경찰' 검색에서 최근 2주 새 보도 없음(오늘 하루 아이 편 없음). 해외 아님(국내). 구조: 시작=강릉 해변 산책 중 아버지가 폭죽에 2도 화상이라는 글·사진 / 커짐=남자 셋이 낮게 쏘고 둘이 아버지 겨냥 주장→폭죽 영상까지 첨부→'경찰 신고했지만 가해자 몰라 검거 어렵다'는 주장으로 신고 묵살 논란→과태료 0건·단속 공백 기사→시 현수막·인력 검토, 경찰 추적 / 뒤집힘=112 신고 기록 0건, 강릉시 민원 0건 / 정체=글쓴이(27)는 그날 인천에 있었고 사진·영상도 남의 것 / 그 뒤=경찰 '전혀 사실 아니다', 명예훼손·업무방해 혐의 조사, 진짜 폭죽 상해는 적극 수사 방침. 첫장면: 의외 (데인 손가락 사진이 붙은 글). 훅 3안: ①'데인 손가락 사진까지 붙어 있었음'(선택: 제목보다 한 발 더, 증거처럼 보이게 해 뒤집힘이 큼) ②'남자 둘이 아버지 쪽으로 폭죽을 쐈다는 거임'(셋째 줄로 옮김) ③'경찰도 못 잡는다고 했다는 글'(이른 공개). 글 카드 3안: '해변 폭죽에 아버지가 2도 화상 입었다는 글'(선택) / '해변에서 폭죽 맞은 아버지'(흐림) / '경찰도 못 잡는다던 폭죽 테러'(과장). 제목: 사람(글쓴이)+무슨 일(아빠가 폭죽 맞았다던)+궁금한 정체(있던 곳=인천), 앞머리 없음, 앞 회차 '~한 이유'·'~의 진실'과 다른 틀, 숫자 없음(핵심 아님). 인용(보도 그대로): 남자 셋이 낮은 방향으로 폭죽 / 그중 둘이 아버지를 향해 발사 / '가해자 신원을 확인할 수 없어 검거가 어렵다' 답 주장 / '과태료 0건, 단속은 경고 뿐'(강원도민일보 제목) / 경찰 '전혀 사실이 아니다' — 5번. 욕할 대상: 남의 사진·영상으로 허위 글을 올려 경찰·강릉시·해변 방문객을 몰아간 글쓴이(익명 A씨, 실명·성별 안 씀). 주의: 날짜가 20일·24일·26일로 엇갈려 날짜는 안 씀. 글쓴이 성별은 일부 매체만 써서 안 씀. 방송사 이름 안 씀. 아버지 실존 여부는 보도에 없어 단정하지 않음. 평택 등 다른 사건 안 씀. 사진 기관 제공(photo) 없음. warn: 앞 회차(11/3 12시)에 없어서 1번 씀(112 기록 0건 반전). 증거: sms(글쓴이 주장: 가해자 신원 확인 불가/검거 어렵다), doc(기사 제목: 폭죽 맞아 2도 화상/과태료 0건/단속은 경고 뿐). 112는 say 에서 일일이. 이해검사: 강릉 해변에서 아버지가 폭죽에 2도 화상을 입었는데 경찰도 못 잡는다는 글이 사진·영상과 함께 퍼져 단속 논란까지 커졌는데, 알고 보니 112 신고 기록도 없었고 글쓴이는 그날 인천에 있었으며 사진·영상도 퍼 온 것이라 명예훼손 혐의로 조사받고 있다. 그림대조: 완료 (해변=beach 배경·바다 스톡, 폭죽=花火 그림·불꽃 영상/사진, 화상=やけど, 경찰=警察官·경찰차 사진, 인천=도시 스톡(인천 실사 없으면 일반 도시), 사람 사진·일본 지명 검색어 없음)."
+}
