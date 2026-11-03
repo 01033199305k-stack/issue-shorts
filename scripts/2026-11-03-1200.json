@@ -1,0 +1,751 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "marathon-bread-expiry-date",
+ "title_lines": [
+  "마라톤 완주 빵에",
+  "오늘 날짜 찍힌 이유"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "마라톤 완주 선물로 받은 오늘까지 빵",
+   "say": "마라톤 완주 선물로 받은 오늘까지 빵",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "마라톤 완주 선물로 받은\n오늘까지 빵",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "포장지 소비기한이 '11월 1일까지'였음.",
+   "say": "포장지 소비기한이 십일월 일 일까지였음.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "빵 포장지",
+      "lines": [
+       "소비기한",
+       "2026.11.01까지"
+      ],
+      "mark": 1,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "驚く 人"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그날이 바로 대회 날이었음.",
+   "say": "그날이 바로 대회 날이었음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パン",
+       "菓子パン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "서울에서 3만5천 명이 달린 마라톤인데,",
+   "say": "서울에서 삼만 오천 명이 달린 마라톤인데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "video": [
+     "marathon runners city",
+     "marathon race street",
+     "running race"
+    ],
+    "cc": [
+     "seoul city street aerial",
+     "seoul downtown street"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "マラソン 選手",
+       "マラソン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏃",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "완주하면 크림빵을 하나씩 줬음.",
+   "say": "완주하면 크림빵을 하나씩 줬음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パン 配る",
+       "配る 女性",
+       "手渡す"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "완주자들이 포장지 사진을 올림.",
+   "say": "완주자들이 포장지 사진을 올림.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 撮影",
+       "写真 撮る スマートフォン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "\"재고 처리 아냐?\"란 말까지 돌았다고.",
+   "say": "재고 처리 아냐?란 말까지 돌았다고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "sms",
+      "from": "완주자 글",
+      "lines": [
+       "소비기한 오늘?",
+       "재고 처리 아냐?"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "怒る 人"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 떨이 빵 아니냐는 의심이 번짐.",
+   "say": "와, 떨이 빵 아니냐는 의심이 번짐.",
+   "sfx": "whoosh",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "bread bag",
+     "bread bun"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "안내가 부족했다는 지적도 나옴.",
+   "say": "안내가 부족했다는 지적도 나옴.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "困る 男性",
+       "悩む 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 도로 쓰레기 불만까지 겹침.",
+   "say": "심지어 도로 쓰레기 불만까지 겹침.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "tr": "whoosh",
+    "video": [
+     "garbage street",
+     "trash street",
+     "litter road"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🗑️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "\"빵은 오늘까지, 도로엔 쓰레기\" 기사도 뜸.",
+   "say": "빵은 오늘까지, 도로엔 쓰레기 기사도 뜸.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "기사 제목",
+      "lines": [
+       "빵은 오늘까지,",
+       "도로엔 쓰레기"
+      ],
+      "mark": 0,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 女性",
+       "驚く 人"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 빵 업체 말은 완전 달랐음.",
+   "say": "근데 빵 업체 말은 완전 달랐음.",
+   "sfx": "whoosh",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "説明 男性",
+       "プレゼンテーション 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "☝️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 매장에선 안 파는",
+   "say": "알고 보니 매장에선 안 파는",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "cafe",
+    "tr": "flash",
+    "cam": "punch",
+    "video": [
+     "bakery shelf bread",
+     "bakery display",
+     "bread shop"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パン屋",
+       "パン職人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "참가자용으로 따로 만든 빵이었음.",
+   "say": "참가자용으로 따로 만든 빵이었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パン 職人 男性",
+       "コック 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🎽",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "며칠 전부터 매일 굽고",
+   "say": "며칠 전부터 매일 굽고",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "bread baking oven",
+     "baking bread",
+     "bakery oven"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パン 焼く",
+       "オーブン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "영하 45도로 꽁꽁 얼려 뒀다고.",
+   "say": "영하 사십오 도로 꽁꽁 얼려 뒀다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "freezer frost",
+     "frozen food freezer",
+     "ice frost"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "冷凍庫",
+       "冷凍食品"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그럼 날짜는 왜 그날이었냐면",
+   "say": "그럼 날짜는 왜 그날이었냐면",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "night",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "考える 人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "녹인 빵은 24시간 안에 먹으라는 기준 때문.",
+   "say": "녹인 빵은 이십사 시간 안에 먹으라는 기준 때문.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "wall clock",
+     "clock"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "時計",
+       "壁掛け時計"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⏰",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "며칠 뒤 먹을까 봐 일부러 당일로 찍은 거임.",
+   "say": "며칠 뒤 먹을까 봐 일부러 당일로 찍은 거임.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パン 食べる",
+       "食べる 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "보존제도 안 넣은 빵이라고 함.",
+   "say": "보존제도 안 넣은 빵이라고 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "fresh bread",
+     "bread bakery"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "メロンパン",
+       "食パン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "당일에 드시란 안내만 있었어도",
+   "say": "당일에 드시란 안내만 있었어도",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "street",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 見る",
+       "スマホ 見る"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "오해는 없었을 거란 반응이 나옴.",
+   "say": "오해는 없었을 거란 반응이 나옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🪧",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "운영을 따지란 목소리도 있음.",
+   "say": "운영을 따지란 목소리도 있음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "marathon finish line",
+     "finish line race",
+     "race finish"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "マラソン ゴール",
+       "ゴールテープ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏁",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "빵 말고 안내 한 줄이 문제였음.",
+   "say": "빵 말고 안내 한 줄이 문제였음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パン 笑顔",
+       "パン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🍞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "마라톤 완주 빵에 오늘 날짜 찍힌 이유 #shorts",
+  "description": "11월 1일 서울 마라톤 완주자에게 준 크림빵 소비기한이 대회 당일로 찍혀 있어 '재고 처리 아니냐'는 의심이 퍼졌음.\n빵을 댄 업체는 대회용으로 따로 만들어 영하 45도로 급속 냉동한 빵이고, 녹인 뒤 24시간 안에 먹어야 해서 일부러 당일로 표시했다고 설명함.\n누리꾼들은 당일 섭취 안내만 따로 했어도 오해가 없었을 거라는 반응.\n\n※ AI 음성으로 제작했습니다.\n#마라톤 #서울마라톤 #소비기한 #크림빵 #썰 #shorts",
+  "tags": [
+   "마라톤",
+   "JTBC 서울마라톤",
+   "완주 기념품",
+   "크림빵",
+   "소비기한",
+   "재고 처리",
+   "급속 냉동",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=474981",
+ "facts_used": [
+  "2026 JTBC 서울마라톤(11월 1일) 완주자 지급 크림빵 소비기한이 행사 당일 11월 1일, 참가자들이 '2026.11.01까지' 포장지 사진 올리며 재고 처리 의혹, 소비기한 안내 부족 지적 — 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02952006645642112 , 아시아경제 https://view.asiae.co.kr/article/2026110308360242842",
+  "3만5000명 달린 대회, 도로 쓰레기·교통 통제 불만도 겹침('빵은 오늘까지, 도로엔 쓰레기') — 아시아경제 https://view.asiae.co.kr/article/2026110308360242842",
+  "업체 해명: 일반 매장에서 판매하지 않는 대회용 제품을 별도 개발, 행사 며칠 전부터 생산해 영하 45도 수준 급속 냉동, 해동 후 24시간 이내 섭취 기준에 따라 당일 섭취 권장 의미로 11월 1일 표시, 참가자들이 집에 가져가 며칠 뒤 먹을 가능성 우려, 보존제·첨가제 없이 만든 빵 — 이데일리, 아시아경제, 머니투데이(네이버 댓글 많은 기사 '\"소비기한이 오늘?\" JTBC 마라톤서 받은 빵, 재고처리 논란 반전')",
+  "누리꾼 '소비기한 대신 당일 섭취 권장 안내를 별도로 했다면 오해가 없었을 것', 대회 운영 전반을 따져야 한다는 의견 — 이데일리, 아시아경제"
+ ],
+ "brief": "점수표: [선택] JTBC 서울마라톤(11/1) 완주 기념 빵 소비기한이 대회 당일로 찍혀 '재고 처리' 의혹 → 업체 해명 반전 (이데일리 11/2 '재고 처리 아냐?…', 아시아경제 11/3 '빵은 오늘까지, 도로엔 쓰레기', 머니투데이 '\"소비기한이 오늘?\"… 재고처리 논란 반전'(inbox news_hot), 커뮤니티 디시 실베 '유통기간이 당일인 간식 줘 논란') 이게됨3(완주 선물에 오늘까지 날짜)+궁금증4(왜 하필 그날 날짜? 답=해동 24시간 기준·일부러 당일)+감정5(의심→억울한 반전)+대상5+유행3(JTBC 마라톤, 커뮤니티·네이버 댓글 많은 기사 동시 화제)+판정4(의혹을 키운 쪽 vs 안내 안 한 운영)=24 / 철새도래지 고양이 급식소 2심 패소 2+2+4+4+3=15 법 설명 필요 탈락 / 별점 테러 상습범 항의전화(뉴스1) 오래된 기사 탈락 / 신생아 백일해 시동생(네이트판) 보도 없음 탈락 / 샤이니 민호 마라톤 조력 연예인·의혹 탈락. 유행: JTBC 서울마라톤 (커뮤니티 디시 실베 + 네이버 댓글 많은 기사 머니투데이·서울신문). 아이 레인: 아님 — '아이 112 신고', '초등생 기특', '아이 구조 경찰 소방', '어린이집 논란', '아기 엄마 이웃' 검색에서 최근 2주 새 보도 못 찾음(아기 울음 선물은 이미 다룸), 18시 회차에서 다시 찾을 것. 해외 아님. 구조: 시작=11월 1일 서울 마라톤 3만5000명, 완주자에게 크림빵 지급 / 커짐=포장지 소비기한 '2026.11.01까지'→참가자들 포장지 사진 올림→'재고 처리 아냐?' 의혹→소비기한 안내 부족 지적→도로 쓰레기 불만까지 겹쳐 기사화('빵은 오늘까지, 도로엔 쓰레기') / 뒤집힘=업체: 매장에서 안 파는 대회용으로 따로 개발한 빵 / 정체=며칠 전부터 생산해 영하 45도 급속 냉동, 해동 제품 24시간 이내 섭취 기준에 따라 집에 가져가 며칠 뒤 먹지 않게 일부러 당일 표시, 보존제·첨가제 없음 / 그 뒤=누리꾼 '당일 섭취 권장 안내를 따로 했다면 오해 없었을 것', 대회 운영 전반을 따져야 한다는 의견. 첫장면: 의외 (완주 선물 포장지에 대회 당일 소비기한). 훅 3안: ①'빵 포장지에 2026.11.01까지가 찍혀 있었음'(선택: 제목보다 한 발 더, 소품으로 바로 보여 줌) ②'3만5천 명이 받은 빵이 오늘까지'(규모만) ③'완주자들이 빵 사진을 올리기 시작함'(흐림). 글 카드 3안: '마라톤 완주 선물로 받은 소비기한 오늘까지 빵'(선택) / '완주하자마자 받은 떨이 빵?'(단정) / '오늘까지 먹어야 하는 완주 빵'(흐림). 제목: 대상(마라톤 완주 빵)+이상한 점(오늘 날짜)+궁금함(이유), 오늘 '~한 이유'형 첫 편, 앞 회차 '~의 진실'과 다른 틀, 앞머리 없음. 인용(보도 그대로): '2026.11.01까지' 포장지 / '재고 처리 아냐?'(이데일리 제목) / 소비기한 안내 부족 지적 / '빵은 오늘까지, 도로엔 쓰레기'(아시아경제 제목) / 업체 '해동된 제품은 24시간 이내 섭취' / '오직 마라톤 참가자들을 위해 개발한 빵, 보존제나 첨가제 없이' / 누리꾼 '당일 섭취 권장 안내를 별도로 했다면 오해가 없었을 것' — 6번. 욕할 대상: 확인 없이 '재고 떨이'로 몰아간 의심과, 안내 한 줄 안 붙인 대회 운영(실명 개인 없음). 주의: 빵 업체·제품명은 쓰지 않음(광고·실명 고발 피함). 2027년 10월 표시 검토·CCTV·안내문 설치·지난해 상온 보관 식감 문제는 한 매체에서만 보여 안 씀. 서울시장 재협의는 정치인이라 뺌. 샤이니 민호 건 안 씀. 3만5000명은 '달린' 인원(아시아경제 제목) — 완주자 수로 쓰지 않음. warn: 앞 회차(11/3 07시)에 있어서 안 씀, 반전은 flash+cam punch+💥. 증거: doc(빵 포장지 소비기한 2026.11.01까지), sms(완주자 글: 소비기한 오늘?/재고 처리 아냐?), doc(기사 제목). 이해검사: 서울 마라톤 완주 선물 빵에 대회 당일 소비기한이 찍혀 '재고 처리' 의심이 퍼졌는데, 알고 보니 대회용으로 따로 만들어 영하 45도로 얼린 빵이라 녹인 뒤 24시간 안에 먹으라고 일부러 당일로 찍은 것이었고, 안내만 했으면 오해가 없었을 거란 반응이 나왔다. 그림대조: 완료 (마라톤=マラソン 그림·러닝 스톡, 빵=パン 그림·빵 사진, 냉동=冷凍庫·freezer, 시계=24시간, 사람 사진·브랜드 검색어 없음, 일본 지명 없음)."
+}
