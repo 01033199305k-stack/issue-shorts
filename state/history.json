@@ -5235,5 +5235,77 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-03_0700_cafe-parttimer-three-drinks/video.mp4"
   },
   "seconds": 2635
+ },
+ {
+  "key": "2026-11-03-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-03T12:00:00+09:00",
+  "started": "2026-11-03T09:18:41.454820+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/bread-baguettes-crust-food-bakery-1761197/",
+   "https://pixabay.com/videos/id-109656/",
+   "https://pixabay.com/videos/id-14239/",
+   "https://pixabay.com/videos/id-11697/",
+   "https://pixabay.com/videos/id-7951/",
+   "https://pixabay.com/photos/clocks-time-idea-concept-257911/",
+   "https://pixabay.com/photos/bread-buns-baked-food-3467243/"
+  ],
+  "cc_clips": [],
+  "duration": 51.91,
+  "matches": [
+   1.0,
+   0.91,
+   1.0,
+   0.99,
+   0.99,
+   0.97,
+   0.95,
+   0.96,
+   0.95,
+   1.0,
+   1.0,
+   1.0,
+   0.98,
+   0.98,
+   1.0,
+   0.95,
+   0.98,
+   0.98,
+   1.0,
+   0.91,
+   0.96,
+   0.96,
+   0.96,
+   1.0
+  ],
+  "sfx": 23,
+  "illustrations": 19,
+  "cuts": 24,
+  "layout_issues": [],
+  "caption_breaks": [
+   "쓰레기 / 불만까지 (55)"
+  ],
+  "title": "마라톤 완주 빵에 오늘 날짜 찍힌 이유 #shorts",
+  "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=474981",
+  "facts_used": [
+   "2026 JTBC 서울마라톤(11월 1일) 완주자 지급 크림빵 소비기한이 행사 당일 11월 1일, 참가자들이 '2026.11.01까지' 포장지 사진 올리며 재고 처리 의혹, 소비기한 안내 부족 지적 — 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02952006645642112 , 아시아경제 https://view.asiae.co.kr/article/2026110308360242842",
+   "3만5000명 달린 대회, 도로 쓰레기·교통 통제 불만도 겹침('빵은 오늘까지, 도로엔 쓰레기') — 아시아경제 https://view.asiae.co.kr/article/2026110308360242842",
+   "업체 해명: 일반 매장에서 판매하지 않는 대회용 제품을 별도 개발, 행사 며칠 전부터 생산해 영하 45도 수준 급속 냉동, 해동 후 24시간 이내 섭취 기준에 따라 당일 섭취 권장 의미로 11월 1일 표시, 참가자들이 집에 가져가 며칠 뒤 먹을 가능성 우려, 보존제·첨가제 없이 만든 빵 — 이데일리, 아시아경제, 머니투데이(네이버 댓글 많은 기사 '\"소비기한이 오늘?\" JTBC 마라톤서 받은 빵, 재고처리 논란 반전')",
+   "누리꾼 '소비기한 대신 당일 섭취 권장 안내를 별도로 했다면 오해가 없었을 것', 대회 운영 전반을 따져야 한다는 의견 — 이데일리, 아시아경제"
+  ],
+  "slug": "2026-11-03_1200_marathon-bread-expiry-date",
+  "late": false,
+  "video_id": "5q9Iym475pY",
+  "url": "https://youtube.com/shorts/5q9Iym475pY",
+  "privacy": "private",
+  "scheduled_for": "2026-11-03T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae931745d11dd638e973a5d",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-03T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-03_1200_marathon-bread-expiry-date/video.mp4"
+  },
+  "seconds": 2324
  }
 ]
