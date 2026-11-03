@@ -1,79 +1,43 @@
 {
- "detected_at": "2026-11-03T11:14+09:00",
+ "detected_at": "2026-11-03T15:11+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 李대통령 \"권력형·금융범죄 엄정 수사해야…조직적 가짜뉴스에도 강력 대응\"",
-   "url": "https://n.news.naver.com/article/277/0005837203",
-   "press": "아시아경제",
+   "title": "이 대통령 \"주요 지역 아파트 실거래가, 놀라울 정도로 떨어지고 있어\"",
+   "url": "https://n.news.naver.com/article/055/0001400201",
+   "press": "SBS",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선일보",
+     "title": "李대통령 “서울 아파트 매물 급속도로 늘고, 가격도 놀라울 정도로 떨어져”",
+     "url": "https://n.news.naver.com/article/023/0004007476"
+    },
+    {
+     "press": "부산일보",
+     "title": "이 대통령 \"아파트 실거래가, 놀라울 정도로 떨어져… 매물 늘고 거래 줄고\"",
+     "url": "https://n.news.naver.com/article/082/0001405351"
+    },
+    {
+     "press": "국민일보",
+     "title": "李대통령 “서울 주요 지역 실거래가 놀라울 정도로 떨어져”",
+     "url": "https://n.news.naver.com/article/005/0001882622"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]아파트에 비밀 마약공장이…감기약으로 필로폰 제조 일당 구속",
+   "url": "https://n.news.naver.com/article/660/0000120492",
+   "press": "kbc광주방송",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] 청와대, 대통령 순방단 개인정보 유출 긴급회의",
-   "url": "https://n.news.naver.com/article/422/0000922269",
-   "press": "연합뉴스TV",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "채널A",
-     "title": "청와대 “대통령 순방단 개인정보유출 중대 사안…책임 규명해야”",
-     "url": "https://n.news.naver.com/article/449/0000366178"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 李대통령 “합리적 근거 없는 혜택, 약자 혐오 선동세력에 빌미”",
-   "url": "https://n.news.naver.com/article/025/0003562415",
-   "press": "중앙일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] '역삼 연쇄 방화' 피의자 신상 공개...77살 이명수",
-   "url": "https://n.news.naver.com/article/052/0002427536",
-   "press": "YTN",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "서울신문",
-     "title": "‘역삼동 연쇄 방화범’ 77세 이명수 얼굴 공개",
-     "url": "https://n.news.naver.com/article/081/0003695152"
-    },
-    {
-     "press": "노컷뉴스",
-     "title": "[속보] '역삼 연쇄 방화' 피의자 신상공개…77세 이명수",
-     "url": "https://n.news.naver.com/article/079/0004205750"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "특허법인에 불만 품고 역삼동 건물 두 곳에 불 질러 26명 다치게 한 피의자는 77세 이명수",
-   "url": "https://n.news.naver.com/article/087/0001228145",
-   "press": "강원일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "서울신문",
-     "title": "‘역삼동 연쇄 방화범’ 77세 이명수 얼굴 공개",
-     "url": "https://n.news.naver.com/article/081/0003695152"
-    },
-    {
-     "press": "노컷뉴스",
-     "title": "[속보] '역삼 연쇄 방화' 피의자 신상공개…77세 이명수",
-     "url": "https://n.news.naver.com/article/079/0004205750"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 박지원, 한동훈에 \"딸이 '이모 찬스'로 MIT 합격 의혹? 수사받아 의혹 밝혀야\"",
-   "url": "https://n.news.naver.com/article/002/0002463954",
-   "press": "프레시안",
+   "title": "[속보] 李 대통령 “집값 올라야 이익보는 쪽이 데이터 한쪽으로 몰아가”",
+   "url": "https://n.news.naver.com/article/029/0003056800",
+   "press": "디지털타임스",
    "why": "[속보] 기사",
    "related": []
   }
