@@ -1,72 +1,57 @@
 {
- "detected_at": "2026-11-03T19:02+09:00",
+ "detected_at": "2026-11-04T08:15+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 김민석, 與 의총서 '신천지 논란' 사과…조사 결과 공개는 안해",
-   "url": "https://n.news.naver.com/article/079/0004206091",
-   "press": "노컷뉴스",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 北김여정 “美와 선택지에 대화 있지만, 반드시는 아냐”",
+   "url": "https://n.news.naver.com/article/016/0002718411",
+   "press": "헤럴드경제",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "경향신문",
-     "title": "[속보]김민석, 의총서 ‘신천지’ 사과 “3자 비밀연합은 증거 없었다”…정청래 “결자해지해야”",
-     "url": "https://n.news.naver.com/article/032/0003480401"
-    },
-    {
-     "press": "YTN",
-     "title": "[속보] 김민석, '신천지 의혹' 관련 의총서 사과...\"3자 비밀연합 증거 없어\"",
-     "url": "https://n.news.naver.com/article/052/0002427830"
+     "press": "서울신문",
+     "title": "김여정 “미국과 마주 앉을 필요 없다…대화가 국익은 아냐”",
+     "url": "https://n.news.naver.com/article/081/0003695530"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]장동혁 “놀라울 정도로 떨어진 건 집값 아닌 주가”",
-   "url": "https://n.news.naver.com/article/021/0002830010",
-   "press": "문화일보",
-   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 쿠팡Inc, 3분기 영업손실 6423억원… 전년 대비 적자 전환",
+   "url": "https://n.news.naver.com/article/366/0001202360",
+   "press": "조선비즈",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 강릉 주문진서 승용차·지게차 잇단 추돌…사고 수습하던 60대 숨져",
+   "url": "https://n.news.naver.com/article/087/0001228437",
+   "press": "강원일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 김여정 \"美 신뢰 못해…마주 앉을 필요 없다\"",
+   "url": "https://n.news.naver.com/article/422/0000922661",
+   "press": "연합뉴스TV",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "서울경제",
-     "title": "李 “실거래가 놀라울 정도로 하락…집값 폭락 땐 정부가 대량매입”",
-     "url": "https://n.news.naver.com/article/011/0004678187"
-    },
-    {
-     "press": "JTBC",
-     "title": "이재명 \"집값 놀라울 정도로 떨어져\"…장동혁 \"떨어진 건 지지율\"",
-     "url": "https://n.news.naver.com/article/437/0000518867"
-    },
-    {
-     "press": "뉴스1",
-     "title": "李대통령 \"놀라울 정도로 하락\"…서울 집값은 지역별 온도 차",
-     "url": "https://n.news.naver.com/article/421/0009267373"
+     "press": "서울신문",
+     "title": "김여정 “미국과 마주 앉을 필요 없다…대화가 국익은 아냐”",
+     "url": "https://n.news.naver.com/article/081/0003695530"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "민주당, ‘신천지 의혹’ 보고 취소…김민석 “‘3자 비밀연합’ 증거 없어” 사과하며 ‘울컥’",
-   "url": "https://n.news.naver.com/article/056/0012286349",
-   "press": "KBS",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "경향신문",
-     "title": "[속보]김민석, 의총서 ‘신천지’ 사과 “3자 비밀연합은 증거 없었다”…정청래 “결자해지해야”",
-     "url": "https://n.news.naver.com/article/032/0003480401"
-    },
-    {
-     "press": "YTN",
-     "title": "[속보] 김민석, '신천지 의혹' 관련 의총서 사과...\"3자 비밀연합 증거 없어\"",
-     "url": "https://n.news.naver.com/article/052/0002427830"
-    },
-    {
-     "press": "한국일보",
-     "title": "[속보] 결국 사과한 김민석 \"신천지 비밀연합 증거 없어\"… 정청래 \"책임져야\"",
-     "url": "https://n.news.naver.com/article/469/0000963395"
-    }
-   ]
+   "title": "[속보] ‘대북송금’ 이화영 측, 유엔에 인권침해 진정…‘장기구금·강압수사’ 주장",
+   "url": "https://n.news.naver.com/article/029/0003056965",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
