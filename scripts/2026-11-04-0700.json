@@ -1,0 +1,718 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "auction-youtuber-ponzi-students",
+ "title_lines": [
+  "수강생에 20% 준다던",
+  "경매 강사 돈의 출처"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "TV 나온 경매 강사가 약속한 20% 수익",
+   "say": "티비 나온 경매 강사가 약속한 이십 퍼센트 수익",
+   "sfx": "punch",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "TV 나온 경매 강사가\n약속한 20% 수익",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "126명이 강사한테 맡긴 125억을 못 돌려받음.",
+   "say": "백이십육 명이 강사한테 맡긴 백이십오억을 못 돌려받음.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 人々",
+       "落ち込む 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 진짜 어이없는 건 돈이 간 곳임.",
+   "say": "근데 진짜 어이없는 건 돈이 간 곳임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "考える 人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "강사는 TV에도 나온 부동산 전문가였음.",
+   "say": "강사는 티비에도 나온 부동산 전문가였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "tv studio",
+     "television studio",
+     "studio lights"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "テレビ 出演",
+       "テレビ番組"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📺",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "구독자 10만 유튜브에 경매학원까지 운영함.",
+   "say": "구독자 십만 유튜브에 경매학원까지 운영함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "classroom",
+    "video": [
+     "lecture hall",
+     "seminar room",
+     "classroom"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "講師 男性",
+       "セミナー 講師"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "수강생들한테 경매로 불려 원금에 확정 수익까지 준다며",
+   "say": "수강생들한테 경매로 불려 원금에 확정 수익까지 준다며",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "펀드 약속",
+      "lines": [
+       "부동산 경매 투자",
+       "원금 지급",
+       "확정 수익 지급"
+      ],
+      "mark": 2,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "契約 握手",
+       "握手 ビジネス"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "최대 20%를 약속했다고.",
+   "say": "최대 이십 퍼센트를 약속했다고.",
+   "sfx": "punch",
+   "cap": "quote",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "price",
+      "label": "확정 수익",
+      "new": "최대 20%",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "stamp"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "お金持ち"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 실제로 수익금도 들어왔음.",
+   "say": "와, 실제로 수익금도 들어왔음.",
+   "sfx": "whoosh",
+   "tone": "신나서 눈이 반짝이듯 들뜬 목소리로",
+   "visual": {
+    "bg": "living",
+    "pic": [
+     "coins pile",
+     "coins money"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "喜ぶ 女性",
+       "スマートフォン 喜ぶ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💰",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "7년 동안 받은 돈이 무려 400억대였다고.",
+   "say": "칠 년 동안 받은 돈이 무려 사백억대였다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "cash bills stack",
+     "money stack",
+     "banknotes"
+    ],
+    "cc": [
+     "korean won banknotes",
+     "korean money counting"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "金庫",
+       "金庫 お金"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그러다 피해 신고가 줄줄이 들어옴.",
+   "say": "그러다 피해 신고가 줄줄이 들어옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "video": [
+     "police station",
+     "police building",
+     "police car parked"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察 相談",
+       "警察官"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "돈 흐름을 따라가 봤더니",
+   "say": "돈 흐름을 따라가 봤더니",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "捜査 警察",
+       "刑事"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 경매로 낸 수익은 처음부터 없었음.",
+   "say": "헐, 경매로 낸 수익은 처음부터 없었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "auction gavel",
+     "gavel wood",
+     "gavel"
+    ],
+    "cam": "punch",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "びっくり 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "강사 본인도 그렇게 인정했다고.",
+   "say": "강사 본인도 그렇게 인정했다고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "取り調べ",
+       "事情聴取"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙇",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 수익금은 새 수강생 돈이었는데,",
+   "say": "알고 보니 수익금은 새 수강생 돈이었는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "封筒 渡す",
+       "手渡し 封筒"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔁",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그걸 먼저 들어온 사람한테 준 거임.",
+   "say": "그걸 먼저 들어온 사람한테 준 거임.",
+   "sfx": "exclaim",
+   "cap": "hit",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "自転車操業",
+       "借金 返済",
+       "困る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이른바 폰지 사기였음.",
+   "say": "이른바 폰지 사기였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "경찰 판단",
+      "lines": [
+       "새 투자금으로",
+       "기존 투자자 지급",
+       "폰지 사기"
+      ],
+      "mark": 2,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "警察官 男性",
+       "警察官 説明"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 수십억은 자기가 쓰거나",
+   "say": "심지어 수십억은 자기가 쓰거나",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "shopping bags",
+     "luxury shopping"
+    ],
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🛍️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "법인 명의 건물 사는 데 들어감.",
+   "say": "법인 명의 건물 사는 데 들어감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "office building",
+     "commercial building"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ビル",
+       "ビル 建物"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "강사는 결국 구속돼 검찰로 넘겨짐.",
+   "say": "강사는 결국 구속돼 검찰로 넘겨짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "courthouse building",
+     "court building",
+     "government building"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "逮捕 男性",
+       "手錠"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰은 82억을 못 쓰게 묶어 둠.",
+   "say": "경찰은 팔십이억을 못 쓰게 묶어 둠.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "bank vault",
+     "vault door",
+     "safe lock"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "鍵 金庫",
+       "鍵"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그러면서 원금 보장 투자는 법에 없다고 강조함.",
+   "say": "그러면서 원금 보장 투자는 법에 없다고 강조함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "注意 警察官",
+       "警察官 敬礼"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚠️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경매는 강의에만 있었음.",
+   "say": "경매는 강의에만 있었음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "黒板 授業",
+       "授業 先生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🎓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "수강생에 20% 준다던 경매 강사 돈의 출처 #shorts",
+  "description": "TV에도 나온 부동산 전문가가 유튜브와 경매학원 수강생들에게 '경매로 불려 원금에 최대 20% 확정 수익'을 약속하며 펀드 투자금을 모았음.\n7년 동안 400억대가 들어왔지만 경매로 낸 수익은 처음부터 없었고, 새 수강생 돈으로 먼저 들어온 사람에게 수익금을 주는 돌려막기였다고.\n126명이 125억을 돌려받지 못했고, 강사는 사기·유사수신 혐의로 구속 송치됨.\n\n※ AI 음성으로 제작했습니다.\n#폰지사기 #투자사기 #부동산경매 #유튜버 #썰 #shorts",
+  "tags": [
+   "폰지 사기",
+   "투자 사기",
+   "부동산 경매",
+   "경매학원",
+   "부동산 유튜버",
+   "유사수신",
+   "원금 보장",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://view.asiae.co.kr/article/2026110310171047432",
+ "facts_used": [
+  "50대 A씨, 과거 TV 프로그램 등에 출연해 부동산 투자 전문가로 알려짐, 유튜브 채널·경매학원 수강생 신뢰 이용 — SBS D리포트 https://news.sbs.co.kr/news/endPage.do?news_id=N1008828716 , 아시아경제 https://view.asiae.co.kr/article/2026110310171047432 , 경인일보 https://www.kyeongin.com/article/1773966",
+  "구독자 10만 부동산 유튜버 — 국민일보 https://www.kmib.co.kr/article/20261103500301 (제목), 경기신문 https://www.kgnews.co.kr/news/article.html?no=917877",
+  "자신이 운영하는 펀드에 투자하면 부동산 경매로 수익을 내 원금과 확정 수익을 지급하겠다고 속임, 최대 20% 수익 보장 — 아시아경제, 데일리안 https://www.dailian.co.kr/news/view/1710006 , 경기신문, 헤럴드경제 https://biz.heraldcorp.com/article/10924004",
+  "2019년 1월~2026년 7월 수강생 등 126명에게서 약 125억 원 편취 혐의, 약 7년간 받은 돈 400억 원대(경찰 추정) — 신아일보 https://www.shinailbo.co.kr/news/articleView.html?idxno=5079090 , 전국매일신문 https://www.jeonmae.co.kr/news/articleView.html?idxno=1308120 , 서울경제 https://m.sedaily.com/article/20109547 , SBS",
+  "분당경찰서 집중수사관서 지정, 피해 사건 100건 병합 수사 — OBS https://www.obsnews.co.kr/news/articleView.html?idxno=1542521 , 경인일보",
+  "구체적 투자 계획 없이 신규 투자금으로 기존 투자자에게 수익금·원금 지급한 폰지사기, 대부분 돌려막기, 수십억은 개인 소비·법인 명의 건물 매입 — 아시아경제, 경인일보, 신아일보",
+  "A씨는 혐의를 인정, 처음부터 경매 투자를 통한 수익은 없었다는 취지로 진술 — 국민일보, 경기신문",
+  "10월 30일 사기·유사수신 혐의 구속 송치, 범죄수익 약 82억 원 추징보전 신청, 경찰 '법적으로 원금이 보장되는 투자성 상품은 없다' — 경기신문, 헤럴드경제, 아시아경제, 뉴스1 https://www.news1.kr/local/gyeonggi/6341296"
+ ],
+ "brief": "점수표: [선택] TV 출연 부동산 유튜버·경매학원 운영자 '원금+최대 20%' 펀드로 126명 125억 편취, 경매 수익은 처음부터 없었고 돌려막기·건물 매입 (아시아경제·SBS·국민일보·경기신문·헤럴드경제·신아일보 11/3) 이게됨4(경매 강사인데 경매 수익 0)+궁금증4(돈이 간 곳)+감정6(억울한 손해)+대상3(유튜버·강의)+판정5(속인 쪽 분명)=22 / 7개월 아기 물티슈 껍질 순찰차 이송 3+2+8+4+1=18, 뒤집힘·정체·인용 사실이 모자라 탈락(늘이지 않음) / '고3 아들 데리러 갑니다' 주차장 박스 4+3+4+5+4=20, 핵심 반전(9년 전 사진)이 스포탈코리아 한 곳뿐이고 매체마다 시점 엇갈려 탈락 / '자전거 못 타고 놀아' 초등생 112 학대 소재 금지 탈락 / 마라톤 숨진 20대 유족 목격자 찾기 사망 소재 탈락. 유행: 폰지 사기 (구글 급상승 500+, 바로 이 사건 '125억 가로챈 스타 강사'). 아이 레인: 아님 — '아이 112 신고 화제', '초등생 경찰 소방 사연' 검색, 아기 순찰차 건은 사실 부족. 해외 아님(국내). 구조: 시작=TV 나온 부동산 전문가, 구독자 10만 유튜브·경매학원 운영 / 커짐=수강생에게 펀드 권유→'원금+확정 수익, 최대 20%'→실제로 수익금 들어옴→7년간 400억대 모임→피해 신고 줄줄이 / 뒤집힘=경매로 낸 수익은 처음부터 없었음(본인 인정) / 정체=수익금은 새 수강생 돈을 옛 수강생에게 준 돌려막기, 수십억은 개인 소비·법인 명의 건물 / 그 뒤=10/30 구속 송치, 82억 추징보전, 경찰 '원금 보장 투자상품은 법적으로 없다'. 공개할 답: ①경매 수익 0 ②배당=새 수강생 돈 ③건물·개인 소비. 첫장면: 손해 (126명이 125억 못 돌려받음). 훅 3안: ①'126명이 강사한테 맡긴 125억을 못 돌려받음'(선택: 손해+숫자, 돈이 간 곳 궁금증) ②'경매 강사가 경매를 안 했음'(결말 노출) ③'구독자 10만 유튜버가 구속됨'(사람 흐림). 글 카드 3안: 'TV 나온 경매 강사가 약속한 20% 수익'(선택) / '수강생 돈 125억 모은 경매 강사'(정체 흐림) / '경매학원 펀드의 비밀'(빈 떡밥). 제목: 사람(경매 강사)+무슨 일(수강생에 20% 준다던)+궁금한 정체(돈의 출처=새 수강생 돈), 앞머리 없음, 앞 회차 '있던 곳'·'이유'·'진실'과 다른 틀, 숫자 20%는 미끼 자체라 핵심. 인용(보도 그대로): '원금과 확정 수익 지급' / '최대 20%' / 본인 '처음부터 경매 수익 없었다' 취지 인정 / 경찰 '법적으로 원금 보장 투자상품은 없다' — 4번. 욕할 대상: TV 출연 명성으로 수강생을 끌어들인 강사 A씨(실명 안 씀, 채널·학원 이름 안 씀). 주의: 400억은 경찰 추정이라 '받은 돈'으로만, 피해액은 125억. 수강생 카톡 '2~3주 전 얘기하면 원금 회수'는 경인일보 한 곳뿐이라 안 씀. 8월 23일 첫 피해 접수도 한 곳뿐이라 날짜 안 씀. 혐의 단계(송치)라 '혐의'·'경찰 판단'으로 씀. warn: 앞 회차에 있어 안 씀. photo: 기관 제공 사진 확인 못 함. 증거: doc(펀드 약속·경찰 판단), price(최대 20%). 이해검사: TV에도 나온 경매학원 강사가 수강생 126명에게 원금과 최대 20% 수익을 준다며 돈을 받았는데, 경매 수익은 처음부터 없었고 새 수강생 돈으로 돌려막다가 구속돼 검찰로 넘겨졌다. 그림대조: 완료."
+}
