@@ -5307,5 +5307,78 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-03_1200_marathon-bread-expiry-date/video.mp4"
   },
   "seconds": 2324
+ },
+ {
+  "key": "2026-11-03-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-03T18:00:00+09:00",
+  "started": "2026-11-03T15:19:15.524125+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-128887/",
+   "https://pixabay.com/videos/id-250307/",
+   "https://pixabay.com/videos/id-694/",
+   "https://pixabay.com/photos/car-police-car-police-cops-road-6398127/",
+   "https://pixabay.com/photos/fountain-building-illuminations-4661162/",
+   "https://pixabay.com/videos/id-7315/",
+   "https://pixabay.com/photos/office-notes-notepad-entrepreneur-620817/",
+   "https://pixabay.com/videos/id-336094/",
+   "https://pixabay.com/photos/new-years-eve-fireworks-city-sky-1953253/",
+   "https://pixabay.com/videos/id-172779/",
+   "https://pixabay.com/videos/id-111416/"
+  ],
+  "cc_clips": [],
+  "duration": 52.76,
+  "matches": [
+   0.97,
+   0.97,
+   1.0,
+   0.96,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.96,
+   0.86,
+   1.0,
+   0.99,
+   0.99,
+   0.91,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.96,
+   0.94,
+   0.93
+  ],
+  "sfx": 22,
+  "illustrations": 18,
+  "cuts": 23,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "아빠가 폭죽 맞았다던 글쓴이가 있던 곳 #shorts",
+  "source_post": "https://biz.heraldcorp.com/article/10922863",
+  "facts_used": [
+   "10월 24일 SNS·방송사·커뮤니티에 '강문해변에서 아버지와 산책 중 남성 3명이 낮은 방향으로 폭죽을 쏘고 이 중 2명이 아버지를 향해 발사, 손과 손가락 2도 화상' 주장, 폭죽 영상·부상 사진 첨부 — 헤럴드경제 https://biz.heraldcorp.com/article/10922863 , 세계일보 https://www.segye.com/newsView/20261102516765 , 연합뉴스(뉴스통) https://www.newstong.co.kr/view3.aspx?seq=14788613",
+   "글쓴이는 신고 후 '가해자 신원을 확인할 수 없어 검거가 어렵다'는 답을 들었다고 주장, '폭죽 화상·경찰 신고 묵살' 논란 — 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2082038 , 강원신문 https://www.gwnews.org/news/articleView.html?idxno=272338",
+   "폐장 후 단속반 없음, 올해 폭죽 과태료 0건·단속은 계도(경고)뿐, 시는 야간 식별 현수막·인력 배치 검토, 경찰은 사진·영상으로 쏜 사람 확인 중 — 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2080624 , 세계일보 10/28 https://www.segye.com/newsView/20261028516568",
+   "경찰 확인: 112 신고 등 접수된 사항 없음, 강릉시 민원 없음, A(27)씨는 당시 인천에 있었음, 영상·사진은 직접 촬영하지 않음(인터넷 무단 도용), '전혀 사실이 아니다', 명예훼손·업무방해 혐의 검토, 사람 향해 폭죽 쏴 다치게 하면 적극 수사 — 헤럴드경제, 세계일보, 연합뉴스, SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008826397 , 강원도민일보 https://www.kado.net/news/articleView.html?idxno=2082038"
+  ],
+  "slug": "2026-11-03_1800_gangneung-fireworks-burn-fake-post",
+  "late": false,
+  "video_id": "oG34ZwQSWTY",
+  "url": "https://youtube.com/shorts/oG34ZwQSWTY",
+  "privacy": "private",
+  "scheduled_for": "2026-11-03T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6ae985fa3b00665c737c1859",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-03T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-03_1800_gangneung-fireworks-burn-fake-post/video.mp4"
+  },
+  "seconds": 2329
  }
 ]
