@@ -1,79 +1,79 @@
 {
- "detected_at": "2026-11-03T09:10+09:00",
+ "detected_at": "2026-11-03T11:14+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李대통령 부부 여권번호 유출…靑 “사전 인지 후 대응”",
-   "url": "https://n.news.naver.com/article/029/0003056711",
-   "press": "디지털타임스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "한국경제TV",
-     "title": "대통령 부부까지 여권번호 노출…1호기 탑승자 정보 유출",
-     "url": "https://n.news.naver.com/article/215/0001271413"
-    },
-    {
-     "press": "강원도민일보",
-     "title": "[속보] 이 대통령 부부 여권번호까지…'1호기 탑승자' 168명 정보 유출",
-     "url": "https://n.news.naver.com/article/654/0000209022"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[단독] 이재명 대통령 여권번호까지…‘1호기 탑승자’ 168명 정보 인터넷에 노출",
-   "url": "https://n.news.naver.com/article/056/0012285730",
-   "press": "KBS",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "한국경제TV",
-     "title": "대통령 부부까지 여권번호 노출…1호기 탑승자 정보 유출",
-     "url": "https://n.news.naver.com/article/215/0001271413"
-    },
-    {
-     "press": "강원도민일보",
-     "title": "[속보] 이 대통령 부부 여권번호까지…'1호기 탑승자' 168명 정보 유출",
-     "url": "https://n.news.naver.com/article/654/0000209022"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 북한, 전략순항미사일 집속탄두 위력 시험…“5∼6㏊ 표적 초토화 가능”",
-   "url": "https://n.news.naver.com/article/087/0001228142",
-   "press": "강원일보",
+   "title": "[속보] 李대통령 \"권력형·금융범죄 엄정 수사해야…조직적 가짜뉴스에도 강력 대응\"",
+   "url": "https://n.news.naver.com/article/277/0005837203",
+   "press": "아시아경제",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] 北김여정, 바이낸스 사태에 \"美 도발…예의주시\"",
-   "url": "https://n.news.naver.com/article/422/0000922243",
+   "title": "[속보] 청와대, 대통령 순방단 개인정보 유출 긴급회의",
+   "url": "https://n.news.naver.com/article/422/0000922269",
    "press": "연합뉴스TV",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스",
-     "title": "北김여정, 바이낸스 사태에 \"美 정치적 도발…예의주시\"",
-     "url": "https://n.news.naver.com/article/001/0016417203"
+     "press": "채널A",
+     "title": "청와대 “대통령 순방단 개인정보유출 중대 사안…책임 규명해야”",
+     "url": "https://n.news.naver.com/article/449/0000366178"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 정부 \"체감 물가 여전히 높아…640억 원 규모 김장 대책\"",
-   "url": "https://n.news.naver.com/article/082/0001405314",
-   "press": "부산일보",
+   "title": "[속보] 李대통령 “합리적 근거 없는 혜택, 약자 혐오 선동세력에 빌미”",
+   "url": "https://n.news.naver.com/article/025/0003562415",
+   "press": "중앙일보",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] 10월 소비자물가 2.8% 상승…두 달 연속 2%대 후반",
-   "url": "https://n.news.naver.com/article/057/0001976414",
-   "press": "MBN",
+   "title": "[속보] '역삼 연쇄 방화' 피의자 신상 공개...77살 이명수",
+   "url": "https://n.news.naver.com/article/052/0002427536",
+   "press": "YTN",
+   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "서울신문",
+     "title": "‘역삼동 연쇄 방화범’ 77세 이명수 얼굴 공개",
+     "url": "https://n.news.naver.com/article/081/0003695152"
+    },
+    {
+     "press": "노컷뉴스",
+     "title": "[속보] '역삼 연쇄 방화' 피의자 신상공개…77세 이명수",
+     "url": "https://n.news.naver.com/article/079/0004205750"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "특허법인에 불만 품고 역삼동 건물 두 곳에 불 질러 26명 다치게 한 피의자는 77세 이명수",
+   "url": "https://n.news.naver.com/article/087/0001228145",
+   "press": "강원일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "서울신문",
+     "title": "‘역삼동 연쇄 방화범’ 77세 이명수 얼굴 공개",
+     "url": "https://n.news.naver.com/article/081/0003695152"
+    },
+    {
+     "press": "노컷뉴스",
+     "title": "[속보] '역삼 연쇄 방화' 피의자 신상공개…77세 이명수",
+     "url": "https://n.news.naver.com/article/079/0004205750"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 박지원, 한동훈에 \"딸이 '이모 찬스'로 MIT 합격 의혹? 수사받아 의혹 밝혀야\"",
+   "url": "https://n.news.naver.com/article/002/0002463954",
+   "press": "프레시안",
    "why": "[속보] 기사",
    "related": []
   }
