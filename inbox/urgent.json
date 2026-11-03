@@ -1,45 +1,72 @@
 {
- "detected_at": "2026-11-03T15:11+09:00",
+ "detected_at": "2026-11-03T19:02+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "이 대통령 \"주요 지역 아파트 실거래가, 놀라울 정도로 떨어지고 있어\"",
-   "url": "https://n.news.naver.com/article/055/0001400201",
-   "press": "SBS",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 김민석, 與 의총서 '신천지 논란' 사과…조사 결과 공개는 안해",
+   "url": "https://n.news.naver.com/article/079/0004206091",
+   "press": "노컷뉴스",
+   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "조선일보",
-     "title": "李대통령 “서울 아파트 매물 급속도로 늘고, 가격도 놀라울 정도로 떨어져”",
-     "url": "https://n.news.naver.com/article/023/0004007476"
+     "press": "경향신문",
+     "title": "[속보]김민석, 의총서 ‘신천지’ 사과 “3자 비밀연합은 증거 없었다”…정청래 “결자해지해야”",
+     "url": "https://n.news.naver.com/article/032/0003480401"
     },
     {
-     "press": "부산일보",
-     "title": "이 대통령 \"아파트 실거래가, 놀라울 정도로 떨어져… 매물 늘고 거래 줄고\"",
-     "url": "https://n.news.naver.com/article/082/0001405351"
-    },
-    {
-     "press": "국민일보",
-     "title": "李대통령 “서울 주요 지역 실거래가 놀라울 정도로 떨어져”",
-     "url": "https://n.news.naver.com/article/005/0001882622"
+     "press": "YTN",
+     "title": "[속보] 김민석, '신천지 의혹' 관련 의총서 사과...\"3자 비밀연합 증거 없어\"",
+     "url": "https://n.news.naver.com/article/052/0002427830"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]아파트에 비밀 마약공장이…감기약으로 필로폰 제조 일당 구속",
-   "url": "https://n.news.naver.com/article/660/0000120492",
-   "press": "kbc광주방송",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "[속보]장동혁 “놀라울 정도로 떨어진 건 집값 아닌 주가”",
+   "url": "https://n.news.naver.com/article/021/0002830010",
+   "press": "문화일보",
+   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "서울경제",
+     "title": "李 “실거래가 놀라울 정도로 하락…집값 폭락 땐 정부가 대량매입”",
+     "url": "https://n.news.naver.com/article/011/0004678187"
+    },
+    {
+     "press": "JTBC",
+     "title": "이재명 \"집값 놀라울 정도로 떨어져\"…장동혁 \"떨어진 건 지지율\"",
+     "url": "https://n.news.naver.com/article/437/0000518867"
+    },
+    {
+     "press": "뉴스1",
+     "title": "李대통령 \"놀라울 정도로 하락\"…서울 집값은 지역별 온도 차",
+     "url": "https://n.news.naver.com/article/421/0009267373"
+    }
+   ]
   },
   {
    "kind": "news",
-   "title": "[속보] 李 대통령 “집값 올라야 이익보는 쪽이 데이터 한쪽으로 몰아가”",
-   "url": "https://n.news.naver.com/article/029/0003056800",
-   "press": "디지털타임스",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "민주당, ‘신천지 의혹’ 보고 취소…김민석 “‘3자 비밀연합’ 증거 없어” 사과하며 ‘울컥’",
+   "url": "https://n.news.naver.com/article/056/0012286349",
+   "press": "KBS",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "경향신문",
+     "title": "[속보]김민석, 의총서 ‘신천지’ 사과 “3자 비밀연합은 증거 없었다”…정청래 “결자해지해야”",
+     "url": "https://n.news.naver.com/article/032/0003480401"
+    },
+    {
+     "press": "YTN",
+     "title": "[속보] 김민석, '신천지 의혹' 관련 의총서 사과...\"3자 비밀연합 증거 없어\"",
+     "url": "https://n.news.naver.com/article/052/0002427830"
+    },
+    {
+     "press": "한국일보",
+     "title": "[속보] 결국 사과한 김민석 \"신천지 비밀연합 증거 없어\"… 정청래 \"책임져야\"",
+     "url": "https://n.news.naver.com/article/469/0000963395"
+    }
+   ]
   }
  ]
 }
