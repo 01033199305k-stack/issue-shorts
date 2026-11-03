@@ -1,48 +1,79 @@
 {
- "detected_at": "2026-11-02T18:23+09:00",
+ "detected_at": "2026-11-03T09:10+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "[기갤] \"실격 처리해야\" 샤이니 민호, 마라톤 대회 논란…페이스메이커 조력",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=474944&_dcbest=1&page=1",
-   "board": "디시 실베",
-   "why": "커뮤니티 2곳 동시 화제 + 기사화(헤럴드경제)",
-   "news": [
-    {
-     "url": "https://n.news.naver.com/article/016/0002717741",
-     "headline": "“실격 처리해야” 샤이니 민호 마라톤 ‘페이스 메이커’ 논란…“등 미는 모습 포착”"
-    }
-   ]
-  },
-  {
    "kind": "news",
-   "title": "제네시스 생산라인 중단…G80 신차 투입 놓고 노사 충돌",
-   "url": "https://n.news.naver.com/article/015/0005349204",
-   "press": "한국경제",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "李대통령 부부 여권번호 유출…靑 “사전 인지 후 대응”",
+   "url": "https://n.news.naver.com/article/029/0003056711",
+   "press": "디지털타임스",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "머니투데이",
-     "title": "현대차 생산라인 또 멈췄다…G80 신차 투입 인력 놓고 노사 충돌",
-     "url": "https://n.news.naver.com/article/008/0005435229"
-    },
-    {
      "press": "한국경제TV",
-     "title": "현대차 울산 제네시스 생산라인 중단…신차 투입 놓고 노사 갈등",
-     "url": "https://n.news.naver.com/article/215/0001271359"
+     "title": "대통령 부부까지 여권번호 노출…1호기 탑승자 정보 유출",
+     "url": "https://n.news.naver.com/article/215/0001271413"
     },
     {
-     "press": "디지털타임스",
-     "title": "[속보] 현대차 울산 생산라인 멈춰섰다…노조, 제네시스 신차 투입 막아서",
-     "url": "https://n.news.naver.com/article/029/0003056600"
+     "press": "강원도민일보",
+     "title": "[속보] 이 대통령 부부 여권번호까지…'1호기 탑승자' 168명 정보 유출",
+     "url": "https://n.news.naver.com/article/654/0000209022"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]“아드님이 한남관저 살다보니 청년전월세는…” 정점식의 평가",
-   "url": "https://n.news.naver.com/article/021/0002829489",
-   "press": "문화일보",
+   "title": "[단독] 이재명 대통령 여권번호까지…‘1호기 탑승자’ 168명 정보 인터넷에 노출",
+   "url": "https://n.news.naver.com/article/056/0012285730",
+   "press": "KBS",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "한국경제TV",
+     "title": "대통령 부부까지 여권번호 노출…1호기 탑승자 정보 유출",
+     "url": "https://n.news.naver.com/article/215/0001271413"
+    },
+    {
+     "press": "강원도민일보",
+     "title": "[속보] 이 대통령 부부 여권번호까지…'1호기 탑승자' 168명 정보 유출",
+     "url": "https://n.news.naver.com/article/654/0000209022"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 북한, 전략순항미사일 집속탄두 위력 시험…“5∼6㏊ 표적 초토화 가능”",
+   "url": "https://n.news.naver.com/article/087/0001228142",
+   "press": "강원일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 北김여정, 바이낸스 사태에 \"美 도발…예의주시\"",
+   "url": "https://n.news.naver.com/article/422/0000922243",
+   "press": "연합뉴스TV",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "연합뉴스",
+     "title": "北김여정, 바이낸스 사태에 \"美 정치적 도발…예의주시\"",
+     "url": "https://n.news.naver.com/article/001/0016417203"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 정부 \"체감 물가 여전히 높아…640억 원 규모 김장 대책\"",
+   "url": "https://n.news.naver.com/article/082/0001405314",
+   "press": "부산일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 10월 소비자물가 2.8% 상승…두 달 연속 2%대 후반",
+   "url": "https://n.news.naver.com/article/057/0001976414",
+   "press": "MBN",
    "why": "[속보] 기사",
    "related": []
   }
