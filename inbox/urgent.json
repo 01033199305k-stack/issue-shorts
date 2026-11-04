@@ -1,43 +1,64 @@
 {
- "detected_at": "2026-11-04T15:11+09:00",
+ "detected_at": "2026-11-04T20:32+09:00",
  "candidates": [
   {
-   "kind": "news",
-   "title": "[속보] 민주당, 사우스캐롤라이나 상원도 탈환···과반 매직넘버 ‘2’로 좁혀져",
-   "url": "https://n.news.naver.com/article/032/0003480585",
-   "press": "경향신문",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] NBC \"美민주 상·하원 장악 예상\"",
-   "url": "https://n.news.naver.com/article/014/0005599264",
-   "press": "파이낸셜뉴스",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 2심 “尹 ‘건진법사 김건희와 본 적 없다’ 발언 허위”",
-   "url": "https://n.news.naver.com/article/056/0012287099",
-   "press": "KBS",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
+   "kind": "community",
+   "title": "[속보] 윤석열 '대선 거짓말' 2심도 징역형..국힘 397억 반환 위기",
+   "url": "https://theqoo.net/hot/4395594125",
+   "board": "더쿠 HOT",
+   "why": "커뮤니티 2곳 동시 화제 + 기사화(파이낸셜뉴스)",
+   "news": [
     {
-     "press": "노컷뉴스",
-     "title": "[속보] 2심 법원 \"尹 '건진법사 몰랐다' 발언, 허위사실 공표 해당\"",
-     "url": "https://n.news.naver.com/article/079/0004206417"
+     "url": "https://n.news.naver.com/article/014/0005599416",
+     "headline": "尹 선거법 2심도 징역형..국민의힘 397억 토해내나"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 트럼프 \"결과 수용하고 민주당과 협력\"…공화당 중간선거 패배 인정하나",
-   "url": "https://n.news.naver.com/article/654/0000209326",
-   "press": "강원도민일보",
+   "title": "한동훈 “'내 죄를 내가 심판'…이 대통령, 루이 14세 흉내”",
+   "url": "https://n.news.naver.com/article/437/0000519114",
+   "press": "JTBC",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "부산일보",
+     "title": "한동훈 \"내 죄 내가 심판하겠다…이 대통령, 루이 14세 흉내\"",
+     "url": "https://n.news.naver.com/article/082/0001405653"
+    },
+    {
+     "press": "MBN",
+     "title": "\"차기 대통령 누구?\" 묻자… 오세훈 20.4%·한동훈 14.3% [조원씨앤아이]",
+     "url": "https://n.news.naver.com/article/057/0001976650"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]신촌 세브란스 병원서 의사에 흉기난동…특수상해 혐의 입건",
+   "url": "https://n.news.naver.com/article/277/0005838140",
+   "press": "아시아경제",
    "why": "[속보] 기사",
    "related": []
+  },
+  {
+   "kind": "news",
+   "title": "李대통령 유튜브 시작…‘대통령의 Y’ 내일 첫 공개",
+   "url": "https://n.news.naver.com/article/005/0001882980",
+   "press": "국민일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "한국경제TV",
+     "title": "李대통령, '대통령의 Y' 런칭…유튜브로 대국민 직접 소통 나선다",
+     "url": "https://n.news.naver.com/article/215/0001271648"
+    },
+    {
+     "press": "조선일보",
+     "title": "李대통령, 유튜브방송 ‘대통령의 Y’ 시작... 5일 밤 9시 첫방송",
+     "url": "https://n.news.naver.com/article/023/0004007758"
+    }
+   ]
   }
  ]
 }
