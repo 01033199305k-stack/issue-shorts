@@ -1,0 +1,682 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "monkfish-stew-refund-cctv",
+ "title_lines": [
+  "아귀 3조각이라며 환불",
+  "요구한 손님이 받은 영상"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "아귀 3조각이라며 환불해 달라던 손님",
+   "say": "아귀 세 조각이라며 환불해 달라던 손님",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "아귀 3조각이라며\n환불해 달라던 손님",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "사장은 주방 CCTV를 돌려 조각 수를 셌음.",
+   "say": "사장은 주방 씨씨티비를 돌려 조각 수를 셌음.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "security camera",
+     "surveillance camera",
+     "cctv camera"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "防犯カメラ",
+       "監視カメラ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 영상 받은 손님 반응이 더 놀라움.",
+   "say": "근데 영상 받은 손님 반응이 더 놀라움.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "びっくり 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "원주 6년차 아귀찜 집 사장 얘기임.",
+   "say": "원주 육 년 차 아귀찜 집 사장 얘기임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "restaurant",
+    "pic": [
+     "restaurant kitchen",
+     "kitchen cooking"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "料理人 男性",
+       "コック 男性",
+       "料理人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍲",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "2만8천 원짜리 아귀찜을 배달 보냄.",
+   "say": "이만 팔천 원짜리 아귀찜을 배달 보냄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "price",
+      "label": "아귀찜 1~2인분",
+      "new": "2만8천 원",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "出前 バイク",
+       "配達 バイク"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "손님이 전화를 걸어옴.",
+   "say": "손님이 전화를 걸어옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 クレーム",
+       "クレーマー",
+       "電話 怒る"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아귀가 3개밖에 없고,",
+   "say": "아귀가 세 개밖에 없고,",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "braised fish",
+     "spicy fish"
+    ],
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🐟",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "홍합도 1개밖에 없다며 환불해 달라고 함.",
+   "say": "홍합도 한 개밖에 없다며 환불해 달라고 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "mussels shells",
+     "mussels"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ムール貝",
+       "貝"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "사장이 조리대 CCTV를 돌려 봤더니",
+   "say": "사장이 조리대 씨씨티비를 돌려 봤더니",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "security monitor",
+     "cctv monitor",
+     "surveillance monitor"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "監視 モニター",
+       "モニター 見る"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 아귀 7조각, 홍합 3개가 찍혀 있었음.",
+   "say": "와, 아귀 일곱 조각, 홍합 세 개가 찍혀 있었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "doc",
+      "title": "주방 CCTV",
+      "lines": [
+       "아귀 7조각",
+       "홍합 3개"
+      ],
+      "mark": 0,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "料理人 女性",
+       "コック 女性"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "캡처에 아귀 7조각 380g이라 적어 보냄.",
+   "say": "캡처에 아귀 일곱 조각 삼백팔십 그램이라 적어 보냄.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "sms",
+      "from": "아귀찜 사장",
+      "lines": [
+       "아귀 7조각 380g"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 写真",
+       "スマホ 撮影"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "오해가 풀리길 바란다며",
+   "say": "오해가 풀리길 바란다며",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お辞儀 店員",
+       "お辞儀 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "조리 영상 원본까지 보냈다고.",
+   "say": "조리 영상 원본까지 보냈다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "cooking kitchen stove",
+     "chef cooking",
+     "kitchen stove fire"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "料理 フライパン",
+       "料理 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니 근데 손님은 끝까지 버팀.",
+   "say": "아니 근데 손님은 끝까지 버팀.",
+   "sfx": "exclaim",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "腕組み 女性",
+       "腕組み"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "고기 3조각, 홍합 1개만 보인다고.",
+   "say": "고기 세 조각, 홍합 한 개만 보인다고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "pic": [
+     "seafood stew",
+     "fish stew"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "虫眼鏡",
+       "虫眼鏡 探す"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 이런 일이 처음이 아니었음.",
+   "say": "알고 보니 이런 일이 처음이 아니었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "kitchen",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 料理人",
+       "困る 料理人",
+       "困る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "전에도 오징어, 주꾸미가 빠졌다는 시비를 겪었음.",
+   "say": "전에도 오징어, 주꾸미가 빠졌다는 시비를 겪었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "squid seafood",
+     "octopus seafood",
+     "seafood market"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "イカ",
+       "タコ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🦑",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그래서 1년 전 해물 무게까지 찍히게 CCTV를 단 거임.",
+   "say": "그래서 일 년 전 해물 무게까지 찍히게 씨씨티비를 단 거임.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "video": [
+     "kitchen scale",
+     "weighing scale",
+     "digital scale"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "防犯カメラ",
+       "監視カメラ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 그 영상을 다 보고도 손님은",
+   "say": "근데 그 영상을 다 보고도 손님은",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "living",
+    "video": [
+     "smartphone screen",
+     "phone screen",
+     "mobile phone"
+    ],
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 見る",
+       "スマホ 見る"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "사과 한마디 없이 사장을 차단함.",
+   "say": "사과 한마디 없이 사장을 차단함.",
+   "sfx": "exclaim",
+   "cap": "hit",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 困る",
+       "電話 拒否"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "center",
+      "size": "l",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "CCTV도 못 이긴 3조각임.",
+   "say": "씨씨티비도 못 이긴 세 조각임.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "鍋 料理",
+       "鍋"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "3️⃣",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "아귀 3조각이라며 환불 요구한 손님이 받은 영상 #shorts",
+  "description": "원주에서 6년째 아귀찜 집을 하는 사장에게 손님이 '아귀가 3개, 홍합이 1개밖에 없다'며 환불을 요구했음.\n주방 CCTV엔 아귀 7조각과 홍합 3개가 찍혀 있었고, 사장은 캡처와 조리 영상 원본까지 보냈다고.\n손님은 끝까지 3조각만 보인다며 사과 없이 사장을 차단함.\n\n※ AI 음성으로 제작했습니다.\n#아귀찜 #환불 #진상손님 #자영업자 #썰 #shorts",
+  "tags": [
+   "아귀찜",
+   "환불 요구",
+   "진상 손님",
+   "주방 CCTV",
+   "자영업자",
+   "배달",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://news.jkn.co.kr/post/1041813",
+ "facts_used": [
+  "원주 6년째 아귀찜 식당 A씨, 10월 19일 2만8천 원 아귀찜 1~2인분 배달, 손님이 '아귀가 3개밖에 없고 홍합도 1개밖에 없다'며 환불 요구 — 재경일보 https://news.jkn.co.kr/post/1041813 , 파이낸셜뉴스 https://en.fnnews.com/news/202610220949202120",
+  "주방 조리대 CCTV에 아귀 7조각·홍합 3개, 캡처에 '아귀 7조각 380g' 문구, 조리 영상 원본 추가 전송·오해가 풀리길 바란다고 전함 — 재경일보 https://news.jkn.co.kr/post/1042950 , 파이낸셜뉴스(위)",
+  "손님은 끝까지 고기 3조각·홍합 1개만 보인다고 맞서다 사과 없이 A씨 차단 — 재경일보 두 기사, 파이낸셜뉴스",
+  "A씨는 해물찜 오징어·주꾸미 누락 주장 등 시비를 겪은 뒤 1년 전부터 해물 종류·수량·무게가 보이게 조리대 CCTV 설치 — 재경일보 https://news.jkn.co.kr/post/1042950",
+  "JTBC 사건반장 방송 — https://www.youtube.com/watch?v=kVDIrhwQzRI"
+ ],
+ "brief": "점수표: [선택] 원주 아귀찜 '3조각' 환불 요구 손님, 주방 CCTV엔 7조각·홍합 3개, 영상 보고도 '3조각만 보인다'며 사과 없이 차단 (재경일보 10/21·10/22, 파이낸셜뉴스 10/22, JTBC 사건반장) 이게됨4(CCTV 보고도 3조각)+궁금증4(영상 본 손님 반응)+감정7(억울한 사장·진상 손님)+대상4(배달 음식)+판정5(일을 키운 쪽 분명)=24 / 핀란드 영웅견 마르타(전자신문 1곳) 3+2+5+4+1=15 잔잔한 해외 미담·단일 보도 탈락 / 28년 만에 걸어서 귀가한 영국 남성 4+3+4+2+1=14 단일 보도 탈락 / 관리소장 입주민 차량 긁음(보배드림) 보도 확인 안 됨 탈락 / 쌍둥이맘 이혼식 축의금 반환 3+2+4+3+2=14 숨긴 답 없음 탈락. 유행: 없음 (구글 급상승 '비행기'·'국민연금공단', 커뮤니티 '남친'·'할로윈'·'직원' 확인 — 썰 될 유행 소재 없음, '오픈런 대란 품절 리셀' 검색도 11월 건 없음). 아이 레인: 아님 — '아이 112 신고 화제', '아이 기특 경찰 감사 편지' 검색, 11월 보도 없음. 해외 아님(국내). 구조: 시작=원주 6년째 아귀찜 집, 2만8천 원 아귀찜 배달 / 커짐=손님 전화 '아귀 3개, 홍합 1개' 환불 요구→사장 CCTV 캡처 '아귀 7조각 380g' 전송→오해 풀리길 바란다며 조리 영상 원본까지 전송→손님 '고기 3조각, 홍합 1개만 보인다' / 뒤집힘=CCTV엔 아귀 7조각·홍합 3개 / 정체=사장은 전에도 오징어·주꾸미 누락 주장 시비를 겪어 1년 전부터 해물 수량·무게 찍히게 CCTV 설치 / 그 뒤=손님은 영상을 다 보고도 사과 한마디 없이 사장 차단, 사장 손엔 7조각 영상만 남음(사연은 JTBC 사건반장 등 보도). 공개할 답: ①CCTV 속 7조각·홍합 3개 ②영상 보고도 '3조각만 보인다' ③CCTV를 단 이유(전에도 누락 시비). 첫장면: 의외 (사장이 CCTV 돌려 조각 수를 셈). 훅 3안: ①'사장은 주방 CCTV를 돌려 조각 수를 셌음'(선택: 구체 장면, 결과는 숨김) ②'CCTV엔 7조각이 찍혀 있었음'(답 노출) ③'손님이 사장을 차단함'(결말 노출). 글 카드 3안: '아귀 3조각이라며 환불해 달라던 손님'(선택) / '아귀찜 환불 요구의 결말'(흐림) / '주방 CCTV 본 손님'(사건 흐림). 제목: 사람(손님)+무슨 일(아귀 3조각이라며 환불 요구)+궁금한 정체(받은 영상=7조각), 앞머리 없음, 앞 회차 '~던 ~의 출처'와 다른 물건형, 숫자 3은 사건 핵심. 인용(보도 그대로): '아귀가 3개밖에 없고 홍합도 1개밖에 없다' / '아귀 7조각 380g' / 오해가 풀리길 바란다(사장, 간접) / '고기 3조각, 홍합 1개만 보인다'(손님, 간접) — 4~5번. 욕할 대상: 영상을 보고도 우기고 차단한 손님(신상 없음). 가게 상호 안 씀. 주의: 사장 측 주장 기반 보도, 손님 반론 없음 → 보도된 경위만 씀. 최종 환불 여부 미확인이라 안 씀. '4차례 입증해 사과 받음'은 한 곳 요약에만 있어 안 씀. JTBC 영상 제목 '나도 장사해~'는 누구 말인지 확인 못 해 안 씀. warn: 앞 회차에 있어 안 씀. photo: 기관 제공 사진 없음(식당 CCTV). 증거: price(2만8천 원), doc(주방 CCTV 7조각·홍합 3개), sms(아귀 7조각 380g). 이해검사: 원주 아귀찜 집 손님이 아귀가 3조각뿐이라며 환불을 요구했는데, 사장이 보낸 주방 CCTV엔 7조각이 찍혀 있었고 손님은 그걸 보고도 3조각만 보인다며 사과 없이 사장을 차단했다. 그림대조: 완료."
+}
