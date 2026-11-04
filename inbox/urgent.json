@@ -1,134 +1,41 @@
 {
- "detected_at": "2026-11-04T12:13+09:00",
+ "detected_at": "2026-11-04T15:11+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 김민석, 정부에 '가상자산 과세 유예' 공식 제안",
-   "url": "https://n.news.naver.com/article/437/0000519029",
-   "press": "JTBC",
-   "why": "[속보] 기사 + 언론사 5곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "세계일보",
-     "title": "[속보] 김민석 “가상자산 소득 과세유예, 정부에 공식 제안”",
-     "url": "https://n.news.naver.com/article/022/0004172400"
-    },
-    {
-     "press": "SBS Biz",
-     "title": "김민석, 정부에 '가상자산 과세 유예' 공식 제안",
-     "url": "https://n.news.naver.com/article/374/0000541579"
-    },
-    {
-     "press": "KBS",
-     "title": "김민석 “가상자산 소득 과세 유예 정부에 공식 제안…디지털자산기본법 우선 제정”",
-     "url": "https://n.news.naver.com/article/056/0012286883"
-    },
-    {
-     "press": "MBN",
-     "title": "[속보] 김민석, 정부에 '가상자산 과세 유예' 공식 제안",
-     "url": "https://n.news.naver.com/article/057/0001976625"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "李대통령 “서울 전체 집값 폭락 중이라고 한 적 없어”",
-   "url": "https://n.news.naver.com/article/005/0001882896",
-   "press": "국민일보",
-   "why": "언론사 8곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "YTN",
-     "title": "이 대통령 \"'서울 전체 집값 폭락' 발언 한 적 없어...가짜뉴스\"",
-     "url": "https://n.news.naver.com/article/052/0002428116"
-    },
-    {
-     "press": "SBS",
-     "title": "이 대통령, '대통령 집값 폭락 발언, 강남만 맞았다' 기사 제목에 \"가짜뉴스\"",
-     "url": "https://n.news.naver.com/article/055/0001400543"
-    },
-    {
-     "press": "경기일보",
-     "title": "李대통령 “‘집값 전체 폭락’은 가짜뉴스…주요 지역 지칭했을 뿐”",
-     "url": "https://n.news.naver.com/article/666/0000130517"
-    },
-    {
-     "press": "뉴시스",
-     "title": "이 대통령 \"서울 전체 집값 폭락중이라고 한 적 없어…서울 주요 지역 말해\"",
-     "url": "https://n.news.naver.com/article/003/0014299991"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 특검 “투표지 부족 투표소, 선관위 지시로 투표록 사후 위변조”",
-   "url": "https://n.news.naver.com/article/011/0004678595",
-   "press": "서울경제",
+   "title": "[속보] 민주당, 사우스캐롤라이나 상원도 탈환···과반 매직넘버 ‘2’로 좁혀져",
+   "url": "https://n.news.naver.com/article/032/0003480585",
+   "press": "경향신문",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] 국회 법사위, 與 주도 조작기소 특검법 상정…국힘 퇴장",
-   "url": "https://n.news.naver.com/article/025/0003562730",
-   "press": "중앙일보",
+   "title": "[속보] NBC \"美민주 상·하원 장악 예상\"",
+   "url": "https://n.news.naver.com/article/014/0005599264",
+   "press": "파이낸셜뉴스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 2심 “尹 ‘건진법사 김건희와 본 적 없다’ 발언 허위”",
+   "url": "https://n.news.naver.com/article/056/0012287099",
+   "press": "KBS",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스TV",
-     "title": "[속보] 법사위, 與 주도 조작기소 특검법 상정…국힘 퇴장",
-     "url": "https://n.news.naver.com/article/422/0000922750"
+     "press": "노컷뉴스",
+     "title": "[속보] 2심 법원 \"尹 '건진법사 몰랐다' 발언, 허위사실 공표 해당\"",
+     "url": "https://n.news.naver.com/article/079/0004206417"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "李대통령, '대통령 집값 발언 강남만 맞았다' 보도에 \"가짜뉴스\"",
-   "url": "https://n.news.naver.com/article/001/0016420525",
-   "press": "연합뉴스",
-   "why": "언론사 7곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "YTN",
-     "title": "이 대통령 \"'서울 전체 집값 폭락' 발언 한 적 없어...가짜뉴스\"",
-     "url": "https://n.news.naver.com/article/052/0002428116"
-    },
-    {
-     "press": "SBS",
-     "title": "이 대통령, '대통령 집값 폭락 발언, 강남만 맞았다' 기사 제목에 \"가짜뉴스\"",
-     "url": "https://n.news.naver.com/article/055/0001400543"
-    },
-    {
-     "press": "경기일보",
-     "title": "李대통령 “‘집값 전체 폭락’은 가짜뉴스…주요 지역 지칭했을 뿐”",
-     "url": "https://n.news.naver.com/article/666/0000130517"
-    },
-    {
-     "press": "서울신문",
-     "title": "李대통령 “‘집값 폭락 중’ 말한 적 없다”…“가짜뉴스” 비판",
-     "url": "https://n.news.naver.com/article/081/0003695562"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 합참 \"북한, 동해상으로 미상 발사체 발사\"",
-   "url": "https://n.news.naver.com/article/015/0005350051",
-   "press": "한국경제",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "강원일보",
-     "title": "[속보] 북한, 동해상으로 미상 발사체 발사…합참, 제원·사거리 분석 중",
-     "url": "https://n.news.naver.com/article/087/0001228452"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] \"나를 신고해?\"…전 남친 성폭행범 몰아 허위 고소한 20대 집유",
-   "url": "https://n.news.naver.com/article/082/0001405528",
-   "press": "부산일보",
+   "title": "[속보] 트럼프 \"결과 수용하고 민주당과 협력\"…공화당 중간선거 패배 인정하나",
+   "url": "https://n.news.naver.com/article/654/0000209326",
+   "press": "강원도민일보",
    "why": "[속보] 기사",
    "related": []
   }
