@@ -5607,5 +5607,83 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-04_1800_free-water-kimchi-25-family/video.mp4"
   },
   "seconds": 2916
+ },
+ {
+  "key": "2026-11-05-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-05T07:00:00+09:00",
+  "started": "2026-11-05T04:16:57.635768+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-131033/",
+   "https://pixabay.com/videos/id-11018/",
+   "https://pixabay.com/videos/id-83812/",
+   "https://pixabay.com/videos/id-259126/",
+   "https://pixabay.com/photos/bmw-suv-auto-fog-autumn-1216469/",
+   "https://pixabay.com/videos/id-341639/",
+   "https://pixabay.com/photos/telephone-pole-technology-sky-1944040/",
+   "https://pixabay.com/videos/id-2165/",
+   "https://pixabay.com/photos/cctv-surveillance-camera-cctv-7267551/",
+   "https://pixabay.com/videos/id-54904/"
+  ],
+  "cc_clips": [],
+  "duration": 54.23,
+  "matches": [
+   0.9,
+   0.97,
+   0.96,
+   1.0,
+   0.96,
+   0.98,
+   0.98,
+   0.98,
+   0.98,
+   0.96,
+   0.97,
+   0.95,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.95,
+   0.95,
+   1.0,
+   1.0,
+   0.92,
+   0.92
+  ],
+  "sfx": 24,
+  "illustrations": 19,
+  "cuts": 25,
+  "layout_issues": [],
+  "caption_breaks": [
+   "주차장 / 차단기를 (55)"
+  ],
+  "title": "엄마 차에 X자 긋고 간 범인의 정체 #shorts",
+  "source_post": "https://m.news.nate.com/view/20261104n40583",
+  "facts_used": [
+   "11월 3일 온라인 커뮤니티에 '아파트 관리소장이 입주민 차량을 고의로 긁었다' 글, 지난달 지하주차장에 세워 둔 어머니 차 트렁크 윗부분에 X자 흠집 — 위키트리 https://www.wikitree.co.kr/articles/1171858, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=481721",
+   "경찰 신고 뒤 가해자가 관리소장으로 확인 — 뉴스통 https://www.newstong.co.kr/view3.aspx?seq=14794719, 네이트 뉴스 https://m.news.nate.com/view/20261104n40583, 스페셜타임스",
+   "관리소장 해명: 전날 다른 입주민과 다툼, 순찰 중 차가 삐뚤게 세워진 것 보고 홧김에 긁음 — 위키트리, 스페셜타임스, 뉴스통",
+   "작성자도 주차가 다소 삐뚤었던 점 인정, 훼손은 정당화 안 된다 — 위키트리, 스페셜타임스",
+   "앞서 차단기 교체로 출구에 낮은 철제 봉 설치, 지나다 차체 긁힘, 아파트 보험 접수 요청을 관리소장이 거부해 언쟁 — 위키트리, 서플(종합) https://supple.kr/news/cmw1tts3g12ojclgj4p9c67oh",
+   "합의 고려 → 합의 조건으로 CCTV 영상 요청 → 관리소장 '이해해달라'며 거부 → 합의 접고 추가 책임 물을 수 있는지 문의 — 위키트리, 스페셜타임스, 서플"
+  ],
+  "slug": "2026-11-05_0700_apartment-manager-x-scratch",
+  "late": false,
+  "video_id": "vwj1OkMVFN8",
+  "url": "https://youtube.com/shorts/vwj1OkMVFN8",
+  "privacy": "private",
+  "scheduled_for": "2026-11-04T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6aeb8f34b1d4b989c0ca4909",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-04T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-05_0700_apartment-manager-x-scratch/video.mp4"
+  },
+  "seconds": 2699
  }
 ]
