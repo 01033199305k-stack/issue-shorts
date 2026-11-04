@@ -5455,5 +5455,79 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-04_0700_auction-youtuber-ponzi-students/video.mp4"
   },
   "seconds": 2298
+ },
+ {
+  "key": "2026-11-04-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-04T12:00:00+09:00",
+  "started": "2026-11-04T09:19:05.258694+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-173103/",
+   "https://pixabay.com/photos/restaurant-cooking-chef-kitchen-1284351/",
+   "https://pixabay.com/photos/lures-and-buy-new-desktop-spicy-sugar-2517767/",
+   "https://pixabay.com/photos/mussels-shells-seafood-bivalve-419052/",
+   "https://pixabay.com/videos/id-44130/",
+   "https://pixabay.com/videos/id-358385/",
+   "https://pixabay.com/photos/stew-chinese-food-seafood-6577764/",
+   "https://pixabay.com/videos/id-11702/",
+   "https://pixabay.com/videos/id-315724/",
+   "https://pixabay.com/videos/id-202987/"
+  ],
+  "cc_clips": [],
+  "duration": 51.73,
+  "matches": [
+   0.93,
+   0.94,
+   1.0,
+   0.93,
+   0.82,
+   1.0,
+   0.97,
+   0.97,
+   0.93,
+   0.93,
+   0.97,
+   0.98,
+   0.98,
+   0.91,
+   1.0,
+   1.0,
+   0.92,
+   1.0,
+   0.95,
+   0.95,
+   0.9
+  ],
+  "sfx": 20,
+  "illustrations": 15,
+  "cuts": 21,
+  "layout_issues": [],
+  "caption_breaks": [
+   "6년차 / 아귀찜 (55)",
+   "7조각 / 380g이라 (55)"
+  ],
+  "title": "아귀 3조각이라며 환불 요구한 손님이 받은 영상 #shorts",
+  "source_post": "https://news.jkn.co.kr/post/1041813",
+  "facts_used": [
+   "원주 6년째 아귀찜 식당 A씨, 10월 19일 2만8천 원 아귀찜 1~2인분 배달, 손님이 '아귀가 3개밖에 없고 홍합도 1개밖에 없다'며 환불 요구 — 재경일보 https://news.jkn.co.kr/post/1041813 , 파이낸셜뉴스 https://en.fnnews.com/news/202610220949202120",
+   "주방 조리대 CCTV에 아귀 7조각·홍합 3개, 캡처에 '아귀 7조각 380g' 문구, 조리 영상 원본 추가 전송·오해가 풀리길 바란다고 전함 — 재경일보 https://news.jkn.co.kr/post/1042950 , 파이낸셜뉴스(위)",
+   "손님은 끝까지 고기 3조각·홍합 1개만 보인다고 맞서다 사과 없이 A씨 차단 — 재경일보 두 기사, 파이낸셜뉴스",
+   "A씨는 해물찜 오징어·주꾸미 누락 주장 등 시비를 겪은 뒤 1년 전부터 해물 종류·수량·무게가 보이게 조리대 CCTV 설치 — 재경일보 https://news.jkn.co.kr/post/1042950",
+   "JTBC 사건반장 방송 — https://www.youtube.com/watch?v=kVDIrhwQzRI"
+  ],
+  "slug": "2026-11-04_1200_monkfish-stew-refund-cctv",
+  "late": false,
+  "video_id": "6lGi9jTTmrU",
+  "url": "https://youtube.com/shorts/6lGi9jTTmrU",
+  "privacy": "private",
+  "scheduled_for": "2026-11-04T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6aea846387b7c6d24c81756b",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-04T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-04_1200_monkfish-stew-refund-cctv/video.mp4"
+  },
+  "seconds": 2668
  }
 ]
