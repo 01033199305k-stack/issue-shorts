@@ -1,0 +1,760 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "free-water-kimchi-25-family",
+ "title_lines": [
+  "공짜 물김치 내준 식당에",
+  "일주일 뒤 온 25명"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "할머니 물김치 사러 맨발로 뛰어온 청년",
+   "say": "할머니 물김치 사러 맨발로 뛰어온 청년",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "할머니 물김치 사러\n맨발로 뛰어온 청년",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "맨발 청년이 내민 만 원을 사장이 끝내 안 받음.",
+   "say": "맨발 청년이 내민 만 원을 사장이 끝내 안 받음.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "price",
+      "label": "청년이 내민 돈",
+      "old": "1만 원",
+      "new": "0원",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "サンダル 男性",
+       "走る 男性"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 진짜 일은 일주일 뒤에 터짐.",
+   "say": "근데 진짜 일은 일주일 뒤에 터짐.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "カレンダー めくる"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "동대문 오리고기집 얘기임.",
+   "say": "동대문 오리고기집 얘기임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "鴨",
+       "アヒル"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "korean bbq grill",
+     "meat grill restaurant",
+     "restaurant grill"
+    ],
+    "cc": [
+     "korean bbq restaurant seoul",
+     "seoul restaurant street"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "직원들 다 퇴근한 밤이었음.",
+   "say": "직원들 다 퇴근한 밤이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "掃除 店員",
+       "片付け 男性",
+       "モップ 掃除"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌙",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "empty restaurant night",
+     "closed restaurant",
+     "restaurant chairs"
+    ]
+   }
+  },
+  {
+   "text": "혼자 정리하는데 전화가 울림.",
+   "say": "혼자 정리하는데 전화가 울림.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 鳴る",
+       "固定電話",
+       "電話"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "telephone desk",
+     "landline phone"
+    ]
+   }
+  },
+  {
+   "text": "할머니가 위독한데 물김치만 드신다는 거임.",
+   "say": "할머니가 위독한데 물김치만 드신다는 거임.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "다급하게 숨 가쁜 목소리로",
+   "visual": {
+    "bg": "hospital",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "おばあさん 病気",
+       "寝込む おばあさん",
+       "病気 おばあさん"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥣",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그걸 살 수 있냐는 전화였음.",
+   "say": "그걸 살 수 있냐는 전화였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 男性",
+       "スマートフォン 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "사장이 물김치 싸 들고 내려감.",
+   "say": "사장이 물김치 싸 들고 내려감.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "キムチ",
+       "漬物"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🫙",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "kimchi bowl",
+     "korean kimchi"
+    ]
+   }
+  },
+  {
+   "text": "맨발에 슬리퍼 신은 청년이",
+   "say": "맨발에 슬리퍼 신은 청년이",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🩴",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "slippers floor",
+     "sandals floor"
+    ]
+   }
+  },
+  {
+   "text": "숨을 헐떡이며 뛰어왔다고.",
+   "say": "숨을 헐떡이며 뛰어왔다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "走る 男性",
+       "急ぐ 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "run-left"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "night street running",
+     "city street night",
+     "street lights night"
+    ]
+   }
+  },
+  {
+   "text": "빨리 가서 할머니 드시게 하라며 돌려보냄.",
+   "say": "빨리 가서 할머니 드시게 하라며 돌려보냄.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "手を振る 男性",
+       "店主 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏃",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 일주일 뒤 예약도 없이",
+   "say": "와, 일주일 뒤 예약도 없이",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ドア 開ける",
+       "入店 客"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚪",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "restaurant door entrance",
+     "restaurant entrance",
+     "door opening"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "손님 25명이 우르르 들이닥침.",
+   "say": "손님 스물다섯 명이 우르르 들이닥침.",
+   "sfx": "exclaim",
+   "cap": "hit",
+   "tone": "깜짝 놀라 눈이 휘둥그레진 듯 크게",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "crowd",
+      "q": "喪服",
+      "count": 25,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "pull"
+   }
+  },
+  {
+   "text": "사장도 뭔 상황인가 싶었다고.",
+   "say": "사장도 뭔 상황인가 싶었다고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "doc",
+      "title": "사장님 글",
+      "lines": [
+       "순간 무슨",
+       "상황인가 싶었다"
+      ],
+      "mark": 1,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "びっくり 男性"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 그중 낯익은 얼굴이",
+   "say": "알고 보니 그중 낯익은 얼굴이",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "びっくり 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그 맨발 청년이었음.",
+   "say": "그 맨발 청년이었음.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "青年 お辞儀",
+       "お辞儀 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "✨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "장례 잘 치르고 왔다며",
+   "say": "장례 잘 치르고 왔다며",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "喪服 男性",
+       "お葬式"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🕊️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "candle flame dark",
+     "candle light",
+     "white chrysanthemum"
+    ]
+   }
+  },
+  {
+   "text": "물김치 고마웠다고 인사함.",
+   "say": "물김치 고마웠다고 인사함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お辞儀 男性 深い",
+       "感謝 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "세상에, 25명은 할머니 가족들이었음.",
+   "say": "세상에, 스물다섯 명은 할머니 가족들이었음.",
+   "sfx": "whoosh",
+   "cap": "hit",
+   "tone": "뭉클해서 목이 살짝 메인 듯 따뜻하게, 말끝은 분명하게",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "家族 集合",
+       "大家族"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👨‍👩‍👧‍👦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 청년은 가족들한테 사장님 자랑까지 함.",
+   "say": "심지어 청년은 가족들한테 사장님 자랑까지 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "笑顔 男性",
+       "自慢 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😊",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "family dinner table",
+     "restaurant table food",
+     "korean food table"
+    ]
+   }
+  },
+  {
+   "text": "사장은 가슴이 뭉클했다고 SNS에 적음.",
+   "say": "사장은 가슴이 뭉클했다고 에스엔에스에 적음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "smartphone hand",
+     "phone screen"
+    ]
+   }
+  },
+  {
+   "text": "누리꾼들은 할머니 마지막 음식이었을 거라 함.",
+   "say": "누리꾼들은 할머니 마지막 음식이었을 거라 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🥣",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🕯️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "soup bowl steam",
+     "bowl soup",
+     "steam bowl"
+    ]
+   }
+  },
+  {
+   "text": "물김치 한 통이 25명을 데려옴.",
+   "say": "물김치 한 통이 스물다섯 명을 데려옴.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "뭉클함을 꾹 누르고 힘 있게 딱 잘라서",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "キムチ",
+       "漬物"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "💛",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "공짜 물김치 내준 식당에 일주일 뒤 온 25명 #shorts",
+  "description": "영업 끝난 밤, 위독한 할머니가 물김치만 드신다며 전화한 청년.\n맨발로 뛰어온 청년의 만 원을 사장은 받지 않았습니다.\n일주일 뒤 예약 없이 25명이 식당에 들이닥쳤는데...\n\n※ AI 음성으로 제작했습니다.\n#물김치 #미담 #식당 #할머니 #썰 #shorts",
+  "tags": [
+   "물김치",
+   "미담",
+   "식당 사장",
+   "할머니",
+   "보은",
+   "감동 썰",
+   "썰가챠",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.fnnews.com/news/202611040651310348",
+ "facts_used": [
+  "밤 10시 30분께 영업 끝난 동대문구 오리고기집에 '위독한 할머니가 물김치만 드신다' 전화 — 파이낸셜뉴스 2026-11-04 https://www.fnnews.com/news/202611040651310348, 이뉴스24 https://m.inews24.com/v/2022326",
+  "맨발에 슬리퍼 청년이 구겨진 1만 원 내밀었으나 사장이 '빨리 가서 할머니 드시게 하라'며 거절 — 위키트리 https://www.wikitree.co.kr/articles/1171691, 인사이트 https://www.insight.co.kr/news/580516",
+  "일주일 뒤 예약 없이 25명가량 방문, 그 청년이 '할머니 장례 잘 치르고 왔다, 물김치 정말 고마웠다' — 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=481481, 인사이트",
+  "청년이 가족들에게 '저번에 물김치 주신 사장님'이라 자랑, 사장 '뭔 상황인가 싶었다'·뭉클 — 파이낸셜뉴스, 이뉴스24",
+  "누리꾼 '할머니 임종 전 마지막 음식이었을 것' — 인사이트, 이뉴스24"
+ ],
+ "brief": "점수표: [선택] 동대문 오리고기집 사장이 밤 10시 반 위독한 할머니용 물김치를 구하러 맨발로 뛰어온 청년에게 공짜로 내줌 → 일주일 뒤 예약 없이 25명 → 장례 마친 유족과 그 청년 (파이낸셜뉴스 11/4·이뉴스24·인사이트·위키트리·스페셜타임스, TJB 보도 영상) 이게됨3+궁금증4(25명의 정체)+감정8(임종·보은)+대상4(식당·김치)+판정1 = 20 +유행3 = 23 / [후보] 다이소 합의금 장사(루리웹) - 보도 확인 안 됨 0 / 당근 중고차 3개월 폐차(보배) - 보도 없음 0 / 쌍둥이 엄마 이혼식 축의금 환불 - 해외·가정사, 감정2 탈락 / 아이 112·어린이집 화제 검색 - 2주 안 새 사연 없음(학대 사건은 제외)\n유행: 물김치 (구글 급상승 200+, '공짜 물김치 건넨 식당 울린 청년의 보은')\n구조: 시작=영업 끝난 밤 10시 반, 혼자 정리하던 사장에게 전화 / 커짐=할머니가 위독한데 물김치만 드신다 → 맨발에 슬리퍼 청년이 헐떡이며 뛰어옴 → 구겨진 만 원 내밈 → 사장이 '빨리 가서 할머니 드시게 하라'며 거절 / 뒤집힘=일주일 뒤 예약 없이 25명이 들이닥침 / 정체=그중 그 청년, 25명은 장례를 마친 가족 / 그 뒤=청년이 가족들에게 사장님 자랑, 사장은 SNS에 '뭔 상황인가 싶었지만 뭉클', 누리꾼 '할머니 마지막 음식'\n공개할 답: ①돈을 안 받음(1/10) ②25명이 들이닥침(2/3) ③그 청년과 장례 마친 가족(끝)\n욕할 대상: 없음 — 판정 레인이 아닌 유행+감동 반전 회차 (오늘 07·12시가 판정 썰이라 결을 바꿈)\n첫장면: 사람\n훅 3안: ①\"청년이 내민 구겨진 만 원을 식당 사장이 끝내 안 받음.\"(선택: 장면+돈) ②\"맨발에 슬리퍼 신은 청년이 밤 10시 반 식당에 뛰어옴.\"(시간 배경 금지) ③\"물김치 한 통 값 만 원을 사장이 돌려보냄.\" / 제목 3안: '공짜 물김치 내준 식당에 / 일주일 뒤 온 25명'(선택: 25명 정체가 궁금) · '할머니 물김치 사러 온 / 맨발 청년의 보은'(답 노출) · '물김치값 안 받은 사장 / 일주일 뒤 생긴 일'(대상 흐림)\n확인된 사실: 서울 동대문구 오리고기 식당 사장 A씨 SNS 글(파이낸셜뉴스 2026-11-04 https://www.fnnews.com/news/202611040651310348, 이뉴스24 https://m.inews24.com/v/2022326, 인사이트 https://www.insight.co.kr/news/580516, 위키트리 https://www.wikitree.co.kr/articles/1171691, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=481481). 영업 끝나고 직원 퇴근 뒤 밤 10시 30분께 전화, '할머니가 위독한데 물김치만 조금 드신다, 살 수 있냐'. 사장이 물김치 챙겨 1층으로 내려감. 청년 맨발에 슬리퍼, 숨 헐떡이며 달려와 구겨진 1만 원 한 장 내밈. 사장 '그냥 빨리 가서 할머니 드시게 하라'며 거절. 일주일 뒤 예약 없이 25명가량(이뉴스24는 20~30명) 방문, 그중 그 청년. '할머니 장례 잘 치르고 왔다, 저번에 주신 물김치가 정말 너무 고마웠다'. 청년이 가족들에게 사장님 자랑, 사장 '뭔 상황인가 싶었다'·가슴 뭉클. 누리꾼 '임종 전 마지막 음식이었을 것'.\n주의: 스포탈코리아 기사 URL에 2025년 5월 날짜 — 처음 알려진 건 그 무렵일 수 있고 11/4 다시 보도·화제(구글 급상승). 날짜를 대본에 쓰지 않음. '검은 옷'은 한 매체만이라 뺌. 청년·가족·가게 이름 없음. 마지막 음식은 누리꾼 추정으로만.\n증거: price(청년이 내민 1만 원→0원), doc(사장님 글 '순간 무슨 상황인가 싶었다')\n이해검사: 동대문 오리고기집 사장이 위독한 할머니 드실 물김치를 구하러 맨발로 뛰어온 청년에게 돈을 안 받고 내줬는데, 일주일 뒤 그 청년이 장례를 마친 가족 25명을 데리고 인사하러 왔다.\n그림대조: 완료"
+}
