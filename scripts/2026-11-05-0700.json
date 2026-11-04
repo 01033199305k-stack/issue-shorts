@@ -1,0 +1,775 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "apartment-manager-x-scratch",
+ "title_lines": [
+  "엄마 차에 X자 긋고",
+  "간 범인의 정체"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "엄마 차 트렁크에 X자 긋고 간 범인",
+   "say": "엄마 차 트렁크에 엑스자 긋고 간 범인",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "엄마 차 트렁크에\nX자 긋고 간 범인",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "트렁크 위에 누가 X자를 쫙 그어 놓음.",
+   "say": "트렁크 위에 누가 엑스자를 쫙 그어 놓음.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "❌",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "stamp"
+     }
+    ],
+    "pic": [
+     "car scratch",
+     "scratched car",
+     "car paint"
+    ],
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "근데 범인 잡고 보니 더 어이없음.",
+   "say": "근데 범인 잡고 보니 더 어이없음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "犯人",
+       "泥棒 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "지하주차장에 세워 둔 엄마 차였음.",
+   "say": "지하주차장에 세워 둔 엄마 차였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "車 女性",
+       "運転 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "parking garage underground",
+     "parking lot cars",
+     "garage cars"
+    ],
+    "cc": [
+     "korean apartment parking garage",
+     "seoul underground parking"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "글쓴이가 바로 경찰에 신고함.",
+   "say": "글쓴이가 바로 경찰에 신고함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 男性",
+       "スマートフォン 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "police car lights",
+     "police car night",
+     "police lights"
+    ]
+   }
+  },
+  {
+   "text": "헐, 경찰이 찾아낸 범인이",
+   "say": "헐, 경찰이 찾아낸 범인이",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "믿기지 않는다는 듯 목소리를 확 높여서",
+   "visual": {
+    "bg": "apartment",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官",
+       "警察官 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "apartment complex",
+     "apartment buildings",
+     "residential buildings"
+    ]
+   }
+  },
+  {
+   "text": "그 아파트 관리소장이었음.",
+   "say": "그 아파트 관리소장이었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "bg": "apartment",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "管理人",
+       "マンション 管理人",
+       "警備員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "pull"
+   }
+  },
+  {
+   "text": "순찰 돌다 차가 삐뚤게 서 있어서",
+   "say": "순찰 돌다 차가 삐뚤게 서 있어서",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "見回り 警備員",
+       "巡回 警備員",
+       "懐中電灯 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "parking garage empty",
+     "parking lot night",
+     "garage concrete"
+    ]
+   }
+  },
+  {
+   "text": "홧김에 긁었다고 해명했다고.",
+   "say": "홧김에 긁었다고 해명했다고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "doc",
+      "title": "관리소장 해명",
+      "lines": [
+       "순찰 중 차가",
+       "삐뚤게 서 있어",
+       "홧김에 긁었다"
+      ],
+      "mark": 2,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "イライラ 男性"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 전날엔 다른 입주민이랑 싸웠다 함.",
+   "say": "심지어 전날엔 다른 입주민이랑 싸웠다 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "apartment",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "喧嘩 男性",
+       "口論 男性",
+       "言い争う"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "삐뚤게 댄 건 글쓴이도 인정함.",
+   "say": "삐뚤게 댄 건 글쓴이도 인정함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "駐車 失敗",
+       "駐車場 車"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "parked car",
+     "car parking lot"
+    ]
+   }
+  },
+  {
+   "text": "그렇다고 남의 차를 긁는 게 말이 됨?",
+   "say": "그렇다고 남의 차를 긁는 게 말이 됨?",
+   "sfx": "whoosh",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "引っかき傷 車",
+       "傷 車",
+       "車 事故"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 둘 사이엔 악연이 있었음.",
+   "say": "알고 보니 둘 사이엔 악연이 있었음.",
+   "sfx": "whoosh",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "warn"
+     }
+    ]
+   }
+  },
+  {
+   "text": "예전에 주차장 차단기를 바꾸면서",
+   "say": "예전에 주차장 차단기를 바꾸면서",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "遮断機",
+       "踏切 遮断機"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚧",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "parking barrier gate",
+     "barrier gate",
+     "parking entrance"
+    ]
+   }
+  },
+  {
+   "text": "출구에 낮은 철제 봉이 생겼는데,",
+   "say": "출구에 낮은 철제 봉이 생겼는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "工事 作業員",
+       "作業員 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔩",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "metal pole",
+     "steel bollard"
+    ]
+   }
+  },
+  {
+   "text": "거길 지나다 차가 긁혔다고.",
+   "say": "거길 지나다 차가 긁혔다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "shake"
+     }
+    ],
+    "video": [
+     "car driving garage",
+     "car exit garage",
+     "car driving parking"
+    ]
+   }
+  },
+  {
+   "text": "아파트 보험으로 처리해 달랬더니",
+   "say": "아파트 보험으로 처리해 달랬더니",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "保険 説明",
+       "書類 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "관리소장이 거절해서 크게 싸웠음.",
+   "say": "관리소장이 거절해서 크게 싸웠음.",
+   "sfx": "exclaim",
+   "cap": "hit",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性 二人",
+       "喧嘩 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그래도 글쓴이는 합의를 생각했음.",
+   "say": "그래도 글쓴이는 합의를 생각했음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "握手 男性",
+       "仲直り"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤝",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "합의 조건으로 CCTV를 보여 달라 함.",
+   "say": "합의 조건으로 씨씨티비를 보여 달라 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "防犯カメラ",
+       "監視カメラ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "security camera",
+     "cctv camera"
+    ]
+   }
+  },
+  {
+   "text": "근데 돌아온 답이 이해해 달라였음.",
+   "say": "근데 돌아온 답이 이해해 달라였음.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 힘 빠진 목소리로, 말끝은 분명하게",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "謝る 男性",
+       "お辞儀 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "결국 글쓴이는 합의를 접었다고.",
+   "say": "결국 글쓴이는 합의를 접었다고.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "拒否 男性",
+       "断る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "더 책임을 물을 방법을 찾는 중임.",
+   "say": "더 책임을 물을 방법을 찾는 중임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "弁護士",
+       "相談 弁護士"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "law books",
+     "courthouse building",
+     "legal documents"
+    ]
+   }
+  },
+  {
+   "text": "올린 글 제목은 고의로 긁었다였음.",
+   "say": "올린 글 제목은 고의로 긁었다였음.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "doc",
+      "title": "올라온 글",
+      "lines": [
+       "관리소장이",
+       "입주민 차량을",
+       "고의로 긁었다"
+      ],
+      "mark": 2,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "주차 단속을 열쇠로 한 셈임.",
+   "say": "주차 단속을 열쇠로 한 셈임.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "鍵",
+       "車の鍵"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔑",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "엄마 차에 X자 긋고 간 범인의 정체 #shorts",
+  "description": "지하주차장에 세워 둔 엄마 차 트렁크에 선명한 X자 흠집.\n경찰이 찾아낸 범인은 그 아파트 관리소장이었습니다.\n해명은 '차가 삐뚤게 서 있어 홧김에', 합의 조건으로 CCTV를 요청하자 돌아온 답은...\n\n※ AI 음성으로 제작했습니다.\n#아파트 #관리소장 #주차 #차량훼손 #썰 #shorts",
+  "tags": [
+   "아파트 관리소장",
+   "차량 흠집",
+   "지하주차장",
+   "주차 갈등",
+   "입주민",
+   "판정 썰",
+   "썰가챠",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://m.news.nate.com/view/20261104n40583",
+ "facts_used": [
+  "11월 3일 온라인 커뮤니티에 '아파트 관리소장이 입주민 차량을 고의로 긁었다' 글, 지난달 지하주차장에 세워 둔 어머니 차 트렁크 윗부분에 X자 흠집 — 위키트리 https://www.wikitree.co.kr/articles/1171858, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=481721",
+  "경찰 신고 뒤 가해자가 관리소장으로 확인 — 뉴스통 https://www.newstong.co.kr/view3.aspx?seq=14794719, 네이트 뉴스 https://m.news.nate.com/view/20261104n40583, 스페셜타임스",
+  "관리소장 해명: 전날 다른 입주민과 다툼, 순찰 중 차가 삐뚤게 세워진 것 보고 홧김에 긁음 — 위키트리, 스페셜타임스, 뉴스통",
+  "작성자도 주차가 다소 삐뚤었던 점 인정, 훼손은 정당화 안 된다 — 위키트리, 스페셜타임스",
+  "앞서 차단기 교체로 출구에 낮은 철제 봉 설치, 지나다 차체 긁힘, 아파트 보험 접수 요청을 관리소장이 거부해 언쟁 — 위키트리, 서플(종합) https://supple.kr/news/cmw1tts3g12ojclgj4p9c67oh",
+  "합의 고려 → 합의 조건으로 CCTV 영상 요청 → 관리소장 '이해해달라'며 거부 → 합의 접고 추가 책임 물을 수 있는지 문의 — 위키트리, 스페셜타임스, 서플"
+ ],
+ "brief": "점수표: [선택] 아파트 관리소장이 '삐뚤게 주차했다'며 입주민 어머니 차에 X자 흠집, CCTV 요청엔 '이해해달라' (위키트리·스페셜타임스·뉴스통·네이트 11/4) 이게됨4+궁금증4(범인 정체·이유)+감정7(억울함·분노)+대상4(아파트 주차장)+판정5(일 키운 쪽 분명) = 24 / [후보] 식당 공용 수저통에 아이 숟가락(파이낸셜 11/2) - 아이 망신 소지·단계 없음 탈락 / 다문화 유치원 우선입학 분통 - 갈등 소재 0 / 집 비운 사이 동생 파티(레딧) - 해외·사실 확인 1매체 탈락 / 아이 112·초등생 기특 검색 - 2주 안 새 사연 없음\n유행: 없음 (한화 이글스·우규민·롤 패치노트·니케 — 썰로 이어지는 보도 없음, 니케는 해킹·게임 화면이라 제외)\n구조: 시작=지하주차장 엄마 차 트렁크에 X자 흠집 / 커짐=경찰 신고→범인이 관리소장→'삐뚤게 서 있어 홧김에'+전날 다른 입주민과 다툼→예전 철제 봉 긁힘·보험 접수 거부로 언쟁→합의 조건 CCTV 요청 / 뒤집힘=범인은 그 아파트 관리소장 / 정체=이유는 삐뚤게 세운 주차와 홧김, 뿌리는 예전 보험 거부 악연 / 그 뒤='이해해달라'며 CCTV 거부→합의 접고 추가 책임 알아보는 중\n공개할 답: ①범인=관리소장(1/3) ②이유=삐뚤게 주차·홧김, 둘 사이 악연(2/3) ③CCTV 요청에 '이해해 달라'(끝)\n욕할 대상: 관리소장의 대응(이름·단지 없음)\n첫장면: 손해\n훅 3안: ①\"트렁크 위에 누가 X자를 쫙 그어 놓음.\"(선택: 장면 그대로) ②\"엄마 차를 긁은 범인을 경찰이 찾아냄.\"(약함) ③\"차 긁은 사람 해명이 '삐뚤게 세워서'임.\"(답 노출) / 제목 3안: '엄마 차에 X자 긋고 간 범인의 정체'(선택: 사람+무슨 일+정체) · '삐뚤게 주차했다고 차 긁은 관리소장'(답 노출) · '결국 범인이 밝혀졌다는 트렁크 X자'(대상 흐림)\n주의: 모두 작성자 쪽 주장 기반 보도, 관리소장 입장·수사 결과 미확인 → '~했다고'·'해명했다고'로 전해 들은 말로만. 아파트·지역·이름 없음. 철제 봉 일은 시점이 매체마다 '지난해/당시'라 '예전에'로. '생계 고려'는 한 매체 요약에만 있어 뺌.\n증거: doc(관리소장 해명), doc(올라온 글 제목)\n이해검사: 엄마 차 트렁크에 X자 흠집이 나서 신고했더니 범인은 차가 삐뚤게 서 있어 홧김에 긁었다는 아파트 관리소장이었고, 합의 조건으로 CCTV를 보여 달라 하자 '이해해 달라'고 거절해 글쓴이는 합의를 접었다.\n그림대조: 완료"
+}
