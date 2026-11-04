@@ -1,55 +1,134 @@
 {
- "detected_at": "2026-11-04T08:15+09:00",
+ "detected_at": "2026-11-04T12:13+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 北김여정 “美와 선택지에 대화 있지만, 반드시는 아냐”",
-   "url": "https://n.news.naver.com/article/016/0002718411",
-   "press": "헤럴드경제",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 김민석, 정부에 '가상자산 과세 유예' 공식 제안",
+   "url": "https://n.news.naver.com/article/437/0000519029",
+   "press": "JTBC",
+   "why": "[속보] 기사 + 언론사 5곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "서울신문",
-     "title": "김여정 “미국과 마주 앉을 필요 없다…대화가 국익은 아냐”",
-     "url": "https://n.news.naver.com/article/081/0003695530"
+     "press": "세계일보",
+     "title": "[속보] 김민석 “가상자산 소득 과세유예, 정부에 공식 제안”",
+     "url": "https://n.news.naver.com/article/022/0004172400"
+    },
+    {
+     "press": "SBS Biz",
+     "title": "김민석, 정부에 '가상자산 과세 유예' 공식 제안",
+     "url": "https://n.news.naver.com/article/374/0000541579"
+    },
+    {
+     "press": "KBS",
+     "title": "김민석 “가상자산 소득 과세 유예 정부에 공식 제안…디지털자산기본법 우선 제정”",
+     "url": "https://n.news.naver.com/article/056/0012286883"
+    },
+    {
+     "press": "MBN",
+     "title": "[속보] 김민석, 정부에 '가상자산 과세 유예' 공식 제안",
+     "url": "https://n.news.naver.com/article/057/0001976625"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 쿠팡Inc, 3분기 영업손실 6423억원… 전년 대비 적자 전환",
-   "url": "https://n.news.naver.com/article/366/0001202360",
-   "press": "조선비즈",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 강릉 주문진서 승용차·지게차 잇단 추돌…사고 수습하던 60대 숨져",
-   "url": "https://n.news.naver.com/article/087/0001228437",
-   "press": "강원일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 김여정 \"美 신뢰 못해…마주 앉을 필요 없다\"",
-   "url": "https://n.news.naver.com/article/422/0000922661",
-   "press": "연합뉴스TV",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "李대통령 “서울 전체 집값 폭락 중이라고 한 적 없어”",
+   "url": "https://n.news.naver.com/article/005/0001882896",
+   "press": "국민일보",
+   "why": "언론사 8곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "서울신문",
-     "title": "김여정 “미국과 마주 앉을 필요 없다…대화가 국익은 아냐”",
-     "url": "https://n.news.naver.com/article/081/0003695530"
+     "press": "YTN",
+     "title": "이 대통령 \"'서울 전체 집값 폭락' 발언 한 적 없어...가짜뉴스\"",
+     "url": "https://n.news.naver.com/article/052/0002428116"
+    },
+    {
+     "press": "SBS",
+     "title": "이 대통령, '대통령 집값 폭락 발언, 강남만 맞았다' 기사 제목에 \"가짜뉴스\"",
+     "url": "https://n.news.naver.com/article/055/0001400543"
+    },
+    {
+     "press": "경기일보",
+     "title": "李대통령 “‘집값 전체 폭락’은 가짜뉴스…주요 지역 지칭했을 뿐”",
+     "url": "https://n.news.naver.com/article/666/0000130517"
+    },
+    {
+     "press": "뉴시스",
+     "title": "이 대통령 \"서울 전체 집값 폭락중이라고 한 적 없어…서울 주요 지역 말해\"",
+     "url": "https://n.news.naver.com/article/003/0014299991"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] ‘대북송금’ 이화영 측, 유엔에 인권침해 진정…‘장기구금·강압수사’ 주장",
-   "url": "https://n.news.naver.com/article/029/0003056965",
-   "press": "디지털타임스",
+   "title": "[속보] 특검 “투표지 부족 투표소, 선관위 지시로 투표록 사후 위변조”",
+   "url": "https://n.news.naver.com/article/011/0004678595",
+   "press": "서울경제",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 국회 법사위, 與 주도 조작기소 특검법 상정…국힘 퇴장",
+   "url": "https://n.news.naver.com/article/025/0003562730",
+   "press": "중앙일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "연합뉴스TV",
+     "title": "[속보] 법사위, 與 주도 조작기소 특검법 상정…국힘 퇴장",
+     "url": "https://n.news.naver.com/article/422/0000922750"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "李대통령, '대통령 집값 발언 강남만 맞았다' 보도에 \"가짜뉴스\"",
+   "url": "https://n.news.naver.com/article/001/0016420525",
+   "press": "연합뉴스",
+   "why": "언론사 7곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "YTN",
+     "title": "이 대통령 \"'서울 전체 집값 폭락' 발언 한 적 없어...가짜뉴스\"",
+     "url": "https://n.news.naver.com/article/052/0002428116"
+    },
+    {
+     "press": "SBS",
+     "title": "이 대통령, '대통령 집값 폭락 발언, 강남만 맞았다' 기사 제목에 \"가짜뉴스\"",
+     "url": "https://n.news.naver.com/article/055/0001400543"
+    },
+    {
+     "press": "경기일보",
+     "title": "李대통령 “‘집값 전체 폭락’은 가짜뉴스…주요 지역 지칭했을 뿐”",
+     "url": "https://n.news.naver.com/article/666/0000130517"
+    },
+    {
+     "press": "서울신문",
+     "title": "李대통령 “‘집값 폭락 중’ 말한 적 없다”…“가짜뉴스” 비판",
+     "url": "https://n.news.naver.com/article/081/0003695562"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 합참 \"북한, 동해상으로 미상 발사체 발사\"",
+   "url": "https://n.news.naver.com/article/015/0005350051",
+   "press": "한국경제",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "강원일보",
+     "title": "[속보] 북한, 동해상으로 미상 발사체 발사…합참, 제원·사거리 분석 중",
+     "url": "https://n.news.naver.com/article/087/0001228452"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] \"나를 신고해?\"…전 남친 성폭행범 몰아 허위 고소한 20대 집유",
+   "url": "https://n.news.naver.com/article/082/0001405528",
+   "press": "부산일보",
    "why": "[속보] 기사",
    "related": []
   }
