@@ -5529,5 +5529,83 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-04_1200_monkfish-stew-refund-cctv/video.mp4"
   },
   "seconds": 2668
+ },
+ {
+  "key": "2026-11-04-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-04T18:00:00+09:00",
+  "started": "2026-11-04T15:18:59.204198+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-180295/",
+   "https://pixabay.com/videos/id-63970/",
+   "https://pixabay.com/photos/business-computer-mobile-smartphone-2846221/",
+   "https://pixabay.com/photos/kimchi-korean-traditional-food-623260/",
+   "https://pixabay.com/photos/blue-nail-nails-feet-foot-leg-791562/",
+   "https://pixabay.com/videos/id-35392/",
+   "https://pixabay.com/videos/id-18686/",
+   "https://pixabay.com/videos/id-175213/",
+   "https://pixabay.com/videos/id-172686/",
+   "https://pixabay.com/photos/iphone-hand-screen-smartphone-apps-410311/",
+   "https://pixabay.com/videos/id-329161/"
+  ],
+  "cc_clips": [],
+  "duration": 52.37,
+  "matches": [
+   0.97,
+   0.98,
+   0.96,
+   0.95,
+   1.0,
+   1.0,
+   0.95,
+   1.0,
+   0.98,
+   0.96,
+   0.96,
+   1.0,
+   0.98,
+   0.98,
+   1.0,
+   0.97,
+   0.97,
+   0.94,
+   0.94,
+   1.0,
+   0.96,
+   1.0,
+   0.96,
+   0.96
+  ],
+  "sfx": 23,
+  "illustrations": 15,
+  "cuts": 24,
+  "layout_issues": [],
+  "caption_breaks": [
+   "정리하는데 / 전화가 (55)",
+   "마지막 / 음식이었을 (55)"
+  ],
+  "title": "공짜 물김치 내준 식당에 일주일 뒤 온 25명 #shorts",
+  "source_post": "https://www.fnnews.com/news/202611040651310348",
+  "facts_used": [
+   "밤 10시 30분께 영업 끝난 동대문구 오리고기집에 '위독한 할머니가 물김치만 드신다' 전화 — 파이낸셜뉴스 2026-11-04 https://www.fnnews.com/news/202611040651310348, 이뉴스24 https://m.inews24.com/v/2022326",
+   "맨발에 슬리퍼 청년이 구겨진 1만 원 내밀었으나 사장이 '빨리 가서 할머니 드시게 하라'며 거절 — 위키트리 https://www.wikitree.co.kr/articles/1171691, 인사이트 https://www.insight.co.kr/news/580516",
+   "일주일 뒤 예약 없이 25명가량 방문, 그 청년이 '할머니 장례 잘 치르고 왔다, 물김치 정말 고마웠다' — 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=481481, 인사이트",
+   "청년이 가족들에게 '저번에 물김치 주신 사장님'이라 자랑, 사장 '뭔 상황인가 싶었다'·뭉클 — 파이낸셜뉴스, 이뉴스24",
+   "누리꾼 '할머니 임종 전 마지막 음식이었을 것' — 인사이트, 이뉴스24"
+  ],
+  "slug": "2026-11-04_1800_free-water-kimchi-25-family",
+  "late": false,
+  "video_id": "wzhKOa8Lkvw",
+  "url": "https://youtube.com/shorts/wzhKOa8Lkvw",
+  "privacy": "private",
+  "scheduled_for": "2026-11-04T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6aead9b52b43f8ba7d728532",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-04T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-04_1800_free-water-kimchi-25-family/video.mp4"
+  },
+  "seconds": 2916
  }
 ]
