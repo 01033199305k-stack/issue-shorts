@@ -5832,5 +5832,82 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-05_1800_kids-clothes-parcel-rat/video.mp4"
   },
   "seconds": 2827
+ },
+ {
+  "key": "2026-11-06-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-06T07:00:00+09:00",
+  "started": "2026-11-06T04:19:10.638791+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-8686/",
+   "https://pixabay.com/photos/food-ramen-noodles-cooking-japan-1216048/",
+   "https://pixabay.com/photos/refrigerator-beverage-cooler-cold-4743232/",
+   "https://pixabay.com/videos/id-11843/",
+   "https://pixabay.com/videos/id-3451/",
+   "https://pixabay.com/videos/id-173103/",
+   "https://pixabay.com/videos/id-72414/",
+   "https://pixabay.com/videos/id-169000/",
+   "https://pixabay.com/videos/id-11018/",
+   "https://pixabay.com/photos/beer-bottles-bottles-empty-brown-3151245/",
+   "https://pixabay.com/photos/mortgage-house-contract-sign-home-5266520/"
+  ],
+  "cc_clips": [],
+  "duration": 51.67,
+  "matches": [
+   1.0,
+   0.94,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.96,
+   0.96,
+   0.96,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.93,
+   0.93,
+   0.97,
+   1.0,
+   1.0,
+   0.96
+  ],
+  "sfx": 21,
+  "illustrations": 17,
+  "cuts": 22,
+  "layout_issues": [],
+  "caption_breaks": [
+   "유기동물 / 입양 (55)",
+   "둔 / 간식이었던 (65)"
+  ],
+  "title": "유기동물 바자회 간식 털어 간 여성의 해명 #shorts",
+  "source_post": "https://www.seoul.co.kr/news/society/2026/11/03/20261103500339",
+  "facts_used": [
+   "인천 부평구 유기동물입양단체 사무실 앞에 둔 바자회 자원봉사자용 간식 상자를 모자·마스크 쓴 여성이 털어 감 — 서울신문 https://www.seoul.co.kr/news/newsView.php?id=20261101500057, 파이낸셜뉴스 https://www.fnnews.com/news/202611020701533168",
+   "컵라면·과자·참치통조림 등 약 5만 원 상당, 약 3분간, 비닐봉지·장바구니에 담음 — 서울신문, 파이낸셜뉴스, 인사이트 https://www.insight.co.kr/news/580158, 서플 https://supple.kr/news/cmvyv0jvo94tcclgjy7av9cbq",
+   "상자 밑 아이스박스까지 열어 확인 — 문화일보 https://www.munhwa.com/article/11351278, 코리아데일리 https://www.koreadaily.com/article/20261101014250045",
+   "단체는 유기동물 구조·치료비 마련 후원 바자회를 열어 옴, CCTV 공개 후 경찰 신고 — 파이낸셜뉴스, 서울신문, 문화일보",
+   "약 20분 뒤 여성이 다시 현장에 와 동태를 살피고 감(추가 CCTV) — 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03873686645642440, 서울신문 11/3 https://www.seoul.co.kr/news/society/2026/11/03/20261103500339",
+   "여성 경찰에 붙잡힘, '공병 주우러 다니다 상자가 보이길래 내용물을 챙겼다'는 취지 해명, 단체 '연세가 많은 분'이라며 합의 고심 — 서울신문 11/3, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=482016"
+  ],
+  "slug": "2026-11-06_0700_shelter-bazaar-snack-thief",
+  "late": false,
+  "video_id": "9SJpYxULQfk",
+  "url": "https://youtube.com/shorts/9SJpYxULQfk",
+  "privacy": "private",
+  "scheduled_for": "2026-11-05T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6aece277fb4f34c06a7f4f20",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-05T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-06_0700_shelter-bazaar-snack-thief/video.mp4"
+  },
+  "seconds": 3018
  }
 ]
