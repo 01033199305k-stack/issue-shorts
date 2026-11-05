@@ -1,0 +1,721 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "shelter-bazaar-snack-thief",
+ "title_lines": [
+  "유기동물 바자회 간식",
+  "털어 간 여성의 해명"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "유기동물 바자회 간식 털어 간 여성의 해명",
+   "say": "유기동물 바자회 간식 털어 간 여성의 해명",
+   "sfx": "absurd",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "유기동물 바자회 간식\n털어 간 여성의 해명",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "모자에 마스크 쓴 여성이 남의 문 앞 상자를 뒤짐.",
+   "say": "모자에 마스크 쓴 여성이 남의 문 앞 상자를 뒤짐.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "泥棒 女性",
+       "マスク 女性",
+       "帽子 マスク"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "cardboard box doorstep",
+     "cardboard box",
+     "package door"
+    ],
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "안엔 컵라면, 과자, 참치 통조림이 있었음.",
+   "say": "안엔 컵라면, 과자, 참치 통조림이 있었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カップラーメン",
+       "カップ麺"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍜",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "instant noodles",
+     "cup noodles",
+     "canned tuna"
+    ]
+   }
+  },
+  {
+   "text": "밑에 있던 아이스박스까지 열어 봤다고.",
+   "say": "밑에 있던 아이스박스까지 열어 봤다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "クーラーボックス",
+       "クーラーボックス 箱"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧊",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "cooler box",
+     "ice cooler",
+     "picnic cooler"
+    ]
+   }
+  },
+  {
+   "text": "비닐봉지에 장바구니까지 꺼내더니,",
+   "say": "비닐봉지에 장바구니까지 꺼내더니,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "エコバッグ",
+       "買い物袋",
+       "買い物 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🛍️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "shopping bag",
+     "plastic bag",
+     "grocery bag"
+    ]
+   }
+  },
+  {
+   "text": "3분 만에 5만 원어치를 싹 쓸어 감.",
+   "say": "삼 분 만에 오만 원어치를 싹 쓸어 감.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "price",
+      "label": "가져간 간식",
+      "new": "5만 원어치",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "逃げる 女性",
+       "走る 女性"
+      ],
+      "pos": "bottom-right",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 이 상자, 그냥 간식이 아니었음.",
+   "say": "근데 이 상자, 그냥 간식이 아니었음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "段ボール 箱",
+       "ダンボール"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "인천의 한 유기동물 입양 단체가",
+   "say": "인천의 한 유기동물 입양 단체가",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "保護犬",
+       "保護猫",
+       "犬 猫"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "dog shelter",
+     "shelter dogs",
+     "puppy cage"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "구조비 모으려고 바자회를 열었는데,",
+   "say": "구조비 모으려고 바자회를 열었는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バザー",
+       "フリーマーケット"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏷️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "flea market",
+     "market stall",
+     "second hand market"
+    ]
+   }
+  },
+  {
+   "text": "그 봉사자들 먹으라고 둔 간식이었던 거임.",
+   "say": "그 봉사자들 먹으라고 둔 간식이었던 거임.",
+   "sfx": "exclaim",
+   "cap": "hit",
+   "tone": "어이없어 목소리가 확 커지듯 힘주어",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ボランティア",
+       "ボランティア 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "단체는 잠깐 둔 간식을 싹 털어 갔다며 글을 올림.",
+   "say": "단체는 잠깐 둔 간식을 싹 털어 갔다며 글을 올림.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "억울해서 씩씩대듯 또박또박",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "困る 女性",
+       "落ち込む 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "CCTV 영상과 함께 경찰에도 신고함.",
+   "say": "씨씨티비 영상과 함께 경찰에도 신고함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "防犯カメラ",
+       "監視カメラ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "security camera",
+     "cctv camera",
+     "surveillance camera"
+    ]
+   }
+  },
+  {
+   "text": "근데 영상엔 더 어이없는 장면이 있었음.",
+   "say": "근데 영상엔 더 어이없는 장면이 있었음.",
+   "sfx": "question",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "びっくり 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이 여성이 20분 뒤에 다시 나타남.",
+   "say": "이 여성이 이십 분 뒤에 다시 나타남.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "깜짝 놀라 소름 돋은 듯 크게",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "泥棒 女性",
+       "マスク 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "street morning",
+     "alley street",
+     "sidewalk morning"
+    ],
+    "cam": "push",
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "상자 쪽을 한 번 더 살피고 갔다고.",
+   "say": "상자 쪽을 한 번 더 살피고 갔다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "覗く 女性",
+       "のぞき見"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "cardboard boxes",
+     "boxes stacked",
+     "empty cardboard"
+    ]
+   }
+  },
+  {
+   "text": "결국 이 여성은 경찰에 붙잡힘.",
+   "say": "결국 이 여성은 경찰에 붙잡힘.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官",
+       "警察官 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "police car lights",
+     "police car",
+     "police lights"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "해명은 공병 주우러 다니다가",
+   "say": "해명은 공병 주우러 다니다가",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "doc",
+      "title": "여성의 해명",
+      "lines": [
+       "공병 주우러 다니다",
+       "상자가 보여서",
+       "내용물 챙김"
+      ],
+      "mark": 0,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "상자가 보이길래 챙겼다는 거였음.",
+   "say": "상자가 보이길래 챙겼다는 거였음.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "言い訳 女性",
+       "言い訳"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤷",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아니, 공병 줍다가 컵라면은 왜 챙김?",
+   "say": "아니, 공병 줍다가 컵라면은 왜 챙김?",
+   "sfx": "absurd",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "zoom"
+     }
+    ],
+    "pic": [
+     "empty bottles",
+     "glass bottles",
+     "bottles recycling"
+    ]
+   }
+  },
+  {
+   "text": "단체는 연세가 많은 분이라며",
+   "say": "단체는 연세가 많은 분이라며",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "悩む 女性",
+       "考える 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "합의를 해 줘야 할지 고민 중이라고.",
+   "say": "합의를 해 줘야 할지 고민 중이라고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "握手",
+       "示談"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤝",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "signing paper",
+     "document pen",
+     "paper signature"
+    ]
+   }
+  },
+  {
+   "text": "줍다 챙긴 게 봉사자 밥이었음.",
+   "say": "줍다 챙긴 게 봉사자 밥이었음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カップラーメン",
+       "カップ麺"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🍜",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "유기동물 바자회 간식 털어 간 여성의 해명 #shorts",
+  "description": "유기동물 구조비를 모으는 바자회 봉사자들을 위해 단체 사무실 앞에 둔 간식 상자.\n모자와 마스크를 쓴 여성이 3분 만에 컵라면·과자·통조림 5만 원어치를 쓸어 갔고, 20분 뒤 다시 와서 살피고 갔습니다.\n경찰에 붙잡힌 여성은 \"공병을 주우러 다니다 상자가 보여서 챙겼다\"고 해명했고, 단체는 합의를 고민하고 있습니다.\n\n※ AI 음성으로 제작했습니다.\n#유기동물 #바자회 #간식도둑 #CCTV #절도 #shorts",
+  "tags": [
+   "유기동물",
+   "바자회",
+   "간식 도둑",
+   "봉사자",
+   "CCTV",
+   "절도",
+   "판정 썰",
+   "썰가챠",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.seoul.co.kr/news/society/2026/11/03/20261103500339",
+ "facts_used": [
+  "인천 부평구 유기동물입양단체 사무실 앞에 둔 바자회 자원봉사자용 간식 상자를 모자·마스크 쓴 여성이 털어 감 — 서울신문 https://www.seoul.co.kr/news/newsView.php?id=20261101500057, 파이낸셜뉴스 https://www.fnnews.com/news/202611020701533168",
+  "컵라면·과자·참치통조림 등 약 5만 원 상당, 약 3분간, 비닐봉지·장바구니에 담음 — 서울신문, 파이낸셜뉴스, 인사이트 https://www.insight.co.kr/news/580158, 서플 https://supple.kr/news/cmvyv0jvo94tcclgjy7av9cbq",
+  "상자 밑 아이스박스까지 열어 확인 — 문화일보 https://www.munhwa.com/article/11351278, 코리아데일리 https://www.koreadaily.com/article/20261101014250045",
+  "단체는 유기동물 구조·치료비 마련 후원 바자회를 열어 옴, CCTV 공개 후 경찰 신고 — 파이낸셜뉴스, 서울신문, 문화일보",
+  "약 20분 뒤 여성이 다시 현장에 와 동태를 살피고 감(추가 CCTV) — 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03873686645642440, 서울신문 11/3 https://www.seoul.co.kr/news/society/2026/11/03/20261103500339",
+  "여성 경찰에 붙잡힘, '공병 주우러 다니다 상자가 보이길래 내용물을 챙겼다'는 취지 해명, 단체 '연세가 많은 분'이라며 합의 고심 — 서울신문 11/3, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=482016"
+ ],
+ "brief": "점수표: [선택] 유기동물 바자회 봉사자 간식 절도→20분 뒤 재방문→검거→'공병 줍다 상자가 보여서' 해명→단체 '연세 많은 분' 합의 고심 (서울신문 11/1·11/3, 파이낸셜뉴스 11/2, 이데일리, 인사이트, 스페셜타임스 검거 보도) 이게됨3+궁금증4(누구 간식·20분 뒤·해명)+감정7(분노·황당)+대상4(컵라면·유기동물·바자회)+판정5(일 키운 쪽 분명, 합의 고민) = 23 / [후보] 개업 첫날 품절에 사이다 25캔 개업 선물 손님(파이낸셜·머니투데이 11/4) 이게됨3+궁금증3+감정6+대상4+판정1=17, 커짐 단계·욕할 대상 없음 탈락 / 안재욱 운동회 민원 345번 출동 - 전국 통계와 연예인 발언 묶음, 단일 사건 아님 탈락 / '자전거 못 타고 놀아' 아이 112 신고 - 아동학대 사건이라 제외 / 특전사 모델 워킹 교육 - 정치인 공방 중심 제외 / 태권도 관장 초등생 폭행 - 아동 피해라 제외\n유행: 없음 (어선·수술·재혼황후·젤다·뉴진스 — 썰로 이어지는 보도 없음)\n구조: 시작=단체가 바자회 봉사자용 간식 상자를 사무실 문 앞에 둠 / 커짐=모자·마스크 여성이 상자 뒤짐→아이스박스까지 열어 봄→비닐봉지·장바구니 꺼내 3분 만에 5만 원어치→20분 뒤 다시 와서 동태 살핌 / 뒤집힘=그 간식은 유기동물 구조비 바자회 봉사자들 몫 / 정체=붙잡힌 여성의 해명 '공병 주우러 다니다 상자가 보이길래 챙김' / 그 뒤=단체는 '연세가 많은 분'이라 합의 여부 고심\n공개할 답: ①누구 간식=유기동물 바자회 봉사자 몫(1/3) ②영상 속 장면=20분 뒤 재방문(2/3) ③해명=공병 줍다 상자가 보여서(끝)\n욕할 대상: 간식을 가져간 여성(이름·나이·얼굴 없음, 나이·성별 일반화 안 함)\n첫장면: 사람\n훅 3안: ①\"모자에 마스크 쓴 여성이 남의 문 앞 상자를 뒤짐.\"(선택: 장면 그대로) ②\"3분 만에 간식 5만 원어치가 사라짐.\"(답 일부 노출) ③\"CCTV에 비닐봉지 꺼내는 여성이 찍힘.\"(약함) / 제목 3안: '유기동물 바자회 간식 털어 간 여성의 해명'(선택: 사람+무슨 일+궁금한 한 마디) · '3분 만에 봉사자 간식 턴 여성의 결말'(결말형 약함) · '20분 뒤 다시 온 간식 도둑의 이유'(이유형, 답 노출)\n주의: 발생일 30일/31일 매체마다 달라 날짜·시각 안 씀. '노년'·'중년' 표기 엇갈려 나이 안 씀(단체 말 '연세가 많은 분'만 인용). 단체 이름·동네는 대본에서 뺌(인천까지만). '빈 박스는 왜 안 가져갔나' 단체 반문은 한 매체만 확인돼 안 씀. 커피 등 무거운 음료 안 가져간 디테일도 한 매체라 뺌. 합의 결과는 보도 없음 — '고민 중'까지만.\n증거: price(가져간 간식 5만 원어치), doc(여성의 해명)\n인용: '문 앞에 잠깐 둔 간식을 싹 털어 갔다', '공병 주우러 다니다 상자가 보이길래 챙겼다', '연세가 많은 분', 합의 고심 (cap quote 5)\n이해검사: 유기동물 단체가 바자회 봉사자들 먹으라고 사무실 앞에 둔 간식 5만 원어치를 한 여성이 3분 만에 쓸어 가고 20분 뒤 다시 와서 살피고 갔는데, 붙잡히자 '공병 줍다 상자가 보여서 챙겼다'고 해명했고 단체는 나이 많은 분이라 합의를 고민 중이다.\n그림대조: 완료"
+}
