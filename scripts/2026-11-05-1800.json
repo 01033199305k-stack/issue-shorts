@@ -1,0 +1,714 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "kids-clothes-parcel-rat",
+ "title_lines": [
+  "아이 옷 택배 속 쥐에",
+  "세 회사가 한 대답"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "아이 옷 택배 뜯었더니 튀어나온 대왕 쥐",
+   "say": "아이 옷 택배 뜯었더니 튀어나온 대왕 쥐",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "아이 옷 택배 뜯었더니\n튀어나온 대왕 쥐",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "봉투를 열자 쥐가 엄마 손등을 타고 내려감.",
+   "say": "봉투를 열자 쥐가 엄마 손등을 타고 내려감.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ネズミ",
+       "ねずみ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "근데 어이없는 건 그다음임.",
+   "say": "근데 어이없는 건 그다음임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 女性",
+       "びっくり 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "인터넷으로 시킨 아이 옷 택배였는데,",
+   "say": "인터넷으로 시킨 아이 옷 택배였는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "宅配便 受け取り",
+       "宅配 荷物"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "package delivery doorstep",
+     "parcel box door",
+     "cardboard package"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "쥐는 그대로 옷방으로 쏙 숨어 버림.",
+   "say": "쥐는 그대로 옷방으로 쏙 숨어 버림.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "bedroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "クローゼット",
+       "洋服 タンス"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "closet clothes hanging",
+     "wardrobe clothes",
+     "clothes rack"
+    ]
+   }
+  },
+  {
+   "text": "한 시간 뒤 온 아빠가 집게로 겨우 잡았는데,",
+   "say": "한 시간 뒤 온 아빠가 집게로 겨우 잡았는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お父さん 中年",
+       "おじさん"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 잡고 보니 크기가 무려 260mm였음.",
+   "say": "헐, 잡고 보니 크기가 무려 이백육십 밀리였음.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ネズミ 大きい",
+       "ネズミ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "rat animal",
+     "brown rat",
+     "rat"
+    ]
+   }
+  },
+  {
+   "text": "성인 남자 신발만 한 쥐였다고.",
+   "say": "성인 남자 신발만 한 쥐였다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👟",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "sneakers pair",
+     "men shoes",
+     "sneakers"
+    ]
+   }
+  },
+  {
+   "text": "반품 사유에 살아 있는 쥐라고 적었는데,",
+   "say": "반품 사유에 살아 있는 쥐라고 적었는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "スマホ 操作 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "돌아온 건 환불 안내뿐이었음.",
+   "say": "돌아온 건 환불 안내뿐이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "sms",
+      "from": "쇼핑몰",
+      "lines": [
+       "환불 처리 중입니다"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "がっかり 女性",
+       "落ち込む 女性"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "결국 엄마가 직접 고객센터에 전화함.",
+   "say": "결국 엄마가 직접 고객센터에 전화함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コールセンター",
+       "電話 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "☎️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "call center headset",
+     "office phone call",
+     "telephone desk"
+    ]
+   }
+  },
+  {
+   "text": "와, 플랫폼은 봉투 훼손 안 됐냐며",
+   "say": "와, 플랫폼은 봉투 훼손 안 됐냐며",
+   "sfx": "whoosh",
+   "join": true,
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "会社員 男性 電話",
+       "電話 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "쥐가 딴 데서 들어온 거 아니냐고 함.",
+   "say": "쥐가 딴 데서 들어온 거 아니냐고 함.",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "疑う 男性",
+       "怪しむ 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "판매업체는 하나하나 검수해 포장한다며",
+   "say": "판매업체는 하나하나 검수해 포장한다며",
+   "sfx": "whoosh",
+   "join": true,
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "梱包 作業",
+       "段ボール 梱包"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "warehouse packing boxes",
+     "packing boxes",
+     "cardboard boxes warehouse"
+    ]
+   }
+  },
+  {
+   "text": "절대 그럴 리 없다는 입장임.",
+   "say": "절대 그럴 리 없다는 입장임.",
+   "sfx": "stamp",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "doc",
+      "title": "판매업체 답변",
+      "lines": [
+       "하나하나 검수 후 포장",
+       "절대 그럴 리 없다"
+      ],
+      "mark": 1,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "首を振る 男性",
+       "断る 男性"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "택배사도 훼손됐으면 반송했을 거라고 함.",
+   "say": "택배사도 훼손됐으면 반송했을 거라고 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "宅配便 配達員",
+       "配達員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚚",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "delivery truck",
+     "delivery van street",
+     "truck road"
+    ],
+    "cc": [
+     "korean delivery truck",
+     "korea parcel delivery truck"
+    ]
+   }
+  },
+  {
+   "text": "세 곳 다 우리 탓은 아니라는 거임.",
+   "say": "세 곳 다 우리 탓은 아니라는 거임.",
+   "sfx": "whoosh",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "warn",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "責任転嫁",
+       "言い訳 男性"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 같은 플랫폼에서 2021년에도",
+   "say": "알고 보니 같은 플랫폼에서 이천이십일 년에도",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "日めくり カレンダー"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "신발 택배에서 산 쥐랑 죽은 쥐가 나왔음.",
+   "say": "신발 택배에서 산 쥐랑 죽은 쥐가 나왔음.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ネズミ たくさん",
+       "ネズミ 2匹"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "shoe box",
+     "shoes box open",
+     "sneaker box"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "그땐 재발 막겠다고 약속했었는데,",
+   "say": "그땐 재발 막겠다고 약속했었는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "cap": "quote",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "謝罪 会社員",
+       "お辞儀 会社員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙇",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이번엔 어디서 들어왔는지 아무도 모른다고.",
+   "say": "이번엔 어디서 들어왔는지 아무도 모른다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "分からない 男性",
+       "悩む 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "cardboard box",
+     "parcel box",
+     "package box"
+    ]
+   }
+  },
+  {
+   "text": "쥐는 잡혔는데 범인은 없음.",
+   "say": "쥐는 잡혔는데 범인은 없음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ネズミ",
+       "ねずみ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🐀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "stamp"
+     }
+    ],
+    "cam": "pull"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "아이 옷 택배 속 쥐에 세 회사가 한 대답 #shorts",
+  "description": "아이 옷을 주문한 엄마가 택배 봉투를 열자 성인 남자 신발만 한 260mm 쥐가 손등을 타고 튀어나왔습니다.\n반품 사유에 쥐가 나왔다고 적었지만 '환불 처리 중' 안내뿐이었고, 플랫폼·판매업체·택배사는 모두 자기 쪽 문제는 아니라는 입장이었습니다.\n같은 플랫폼에서는 2021년에도 신발 택배에서 쥐가 나온 적이 있었습니다.\n\n※ AI 음성으로 제작했습니다.\n#택배 #쥐 #아이옷 #온라인쇼핑 #판정썰 #shorts",
+  "tags": [
+   "택배",
+   "쥐",
+   "대왕 쥐",
+   "아이 옷",
+   "온라인 쇼핑",
+   "반품",
+   "판정 썰",
+   "썰가챠",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.news1.kr/society/general-society/6343786",
+ "facts_used": [
+  "전남 영암 30대 여성 A씨, 온라인 패션 플랫폼에서 아이 옷 주문, 택배 봉투 열자 살아 있는 쥐가 손등 타고 내려가 현관 맞은편 옷방으로 달아남 — 뉴스1 https://www.news1.kr/society/general-society/6343786 , 아이뉴스24 https://m.inews24.com/v/2022929 , 서플 https://supple.kr/news/cmw2m1o7na8g3142160x313kq (JTBC 사건반장 11/4 제보)",
+  "약 1시간 뒤 도착한 A씨 아버지가 집게로 잡음, 쥐 크기 성인 남성 신발 260mm — 뉴스1, 서플, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=482020",
+  "A씨: 택배 봉투 찢기거나 훼손된 흔적 없었다고 주장 / 반품 사유에 쥐 나왔다 적었으나 별도 연락 없이 '환불 처리 중' 안내만 → 직접 고객센터 연락 — 뉴스1, 아이뉴스24, 위키트리 https://www.wikitree.co.kr/articles/1172038",
+  "플랫폼: 택배 봉투 훼손되지 않았냐며 쥐가 다른 곳에서 들어온 것 아니냐는 취지 / 판매업체: 하나하나 검수해 다시 포장, '절대 그럴 리 없다' / 택배사: 포장 훼손됐다면 반송했을 것 — 뉴스1, 아이뉴스24, 스페셜타임스",
+  "2021년 같은 플랫폼 신발 주문 택배에서 살아 있는 쥐 1마리·죽은 쥐 1마리, 당시 플랫폼은 환불·보상 후 원인 파악해 재발 대책 마련하겠다고 밝힘 — 뉴스1, 아이뉴스24",
+  "쥐 유입 경위는 확인되지 않음, A씨는 결정적 증거 확보 못 함 — 스페셜타임스, 아이뉴스24"
+ ],
+ "brief": "점수표: [선택] 아이 옷 택배 봉투서 260mm 산 쥐→옷방 도주→아빠가 집게로 포획→반품 사유 적자 '환불 처리 중' 안내뿐→플랫폼 '봉투 훼손 안 됐냐, 딴 데서 들어온 것 아니냐'·판매업체 '절대 그럴 리 없다'·택배사 '훼손됐으면 반송'→같은 플랫폼 2021년에도 신발 택배서 쥐 2마리 (JTBC 사건반장 11/4, 뉴스1·아이뉴스24·스페셜타임스·서플·위키트리) 이게됨5(옷 택배서 신발만 한 쥐)+궁금증4(크기·업체 대답·전례)+감정7(아이 옷·떠넘기기 분노)+대상4(택배·온라인 쇼핑)+판정5(세 곳 다 아니라는 떠넘기기) = 25 / [후보] 보문동 무전취식 유튜버 '경찰서 초토화'(사건반장 11/4) 이게됨4+궁금증3+감정6+대상3+판정5=21, 확인 보도 1곳뿐이라 탈락 / 안산 개업 첫 주문 취소 뒤 사이다 25캔(파이낸셜 11/5) 이게됨3+궁금증4+감정6+대상4+판정1=18, 커짐 단계 없음 / 운동회 소음 신고 345건 출동 - 5월 통계 기사·국회 발언이라 탈락 / 아이 112 신고·어린이집 검색 - 2주 안 새 사연 없음\n유행: 없음 (롯데몰 청량리·데블스플랜3·아이브 — 썰로 이어지는 보도 없음, 굿즈 오픈런 검색도 11월 새 사건 없음)\n구조: 시작=아이 옷 택배 봉투 열자 쥐가 손등 타고 내려감 / 커짐=옷방으로 숨음→1시간 뒤 아빠가 집게로 포획, 260mm→반품 사유 적었더니 '환불 처리 중' 안내만→고객센터 전화 / 뒤집힘=플랫폼 '봉투 훼손 안 됐냐, 딴 데서 들어온 것 아니냐', 판매업체 '절대 그럴 리 없다', 택배사 '훼손됐으면 반송' / 정체=같은 플랫폼 2021년에도 신발 택배서 산 쥐·죽은 쥐 / 그 뒤=그때 재발 대책 약속, 이번 유입 경위는 아무도 모름\n공개할 답: ①쥐 크기=260mm 성인 남자 신발만 함(1/3) ②세 곳의 대답=다 우리 탓 아님(2/3) ③2021년 같은 플랫폼 전례(끝)\n욕할 대상: 플랫폼·판매업체·택배사의 떠넘기기 대응 (업체명은 보도에도 없고 대본에도 안 씀, 제보자 신상 없음)\n첫장면: 의외\n훅 3안: ①\"봉투를 열자 쥐가 엄마 손등을 타고 내려감.\"(선택: 장면 그대로, 제목보다 한 발 더) ②\"쥐 크기가 성인 남자 신발만 했음.\"(답 1 노출) ③\"반품 사유에 '살아 있는 쥐'라고 적은 엄마가 있음.\"(덜 놀라움) / 제목 3안: '아이 옷 택배 속 쥐에 세 회사가 한 대답'(선택: 사람·무슨 일·궁금한 대답) · '아이 옷 택배서 나온 260mm 쥐의 정체'(정체 모호) · '대왕 쥐 나온 택배에 업체가 한 말'(아이 빠짐)\n주의: 플랫폼·브랜드 이름 보도에도 없음, 쓰지 않음. 유입 경위 미확인이라 누구 잘못이라 단정 안 함(세 곳 입장만 전함). '아빠'는 보도의 'A씨 아버지'. 쥐가 손등 탄 사람은 주문한 A씨(아이 엄마). 플랫폼 발언은 '취지'로 보도돼 인용을 '~냐며 ~아니냐고 함'으로 풀어 씀.\n증거: sms(환불 처리 중 안내), doc(판매업체 답변 '절대 그럴 리 없다')\n인용: '봉투 훼손 안 됐냐'·'딴 데서 들어온 거 아니냐'(플랫폼), '하나하나 검수해 포장'·'절대 그럴 리 없다'(판매업체), '훼손됐으면 반송했을 것'(택배사), 2021년 '재발 대책'(cap quote 6)\n이해검사: 아이 옷 택배에서 신발만 한 쥐가 튀어나와 엄마가 반품 사유에 적고 따졌더니 플랫폼·판매업체·택배사가 모두 자기 탓은 아니라고 했고, 같은 플랫폼에선 2021년에도 택배 속 쥐가 나왔지만 이번에도 들어온 경로는 아무도 모른다.\n그림대조: 완료"
+}
