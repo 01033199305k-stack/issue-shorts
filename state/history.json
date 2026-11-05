@@ -5685,5 +5685,82 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-05_0700_apartment-manager-x-scratch/video.mp4"
   },
   "seconds": 2699
+ },
+ {
+  "key": "2026-11-05-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-05T12:00:00+09:00",
+  "started": "2026-11-05T09:18:16.362604+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-12769/",
+   "https://pixabay.com/videos/id-1042/",
+   "https://pixabay.com/videos/id-128506/",
+   "https://pixabay.com/photos/highway-wilderness-yellow-line-5314645/",
+   "https://pixabay.com/videos/id-11018/",
+   "https://pixabay.com/photos/beer-drinks-bottles-beer-bottles-564401/",
+   "https://pixabay.com/videos/id-5715/",
+   "https://pixabay.com/videos/id-201109/",
+   "https://pixabay.com/videos/id-72883/",
+   "https://pixabay.com/photos/cage-jail-prison-cell-transparent-3301936/"
+  ],
+  "cc_clips": [],
+  "duration": 52.98,
+  "matches": [
+   0.93,
+   0.94,
+   1.0,
+   0.97,
+   0.98,
+   0.98,
+   0.97,
+   1.0,
+   0.98,
+   0.98,
+   0.96,
+   1.0,
+   1.0,
+   0.98,
+   0.98,
+   1.0,
+   0.97,
+   0.97,
+   0.97,
+   0.9,
+   0.92,
+   0.92,
+   0.97,
+   1.0
+  ],
+  "sfx": 23,
+  "illustrations": 16,
+  "cuts": 24,
+  "layout_issues": [],
+  "caption_breaks": [
+   "걸렸는데 / 알코올 (55)"
+  ],
+  "title": "경찰 오자 소주 사 온 보복운전자가 한 말 #shorts",
+  "source_post": "https://n.news.naver.com/article/087/0001228712",
+  "facts_used": [
+   "2026년 3월 26일 오전 3시 57분께 경기 평택 도로에서 25세 A씨가 피해자(28)가 자신을 째려봤다는 이유로 차를 몰고 추격 — 강원일보 https://www.kwnews.co.kr/article/20261031500009, 뉴스1 https://www.news1.kr/local/kangwon/6338338, 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01938486645618496",
+   "약 1.1km 급가속·급감속·무리한 진로 변경, 피해 차량이 중앙선을 넘게 됨, 차로로 복귀하려는 피해 차량 앞으로 끼어들어 급정거해 충돌 — 강원일보, 시사저널 https://www.sisajournal.com/news/articleView.html?idxno=392418, 매일신문 https://www.imaeil.com/page/view/2026103112092245562",
+   "경찰 출동하자 인근 편의점에서 소주 1병 구입, 현장으로 돌아오는 길에 마심('술타기'로 음주측정 방해) — 강원일보, 이데일리, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=480484, 네이트 https://m.news.nate.com/view/20261031n07692",
+   "\"열 받아서 술을 마셨다. 어떻게 할 거냐\"며 고성 — 시사저널(제목 '어쩔거냐'), 이데일리·인사이트 https://www.insight.co.kr/news/580036 보도 인용",
+   "현장 수습 끝난 뒤 혈중알코올농도 0.178% 상태로 다시 운전하다 적발 — 강원일보, 매일신문, 이데일리 (면허취소 기준 0.08%)",
+   "춘천지법 형사1단독 정종건 부장판사, 특수협박·특수재물손괴·음주측정방해·음주운전 징역 1년(10/31 보도). \"죄질이 매우 불량하고 준법의식이 미약하다\", 범행 인정·피해자들과 원만히 합의한 점 참작 — 강원일보, 뉴스1, 시사저널"
+  ],
+  "slug": "2026-11-05_1200_road-rage-soju-test-block",
+  "late": false,
+  "video_id": "XT8JcytpoBs",
+  "url": "https://youtube.com/shorts/XT8JcytpoBs",
+  "privacy": "private",
+  "scheduled_for": "2026-11-05T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6aebd6e7bc551efdea3581fa",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-05T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-05_1200_road-rage-soju-test-block/video.mp4"
+  },
+  "seconds": 2977
  }
 ]
