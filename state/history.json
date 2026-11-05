@@ -5762,5 +5762,75 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-05_1200_road-rage-soju-test-block/video.mp4"
   },
   "seconds": 2977
+ },
+ {
+  "key": "2026-11-05-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-05T18:00:00+09:00",
+  "started": "2026-11-05T15:19:12.558828+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-43658/",
+   "https://pixabay.com/photos/rat-pet-animal-adorable-box-color-7713508/",
+   "https://pixabay.com/photos/shoes-sneakers-converse-footwear-1433925/",
+   "https://pixabay.com/videos/id-100816/",
+   "https://pixabay.com/videos/id-74507/",
+   "https://pixabay.com/videos/id-180618/",
+   "https://pixabay.com/photos/cardboard-boxes-cardboard-packaging-3110034/"
+  ],
+  "cc_clips": [],
+  "duration": 52.04,
+  "matches": [
+   0.95,
+   0.99,
+   1.0,
+   0.95,
+   0.95,
+   0.96,
+   0.96,
+   1.0,
+   0.97,
+   0.97,
+   1.0,
+   0.93,
+   0.93,
+   0.98,
+   0.98,
+   0.96,
+   0.93,
+   0.99,
+   0.99,
+   0.97,
+   0.97,
+   0.96
+  ],
+  "sfx": 21,
+  "illustrations": 14,
+  "cuts": 22,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "아이 옷 택배 속 쥐에 세 회사가 한 대답 #shorts",
+  "source_post": "https://www.news1.kr/society/general-society/6343786",
+  "facts_used": [
+   "전남 영암 30대 여성 A씨, 온라인 패션 플랫폼에서 아이 옷 주문, 택배 봉투 열자 살아 있는 쥐가 손등 타고 내려가 현관 맞은편 옷방으로 달아남 — 뉴스1 https://www.news1.kr/society/general-society/6343786 , 아이뉴스24 https://m.inews24.com/v/2022929 , 서플 https://supple.kr/news/cmw2m1o7na8g3142160x313kq (JTBC 사건반장 11/4 제보)",
+   "약 1시간 뒤 도착한 A씨 아버지가 집게로 잡음, 쥐 크기 성인 남성 신발 260mm — 뉴스1, 서플, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=482020",
+   "A씨: 택배 봉투 찢기거나 훼손된 흔적 없었다고 주장 / 반품 사유에 쥐 나왔다 적었으나 별도 연락 없이 '환불 처리 중' 안내만 → 직접 고객센터 연락 — 뉴스1, 아이뉴스24, 위키트리 https://www.wikitree.co.kr/articles/1172038",
+   "플랫폼: 택배 봉투 훼손되지 않았냐며 쥐가 다른 곳에서 들어온 것 아니냐는 취지 / 판매업체: 하나하나 검수해 다시 포장, '절대 그럴 리 없다' / 택배사: 포장 훼손됐다면 반송했을 것 — 뉴스1, 아이뉴스24, 스페셜타임스",
+   "2021년 같은 플랫폼 신발 주문 택배에서 살아 있는 쥐 1마리·죽은 쥐 1마리, 당시 플랫폼은 환불·보상 후 원인 파악해 재발 대책 마련하겠다고 밝힘 — 뉴스1, 아이뉴스24",
+   "쥐 유입 경위는 확인되지 않음, A씨는 결정적 증거 확보 못 함 — 스페셜타임스, 아이뉴스24"
+  ],
+  "slug": "2026-11-05_1800_kids-clothes-parcel-rat",
+  "late": false,
+  "video_id": "QwNLjq5zlX4",
+  "url": "https://youtube.com/shorts/QwNLjq5zlX4",
+  "privacy": "private",
+  "scheduled_for": "2026-11-05T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6aec2ae9e22643a987977d2f",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-05T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-05_1800_kids-clothes-parcel-rat/video.mp4"
+  },
+  "seconds": 2827
  }
 ]
