@@ -1,0 +1,781 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "road-rage-soju-test-block",
+ "title_lines": [
+  "경찰 오자 소주 사 온",
+  "보복운전자가 한 말"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "째려봤다고 쫓아온 차 경찰 오자 사 온 것",
+   "say": "째려봤다고 쫓아온 차 경찰 오자 사 온 것",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "째려봤다고 쫓아온 차\n경찰 오자 사 온 것",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "남의 차 앞에 끼어들어 급정거로 쾅 박음.",
+   "say": "남의 차 앞에 끼어들어 급정거로 쾅 박음.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "交通事故",
+       "自動車事故",
+       "車 事故"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "car brake lights",
+     "car traffic night",
+     "road night cars"
+    ],
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "근데 어이없는 건 그다음임.",
+   "say": "근데 어이없는 건 그다음임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "びっくり 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "상대가 자기를 째려봤다는 게 이유였음.",
+   "say": "상대가 자기를 째려봤다는 게 이유였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性 運転",
+       "運転 怒る",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그 이유 하나로 1.1km를 쫓아갔는데,",
+   "say": "그 이유 하나로 일 점 일 킬로를 쫓아갔는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "自動車 運転",
+       "運転 男性 車"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "night road driving",
+     "highway night",
+     "road car night"
+    ],
+    "cc": [
+     "korean highway night drive",
+     "korea road night driving"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "급가속, 급감속에 차선도 막 바꿨다고.",
+   "say": "급가속, 급감속에 차선도 막 바꿨다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スピード 車",
+       "暴走 車",
+       "スピード違反"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "car speeding",
+     "car fast road",
+     "traffic fast"
+    ]
+   }
+  },
+  {
+   "text": "결국 상대 차가 중앙선까지 넘어감.",
+   "say": "결국 상대 차가 중앙선까지 넘어감.",
+   "sfx": "whoosh",
+   "tone": "아찔해서 숨을 삼키듯 긴장되게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "shake"
+     }
+    ],
+    "pic": [
+     "road yellow line",
+     "road center line",
+     "yellow line"
+    ]
+   }
+  },
+  {
+   "text": "돌아오던 그 차를 막은 게 그 충돌임.",
+   "say": "돌아오던 그 차를 막은 게 그 충돌임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "車 衝突",
+       "衝突 事故",
+       "急ブレーキ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚧",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "당연히 경찰이 출동했는데,",
+   "say": "당연히 경찰이 출동했는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官",
+       "警察官 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "police car lights",
+     "police car night",
+     "police lights"
+    ]
+   }
+  },
+  {
+   "text": "와, 이 사람이 편의점부터 감.",
+   "say": "와, 이 사람이 편의점부터 감.",
+   "sfx": "whoosh",
+   "tone": "어처구니없어 눈이 동그래지듯 높게",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コンビニ 男性",
+       "買い物 男性",
+       "コンビニ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏪",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "사 온 건 소주 한 병이었음.",
+   "say": "사 온 건 소주 한 병이었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お酒 瓶",
+       "焼酎",
+       "酒瓶"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "soju bottle",
+     "green bottle",
+     "liquor bottle"
+    ]
+   }
+  },
+  {
+   "text": "돌아오는 길에 그걸 마셔 버림.",
+   "say": "돌아오는 길에 그걸 마셔 버림.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ラッパ飲み",
+       "お酒 飲む 男性",
+       "酔っ払い 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍺",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "음주 측정 막는 술타기 수법이었음.",
+   "say": "음주 측정 막는 술타기 수법이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "飲酒検問",
+       "アルコール検知器",
+       "警察 検問"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "경찰 앞에선 열 받아서 마셨다며",
+   "say": "경찰 앞에선 열 받아서 마셨다며",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "開き直る 男性",
+       "言い訳 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "어떻게 할 거냐고 소리까지 지름.",
+   "say": "어떻게 할 거냐고 소리까지 지름.",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒鳴る 男性",
+       "叫ぶ 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "근데 이게 끝이 아님.",
+   "say": "근데 이게 끝이 아님.",
+   "sfx": "whoosh",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "びっくり 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "정리가 끝나자 또 운전대를 잡음.",
+   "say": "정리가 끝나자 또 운전대를 잡음.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "運転 男性",
+       "ハンドル 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "car driving night",
+     "car steering wheel",
+     "driving night"
+    ],
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "그대로 걸렸는데 알코올 농도가",
+   "say": "그대로 걸렸는데 알코올 농도가",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察 取り締まり",
+       "警察官 敬礼"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "police checkpoint",
+     "police car flashing",
+     "police lights road"
+    ]
+   }
+  },
+  {
+   "text": "0.178%, 면허 취소 기준 두 배 넘음.",
+   "say": "영 점 일칠팔 퍼센트, 면허 취소 기준 두 배 넘음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "doc",
+      "title": "음주 측정",
+      "lines": [
+       "혈중알코올농도",
+       "0.178%",
+       "면허 취소 0.08%"
+      ],
+      "mark": 1,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "泥酔 男性",
+       "酔っ払い"
+      ],
+      "pos": "bottom-right",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "죄명만 무려 네 개가 붙었음.",
+   "say": "죄명만 무려 네 개가 붙었음.",
+   "sfx": "whoosh",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "doc",
+      "title": "죄명",
+      "lines": [
+       "특수협박",
+       "특수재물손괴",
+       "음주측정방해",
+       "음주운전"
+      ],
+      "mark": 2,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "재판부는 죄질이 매우 불량하다며",
+   "say": "재판부는 죄질이 매우 불량하다며",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "裁判官",
+       "裁判官 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "courthouse building",
+     "court building",
+     "law court"
+    ]
+   }
+  },
+  {
+   "text": "준법의식이 미약하다고까지 함.",
+   "say": "준법의식이 미약하다고까지 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "paper",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "裁判官 怒る",
+       "裁判 判決"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📜",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "합의가 참작돼 징역 1년이 나왔다고.",
+   "say": "합의가 참작돼 징역 일 년이 나왔다고.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "刑務所",
+       "囚人",
+       "手錠"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "prison bars",
+     "jail cell",
+     "handcuffs"
+    ]
+   }
+  },
+  {
+   "text": "열 받은 값이 징역 1년이었음.",
+   "say": "열 받은 값이 징역 일 년이었음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お酒 瓶",
+       "焼酎"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "stamp"
+     }
+    ],
+    "cam": "pull"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "경찰 오자 소주 사 온 보복운전자가 한 말 #shorts",
+  "description": "자기를 째려봤다며 1.1km를 쫓아가 상대 차 앞에서 급정거, 충돌까지 낸 20대 운전자.\n경찰이 출동하자 편의점에서 소주 한 병을 사 와 마시고 \"열 받아서 마셨다, 어떻게 할 거냐\"며 소리쳤습니다.\n현장 정리가 끝나자 혈중알코올농도 0.178% 상태로 또 운전대를 잡았고, 법원은 징역 1년을 선고했습니다.\n\n※ AI 음성으로 제작했습니다.\n#보복운전 #술타기 #음주운전 #음주측정방해 #사건 #shorts",
+  "tags": [
+   "보복운전",
+   "술타기",
+   "음주운전",
+   "음주측정방해",
+   "징역 1년",
+   "소주",
+   "판정 썰",
+   "썰가챠",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/087/0001228712",
+ "facts_used": [
+  "2026년 3월 26일 오전 3시 57분께 경기 평택 도로에서 25세 A씨가 피해자(28)가 자신을 째려봤다는 이유로 차를 몰고 추격 — 강원일보 https://www.kwnews.co.kr/article/20261031500009, 뉴스1 https://www.news1.kr/local/kangwon/6338338, 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01938486645618496",
+  "약 1.1km 급가속·급감속·무리한 진로 변경, 피해 차량이 중앙선을 넘게 됨, 차로로 복귀하려는 피해 차량 앞으로 끼어들어 급정거해 충돌 — 강원일보, 시사저널 https://www.sisajournal.com/news/articleView.html?idxno=392418, 매일신문 https://www.imaeil.com/page/view/2026103112092245562",
+  "경찰 출동하자 인근 편의점에서 소주 1병 구입, 현장으로 돌아오는 길에 마심('술타기'로 음주측정 방해) — 강원일보, 이데일리, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=480484, 네이트 https://m.news.nate.com/view/20261031n07692",
+  "\"열 받아서 술을 마셨다. 어떻게 할 거냐\"며 고성 — 시사저널(제목 '어쩔거냐'), 이데일리·인사이트 https://www.insight.co.kr/news/580036 보도 인용",
+  "현장 수습 끝난 뒤 혈중알코올농도 0.178% 상태로 다시 운전하다 적발 — 강원일보, 매일신문, 이데일리 (면허취소 기준 0.08%)",
+  "춘천지법 형사1단독 정종건 부장판사, 특수협박·특수재물손괴·음주측정방해·음주운전 징역 1년(10/31 보도). \"죄질이 매우 불량하고 준법의식이 미약하다\", 범행 인정·피해자들과 원만히 합의한 점 참작 — 강원일보, 뉴스1, 시사저널"
+ ],
+ "brief": "점수표: [선택] 째려봤다며 1.1km 보복운전·충돌→경찰 오자 편의점 소주 술타기→\"열 받아서 마셨다, 어떻게 할 거냐\"→수습 뒤 0.178%로 또 운전→징역 1년 (강원일보·뉴스1·이데일리·시사저널·매일신문 10/31, 네이버 댓글 많은 기사 강원일보 1위) 이게됨4+궁금증4(사 온 것·한 말·또 운전)+감정7(분노·황당)+대상4(운전·편의점 소주)+판정5(일 키운 쪽 분명) = 24 / [후보] 장모 퇴직금 6억 집 18억 이혼 소송 '옛 공시가로'(뉴스1·파이낸셜·헤럴드 11/4) 이게됨3+궁금증3+감정7+대상3+판정5=21, 법 설명 필요(변론종결 시세)라 2위 / 안재욱 딸 운동회 사회 민원 - 민원 보도 확인 안 됨 탈락 / 119 구급대원 욕설 경찰 - 보도 확인 안 됨 탈락 / 102kg 찌워 병역면제 기준 변경 - 제도 개편 소식, 숨긴 답 없음 탈락 / 아이 112 신고 검색 - 2주 안 새 사연 없음\n유행: 없음 (보이스피싱·챔스·젤다·니케·아이폰 듀오 — 썰로 이어지는 보도 없음, 보이스피싱은 사망 사건이라 제외)\n구조: 시작=상대가 째려봤다는 이유로 추격 / 커짐=1.1km 급가속·급감속·차선 변경→상대 차 중앙선 넘음→앞 막고 급정거 충돌→경찰 출동하자 편의점 소주 1병→돌아오며 마심→\"열 받아서 마셨다, 어떻게 할 거냐\" 고성 / 뒤집힘=현장 정리 끝나자 또 운전대 / 정체=혈중알코올농도 0.178%, 죄명 네 개 / 그 뒤=재판부 '죄질 매우 불량·준법의식 미약', 합의 참작해 징역 1년\n공개할 답: ①사 온 것=소주 한 병(1/3) ②한 말=열 받아서 마셨다·어떻게 할 거냐(2/3) ③또 운전, 0.178%, 징역 1년(끝)\n욕할 대상: 보복운전자(이름 없음, 피해자 신상 없음)\n첫장면: 손해\n훅 3안: ①\"남의 차 앞에 끼어들어 급정거로 쾅 박음.\"(선택: 장면 그대로) ②\"경찰 부르자 편의점으로 뛰어간 운전자가 있음.\"(답 노출 근접) ③\"1.1km를 쫓아간 이유가 째려봐서였음.\"(이유 먼저 노출) / 제목 3안: '경찰 오자 소주 사 온 보복운전자가 한 말'(선택: 사람+무슨 일+궁금한 한 마디) · '째려봤다고 1.1km 쫓아간 운전자의 소주'(흐림) · '보복운전 뒤 편의점 간 20대의 최후'(뉴스 같음)\n주의: 피고인 나이 25세/20대로 매체마다 표기 달라 대본엔 나이 안 씀. 1.1km는 대다수 보도가 추격 구간으로 씀(한 요약만 재운전 구간) → 추격으로. '왜 째려봐'는 기사 제목 표현이라 직접 인용 안 함. 법원 지역·평택은 대본에서 뺌. 술타기 원리 설명은 보도에 없어 '측정 못 하게 막는 수법'까지만.\n증거: doc(음주 측정 0.178%), doc(죄명 네 개)\n인용: '열 받아서 술을 마셨다', '어떻게 할 거냐', '죄질이 매우 불량', '준법의식이 미약' (cap quote 4)\n이해검사: 째려봤다는 이유로 상대 차를 1.1km 쫓아가 박은 운전자가 경찰이 오자 편의점 소주를 사 와 마시고 '열 받아서 마셨다, 어떻게 할 거냐'고 소리치더니, 현장 정리 뒤 0.178% 상태로 또 운전하다 걸려 징역 1년을 받았다.\n그림대조: 완료"
+}
