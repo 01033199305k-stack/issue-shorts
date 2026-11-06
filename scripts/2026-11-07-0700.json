@@ -1,0 +1,672 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "ulleungdo-fake-confinement-video",
+ "title_lines": [
+  "울릉도에 갇혔다던",
+  "관광객 30명의 진실"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "울릉도에 갇혔다던 관광객 30명의 진실",
+   "say": "울릉도에 갇혔다던 관광객 삼십 명의 진실",
+   "sfx": "punch",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "울릉도에 갇혔다던\n관광객 30명의 진실",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "가이드가 관광객 30명을 창고에 가뒀다는 영상이 뜸.",
+   "say": "가이드가 관광객 삼십 명을 창고에 가뒀다는 영상이 뜸.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "倉庫",
+       "物置"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch",
+    "video": [
+     "warehouse door",
+     "storage warehouse",
+     "warehouse interior"
+    ]
+   }
+  },
+  {
+   "text": "울릉도 패키지여행 마지막 날이었는데,",
+   "say": "울릉도 패키지여행 마지막 날이었는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "harbor",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ツアーガイド",
+       "バスガイド"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "ulleungdo island",
+     "island ferry",
+     "ferry boat sea"
+    ],
+    "cc": [
+     "ulleungdo island",
+     "ulleung island coast"
+    ]
+   }
+  },
+  {
+   "text": "1인당 30만 원어치 특산품을 사라 했다고.",
+   "say": "일인당 삼십만 원어치 특산품을 사라 했다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "price",
+      "label": "1인당 강매",
+      "new": "30만 원",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "오징어랑 호박엿이었음.",
+   "say": "오징어랑 호박엿이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🦑",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "dried squid",
+     "squid market",
+     "dried fish"
+    ]
+   }
+  },
+  {
+   "text": "'30만 원 안 사면 육지 못 간다'는 거임.",
+   "say": "'삼십만 원 안 사면 육지 못 간다'는 거임.",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "怒る 店員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "돈 안 내면 돌아갈 배표도 안 준다 했다고.",
+   "say": "돈 안 내면 돌아갈 배표도 안 준다 했다고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "harbor",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "フェリー",
+       "船 港"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "ferry terminal",
+     "passenger ferry",
+     "ferry harbor"
+    ]
+   }
+  },
+  {
+   "text": "심지어 경찰이랑 해경이 출동해서",
+   "say": "심지어 경찰이랑 해경이 출동해서",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官",
+       "警察官 走る"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "police car lights",
+     "police car night",
+     "police lights"
+    ]
+   }
+  },
+  {
+   "text": "가이드를 붙잡았다는 내용까지 나옴.",
+   "say": "가이드를 붙잡았다는 내용까지 나옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "harbor",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "逮捕",
+       "手錠"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "coast guard ship",
+     "patrol boat",
+     "coast guard"
+    ]
+   }
+  },
+  {
+   "text": "피해자들은 천만 원을 받아 냈다고.",
+   "say": "피해자들은 천만 원을 받아 냈다고.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "喜ぶ 人々",
+       "ガッツポーズ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💰",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "cash money",
+     "money bills",
+     "banknotes"
+    ]
+   }
+  },
+  {
+   "text": "울릉도 상인들은 발칵 뒤집혔음.",
+   "say": "울릉도 상인들은 발칵 뒤집혔음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "驚く 店員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "fish market",
+     "seafood market stall",
+     "market stall"
+    ]
+   }
+  },
+  {
+   "text": "근데 울릉군이 경찰이랑 해경에 확인해 봤는데,",
+   "say": "근데 울릉군이 경찰이랑 해경에 확인해 봤는데,",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "join": true,
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "warn",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 신고가 단 한 건도 없었음.",
+   "say": "헐, 신고가 단 한 건도 없었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "doc",
+      "title": "울릉군 입장문",
+      "lines": [
+       "경찰·해경 확인 결과",
+       "관련 신고 접수 없음"
+      ],
+      "mark": 1,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "알고 보니 영상엔 현장 사진이 없었음.",
+   "say": "알고 보니 영상엔 현장 사진이 없었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 動画",
+       "動画 撮影"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "text": "바다 풍경에 목소리랑 자막만 입힌 거였는데,",
+   "say": "바다 풍경에 목소리랑 자막만 입힌 거였는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "beach",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ナレーション",
+       "マイク 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎙️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "island ocean aerial",
+     "ocean waves rocks",
+     "sea cliff coast"
+    ]
+   }
+  },
+  {
+   "text": "아니, 날짜도 여행사도 가이드도 안 나옴.",
+   "say": "아니, 날짜도 여행사도 가이드도 안 나옴.",
+   "sfx": "whoosh",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "울릉군은 영상을 '허위사실'로 못 박았음.",
+   "say": "울릉군은 영상을 '허위사실'로 못 박았음.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "公務員",
+       "市役所 職員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "tr": "whoosh",
+    "video": [
+     "government office building",
+     "city hall building",
+     "office building"
+    ]
+   }
+  },
+  {
+   "text": "유튜브엔 삭제 요청, 고발도 검토 중이라 함.",
+   "say": "유튜브엔 삭제 요청, 고발도 검토 중이라 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "弁護士",
+       "裁判"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "court gavel",
+     "legal documents",
+     "law books"
+    ]
+   }
+  },
+  {
+   "text": "상인들은 '누군가의 조회수를 위해",
+   "say": "상인들은 '누군가의 조회수를 위해",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "店主 男性",
+       "魚屋"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "희생돼도 되는 섬이 아니다'라며 사과를 요구함.",
+   "say": "희생돼도 되는 섬이 아니다'라며 사과를 요구함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "harbor",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "謝罪 男性",
+       "頭を下げる"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "fishing harbor boats",
+     "fishing boats harbor",
+     "harbor boats"
+    ]
+   }
+  },
+  {
+   "text": "진짜 갇힌 건 울릉도였음.",
+   "say": "진짜 갇힌 건 울릉도였음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "beach",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "島",
+       "無人島"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🔒",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "울릉도에 갇혔다던 관광객 30명의 진실 #shorts",
+  "description": "\"가이드가 관광객 30명을 창고에 가두고 1인당 30만 원어치 특산품을 사라 했다\"는 유튜브 영상.\n경찰·해경이 출동해 가이드를 붙잡고 피해자들이 1000만 원을 받았다는 내용이었지만, 울릉군이 경찰·해경에 확인해 보니 관련 신고는 한 건도 없었습니다.\n영상엔 현장 사진 없이 풍경에 목소리와 자막만 입혀져 있었고, 울릉군은 허위사실이라며 삭제 요청과 법적 대응을 검토하고 있습니다.\n\n※ AI 음성으로 제작했습니다.\n#울릉도 #강매 #가짜영상 #유튜브 #여행 #shorts",
+  "tags": [
+   "울릉도",
+   "울릉도 강매",
+   "감금 영상",
+   "가짜 영상",
+   "허위사실",
+   "패키지여행",
+   "오징어 호박엿",
+   "썰가챠",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.fnnews.com/news/202610291445450217",
+ "facts_used": [
+  "10월 23일 유튜브 영상: 울릉도 2박 3일 패키지여행 마지막 날 가이드가 승객 30명을 특산품 직판장 창고에 가두고 1인당 30만 원어치 오징어·호박엿 구매 요구, 안 사면 귀항 배표 안 준다고 협박 주장 — 파이낸셜뉴스 https://www.fnnews.com/news/202610291445450217, 서울경제 https://m.sedaily.com/article/20106825, 아주경제 https://www.ajunews.com/view/20261029140806554",
+  "'30만 원 안 사면 육지 못 간다' — 헤럴드경제 https://biz.heraldcorp.com/article/10918063, 문화일보 https://www.munhwa.com/article/11627420, 서울경제 https://m.sedaily.com/article/20108595",
+  "영상 주장: 경찰·해경 출동해 가이드 체포, 피해자들 정신적 위자료 등 1000만 원 받아 냄 — 파이낸셜뉴스, 아주경제",
+  "울릉군 27일 입장문: 경찰·해경 확인 결과 관련 신고 접수 사실 없음, 허위사실로 규정, 법적 대응·수사 의뢰 검토 — 아시아경제 https://view.asiae.co.kr/article/2026103021134919916, YTN https://www.ytn.co.kr/_ln/0103_202610300831066541, 인사이트 https://www.insight.co.kr/news/579712, 전자신문 https://www.etnews.com/20261030000200",
+  "영상엔 현장 사진·영상 없이 섬·바다 풍경에 음성과 자막만, 날짜·장소·여행사·가이드 신원 없음 — 서울경제, 파이낸셜뉴스, 인사이트",
+  "울릉군 유튜브에 삭제 요청, 명예훼손 고발 등 법적 조치 검토 — 경북매일 https://www.kbmaeil.com/article/20261028500297, 문화일보",
+  "울릉군 소상공인연합회 '울릉도는 누군가의 조회수를 위해 희생돼도 되는 섬이 아닙니다', 근거 제시·삭제·정정·사과 촉구 — 서울경제 https://m.sedaily.com/article/20108595, 주간한국 https://weekly.hankooki.com/news/articleView.html?idxno=7191269"
+ ],
+ "brief": "점수표: [선택] 울릉도 '30명 감금·30만 원 강매' 유튜브 영상, 경찰·해경 신고 0건 (파이낸셜뉴스·서울경제·아시아경제·YTN·헤럴드경제·문화일보·경북매일 등) 이게됨5(감금·체포·천만 원 배상까지 나온 사건이 신고 0건)+궁금증5(진짜 갇혔나·누가 만들었나, 답 3개)+감정7(억울한 섬 상인, 조회수 장사에 대한 분노)+대상4(울릉도·오징어·호박엿·배표)+판정5(일을 키운 쪽=근거 없이 영상 올린 쪽) = 26 / [후보] 당근 바로구매 상품권 사기 40만 원 자동 구매확정(컨슈머치 1곳, 2차 보도 확인 못 함) 탈락 / 아파트 산타 모집 암호 공지문(2025년 소재 재탕, 커짐·뒤집힘 없음) 궁금증2 탈락 / 부산 카페 크루아상 초등생 큰절(19일 지난 미담, 판정 없음) 감정5 판정1 18 보류 / inbox(다이소 정리·삼각김밥 논쟁·가스비 여친 등) 보도 없음 탈락 / 남대문 스카프·벤츠 X자는 이미 다룸.\n유행: 없음 (찾아본 단어: 이강철·임형주·이승기·일론 머스크·t1·숲·국제결혼 — 연예·스포츠 인물 소식뿐, 썰 없음)\n구조: 시작=울릉도 패키지여행 마지막 날 가이드가 관광객 30명을 창고에 가뒀다는 영상 / 커짐=1인당 30만 원 오징어·호박엿 강매→'안 사면 육지 못 간다' 배표 협박→경찰·해경 출동해 가이드 붙잡음→피해자들 천만 원 받아 냄→울릉도 상인들 발칵 / 뒤집힘=울릉군이 경찰·해경에 확인해 보니 신고 0건 / 정체=영상엔 현장 사진 없이 풍경+목소리+자막뿐, 날짜·여행사·가이드 정보 없음 / 그 뒤=울릉군 허위사실 규정·유튜브 삭제 요청·고발 검토, 상인들 '조회수 위해 희생돼도 되는 섬 아니다' 사과 요구\n공개할 답: ①신고 0건(2/3 직전) ②현장 사진 없는 풍경 영상(2/3) ③진짜 피해자는 섬 상인(끝)\n욕할 대상: 근거 없이 감금·체포 이야기를 올린 영상 (채널명은 쓰지 않음)\n첫장면: 의외\n훅 3안: ①\"가이드가 관광객 30명을 창고에 가뒀다는 영상이 뜸.\"(선택: 제목보다 한 발 나간 장면) ②\"30만 원어치 오징어 안 사면 집에 못 간다는 협박이 있었다고 함.\"(숫자, 설정 늦음) ③\"울릉도에서 경찰이 가이드를 붙잡았다는 영상이 퍼짐.\"(체포를 먼저 써서 커짐 단계 소모) / 제목 3안: '울릉도에 갇혔다던 관광객 30명의 진실'(선택: 사람+무슨 일+진실 꼬리) · '30만 원 안 사면 못 나간다던 울릉도 창고'(대사형, 길다) · '결국 신고 0건이었다는 울릉도 감금 영상'(답 노출)\n주의: 영상 속 주장은 전부 '~했다고/나옴'으로 전함, 사실 단정 안 함. '가짜'라고 단정하지 않고 확인된 사실(신고 0건, 현장 사진 없음, 정보 없음)과 울릉군 입장('허위사실')만 씀. AI 음성 추정은 한 매체뿐이라 안 씀. 조회수 8만·유튜버 침묵도 한 곳뿐이라 안 씀. 채널명·유튜버 신원 안 씀. 울릉참여연대 '체질 개선이 먼저' 의견도 있었음(설명란·대본엔 생략, 결론 단정 피함).\n증거: price(1인당 30만 원), doc(울릉군 입장문: 경찰·해경 확인 결과 관련 신고 접수 없음)\n인용: '30만 원 안 사면 육지 못 간다', 배표 안 준다, 울릉군 '허위사실', 상인 '누군가의 조회수를 위해 희생돼도 되는 섬이 아니다' (cap quote 4)\n이해검사: 울릉도에서 가이드가 관광객 30명을 창고에 가두고 30만 원어치 특산품을 사라 했다는 영상이 퍼졌는데, 울릉군이 확인해 보니 신고는 한 건도 없었고 영상엔 현장 사진도 날짜도 없어 울릉군은 삭제 요청과 고발을 검토하고 상인들은 사과를 요구했다.\n그림대조: 완료"
+}
