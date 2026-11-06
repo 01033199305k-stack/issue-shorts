@@ -1,141 +1,51 @@
 {
- "detected_at": "2026-11-06T11:21+09:00",
+ "detected_at": "2026-11-06T15:11+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] '검은 금요일' 코스피 장중 8% 폭락",
-   "url": "https://n.news.naver.com/article/422/0000923409",
-   "press": "연합뉴스TV",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "코스피 5000 붕괴되자…한동훈 \"국민연금 182조 증발\"",
+   "url": "https://n.news.naver.com/article/015/0005351047",
+   "press": "한국경제",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "뉴시스",
-     "title": "[단독]코스피 폭락·서킷브레이커 발동에 F4 긴급 회동…이틀 연속 시장 점검",
-     "url": "https://n.news.naver.com/article/003/0014305368"
+     "press": "이데일리",
+     "title": "한동훈 \"삼전닉스 몰빵 국민연금 182조 증발, 李대통령 직접 밝혀라\"",
+     "url": "https://n.news.naver.com/article/018/0006404825"
     },
     {
-     "press": "KBS",
-     "title": "코스피 8% 폭락에 서킷브레이커 발동…9개월 만에 5천피 아래로",
-     "url": "https://n.news.naver.com/article/056/0012288537"
+     "press": "전자신문",
+     "title": "한동훈, 코스피 5000 무너지자…“'삼전닉스 몰빵' 국민연금, 李 대통령이 직접 밝혀라”",
+     "url": "https://n.news.naver.com/article/030/0003482936"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]李대통령 국정지지율 41%… 민주 36%·국힘 28%",
-   "url": "https://n.news.naver.com/article/660/0000120729",
-   "press": "kbc광주방송",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "정부, 증시 급락에 반대매매 차단…증권사 담보비율 규제 3개월 면제",
+   "url": "https://n.news.naver.com/article/011/0004679457",
+   "press": "서울경제",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
+    {
+     "press": "강원도민일보",
+     "title": "[속보] 당국, 증권사 담보비율 의무 3개월 면제…과도한 주식 반대매매 억제 조치",
+     "url": "https://n.news.naver.com/article/654/0000209819"
+    },
     {
      "press": "세계일보",
-     "title": "[속보] 李대통령 국정지지율 2%p 반등한 41%…민주 36%·국힘 28% [한국갤럽]",
-     "url": "https://n.news.naver.com/article/022/0004173031"
-    },
-    {
-     "press": "매일경제",
-     "title": "[속보] 이 대통령 지지율 41%…민주 36%·국힘 28% [한국갤럽]",
-     "url": "https://n.news.naver.com/article/009/0005759921"
+     "title": "증시 급락에 신용융자 담보비율 140% 유지 의무 3개월 면제…9일부터",
+     "url": "https://n.news.naver.com/article/022/0004173078"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]국민 55.9% “李정부 경제 잘못하고 있다”, 38.5% “잘하고 있다”-리얼미터",
-   "url": "https://n.news.naver.com/article/021/0002830800",
-   "press": "문화일보",
+   "title": "[속보] ‘법원 신뢰한다’ 41%뿐…공수처·중수청·경찰청은 모두 20%대",
+   "url": "https://n.news.naver.com/article/029/0003057541",
+   "press": "디지털타임스",
    "why": "[속보] 기사",
    "related": []
-  },
-  {
-   "kind": "news",
-   "title": "코스피 4900대로 추락…8%대 급락에 서킷브레이커 발동",
-   "url": "https://n.news.naver.com/article/437/0000519424",
-   "press": "JTBC",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "뉴시스",
-     "title": "[단독]코스피 폭락·서킷브레이커 발동에 F4 긴급 회동…이틀 연속 시장 점검",
-     "url": "https://n.news.naver.com/article/003/0014305368"
-    },
-    {
-     "press": "KBS",
-     "title": "코스피 8% 폭락에 서킷브레이커 발동…9개월 만에 5천피 아래로",
-     "url": "https://n.news.naver.com/article/056/0012288537"
-    },
-    {
-     "press": "서울신문",
-     "title": "코스피, 개장 3분만에 ‘서킷브레이커’…8%대 하락",
-     "url": "https://n.news.naver.com/article/081/0003696421"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "코스피, 개장 3분만에 ‘서킷 브레이커’…9개월 만에 5000선 내줘",
-   "url": "https://n.news.naver.com/article/366/0001202974",
-   "press": "조선비즈",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "KBS",
-     "title": "코스피 8% 폭락에 서킷브레이커 발동…9개월 만에 5천피 아래로",
-     "url": "https://n.news.naver.com/article/056/0012288537"
-    },
-    {
-     "press": "서울신문",
-     "title": "코스피, 개장 3분만에 ‘서킷브레이커’…8%대 하락",
-     "url": "https://n.news.naver.com/article/081/0003696421"
-    },
-    {
-     "press": "채널A",
-     "title": "코스피, 개장 3분만에 ‘서킷브레이커’…8% 급락해 5000선 붕괴",
-     "url": "https://n.news.naver.com/article/449/0000366590"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 김민석 “신천지 논란으로 상처입은 모든 분과 당원께 죄송”",
-   "url": "https://n.news.naver.com/article/016/0002719765",
-   "press": "헤럴드경제",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "MBN",
-     "title": "[속보] 김민석, 신천지 논란에 \"상처입은 모든 분과 당원께 죄송\"",
-     "url": "https://n.news.naver.com/article/057/0001976988"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] ‘블루쓰나미’에 코스피 5000선 붕괴…개미들 ‘비명’",
-   "url": "https://n.news.naver.com/article/029/0003057506",
-   "press": "디지털타임스",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "채널A",
-     "title": "코스피, 개장 3분만에 ‘서킷브레이커’…8% 급락해 5000선 붕괴",
-     "url": "https://n.news.naver.com/article/449/0000366590"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] '윤어게인' 전한길, \"녹내장 치료된다\" 유튜브서 '불법 허위 광고' 혐의로 송치",
-   "url": "https://n.news.naver.com/article/002/0002464573",
-   "press": "프레시안",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "노컷뉴스",
-     "title": "[단독] \"녹내장 치료된다\" 전한길, 허위 광고 혐의로도 송치",
-     "url": "https://n.news.naver.com/article/079/0004207058"
-    }
-   ]
   }
  ]
 }
