@@ -1,58 +1,13 @@
 {
- "detected_at": "2026-11-06T18:49+09:00",
+ "detected_at": "2026-11-07T07:22+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "신임 법무장관에 ‘성남라인’ 이용철 지명",
-   "url": "https://n.news.naver.com/article/023/0004008179",
-   "press": "조선일보",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "SBS",
-     "title": "신임 법무장관에 이용철 방사청장 지명…청와대 정무수석에 최인호",
-     "url": "https://n.news.naver.com/article/055/0001401186"
-    },
-    {
-     "press": "동아일보",
-     "title": "새 법무장관에 ‘성남라인’ 이용철 방사청장",
-     "url": "https://n.news.naver.com/article/020/0003760649"
-    },
-    {
-     "press": "경향신문",
-     "title": "이 대통령, 법무장관에 이용철 내정…‘대장동·성남라인’ 청문회 쟁점될 듯",
-     "url": "https://n.news.naver.com/article/032/0003481140"
-    },
-    {
-     "press": "미디어오늘",
-     "title": "靑, 법무부장관 후보자에 민변 출신 이용철 방위사업청장 지명",
-     "url": "https://n.news.naver.com/article/006/0000138608"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 조작기소 특검법, 與 주도 국회 통과... 장동혁 \"이재명만 살고 대한민국이 죽었다\"",
-   "url": "https://n.news.naver.com/article/469/0000964110",
-   "press": "한국일보",
-   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "MBN",
-     "title": "[속보] 조작기소 특검법 국회 통과…이재명 정부 7번째 특검",
-     "url": "https://n.news.naver.com/article/057/0001977050"
-    },
-    {
-     "press": "오마이뉴스",
-     "title": "장동혁 \"이재명은 탄핵이 답, 우리가 끌어내려야\"",
-     "url": "https://n.news.naver.com/article/047/0002534926"
-    },
-    {
-     "press": "뉴스1",
-     "title": "\"이재명, 탈옥범 됐다\"…국힘, '조작기소 특검법' 표결 직전 국회 규탄대회",
-     "url": "https://n.news.naver.com/article/421/0009274757"
-    }
-   ]
+   "title": "[속보] 쓰레기 수거차 뒤서 ‘꽝’…발판 탑승 20대, 트럭에 치여 참변",
+   "url": "https://n.news.naver.com/article/029/0003057585",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
