@@ -1,0 +1,689 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "namdaemun-scarf-shop-closed",
+ "title_lines": [
+  "사지 말라던 스카프",
+  "아저씨가 문 닫은 이유"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "사지 말라던 스카프 아저씨가 문 닫은 이유",
+   "say": "사지 말라던 스카프 아저씨가 문 닫은 이유",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "사지 말라던 스카프 아저씨가\n문 닫은 이유",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "스카프 고르는 손님한테 상인이",
+   "say": "스카프 고르는 손님한테 상인이",
+   "sfx": "punch",
+   "join": true,
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スカーフ 女性",
+       "スカーフ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧣",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "'너네 지금 과소비야' 하며 말림.",
+   "say": "너네 지금 과소비야 하며 말림.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "店員 男性",
+       "店主 男性",
+       "商売 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "남대문시장에서 스카프 6장에 1만 원임.",
+   "say": "남대문시장에서 스카프 여섯 장에 만 원임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "price",
+      "label": "스카프 6장",
+      "new": "1만 원",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "店主 男性",
+       "八百屋 男性"
+      ],
+      "pos": "bottom-right",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "사려는 손님마다 '돈 쓰지 마, 뭐 하러 사' 함.",
+   "say": "사려는 손님마다 돈 쓰지 마, 뭐 하러 사 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "買い物 女性",
+       "ショッピング 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "market stall clothes",
+     "street market",
+     "market shopping"
+    ],
+    "cc": [
+     "namdaemun market seoul",
+     "seoul traditional market"
+    ]
+   }
+  },
+  {
+   "text": "근데 이 입담이 일을 너무 키워 버림.",
+   "say": "근데 이 입담이 일을 너무 키워 버림.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "噂 話",
+       "ひそひそ話"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "손님 말리는 영상이 SNS에 퍼지더니",
+   "say": "손님 말리는 영상이 에스엔에스에 퍼지더니",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "スマホ 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "smartphone video",
+     "phone screen",
+     "smartphone hand"
+    ]
+   }
+  },
+  {
+   "text": "조회수가 무려 400만 회를 넘김.",
+   "say": "조회수가 무려 사백만 회를 넘김.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "price",
+      "label": "영상 조회수",
+      "new": "400만 회",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그 길로 가게 앞에 사람들이 몰려듦.",
+   "say": "그 길로 가게 앞에 사람들이 몰려듦.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "crowd",
+      "q": "行列",
+      "count": 12,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "crowd market street",
+     "crowded street",
+     "people walking crowd"
+    ]
+   }
+  },
+  {
+   "text": "와, 시장 골목이 꽉 막혀 버림.",
+   "say": "와, 시장 골목이 꽉 막혀 버림.",
+   "sfx": "whoosh",
+   "tone": "놀라서 눈이 휘둥그레진 듯 들뜬 목소리로",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "crowd",
+      "q": "行列",
+      "count": 30,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "crowded market alley",
+     "busy market",
+     "crowd walking"
+    ]
+   }
+  },
+  {
+   "text": "그러다 대박 난 아저씨가 갑자기 문을 닫음.",
+   "say": "그러다 대박 난 아저씨가 갑자기 문을 닫음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "긴장감 있게 낮은 목소리로, 말끝은 분명하게",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "warn",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "다른 상인들한테도 피해를 준다며",
+   "say": "다른 상인들한테도 피해를 준다며",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "困る 男性",
+       "店主 困る"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "저도 돈 벌고 싶지만 이건 아니라고 함.",
+   "say": "저도 돈 벌고 싶지만 이건 아니라고 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "진심을 털어놓듯 담담하게, 말끝은 분명하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "悩む 男性",
+       "考える 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "closed shop",
+     "shop shutter",
+     "closed store"
+    ]
+   }
+  },
+  {
+   "text": "몸 추스르고 오겠다며 나흘을 쉬었다고.",
+   "say": "몸 추스르고 오겠다며 나흘을 쉬었다고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "bedroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "休む 男性",
+       "寝る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "복귀 출근 영상도 195만 회를 찍음.",
+   "say": "복귀 출근 영상도 백구십오만 회를 찍음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "出勤 男性",
+       "通勤 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📈",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "morning city street",
+     "city morning walk",
+     "street sunrise"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "복귀 첫날 가게 앞엔 또 인파가 몰렸는데,",
+   "say": "복귀 첫날 가게 앞엔 또 인파가 몰렸는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "人混み",
+       "群衆"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😰",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "crowd people street",
+     "crowd walking",
+     "busy street people"
+    ]
+   }
+  },
+  {
+   "text": "결국 경찰까지 출동함.",
+   "say": "결국 경찰까지 출동함.",
+   "sfx": "exclaim",
+   "cap": "hit",
+   "tone": "어이없어 목소리가 확 커지듯 힘주어",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官",
+       "警察官 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "police car lights",
+     "police lights night",
+     "police car"
+    ],
+    "cam": "push",
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "다음 날 아저씨가 올린 공지가 이거임.",
+   "say": "다음 날 아저씨가 올린 공지가 이거임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "공지",
+      "lines": [
+       "11월 5일",
+       "안전 점검으로",
+       "하루 쉬어갑니다"
+      ],
+      "mark": 2,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "오셨다 헛걸음하지 않게 미리 알린다고.",
+   "say": "오셨다 헛걸음하지 않게 미리 알린다고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🚶",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "closed shutter",
+     "metal shutter",
+     "shop closed"
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 아저씨는 이 관심이 두렵다고 함.",
+   "say": "알고 보니 아저씨는 이 관심이 두렵다고 함.",
+   "sfx": "whoosh",
+   "tone": "안쓰러운 듯 조용하게, 말끝은 분명하게",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "不安 男性",
+       "心配 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😟",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그래서 여닫는 시간도 비밀로 함.",
+   "say": "그래서 여닫는 시간도 비밀로 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "時計",
+       "掛け時計"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🕰️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "wall clock",
+     "clock time",
+     "analog clock"
+    ]
+   }
+  },
+  {
+   "text": "이젠 손님을 말려야 할 판임.",
+   "say": "이젠 손님을 말려야 할 판임.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "market",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スカーフ 女性",
+       "スカーフ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🧣",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "사지 말라던 스카프 아저씨가 문 닫은 이유 #shorts",
+  "description": "남대문시장에서 스카프 6장을 1만 원에 팔며 \"너네 지금 과소비야\", \"돈 쓰지 마, 뭐 하러 사\"라고 손님을 말리던 상인.\n영상이 400만 회를 넘기며 인파가 몰리자 \"저도 돈 벌고 싶지만 이건 아니다\"라며 스스로 문을 닫았고, 나흘 만에 복귀한 첫날엔 경찰까지 출동해 하루 만에 또 쉬었습니다.\n이제 영업 시작·종료 시간도 공개하지 않기로 했습니다.\n\n※ AI 음성으로 제작했습니다.\n#남대문시장 #스카프아저씨 #과소비 #휴업 #오픈런 #shorts",
+  "tags": [
+   "남대문시장",
+   "스카프 아저씨",
+   "남대문 스카프",
+   "과소비",
+   "휴업",
+   "오픈런",
+   "시장 상인",
+   "썰가챠",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.mt.co.kr/society/2026/11/02/2026110210340445206",
+ "facts_used": [
+  "남대문시장 스카프 상인 A씨, 스카프 6장 1만 원, '너네 지금 과소비야' 등 손님 말리는 입담으로 SNS 화제 — 뉴시스 10/27 https://www.newsis.com/view/NISX20261027_0003842762, 한국경제 https://hankyung.com/article/202611020345H, 파이낸셜뉴스 https://www.fnnews.com/news/202611021458466837",
+  "'돈 쓰지 마, 뭐 하러 사' — 뉴스1 https://www.news1.kr/society/general-society/6340640, SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008827259",
+  "관련 영상 조회수 400만 회 돌파 — 국민일보 https://www.kmib.co.kr/article/20261104500932, 아시아경제 https://view.asiae.co.kr/article/2026110417463470652",
+  "10/31 인스타그램에 휴무 안내, '안전을 위해 재정비도 하고 몸 추스르고 오겠다', '저도 돈 벌고 싶지만 이건 아니다', '다른 상인들에게도 피해를 주고 있다' — 머니투데이 11/2 https://www.mt.co.kr/society/2026/11/02/2026110210340445206, 문화일보 https://www.munhwa.com/article/11628519, 헤럴드경제 https://biz.heraldcorp.com/article/10923036",
+  "나흘 만에 복귀, 11/4 '출근중' 영상 조회수 195만 회 — 뉴시스 https://www.newsis.com/view/NISX20261104_0003855298, 파이낸셜뉴스 https://www.fnnews.com/news/202611050630268734",
+  "복귀 날 인파, 11/5 공지 '안전 점검을 이유로 영업을 하루 쉬어갑니다', '어제 너무 많은 손님이 모이셔서 경찰까지 출동했다', 헛걸음하는 분 없길 바란다 — 한국경제 https://www.hankyung.com/article/2026110580697, 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=06937206645642768, 싱글리스트 https://www.slist.kr/news/articleView.html?idxno=779291",
+  "본인은 '두렵다' / 갑작스러운 관심에 부담·불안 — MK스포츠 https://www.mksports.co.kr/news/entertain/12198846, 싱글리스트·인사이트 https://www.insight.co.kr/news/580780",
+  "당분간 영업 시작·종료 시간 비공개, 현장 상황 따라 영업 — 위키트리 https://www.wikitree.co.kr/articles/1171695, 아시아경제"
+ ],
+ "brief": "점수표: [선택] 남대문 스카프 아저씨 — 손님 말리는 입담 영상 400만→인파→스스로 휴업→나흘 뒤 복귀 첫날 경찰 출동→하루 만에 또 휴업 (머니투데이·뉴스1·SBS·한국경제·뉴시스·이데일리·싱글리스트 등 10곳 이상) 이게됨5(사지 말라는 상인이 대박 나서 문 닫음)+궁금증4(왜 대박 났는데 닫았나·복귀 결말·영업 방식)+감정6(통쾌·안쓰러움, 몰려든 인파에 대한 분노)+대상5(남대문시장·스카프)+판정4(일을 키운 쪽=몰려들어 찍어 대는 인파)+유행3 = 27 / [후보] 50일 아기 '울음 자제' 쪽지(블라인드, 서플 1곳) 보도 1건·단계 없음 탈락 / 안재욱 운동회 민원 345번 출동 — 통계·연예인 발언 묶음 탈락 / 태권도 관장 초5 폭행 — 아동 피해 제외 / 특전사 모델 워킹 교육 — 정치인 공방 제외 / 한국식 볶음밥에 빡친 중국인(디시·보배) 보도 확인 못 함 탈락. 11/2 18시 편에서 '보도 1건뿐'으로 탈락했던 소재인데 이후 보도가 쌓여 이번에 씀 (같은 사건 대본 없음).\n유행: 남대문 스카프 아저씨 (커뮤니티·뉴스 동시 화제, 11/4 '출근중' 195만 회)\n구조: 시작=스카프 6장 1만 원, 사려는 손님한테 '너네 지금 과소비야'·'돈 쓰지 마, 뭐 하러 사' / 커짐=영상 400만 회→가게 앞 인파·골목 혼잡→주변 상인 피해→10/31 스스로 휴업→복귀 '출근' 영상 195만 회→복귀 첫날 인파에 경찰 출동 / 뒤집힘=대박 났는데 '돈 벌고 싶지만 이건 아니다'며 문 닫음, 복귀 하루 만에 또 닫음 / 정체=문을 닫게 한 건 장사가 너무 잘된 것, 본인은 관심이 '두렵다' / 그 뒤=영업 시작·종료 시간 비공개, 헛걸음 말라고 미리 공지\n공개할 답: ①왜 닫았나='다른 상인 피해·돈 벌고 싶지만 이건 아니다'(1/2) ②복귀 결말=경찰 출동·하루 만에 또 휴업(2/3) ③지금=관심이 두렵고 영업시간도 안 알림(끝)\n욕할 대상: 일반인 상인 가게에 몰려들어 골목을 막은 인파(특정인 아님)\n첫장면: 사람\n훅 3안: ①\"스카프 고르는 손님한테 상인이 '너네 지금 과소비야' 하며 말림.\"(선택: 장면+실제 말) ②\"영상 하나에 시장 골목이 꽉 막힘.\"(결말 일부 노출) ③\"스카프 6장에 1만 원인데 사지 말라는 상인이 있음.\"(설명형) / 제목 3안: '사지 말라던 스카프 아저씨가 문 닫은 이유'(선택: 사람+무슨 일+이유) · '결국 경찰까지 온 남대문 스카프 가게'(답 노출) · '돈 쓰지 말라던 상인의 근황'(흐릿)\n주의: 상인 실명·얼굴·계정명 안 씀(A씨). 남의 영상 캡처 안 씀. '나대지 마'·'개집에 깔아'·'안 어울려'는 확인 매체가 적거나 표현이 엇갈려 뺌. 복귀 첫날 '100여 명' 줄은 한 매체라 숫자 안 씀. 경찰 출동은 본인 공지로 확인. 주변 상인 영향은 평가가 갈려 본인 말('피해를 주고 있다')만 인용. 10/28 방문 자제 부탁은 확인 매체 부족으로 뺌. 재개 날짜는 '나흘'까지만.\n증거: price(스카프 6장 1만 원, 영상 조회수 400만 회), doc(11월 5일 공지)\n인용: '너네 지금 과소비야', '돈 쓰지 마, 뭐 하러 사', '다른 상인들에게도 피해', '저도 돈 벌고 싶지만 이건 아니다', '몸 추스르고 오겠다', '경찰까지 출동했다', 헛걸음 (cap quote 6)\n이해검사: 남대문시장에서 손님한테 사지 말라고 말리던 스카프 상인의 영상이 400만 회를 넘기며 인파가 몰리자, 상인은 다른 상인 피해와 안전 때문에 스스로 문을 닫았고 복귀 첫날 경찰까지 출동해 또 쉬었으며, 지금은 영업시간도 알리지 않는다.\n그림대조: 완료"
+}
