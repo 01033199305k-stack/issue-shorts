@@ -1,38 +1,40 @@
 {
- "detected_at": "2026-11-06T00:47+09:00",
+ "detected_at": "2026-11-06T09:12+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "\"北 미사일 쏘는데 특전사는 모델 워킹\"…박충권 격분, 무슨 일 [영상]",
-   "url": "https://n.news.naver.com/article/015/0005350516",
-   "press": "한국경제",
+   "title": "이 대통령 “국정은 국민의 것, 보여줘야”…“알고리즘 갇히지 않아” 반박도",
+   "url": "https://n.news.naver.com/article/056/0012288474",
+   "press": "KBS",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "경기일보",
-     "title": "박충권 “북한 미사일 쏘는데 특전사에 워킹 교육”…軍 행사 논란",
-     "url": "https://n.news.naver.com/article/666/0000130738"
+     "press": "경향신문",
+     "title": "[속보] 이 대통령 “‘알고리즘에 갇혔다’ 주장 있는데, 갇히지 않는다”…첫 유튜브 방송에서 김어준 주장 반박",
+     "url": "https://n.news.naver.com/article/032/0003481016"
     },
     {
-     "press": "연합뉴스TV",
-     "title": "북한 미사일 쏘는데…패션 모델 불러 특전사에 '워킹 교육'",
-     "url": "https://n.news.naver.com/article/422/0000923189"
+     "press": "채널A",
+     "title": "이 대통령 “욕도 보고 비난도 본다…알고리즘 갇히지 않아”",
+     "url": "https://n.news.naver.com/article/449/0000366585"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 李대통령 장남, 주진우 명예훼손 고소…\"골프장 간 적 없다\"",
-   "url": "https://n.news.naver.com/article/031/0001072722",
-   "press": "아이뉴스24",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "MBC",
-     "title": "[단독] 이 대통령 장남 \"해군기지 골프장 간 적 없어\"‥주진우 명예훼손 고소",
-     "url": "https://n.news.naver.com/article/214/0001533747"
-    }
-   ]
+   "title": "[속보]진중권 “조작기소 뻔뻔 주장…내란의 시작”",
+   "url": "https://n.news.naver.com/article/021/0002830677",
+   "press": "문화일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 뉴욕 3대 증시, 중간선거 상승분 모두 반납하며 급락…나스닥 5.5%↓",
+   "url": "https://n.news.naver.com/article/079/0004207068",
+   "press": "노컷뉴스",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
