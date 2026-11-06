@@ -1,0 +1,631 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "fake-clam-food-poisoning-claim",
+ "title_lines": [
+  "조개찜 먹고 탈났다던",
+  "남자 4명의 정체"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "조개찜 먹고 탈났다던 남자 4명의 정체",
+   "say": "조개찜 먹고 탈났다던 남자 네 명의 정체",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "조개찜 먹고 탈났다던\n남자 4명의 정체",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "해산물 식당에 조개찜 먹고 다 탈 났다는 전화가 옴.",
+   "say": "해산물 식당에 조개찜 먹고 다 탈 났다는 전화가 옴.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 男性",
+       "電話 怒る",
+       "電話"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch",
+    "video": [
+     "clams seafood",
+     "seafood cooking",
+     "shellfish"
+    ]
+   }
+  },
+  {
+   "text": "2일 저녁 7시쯤 남자 4명이 먹었는데,",
+   "say": "이일 저녁 일곱 시쯤 남자 네 명이 먹었는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "crowd",
+      "q": "男性 食事",
+      "count": 4,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "clam soup",
+     "steamed clams",
+     "seafood pot"
+    ]
+   }
+  },
+  {
+   "text": "4명 모두 병원까지 다녀왔다고 함.",
+   "say": "네 명 모두 병원까지 다녀왔다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "hospital",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "腹痛 男性",
+       "お腹 痛い"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "hospital corridor",
+     "hospital hallway",
+     "clinic room"
+    ]
+   }
+  },
+  {
+   "text": "식대랑 병원비로 20만 원을 달라 함.",
+   "say": "식대랑 병원비로 이십만 원을 달라 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "price",
+      "label": "식대+병원비",
+      "new": "약 20만 원",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 사장은 좀 찜찜했음.",
+   "say": "근데 사장은 좀 찜찜했음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "悩む 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "조개는 그날 들어온 걸 그날 다 쓰는 게 원칙임.",
+   "say": "조개는 그날 들어온 걸 그날 다 쓰는 게 원칙임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "kitchen",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "貝",
+       "ハマグリ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "clams market",
+     "fresh clams",
+     "seafood market"
+    ]
+   }
+  },
+  {
+   "text": "남자가 '기분 나쁘다'며 몰아붙여 사장은 보상을 약속함.",
+   "say": "남자가 '기분 나쁘다'며 몰아붙여 사장은 보상을 약속함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "クレーマー"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그러자 남자는 계좌로 보내라 했는데,",
+   "say": "그러자 남자는 계좌로 보내라 했는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマホ 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "bank transfer",
+     "mobile banking",
+     "smartphone banking"
+    ]
+   }
+  },
+  {
+   "text": "차로 30분이라 기름값이 아깝다는 거임.",
+   "say": "차로 삼십 분이라 기름값이 아깝다는 거임.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ガソリンスタンド",
+       "給油"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⛽",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "gas station fuel",
+     "car driving road",
+     "highway traffic"
+    ]
+   }
+  },
+  {
+   "text": "아니, 보내온 병원 영수증엔 날짜가 없음.",
+   "say": "아니, 보내온 병원 영수증엔 날짜가 없음.",
+   "sfx": "whoosh",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "병원 영수증",
+      "lines": [
+       "진료비 영수증",
+       "날짜: 안 보임"
+      ],
+      "mark": 1,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "날짜 나온 영수증을 다시 달라 하자",
+   "say": "날짜 나온 영수증을 다시 달라 하자",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "店主 男性",
+       "店員 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧾",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그 순간 연락이 뚝 끊김.",
+   "say": "그 순간 연락이 뚝 끊김.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 切る",
+       "携帯電話 圏外"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "가게 CCTV를 돌려 봤는데,",
+   "say": "가게 씨씨티비를 돌려 봤는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "防犯カメラ",
+       "監視カメラ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "security camera",
+     "cctv camera",
+     "surveillance camera"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "와, 그날 남자 4명은 아예 없었음.",
+   "say": "와, 그날 남자 네 명은 아예 없었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "놀라서 눈이 휘둥그레진 듯 힘주어",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "❌",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "stamp"
+     }
+    ],
+    "pic": [
+     "empty restaurant",
+     "restaurant tables",
+     "restaurant interior"
+    ],
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "헐, 알고 보니 병원 영수증도 인터넷 사진임.",
+   "say": "헐, 알고 보니 병원 영수증도 인터넷 사진임.",
+   "sfx": "whoosh",
+   "tone": "어이없어 목소리가 확 커지듯 힘주어",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "インターネット 検索",
+       "パソコン 検索"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌐",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "laptop keyboard",
+     "laptop screen",
+     "computer keyboard"
+    ]
+   }
+  },
+  {
+   "text": "작년 봄 글이랑 금액이 1원까지 같았다고.",
+   "say": "작년 봄 글이랑 금액이 일 원까지 같았다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "똑같은 영수증",
+      "lines": [
+       "작년 봄 인터넷 글",
+       "진료비 금액",
+       "1원 단위까지 일치"
+      ],
+      "mark": 2,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "돈은 안 보냈지만 사장은 농락당한 기분이라 함.",
+   "say": "돈은 안 보냈지만 사장은 농락당한 기분이라 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "허탈한 듯 힘 빠진 목소리로, 말끝은 분명하게",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 男性",
+       "がっかり 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이런 전화로 418번 돈 뜯은 장염맨은 실형 받았음.",
+   "say": "이런 전화로 사백십팔 번 돈 뜯은 장염맨은 실형 받았음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "刑務所",
+       "逮捕 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "courthouse building",
+     "court building",
+     "prison bars"
+    ]
+   }
+  },
+  {
+   "text": "진짜 탈 난 건 양심이었음.",
+   "say": "진짜 탈 난 건 양심이었음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "貝",
+       "ハマグリ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🦪",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "조개찜 먹고 탈났다던 남자 4명의 정체 #shorts",
+  "description": "\"조개찜 먹고 4명 다 탈이 났다\"며 식대와 병원비 약 20만 원을 계좌로 보내 달라던 남자.\n날짜 있는 영수증을 달라자 연락이 끊겼고, 가게 CCTV엔 그날도 전날도 그 일행이 없었습니다. 보내온 병원 영수증은 작년 봄 인터넷에 올라온 것과 금액까지 똑같았습니다.\n사장님은 다행히 돈을 보내지 않았습니다.\n\n※ AI 음성으로 제작했습니다.\n#조개찜 #배탈 #자영업자 #가짜손님 #장염맨 #shorts",
+  "tags": [
+   "조개찜",
+   "배탈 보상",
+   "가짜 손님",
+   "자영업자",
+   "장염맨",
+   "식당 사기",
+   "CCTV",
+   "썰가챠",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.fnnews.com/news/202611060804446109",
+ "facts_used": [
+  "서울 해산물 식당 사장 A씨, 남성 전화 '지난 2일 저녁 7시쯤 남자 4명이 조개찜을 먹었는데 전부 탈이 났다', 4명 모두 병원 진료, 식대·병원비 약 20만 원 요구 — JTBC 사건반장 11/5 방송, 파이낸셜뉴스 https://www.fnnews.com/news/202611060804446109, 헤럴드경제 https://biz.heraldcorp.com/article/10928468, 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04195126645643096",
+  "조개는 당일 소진 원칙이라 의심, 손님이 '기분이 나쁘다'며 몰아붙이자 보상 약속 — 파이낸셜뉴스, 아이뉴스24 https://m.inews24.com/v/2023292",
+  "차로 30분 거리라 기름값이 아깝다며 계좌 송금 요구 — 헤럴드경제, 이데일리",
+  "병원 영수증에 날짜 안 보임, 날짜 확인되는 병원 영수증·식사 영수증 다시 요청하자 연락 끊김 — 파이낸셜뉴스, 헤럴드경제",
+  "CCTV에 주장한 날짜·전날·전전날 모두 해당 일행 없음 — 파이낸셜뉴스, 아이뉴스24, 헤럴드경제",
+  "병원 영수증은 지난해 봄 인터넷에 게시된 영수증과 사진 구도·진료비·환자 부담금 1원 단위까지 일치 — 헤럴드경제, 이데일리",
+  "A씨 입금 안 함, '농락당한 기분' — 헤럴드경제, 파이낸셜뉴스",
+  "'장염맨' 2023.6~2024.4 418차례 합의금, 2024년 9월 1심 징역 3년 6개월 — 이데일리, 헤럴드경제"
+ ],
+ "brief": "점수표: [선택] 조개찜 먹고 4명 다 배탈 났다며 20만 원 요구한 남자, CCTV엔 온 적도 없음 (JTBC 사건반장 11/5, 파이낸셜뉴스·헤럴드경제·이데일리·아이뉴스24) 이게됨5(먹지도 않고 배탈 보상 요구)+궁금증5(진짜 탈 났나·누구였나, 답 3개)+감정7(자영업자 억울함·통쾌한 들통)+대상4(조개찜·식당·CCTV)+판정5(일을 키운 쪽=가짜 손님, 몰아붙이고 기름값 핑계) = 26 / [후보] 영어유치원 버스 4살 3시간 방치(문화일보·뉴스1·헤럴드) 감정8 궁금증3 — 아동복지법 위반 고소 사건이라 아이 레인 '학대' 경계·아이 상태 보도 없음·인용 부족으로 보류 / 네일원장vs손님(더쿠) 보도 없음 탈락 / '연금 이미 받았다'(디시) 보도 확인 못 함 탈락 / 포르투갈 식당 인종차별 — 해외·혐오 각도 위험 탈락 / news_hot 전부 정치·주가 제외.\n유행: 없음 (찾아본 단어: 주식·데이터센터·엘니뇨·나나 — 정치·주가·연예 사생활이라 제외)\n구조: 시작=해산물 식당에 '조개찜 먹고 전부 탈 났다' 전화 / 커짐=남자 4명 모두 병원→식대+병원비 약 20만 원 요구→'기분이 나쁘다' 몰아붙여 사장이 사과·보상 약속→기름값 아깝다며 계좌 송금 요구 / 뒤집힘=병원 영수증에 날짜 없음, 날짜 있는 영수증·식사 영수증 달라 하자 연락 끊김 / 정체=CCTV에 그날·전날·전전날 모두 그 일행 없음(온 적도 없는 손님), 병원 영수증은 작년 봄 인터넷에 올라온 영수증과 구도·금액 1원까지 일치 / 그 뒤=사장은 입금 안 함, '농락당한 기분', 비슷한 수법 '장염맨'은 418차례 합의금 받아 2024년 9월 1심 징역 3년 6개월\n공개할 답: ①연락 끊김(1/2) ②CCTV에 아예 없음=온 적 없는 손님(2/3) ③영수증도 인터넷 사진(2/3~끝)\n욕할 대상: 먹지도 않은 음식으로 보상 뜯으려 한 가짜 손님 (신원 미상, 실명 없음)\n첫장면: 손해\n훅 3안: ①\"조개찜 먹고 전부 탈 났다는 전화가 걸려 옴.\"(선택: 실제 말+장면) ②\"식당 사장한테 20만 원 보내라는 전화가 옴.\"(숫자 먼저, 이유 흐림) ③\"남자 4명이 조개찜 먹고 다 병원 갔다고 함.\"(정보형) / 제목 3안: '조개찜 먹고 탈났다던 남자 4명의 정체'(선택: 사람+무슨 일+정체) · '배탈 났다며 20만 원 달라던 손님의 영수증'(물건형, 답 일부) · '결국 CCTV에 없었다는 조개찜 손님'(답 노출)\n주의: 식당 이름·위치(서울만) 안 씀, 사장 성별 미상이라 그림은 요리사. 이번 남성이 장염맨과 같은 사람이라는 보도는 없음 → '이런 전화로'라고만 비교. 3000여 곳·9000만 원은 장염맨 사건 숫자라 이번 남자 얘기로 쓰지 않음(418번·징역 3년 6개월만). '농락당한 기분'은 사장 말. 남의 캡처·방송 화면 안 씀.\n증거: price(식대+병원비 약 20만 원), doc(날짜 없는 병원 영수증, 작년 봄 영수증과 1원까지 일치)\n인용: '전부 탈이 났다', '기분이 나쁘다', 기름값이 아깝다(차로 30분), '농락당한 기분' (cap quote 4)\n이해검사: 서울 해산물 식당 사장이 조개찜 먹고 남자 4명이 다 탈 났다며 20만 원을 보내라는 전화를 받았는데, 날짜 있는 영수증을 달라자 연락이 끊겼고 CCTV엔 그 일행이 아예 없었으며 병원 영수증도 인터넷 사진이라 사장은 돈을 보내지 않았다.\n그림대조: 완료"
+}
