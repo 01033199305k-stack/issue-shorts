@@ -1,51 +1,58 @@
 {
- "detected_at": "2026-11-06T15:11+09:00",
+ "detected_at": "2026-11-06T18:49+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "코스피 5000 붕괴되자…한동훈 \"국민연금 182조 증발\"",
-   "url": "https://n.news.naver.com/article/015/0005351047",
-   "press": "한국경제",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "신임 법무장관에 ‘성남라인’ 이용철 지명",
+   "url": "https://n.news.naver.com/article/023/0004008179",
+   "press": "조선일보",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "이데일리",
-     "title": "한동훈 \"삼전닉스 몰빵 국민연금 182조 증발, 李대통령 직접 밝혀라\"",
-     "url": "https://n.news.naver.com/article/018/0006404825"
+     "press": "SBS",
+     "title": "신임 법무장관에 이용철 방사청장 지명…청와대 정무수석에 최인호",
+     "url": "https://n.news.naver.com/article/055/0001401186"
     },
     {
-     "press": "전자신문",
-     "title": "한동훈, 코스피 5000 무너지자…“'삼전닉스 몰빵' 국민연금, 李 대통령이 직접 밝혀라”",
-     "url": "https://n.news.naver.com/article/030/0003482936"
+     "press": "동아일보",
+     "title": "새 법무장관에 ‘성남라인’ 이용철 방사청장",
+     "url": "https://n.news.naver.com/article/020/0003760649"
+    },
+    {
+     "press": "경향신문",
+     "title": "이 대통령, 법무장관에 이용철 내정…‘대장동·성남라인’ 청문회 쟁점될 듯",
+     "url": "https://n.news.naver.com/article/032/0003481140"
+    },
+    {
+     "press": "미디어오늘",
+     "title": "靑, 법무부장관 후보자에 민변 출신 이용철 방위사업청장 지명",
+     "url": "https://n.news.naver.com/article/006/0000138608"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "정부, 증시 급락에 반대매매 차단…증권사 담보비율 규제 3개월 면제",
-   "url": "https://n.news.naver.com/article/011/0004679457",
-   "press": "서울경제",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 조작기소 특검법, 與 주도 국회 통과... 장동혁 \"이재명만 살고 대한민국이 죽었다\"",
+   "url": "https://n.news.naver.com/article/469/0000964110",
+   "press": "한국일보",
+   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "강원도민일보",
-     "title": "[속보] 당국, 증권사 담보비율 의무 3개월 면제…과도한 주식 반대매매 억제 조치",
-     "url": "https://n.news.naver.com/article/654/0000209819"
+     "press": "MBN",
+     "title": "[속보] 조작기소 특검법 국회 통과…이재명 정부 7번째 특검",
+     "url": "https://n.news.naver.com/article/057/0001977050"
     },
     {
-     "press": "세계일보",
-     "title": "증시 급락에 신용융자 담보비율 140% 유지 의무 3개월 면제…9일부터",
-     "url": "https://n.news.naver.com/article/022/0004173078"
+     "press": "오마이뉴스",
+     "title": "장동혁 \"이재명은 탄핵이 답, 우리가 끌어내려야\"",
+     "url": "https://n.news.naver.com/article/047/0002534926"
+    },
+    {
+     "press": "뉴스1",
+     "title": "\"이재명, 탈옥범 됐다\"…국힘, '조작기소 특검법' 표결 직전 국회 규탄대회",
+     "url": "https://n.news.naver.com/article/421/0009274757"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] ‘법원 신뢰한다’ 41%뿐…공수처·중수청·경찰청은 모두 20%대",
-   "url": "https://n.news.naver.com/article/029/0003057541",
-   "press": "디지털타임스",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
