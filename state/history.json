@@ -5984,5 +5984,80 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-06_1200_namdaemun-scarf-shop-closed/video.mp4"
   },
   "seconds": 2258
+ },
+ {
+  "key": "2026-11-06-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-06T18:00:00+09:00",
+  "started": "2026-11-06T15:18:19.026781+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-153849/",
+   "https://pixabay.com/photos/steamed-clams-fresh-fish-seafood-603110/",
+   "https://pixabay.com/videos/id-27385/",
+   "https://pixabay.com/videos/id-11688/",
+   "https://pixabay.com/photos/tan-generator-tan-list-tan-4789656/",
+   "https://pixabay.com/videos/id-175/",
+   "https://pixabay.com/videos/id-173103/",
+   "https://pixabay.com/photos/kitchen-glass-bar-restaurant-rack-10005922/",
+   "https://pixabay.com/photos/keyboard-computer-keys-white-886462/",
+   "https://pixabay.com/videos/id-72883/"
+  ],
+  "cc_clips": [],
+  "duration": 50.08,
+  "matches": [
+   0.97,
+   0.98,
+   0.98,
+   0.98,
+   0.95,
+   1.0,
+   1.0,
+   0.96,
+   0.96,
+   0.96,
+   0.97,
+   0.9,
+   0.9,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.92,
+   1.0
+  ],
+  "sfx": 19,
+  "illustrations": 12,
+  "cuts": 20,
+  "layout_issues": [],
+  "caption_breaks": [
+   "남자 / 4명이 (55)"
+  ],
+  "title": "조개찜 먹고 탈났다던 남자 4명의 정체 #shorts",
+  "source_post": "https://www.fnnews.com/news/202611060804446109",
+  "facts_used": [
+   "서울 해산물 식당 사장 A씨, 남성 전화 '지난 2일 저녁 7시쯤 남자 4명이 조개찜을 먹었는데 전부 탈이 났다', 4명 모두 병원 진료, 식대·병원비 약 20만 원 요구 — JTBC 사건반장 11/5 방송, 파이낸셜뉴스 https://www.fnnews.com/news/202611060804446109, 헤럴드경제 https://biz.heraldcorp.com/article/10928468, 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04195126645643096",
+   "조개는 당일 소진 원칙이라 의심, 손님이 '기분이 나쁘다'며 몰아붙이자 보상 약속 — 파이낸셜뉴스, 아이뉴스24 https://m.inews24.com/v/2023292",
+   "차로 30분 거리라 기름값이 아깝다며 계좌 송금 요구 — 헤럴드경제, 이데일리",
+   "병원 영수증에 날짜 안 보임, 날짜 확인되는 병원 영수증·식사 영수증 다시 요청하자 연락 끊김 — 파이낸셜뉴스, 헤럴드경제",
+   "CCTV에 주장한 날짜·전날·전전날 모두 해당 일행 없음 — 파이낸셜뉴스, 아이뉴스24, 헤럴드경제",
+   "병원 영수증은 지난해 봄 인터넷에 게시된 영수증과 사진 구도·진료비·환자 부담금 1원 단위까지 일치 — 헤럴드경제, 이데일리",
+   "A씨 입금 안 함, '농락당한 기분' — 헤럴드경제, 파이낸셜뉴스",
+   "'장염맨' 2023.6~2024.4 418차례 합의금, 2024년 9월 1심 징역 3년 6개월 — 이데일리, 헤럴드경제"
+  ],
+  "slug": "2026-11-06_1800_fake-clam-food-poisoning-claim",
+  "late": false,
+  "video_id": "PfNSdskb2Xo",
+  "url": "https://youtube.com/shorts/PfNSdskb2Xo",
+  "privacy": "private",
+  "scheduled_for": "2026-11-06T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6aed7b9df3498efda7769d28",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-06T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-06_1800_fake-clam-food-poisoning-claim/video.mp4"
+  },
+  "seconds": 2677
  }
 ]
