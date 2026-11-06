@@ -6059,5 +6059,82 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-06_1800_fake-clam-food-poisoning-claim/video.mp4"
   },
   "seconds": 2677
+ },
+ {
+  "key": "2026-11-07-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-07T07:00:00+09:00",
+  "started": "2026-11-07T04:18:16.156783+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-43658/",
+   "https://pixabay.com/videos/id-367035/",
+   "https://pixabay.com/photos/squid-dried-squid-food-sea-drying-7100459/",
+   "https://pixabay.com/videos/id-10909/",
+   "https://pixabay.com/videos/id-11018/",
+   "https://pixabay.com/photos/us-coast-guard-cutter-mackinaw-ship-2540222/",
+   "https://pixabay.com/photos/money-cash-dollars-finance-7881948/",
+   "https://pixabay.com/videos/id-44927/",
+   "https://pixabay.com/videos/id-1890/",
+   "https://pixabay.com/videos/id-150527/",
+   "https://pixabay.com/photos/gavel-hammer-justice-legal-judge-3577254/",
+   "https://pixabay.com/videos/id-6412/"
+  ],
+  "cc_clips": [],
+  "duration": 51.01,
+  "matches": [
+   1.0,
+   1.0,
+   0.99,
+   0.99,
+   0.9,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.98,
+   1.0,
+   0.99,
+   0.99,
+   0.97,
+   0.98,
+   0.98,
+   0.91,
+   0.97,
+   0.94,
+   0.94,
+   1.0
+  ],
+  "sfx": 20,
+  "illustrations": 16,
+  "cuts": 21,
+  "layout_issues": [],
+  "caption_breaks": [
+   "패키지여행 / 마지막 (55)"
+  ],
+  "title": "울릉도에 갇혔다던 관광객 30명의 진실 #shorts",
+  "source_post": "https://www.fnnews.com/news/202610291445450217",
+  "facts_used": [
+   "10월 23일 유튜브 영상: 울릉도 2박 3일 패키지여행 마지막 날 가이드가 승객 30명을 특산품 직판장 창고에 가두고 1인당 30만 원어치 오징어·호박엿 구매 요구, 안 사면 귀항 배표 안 준다고 협박 주장 — 파이낸셜뉴스 https://www.fnnews.com/news/202610291445450217, 서울경제 https://m.sedaily.com/article/20106825, 아주경제 https://www.ajunews.com/view/20261029140806554",
+   "'30만 원 안 사면 육지 못 간다' — 헤럴드경제 https://biz.heraldcorp.com/article/10918063, 문화일보 https://www.munhwa.com/article/11627420, 서울경제 https://m.sedaily.com/article/20108595",
+   "영상 주장: 경찰·해경 출동해 가이드 체포, 피해자들 정신적 위자료 등 1000만 원 받아 냄 — 파이낸셜뉴스, 아주경제",
+   "울릉군 27일 입장문: 경찰·해경 확인 결과 관련 신고 접수 사실 없음, 허위사실로 규정, 법적 대응·수사 의뢰 검토 — 아시아경제 https://view.asiae.co.kr/article/2026103021134919916, YTN https://www.ytn.co.kr/_ln/0103_202610300831066541, 인사이트 https://www.insight.co.kr/news/579712, 전자신문 https://www.etnews.com/20261030000200",
+   "영상엔 현장 사진·영상 없이 섬·바다 풍경에 음성과 자막만, 날짜·장소·여행사·가이드 신원 없음 — 서울경제, 파이낸셜뉴스, 인사이트",
+   "울릉군 유튜브에 삭제 요청, 명예훼손 고발 등 법적 조치 검토 — 경북매일 https://www.kbmaeil.com/article/20261028500297, 문화일보",
+   "울릉군 소상공인연합회 '울릉도는 누군가의 조회수를 위해 희생돼도 되는 섬이 아닙니다', 근거 제시·삭제·정정·사과 촉구 — 서울경제 https://m.sedaily.com/article/20108595, 주간한국 https://weekly.hankooki.com/news/articleView.html?idxno=7191269"
+  ],
+  "slug": "2026-11-07_0700_ulleungdo-fake-confinement-video",
+  "late": false,
+  "video_id": "iC2gY2t4BHg",
+  "url": "https://youtube.com/shorts/iC2gY2t4BHg",
+  "privacy": "private",
+  "scheduled_for": "2026-11-06T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6aee31bc229bf05daf084ab9",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-06T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-07_0700_ulleungdo-fake-confinement-video/video.mp4"
+  },
+  "seconds": 2502
  }
 ]
