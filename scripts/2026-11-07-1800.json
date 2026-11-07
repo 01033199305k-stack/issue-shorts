@@ -1,0 +1,730 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "folk-village-ghost-brave-son",
+ "title_lines": [
+  "귀신 앞을 막아섰다는",
+  "5살 아들의 한마디"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "귀신 앞을 막아섰다는 5살 아들의 한마디",
+   "say": "귀신 앞을 막아섰다는 다섯 살 아들의 한마디",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "귀신 앞을 막아섰다는\n5살 아들의 한마디",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "귀신이 아빠를 잡아먹겠다며 다가왔는데,",
+   "say": "귀신이 아빠를 잡아먹겠다며 다가왔는데,",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "join": true,
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お化け",
+       "幽霊"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch",
+    "video": [
+     "forest night fog",
+     "dark forest night",
+     "fog night"
+    ]
+   }
+  },
+  {
+   "text": "5살 아들이 울면서 그 앞을 막아섬.",
+   "say": "다섯 살 아들이 울면서 그 앞을 막아섬.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "泣く 男の子",
+       "子供 泣く"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🛡️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 이 귀신, 원래 애들 혼내는 게 일이었음.",
+   "say": "근데 이 귀신, 원래 애들 혼내는 게 일이었음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "妖怪",
+       "お化け 子供"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "민속촌 귀신놀이 축제 얘긴데,",
+   "say": "민속촌 귀신놀이 축제 얘긴데,",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🏮",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "tr": "whoosh",
+    "pic": [
+     "hanok village",
+     "hanok house",
+     "korean traditional house"
+    ]
+   }
+  },
+  {
+   "text": "귀신이 애들 버릇 고쳐 주는 영상이 퍼짐.",
+   "say": "귀신이 애들 버릇 고쳐 주는 영상이 퍼짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 動画",
+       "動画 見る 人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "smartphone screen",
+     "phone scrolling",
+     "smartphone video"
+    ]
+   }
+  },
+  {
+   "text": "부모들이 애 손잡고 몰려왔는데,",
+   "say": "부모들이 애 손잡고 몰려왔는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "親子 手をつなぐ",
+       "親子 散歩"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👨‍👩‍👦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "crowd walking park",
+     "crowd people walking",
+     "people walking festival"
+    ],
+    "cc": [
+     "korean folk village",
+     "korean folk village festival"
+    ]
+   }
+  },
+  {
+   "text": "'우리 애가 말을 안 들어요' 하면서.",
+   "say": "'우리 애가 말을 안 들어요' 하면서.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "하소연하듯 지친 목소리로, 말끝은 분명하게",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "困る 母親",
+       "悩む 母親"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😩",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "부모가 몰래 버릇을 일러 주면,",
+   "say": "부모가 몰래 버릇을 일러 주면,",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "耳打ち",
+       "ヒソヒソ話"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "귀신이 겁주고 약속을 받아 냄.",
+   "say": "귀신이 겁주고 약속을 받아 냄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "指切り",
+       "約束 子供"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤙",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 아빠들한텐 이것도 물어봄.",
+   "say": "심지어 아빠들한텐 이것도 물어봄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お父さん",
+       "父親"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "'집 공동명의 할 거야, 안 할 거야?'",
+   "say": "'집 공동명의 할 거야, 안 할 거야?'",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "マイホーム",
+       "家 一軒家"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop",
+      "size": "s"
+     },
+     {
+      "type": "emoji",
+      "text": "🏠",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "house keys",
+     "house key",
+     "new house"
+    ]
+   }
+  },
+  {
+   "text": "그날도 귀신이 아빠를 노렸는데,",
+   "say": "그날도 귀신이 아빠를 노렸는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "warn",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "dark forest",
+     "forest night",
+     "night trees"
+    ]
+   }
+  },
+  {
+   "text": "아들이 외친 한마디가 이거였음.",
+   "say": "아들이 외친 한마디가 이거였음.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "不安 男の子",
+       "怖がる 子供"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "'안 돼! 아빠 도망가!'",
+   "say": "'안 돼! 아빠 도망가!'",
+   "sfx": "stamp",
+   "cap": "shout",
+   "tone": "울먹이면서도 온 힘을 다해 크게 외치듯",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "叫ぶ 男の子",
+       "叫ぶ 子供"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "무서웠을 텐데 끝까지 아빠를 지킨 거임.",
+   "say": "무서웠을 텐데 끝까지 아빠를 지킨 거임.",
+   "sfx": "whoosh",
+   "cap": "hit",
+   "tone": "뭉클해서 목이 살짝 메듯 따뜻하게",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ヒーロー 子供",
+       "守る 子供"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "✨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그 뒤 아빠는 귀신한테 감사 편지를 보냄.",
+   "say": "그 뒤 아빠는 귀신한테 감사 편지를 보냄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "手紙 書く 男性",
+       "手紙 書く"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop",
+      "size": "s"
+     },
+     {
+      "type": "emoji",
+      "text": "💌",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "handwritten letter",
+     "letter writing",
+     "letter paper"
+    ]
+   }
+  },
+  {
+   "text": "'맡은 역할에 최선을 다하셨을 뿐일지 모르지만'",
+   "say": "'맡은 역할에 최선을 다하셨을 뿐일지 모르지만'",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "join": true,
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "감사 편지",
+      "lines": [
+       "귀신님께서는 그저",
+       "맡은 역할에 최선을",
+       "다하셨을 뿐일지 모르지만"
+      ],
+      "mark": 1,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아들한테 용기를 배웠다는 거임.",
+   "say": "아들한테 용기를 배웠다는 거임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "嬉し泣き 男性",
+       "感動 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥹",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "autumn leaves park",
+     "autumn park",
+     "autumn trees"
+    ]
+   }
+  },
+  {
+   "text": "귀신 배우는 애들 울려 미안했다며",
+   "say": "귀신 배우는 애들 울려 미안했다며",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "謝る 男性",
+       "俳優"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "편지를 SNS에 공개했다고.",
+   "say": "편지를 에스엔에스에 공개했다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "SNS"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop",
+      "size": "s"
+     },
+     {
+      "type": "emoji",
+      "text": "📲",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "smartphone hand",
+     "phone hand",
+     "mobile phone"
+    ]
+   }
+  },
+  {
+   "text": "버릇 고치러 간 귀신 마을에서,",
+   "say": "버릇 고치러 간 귀신 마을에서,",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お化け屋敷",
+       "提灯"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏮",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "paper lantern night",
+     "lantern night",
+     "lanterns"
+    ],
+    "cc": [
+     "korean folk village yongin",
+     "korean folk village night"
+    ]
+   }
+  },
+  {
+   "text": "참교육은 아들이 아빠한테 했음.",
+   "say": "참교육은 아들이 아빠한테 했음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "親子 抱っこ",
+       "父親 息子"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "❤️",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "귀신 앞을 막아섰다는 5살 아들의 한마디 #shorts",
+  "description": "아이 버릇을 고쳐 준다는 한국민속촌 귀신놀이 '참교육' 영상이 퍼지면서 부모들이 아이 손을 잡고 몰려갔습니다.\n그런데 어둑시니 귀신이 아빠를 잡아먹겠다고 다가오자, 5살 아들이 울면서 앞을 막아서며 외쳤다고 합니다. \"안 돼! 아빠 도망가!\"\n아빠는 아들에게 용기를 배웠다며 귀신 배우에게 감사 편지를 보냈고, 배우는 그 편지를 SNS에 공개했습니다.\n\n※ AI 음성으로 제작했습니다.\n#민속촌 #귀신놀이 #어둠의오은영 #참교육 #아빠 #shorts",
+  "tags": [
+   "한국민속촌",
+   "민속촌 귀신",
+   "귀신놀이",
+   "어둠의 오은영",
+   "귀신 참교육",
+   "어둑시니",
+   "아빠 도망가",
+   "5살 아들",
+   "썰가챠",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://biz.heraldcorp.com/article/10907998",
+ "facts_used": [
+  "한국민속촌(경기 용인) 가을축제 '귀신사바 귀신놀이'(9월 12일~11월 15일) 귀신 배우들이 관람객과 즉석 상황극, 부모가 아이 평소 행동을 알려 주면 귀신이 겁을 주고 약속을 받아 내는 '귀신 참교육' 영상 SNS 확산, '어둠의 오은영' 별명 — YTN https://www.ytn.co.kr/_ln/0545_202610131520021508, 노컷뉴스(CBS 박재홍의 한판승부) https://nocutnews.co.kr/news/6598116, 서울경제 https://m.sedaily.com/article/20108630",
+  "부모들 '우리 애가 말을 안 들어요' 하며 민속촌으로 몰려감, 훈육 목적 방문 부모 많음 — 서울경제 https://m.sedaily.com/article/20108630, 노컷뉴스 https://nocutnews.co.kr/news/6598116",
+  "어둑시니 역 배우가 남성 관람객에게 '집 공동명의 할 거야, 안 할 거야?' 질문, 남편들 '진땀'·'침묵' — 서울신문 계열 twig24 https://twig24.com/news/world/2026/10/29/20261029500072, CBS 라디오 인터뷰 노컷뉴스 https://nocutnews.co.kr/news/6598116",
+  "어둑시니가 아빠를 잡아먹겠다고 다가오자 5세 아들이 울면서 앞을 막아서며 '안 돼! 아빠 도망가!' — 헤럴드경제 https://biz.heraldcorp.com/article/10907998, 전자신문 https://www.etnews.com/20261019000284, 한국일보 https://www.hankookilbo.com/news/article/amp/A2026101913490001245, 뉴스1 https://www.news1.kr/society/general-society/6324164, 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=03601446645614560, 아이뉴스24 https://m.inews24.com/v/2016536",
+  "아빠가 배우에게 감사 편지(메시지): '귀신님께서는 그저 맡은 역할에 최선을 다하셨을 뿐일지 모르지만', 아들에게 용기를 배웠다 — 경향신문 https://www.khan.co.kr/article/202610191854001/, 헤럴드경제 https://biz.heraldcorp.com/article/10907998, 전자신문 https://www.etnews.com/20261019000284",
+  "배우가 편지를 SNS에 공개, 아이들을 울릴 때 미안한 마음이 들었다고 함 — 전자신문 https://www.etnews.com/20261019000284, 아이뉴스24 https://m.inews24.com/v/2016536, 헤럴드경제 https://biz.heraldcorp.com/article/10907998",
+  "공포로 훈육하는 방식이 트라우마가 될 수 있다는 우려도 나옴 — YTN https://www.ytn.co.kr/_ln/0545_202610131520021508 (대본엔 생략)"
+ ],
+ "brief": "점수표: [선택] 민속촌 귀신놀이 '어둠의 오은영' 참교육 유행 속 귀신 앞을 막아선 5살 아들 '아빠 도망가!' + 아빠 감사 편지 (헤럴드경제·전자신문·한국일보·뉴스1·경향신문·이데일리·아이뉴스24·YTN·서울경제·노컷뉴스) 이게됨4(훈육받으러 간 아이가 귀신한테서 아빠를 지킴)+궁금증4(아들이 뭐라 외쳤나·그 뒤 아빠가 한 일, 답 3개)+감정9(아이 레인, 울면서 아빠 지킨 5살)+대상5(민속촌·귀신)+유행3+판정2(공포 훈육 괜찮나는 시청자 몫, 욕할 대상 약함) = 27 / [후보] 라방 QR코드 1666만 원 장난 주문(해외: 미국 스트리머·일본 식당, 오늘 12시 해외 편 있어 제외) / 포항 공사장 '건드리면 소송' 주차 알박기(결말 보도 없음, 뒤집힘·정체 없음) 궁금증2 탈락 / 사이다 25개 개업 선물(재탕 의심·판정 없음) 감정5 판정1 17 탈락 / 강릉 폭죽 허위 제보·벤츠 X자·893만 원 야구표는 이미 다룸 / inbox 상위(예금·부동산·주식·여돌) 시사·연예 탈락.\n유행: 민속촌 귀신 참교육 (SNS 숏폼 유행, 축제 11월 15일까지 진행 중) / 구글 급상승은 한국시리즈·삼전닉스·특검법 — 썰 없음\n구조: 시작=민속촌 귀신놀이에서 귀신이 아이 버릇 고쳐 주는 영상이 퍼짐 / 커짐=부모들이 '우리 애가 말을 안 들어요' 하며 몰려옴→부모가 몰래 버릇을 일러 주면 귀신이 겁주고 약속 받아 냄→아빠들한테까지 '집 공동명의 할 거야?' 질문→그날 어둑시니가 아빠를 노림 / 뒤집힘=훈육 대상이던 5살 아들이 울면서 '안 돼! 아빠 도망가!' 하고 귀신을 막아섬 / 정체=아빠가 귀신 배우에게 감사 편지를 보냄('맡은 역할에 최선을 다하셨을 뿐일지 모르지만', 아들한테 용기를 배웠다) / 그 뒤=배우는 아이들 울릴 때 미안했다며 편지를 SNS에 공개\n공개할 답: ①이 귀신은 원래 애들 혼내는 게 일(1/3) ②아들의 한마디 '안 돼! 아빠 도망가!'(2/3) ③아빠가 귀신한테 보낸 감사 편지(끝)\n욕할 대상: 없음에 가까움 — 공동명의 질문에 진땀 빼는 아빠들(웃음 포인트), 공포 훈육 방식은 시청자 판정 몫. 아이는 대상 아님.\n첫장면: 의외\n훅 3안: ①\"귀신이 아빠를 잡아먹겠다며 다가왔는데,\"+\"5살 아들이 울면서 그 앞을 막아섬.\"(선택: 제목보다 한 발 나간 장면, 한마디는 숨김) ②\"민속촌 귀신이 애들 버릇을 고쳐 준다는 영상이 퍼짐.\"(배경 설명, 약함) ③\"아빠들한테 집 공동명의 했냐고 묻는 귀신이 있음.\"(웃기지만 본 사건과 멀어짐) / 제목 3안: '귀신 앞을 막아섰다는 5살 아들의 한마디'(선택: 사람+무슨 일+한마디 꼬리) · '민속촌 귀신한테 아빠 지킨 5살의 한마디'(지킨 결과 노출) · '애 혼내는 귀신이 아빠한테 받은 편지'(대상 흐림)\n주의: 아이 이름·얼굴·사는 곳 안 씀, 배우 실명 안 씀(어둑시니 역으로만). 편지 문구는 보도된 부분만 짧게. 5살 아이 사연은 아빠가 배우에게 보낸 메시지를 배우가 공개한 것 — '~했다고'로 전함. 방문객 수·숏폼 조회수(1077만)는 한 곳 보도라 안 씀. 4살 편식 사례는 한 곳(YTN)이라 안 씀. 민속촌 공식 이미지·캐릭터 사진 안 씀, cc/pic 은 장소(한옥·등불)만.\n증거: doc(감사 편지: '귀신님께서는 그저 맡은 역할에 최선을 다하셨을 뿐일지 모르지만' — 경향·헤럴드·전자신문)\n그림대조: 완료 (귀신=お化け/妖怪, 5살=泣く/叫ぶ 男の子, 부모=親子·困る 母親, 공동명의=マイホーム+집 열쇠 사진, 편지=doc+손편지 사진, 배우=謝る 男性, 민속촌=한옥 사진·등불 영상, 일본 지명·국기 없음)\n이해검사: 아이 버릇 고쳐 주는 민속촌 귀신이 아빠를 잡아먹겠다고 다가오자 5살 아들이 울면서 '아빠 도망가!' 하고 막아섰고, 감동한 아빠가 귀신한테 감사 편지를 보냈다는 이야기."
+}
