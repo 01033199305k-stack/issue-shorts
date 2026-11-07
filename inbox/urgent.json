@@ -1,115 +1,25 @@
 {
- "detected_at": "2026-11-07T15:10+09:00",
+ "detected_at": "2026-11-07T18:13+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "국민의힘, 오늘 '조작기소 특검' 반대 집회... \"특검법, 추악한 사법 거래\"",
-   "url": "https://n.news.naver.com/article/469/0000964182",
-   "press": "한국일보",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "title": "[속보]“트럼프 살해 목적”…백악관 인근서 총기 소지 남성 체포",
+   "url": "https://n.news.naver.com/article/029/0003057612",
+   "press": "디지털타임스",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스TV",
-     "title": "국힘, 오후 경복궁 앞 '조작기소특검' 규탄 집회",
-     "url": "https://n.news.naver.com/article/422/0000923764"
-    },
-    {
-     "press": "조선비즈",
-     "title": "한동훈 “조작기소 특검법은 이재명 특권법”",
-     "url": "https://n.news.naver.com/article/366/0001203213"
-    },
-    {
-     "press": "JTBC",
-     "title": "정점식 \"조작 기소 특검법, 민주당 친문·친명의 추악한 사법 거래\"",
-     "url": "https://n.news.naver.com/article/437/0000519611"
-    },
-    {
-     "press": "경향신문",
-     "title": "국민의힘 ‘조작기소 특검법’ 장외투쟁…민주당 “진실규명마저 반대하나”",
-     "url": "https://n.news.naver.com/article/032/0003481232"
+     "press": "강원도민일보",
+     "title": "[속보] \"트럼프 살해하라는 목소리 들렸다\"…백악관 인근서 무장 남성 체포",
+     "url": "https://n.news.naver.com/article/654/0000209870"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "범여권, '조작기소 특검법' 우려 목소리‥\"李 수사 불가피\"·\"위헌 가능성\"",
-   "url": "https://n.news.naver.com/article/214/0001534107",
-   "press": "MBC",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선비즈",
-     "title": "한동훈 “조작기소 특검법은 이재명 특권법”",
-     "url": "https://n.news.naver.com/article/366/0001203213"
-    },
-    {
-     "press": "TV조선",
-     "title": "조국 \"위헌 소지\" 정성호 \"수사 의문\"…조작기소 특검법에 범여권도 우려",
-     "url": "https://n.news.naver.com/article/448/0000649555"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "‘조작기소’ 특검법에 여야 충돌…한동훈 “특검법? 1인 특권법”",
-   "url": "https://n.news.naver.com/article/005/0001883597",
-   "press": "국민일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선비즈",
-     "title": "한동훈 “조작기소 특검법은 이재명 특권법”",
-     "url": "https://n.news.naver.com/article/366/0001203213"
-    },
-    {
-     "press": "뉴스1",
-     "title": "한동훈 \"조작기소 특검법, 권력자에 특권줘\"…與 \"염치 있나\"(종합)",
-     "url": "https://n.news.naver.com/article/421/0009275726"
-    },
-    {
-     "press": "매일경제",
-     "title": "한동훈 “특검법이 아니라 특권법…李 재판 무력화할 특권 주는 법”",
-     "url": "https://n.news.naver.com/article/009/0005760341"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "민주 \"국민 호도 멈춰야\"…국힘 '조작기소특검 장외투쟁' 비판",
-   "url": "https://n.news.naver.com/article/055/0001401333",
-   "press": "SBS",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "더팩트",
-     "title": "민주당, 국힘 '조작기소 특검' 장외투쟁에 \"정치공방으로 국민 호도 말라\"",
-     "url": "https://n.news.naver.com/article/629/0000549655"
-    },
-    {
-     "press": "MBN",
-     "title": "민주 \"대통령 구하기? 국민 호도\"...국힘 장외집회 비판",
-     "url": "https://n.news.naver.com/article/057/0001977113"
-    },
-    {
-     "press": "대전일보",
-     "title": "與 \"국힘, 조작기소 진실규명 두렵나\"…특검법 반발 장외투쟁 비판",
-     "url": "https://n.news.naver.com/article/656/0000191721"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] “미군 박살 내자” 오산기지 무단 침입 대학생 3명…1심 집유에 항소",
-   "url": "https://n.news.naver.com/article/081/0003696813",
-   "press": "서울신문",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] \"선처하려 했지만 마음 바꿨다...\" 이준석, 학력의혹 제기 전한길 저격",
-   "url": "https://n.news.naver.com/article/215/0001271997",
-   "press": "한국경제TV",
+   "title": "[속보] 국힘 “태권도가 북한 무형유산으로 유네스코에 등재될 상황에 놓여”",
+   "url": "https://n.news.naver.com/article/022/0004173263",
+   "press": "세계일보",
    "why": "[속보] 기사",
    "related": []
   }
