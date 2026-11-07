@@ -1,27 +1,19 @@
 {
- "detected_at": "2026-11-07T18:13+09:00",
+ "detected_at": "2026-11-08T00:54+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보]“트럼프 살해 목적”…백악관 인근서 총기 소지 남성 체포",
-   "url": "https://n.news.naver.com/article/029/0003057612",
-   "press": "디지털타임스",
+   "title": "[속보] 민주당, 국힘 '조작기소 특검법' 장외투쟁에 \"무엇 위해 거리로 나서나\"",
+   "url": "https://n.news.naver.com/article/654/0000209859",
+   "press": "강원도민일보",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "강원도민일보",
-     "title": "[속보] \"트럼프 살해하라는 목소리 들렸다\"…백악관 인근서 무장 남성 체포",
-     "url": "https://n.news.naver.com/article/654/0000209870"
+     "press": "조선비즈",
+     "title": "한동훈 “조작기소 특검법은 이재명 특권법”",
+     "url": "https://n.news.naver.com/article/366/0001203213"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 국힘 “태권도가 북한 무형유산으로 유네스코에 등재될 상황에 놓여”",
-   "url": "https://n.news.naver.com/article/022/0004173263",
-   "press": "세계일보",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
