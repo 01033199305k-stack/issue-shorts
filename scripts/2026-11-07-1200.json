@@ -1,0 +1,669 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "florida-toddler-soccer-police-call",
+ "title_lines": [
+  "너무 잘해서 경찰",
+  "불렀다는 3살 축구 신동"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "너무 잘해서 경찰 불렀다는 3살 축구 신동",
+   "say": "너무 잘해서 경찰 불렀다는 세 살 축구 신동",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "너무 잘해서 경찰 불렀다는\n3살 축구 신동",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "3살 아이 축구 경기에 경찰이 출동함.",
+   "say": "세 살 아이 축구 경기에 경찰이 출동함.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警察官",
+       "パトカー"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚽",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch",
+    "video": [
+     "police car lights",
+     "police car",
+     "police lights day"
+    ]
+   }
+  },
+  {
+   "text": "미국 플로리다 어린이 축구 리그였음.",
+   "say": "미국 플로리다 어린이 축구 리그였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー 子供",
+       "サッカー"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🇺🇸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "soccer field grass",
+     "soccer field",
+     "football pitch"
+    ],
+    "cc": [
+     "winter park florida",
+     "florida park lake"
+    ]
+   }
+  },
+  {
+   "text": "5살 형들 제치고 골을 펑펑 넣었다고.",
+   "say": "다섯 살 형들 제치고 골을 펑펑 넣었다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー ゴール",
+       "シュート サッカー"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "soccer ball goal net",
+     "soccer goal net",
+     "soccer ball grass"
+    ]
+   }
+  },
+  {
+   "text": "가족 말로는 부모들이 항의했는데,",
+   "say": "가족 말로는 부모들이 항의했는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 女性",
+       "怒る 主婦"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "'너무 잘한다, 공을 안 넘긴다'는 거였음.",
+   "say": "'너무 잘한다, 공을 안 넘긴다'는 거였음.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカーボール",
+       "ボール"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "soccer ball",
+     "football ball",
+     "ball grass"
+    ]
+   }
+  },
+  {
+   "text": "리그가 벤치에 앉히려 하자",
+   "say": "리그가 벤치에 앉히려 하자",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ベンチ 座る 子供",
+       "ベンチ 子供",
+       "ベンチ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🪑",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "엄마가 막아섰고 책임자가 911에 전화함.",
+   "say": "엄마가 막아섰고 책임자가 구일일에 전화함.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 男性",
+       "スマートフォン 電話 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "아이 계정 영상은 400만 회를 넘겼는데,",
+   "say": "아이 계정 영상은 사백만 회를 넘겼는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 動画",
+       "動画 撮影"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📈",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "smartphone scrolling",
+     "smartphone screen",
+     "phone social media"
+    ]
+   }
+  },
+  {
+   "text": "'너무 잘해서 쫓겨났다'는 말에 미국이 들끓음.",
+   "say": "'너무 잘해서 쫓겨났다'는 말에 미국이 들끓음.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "炎上",
+       "SNS 炎上"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "와, 근데 경찰이 911 녹음을 공개함.",
+   "say": "와, 근데 경찰이 구일일 녹음을 공개함.",
+   "sfx": "question",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ボディカメラ",
+       "防犯カメラ",
+       "ビデオカメラ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "police car",
+     "police badge",
+     "police light"
+    ]
+   }
+  },
+  {
+   "text": "신고 대상은 아이가 아니라 부모였음.",
+   "say": "신고 대상은 아이가 아니라 부모였음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "doc",
+      "title": "911 신고",
+      "lines": [
+       "리그 관계자와",
+       "선수 부모 사이",
+       "소란"
+      ],
+      "mark": 1,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "책임자는 부모가 자길 따라다닌다며",
+   "say": "책임자는 부모가 자길 따라다닌다며",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "監督 男性",
+       "コーチ 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "'정말 방해가 된다'고 신고한 거임.",
+   "say": "'정말 방해가 된다'고 신고한 거임.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "困る 男性",
+       "悩む 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "심지어 아이가 애들을 민다는 주장까지 나옴.",
+   "say": "심지어 아이가 애들을 민다는 주장까지 나옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "押す 子供",
+       "喧嘩 子供"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "엄마는 '진짜 축구를 해서 화난 것'이라며 맞섰음.",
+   "say": "엄마는 '진짜 축구를 해서 화난 것'이라며 맞섰음.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "母親 怒る",
+       "怒る 女性 母親"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 그 계정, 팔로워만 수십만 명이었음.",
+   "say": "알고 보니 그 계정, 팔로워만 수십만 명이었음.",
+   "sfx": "punch",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "インフルエンサー",
+       "SNS 人気"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "push"
+   }
+  },
+  {
+   "text": "경찰 결론은 체포 0명, 민사 문제였음.",
+   "say": "경찰 결론은 체포 영 명, 민사 문제였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "doc",
+      "title": "경찰 발표",
+      "lines": [
+       "체포·퇴거 없음",
+       "리그와 부모 간",
+       "민사 문제"
+      ],
+      "mark": 2,
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "리그는 환불을 내밀고 조사에 들어갔다고.",
+   "say": "리그는 환불을 내밀고 조사에 들어갔다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "💵",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "dollar bills",
+     "money dollar",
+     "cash dollar"
+    ]
+   }
+  },
+  {
+   "text": "가족은 결국 아이를 리그에서 뺐음.",
+   "say": "가족은 결국 아이를 리그에서 뺐음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "park",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サッカー 子供 悲しい",
+       "落ち込む 子供"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥲",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "tr": "whoosh",
+    "video": [
+     "empty soccer field",
+     "soccer field sunset",
+     "soccer goal empty"
+    ]
+   }
+  },
+  {
+   "text": "퇴장감은 전부 어른들이었음.",
+   "say": "퇴장감은 전부 어른들이었음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "レッドカード",
+       "審判 サッカー"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🟥",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "너무 잘해서 경찰 불렀다는 3살 축구 신동 #shorts",
+  "description": "미국 플로리다 어린이 축구 리그에서 5살 형들 사이에서 골을 넣던 3살 아이의 경기에 경찰이 출동했습니다.\n가족은 '너무 잘해서 쫓겨났다'고 했고 영상은 400만 회 넘게 퍼졌지만, 경찰이 공개한 911 녹음과 바디캠 속 신고 이유는 리그 관계자와 부모 사이의 소란이었습니다.\n경찰은 체포·퇴거 없는 민사 문제로 정리했고, 리그는 환불과 함께 조사에 들어갔습니다.\n\n※ AI 음성으로 제작했습니다.\n#축구신동 #유소년축구 #미국 #플로리다 #경찰 #shorts",
+  "tags": [
+   "축구 신동",
+   "3살 축구",
+   "유소년 축구",
+   "플로리다",
+   "911 신고",
+   "바디캠",
+   "학부모",
+   "썰가챠",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://ktla.com/news/social-media-says-the-police-were-called-on-a-3-year-old-because-he-was-too-good-at-soccer-police-say-otherwise/",
+ "facts_used": [
+  "10월 24일 미국 플로리다 윈터파크 i9 스포츠 유소년 축구 리그, 3살 아이가 5살 아이들과 경기하며 골을 넣음 — 클릭올랜도 https://www.clickorlando.com/news/local/2026/10/26/viral-video-winter-park-3-year-old-soccer-star-and-family-asked-to-leave-field-after-saying-child-played-too-well/, ESPN https://www.espn.com/soccer/story/_/id/50290518/police-called-remove-3-year-old-florida-soccer-tournament, CBC https://www.cbc.ca/news/world/florida-police-soccer-game-kid-9.7396158",
+  "가족 측: 다른 부모들이 너무 잘하고 공을 충분히 안 넘긴다고 항의, 리그가 아이를 빼려 함 — ESPN, ABC7 https://abc7.com/post/3-year-old-florida-soccer-prodigy-has-police-called-other-parents-being-good/19983669/, 인사이트 https://www.insight.co.kr/news/579383",
+  "엄마는 아이가 벤치에 앉게 된다는 말에 나섰고, 리그 책임자가 911에 전화해 경찰 출동 — 야후스포츠 https://sports.yahoo.com/articles/911-call-reveals-hurried-request-182948532.html, ABC뉴스 https://abcnews.com/US/mom-3-year-speaks-after-police-called-dispute/story?id=137580626, CBS12 https://cbs12.com/news/local/winter-park-youth-soccer-3-year-old-plays-game-too-good-mvp-i9-sports-league-child-removed-from-soccer-league-playing-time-dispute-florida-youth-sports-florida-news",
+  "경찰 도착 때 부모는 이미 스스로 공원을 떠나는 중 — KTLA, 야후스포츠",
+  "아이 계정 영상 400만 회 이상, '너무 잘해서' 경찰을 불렀다고 주장 — 야후스포츠 https://sports.yahoo.com/articles/3-old-soccer-star-bodycam-220246007.html, 클릭올랜도",
+  "경찰이 911 녹음·바디캠 공개: 신고 내용은 리그 관계자와 선수 부모 사이 소란, 책임자는 부모가 '정말 방해가 된다(really disruptive)', 자기를 따라다닌다고 말함 — KTLA https://ktla.com/news/social-media-says-the-police-were-called-on-a-3-year-old-because-he-was-too-good-at-soccer-police-say-otherwise/, 야후스포츠, 덱서토 https://dexerto.com/entertainment/truth-behind-viral-3-year-old-soccer-prodigy-controversy-revealed-in-police-footage-3422663",
+  "책임자는 아이가 다른 아이들을 민다고 주장, 아주 앞서 있다는 점은 인정 — CBS12, 야후스포츠",
+  "엄마: 아들이 실제로 축구를 하기 때문에 화가 난 것, 아이는 다른 애들을 때리지 않았다 — CBS12, ABC뉴스, 인사이트",
+  "계정 팔로워 수: KTLA 62만5천 명 이상, 덱서토 27만8천 명 이상 → '수십만 명'으로만 씀",
+  "경찰: 민사 문제, 체포·퇴거 조치 없음 — KTLA, WFTV https://www.wftv.com/news/local/winter-park-police-explain-response-viral-dispute-involving-3-year-old-soccer-player/PDEXXAJUM5HIFLXQOI35TFIXAE/, 야후스포츠",
+  "리그는 환불 제안, i9 스포츠 '가족에게 연락했고 관련자 면담 포함 검토 시작' — 야후스포츠, CBS12, KTLA",
+  "환불 이메일 캡처로 가족이 아이를 리그에서 뺀 것으로 보임 — 야후스포츠, CBS12(리그가 더는 참가 허용 안 한다고 통보)"
+ ],
+ "brief": "점수표: [선택] 미국 플로리다 3살 축구 신동 경기 경찰 출동 (KTLA·야후스포츠·CBS12·클릭올랜도·ABC·ESPN·CBC·인사이트) 이게됨5(3살 축구 경기에 경찰)+궁금증4(왜 불렀나·신고 녹음 속 진짜 이유, 답 3개)+감정7(아이 레인, 어른들 다툼에 휘말린 아이)+대상4(축구·경찰·SNS)+판정5(일을 키운 쪽=어른들, 시청자가 리그 편/부모 편 판정) = 25 / [후보] 아파트 산타 모집 암호 공지(커짐·뒤집힘 없음) 궁금증2 탈락 / 최우식 기내 갑질 주장글(정체 미확인, 사실 모이는 중, 연예인 명예 위험) 보류 / 을숙도 고양이 급식소 2심(법·제도 설명 필요) 이게됨2 탈락 / inbox(국대한우 후기·다이소 정리·조카 돈 빌리는 고모 등) 보도 없음 탈락 / 강릉 폭죽·조개찜·식권 거지류는 이미 다룸.\n유행: 없음 (찾아본 단어: 다이소·빼빼로데이·사이버트럭·하지수 — 썰 없는 출시·연예 소식뿐)\n해외: 오늘 07시는 울릉도(국내), 어제 18시 조개찜(국내) → 해외 1편 가능\n구조: 시작=플로리다 어린이 축구 리그에서 3살이 5살 형들 제치고 골 / 커짐=다른 부모들 항의 '너무 잘한다, 공 안 넘긴다'→리그가 벤치 앉히려 함→엄마가 막아서자 책임자 911 신고→경찰 출동→영상 400만 회 '너무 잘해서 쫓겨났다' 미국 들끓음 / 뒤집힘=경찰이 911 녹음·바디캠 공개, 신고 대상은 아이가 아니라 부모(소란) / 정체=책임자 '정말 방해가 된다'·아이가 민다 주장 vs 엄마 '진짜 축구를 해서 화난 것', 그 계정은 팔로워 수십만 명 / 그 뒤=경찰 '민사 문제, 체포 0', 리그 환불·조사, 가족은 아이를 리그에서 뺌\n공개할 답: ①신고 대상은 부모(2/3 직전) ②계정 팔로워 수십만 명(2/3 뒤) ③체포 0·민사 문제, 퇴장감은 어른들(끝)\n욕할 대상: 3살 경기를 경찰 사건으로 만든 어른들 (리그·부모 어느 쪽이 옳은지는 판정 안 함, 양쪽 주장 다 전함)\n첫장면: 의외\n훅 3안: ①\"3살 아이 축구 경기에 경찰이 출동함.\"(선택: 제목보다 한 발 나간 장면, 짧고 바로 그림) ②\"5살 형들 사이에서 골 넣던 3살 때문에 911이 울림.\"(설정이 섞여 길다) ③\"경찰이 3살 아이 경기장에 들이닥침.\"(과장, 실제는 부모가 이미 떠나는 중) / 제목 3안: '너무 잘해서 경찰 불렀다는 3살 축구 신동'(선택: 사람+무슨 일+전해 들은 수식, 앞 3편 꼬리 이유·정체·진실과 다른 대상형) · '결국 경찰까지 온 3살 축구 경기의 진실'(진실 꼬리 연속) · '3살 아이 경기에 911 건 축구 리그'(답 일부 노출)\n주의: 아이 이름·얼굴·계정명 안 씀, 화면 아이는 いらすとや 그림만, pic·video 에 사람 검색어 없음. 인종 얘기·부모 실명 안 씀. 가족 주장과 리그·경찰 주장 모두 '~했다고/주장'으로 전하고 어느 쪽이 옳다고 결론 안 냄. 팔로워 수는 매체마다 달라(62.5만/27.8만) '수십만 명'으로. $300 금액은 한 곳씩만 나와 금액 생략. '경찰관 2명'은 한 곳뿐이라 '경찰'로만. 유명 유아 유튜버 초대·모금 소식은 한 매체뿐이라 안 씀.\n증거: doc(911 신고: 리그 관계자와 선수 부모 사이 소란), doc(경찰 발표: 체포·퇴거 없음, 민사 문제)\n인용: '너무 잘한다, 공을 안 넘긴다'(가족이 전한 항의), '너무 잘해서 쫓겨났다'(가족 주장), 책임자 '정말 방해가 된다', 엄마 '아들이 진짜 축구를 해서 화난 것' (cap quote 4)\n이해검사: 미국 플로리다 어린이 축구 리그에서 골을 펑펑 넣던 3살 아이 경기에 경찰이 출동해 '너무 잘해서 쫓겨났다'는 영상이 400만 회 퍼졌는데, 경찰이 공개한 911 녹음 속 신고 대상은 아이가 아니라 부모였고 경찰은 체포 없는 민사 문제로 정리했으며 가족은 아이를 리그에서 뺐다.\n그림대조: 완료"
+}
