@@ -1038,7 +1038,8 @@ def _hero(items: list, has_clip: bool, picker=None, place: bool = False) -> list
     elif not pics and not has_clip and not any(it.get("fixed") for it in items):
         emo = next((it for it in items if it.get("type") == "emoji"), None)
         if emo:
-            emo["size"], emo["pos"], emo["dx"], emo["dy"] = "xl", "center", 0, 0
+            # 2026-11-07: a late pop (at 0.3-0.5) left the panel empty for the first half of the line
+            emo["size"], emo["pos"], emo["dx"], emo["dy"], emo["at"] = "xl", "center", 0, 0, 0.0
     return items
 
 
