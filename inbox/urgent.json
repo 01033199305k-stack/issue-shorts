@@ -1,19 +1,71 @@
 {
- "detected_at": "2026-11-08T00:54+09:00",
+ "detected_at": "2026-11-08T14:54+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 민주당, 국힘 '조작기소 특검법' 장외투쟁에 \"무엇 위해 거리로 나서나\"",
-   "url": "https://n.news.naver.com/article/654/0000209859",
-   "press": "강원도민일보",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "이 대통령 \"정치인 칭찬·비판 필요하나 종교적 찬양·숭배 안 돼\"",
+   "url": "https://n.news.naver.com/article/052/0002429834",
+   "press": "YTN",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "조선비즈",
-     "title": "한동훈 “조작기소 특검법은 이재명 특권법”",
-     "url": "https://n.news.naver.com/article/366/0001203213"
+     "press": "조선일보",
+     "title": "李대통령 “정치인 향한 종교적 찬양·숭배 안돼“",
+     "url": "https://n.news.naver.com/article/023/0004008382"
+    },
+    {
+     "press": "아시아경제",
+     "title": "李대통령 \"정치인은 칭찬·지지 필요하나, 종교적 찬양·숭배 안돼\"",
+     "url": "https://n.news.naver.com/article/277/0005839447"
+    },
+    {
+     "press": "경향신문",
+     "title": "이 대통령 “지지하되 숭배 말라…정치인 종교적 찬양 안 돼”",
+     "url": "https://n.news.naver.com/article/032/0003481275"
+    },
+    {
+     "press": "MBC",
+     "title": "이 대통령 \"정치인 칭찬·비판 필요하나 종교적 찬양·숭배 안 돼\"",
+     "url": "https://n.news.naver.com/article/214/0001534172"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "오세훈 \"국민연금으로 지방선거용 주식 도박…이 대통령 사과해야\"",
+   "url": "https://n.news.naver.com/article/055/0001401439",
+   "press": "SBS",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "국민일보",
+     "title": "오세훈 “국민연금으로 판키운 선거용 ‘주식도박’…李 사과하라”",
+     "url": "https://n.news.naver.com/article/005/0001883644"
+    },
+    {
+     "press": "헤럴드경제",
+     "title": "“국민연금으로 주식 도박판 벌였다”…오세훈, 李대통령에 사과 촉구",
+     "url": "https://n.news.naver.com/article/016/0002720370"
+    },
+    {
+     "press": "서울신문",
+     "title": "오세훈 “지방선거용 주식 도박…선거 후 폭락 거듭, 우연의 일치냐”",
+     "url": "https://n.news.naver.com/article/081/0003696858"
+    },
+    {
+     "press": "시사저널",
+     "title": "오세훈 \"지방선거용 주식 도박…李정부 오만, 지옥문 열어\"",
+     "url": "https://n.news.naver.com/article/586/0000141836"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]李대통령 “지지하되 숭배하지 마시라…살아있는 이성으로 민주주의 지켜야”",
+   "url": "https://n.news.naver.com/article/021/0002831116",
+   "press": "문화일보",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
