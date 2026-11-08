@@ -6440,5 +6440,76 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-08_1200_delivery-rider-jajangmyeon-bridge/video.mp4"
   },
   "seconds": 2026
+ },
+ {
+  "key": "2026-11-08-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-08T18:00:00+09:00",
+  "started": "2026-11-08T15:18:00.914012+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-30704/",
+   "https://pixabay.com/videos/id-209890/",
+   "https://pixabay.com/photos/hands-phone-smartphone-electronics-1851218/",
+   "https://pixabay.com/videos/id-21118/",
+   "https://pixabay.com/photos/skyline-cityscape-buildings-255116/",
+   "https://pixabay.com/photos/floor-wood-hardwood-floors-1256804/",
+   "https://pixabay.com/videos/id-33742/",
+   "https://pixabay.com/videos/id-180728/",
+   "https://pixabay.com/photos/background-cork-board-blank-72250/"
+  ],
+  "cc_clips": [],
+  "duration": 50.78,
+  "matches": [
+   1.0,
+   0.98,
+   0.97,
+   0.98,
+   0.98,
+   0.97,
+   0.93,
+   0.98,
+   0.98,
+   0.97,
+   1.0,
+   1.0,
+   0.95,
+   0.96,
+   0.96,
+   0.96,
+   0.95,
+   1.0,
+   0.97,
+   1.0,
+   1.0
+  ],
+  "sfx": 21,
+  "illustrations": 17,
+  "cuts": 21,
+  "layout_issues": [],
+  "caption_breaks": [
+   "샤워 / 자제해 (55)"
+  ],
+  "title": "밤 10시 샤워 자제 부탁한 이웃의 진짜 사정 #shorts",
+  "source_post": "https://www.fnnews.com/news/202611070910172322",
+  "facts_used": [
+   "SNS 스레드에 올라온 아파트 공지문: 밤 10시부터 자정, 새벽 2~3시까지 세탁기·샤워기·세면대 물소리가 이어진다, 낮·저녁은 길어도 감내할 수 있으나 한밤 물소리는 큰 소음, 층간소음에 취약한 아파트이니 밤 10시 이후 배려 — 파이낸셜뉴스 2026-11-07 https://www.fnnews.com/news/202611070910172322 , 한국경제 2026-11-08 https://www.hankyung.com/article/2026110828567 , 시대일보 https://www.sidae.com/article/2026110809483920675",
+   "반응: '새벽에 퇴근하는 사람은 씻지도 말라는 거냐', '야근하고 씻지 말라고?', 요구가 지나치다는 반응 / 옹호: '공동주택이라면 새벽 시간에는 최대한 조용히 해주는 게 상식이다' — 파이낸셜뉴스, 한국경제, 센머니 https://www.senmoney.co.kr/news/articleView.html?idxno=38458",
+   "작성자로 추정되는 누리꾼: '단지 샤워를 하지 말라는 게 아니다', '윗집은 하루 종일 쿵쾅쿵쾅 발망치 소리, 의자 드르륵 소리, 싸우는 소리가 난다', 하루 몇십 번 화장실 들락날락, 새벽 3시까지 물 틀었다 껐다 반복해 자다가 깸 — 파이낸셜뉴스, 한국경제, 시대일보",
+   "작성자 신원·공지 실제 게시 여부는 보도에서 '추정'으로만 표기 — 파이낸셜뉴스, 위키트리 https://www.wikitree.co.kr/articles/1172803"
+  ],
+  "slug": "2026-11-08_1800_apartment-shower-notice-upstairs-noise",
+  "late": false,
+  "video_id": "NPHHufbZpxQ",
+  "url": "https://youtube.com/shorts/NPHHufbZpxQ",
+  "privacy": "private",
+  "scheduled_for": "2026-11-08T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af01c76562f2e6de9a0eab1",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-08T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-08_1800_apartment-shower-notice-upstairs-noise/video.mp4"
+  },
+  "seconds": 2143
  }
 ]
