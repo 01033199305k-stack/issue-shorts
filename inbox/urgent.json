@@ -1,71 +1,67 @@
 {
- "detected_at": "2026-11-08T14:54+09:00",
+ "detected_at": "2026-11-08T22:15+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "이 대통령 \"정치인 칭찬·비판 필요하나 종교적 찬양·숭배 안 돼\"",
-   "url": "https://n.news.naver.com/article/052/0002429834",
-   "press": "YTN",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "title": "한동훈 ‘겨울 복당론’ 띄우는 중진들…장동혁 “백날해봐야 불가”",
+   "url": "https://n.news.naver.com/article/025/0003563618",
+   "press": "중앙일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "조선일보",
-     "title": "李대통령 “정치인 향한 종교적 찬양·숭배 안돼“",
-     "url": "https://n.news.naver.com/article/023/0004008382"
+     "press": "KBS",
+     "title": "장동혁, 한동훈 복당론에 “한 사람 온다고 중도 확장 안 돼…비전 제시할 때”",
+     "url": "https://n.news.naver.com/article/056/0012289493"
     },
     {
-     "press": "아시아경제",
-     "title": "李대통령 \"정치인은 칭찬·지지 필요하나, 종교적 찬양·숭배 안돼\"",
-     "url": "https://n.news.naver.com/article/277/0005839447"
-    },
-    {
-     "press": "경향신문",
-     "title": "이 대통령 “지지하되 숭배 말라…정치인 종교적 찬양 안 돼”",
-     "url": "https://n.news.naver.com/article/032/0003481275"
-    },
-    {
-     "press": "MBC",
-     "title": "이 대통령 \"정치인 칭찬·비판 필요하나 종교적 찬양·숭배 안 돼\"",
-     "url": "https://n.news.naver.com/article/214/0001534172"
+     "press": "오마이뉴스",
+     "title": "한동훈 복당론에 불쾌한 장동혁... \"같이 갈 수 없다\"",
+     "url": "https://n.news.naver.com/article/047/0002535039"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "오세훈 \"국민연금으로 지방선거용 주식 도박…이 대통령 사과해야\"",
-   "url": "https://n.news.naver.com/article/055/0001401439",
-   "press": "SBS",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "title": "'도 넘은' 장동혁? \"대통력 탄핵\" 언급에 민주 \"제정신 아냐\"",
+   "url": "https://n.news.naver.com/article/437/0000519715",
+   "press": "JTBC",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "국민일보",
-     "title": "오세훈 “국민연금으로 판키운 선거용 ‘주식도박’…李 사과하라”",
-     "url": "https://n.news.naver.com/article/005/0001883644"
+     "press": "kbc광주방송",
+     "title": "한병도 \"李대통령 탄핵 운운한 국민의힘, 제정신 아냐…무슨 염치로\"",
+     "url": "https://n.news.naver.com/article/660/0000120875"
+    },
+    {
+     "press": "이데일리",
+     "title": "한병도, '李대통령 탄핵' 언급한 장동혁에 \"제정신 아냐…적반하장\"",
+     "url": "https://n.news.naver.com/article/018/0006406194"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]與 “종부세 실거주 구분없이 기본공제 14억” 요구",
+   "url": "https://n.news.naver.com/article/021/0002831194",
+   "press": "문화일보",
+   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "서울신문",
+     "title": "[속보] “민심 중요”…與 “정부에 ‘종부세 14억, 실거주 구분 없이 적용’ 강력 요구”",
+     "url": "https://n.news.naver.com/article/081/0003696924"
     },
     {
      "press": "헤럴드경제",
-     "title": "“국민연금으로 주식 도박판 벌였다”…오세훈, 李대통령에 사과 촉구",
-     "url": "https://n.news.naver.com/article/016/0002720370"
+     "title": "[속보] 與 “정부에 ‘종부세 14억, 실거주 구분 없이 적용’ 강력 요구”",
+     "url": "https://n.news.naver.com/article/016/0002720461"
     },
     {
-     "press": "서울신문",
-     "title": "오세훈 “지방선거용 주식 도박…선거 후 폭락 거듭, 우연의 일치냐”",
-     "url": "https://n.news.naver.com/article/081/0003696858"
-    },
-    {
-     "press": "시사저널",
-     "title": "오세훈 \"지방선거용 주식 도박…李정부 오만, 지옥문 열어\"",
-     "url": "https://n.news.naver.com/article/586/0000141836"
+     "press": "서울경제",
+     "title": "성난 부동산 민심에…與, 정부에 “종부세 공제, 거주 구분 없이 14억으로” 요구",
+     "url": "https://n.news.naver.com/article/011/0004679951"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]李대통령 “지지하되 숭배하지 마시라…살아있는 이성으로 민주주의 지켜야”",
-   "url": "https://n.news.naver.com/article/021/0002831116",
-   "press": "문화일보",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
