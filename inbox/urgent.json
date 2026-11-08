@@ -1,65 +1,22 @@
 {
- "detected_at": "2026-11-08T22:15+09:00",
+ "detected_at": "2026-11-09T07:28+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "한동훈 ‘겨울 복당론’ 띄우는 중진들…장동혁 “백날해봐야 불가”",
-   "url": "https://n.news.naver.com/article/025/0003563618",
-   "press": "중앙일보",
+   "title": "\"5억 투자했는데 5000만원도 안 남아\"…레버리지 투자한 직장인의 고백",
+   "url": "https://n.news.naver.com/article/014/0005601105",
+   "press": "파이낸셜뉴스",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "KBS",
-     "title": "장동혁, 한동훈 복당론에 “한 사람 온다고 중도 확장 안 돼…비전 제시할 때”",
-     "url": "https://n.news.naver.com/article/056/0012289493"
+     "press": "아시아경제",
+     "title": "\"5억 넣었다가 4억5000만원 날렸다\"…체중 10㎏ 빠진 직장인의 사연",
+     "url": "https://n.news.naver.com/article/277/0005839615"
     },
-    {
-     "press": "오마이뉴스",
-     "title": "한동훈 복당론에 불쾌한 장동혁... \"같이 갈 수 없다\"",
-     "url": "https://n.news.naver.com/article/047/0002535039"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "'도 넘은' 장동혁? \"대통력 탄핵\" 언급에 민주 \"제정신 아냐\"",
-   "url": "https://n.news.naver.com/article/437/0000519715",
-   "press": "JTBC",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "kbc광주방송",
-     "title": "한병도 \"李대통령 탄핵 운운한 국민의힘, 제정신 아냐…무슨 염치로\"",
-     "url": "https://n.news.naver.com/article/660/0000120875"
-    },
-    {
-     "press": "이데일리",
-     "title": "한병도, '李대통령 탄핵' 언급한 장동혁에 \"제정신 아냐…적반하장\"",
-     "url": "https://n.news.naver.com/article/018/0006406194"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]與 “종부세 실거주 구분없이 기본공제 14억” 요구",
-   "url": "https://n.news.naver.com/article/021/0002831194",
-   "press": "문화일보",
-   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
     {
      "press": "서울신문",
-     "title": "[속보] “민심 중요”…與 “정부에 ‘종부세 14억, 실거주 구분 없이 적용’ 강력 요구”",
-     "url": "https://n.news.naver.com/article/081/0003696924"
-    },
-    {
-     "press": "헤럴드경제",
-     "title": "[속보] 與 “정부에 ‘종부세 14억, 실거주 구분 없이 적용’ 강력 요구”",
-     "url": "https://n.news.naver.com/article/016/0002720461"
-    },
-    {
-     "press": "서울경제",
-     "title": "성난 부동산 민심에…與, 정부에 “종부세 공제, 거주 구분 없이 14억으로” 요구",
-     "url": "https://n.news.naver.com/article/011/0004679951"
+     "title": "“주식하다 10㎏ 빠졌다”…평생 모은 5억 투자한 직장인 “4억 5000만원 증발”[사연잇슈]",
+     "url": "https://n.news.naver.com/article/081/0003696933"
     }
    ]
   }
