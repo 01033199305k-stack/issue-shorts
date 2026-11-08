@@ -6511,5 +6511,79 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-08_1800_apartment-shower-notice-upstairs-noise/video.mp4"
   },
   "seconds": 2143
+ },
+ {
+  "key": "2026-11-09-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-09T07:00:00+09:00",
+  "started": "2026-11-09T04:18:56.226486+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-326686/",
+   "https://pixabay.com/videos/id-174262/",
+   "https://pixabay.com/photos/iphone-hand-screen-smartphone-apps-410311/",
+   "https://pixabay.com/photos/clocks-time-idea-concept-257911/",
+   "https://pixabay.com/photos/house-door-entrance-stone-stairway-7614753/",
+   "https://pixabay.com/videos/id-135480/",
+   "https://pixabay.com/photos/pickup-truck-junk-arizona-desert-392744/",
+   "https://pixabay.com/videos/id-192526/",
+   "https://pixabay.com/videos/id-5440/"
+  ],
+  "cc_clips": [],
+  "duration": 47.98,
+  "matches": [
+   0.92,
+   0.94,
+   0.97,
+   0.98,
+   0.98,
+   0.97,
+   0.97,
+   1.0,
+   0.96,
+   0.92,
+   1.0,
+   0.97,
+   0.98,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   0.92,
+   0.92,
+   0.94,
+   0.94,
+   0.96
+  ],
+  "sfx": 20,
+  "illustrations": 14,
+  "cuts": 22,
+  "layout_issues": [],
+  "caption_breaks": [
+   "협박 / 메일까지 (55)"
+  ],
+  "title": "사기 전화 끊자 총 든 경찰 부른 신고자 #shorts",
+  "source_post": "https://www.cbc.ca/news/canada/nova-scotia/swatting-incident-truro-area-fraud-scammer-9.7396654",
+  "facts_used": [
+   "10월 23일 캐나다 노바스코샤 로어트루로, 부동산 중개인 여성에게 CIBC 사기방지팀 사칭 전화: 누군가 그의 이름으로 신용카드를 신청했다, 막으려면 'CIBC Guard' 앱을 깔라 — CBC https://www.cbc.ca/news/canada/nova-scotia/swatting-incident-truro-area-fraud-scammer-9.7396654 , 12news/11alive(AP 계열) https://www.11alive.com/article/news/nation-world/canadian-woman-swatted-phone-scam/507-4d3b90b1-f044-4898-9770-acd666f545ee , Newser https://www.newser.com/story/398903/she-rebuffed-phone-scammer-then-got-swatted.html",
+   "수상히 여겨 앱을 깔지 않고 정보도 주지 않음, 약 20분 뒤 다시 전화가 와 '현관으로 가 보라(go to your front door)'고 함 — CBC, Yahoo/Money.ca https://www.yahoo.com/news/us/articles/woman-refused-fake-bank-caller-171500462.html , Dexerto https://www.dexerto.com/entertainment/phone-scammer-swats-woman-after-she-refuses-to-fall-for-bank-scam-3422449/",
+   "콜체스터 지구 RCMP와 트루로 경찰이 무기를 든 채 출동, 접수된 신고는 해당 주소에서 총격과 인질극(무장한 3명이 여성을 인질로) — 여성은 무사 — CBC, Gulf News https://gulfnews.com/world/americas/woman-refuses-bank-scam-caller-triggers-armed-police-response-1.500736569 , 11alive",
+   "RCMP 마크 로즈 경사: 사기범의 보복으로 보인다, 스와팅으로 수사 — CBC, 11alive, Newser",
+   "CIBC: 'CIBC Guard'라는 앱은 없다, 고객에게 개인·금융 정보를 묻거나 소프트웨어 설치를 요구하지 않는다 — CBC, Money.ca https://money.ca/news/bank-impersonation-scam-cibc-fraud-losses-canada",
+   "그 뒤 살해 협박 메일, 회사 홈페이지 사진이 흉측한 동물 사진으로 바뀜(본인 주장), 체포 없음 — Yahoo/Money.ca, 11alive, TheCooldown https://www.thecooldown.com/green-business/nova-scotia-woman-swatting-phone-scam/"
+  ],
+  "slug": "2026-11-09_0700_bank-scam-refused-swatting-canada",
+  "late": false,
+  "video_id": "tUAAvFmmltY",
+  "url": "https://youtube.com/shorts/tUAAvFmmltY",
+  "privacy": "private",
+  "scheduled_for": "2026-11-08T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af0d5429214322f68741a24",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-08T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-09_0700_bank-scam-refused-swatting-canada/video.mp4"
+  },
+  "seconds": 2596
  }
 ]
