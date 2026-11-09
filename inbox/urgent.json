@@ -1,25 +1,33 @@
 {
- "detected_at": "2026-11-09T10:57+09:00",
+ "detected_at": "2026-11-09T15:11+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 이용철 법무후보 \"대통령과의 친분이 결격 사유 될 수 없어\"",
-   "url": "https://n.news.naver.com/article/001/0016430119",
-   "press": "연합뉴스",
+   "title": "[속보] 선관위 특검, 투표지 계수기 업체 2곳 압수수색…담합 혐의",
+   "url": "https://n.news.naver.com/article/079/0004207838",
+   "press": "노컷뉴스",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "국민일보",
-     "title": "법무장관 후보 이용철 “대통령과 친분, 결격사유 될 수 없다”",
-     "url": "https://n.news.naver.com/article/005/0001883849"
+     "press": "강원도민일보",
+     "title": "[속보] 선관위특검, 선관위-계수기 업체 2곳 담합 정황 포착…압수수색 나서",
+     "url": "https://n.news.naver.com/article/654/0000210176"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 코스피 0.50% 내린 5,034.20 개장",
-   "url": "https://n.news.naver.com/article/422/0000924135",
-   "press": "연합뉴스TV",
+   "title": "[속보]배민·쿠팡에 역대 최대 과징금 6319억…\"담합과 비슷한 경쟁제한\"",
+   "url": "https://n.news.naver.com/article/003/0014310517",
+   "press": "뉴시스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 김어준의 꽃, ‘진보 대권’ 조국 8% 김민석 7.6% 순…李·민주 지지율 동반 최저치",
+   "url": "https://n.news.naver.com/article/029/0003057902",
+   "press": "디지털타임스",
    "why": "[속보] 기사",
    "related": []
   }
