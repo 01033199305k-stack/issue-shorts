@@ -6585,5 +6585,82 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-09_0700_bank-scam-refused-swatting-canada/video.mp4"
   },
   "seconds": 2596
+ },
+ {
+  "key": "2026-11-09-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-09T12:00:00+09:00",
+  "started": "2026-11-09T09:18:31.173125+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-6410/",
+   "https://pixabay.com/photos/smartphone-mobile-phone-cell-phone-564155/",
+   "https://pixabay.com/videos/id-135480/",
+   "https://pixabay.com/photos/signpost-closed-road-sign-end-stop-5274077/",
+   "https://pixabay.com/videos/id-276774/",
+   "https://pixabay.com/videos/id-169445/",
+   "https://pixabay.com/photos/shrimp-fish-starter-baked-calories-4839915/",
+   "https://pixabay.com/videos/id-72883/",
+   "https://pixabay.com/videos/id-14419/"
+  ],
+  "cc_clips": [],
+  "duration": 55.1,
+  "matches": [
+   1.0,
+   0.99,
+   1.0,
+   0.95,
+   0.95,
+   0.97,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.93,
+   0.98,
+   0.98,
+   0.93,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 22,
+  "illustrations": 15,
+  "cuts": 24,
+  "layout_issues": [],
+  "caption_breaks": [
+   "가게 / 사장이었던 (55)"
+  ],
+  "title": "미성년자에 술 팔고 문 닫은 횟집의 배후 #shorts",
+  "source_post": "https://www.fnnews.com/news/202609070749441756",
+  "facts_used": [
+   "대전의 한 횟집(피해 업주)이 작년 11월 17일 미성년자 2명에게 술을 팔았고, 외모만 보고 성인이라 판단해 신분증을 확인하지 않음, 미성년자들이 술을 마신 뒤 신고 → 영업정지 3일 처분 — 파이낸셜뉴스 2026-09-07 https://www.fnnews.com/news/202609070749441756 , 헤럴드경제 https://biz.heraldcorp.com/article/10865059 , 뉴스1/네이트 https://news.nate.com/view/20260906n04813",
+   "영업정지 첫날 근처 이자카야에서 일하다 그만둔 전 직원이 피해 업주에게 전화해 미성년자들을 보낸 배후가 자기 전 사장(이자카야 업주)이라고 알림 — 파이낸셜뉴스, 헤럴드경제, 서플 https://supple.kr/news/cmtm5ptto009skpc7bmlnmnln",
+   "이자카야 업주가 미성년자 2명에게 1인당 50만 원을 약속하고 술 마신 뒤 신고하게 함('50만원 줄테니 술 마시고 신고해라'), 대포폰으로 연락 — 파이낸셜뉴스, 헤럴드경제, 독립신문 https://www.ainews1.co.kr/news/articleView.html?idxno=36259 , 뉴스엔톡 https://www.newsntalk.co.kr/news/articleView.html?idxno=5570",
+   "CCTV에 이 업주가 횟집 임시 휴업 안내문을 보며 웃고 돌아가는 모습이 찍힘 — 서플('문닫은 거 보며 씨익'), 파이낸셜뉴스",
+   "제보에 따르면 겨울철 대하·방어 등 메뉴가 겹쳐서 — 파이낸셜뉴스, 뉴스엔톡 (제보자 주장)",
+   "경찰은 이자카야 업주 등 2명을 청소년보호법·전기통신사업법 위반 혐의로 검찰에 송치, 업무방해 혐의는 미성년자가 위계·위력을 쓰지 않았고 주류 판매업주에게 신분증 확인 의무가 있다는 판단으로 제외 — 파이낸셜뉴스, 헤럴드경제, 뉴스1/네이트",
+   "피해 업주: '신분증을 철저히 확인하지 않은 내 잘못도 있지만 어른들이 돈을 벌겠다고 미성년자까지 범죄에 끌어들였다' — 파이낸셜뉴스, 헤럴드경제 (JTBC 사건반장 9월 4일 보도 인용)"
+  ],
+  "slug": "2026-11-09_1200_rival-sent-minors-raw-fish-shop",
+  "late": false,
+  "video_id": "W9jGE7_am2M",
+  "url": "https://youtube.com/shorts/W9jGE7_am2M",
+  "privacy": "private",
+  "scheduled_for": "2026-11-09T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af11a10004e4879a7ee55cf",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-09T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-09_1200_rival-sent-minors-raw-fish-shop/video.mp4"
+  },
+  "seconds": 2235
  }
 ]
