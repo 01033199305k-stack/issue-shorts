@@ -1,62 +1,27 @@
 {
- "detected_at": "2026-11-09T09:10+09:00",
+ "detected_at": "2026-11-09T10:57+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "이 대통령 지지율 35.9%…전라서 내리고 경상서 올라 [리얼미터]",
-   "url": "https://n.news.naver.com/article/057/0001977272",
-   "press": "MBN",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "국제신문",
-     "title": "[속보] 이 대통령 지지율 소폭 하락한 35.9%…민주 36.5%·국힘 39.7%",
-     "url": "https://n.news.naver.com/article/658/0000160727"
-    },
-    {
-     "press": "매일경제",
-     "title": "[속보] 이 대통령 지지율 35.9%…국힘 39.7%·민주 36.5% [리얼미터]",
-     "url": "https://n.news.naver.com/article/009/0005760726"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "젠슨황, 中스파이 의심 여성과 불륜 인정…이사회 독립조사 착수(종합)",
-   "url": "https://n.news.naver.com/article/001/0016430034",
+   "title": "[속보] 이용철 법무후보 \"대통령과의 친분이 결격 사유 될 수 없어\"",
+   "url": "https://n.news.naver.com/article/001/0016430119",
    "press": "연합뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "한국경제",
-     "title": "\"변명 여지 없다\"…젠슨 황, '中 스파이 의심 女'와 불륜 인정",
-     "url": "https://n.news.naver.com/article/015/0005351628"
-    },
-    {
-     "press": "KBS",
-     "title": "젠슨황, 불륜 시인…엔비디아 이사회 독립 조사 착수",
-     "url": "https://n.news.naver.com/article/056/0012289629"
+     "press": "국민일보",
+     "title": "법무장관 후보 이용철 “대통령과 친분, 결격사유 될 수 없다”",
+     "url": "https://n.news.naver.com/article/005/0001883849"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 李지지율 1%p 하락 35.9%…국힘 39.7%·민주 36.5% [리얼미터]",
-   "url": "https://n.news.naver.com/article/421/0009277795",
-   "press": "뉴스1",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "국제신문",
-     "title": "[속보] 이 대통령 지지율 소폭 하락한 35.9%…민주 36.5%·국힘 39.7%",
-     "url": "https://n.news.naver.com/article/658/0000160727"
-    },
-    {
-     "press": "매일경제",
-     "title": "[속보] 이 대통령 지지율 35.9%…국힘 39.7%·민주 36.5% [리얼미터]",
-     "url": "https://n.news.naver.com/article/009/0005760726"
-    }
-   ]
+   "title": "[속보] 코스피 0.50% 내린 5,034.20 개장",
+   "url": "https://n.news.naver.com/article/422/0000924135",
+   "press": "연합뉴스TV",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
