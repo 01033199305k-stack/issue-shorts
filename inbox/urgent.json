@@ -1,33 +1,25 @@
 {
- "detected_at": "2026-11-09T15:11+09:00",
+ "detected_at": "2026-11-09T18:41+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 선관위 특검, 투표지 계수기 업체 2곳 압수수색…담합 혐의",
-   "url": "https://n.news.naver.com/article/079/0004207838",
-   "press": "노컷뉴스",
+   "title": "[속보] 임광현 “직장인 월급통장에 돈 오래 머물도록 ‘월급 방위대 TF’ 설치”",
+   "url": "https://n.news.naver.com/article/029/0003058012",
+   "press": "디지털타임스",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
      "press": "강원도민일보",
-     "title": "[속보] 선관위특검, 선관위-계수기 업체 2곳 담합 정황 포착…압수수색 나서",
-     "url": "https://n.news.naver.com/article/654/0000210176"
+     "title": "[속보] 임광현 \"월급통장, 정류장 아닌 호수 돼야\"…청와대 '월급방위대 TF' 가동",
+     "url": "https://n.news.naver.com/article/654/0000210253"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]배민·쿠팡에 역대 최대 과징금 6319억…\"담합과 비슷한 경쟁제한\"",
-   "url": "https://n.news.naver.com/article/003/0014310517",
-   "press": "뉴시스",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 김어준의 꽃, ‘진보 대권’ 조국 8% 김민석 7.6% 순…李·민주 지지율 동반 최저치",
-   "url": "https://n.news.naver.com/article/029/0003057902",
-   "press": "디지털타임스",
+   "title": "[속보] ‘사드기밀 유출’ 정의용 前 국가안보실장 징역 10개월 구형",
+   "url": "https://n.news.naver.com/article/022/0004173701",
+   "press": "세계일보",
    "why": "[속보] 기사",
    "related": []
   }
