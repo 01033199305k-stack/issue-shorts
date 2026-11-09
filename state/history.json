@@ -6662,5 +6662,83 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-09_1200_rival-sent-minors-raw-fish-shop/video.mp4"
   },
   "seconds": 2235
+ },
+ {
+  "key": "2026-11-09-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-09T18:00:00+09:00",
+  "started": "2026-11-09T15:17:49.447473+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-1275/",
+   "https://pixabay.com/videos/id-11720/",
+   "https://pixabay.com/videos/id-67194/",
+   "https://pixabay.com/photos/beer-garden-folding-chairs-2520113/",
+   "https://pixabay.com/photos/stadium-rows-of-seats-grandstand-2921657/",
+   "https://pixabay.com/photos/chairs-furniture-rows-conference-7951845/",
+   "https://pixabay.com/photos/tickets-booth-sign-admission-1056081/",
+   "https://pixabay.com/videos/id-134112/",
+   "https://pixabay.com/videos/id-3134/",
+   "https://pixabay.com/videos/id-1630/"
+  ],
+  "cc_clips": [],
+  "duration": 53.35,
+  "matches": [
+   0.97,
+   0.95,
+   1.0,
+   0.96,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   0.98,
+   0.98,
+   1.0,
+   0.9,
+   0.9,
+   0.85,
+   0.99,
+   0.99,
+   0.96,
+   0.96,
+   0.84,
+   0.92
+  ],
+  "sfx": 21,
+  "illustrations": 12,
+  "cuts": 22,
+  "layout_issues": [],
+  "caption_breaks": [
+   "강릉 / 공연 (55)",
+   "리스닝 / 세션이었다는 (55)",
+   "앙코르 / 선예매가 (55)"
+  ],
+  "title": "17만원 악뮤 VIP석 앉은 관객들의 후기 #shorts",
+  "source_post": "https://www.segye.com/newsView/20261109503761",
+  "facts_used": [
+   "악뮤가 11월 7일 강릉 스피드스케이팅 경기장에서 전국투어 공연, 플로어 VIP석은 경기장 바닥에 의자를 놓은 단차 없는 평지라 앞사람에 시야가 가렸다는 불만 — 스포츠경향 https://sports.khan.co.kr/article/202611081630003/amp , 세계일보 https://www.segye.com/newsView/20261109503761 , 헤럴드경제 https://biz.heraldcorp.com/article/10929997",
+   "가격: VIP석 17만6천 원, R석·테이블석 16만5천 원, 시야제한석 15만4천 원 → VIP가 2만2천 원 더 비쌈 — 세계일보, 아주경제 https://www.ajunews.com/view/20261109072712203 , 엑스포츠뉴스 https://www.xportsnews.com/article/2217307",
+   "후기 문구: '무대도 전광판도 안 보여'(재경일보 https://news.jkn.co.kr/post/1079766 , 미디어파인 https://www.mediafine.co.kr/news/articleView.html?idxno=94785), '17만원짜리 뒤통수'(MK스포츠 https://www.mksports.co.kr/news/entertain/12202324 , imbc https://enews.imbc.com/M/Detail/524049), '콘서트가 아니라 리스닝 세션'(뉴데일리 https://www.newdaily.co.kr/site/data/html/2026/11/09/2026110900106.html , 아주경제)",
+   "현장 관계자에게 좌석 변경을 요청했다가 거절당했다는 주장 — 스포츠경향, 인사이트 https://www.insight.co.kr/news/581216",
+   "예매 당시 플로어석은 단차 없는 평지라 시야가 가릴 수 있고 시야 방해를 이유로 한 취소·환불은 어렵다는 안내 — 세계일보, 헤럴드경제, 시대일보 https://www.sidae.com/article/2026110909075632707",
+   "9일 오전까지 공식 입장·사과·보상안 없음 — 헤럴드경제, 아주경제 (MK스포츠는 '입장 밝혀'로 엇갈려 시점 한정해 씀)",
+   "고양 앙코르 공연 VIP석 같은 17만6천 원, 9일 오후 8시 팬클럽 선예매·10일 일반 예매 — MK스포츠, 세계일보"
+  ],
+  "slug": "2026-11-09_1800_akmu-gangneung-vip-seat-view",
+  "late": false,
+  "video_id": "rab-0LOeHSk",
+  "url": "https://youtube.com/shorts/rab-0LOeHSk",
+  "privacy": "private",
+  "scheduled_for": "2026-11-09T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af16e072f1ff83d451ee7ed",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-09T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-09_1800_akmu-gangneung-vip-seat-view/video.mp4"
+  },
+  "seconds": 2172
  }
 ]
