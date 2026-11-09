@@ -1,0 +1,674 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "akmu-gangneung-vip-seat-view",
+ "title_lines": [
+  "17만원 악뮤 VIP석",
+  "앉은 관객들의 후기"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "17만원 VIP석인데 무대가 안 보임",
+   "say": "십칠만 원 브이아이피석인데 무대가 안 보임",
+   "sfx": "absurd",
+   "visual": {
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "17만원 VIP석인데\n무대가 안 보임",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white"
+   },
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서"
+  },
+  {
+   "text": "무대 대신 앞사람 뒤통수만 봤다는 후기가 쏟아짐.",
+   "say": "무대 대신 앞사람 뒤통수만 봤다는 후기가 쏟아짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "後ろ姿 男性",
+       "後ろ姿"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😑",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "night",
+    "cam": "punch",
+    "video": [
+     "concert crowd stage",
+     "concert audience",
+     "live concert"
+    ]
+   },
+   "tone": "기가 막혀 목소리를 확 높여서"
+  },
+  {
+   "text": "근데 진짜 어이없는 건 가격표임.",
+   "say": "근데 진짜 어이없는 건 가격표임.",
+   "sfx": "question",
+   "visual": {
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🏷️",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "zoom"
+     }
+    ],
+    "bg": "night"
+   },
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박"
+  },
+  {
+   "text": "지난 7일 악뮤 강릉 공연 얘기인데,",
+   "say": "지난 칠 일 악뮤 강릉 공연 얘기인데,",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コンサート 歌手",
+       "歌手 マイク"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "tr": "whoosh",
+    "video": [
+     "concert stage lights",
+     "stage lights",
+     "music concert"
+    ]
+   },
+   "join": true
+  },
+  {
+   "text": "장소가 빙상 경기장이었음.",
+   "say": "장소가 빙상 경기장이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スピードスケート",
+       "スケート"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⛸️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "ice rink arena",
+     "ice skating rink",
+     "indoor arena"
+    ]
+   }
+  },
+  {
+   "text": "그 바닥에 의자를 쭉 깔고",
+   "say": "그 바닥에 의자를 쭉 깔고",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🪑",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "folding chairs",
+     "chairs rows",
+     "empty chairs"
+    ]
+   },
+   "join": true
+  },
+  {
+   "text": "거기를 VIP석으로 팔았는데,",
+   "say": "거기를 브이아이피석으로 팔았는데,",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "VIP",
+       "お金持ち"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💎",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "stadium seats",
+     "arena seats"
+    ]
+   },
+   "join": true
+  },
+  {
+   "text": "앞뒤 높이 차이가 없는 평지였던 거임.",
+   "say": "앞뒤 높이 차이가 없는 평지였던 거임.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "椅子 並ぶ",
+       "パイプ椅子",
+       "椅子"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "chairs rows",
+     "plastic chairs"
+    ]
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "무대도 전광판도 안 보였다는 글이 이어짐.",
+   "say": "무대도 전광판도 안 보였다는 글이 이어짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "スマホ 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "bedroom"
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "아니 자리 바꿔 달래도 거절당했다고 함.",
+   "say": "아니 자리 바꿔 달래도 거절당했다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "断る 店員",
+       "断る 男性",
+       "スタッフ 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white"
+   },
+   "tone": "어이없다는 듯 목소리를 높여서"
+  },
+  {
+   "text": "17만원짜리 뒤통수라는 말이 퍼졌고,",
+   "say": "십칠만 원짜리 뒤통수라는 말이 퍼졌고,",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "bedroom"
+   },
+   "cap": "quote",
+   "join": true
+  },
+  {
+   "text": "콘서트가 아니라 리스닝 세션이었다는 글까지 나옴.",
+   "say": "콘서트가 아니라 리스닝 세션이었다는 글까지 나옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ヘッドホン 音楽",
+       "音楽 聴く"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎧",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "bedroom"
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "알고 보니 가격표가 더 가관임.",
+   "say": "알고 보니 가격표가 더 가관임.",
+   "sfx": "dudung",
+   "visual": {
+    "items": [
+     {
+      "type": "warn"
+     }
+    ]
+   },
+   "tone": "긴장감 있게 낮은 목소리로"
+  },
+  {
+   "text": "VIP석은 17만6천 원이었는데,",
+   "say": "브이아이피석은 십칠만 육천 원이었는데,",
+   "sfx": "punch",
+   "visual": {
+    "items": [
+     {
+      "type": "price",
+      "label": "플로어 VIP석",
+      "new": "17만6천 원"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "center",
+      "size": "m",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   },
+   "join": true
+  },
+  {
+   "text": "심지어 시야제한석은 15만4천 원이었음.",
+   "say": "심지어 시야제한석은 십오만 사천 원이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "좌석 가격",
+      "lines": [
+       "VIP석 17만6천 원",
+       "R석 16만5천 원",
+       "시야제한석 15만4천 원"
+      ],
+      "mark": 2
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 女性"
+      ],
+      "pos": "center",
+      "size": "m",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "헐, 2만2천 원 더 내고 더 못 본 거임.",
+   "say": "헐, 이만 이천 원 더 내고 더 못 본 거임.",
+   "sfx": "stamp",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 女性",
+       "泣く 女性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "night",
+    "tr": "flash"
+   },
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게"
+  },
+  {
+   "text": "결국 환불 요구가 터졌는데,",
+   "say": "결국 환불 요구가 터졌는데,",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "抗議 女性",
+       "怒る 人々",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "red",
+    "pic": [
+     "refund sign",
+     "ticket booth"
+    ]
+   },
+   "join": true
+  },
+  {
+   "text": "예매 땐 이렇게 적혀 있었다고.",
+   "say": "예매 땐 이렇게 적혀 있었다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "예매 안내",
+      "lines": [
+       "플로어석은 단차 없는 평지",
+       "시야가 가릴 수 있음",
+       "이로 인한 환불 불가"
+      ],
+      "mark": 2
+     },
+     {
+      "type": "illust",
+      "q": [
+       "パソコン 女性",
+       "スマートフォン 女性"
+      ],
+      "pos": "center",
+      "size": "m",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "9일 오전까지 사과도 보상도 없었고,",
+   "say": "구 일 오전까지 사과도 보상도 없었고,",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スーツ 男性",
+       "会社員 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤐",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "office",
+    "video": [
+     "office building night",
+     "office building",
+     "corporate building"
+    ]
+   },
+   "join": true
+  },
+  {
+   "text": "오늘 밤엔 고양 앙코르 선예매가 열림.",
+   "say": "오늘 밤엔 고양 앙코르 선예매가 열림.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🎫",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "zoom"
+     }
+    ],
+    "bg": "nightcity",
+    "video": [
+     "city night lights",
+     "seoul night city",
+     "night traffic city"
+    ]
+   }
+  },
+  {
+   "text": "VIP석 가격은 똑같이 17만6천 원임.",
+   "say": "브이아이피석 가격은 똑같이 십칠만 육천 원임.",
+   "sfx": "punch",
+   "visual": {
+    "items": [
+     {
+      "type": "price",
+      "label": "앙코르 VIP석",
+      "old": "강릉 17만6천 원",
+      "new": "17만6천 원"
+     },
+     {
+      "type": "emoji",
+      "text": "😶",
+      "pos": "center",
+      "size": "m",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "뒤통수도 VIP 가격임.",
+   "say": "뒤통수도 브이아이피 가격임.",
+   "sfx": "none",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "後ろ姿 男性",
+       "後ろ姿"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💎",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "night",
+    "video": [
+     "concert crowd hands",
+     "concert audience lights"
+    ]
+   },
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게"
+  }
+ ],
+ "youtube": {
+  "title": "17만원 악뮤 VIP석 앉은 관객들의 후기 #shorts",
+  "description": "지난 7일 악뮤 강릉 공연의 플로어 VIP석(17만6천 원)은 빙상장 바닥에 단차 없이 의자를 깐 자리였습니다.\n앞사람에 가려 무대와 전광판이 안 보였다는 후기와 환불 요구가 이어졌고, 이 자리는 시야제한석(15만4천 원)보다 2만2천 원 비쌌습니다.\n예매 때는 시야가 가릴 수 있고 이로 인한 환불은 어렵다는 안내가 있었고, 고양 앙코르 VIP석도 같은 가격입니다.\n\n※ AI 음성으로 제작했습니다.\n#악뮤 #콘서트 #VIP석 #시야제한석 #환불 #shorts",
+  "tags": [
+   "악뮤",
+   "악뮤 콘서트",
+   "강릉 콘서트",
+   "VIP석",
+   "시야제한석",
+   "콘서트 환불",
+   "소문의 낙원",
+   "썰가챠",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.segye.com/newsView/20261109503761",
+ "facts_used": [
+  "악뮤가 11월 7일 강릉 스피드스케이팅 경기장에서 전국투어 공연, 플로어 VIP석은 경기장 바닥에 의자를 놓은 단차 없는 평지라 앞사람에 시야가 가렸다는 불만 — 스포츠경향 https://sports.khan.co.kr/article/202611081630003/amp , 세계일보 https://www.segye.com/newsView/20261109503761 , 헤럴드경제 https://biz.heraldcorp.com/article/10929997",
+  "가격: VIP석 17만6천 원, R석·테이블석 16만5천 원, 시야제한석 15만4천 원 → VIP가 2만2천 원 더 비쌈 — 세계일보, 아주경제 https://www.ajunews.com/view/20261109072712203 , 엑스포츠뉴스 https://www.xportsnews.com/article/2217307",
+  "후기 문구: '무대도 전광판도 안 보여'(재경일보 https://news.jkn.co.kr/post/1079766 , 미디어파인 https://www.mediafine.co.kr/news/articleView.html?idxno=94785), '17만원짜리 뒤통수'(MK스포츠 https://www.mksports.co.kr/news/entertain/12202324 , imbc https://enews.imbc.com/M/Detail/524049), '콘서트가 아니라 리스닝 세션'(뉴데일리 https://www.newdaily.co.kr/site/data/html/2026/11/09/2026110900106.html , 아주경제)",
+  "현장 관계자에게 좌석 변경을 요청했다가 거절당했다는 주장 — 스포츠경향, 인사이트 https://www.insight.co.kr/news/581216",
+  "예매 당시 플로어석은 단차 없는 평지라 시야가 가릴 수 있고 시야 방해를 이유로 한 취소·환불은 어렵다는 안내 — 세계일보, 헤럴드경제, 시대일보 https://www.sidae.com/article/2026110909075632707",
+  "9일 오전까지 공식 입장·사과·보상안 없음 — 헤럴드경제, 아주경제 (MK스포츠는 '입장 밝혀'로 엇갈려 시점 한정해 씀)",
+  "고양 앙코르 공연 VIP석 같은 17만6천 원, 9일 오후 8시 팬클럽 선예매·10일 일반 예매 — MK스포츠, 세계일보"
+ ],
+ "brief": "점수표: [선택] 악뮤 강릉 콘서트 플로어 VIP석 시야 논란 (스포츠경향 11/8·세계일보 11/9·MK스포츠·인사이트·헤럴드경제·엑스포츠뉴스·뉴데일리·아주경제·시대일보 11/9) 이게됨4(17만6천 원 VIP석이 시야제한석보다 못 봄)+궁금증4(왜 안 보였나·가격표·다음 공연은? 답 3개)+감정7(억울한 손해, 돈 내고 뒤통수)+대상5(악뮤 콘서트, 지금 화제)+판정5(예매 안내 vs 관객, 일을 키운 쪽=좌석 설계·대응) = 25 +유행3 = 28 / [후보] 무한리필 환경부담금 5천→8천(파이낸셜 11/9 단독 보도, 단계 하나) 17 탈락 / 한우 8만원 전화 먹튀(파이낸셜 11/9, 결말 없음) 탈락 / 민속촌 귀신 훈육 아동학대 민원(11/7 대본과 같은 사건) 탈락 / 반계리 은행나무(구글 급상승, 썰 없음) 탈락 / inbox 젠슨황 불륜(사생활)·정치 기사 탈락.\n유행: 악뮤 콘서트 (커뮤니티·기사 동시 화제, 스타뉴스 11/9 '가격 변동 없다')\n아이 레인: 해당 없음 (오늘 아이 소재 못 찾음: '아이 112 신고', '초등생 기특 경찰' 검색 — 11월 보도 없음)\n해외: 국내 (오늘 07시가 캐나다)\n구조: 시작=11/7 악뮤 강릉 공연, 장소는 스피드스케이팅 경기장 / 커짐=빙상장 바닥 평지에 의자 깔아 VIP석→앞사람에 무대·전광판 가림, 좌석 변경 거절 주장→'17만원짜리 뒤통수'·'리스닝 세션' 후기 확산→환불 요구 / 뒤집힘=VIP 17만6천 원이 시야제한석 15만4천 원보다 2만2천 원 비쌈 / 정체=예매 때 '평지라 시야 가릴 수 있음, 환불 불가' 안내가 이미 있었음 / 그 뒤=9일 오전까지 공식 사과·보상 없음, 같은 날 밤 8시 고양 앙코르 팬클럽 선예매, VIP석 같은 17만6천 원\n공개할 답: ①안 보인 이유=빙상장 평지 의자(1/3) ②가격표=시야제한석보다 2만2천 원 비싼 VIP(2/3) ③예매 안내 + 앙코르도 같은 값(끝)\n욕할 대상: 좌석 배치·판매 방식과 안내문 뒤에 숨은 대응. 가수 개인·관객은 대상 아님. 공연 연출은 호평이었다는 보도가 있어 공연 자체를 깎지 않음.\n인용(cap quote): '무대도 전광판도 안 보여'(재경일보·미디어파인) / '17만원짜리 뒤통수'(MK스포츠·아주경제·imbc) / '콘서트가 아니라 리스닝 세션'(뉴데일리·아주경제) / 예매 안내 문구 요지(세계·헤럴드·시대일보) — 모두 보도 문구 줄임.\n주의: 공식 입장은 매체마다 엇갈림(MK '입장 밝혀' vs 헤럴드·아주 '9일 오전까지 공식 입장·사과 없음') → '기사 나온 9일 오전까지 공식 사과도 보상도 없었고'로 시점 한정. 좌석 변경 거절은 '말도 나옴'(주장)으로. 관객 이탈(OSEN 단독)은 안 씀. 스페셜타임스 날짜 오기(9월 7일) 무시.\n첫장면: 손해\n훅 3안: ①'무대 대신 앞사람 뒤통수만 봤다는 후기가 쏟아짐'(선택: 장면이 바로 그려지고 왜인지 궁금) ②'17만6천 원 내고 전광판도 못 봤다는 관객들'(카드 제목과 겹침) ③'빙상장 바닥에 깐 의자가 VIP석이었음'(답을 너무 일찍) / 카드 제목 3안: '17만원 VIP석인데 무대가 안 보이는 콘서트'(선택) · '17만원 내고 뒤통수만 본 콘서트'(답 노출) · 'VIP석 샀는데 시야제한석보다 못 본 사람들'(길다) / 제목 3안: '17만원 악뮤 VIP석 앉은 관객들의 후기'(선택: 사람+무슨 일, 후기가 궁금, 숫자가 사건 핵심) · '결국 환불 요구 터진 악뮤 VIP석'(결과 노출) · '시야제한석보다 비싼 악뮤 VIP석의 시야'(답 노출)\n이해검사: 악뮤 강릉 콘서트에서 17만6천 원짜리 VIP석이 빙상장 평지라 무대가 안 보였고, 시야제한석보다 비싸 환불 요구가 터졌지만 예매 땐 환불 불가라 적혀 있었고 앙코르도 같은 값에 판다는 이야기.\n그림대조: 완료 (악뮤·실제 공연 사진 안 씀, いらすとや 일반 가수·관객·의자 + 스톡 공연장·빙상장)"
+}
