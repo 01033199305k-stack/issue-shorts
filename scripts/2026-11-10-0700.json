@@ -1,0 +1,802 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "japan-koban-shorinji-prank",
+ "title_lines": [
+  "파출소에 소림사 외친",
+  "일본 아이들 뒤의 계정"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "파출소 들어가 소림사 외치는 아이들",
+   "say": "파출소 들어가 소림사 외치는 아이들",
+   "sfx": "absurd",
+   "visual": {
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "파출소 들어가\n소림사 외치는 아이들",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white"
+   },
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서"
+  },
+  {
+   "text": "일본 애들이 파출소 들어가서",
+   "say": "일본 애들이 파출소 들어가서",
+   "sfx": "punch",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "交番",
+       "交番 警察官"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏃",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "night",
+    "cam": "punch",
+    "video": [
+     "japan street night",
+     "police box japan",
+     "night street"
+    ],
+    "cc": [
+     "osaka street night",
+     "tokyo street night"
+    ]
+   },
+   "tone": "깜짝 놀라 목소리를 확 높여서",
+   "join": true
+  },
+  {
+   "text": "\"소림사!\" 외치고 튀는 영상이 퍼짐.",
+   "say": "소림사! 외치고 튀는 영상이 퍼짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "叫ぶ 男の子",
+       "大声 子供"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "nightcity"
+   }
+  },
+  {
+   "text": "근데 판 키운 사람이 따로 있었음.",
+   "say": "근데 판 키운 사람이 따로 있었음.",
+   "sfx": "question",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "黒幕",
+       "悪い顔 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "bg": "night"
+   },
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박"
+  },
+  {
+   "text": "공중전화로 110에 걸어서",
+   "say": "공중전화로 일일공에 걸어서",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "公衆電話",
+       "電話 子供"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "☎️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "tr": "whoosh",
+    "video": [
+     "phone booth",
+     "public telephone",
+     "telephone booth street"
+    ],
+    "pic": [
+     "public telephone",
+     "phone booth"
+    ]
+   },
+   "join": true
+  },
+  {
+   "text": "\"소림사\" 외치고 끊는 거였는데,",
+   "say": "소림사 외치고 끊는 거였는데,",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 いたずら",
+       "いたずら 子供"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📞",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "bedroom"
+   },
+   "cap": "quote",
+   "join": true
+  },
+  {
+   "text": "효고현에서만 두 달 새 40건 넘음.",
+   "say": "효고현에서만 두 달 새 사십 건 넘음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "효고현 경찰",
+      "lines": [
+       "9~10월 장난 신고",
+       "40건 이상",
+       "26명 적발"
+      ],
+      "mark": 1
+     },
+     {
+      "type": "illust",
+      "q": [
+       "困る 警察官",
+       "警察官"
+      ],
+      "pos": "center",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "심지어 파출소 문을 차고 폭죽까지 던짐.",
+   "say": "심지어 파출소 문을 차고 폭죽까지 던짐.",
+   "sfx": "exclaim",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "蹴る 男の子",
+       "キック 子供"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch",
+    "video": [
+     "glass door",
+     "door kick",
+     "glass entrance door"
+    ]
+   }
+  },
+  {
+   "text": "폭죽 던진 10대 둘은 체포까지 됨.",
+   "say": "폭죽 던진 십 대 둘은 체포까지 됨.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "逮捕 警察",
+       "手錠"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "road",
+    "video": [
+     "police car lights night",
+     "police lights",
+     "police car"
+    ]
+   }
+  },
+  {
+   "text": "오사카에선 250건 넘음.",
+   "say": "오사카에선 이백오십 건 넘음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "書類 山積み",
+       "書類の山"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📈",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "office",
+    "video": [
+     "osaka city night",
+     "city night street",
+     "japan city night"
+    ],
+    "cc": [
+     "osaka dotonbori night",
+     "osaka street"
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 잡힌 애 중 막내는",
+   "say": "알고 보니 잡힌 애 중 막내는",
+   "sfx": "dudung",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "小学生 男の子",
+       "ランドセル 男の子"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "tr": "flash"
+   },
+   "tone": "긴장감 있게 낮은 목소리로",
+   "join": true
+  },
+  {
+   "text": "헐, 초등학교 1학년, 7살이었음.",
+   "say": "헐, 초등학교 일 학년, 일곱 살이었음.",
+   "sfx": "stamp",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ランドセル 小学1年生",
+       "ランドセル"
+      ],
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom"
+   },
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게"
+  },
+  {
+   "text": "같이 가자는 말 들은 초3은",
+   "say": "같이 가자는 말 들은 초삼은",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "誘う 子供",
+       "友達 誘う"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙋",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "park",
+    "pic": [
+     "school playground",
+     "playground"
+    ]
+   },
+   "join": true
+  },
+  {
+   "text": "\"남자애들 거의 다 경찰서 가 봤다\"고 함.",
+   "say": "남자애들 거의 다 경찰서 가 봤다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男の子",
+       "子供 話す"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😳",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "park"
+   },
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어"
+  },
+  {
+   "text": "경찰은 급한 신고가 밀린다며 경고함.",
+   "say": "경찰은 급한 신고가 밀린다며 경고함.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "困る 警察官",
+       "警察官"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "emergency call center",
+     "police station",
+     "emergency lights"
+    ]
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "그럼 판 키운 건 누구였냐면",
+   "say": "그럼 판 키운 건 누구였냐면",
+   "sfx": "question",
+   "visual": {
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🕵️",
+      "pos": "center",
+      "size": "xl",
+      "at": 0.4,
+      "fx": "zoom"
+     }
+    ],
+    "bg": "night",
+    "pic": [
+     "smartphone screen dark",
+     "smartphone night"
+    ]
+   },
+   "join": true
+  },
+  {
+   "text": "'소림사 레이싱'이란 SNS 계정이었음.",
+   "say": "소림사 레이싱이란 에스엔에스 계정이었음.",
+   "sfx": "punch",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン SNS",
+       "SNS 若者"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "bedroom"
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "주인은 18살, 계정만 최소 4개였고",
+   "say": "주인은 열여덟 살, 계정만 최소 네 개였고",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 若者",
+       "スマートフォン 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "bedroom",
+    "pic": [
+     "smartphones",
+     "mobile phones"
+    ]
+   },
+   "join": true
+  },
+  {
+   "text": "와, 큰 곳은 팔로워가 1만4천 명이었음.",
+   "say": "와, 큰 곳은 팔로워가 만 사천 명이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "price",
+      "label": "팔로워",
+      "new": "1만4천 명"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "人気者",
+       "いいね"
+      ],
+      "pos": "center",
+      "size": "m",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "안 할 폭주를 '역사를 만든다'며 예고했다가",
+   "say": "안 할 폭주를 역사를 만든다며 예고했다가",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "暴走族",
+       "バイク 暴走"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏍️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "road",
+    "video": [
+     "motorcycle night road",
+     "motorbike night",
+     "motorcycle road"
+    ]
+   },
+   "cap": "quote",
+   "join": true
+  },
+  {
+   "text": "업무 방해 혐의로 체포됨.",
+   "say": "업무 방해 혐의로 체포됨.",
+   "sfx": "stamp",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "逮捕 警察",
+       "手錠"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "tr": "whoosh",
+    "video": [
+     "police car night",
+     "police lights night",
+     "police siren"
+    ]
+   }
+  },
+  {
+   "text": "본인은 \"사실이 아니다\"라며 부인 중.",
+   "say": "본인은 사실이 아니다라며 부인 중.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマホ 若者",
+       "スマートフォン 男性"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "office"
+   },
+   "cap": "quote"
+  },
+  {
+   "text": "아니 체포 뒤에도 장난은 계속됐고,",
+   "say": "아니 체포 뒤에도 장난은 계속됐고,",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "交番",
+       "交番 警察官"
+      ],
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔁",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "bg": "nightcity",
+    "pic": [
+     "police box",
+     "police station building"
+    ]
+   }
+  },
+  {
+   "text": "왜 소림사인지는 아무도 모름.",
+   "say": "왜 소림사인지는 아무도 모름.",
+   "sfx": "absurd",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "お寺",
+       "寺 お坊さん"
+      ],
+      "pos": "center",
+      "size": "xl",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤷",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.3,
+      "fx": "pop"
+     }
+    ],
+    "bg": "mountain"
+   },
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게"
+  }
+ ],
+ "youtube": {
+  "title": "파출소에 소림사 외친 일본 아이들 뒤의 계정 #shorts",
+  "description": "일본에서 파출소에 들어가거나 110번에 전화해 '소림사'라고 외치고 도망치는 장난이 SNS를 타고 퍼졌습니다.\n효고현에선 두 달 새 40건 넘게, 오사카에선 250건 넘게 쌓였고, 붙잡힌 아이 중 가장 어린 아이는 7살이었습니다.\n오사카 경찰은 '소림사 레이싱'을 내건 SNS 계정을 쓰던 18살을 허위 폭주 예고로 경찰 업무를 방해한 혐의로 체포했고, 본인은 부인하고 있습니다.\n\n※ AI 음성으로 제작했습니다.\n#일본 #소림사 #파출소 #장난전화 #틱톡 #shorts",
+  "tags": [
+   "일본",
+   "소림사",
+   "소림사 레이싱",
+   "파출소 장난",
+   "장난전화",
+   "틱톡 챌린지",
+   "일본 경찰",
+   "썰가챠",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://view.asiae.co.kr/article/2026110914163387212",
+ "facts_used": [
+  "파출소에 들어가거나 공중전화로 110번에 걸어 '소림사'라고 외치고 도망치는 장난이 틱톡 등 SNS를 타고 일본에 확산, 이유는 확인 안 됨 — 아시아경제 https://view.asiae.co.kr/article/2026110914163387212 , 네이트(11/9) https://m.news.nate.com/view/20261109n35622 , 뉴스통 https://www.newstong.co.kr/view3.aspx?seq=14803020",
+  "효고현 9~10월 110번 '소림사' 장난 40건 이상, 26명 적발·선도 / 홋카이도 파출소 폭죽 투척 17·16세 체포 / 경찰 '도움이 필요한 사람 대응이 늦어져 생명 문제' 경고 / 틱톡 심사 강화 — 아시아경제, 뉴스통, 네이트",
+  "오사카부: 9월~10월 초 약 250건, 7~16세 43명 조치, 유리문 걷어차기·포스터 찢기·폭죽·장난전화 — 지지통신(nippon.com) https://www.nippon.com/en/news/yjj2026102301041/ ; 10월 말까지 약 280건·약 50명 — 요미우리TV https://news.yahoo.co.jp/articles/7eb25ff1499c673c04915b1eafbeff928a827b61",
+  "최연소 보도(補導)는 초등 1학년 7살, 권유받은 초3 아이 '남자애들 거의 다 경찰서에 가 봤다' — 간사이TV https://www.ktv.jp/news/articles/?id=30814 , 산케이(야후) https://news.yahoo.co.jp/articles/9393e43405962d9f60fa73ca215f79e5809a0e50 ('초등 저학년도')",
+  "11월 2일 오사카부경 '소림사 레이싱' 이름 SNS 계정 쓰던 18살 위계업무방해 혐의 체포, 계정 최소 4개·최대 약 1만4천 팔로워, 실제 안 할 폭주 예고, '역사를 만든다' 게시, '사실이 아니다' 부인 — 요미우리TV(야후), 지지통신 https://www.jiji.com/jc/article?k=2026110200891&g=soc , 라이브도어 https://news.livedoor.com/article/detail/32715960/ , 도쿄보도신문 https://tokyonewsmedia.com/archives/30014",
+  "체포 뒤에도 파출소 장난 이어짐, 누가 언제 시작했는지·소림사와의 관련 모름 — 간사이TV, 요미우리TV(야후)"
+ ],
+ "brief": "점수표: [선택] 일본 '소림사 레이싱' 파출소 장난 확산과 18살 계정 주인 체포 (아시아경제·네이트 11/9, 뉴스통, 지지통신 10/26·11/2, 요미우리TV·간사이TV·산케이) 이게됨5(파출소에 들어가 '소림사!' 외치고 도망)+궁금증4(누가 키웠나·몇 살까지·왜 소림사? 답 3개)+감정6(황당+분노, 생명 걸린 신고 방해)+대상3(파출소·틱톡 챌린지, 해외)+판정5(판을 키운 계정, 체포 뒤에도 계속) = 23 / [후보] 생후 50일 아기 울음 포스트잇(파이낸셜 11/5·아주 11/9, 쪽지 하나로 단계 없음·11/2 아기 울음 편과 겹침) 16 탈락 / 남대문 스카프 동창 등장(이미 다룬 사람) 탈락 / 짝퉁 명품 라방 일당(사건 경과뿐, 숨긴 답 없음) 15 탈락 / 할머니 부축 횡단보도(잔잔한 미담 2점) 14 탈락 / inbox 시사·정치·젠슨황 사생활 탈락.\n유행: 없음 (찾아본 단어: 박수홍 패딩·gta6·버거킹 소방관 — 썰 없음. 소림사 레이싱 자체가 일본 SNS 유행)\n아이 레인: 부분 해당 (7살까지 휩쓸린 장난, 아이 개인은 드러내지 않고 판을 키운 계정과 SNS를 대상으로)\n해외: 일본 (오늘 첫 해외, 앞 대본 2개 국내)\n구조: 시작=일본 아이들이 빈 파출소에 들어가 '소림사!' 외치고 도망가는 영상 확산 / 커짐=공중전화 110 장난(효고 두 달 40건 넘게·26명)→파출소 유리문 걷어차기·포스터 찢기·폭죽(홋카이도 10대 2명 체포)→오사카 250건 넘게 / 뒤집힘=붙잡힌 아이 중 가장 어린 아이는 초1 7살, 초3 '남자애들 거의 다 경찰서 가 봤다' / 정체=판을 키운 쪽은 '소림사 레이싱' SNS 계정 주인 18살(계정 4개 이상·최대 1만4천 팔로워, '역사를 만든다' 허위 폭주 예고)→업무방해 체포, 부인 / 그 뒤=체포 뒤에도 장난 계속, 틱톡 심사 강화, 왜 소림사인지는 아무도 모름\n공개할 답: ①가장 어린 아이 7살(1/2) ②판을 키운 계정 주인 18살(2/3) ③소림사 이유는 아무도 모름(끝)\n욕할 대상: 허위 예고로 판을 키운 계정과 영상 퍼뜨린 SNS. 아이 개인은 대상 아님(이름·학교·얼굴 없음, 아이 그림만).\n인용(cap quote): '소림사'(외친 말) / '남자애들 거의 다 경찰서 가 봤다'(간사이TV 초3 증언) / '도움 필요한 사람 대응 늦어진다'(현 경찰 경고, 아시아경제·뉴스통) / '역사를 만든다'(요미우리TV·도쿄보도신문) / '사실이 아니다'(요미우리TV·지지).\n주의: 오사카 수치는 시점별로 250건·43명(지지 10/26) vs 280건·약 50명(요미우리TV 10월 말) → 둘 다 맞는 '250건 넘게'만 씀, 인원 수는 안 씀. 7살·초3 증언은 간사이TV 단독 취재라 산케이 '초등 저학년도 보도'·아시아경제 '초등 저학년'으로 교차. 18살은 혐의 부인 중 → '혐의로 체포', '부인 중이라고'. 계정 주인이 모든 장난을 지시했다고 쓰지 않음('판을 키운' = 계정 이름으로 영상·예고를 퍼뜨림).\n첫장면: 의외\n훅 3안: ①'일본 애들이 빈 파출소에 들어가서 소림사! 외치고 튀는 영상이 퍼짐'(선택: 장면이 바로 그려짐) ②'110에 전화해서 소림사라고 외치고 끊는 애들'(전화는 2단계로) ③'7살까지 경찰에 잡힌 장난'(답 노출) / 카드 제목 3안: '파출소 들어가 소림사 외치는 아이들'(선택) · '경찰서 와서 소림사 외치고 튀는 애들'(파출소가 정확) · '소림사 외치다 잡힌 7살'(답 노출) / 제목 3안: '파출소에 소림사 외친 일본 아이들 뒤의 계정'(선택: 사람+무슨 일+궁금한 정체) · '결국 체포된 소림사 장난의 배후'(앞 회차 '배후'와 겹침) · '7살까지 잡힌 소림사 장난'(답 노출)\n이해검사: 일본에서 아이들이 파출소에 들어가거나 110에 전화해 '소림사'라고 외치는 장난이 SNS로 번져 7살까지 잡혔고, 판을 키운 '소림사 레이싱' 계정의 18살 주인이 업무방해 혐의로 체포됐지만 장난은 계속되고 왜 소림사인지는 아무도 모른다는 이야기.\n그림대조: 완료 (일본 배경이라 いらすとや 交番·警察官 사용, 아이는 그림만, 실사 검색어에 사람·아이 없음, 마지막 お寺는 소림사(절) 장면)"
+}
