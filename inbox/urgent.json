@@ -1,104 +1,81 @@
 {
- "detected_at": "2026-11-10T12:30+09:00",
+ "detected_at": "2026-11-10T15:11+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "특검 \"선관위, 경기도교육감 개표상황표 은닉·위조\"…강제수사 착수",
-   "url": "https://n.news.naver.com/article/437/0000519976",
-   "press": "JTBC",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "SBS",
-     "title": "선관위 특검 \"선관위, 경기도교육감 개표상황표 은닉·위조\"",
-     "url": "https://n.news.naver.com/article/055/0001401921"
-    },
-    {
-     "press": "YTN",
-     "title": "[속보] 선관위 특검 \"경기도교육감 선거 개표 결과 위조 정황 확인\"",
-     "url": "https://n.news.naver.com/article/052/0002430719"
-    },
-    {
-     "press": "강원도민일보",
-     "title": "[속보] 선관위특검 \"선관위, 경기도교육감 개표상황표 은닉·위조\"",
-     "url": "https://n.news.naver.com/article/654/0000210420"
-    },
-    {
-     "press": "채널A",
-     "title": "특검 “경기도교육감 선거 개표 결과 위조 정황 확인”",
-     "url": "https://n.news.naver.com/article/449/0000366970"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "李대통령 “걸리면 패가망신”…부동산 불법·토착비리 경고",
-   "url": "https://n.news.naver.com/article/029/0003058154",
-   "press": "디지털타임스",
+   "title": "한덕수 20일 석방될 듯…대법, 구속만료 하루전 두번째 심리(종합)",
+   "url": "https://n.news.naver.com/article/001/0016433009",
+   "press": "연합뉴스",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "서울신문",
-     "title": "李대통령 “부동산 불법 행위와 지역 토착 비리…걸리면 패가망신”",
-     "url": "https://n.news.naver.com/article/081/0003697602"
+     "press": "한겨레",
+     "title": "한덕수 석방되나…대법, 구속만료 하루 전 19일 전원합의체 심리",
+     "url": "https://n.news.naver.com/article/028/0002831483"
     },
     {
-     "press": "세계일보",
-     "title": "[속보] 이재명 대통령 “부동산 불법행위, 걸리면 ‘패가망신’…엄정 대응”",
-     "url": "https://n.news.naver.com/article/022/0004173907"
+     "press": "부산일보",
+     "title": "[속보] 대법원 재판 장기화에…한덕수 전 총리, 20일 석방될 듯",
+     "url": "https://n.news.naver.com/article/082/0001406448"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 선관위특검 “경기도교육감 선거 개표 결과 위조 정황 확인”",
-   "url": "https://n.news.naver.com/article/025/0003564079",
-   "press": "중앙일보",
-   "why": "[속보] 기사 + 언론사 8곳이 댓글 많은 기사 1위로",
+   "title": "한동훈 \"내가 술자리서 마이크 잡고 노래?…영상 보면 답 나와\"",
+   "url": "https://n.news.naver.com/article/018/0006407156",
+   "press": "이데일리",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "SBS",
-     "title": "선관위 특검 \"선관위, 경기도교육감 개표상황표 은닉·위조\"",
-     "url": "https://n.news.naver.com/article/055/0001401921"
+     "press": "뉴스1",
+     "title": "한동훈 \"민주당 다 덤벼 보라…내가 마이크 잡고 노래? 영상을 보라\"",
+     "url": "https://n.news.naver.com/article/421/0009280060"
     },
     {
-     "press": "YTN",
-     "title": "[속보] 선관위 특검 \"경기도교육감 선거 개표 결과 위조 정황 확인\"",
-     "url": "https://n.news.naver.com/article/052/0002430719"
-    },
-    {
-     "press": "서울경제",
-     "title": "[속보] 선관위특검 “경기도교육감 선거 개표 결과 위조 정황 확인”",
-     "url": "https://n.news.naver.com/article/011/0004680537"
-    },
-    {
-     "press": "강원도민일보",
-     "title": "[속보] 선관위특검 \"선관위, 경기도교육감 개표상황표 은닉·위조\"",
-     "url": "https://n.news.naver.com/article/654/0000210420"
+     "press": "문화일보",
+     "title": "“내가 술자리서 노래?” 한동훈 공개 의외 영상",
+     "url": "https://n.news.naver.com/article/021/0002831634"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 이 대통령, 美 중간선거 결과에 \"미 의회 내에도 초당적 협력 토대 구축해야\"",
-   "url": "https://n.news.naver.com/article/469/0000964658",
-   "press": "한국일보",
+   "title": "[속보] 김정관 “중국 기술·경쟁력 생각 이상…위기감 더욱 커져”",
+   "url": "https://n.news.naver.com/article/024/0000109529",
+   "press": "매경이코노미",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] '전과23범' 60대, 술값 시비 말리던 손님 깨진 맥주병으로 찔렀다…결국 징역 8년 선고",
-   "url": "https://n.news.naver.com/article/215/0001272257",
-   "press": "한국경제TV",
+   "title": "[속보] '청해부대 파견연장 수정 동의안' 국무회의 통과",
+   "url": "https://n.news.naver.com/article/422/0000924578",
+   "press": "연합뉴스TV",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] 김포시에 무인기 추정 물체 추락…군 당국, 확인 중",
-   "url": "https://n.news.naver.com/article/079/0004208094",
-   "press": "노컷뉴스",
+   "title": "[속보] 어린이집 앞에 불 지른 60대 남성 차량서 자해…경찰에 긴급체포돼 병원 이송",
+   "url": "https://n.news.naver.com/article/087/0001229761",
+   "press": "강원일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 李 34.7% 민주 31.6% 동반 최저, 50대·수도권·진보 이탈…정권 심판론 57.7%",
+   "url": "https://n.news.naver.com/article/029/0003058186",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 담뱃값 4500원 12년 동결 상황 '8500원' 인상론 등장, 세수는 3조 가까이 증가",
+   "url": "https://n.news.naver.com/article/088/0001039473",
+   "press": "매일신문",
    "why": "[속보] 기사",
    "related": []
   }
