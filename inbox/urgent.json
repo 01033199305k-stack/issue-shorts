@@ -1,19 +1,106 @@
 {
- "detected_at": "2026-11-10T09:10+09:00",
+ "detected_at": "2026-11-10T12:30+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 트럼프 \"젠슨 황, 스파이인줄 몰랐다고 해…FBI가 살펴보는 중\"",
-   "url": "https://n.news.naver.com/article/654/0000210393",
-   "press": "강원도민일보",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "특검 \"선관위, 경기도교육감 개표상황표 은닉·위조\"…강제수사 착수",
+   "url": "https://n.news.naver.com/article/437/0000519976",
+   "press": "JTBC",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "강원일보",
-     "title": "[속보]트럼프 “젠슨 황, 문제의 인물이 스파이인줄 몰랐다 한다…FBI가 살펴보는 중”",
-     "url": "https://n.news.naver.com/article/087/0001229718"
+     "press": "SBS",
+     "title": "선관위 특검 \"선관위, 경기도교육감 개표상황표 은닉·위조\"",
+     "url": "https://n.news.naver.com/article/055/0001401921"
+    },
+    {
+     "press": "YTN",
+     "title": "[속보] 선관위 특검 \"경기도교육감 선거 개표 결과 위조 정황 확인\"",
+     "url": "https://n.news.naver.com/article/052/0002430719"
+    },
+    {
+     "press": "강원도민일보",
+     "title": "[속보] 선관위특검 \"선관위, 경기도교육감 개표상황표 은닉·위조\"",
+     "url": "https://n.news.naver.com/article/654/0000210420"
+    },
+    {
+     "press": "채널A",
+     "title": "특검 “경기도교육감 선거 개표 결과 위조 정황 확인”",
+     "url": "https://n.news.naver.com/article/449/0000366970"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "李대통령 “걸리면 패가망신”…부동산 불법·토착비리 경고",
+   "url": "https://n.news.naver.com/article/029/0003058154",
+   "press": "디지털타임스",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "서울신문",
+     "title": "李대통령 “부동산 불법 행위와 지역 토착 비리…걸리면 패가망신”",
+     "url": "https://n.news.naver.com/article/081/0003697602"
+    },
+    {
+     "press": "세계일보",
+     "title": "[속보] 이재명 대통령 “부동산 불법행위, 걸리면 ‘패가망신’…엄정 대응”",
+     "url": "https://n.news.naver.com/article/022/0004173907"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 선관위특검 “경기도교육감 선거 개표 결과 위조 정황 확인”",
+   "url": "https://n.news.naver.com/article/025/0003564079",
+   "press": "중앙일보",
+   "why": "[속보] 기사 + 언론사 8곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "SBS",
+     "title": "선관위 특검 \"선관위, 경기도교육감 개표상황표 은닉·위조\"",
+     "url": "https://n.news.naver.com/article/055/0001401921"
+    },
+    {
+     "press": "YTN",
+     "title": "[속보] 선관위 특검 \"경기도교육감 선거 개표 결과 위조 정황 확인\"",
+     "url": "https://n.news.naver.com/article/052/0002430719"
+    },
+    {
+     "press": "서울경제",
+     "title": "[속보] 선관위특검 “경기도교육감 선거 개표 결과 위조 정황 확인”",
+     "url": "https://n.news.naver.com/article/011/0004680537"
+    },
+    {
+     "press": "강원도민일보",
+     "title": "[속보] 선관위특검 \"선관위, 경기도교육감 개표상황표 은닉·위조\"",
+     "url": "https://n.news.naver.com/article/654/0000210420"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 이 대통령, 美 중간선거 결과에 \"미 의회 내에도 초당적 협력 토대 구축해야\"",
+   "url": "https://n.news.naver.com/article/469/0000964658",
+   "press": "한국일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] '전과23범' 60대, 술값 시비 말리던 손님 깨진 맥주병으로 찔렀다…결국 징역 8년 선고",
+   "url": "https://n.news.naver.com/article/215/0001272257",
+   "press": "한국경제TV",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 김포시에 무인기 추정 물체 추락…군 당국, 확인 중",
+   "url": "https://n.news.naver.com/article/079/0004208094",
+   "press": "노컷뉴스",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
