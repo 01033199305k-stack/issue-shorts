@@ -6957,5 +6957,83 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-10_1800_barrier-blocking-car-privacy-excuse/video.mp4"
   },
   "seconds": 2069
+ },
+ {
+  "key": "2026-11-11-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-11T07:00:00+09:00",
+  "started": "2026-11-11T04:17:29.150705+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-107392/",
+   "https://pixabay.com/photos/chinese-asian-candle-celebration-17422/",
+   "https://pixabay.com/videos/id-736/",
+   "https://pixabay.com/videos/id-135480/",
+   "https://pixabay.com/videos/id-3145/",
+   "https://pixabay.com/photos/thanksgiving-pumpkins-cucumbers-1632760/",
+   "https://pixabay.com/videos/id-134944/",
+   "https://pixabay.com/videos/id-385740/",
+   "https://pixabay.com/photos/chairs-table-contemporary-furniture-2181960/",
+   "https://pixabay.com/videos/id-377906/"
+  ],
+  "cc_clips": [],
+  "duration": 51.32,
+  "matches": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   1.0,
+   0.98,
+   0.95,
+   1.0,
+   0.96,
+   0.96,
+   0.98,
+   0.98,
+   1.0,
+   0.99,
+   0.99,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.93,
+   0.97,
+   1.0
+  ],
+  "sfx": 21,
+  "illustrations": 14,
+  "cuts": 22,
+  "layout_issues": [],
+  "caption_breaks": [
+   "멈춰야 / 한다는 (70)"
+  ],
+  "title": "네 살 울렸다는 민속촌 귀신이 받은 고소장 #shorts",
+  "source_post": "https://www.ytn.co.kr/_ln/0103_202611051103223333",
+  "facts_used": [
+   "한국민속촌 가을 축제 '귀신사바 귀신놀이'에서 부모가 아이 생활습관 문제를 털어놓으면 귀신 분장 배우가 호통치며 약속을 받는 체험 — 아시아경제 2026-11-09 https://view.asiae.co.kr/article/2026110915021957754 , 인사이트 https://www.insight.co.kr/news/581228",
+   "네 살 아이 훈육 영상 조회수 800만 회, 아이가 울면서 약속 — 인사이트 https://www.insight.co.kr/news/581228 , 이데일리 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=01682646645644080 , 애니멀플래닛 https://m.animalplanet.co.kr/contents/?artNo=62277",
+   "'엄마 말 안들어?' 귀신 훈육 — 매일신문 2026-11-09 https://www.imaeil.com/page/view/2026110912252451198",
+   "배우가 성인 남성 관람객에게 '집 공동명의 했어요?' 질문 — 서울신문 2026-10-29 https://www.seoul.co.kr/news/society/2026/10/29/20261029500072",
+   "용인시 민원 9건(국민신문고 등), 경찰 조사 의뢰 1건, 국가인권위 진정 — 인사이트, 데일리안 https://www.dailian.co.kr/news/view/1712588 , 서울신문 11/9 https://www.twig24.com/news/world/2026/11/09/20261109500220",
+   "현장을 목격한 한 부모가 경찰에 고소장, 용인시 공무원 4명 4시간 현장 조사, 경찰은 피고소인 불러 혐의 성립 여부 살필 계획 — YTN 2026-11-10 https://www.youtube.com/watch?v=pN6CarAN0_w , 뉴스필드 https://newsfield.net/ , 네이트(YTN) https://m.news.nate.com/view/20261110n36991",
+   "민속촌 '부모가 동의한 경우에만, 힘들어하면 중단, 학대 의도 없었다', 15일 야간 개장을 끝으로 종료, 내년 운영 방식 보완 — YTN, 데일리안, 아시아경제",
+   "반응: '망태 할아버지로 괴로운 사람 있나' — 아주경제 2026-11-09 https://www.ajunews.com/view/20261109143402641 / '아동학대 멈춰야' vs '할로윈도 단속할 거냐' — 마이데일리 https://www.mydaily.co.kr/page/view/2026110909461649421",
+   "방송인 이지혜 딸들과 체험, 찬성 — 스포티비뉴스 https://www.spotvnews.co.kr/news/articleView.html?idxno=1019009 , 텐아시아 https://www.tenasia.co.kr/article/2026111066664"
+  ],
+  "slug": "2026-11-11_0700_folk-village-ghost-discipline-complaint",
+  "late": false,
+  "video_id": "VxUxABdiM0E",
+  "url": "https://youtube.com/shorts/VxUxABdiM0E",
+  "privacy": "private",
+  "scheduled_for": "2026-11-10T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af377efc0addee3a313d430",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-10T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-11_0700_folk-village-ghost-discipline-complaint/video.mp4"
+  },
+  "seconds": 2600
  }
 ]
