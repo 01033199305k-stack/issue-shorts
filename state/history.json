@@ -6887,5 +6887,75 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-10_1200_army-blank-round-retaliation/video.mp4"
   },
   "seconds": 2581
+ },
+ {
+  "key": "2026-11-10-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-10T18:00:00+09:00",
+  "started": "2026-11-10T15:19:46.422678+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-83812/",
+   "https://pixabay.com/videos/id-87884/",
+   "https://pixabay.com/videos/id-135480/",
+   "https://pixabay.com/photos/transport-traffic-automobile-3146193/",
+   "https://pixabay.com/photos/brick-wall-empty-lighted-night-1834446/",
+   "https://pixabay.com/photos/aluminum-aluminum-recycling-7288140/",
+   "https://pixabay.com/videos/id-215610/"
+  ],
+  "cc_clips": [],
+  "duration": 48.52,
+  "matches": [
+   0.97,
+   0.99,
+   0.99,
+   0.99,
+   0.99,
+   0.96,
+   0.92,
+   1.0,
+   0.98,
+   0.98,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.95,
+   0.95,
+   0.95,
+   1.0,
+   0.87
+  ],
+  "sfx": 19,
+  "illustrations": 13,
+  "cuts": 20,
+  "layout_issues": [],
+  "caption_breaks": [
+   "입주민이 / 차 (100)",
+   "강제 / 견인 (55)"
+  ],
+  "title": "차단기 막고 집에 간 입주민이 댄 이유 #shorts",
+  "source_post": "https://m.news.nate.com/view/20261109n34918",
+  "facts_used": [
+   "대전(서구 내동)의 한 아파트에서 차량 등록을 거부한 입주민이 주차장 차단기 앞에 차를 세워 다른 차량 통행을 막고 집으로 들어감 — 네이트뉴스 2026-11-09 https://m.news.nate.com/view/20261109n34918 , MBC 뉴스투데이 와글와글 2026-11-10 https://www.youtube.com/watch?v=-xDFvCUU1yY , 뉴스통 https://www.newstong.co.kr/view3.aspx?seq=14804375",
+   "등록 거부 이유: \"추가 주차비 납입 문제가 아닌 개인정보 유출 우려 때문\"(제보자 설명) — 네이트뉴스 11/9, MBC 11/10('개인정보 유출이 우려된다는 황당한 이유')",
+   "다른 입주민이 경찰에 신고, \"과태료 부과나 강제 견인 없이 훈방 조치로 마무리\", \"차량 통행 방해에 대한 법적 조치가 가능할 것으로 기대했지만 실제로는 별다른 제재가 없어 답답했다\"(제보자) — 네이트뉴스 11/9, 서플 https://supple.kr/news/cmwa0j9j0w2yzal9pd2hkfxqp",
+   "누리꾼 반응 '차량 번호판도 개인정보인데 무슨 말이냐', '차량 등록도 안 했으면 주차를 못 하는 게 맞다' — 네이트뉴스 11/9",
+   "차단기 안 단지 주차장은 도로교통법상 도로가 아닐 수 있어 경찰·지자체의 과태료·견인이 어렵다 — 네이트뉴스 11/9 법적 쟁점, 이투데이 https://www.etoday.co.kr/news/view/2321640"
+  ],
+  "slug": "2026-11-10_1800_barrier-blocking-car-privacy-excuse",
+  "late": false,
+  "video_id": "NwHsDr1MULQ",
+  "url": "https://youtube.com/shorts/NwHsDr1MULQ",
+  "privacy": "private",
+  "scheduled_for": "2026-11-10T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af2bf9505af22d72610911c",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-10T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-10_1800_barrier-blocking-car-privacy-excuse/video.mp4"
+  },
+  "seconds": 2069
  }
 ]
