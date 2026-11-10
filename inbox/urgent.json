@@ -1,83 +1,43 @@
 {
- "detected_at": "2026-11-10T15:11+09:00",
+ "detected_at": "2026-11-10T20:44+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "한덕수 20일 석방될 듯…대법, 구속만료 하루전 두번째 심리(종합)",
-   "url": "https://n.news.naver.com/article/001/0016433009",
-   "press": "연합뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "한겨레",
-     "title": "한덕수 석방되나…대법, 구속만료 하루 전 19일 전원합의체 심리",
-     "url": "https://n.news.naver.com/article/028/0002831483"
-    },
-    {
-     "press": "부산일보",
-     "title": "[속보] 대법원 재판 장기화에…한덕수 전 총리, 20일 석방될 듯",
-     "url": "https://n.news.naver.com/article/082/0001406448"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "한동훈 \"내가 술자리서 마이크 잡고 노래?…영상 보면 답 나와\"",
-   "url": "https://n.news.naver.com/article/018/0006407156",
-   "press": "이데일리",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "뉴스1",
-     "title": "한동훈 \"민주당 다 덤벼 보라…내가 마이크 잡고 노래? 영상을 보라\"",
-     "url": "https://n.news.naver.com/article/421/0009280060"
-    },
-    {
-     "press": "문화일보",
-     "title": "“내가 술자리서 노래?” 한동훈 공개 의외 영상",
-     "url": "https://n.news.naver.com/article/021/0002831634"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 김정관 “중국 기술·경쟁력 생각 이상…위기감 더욱 커져”",
-   "url": "https://n.news.naver.com/article/024/0000109529",
-   "press": "매경이코노미",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] '청해부대 파견연장 수정 동의안' 국무회의 통과",
-   "url": "https://n.news.naver.com/article/422/0000924578",
-   "press": "연합뉴스TV",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 어린이집 앞에 불 지른 60대 남성 차량서 자해…경찰에 긴급체포돼 병원 이송",
-   "url": "https://n.news.naver.com/article/087/0001229761",
-   "press": "강원일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 李 34.7% 민주 31.6% 동반 최저, 50대·수도권·진보 이탈…정권 심판론 57.7%",
-   "url": "https://n.news.naver.com/article/029/0003058186",
+   "title": "[속보] ‘군복무 특혜의혹’ 추미애 아들, 다시 수사받는다…공소청, 수사 재기",
+   "url": "https://n.news.naver.com/article/029/0003058274",
    "press": "디지털타임스",
-   "why": "[속보] 기사",
-   "related": []
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "kbc광주방송",
+     "title": "'군 휴가 특혜 의혹' 추미애 아들 귀국...공소청, 2년 만에 수사 재개",
+     "url": "https://n.news.naver.com/article/660/0000121021"
+    }
+   ]
   },
   {
    "kind": "news",
-   "title": "[속보] 담뱃값 4500원 12년 동결 상황 '8500원' 인상론 등장, 세수는 3조 가까이 증가",
-   "url": "https://n.news.naver.com/article/088/0001039473",
-   "press": "매일신문",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "추미애 지사 아들 출국금지…군휴가 특혜 의혹 재수사",
+   "url": "https://n.news.naver.com/article/449/0000367009",
+   "press": "채널A",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선일보",
+     "title": "‘무혐의’ 처분받고 해외 뜬 추미애 지사 아들… 귀국하자 ‘출국금지·재수사’",
+     "url": "https://n.news.naver.com/article/023/0004008808"
+    },
+    {
+     "press": "kbc광주방송",
+     "title": "'군 휴가 특혜 의혹' 추미애 아들 귀국...공소청, 2년 만에 수사 재개",
+     "url": "https://n.news.naver.com/article/660/0000121021"
+    },
+    {
+     "press": "한국일보",
+     "title": "추미애 지사 아들 출국금지… '군 휴가 특혜 의혹' 수사 재개",
+     "url": "https://n.news.naver.com/article/469/0000964744"
+    }
+   ]
   }
  ]
 }
