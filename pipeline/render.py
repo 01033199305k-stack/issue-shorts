@@ -18,6 +18,7 @@ import motion
 import photo
 import stillphoto
 import ccvideo
+import grokclips
 import stock
 from illust import Picker
 from pipeline import assemble, tts
@@ -204,9 +205,14 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     found: dict = {}   # agency -> its photo, looked up once per video
     article_urls = list(dict.fromkeys(re.findall(r"https?://[^\s,)\]\"']+", " ".join(script.get("facts_used") or [])
                                                  + " " + (script.get("source_post") or ""))))
+    grok = grokclips.fetch(script.get("_key", ""), script, work_dir / "grok")
     for i, (vis, (st, en)) in enumerate(zip(visuals, times)):
         qs = (vis or {}).get("video") or []
         clip = None
+        if i in grok and (clip := grokclips.clip_frames(grok[i], en - st + motion.LEAD + 0.2, work_dir / f"grok_{i:02d}",
+                                                         motion.FPS)):
+            clips.append(clip)
+            continue
         if (ph := (vis or {}).get("photo")):   # the real photo an agency released beats any stock footage
             key = ph.get("who", "")
             if key not in found:

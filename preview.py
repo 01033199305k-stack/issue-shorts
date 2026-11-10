@@ -64,6 +64,13 @@ def preview(script_path: Path, cfg: dict) -> dict:
     cues = motion.caption_cues(words, int(cfg.get("caption_line_chars", 11)), int(cfg.get("caption_words", 6)),
                                int(cfg.get("caption_lines", 2)), [seg.get("cap") for seg in segments])
     clips = [grey_clip(work) if (v or {}).get("video") or (v or {}).get("pic") else None for v in visuals]
+    # Grok scenes the PC already made (다운로드/썰가챠/grok-<script name>/scene_XX.mp4) show as they will on air
+    import grokclips
+    gdir = Path.home() / "Downloads" / "썰가챠" / f"grok-{script_path.stem}"
+    for i, (st, en) in enumerate(times):
+        if i in grokclips.wanted(script) and (gdir / f"scene_{i:02d}.mp4").exists():
+            clips[i] = grokclips.clip_frames(gdir / f"scene_{i:02d}.mp4", en - st + motion.LEAD + 0.2,
+                                             work / f"grok_{i:02d}", motion.FPS) or clips[i]
     html, _ = motion.build(segments, visuals, times, cues, script["title_lines"], "", Picker(),
                            REPO / "assets" / "fonts" / "BlackHanSans-Regular.ttf", clips,
                            episode=script.get("episode", 1))

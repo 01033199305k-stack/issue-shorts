@@ -38,6 +38,13 @@ V_BG = ["white", "sky", "beach", "room", "city", "paper", "night", "red"] + [x f
 V_SIZE = ["s", "m", "l", "xl"]
 
 
+# 2026-11-10: Grok scenes stay obviously drawn - a photoreal clip of a real event would need YouTube's
+# altered/synthetic label, and real faces/brands/words don't belong in a re-enactment
+GROK_BAD = re.compile(r"photo ?real|realistic|real[- ]life|live[- ]action|cinematic photo|documentary|news footage|"
+                      r"cctv|bodycam|dashcam|celebrity|famous|logo|brand|blood|gore|"
+                      r"corpse|dead body|weapon|gun|knife", re.I)
+
+
 def _check_visual(i: int, v: dict) -> list[str]:
     p = []
     if v.get("bg", "white") not in V_BG:
@@ -63,6 +70,14 @@ def _check_visual(i: int, v: dict) -> list[str]:
         p.append(f"segment {i}: cc must be 2-40 chars of English search words (or a list of 1-3 such candidates), got {cq!r}")
     if cq is not None and not vq:
         p.append(f"segment {i}: cc needs a `video` list too - it is the fallback when no CC BY clip passes")
+    gk = v.get("grok")   # grokclips.py: a 6 s Grok Imagine clip made on the PC (2026-11-10)
+    if gk is not None:
+        gp = gk.get("prompt") if isinstance(gk, dict) else None
+        if not (isinstance(gp, str) and 15 <= len(gp.split()) <= 90 and re.fullmatch(r"[ -~]+", gp)):
+            p.append(f"segment {i}: grok must be {{\"prompt\": \"<15-90 English words>\"}}, got {gk!r}")
+        elif GROK_BAD.search(gp):
+            p.append(f"segment {i}: grok prompt asks for {GROK_BAD.search(gp).group(0)!r} - webtoon 2D only, no real "
+                     "people/brands/text (a realistic AI clip of a real event needs a synthetic-media label)")
     ph = v.get("photo")
     if ph is not None and not (isinstance(ph, dict) and isinstance(ph.get("who"), str) and 2 <= len(ph["who"]) <= 20
                                and (ph.get("src") is None or re.match(r"https?://", str(ph["src"])))):
@@ -373,6 +388,9 @@ def lint(script: dict) -> list[str]:
     # 2026-10-25 (사용자: "실사 사진이 짧주처럼 들어가면 좋을 것 같은데"): 2-3 real photos of the place/object per video
     segs_ = script.get("segments", [])
     pics = [bool((s.get("visual") or {}).get("pic")) for s in segs_]
+    n_grok = sum(1 for s in segs_ if (s.get("visual") or {}).get("grok"))
+    if n_grok > 4:   # credits: 3 videos a day x 4 = 12 clips
+        p.append(f"{n_grok} grok scenes - max 4 (the ones a single picture can't tell: someone doing something)")
     media = [a or b or bool((s.get("visual") or {}).get("photo")) for a, b, s in zip(vids, pics, segs_)]
     if sum(pics) < 3:
         p.append(f"only {sum(pics)} scenes with a real photo - give 3-5 screens \"pic\": [English words for the place/"

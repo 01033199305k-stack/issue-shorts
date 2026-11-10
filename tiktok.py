@@ -66,11 +66,11 @@ def host_video(video: Path, slug: str) -> str:
 
 
 def cleanup() -> None:
-    """Delete tt-* releases older than KEEP_DAYS (Buffer has long since pulled them)."""
+    """Delete tt-* and grok-* releases older than KEEP_DAYS (Buffer has long since pulled them)."""
     cut = dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=KEEP_DAYS)
     for rel in _gh("GET", "/releases?per_page=100") or []:
         made = dt.datetime.fromisoformat(rel["created_at"].replace("Z", "+00:00"))
-        if rel["tag_name"].startswith("tt-") and made < cut:
+        if rel["tag_name"].startswith(("tt-", "grok-")) and made < cut:
             _gh("DELETE", f"/releases/{rel['id']}")
             try:
                 _gh("DELETE", f"/git/refs/tags/{rel['tag_name']}")
