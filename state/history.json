@@ -6815,5 +6815,77 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-10_0700_japan-koban-shorinji-prank/video.mp4"
   },
   "seconds": 2453
+ },
+ {
+  "key": "2026-11-10-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-10T12:00:00+09:00",
+  "started": "2026-11-10T09:17:57.758463+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-204361/",
+   "https://pixabay.com/photos/alps-mountains-mountain-hut-green-9635920/",
+   "https://pixabay.com/photos/guns-rifle-weapon-target-hunting-467710/",
+   "https://pixabay.com/videos/id-163823/",
+   "https://pixabay.com/videos/id-11721/",
+   "https://pixabay.com/videos/id-145737/",
+   "https://pixabay.com/photos/dirt-soil-potting-mix-ground-mud-947985/",
+   "https://pixabay.com/videos/id-358513/",
+   "https://pixabay.com/videos/id-72883/"
+  ],
+  "cc_clips": [],
+  "duration": 47.69,
+  "matches": [
+   0.95,
+   0.99,
+   0.99,
+   0.99,
+   1.0,
+   0.96,
+   0.96,
+   0.97,
+   0.96,
+   1.0,
+   0.99,
+   0.99,
+   0.99,
+   0.96,
+   0.96,
+   0.96,
+   0.92,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   0.95
+  ],
+  "sfx": 21,
+  "illustrations": 12,
+  "cuts": 22,
+  "layout_issues": [],
+  "caption_breaks": [
+   "육군 / 부대 (55)"
+  ],
+  "title": "부하가 쏜 공포탄에 맞사격한 대대장 해명 #shorts",
+  "source_post": "https://n.news.naver.com/article/056/0012290257",
+  "facts_used": [
+   "6월 말 경기 연천 육군 부대 전술훈련, 중대장 역할 A대위가 훈련 종료 신호 못 듣고 근처 지나던 대대장 B중령을 적군으로 오인해 공포탄 1발 — SBS 단독 https://news.sbs.co.kr/news/endPage.do?news_id=N1008837872 , 헤럴드경제 https://biz.heraldcorp.com/article/10931524 , 파이낸셜뉴스 https://www.fnnews.com/news/202611100654433908",
+   "대대장이 다른 부대원의 K-2 소총을 가져와 '너 이리 나와' 하고 대위를 향해 공포탄 2발 — 한국경제 https://www.hankyung.com/article/2026110960927 , 파이낸셜뉴스, 위키트리 https://www.wikitree.co.kr/articles/1173255 , 네이트 https://m.news.nate.com/view/20261109n34954",
+   "대대장 해명 '공포탄을 가까이서 쏘면 위험하고 소리가 크다는 걸 지도하는 차원에서 근처 지면을 향해 쐈다', 'A대위가 먼저 나를 향해 공포탄을 쏴 파편을 맞자 통제력을 잃었다', '피해자에게 죄송한 마음' — SBS, 네이트 https://m.news.nate.com/view/20261109n35326 , 헤럴드경제",
+   "육군 사건 직후 대대장 직무 정지·두 사람 분리, 재판과 별도 징계 착수, 대대장 특수협박 혐의 등으로 군사재판 회부 — SBS, 천지일보 https://www.newscj.com/news/articleView.html?idxno=3447326 , KBS(네이버 댓글 많은 기사) https://n.news.naver.com/article/056/0012290257"
+  ],
+  "slug": "2026-11-10_1200_army-blank-round-retaliation",
+  "late": false,
+  "video_id": "QaUAz1rMoRw",
+  "url": "https://youtube.com/shorts/QaUAz1rMoRw",
+  "privacy": "private",
+  "scheduled_for": "2026-11-10T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af26cc905af22d726f932a3",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-10T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-10_1200_army-blank-round-retaliation/video.mp4"
+  },
+  "seconds": 2581
  }
 ]
