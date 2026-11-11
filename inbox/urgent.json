@@ -1,32 +1,108 @@
 {
- "detected_at": "2026-11-11T09:10+09:00",
+ "detected_at": "2026-11-11T15:10+09:00",
  "candidates": [
   {
-   "kind": "news",
-   "title": "\"담뱃값 올려야…4,500원→8,500원\" 주장 나왔다",
-   "url": "https://n.news.naver.com/article/055/0001402143",
-   "press": "SBS",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
+   "kind": "community",
+   "title": "아들 성범죄사건 피해 여성 살해한 50대 남성 긴급체포",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1046731",
+   "board": "보배드림 베스트",
+   "why": "커뮤니티 2곳 동시 화제 + 기사화(KBS)",
+   "news": [
     {
-     "press": "경기일보",
-     "title": "“담배 한 갑에 8천500원?”…흡연자들 ‘가슴 졸일’ 주장 나왔다",
-     "url": "https://n.news.naver.com/article/666/0000131455"
-    },
-    {
-     "press": "아이뉴스24",
-     "title": "11년간 동결 \"담뱃값 8500원으로 올려야\"…흡연률 낮아질 것",
-     "url": "https://n.news.naver.com/article/031/0001073925"
+     "url": "https://n.news.naver.com/article/056/0012291442",
+     "headline": "‘아들 성범죄 피해자’ 살해한 50대 남성 긴급체포"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 이용철 후보 “공소취소 관련 의견 드리는 것 적절치 않아”",
-   "url": "https://n.news.naver.com/article/024/0000109543",
-   "press": "매경이코노미",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "[속보] 반명 “한동훈 복당” 46.3% “장동혁 못함” 50.4%…혁신당 ‘張 잘함’ 김민석의 2배",
+   "url": "https://n.news.naver.com/article/029/0003058458",
+   "press": "디지털타임스",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "뉴스1",
+     "title": "'한동훈 복당' 반대 49.8%…'與 김민석·野 장동혁' 부정평가 60% 넘었다",
+     "url": "https://n.news.naver.com/article/421/0009282569"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "\"이게 웬 떡이야\"…李 대통령, 가래떡 '먹방' 나선 이유",
+   "url": "https://n.news.naver.com/article/015/0005352684",
+   "press": "한국경제",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "경향신문",
+     "title": "[영상]이 대통령 “조청파세요, 간장파세요?”…농업인의 날 가래떡 먹방",
+     "url": "https://n.news.naver.com/article/032/0003481989"
+    },
+    {
+     "press": "국민일보",
+     "title": "이 대통령의 ‘쇼츠 먹방’…가래떡 먹으며 “조청파? 간장파?”",
+     "url": "https://n.news.naver.com/article/005/0001884462"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "吳 \"비대위 체제로\"...발끈한 張 \"당내 문제 관심 많으면 자리 바꾸자\"",
+   "url": "https://n.news.naver.com/article/008/0005439491",
+   "press": "머니투데이",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "TV조선",
+     "title": "장동혁 \"오세훈, 당내 문제에 많은 관심…자리 바꾸면 될 듯\"",
+     "url": "https://n.news.naver.com/article/448/0000650335"
+    },
+    {
+     "press": "채널A",
+     "title": "장동혁, 오세훈 겨냥 “당내 문제 관심 많으신 것 같은데 저와 자리 바꾸자”",
+     "url": "https://n.news.naver.com/article/449/0000367113"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "\"한동훈 제명은 조작징계\" 내부 폭로 일파만파…韓 \"실체 드러나\"",
+   "url": "https://n.news.naver.com/article/586/0000142050",
+   "press": "시사저널",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "중앙일보",
+     "title": "국힘 윤리위원 ‘조작징계’ 공식사과…한동훈 “정치적 숙청 실체 드러나”",
+     "url": "https://n.news.naver.com/article/025/0003564411"
+    },
+    {
+     "press": "데일리안",
+     "title": "박정훈 \"한동훈 부당 제명 사실 하나씩 드러나…진상조사 불가피\"",
+     "url": "https://n.news.naver.com/article/119/0003153869"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "오세훈 “張체제로 총선 어려워”... 장동혁 “저랑 자리 바꾸자” 반발",
+   "url": "https://n.news.naver.com/article/023/0004008975",
+   "press": "조선일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "TV조선",
+     "title": "장동혁 \"오세훈, 당내 문제에 많은 관심…자리 바꾸면 될 듯\"",
+     "url": "https://n.news.naver.com/article/448/0000650335"
+    },
+    {
+     "press": "채널A",
+     "title": "장동혁, 오세훈 겨냥 “당내 문제 관심 많으신 것 같은데 저와 자리 바꾸자”",
+     "url": "https://n.news.naver.com/article/449/0000367113"
+    }
+   ]
   }
  ]
 }
