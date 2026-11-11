@@ -7035,5 +7035,83 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-11_0700_folk-village-ghost-discipline-complaint/video.mp4"
   },
   "seconds": 2600
+ },
+ {
+  "key": "2026-11-11-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-11T12:00:00+09:00",
+  "started": "2026-11-11T09:20:07.311184+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-137186/",
+   "https://pixabay.com/videos/id-259714/",
+   "https://pixabay.com/videos/id-31441/",
+   "https://pixabay.com/videos/id-204803/",
+   "https://pixabay.com/photos/rice-buckwheat-millet-groats-food-4386803/",
+   "https://pixabay.com/videos/id-358513/",
+   "https://pixabay.com/photos/city-china-night-sky-skyscrapers-10545076/",
+   "https://pixabay.com/videos/id-64594/",
+   "https://pixabay.com/videos/id-3188/",
+   "https://pixabay.com/videos/id-736/",
+   "https://pixabay.com/photos/dog-pet-animal-canine-fur-leash-7876539/"
+  ],
+  "cc_clips": [],
+  "duration": 52.87,
+  "matches": [
+   1.0,
+   0.98,
+   1.0,
+   1.0,
+   0.99,
+   0.99,
+   0.93,
+   0.93,
+   1.0,
+   0.96,
+   0.98,
+   0.98,
+   0.95,
+   0.95,
+   0.95,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.99,
+   0.99,
+   0.94,
+   1.0
+  ],
+  "sfx": 22,
+  "illustrations": 18,
+  "cuts": 23,
+  "layout_issues": [],
+  "caption_breaks": [
+   "반려동물 / 장례식장 (55)"
+  ],
+  "title": "아내한테 추모사 대본 보낸 남편이 말한 고인 #shorts",
+  "source_post": "https://n.news.naver.com/article/025/0003564122",
+  "facts_used": [
+   "지난 9일 온라인 커뮤니티 글, 결혼 3년 차 직장인 A씨, 40대 시누이가 친자식처럼 키운 반려견이 죽음 — 아시아경제 2026-11-10 https://view.asiae.co.kr/article/2026111018325624551 , 파이낸셜뉴스 https://www.fnnews.com/news/202611100802564680",
+   "남편이 연차 내고 검은 정장 상복·검은 리본 차림으로 참석 요구 — 아시아경제, 뉴스1 https://www.news1.kr/society/general-society/6347876 , 중앙일보 https://n.news.naver.com/article/025/0003564122",
+   "'상복 입고 와서 두 번 절하고 추모 편지 낭독 순서랑 촛불 기도까지 다 채우고 가라', 추모사 대본을 카카오톡으로 보냄 — 문화일보 https://www.munhwa.com/article/11630084 , 위키트리 https://www.wikitree.co.kr/articles/1173299 , 인사이트 https://www.insight.co.kr/news/581389",
+   "반려동물 장례식장 VIP실, 조의금 명목 10만 원 송금(죽이나 영양제라도 사 먹으라는 뜻) — 위키트리, 인사이트, 파이낸셜뉴스",
+   "본부장 주재 분기 핵심 보고로 연차 불가, 잠깐 들르겠다고 함 — 아시아경제, 파이낸셜뉴스",
+   "남편 '너 같은 사이코패스 냉혈한이랑은 소름 돋아서 못 살겠다', 시어머니에게 연락, 시어머니 '정 없는 사람' — 아시아경제, 네이트(아시아경제) https://news.nate.com/view/20261110n32527 , 파이낸셜뉴스",
+   "누리꾼 '상식 밖의 강요', '막장 드라마냐', 슬픔과 별개로 상대 의사 존중해야 — 문화일보·위키트리 보도 인용(검색 확인)"
+  ],
+  "slug": "2026-11-11_1200_sister-in-law-dog-funeral-script",
+  "late": false,
+  "video_id": "xwSEJBBFQio",
+  "url": "https://youtube.com/shorts/xwSEJBBFQio",
+  "privacy": "private",
+  "scheduled_for": "2026-11-11T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af3c0ebffe2872794e49efe",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-11T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-11_1200_sister-in-law-dog-funeral-script/video.mp4"
+  },
+  "seconds": 3126
  }
 ]
