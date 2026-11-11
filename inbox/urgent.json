@@ -1,11 +1,54 @@
 {
- "detected_at": "2026-11-12T00:36+09:00",
+ "detected_at": "2026-11-12T07:16+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 조정식 국회의장 \"현직 대통령 연임은 불가\"",
-   "url": "https://n.news.naver.com/article/014/0005602564",
-   "press": "파이낸셜뉴스",
+   "title": "李, 김민석·한병도와 만찬서 “당정 한 뜻으로 움직여야” 언급한 이유는",
+   "url": "https://n.news.naver.com/article/366/0001204169",
+   "press": "조선비즈",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "연합뉴스",
+     "title": "李대통령 \"당정 한마음 움직여야\"…김민석 \"양극화 대책 필요\"(종합)",
+     "url": "https://n.news.naver.com/article/001/0016436999"
+    },
+    {
+     "press": "뉴시스",
+     "title": "이 대통령, 김민석·한병도와 만찬서 \"당정 한마음 한뜻 움직여야\"(종합)",
+     "url": "https://n.news.naver.com/article/003/0014316904"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "“종부세 ‘종’ 자도 안 나왔다”는 청와대 만찬···이 대통령, 여 지도부에 “당정 한마음 한뜻 움직여야”",
+   "url": "https://n.news.naver.com/article/032/0003482184",
+   "press": "경향신문",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "서울신문",
+     "title": "李대통령, 與지도부에 “당정, 한마음으로 움직여야…예산안 협조 당부”",
+     "url": "https://n.news.naver.com/article/081/0003698443"
+    },
+    {
+     "press": "연합뉴스",
+     "title": "李대통령 \"당정 한마음 움직여야\"…김민석 \"양극화 대책 필요\"(종합)",
+     "url": "https://n.news.naver.com/article/001/0016436999"
+    },
+    {
+     "press": "뉴시스",
+     "title": "이 대통령, 김민석·한병도와 만찬서 \"당정 한마음 한뜻 움직여야\"(종합)",
+     "url": "https://n.news.naver.com/article/003/0014316904"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 美 반도체지수 5.66% 급등…마이크론 12%·SK하닉 ADR 10%↑",
+   "url": "https://n.news.naver.com/article/421/0009284497",
+   "press": "뉴스1",
    "why": "[속보] 기사",
    "related": []
   }
