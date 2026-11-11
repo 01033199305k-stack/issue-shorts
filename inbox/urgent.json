@@ -1,43 +1,32 @@
 {
- "detected_at": "2026-11-10T20:44+09:00",
+ "detected_at": "2026-11-11T09:10+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] ‘군복무 특혜의혹’ 추미애 아들, 다시 수사받는다…공소청, 수사 재기",
-   "url": "https://n.news.naver.com/article/029/0003058274",
-   "press": "디지털타임스",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "\"담뱃값 올려야…4,500원→8,500원\" 주장 나왔다",
+   "url": "https://n.news.naver.com/article/055/0001402143",
+   "press": "SBS",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "kbc광주방송",
-     "title": "'군 휴가 특혜 의혹' 추미애 아들 귀국...공소청, 2년 만에 수사 재개",
-     "url": "https://n.news.naver.com/article/660/0000121021"
+     "press": "경기일보",
+     "title": "“담배 한 갑에 8천500원?”…흡연자들 ‘가슴 졸일’ 주장 나왔다",
+     "url": "https://n.news.naver.com/article/666/0000131455"
+    },
+    {
+     "press": "아이뉴스24",
+     "title": "11년간 동결 \"담뱃값 8500원으로 올려야\"…흡연률 낮아질 것",
+     "url": "https://n.news.naver.com/article/031/0001073925"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "추미애 지사 아들 출국금지…군휴가 특혜 의혹 재수사",
-   "url": "https://n.news.naver.com/article/449/0000367009",
-   "press": "채널A",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선일보",
-     "title": "‘무혐의’ 처분받고 해외 뜬 추미애 지사 아들… 귀국하자 ‘출국금지·재수사’",
-     "url": "https://n.news.naver.com/article/023/0004008808"
-    },
-    {
-     "press": "kbc광주방송",
-     "title": "'군 휴가 특혜 의혹' 추미애 아들 귀국...공소청, 2년 만에 수사 재개",
-     "url": "https://n.news.naver.com/article/660/0000121021"
-    },
-    {
-     "press": "한국일보",
-     "title": "추미애 지사 아들 출국금지… '군 휴가 특혜 의혹' 수사 재개",
-     "url": "https://n.news.naver.com/article/469/0000964744"
-    }
-   ]
+   "title": "[속보] 이용철 후보 “공소취소 관련 의견 드리는 것 적절치 않아”",
+   "url": "https://n.news.naver.com/article/024/0000109543",
+   "press": "매경이코노미",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
