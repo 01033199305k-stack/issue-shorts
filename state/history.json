@@ -7188,5 +7188,81 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-11_1800_burnt-mackerel-regular-refund/video.mp4"
   },
   "seconds": 2487
+ },
+ {
+  "key": "2026-11-12-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-12T07:00:00+09:00",
+  "started": "2026-11-12T04:23:57.208917+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-216247/",
+   "https://pixabay.com/videos/id-339975/",
+   "https://pixabay.com/videos/id-321173/",
+   "https://pixabay.com/photos/road-curve-trees-highway-leaves-5704083/",
+   "https://pixabay.com/photos/charging-station-electric-gas-station-4636710/",
+   "https://pixabay.com/videos/id-4053/",
+   "https://pixabay.com/videos/id-15748/",
+   "https://pixabay.com/photos/road-street-winding-winding-road-6175186/",
+   "https://pixabay.com/videos/id-44718/"
+  ],
+  "cc_clips": [],
+  "duration": 54.73,
+  "matches": [
+   1.0,
+   0.95,
+   1.0,
+   1.0,
+   1.0,
+   0.92,
+   0.97,
+   0.99,
+   0.99,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   0.99,
+   0.99,
+   0.96,
+   1.0,
+   1.0,
+   0.98,
+   0.98,
+   1.0
+  ],
+  "sfx": 22,
+  "illustrations": 17,
+  "cuts": 23,
+  "layout_issues": [],
+  "caption_breaks": [
+   "제주 / 여행 (55)"
+  ],
+  "title": "차도 달리던 제주 러너가 경적 소리에 한 말 #shorts",
+  "source_post": "https://www.fnnews.com/news/202611111452153498",
+  "facts_used": [
+   "9월 말 가족과 제주 여행 중 굽은 도로에서 차도 안쪽을 달리는 남성을 만남 — 이데일리 2026-11-11 https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02765046645644736 , 한국경제 https://www.hankyung.com/article/2026111112997",
+   "반대편 차량이 잘 보이지 않아 중앙선을 넘어 피해 가기 어려웠음 — 이데일리, 한국경제, 파이낸셜뉴스 https://www.fnnews.com/news/202611111452153498",
+   "전기차라 주행 소리가 작아 접근을 알리려고 경적을 살짝 울림 — 이데일리, 한국경제, 한국경제TV https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611110019",
+   "남성이 '피해 가면 되잖아'라며 욕설 — 파이낸셜뉴스, 한국경제TV, 데일리안 https://www.dailian.co.kr/news/view/1713810 , JTBC(네이버 댓글 많은 기사 제목)",
+   "블랙박스 영상은 약 15초 이후 녹화가 이어지지 않아 욕설 부분은 담기지 않음 — 이데일리, 한국경제",
+   "누리꾼 '도로가 본인 전용 러닝 트랙인 줄 아느냐', '왜 차도에서 뛰나', 벌금·법 개정 주장, 러닝 편견 걱정 반응 — 파이낸셜뉴스, 한국경제, 이데일리",
+   "러너 측 입장은 보도되지 않음 — 위 보도 전체"
+  ],
+  "slug": "2026-11-12_0700_jeju-road-runner-horn-curse",
+  "late": false,
+  "video_id": "GoIDA75mViw",
+  "url": "https://youtube.com/shorts/GoIDA75mViw",
+  "privacy": "private",
+  "scheduled_for": "2026-11-11T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af4cf62ceae26a3a50ff21e",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-11T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-12_0700_jeju-road-runner-horn-curse/video.mp4"
+  },
+  "seconds": 3735
  }
 ]
