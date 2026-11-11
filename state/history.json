@@ -7113,5 +7113,80 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-11_1200_sister-in-law-dog-funeral-script/video.mp4"
   },
   "seconds": 3126
+ },
+ {
+  "key": "2026-11-11-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-11T18:00:00+09:00",
+  "started": "2026-11-11T15:16:25.552104+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-11682/",
+   "https://pixabay.com/videos/id-6410/",
+   "https://pixabay.com/photos/food-asian-prawns-noodles-sticks-4773380/",
+   "https://pixabay.com/photos/rice-bowl-white-rice-side-dish-10370578/",
+   "https://pixabay.com/videos/id-9728/",
+   "https://pixabay.com/videos/id-14127/",
+   "https://pixabay.com/videos/id-1495/",
+   "https://pixabay.com/videos/id-64594/",
+   "https://pixabay.com/videos/id-3188/",
+   "https://pixabay.com/videos/id-736/",
+   "https://pixabay.com/photos/sign-open-open-sign-business-store-1781609/"
+  ],
+  "cc_clips": [],
+  "duration": 49.2,
+  "matches": [
+   1.0,
+   0.9,
+   0.99,
+   0.99,
+   1.0,
+   0.94,
+   0.94,
+   0.98,
+   0.98,
+   1.0,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   0.96
+  ],
+  "sfx": 19,
+  "illustrations": 12,
+  "cuts": 20,
+  "layout_issues": [],
+  "caption_breaks": [
+   "했어야 / 한다는 (70)"
+  ],
+  "title": "숯 고등어 항의한 단골이 직원한테 들은 답 #shorts",
+  "source_post": "https://n.news.naver.com/article/366/0001203990",
+  "facts_used": [
+   "11월 9일 보배드림 글, 단골 식당에서 한쪽 면이 새까맣게 탄 고등어구이를 받음 — 파이낸셜뉴스 2026-11-11 https://www.fnnews.com/news/202611110744574787 , 시대 https://www.sidae.com/article/2026111109290796210",
+   "항의하자 '어차피 다 먹으니 살만 뜯어 먹으면 되지 않느냐'는 취지 반응 — 아이뉴스24 http://inews24.com/view/2024852 , 파이낸셜뉴스, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=484138",
+   "사장이 '단골인데 이해 못 하느냐'며 숭늉·공깃밥을 서비스로 줬다고 맞섬 — 아이뉴스24, 시대",
+   "다시 구워 주겠다고 했지만 환불은 거부, '내 가게가 호텔도 아니고 뭘 더 바라냐' — 시대, 파이낸셜뉴스, 조선비즈(네이버 댓글 많은 기사 제목)",
+   "주방에서 '예민하다', '집에서 해 먹어라' — 연합뉴스TV(제목 '예민하다·뭘 바라냐'), 시대, 스페셜타임스",
+   "직원에게 확인한 결과 탄 사실을 알고도 손님에게 내보냈다는 답, 통화 녹취 보유 — 파이낸셜뉴스, 아이뉴스24, 한국경제TV https://www.wowtv.co.kr/NewsCenter/News/Read?articleId=A202611110093",
+   "누리꾼 다수가 먼저 잘못을 인정하고 사과했어야 한다며 비판, 식당 측 입장 미확인 — 파이낸셜뉴스, 스페셜타임스"
+  ],
+  "slug": "2026-11-11_1800_burnt-mackerel-regular-refund",
+  "late": false,
+  "video_id": "I68dgRij2OM",
+  "url": "https://youtube.com/shorts/I68dgRij2OM",
+  "privacy": "private",
+  "scheduled_for": "2026-11-11T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af411ef1da76fd3d2c85377",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-11T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-11_1800_burnt-mackerel-regular-refund/video.mp4"
+  },
+  "seconds": 2487
  }
 ]
