@@ -7418,5 +7418,80 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-12_1800_baby-wipe-patrol-car-road/video.mp4"
   },
   "seconds": 3281
+ },
+ {
+  "key": "2026-11-13-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-13T07:00:00+09:00",
+  "started": "2026-11-13T04:19:07.550936+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-94979/",
+   "https://pixabay.com/photos/tteokbokki-food-snack-snack-bar-2545943/",
+   "https://pixabay.com/videos/id-182761/",
+   "https://pixabay.com/photos/sign-open-open-sign-business-store-1781609/",
+   "https://pixabay.com/photos/cash-register-drawer-cash-register-1885558/",
+   "https://pixabay.com/photos/moss-dewdrop-forest-floor-wet-3101476/",
+   "https://pixabay.com/videos/id-3176/",
+   "https://pixabay.com/videos/id-201947/"
+  ],
+  "cc_clips": [],
+  "duration": 51.21,
+  "matches": [
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   0.98,
+   0.98,
+   0.98,
+   0.99,
+   0.99,
+   0.99,
+   0.91,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   1.0
+  ],
+  "sfx": 22,
+  "illustrations": 15,
+  "cuts": 23,
+  "layout_issues": [],
+  "caption_breaks": [
+   "시간쯤 / 청소한다”고 (55)"
+  ],
+  "title": "밥 먹는 손님 옆에서 물청소한 사장의 해명 #shorts",
+  "source_post": "https://www.fnnews.com/news/202611111429329718",
+  "facts_used": [
+   "30대 여성 A씨가 지인과 늦은 저녁을 먹으러 백반집에 감, 식사 시작 약 30분 뒤 직원들이 테이블 위에 의자를 올리기 시작하고 바닥에 물을 뿌려 청소 — 파이낸셜뉴스 2026-11-11 https://www.fnnews.com/news/202611111429329718 , 뉴시스 계열 보도(뉴스통 전재) https://www.newstong.co.kr/view3.aspx?seq=14808702",
+   "당시 마감까지 30분 이상 남아 있었고, 다른 손님들도 눈치를 보며 서둘러 나감 — 위 두 보도",
+   "결제하며 항의하자 사장은 '마감이 얼마 안 남아서 원래 이 시간쯤 청소를 시작한다', '조금 일찍 퇴근하려는 것이니 이해해 달라'고 답함 — 위 두 보도",
+   "손수호 변호사: 마감 전 일부 정리는 이해하지만 물청소에 의자까지 테이블에 거꾸로 올리는 건 업계 통상 예에 비춰 납득하기 어렵다 — 위 두 보도",
+   "박상희 심리학 교수: 마감 10분 전까지는 이해할 수 있지만 30분 전 물청소는 식사하는 손님에게 불편 — 파이낸셜뉴스",
+   "시청자 반응: 손님이 있을 때 청소할 거면 그 시간에는 손님을 받지 말아야 — 파이낸셜뉴스",
+   "JTBC 사건반장 11/10 방송 소개 사연 — 위 두 보도"
+  ],
+  "slug": "2026-11-13_0700_restaurant-mop-before-closing",
+  "late": false,
+  "video_id": "o2BvPj_vR3I",
+  "url": "https://youtube.com/shorts/o2BvPj_vR3I",
+  "privacy": "private",
+  "scheduled_for": "2026-11-12T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af61e0f76b8df0929bc42ba",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-12T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-13_0700_restaurant-mop-before-closing/video.mp4"
+  },
+  "seconds": 3301
  }
 ]
