@@ -1,114 +1,36 @@
 {
- "detected_at": "2026-11-12T12:20+09:00",
+ "detected_at": "2026-11-12T20:49+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보]李 “이재용 회장 과감한 투자 결정-신속한 집행력에 깊이 감사”",
-   "url": "https://n.news.naver.com/article/025/0003564683",
+   "title": "장동혁, 한동훈 겨냥 “당게 사건은 패륜·조작·분열의 씨앗”",
+   "url": "https://n.news.naver.com/article/025/0003564819",
    "press": "중앙일보",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "세계일보",
-     "title": "[속보] 李 대통령 “삼성의 투자·집행력에 감사”…‘충청권 메가프로젝트’ 첫 삽",
-     "url": "https://n.news.naver.com/article/022/0004174599"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "\"차라리 창당하라\"…안철수, 한동훈 복당론에 \"물귀신\" 격앙",
-   "url": "https://n.news.naver.com/article/586/0000142103",
-   "press": "시사저널",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "이데일리",
-     "title": "안철수, 한동훈 복당론 비판 \"물귀신 행태…차라리 창당하라\"",
-     "url": "https://n.news.naver.com/article/018/0006408589"
-    },
-    {
-     "press": "머니투데이",
-     "title": "안철수, 한동훈 복당 요구에 \"물귀신 행태…차라리 창당을 하라\"",
-     "url": "https://n.news.naver.com/article/008/0005440008"
-    },
-    {
-     "press": "문화일보",
-     "title": "[속보]안철수, 한동훈 복당론에 “물귀신…차라리 창당을 하라”",
-     "url": "https://n.news.naver.com/article/021/0002832225"
-    },
-    {
-     "press": "채널A",
-     "title": "안철수, 한동훈 복당론에 “다 같이 복당의 강에 빠져 죽자는 것…차라리 창당하라”",
-     "url": "https://n.news.naver.com/article/449/0000367231"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]대법, '김건희 집사게이트' IMS모빌리티 대표 무죄·공소기각 확정",
-   "url": "https://n.news.naver.com/article/277/0005841693",
-   "press": "아시아경제",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 이 대통령 지지율 44%…민주 35%·국힘 25% [NBS]",
-   "url": "https://n.news.naver.com/article/009/0005762623",
-   "press": "매일경제",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "이 대통령, 16~19일 필리핀·중국 순방…ASEAN·APEC 참석",
-   "url": "https://n.news.naver.com/article/056/0012292306",
-   "press": "KBS",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "국민일보",
-     "title": "李대통령, 16∼19일 필리핀 아세안·中 APEC 참석",
-     "url": "https://n.news.naver.com/article/005/0001884680"
+     "press": "동아일보",
+     "title": "장동혁, 한동훈 복당론에 “패륜 정치 받아들이자는 건가”",
+     "url": "https://n.news.naver.com/article/020/0003762113"
     },
     {
-     "press": "연합뉴스TV",
-     "title": "[속보] 이 대통령, 16~19일 아세안·에이팩 순방",
-     "url": "https://n.news.naver.com/article/422/0000925360"
+     "press": "MBN",
+     "title": "'조작 징계' 의혹 속 장동혁 \"한동훈 복당, 1도 고려 안 해\"",
+     "url": "https://n.news.naver.com/article/057/0001977908"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "나경원 \"당나라 군대냐\" 지적에 강신철 \"말씀 취소하라\" 반발",
-   "url": "https://n.news.naver.com/article/214/0001535080",
-   "press": "MBC",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "JTBC",
-     "title": "나경원 \"당나라 군대냐\"…국방부 장관 \"취소해달라\" 발끈 [소셜픽]",
-     "url": "https://n.news.naver.com/article/437/0000520347"
-    },
-    {
-     "press": "매일신문",
-     "title": "나경원 \"당나라 군대인가\" vs 강신철 \"말씀 취소하라\"…국회서 고성",
-     "url": "https://n.news.naver.com/article/088/0001039844"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]나라살림 적자, 8년만 최소",
-   "url": "https://n.news.naver.com/article/050/0000113153",
-   "press": "한경비즈니스",
+   "title": "[속보] \"이재명 두 아들 군 면제\" 허위 글 올린 이수정 항소심도 벌금 300만원",
+   "url": "https://n.news.naver.com/article/654/0000210954",
+   "press": "강원도민일보",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
      "press": "연합뉴스",
-     "title": "9월까지 나라살림 적자 32조, 8년만 최소…세수호조에 3분의 1로",
-     "url": "https://n.news.naver.com/article/001/0016437593"
+     "title": "\"이재명 아들 군면제\" 허위글 이수정 2심도 벌금 300만원",
+     "url": "https://n.news.naver.com/article/001/0016438755"
     }
    ]
   }
