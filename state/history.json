@@ -7264,5 +7264,84 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-12_0700_jeju-road-runner-horn-curse/video.mp4"
   },
   "seconds": 3735
+ },
+ {
+  "key": "2026-11-12-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-12T12:00:00+09:00",
+  "started": "2026-11-12T09:19:00.359114+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/dentures-teeth-dental-technician-759929/",
+   "https://pixabay.com/videos/id-293084/",
+   "https://pixabay.com/videos/id-3180/",
+   "https://pixabay.com/videos/id-736/",
+   "https://pixabay.com/photos/euro-seem-money-finance-piggy-bank-870757/",
+   "https://pixabay.com/videos/id-197974/",
+   "https://pixabay.com/videos/id-100816/",
+   "https://pixabay.com/videos/id-11323/",
+   "https://pixabay.com/videos/id-209890/",
+   "https://pixabay.com/videos/id-11722/"
+  ],
+  "cc_clips": [],
+  "duration": 51.38,
+  "matches": [
+   0.84,
+   1.0,
+   0.97,
+   0.97,
+   0.93,
+   1.0,
+   1.0,
+   0.95,
+   0.95,
+   0.98,
+   0.98,
+   1.0,
+   1.0,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.98,
+   0.98,
+   0.98,
+   0.98,
+   0.97,
+   0.89
+  ],
+  "sfx": 23,
+  "illustrations": 13,
+  "cuts": 24,
+  "layout_issues": [],
+  "caption_breaks": [
+   "어머니 / 틀니 (55)",
+   "장모님 / 이름이었던 (55)"
+  ],
+  "title": "엄마 틀니값 반대한 아내 통장에 찍힌 이름 #shorts",
+  "source_post": "https://www.fnnews.com/news/202611060854262059",
+  "facts_used": [
+   "결혼 12년 차, 아내가 가계(남편 월급) 관리 — 위키트리 2026-11-06 https://www.wikitree.co.kr/articles/1172628 , 한국경제 https://www.hankyung.com/article/2026110610187",
+   "작년 시어머니 틀니 비용 200만 원 얘기에 아내 '우리 형편에 무슨 200만원이냐', 눈치 보다 반만 드림 — 파이낸셜뉴스 2026-11-06 https://www.fnnews.com/news/202611060854262059 , 한국경제 https://www.hankyung.com/article/2026110610187",
+   "연말정산 서류 때문에 처음 은행 앱을 설치, 스크롤을 내리다 매달 5일마다 장모님 이름으로 80만 원씩 빠져나가는 걸 봄 — 파이낸셜뉴스, 위키트리",
+   "4년 넘게, 누적 약 4천만 원(남편 계산) — 파이낸셜뉴스, 위키트리, 한국경제",
+   "아내 '말하면 당신이 싫어할 거니까 안 했다' — 위키트리, 한국경제('반대할까 봐')",
+   "아내 '12년 동안 애 둘 키우면서 파트타임까지 뛰었고, 내 돈도 들어갔는데' — 한국경제, 위키트리",
+   "남편이 월급 통장을 직접 관리하겠다고 했고 아내는 며칠째 말을 안 함, 돈을 돌려받거나 지원을 끊으려는 건 아니고 상의가 없던 게 속상 — 한국경제, 파이낸셜뉴스"
+  ],
+  "slug": "2026-11-12_1200_wife-secret-transfer-dentures",
+  "late": false,
+  "video_id": "Vco3Me158J4",
+  "url": "https://youtube.com/shorts/Vco3Me158J4",
+  "privacy": "private",
+  "scheduled_for": "2026-11-12T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af513712f7f0a6952e11e18",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-12T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-12_1200_wife-secret-transfer-dentures/video.mp4"
+  },
+  "seconds": 3454
  }
 ]
