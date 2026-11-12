@@ -1,46 +1,114 @@
 {
- "detected_at": "2026-11-12T09:10+09:00",
+ "detected_at": "2026-11-12T12:20+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 엔비디아 이사회, 젠슨황 CEO 해임 추진",
-   "url": "https://n.news.naver.com/article/018/0006408550",
-   "press": "이데일리",
-   "why": "[속보] 기사 + 언론사 5곳이 댓글 많은 기사 1위로",
+   "title": "[속보]李 “이재용 회장 과감한 투자 결정-신속한 집행력에 깊이 감사”",
+   "url": "https://n.news.naver.com/article/025/0003564683",
+   "press": "중앙일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "서울신문",
-     "title": "젠슨 황, 엔비디아 부사장과도 불륜 의혹…“이사회, 해임 준비”",
-     "url": "https://n.news.naver.com/article/081/0003698558"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "[속보] \"엔비디아 이사회, 젠슨황 CEO 해임 준비\"",
-     "url": "https://n.news.naver.com/article/422/0000925324"
-    },
-    {
-     "press": "매경이코노미",
-     "title": "[속보] “엔비디아 이사회, 젠슨 황 해임 준비…이르면 오늘 회의”",
-     "url": "https://n.news.naver.com/article/024/0000109570"
-    },
-    {
-     "press": "한경비즈니스",
-     "title": "“젠슨 황 CEO 해임 위기”",
-     "url": "https://n.news.naver.com/article/050/0000113139"
+     "press": "세계일보",
+     "title": "[속보] 李 대통령 “삼성의 투자·집행력에 감사”…‘충청권 메가프로젝트’ 첫 삽",
+     "url": "https://n.news.naver.com/article/022/0004174599"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] “젠슨황, 엔비디아 여성 임원과도 혼외관계”…‘사내불륜’ 추가 폭로",
-   "url": "https://n.news.naver.com/article/087/0001230342",
-   "press": "강원일보",
+   "title": "\"차라리 창당하라\"…안철수, 한동훈 복당론에 \"물귀신\" 격앙",
+   "url": "https://n.news.naver.com/article/586/0000142103",
+   "press": "시사저널",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "이데일리",
+     "title": "안철수, 한동훈 복당론 비판 \"물귀신 행태…차라리 창당하라\"",
+     "url": "https://n.news.naver.com/article/018/0006408589"
+    },
+    {
+     "press": "머니투데이",
+     "title": "안철수, 한동훈 복당 요구에 \"물귀신 행태…차라리 창당을 하라\"",
+     "url": "https://n.news.naver.com/article/008/0005440008"
+    },
+    {
+     "press": "문화일보",
+     "title": "[속보]안철수, 한동훈 복당론에 “물귀신…차라리 창당을 하라”",
+     "url": "https://n.news.naver.com/article/021/0002832225"
+    },
+    {
+     "press": "채널A",
+     "title": "안철수, 한동훈 복당론에 “다 같이 복당의 강에 빠져 죽자는 것…차라리 창당하라”",
+     "url": "https://n.news.naver.com/article/449/0000367231"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]대법, '김건희 집사게이트' IMS모빌리티 대표 무죄·공소기각 확정",
+   "url": "https://n.news.naver.com/article/277/0005841693",
+   "press": "아시아경제",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 이 대통령 지지율 44%…민주 35%·국힘 25% [NBS]",
+   "url": "https://n.news.naver.com/article/009/0005762623",
+   "press": "매일경제",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "이 대통령, 16~19일 필리핀·중국 순방…ASEAN·APEC 참석",
+   "url": "https://n.news.naver.com/article/056/0012292306",
+   "press": "KBS",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "국민일보",
+     "title": "李대통령, 16∼19일 필리핀 아세안·中 APEC 참석",
+     "url": "https://n.news.naver.com/article/005/0001884680"
+    },
+    {
+     "press": "연합뉴스TV",
+     "title": "[속보] 이 대통령, 16~19일 아세안·에이팩 순방",
+     "url": "https://n.news.naver.com/article/422/0000925360"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "나경원 \"당나라 군대냐\" 지적에 강신철 \"말씀 취소하라\" 반발",
+   "url": "https://n.news.naver.com/article/214/0001535080",
+   "press": "MBC",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "JTBC",
+     "title": "나경원 \"당나라 군대냐\"…국방부 장관 \"취소해달라\" 발끈 [소셜픽]",
+     "url": "https://n.news.naver.com/article/437/0000520347"
+    },
+    {
+     "press": "매일신문",
+     "title": "나경원 \"당나라 군대인가\" vs 강신철 \"말씀 취소하라\"…국회서 고성",
+     "url": "https://n.news.naver.com/article/088/0001039844"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]나라살림 적자, 8년만 최소",
+   "url": "https://n.news.naver.com/article/050/0000113153",
+   "press": "한경비즈니스",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
      "press": "연합뉴스",
-     "title": "젠슨황 '사내불륜' 추가 폭로…NYT \"엔비디아 임원과 혼외관계\"",
-     "url": "https://n.news.naver.com/article/001/0016437196"
+     "title": "9월까지 나라살림 적자 32조, 8년만 최소…세수호조에 3분의 1로",
+     "url": "https://n.news.naver.com/article/001/0016437593"
     }
    ]
   }
