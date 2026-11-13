@@ -7566,5 +7566,77 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-13_1200_chicken-shop-fired-worker-safe/video.mp4"
   },
   "seconds": 2621
+ },
+ {
+  "key": "2026-11-13-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-13T18:00:00+09:00",
+  "started": "2026-11-13T15:19:00.850670+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-11576/",
+   "https://pixabay.com/photos/australian-shepherd-australia-friend-7664795/",
+   "https://pixabay.com/videos/id-32971/",
+   "https://pixabay.com/photos/car-police-car-police-cops-road-6398127/",
+   "https://pixabay.com/videos/id-54040/",
+   "https://pixabay.com/photos/gavel-hammer-justice-legal-judge-3577254/",
+   "https://pixabay.com/videos/id-134360/"
+  ],
+  "cc_clips": [],
+  "duration": 51.33,
+  "matches": [
+   1.0,
+   0.97,
+   0.97,
+   0.98,
+   0.98,
+   0.98,
+   0.97,
+   0.97,
+   1.0,
+   1.0,
+   0.97,
+   0.97,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   0.99,
+   1.0,
+   0.96
+  ],
+  "sfx": 20,
+  "illustrations": 17,
+  "cuts": 21,
+  "layout_issues": [],
+  "caption_breaks": [
+   "횡령·동물보호법 / 위반 (55)"
+  ],
+  "title": "20년 거래처 사장한테 맡긴 반려견의 행방 #shorts",
+  "source_post": "https://www.imaeil.com/page/view/2026111216400821555",
+  "facts_used": [
+   "10월 31일 안산 자동차 공업사 가족이 20년 거래해 온 업체 사장 A씨가 개를 키우고 싶다며 거듭 부탁하자 주말 동안만 돌봐 달라며 맡김 — 매일신문 2026-11-12 https://www.imaeil.com/page/view/2026111216400821555 , 헤럴드경제 https://biz.heraldcorp.com/article/10936369 , 더시사법률 https://www.tsisalaw.com/news/article.html?no=31035",
+   "맡긴 지 두 시간이 안 돼 연락했으나 한동안 받지 않음, 연락이 닿자 처음엔 잃어버렸다고 했다가 다른 사람에게 줬다고 말을 바꿔 가족이 경찰에 신고 — 헤럴드경제, 매일신문, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=485105",
+   "추궁 끝에 건강원에 맡겨 개소주로 만들었다고 털어놓음, 건강원 업주는 제작 비용 30만 원을 받았다고 밝힘 — 매일신문, 인사이트 https://www.insight.co.kr/news/581745 , 스페셜타임스",
+   "A씨 '선물로 줬잖아'(매일경제 제목), '내가 못 키울 것 같아서 그냥 개소주로 만들었다. 나는 하나도 안 먹었다' / 가족 '저희는 준 적이 없다' — 헤럴드경제, 인사이트, 서플 https://supple.kr/news/cmwcwuhmi2xg9al9ppf489og8",
+   "공업사 직원과 인근 주민 등 20여 명 엄벌 촉구 진정서, 변호사들은 횡령·절도·동물보호법 위반 가능성 언급 — 매일신문, 인사이트, 더시사법률",
+   "가족은 개소주 봉지를 증거로 보관 — 스페셜타임스, SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008839770",
+   "SBS 뉴스헌터스 2026-11-10 보도"
+  ],
+  "slug": "2026-11-13_1800_dog-left-weekend-turned-tonic",
+  "late": false,
+  "video_id": "bpe-N5_kC6o",
+  "url": "https://youtube.com/shorts/bpe-N5_kC6o",
+  "privacy": "private",
+  "scheduled_for": "2026-11-13T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af6b9dcba218f32638598cc",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-13T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-13_1800_dog-left-weekend-turned-tonic/video.mp4"
+  },
+  "seconds": 3593
  }
 ]
