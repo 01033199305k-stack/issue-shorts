@@ -7638,5 +7638,81 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-13_1800_dog-left-weekend-turned-tonic/video.mp4"
   },
   "seconds": 3593
+ },
+ {
+  "key": "2026-11-14-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-14T07:00:00+09:00",
+  "started": "2026-11-14T04:17:09.428542+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/read-knowledge-glasses-a-book-10081277/",
+   "https://pixabay.com/photos/contact-lenses-4792987/",
+   "https://pixabay.com/photos/glasses-spectacles-eyewear-472027/",
+   "https://pixabay.com/videos/id-53707/",
+   "https://pixabay.com/videos/id-90933/",
+   "https://pixabay.com/videos/id-215475/",
+   "https://pixabay.com/photos/laptop-office-home-office-desk-1571702/"
+  ],
+  "cc_clips": [],
+  "duration": 53.29,
+  "matches": [
+   0.95,
+   0.93,
+   0.92,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.95,
+   1.0,
+   0.96,
+   0.96,
+   0.92,
+   0.94,
+   0.94,
+   0.95,
+   0.95,
+   1.0,
+   1.0,
+   0.93,
+   0.95,
+   0.92,
+   1.0
+  ],
+  "sfx": 21,
+  "illustrations": 11,
+  "cuts": 22,
+  "layout_issues": [],
+  "caption_breaks": [
+   "지난달 / 연세대 (55)"
+  ],
+  "title": "결국 수능 앞두고 안경테 바꾼다는 뿔테 수험생들 #shorts",
+  "source_post": "https://www.fnnews.com/news/202611031359326029",
+  "facts_used": [
+   "2027학년도 수능은 2026년 11월 19일 — 연합 계열 [수능 D-10] 보도, 파이낸셜뉴스 11/3 ('오는 19일')",
+   "학부모가 고3 아들의 두꺼운 뿔테를 얇은 메탈테로 바꾸려 10월 말 단골 안경원 방문, AI 안경으로 오해받을까 우려, '뿔테 포비아' — 파이낸셜뉴스 2026-11-03 https://www.fnnews.com/news/202611031359326029",
+   "뿔테 수험생 학부모 '우리 아이는 뿔테 안경을 쓰고 있는데, AI 안경 검사로 괜한 오해가 생길 수도 있고' — 이티뉴스 2026-11-07 https://m.etnews.com/20261107000027",
+   "'안경 자주 만지는데, 설마 내가 부정행위?' '차라리 렌즈를', 눈이 뻑뻑해 렌즈 어렵다는 고민 — twig24 2026-10-26 https://www.twig24.com/news/2026/10/26/20261026500272 , 파이낸셜뉴스",
+   "스마트안경 착용만 해도 중대한 부정행위, 적발 시 시험 무효·다음 해 응시자격 1년 정지, 감독관 요청 시 벗어 책상 위에 놓고 협조 — SBS Biz https://biz.sbs.co.kr/amp/article/20000340222 , 파이낸셜뉴스",
+   "겉보기엔 일반 뿔테, 테 앞 소형 카메라 — 파이낸셜뉴스, 이티뉴스",
+   "10월 연세대 논술 시험장에서 뿔테처럼 보인 스마트안경 적발 — 주간경향 2026-10-13 https://weekly.khan.co.kr/article/202610131916001 , SBS Biz",
+   "전국 시험장 1312곳에 스마트안경 판별 전담요원 1명씩 배치 — https://supple.kr/news/cmw6zl2lbvmdial9pt5drs66m , 교육부 발표 보도",
+   "수험생 카페 '국가시험에서 AI 안경 부정행위 적발사례가 꽤 있는 듯한데 수능장에서 철저히 단속했으면' — 더팩트 https://news.tf.co.kr/read/life/2369816.htm",
+   "교사들 확인하면 민원, 안 하면 책임이라 감독관 기피 — 세계일보 https://www.segye.com/newsView/20260802504559 , twig24"
+  ],
+  "slug": "2026-11-14_0700_glasses-students-exam-worry",
+  "late": false,
+  "video_id": "Iw8RgAS6fAQ",
+  "url": "https://youtube.com/shorts/Iw8RgAS6fAQ",
+  "privacy": "private",
+  "scheduled_for": "2026-11-13T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af76fad81e1228421bfbf7d",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-13T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-14_0700_glasses-students-exam-worry/video.mp4"
+  },
+  "seconds": 3450
  }
 ]
