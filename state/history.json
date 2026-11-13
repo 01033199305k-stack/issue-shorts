@@ -7493,5 +7493,78 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-13_0700_restaurant-mop-before-closing/video.mp4"
   },
   "seconds": 3301
+ },
+ {
+  "key": "2026-11-13-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-13T12:00:00+09:00",
+  "started": "2026-11-13T09:19:29.384306+09:00",
+  "stock_clips": [
+   "https://pixabay.com/photos/fried-chicken-chicken-fried-crunchy-250863/",
+   "https://pixabay.com/videos/id-174262/",
+   "https://pixabay.com/videos/id-23842/",
+   "https://pixabay.com/videos/id-169446/",
+   "https://pixabay.com/videos/id-63970/",
+   "https://pixabay.com/photos/cctv-surveillance-camera-cctv-7267551/",
+   "https://pixabay.com/videos/id-6095/",
+   "https://pixabay.com/photos/hands-phone-smartphone-electronics-1851218/",
+   "https://pixabay.com/photos/car-police-car-police-cops-road-6398127/"
+  ],
+  "cc_clips": [],
+  "duration": 51.82,
+  "matches": [
+   0.95,
+   0.93,
+   0.97,
+   0.97,
+   1.0,
+   1.0,
+   0.97,
+   0.93,
+   0.93,
+   0.95,
+   1.0,
+   0.94,
+   1.0,
+   0.97,
+   0.99,
+   0.98,
+   1.0,
+   1.0,
+   0.95,
+   1.0
+  ],
+  "sfx": 19,
+  "illustrations": 13,
+  "cuts": 20,
+  "layout_issues": [],
+  "caption_breaks": [
+   "자진 / 출석하겠다고 (55)"
+  ],
+  "title": "가불 40만 원 받고 잘린 직원의 새벽 출근 #shorts",
+  "source_post": "https://www.news1.kr/society/general-society/6350117",
+  "facts_used": [
+   "경기 의정부 치킨집 직원 B씨 약 2개월 근무, 출근 당일 몸이 아프다며 여러 차례 결근 — 파이낸셜뉴스 2026-11-12 https://www.fnnews.com/news/202611120956206375 , 뉴스1 https://www.news1.kr/society/general-society/6350117",
+   "식대 등 포함 약 40만원 가불받은 뒤에도 무단결근 반복, 사장 A씨가 해고 — 파이낸셜뉴스, 뉴스1, 서플 https://supple.kr/news/cmwbbc22biogral9p8pvadw4l",
+   "사장 메시지 '사람 고쳐 쓰는 거 아니라더니 딱 맞다. 사기죄로 신고할 것', 직원 '언제 봤다고 그리 말하냐'며 반발 — 뉴스1, 파이낸셜뉴스",
+   "메시지를 주고받은 다음 날 새벽, 후드를 눌러쓴 남성이 들어서자마자 계산대로 가 금고에서 현금을 꺼내 달아나는 모습이 CCTV에 찍힘. 6일 출근한 사장이 현금 약 33만원이 사라진 것 확인 — 파이낸셜뉴스, 뉴스1, 서플",
+   "사장은 큰 키와 걸음걸이로 전 직원임을 알아보고 경찰에 신고 — 파이낸셜뉴스, 서플",
+   "직원은 경찰에 휴대전화가 정지돼 이제 연락을 확인했다며 이번 주 금요일(13일) 자진 출석하겠다고 함, 절도 사건으로 수사 중 — 파이낸셜뉴스, 서플",
+   "JTBC 사건반장 11/11(일부 매체 10일) 방송 사연"
+  ],
+  "slug": "2026-11-13_1200_chicken-shop-fired-worker-safe",
+  "late": false,
+  "video_id": "0CpQVGxLXzo",
+  "url": "https://youtube.com/shorts/0CpQVGxLXzo",
+  "privacy": "private",
+  "scheduled_for": "2026-11-13T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af661ccda25c4db3e886ca0",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-13T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-13_1200_chicken-shop-fired-worker-safe/video.mp4"
+  },
+  "seconds": 2621
  }
 ]
