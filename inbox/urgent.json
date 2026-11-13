@@ -1,75 +1,60 @@
 {
- "detected_at": "2026-11-13T09:10+09:00",
+ "detected_at": "2026-11-13T15:11+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "김민석, 잇단 구설수 최민희 ‘윤리감찰’ 지시…“발언 내용 왜곡돼”",
-   "url": "https://n.news.naver.com/article/056/0012293070",
-   "press": "KBS",
+   "title": "김민석 \"조희대 사법부, 선 넘지 말라\"... \"한덕수 석방은 내란 부활 상징\"",
+   "url": "https://n.news.naver.com/article/469/0000965378",
+   "press": "한국일보",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "JTBC",
-     "title": "청와대 \"'이 대통령, 윤석열 탄핵 반대' 최민희 발언 강한 유감\"…김민석, 감찰 지시",
-     "url": "https://n.news.naver.com/article/437/0000520511"
+     "press": "경향신문",
+     "title": "김민석 “한덕수 석방은 국민적 금기선…이후 모든 상황은 조희대 책임져야”",
+     "url": "https://n.news.naver.com/article/032/0003482513"
     },
     {
-     "press": "kbc광주방송",
-     "title": "김민석, '언행 논란' 최민희 즉시 감찰 지시 \"심각 인식\"… '李대통령 尹탄핵반대' 발언 등 잇단 설화",
-     "url": "https://n.news.naver.com/article/660/0000121222"
+     "press": "강원일보",
+     "title": "김민석 “한덕수 석방은 내란 부활 상징하는 국민적 금기선…넘지 말아야 할 선이 있다는 점 조희대 사법부에 경고\"",
+     "url": "https://n.news.naver.com/article/087/0001230692"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "'불명예 퇴진' 젠슨 황, 3번째 불륜 의혹…\"또 다른 여직원과 내연 관계\"",
-   "url": "https://n.news.naver.com/article/008/0005440634",
-   "press": "머니투데이",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 경찰, '아파트 부정청약 의혹' 이혜훈 사기 혐의 송치",
+   "url": "https://n.news.naver.com/article/052/0002432358",
+   "press": "YTN",
+   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "헤럴드경제",
-     "title": "젠슨황 세번째 불륜스캔들…“또다른 여직원과도 내연관계”",
-     "url": "https://n.news.naver.com/article/016/0002722845"
+     "press": "노컷뉴스",
+     "title": "[속보] 경찰, '반포 원펜타스 부정청약' 이혜훈 前장관 후보자 송치",
+     "url": "https://n.news.naver.com/article/079/0004209538"
     },
     {
-     "press": "국민일보",
-     "title": "젠슨황, 세 번째 불륜 의혹…“또다른 여직원과도 내연관계”",
-     "url": "https://n.news.naver.com/article/005/0001884920"
-    },
-    {
-     "press": "SBS",
-     "title": "\"젠슨 황, 또 다른 여직원과도 내연 관계\"…세 번째 불륜 의혹",
-     "url": "https://n.news.naver.com/article/055/0001402702"
-    },
-    {
-     "press": "한겨레",
-     "title": "사임한 젠슨 황, 세 번째 불륜 의혹…또 다른 엔비디아 직원",
-     "url": "https://n.news.naver.com/article/028/0002832028"
+     "press": "매일신문",
+     "title": "이혜훈, '40억 로또 아파트' 날아가나…부정청약 혐의 송치",
+     "url": "https://n.news.naver.com/article/088/0001040127"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]최민희 “이 대통령, 윤 탄핵 반대” 발언까지···김민석, 최 의원 감찰조사 지시",
-   "url": "https://n.news.naver.com/article/032/0003482405",
-   "press": "경향신문",
-   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 이 대통령 “M&A 활성화해야…자본시장 개혁 고위급 기구 만들었으면”",
+   "url": "https://n.news.naver.com/article/022/0004174901",
+   "press": "세계일보",
+   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "강원도민일보",
-     "title": "\"하이에나\" 이어 \"이 대통령이 尹 탄핵 반대\"…김민석, 최민희 감찰 지시",
-     "url": "https://n.news.naver.com/article/654/0000211151"
+     "press": "부산일보",
+     "title": "[속보] 이 대통령 \"M&A 활성화해야…자본시장 개혁 고위급 기구 만들었으면\"",
+     "url": "https://n.news.naver.com/article/082/0001407013"
     },
     {
-     "press": "JTBC",
-     "title": "청와대 \"'이 대통령, 윤석열 탄핵 반대' 최민희 발언 강한 유감\"…김민석, 감찰 지시",
-     "url": "https://n.news.naver.com/article/437/0000520511"
-    },
-    {
-     "press": "kbc광주방송",
-     "title": "김민석, '언행 논란' 최민희 즉시 감찰 지시 \"심각 인식\"… '李대통령 尹탄핵반대' 발언 등 잇단 설화",
-     "url": "https://n.news.naver.com/article/660/0000121222"
+     "press": "한국경제TV",
+     "title": "李대통령 \"자본시장 개혁 과제 많아…고위급 기구 만들어야\"",
+     "url": "https://n.news.naver.com/article/215/0001272648"
     }
    ]
   }
