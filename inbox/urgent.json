@@ -1,11 +1,49 @@
 {
- "detected_at": "2026-11-13T16:52+09:00",
+ "detected_at": "2026-11-14T07:10+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 오세훈, 이 대통령에 특검법 거부권 촉구…\"마지막 기회가 될 것\"",
-   "url": "https://n.news.naver.com/article/654/0000211165",
-   "press": "강원도민일보",
+   "title": "李대통령, 주가조작 범LG 3세 검거에 \"새로운 韓에선 법지켜야\"",
+   "url": "https://n.news.naver.com/article/001/0016441373",
+   "press": "연합뉴스",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선비즈",
+     "title": "李 대통령, ‘주가조작 혐의’ 범LG家 3세 검거에… “이제 새 한국에선 법·질서 지켜야”",
+     "url": "https://n.news.naver.com/article/366/0001204709"
+    },
+    {
+     "press": "뉴스1",
+     "title": "李대통령, '8년 도피' 범LG가 3세 검거에 \"해외도 안전한 도피처 못 돼\"",
+     "url": "https://n.news.naver.com/article/421/0009288631"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "손흥민·96라인 손잡았지만... 사우디에 21년 만의 충격패",
+   "url": "https://n.news.naver.com/article/023/0004009527",
+   "press": "조선일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "중앙일보",
+     "title": "손흥민·96라인 손잡았지만...모레노호 42년만 사우디전 3실점 패",
+     "url": "https://n.news.naver.com/article/025/0003565094"
+    },
+    {
+     "press": "동아일보",
+     "title": "불화설 털어내고 나섰지만…한국 축구, 사우디에 21년 만의 충격패",
+     "url": "https://n.news.naver.com/article/020/0003762449"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 아들이 저지른 성범죄 피해 15세 소녀 만취 상태서 살해한 50대 남성’ 구속…경찰, 파손된 피해자 휴대전화 포렌식 의뢰",
+   "url": "https://n.news.naver.com/article/087/0001230736",
+   "press": "강원일보",
    "why": "[속보] 기사",
    "related": []
   }
