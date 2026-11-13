@@ -1,0 +1,725 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "glasses-students-exam-worry",
+ "title_lines": [
+  "결국 수능 앞두고 안경테",
+  "바꾼다는 뿔테 수험생들"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "수능 앞두고 뿔테 안경 바꾸러 간 학부모",
+   "say": "수능 앞두고 뿔테 안경 바꾸러 간 학부모",
+   "sfx": "punch",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "수능 앞두고 뿔테 안경\n바꾸러 간 학부모",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white"
+   }
+  },
+  {
+   "text": "고3 아들 뿔테를 얇은 메탈테로 바꿔 달라고 함.",
+   "say": "고3 아들 뿔테를 얇은 메탈테로 바꿔 달라고 함.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 눈이 동그래지며 목소리를 확 높여서",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "眼鏡屋",
+       "メガネ 店員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "store",
+    "video": [
+     "eyeglasses shop",
+     "optical store glasses",
+     "glasses display"
+    ],
+    "grok": {
+     "prompt": "Medium shot inside a bright small optical shop with glasses on wall shelves, a Korean mother in her late forties with a short bob, a beige trench coat places a pair of thick black-framed glasses on the glass counter and points at a thin silver metal frame on display, the optician nods, slow push-in camera"
+    }
+   }
+  },
+  {
+   "text": "근데 이런 집이 한둘이 아님.",
+   "say": "근데 이런 집이 한둘이 아님.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "メガネ 男性",
+       "眼鏡 学生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom"
+   }
+  },
+  {
+   "text": "안경 쓴 수험생 집마다",
+   "say": "안경 쓴 수험생 집마다",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "受験生 男の子",
+       "受験 勉強"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📚",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "pic": [
+     "classroom desks",
+     "school classroom"
+    ]
+   }
+  },
+  {
+   "text": "'뿔테 포비아'란 말까지 나왔다고.",
+   "say": "'뿔테 포비아'란 말까지 나왔다고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怖がる 学生",
+       "不安 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom"
+   }
+  },
+  {
+   "text": "한 학부모는 뿔테 쓰는 아이가",
+   "say": "한 학부모는 뿔테 쓰는 아이가",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "母親 心配",
+       "心配 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "living"
+   }
+  },
+  {
+   "text": "괜한 오해 받을까 걱정된다고 함.",
+   "say": "괜한 오해 받을까 걱정된다고 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "sms",
+      "from": "고3 엄마",
+      "lines": [
+       "뿔테라서",
+       "괜한 오해 생길까"
+      ]
+     },
+     {
+      "type": "illust",
+      "q": [
+       "心配 女性",
+       "悩む 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "안경 자주 만지면 부정행위냐는 글도 옴.",
+   "say": "안경 자주 만지면 부정행위냐는 글도 옴.",
+   "sfx": "whoosh",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "メガネ 触る",
+       "メガネ 男性 驚く"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😰",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "bedroom",
+    "pic": [
+     "eyeglasses desk",
+     "glasses book"
+    ]
+   }
+  },
+  {
+   "text": "차라리 렌즈 끼겠다는 사람도 나옴.",
+   "say": "차라리 렌즈 끼겠다는 사람도 나옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "コンタクトレンズ",
+       "目薬"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👁️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "bedroom",
+    "pic": [
+     "contact lens",
+     "contact lenses"
+    ]
+   }
+  },
+  {
+   "text": "아니 안경 하나로 왜 이 난리냐면,",
+   "say": "아니 안경 하나로 왜 이 난리냐면,",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "답답해서 한숨 섞어 목소리 높이며",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "イライラ 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤨",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     }
+    ],
+    "bg": "white"
+   }
+  },
+  {
+   "text": "올해부터 스마트안경은 쓰기만 해도 부정행위임.",
+   "say": "올해부터 스마트안경은 쓰기만 해도 부정행위임.",
+   "sfx": "whoosh",
+   "cap": "hit",
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "유의사항",
+      "lines": [
+       "스마트안경",
+       "반입 금지",
+       "착용 시 부정행위"
+      ],
+      "mark": 2
+     },
+     {
+      "type": "illust",
+      "q": [
+       "カンニング",
+       "試験 カンニング"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "걸리면 시험 무효에 다음 해 수능도 못 봄.",
+   "say": "걸리면 시험 무효에 다음 해 수능도 못 봄.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "不合格",
+       "落ち込む 学生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "겉보기엔 평범한 뿔테인데",
+   "say": "겉보기엔 평범한 뿔테인데",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white",
+    "pic": [
+     "black glasses",
+     "eyeglasses frame"
+    ]
+   }
+  },
+  {
+   "text": "테 앞에 작은 카메라가 숨어 있음.",
+   "say": "테 앞에 작은 카메라가 숨어 있음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カメラ 小型",
+       "隠しカメラ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📷",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white",
+    "video": [
+     "camera lens close up",
+     "tiny camera lens",
+     "lens macro"
+    ]
+   }
+  },
+  {
+   "text": "실제로 지난달 연세대 논술장에서",
+   "say": "실제로 지난달 연세대 논술장에서",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "大学 試験",
+       "試験 大学生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📝",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "video": [
+     "university campus autumn",
+     "college campus",
+     "university building"
+    ],
+    "cc": [
+     "yonsei university campus",
+     "seoul university campus"
+    ]
+   }
+  },
+  {
+   "text": "뿔테인 줄 안 게 스마트안경이었다고.",
+   "say": "뿔테인 줄 안 게 스마트안경이었다고.",
+   "sfx": "exclaim",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "見つける 先生",
+       "驚く 先生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "그래서 시험장 1312곳마다 안경 보는 요원이 붙음.",
+   "say": "그래서 시험장 천삼백십이 곳마다 안경 보는 요원이 붙음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "試験 監督",
+       "試験官"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "video": [
+     "empty classroom desks",
+     "school hallway",
+     "classroom"
+    ],
+    "grok": {
+     "prompt": "Wide shot of a quiet Korean high school exam classroom with rows of desks, a Korean male teacher in his forties with neat short hair, a navy cardigan and a lanyard walks slowly down the aisle and glances carefully at the glasses of students bent over their test papers, soft morning light from the windows, slow tracking camera"
+    }
+   }
+  },
+  {
+   "text": "감독관이 말하면 안경 벗어 책상에 올려야 함.",
+   "say": "감독관이 말하면 안경 벗어 책상에 올려야 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "メガネ 外す",
+       "メガネ 机"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "video": [
+     "glasses on desk",
+     "eyeglasses table"
+    ],
+    "grok": {
+     "prompt": "Medium close shot in a quiet exam classroom, a Korean high school boy with short black hair, a gray hoodie and thick black-framed glasses takes off his thick black-framed glasses with both hands and sets them down on the wooden desk next to his test paper while a Korean male teacher in his forties with neat short hair, a navy cardigan and a lanyard stands beside the desk and leans in to look, gentle camera push-in"
+    }
+   }
+  },
+  {
+   "text": "수험생 카페엔 철저히 단속해 달라는 글도 있음.",
+   "say": "수험생 카페엔 철저히 단속해 달라는 글도 있음.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パソコン 学生",
+       "スマートフォン 学生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "bedroom",
+    "pic": [
+     "laptop desk night",
+     "laptop keyboard"
+    ]
+   }
+  },
+  {
+   "text": "교사들은 물으면 민원, 놓치면 책임이라 난감함.",
+   "say": "교사들은 물으면 민원, 놓치면 책임이라 난감함.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "先生 困る",
+       "悩む 先生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "office",
+    "video": [
+     "teachers office",
+     "school office desk"
+    ]
+   }
+  },
+  {
+   "text": "결국 수능 엿새 앞두고 안경테까지 바꾸는 중임.",
+   "say": "결국 수능 엿새 앞두고 안경테까지 바꾸는 중임.",
+   "sfx": "absurd",
+   "tone": "기가 막혀 피식 헛웃음 섞인 말투로",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "眼鏡屋",
+       "メガネ 店員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "sparkle"
+     }
+    ],
+    "bg": "store",
+    "video": [
+     "eyeglasses display shop",
+     "glasses shelf store"
+    ]
+   }
+  },
+  {
+   "text": "안경 쓴 게 죄가 된 수능임.",
+   "say": "안경 쓴 게 죄가 된 수능임.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "受験生 女の子",
+       "受験 合格祈願"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😮‍💨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "cam": "pull"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "결국 수능 앞두고 안경테 바꾼다는 뿔테 수험생들 #shorts",
+  "description": "올해 수능부터 AI 스마트안경은 쓰기만 해도 부정행위로 처리된다.\n겉보기엔 평범한 뿔테와 구분이 어렵다 보니, 안경 쓴 수험생과 학부모들 사이에선 메탈테·렌즈로 바꾸는 '뿔테 포비아'까지 나왔다고.\n시험장 1312곳마다 안경을 살피는 전담 요원도 배치된다.\n\n※ AI 음성으로 제작했습니다.\n#수능 #AI안경 #스마트안경 #수험생 #안경 #shorts",
+  "tags": [
+   "수능",
+   "AI안경",
+   "스마트안경",
+   "수험생",
+   "안경",
+   "뿔테",
+   "고3",
+   "부정행위",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.fnnews.com/news/202611031359326029",
+ "facts_used": [
+  "2027학년도 수능은 2026년 11월 19일 — 연합 계열 [수능 D-10] 보도, 파이낸셜뉴스 11/3 ('오는 19일')",
+  "학부모가 고3 아들의 두꺼운 뿔테를 얇은 메탈테로 바꾸려 10월 말 단골 안경원 방문, AI 안경으로 오해받을까 우려, '뿔테 포비아' — 파이낸셜뉴스 2026-11-03 https://www.fnnews.com/news/202611031359326029",
+  "뿔테 수험생 학부모 '우리 아이는 뿔테 안경을 쓰고 있는데, AI 안경 검사로 괜한 오해가 생길 수도 있고' — 이티뉴스 2026-11-07 https://m.etnews.com/20261107000027",
+  "'안경 자주 만지는데, 설마 내가 부정행위?' '차라리 렌즈를', 눈이 뻑뻑해 렌즈 어렵다는 고민 — twig24 2026-10-26 https://www.twig24.com/news/2026/10/26/20261026500272 , 파이낸셜뉴스",
+  "스마트안경 착용만 해도 중대한 부정행위, 적발 시 시험 무효·다음 해 응시자격 1년 정지, 감독관 요청 시 벗어 책상 위에 놓고 협조 — SBS Biz https://biz.sbs.co.kr/amp/article/20000340222 , 파이낸셜뉴스",
+  "겉보기엔 일반 뿔테, 테 앞 소형 카메라 — 파이낸셜뉴스, 이티뉴스",
+  "10월 연세대 논술 시험장에서 뿔테처럼 보인 스마트안경 적발 — 주간경향 2026-10-13 https://weekly.khan.co.kr/article/202610131916001 , SBS Biz",
+  "전국 시험장 1312곳에 스마트안경 판별 전담요원 1명씩 배치 — https://supple.kr/news/cmw6zl2lbvmdial9pt5drs66m , 교육부 발표 보도",
+  "수험생 카페 '국가시험에서 AI 안경 부정행위 적발사례가 꽤 있는 듯한데 수능장에서 철저히 단속했으면' — 더팩트 https://news.tf.co.kr/read/life/2369816.htm",
+  "교사들 확인하면 민원, 안 하면 책임이라 감독관 기피 — 세계일보 https://www.segye.com/newsView/20260802504559 , twig24"
+ ],
+ "brief": "레인: 우리얘기\n점수표: [선택] 뿔테 안경 쓴 수험생들의 수능 전 걱정(AI 안경 유행) — 내 얘기5×2=10(안경 쓴 사람·수험생 가족·수능 본 사람 거의 전부)+갈림4(단속 철저 vs 괜한 오해, 렌즈 vs 뻑뻑함, 교사 민원 vs 책임)+몰랐던 이유5(착용만 해도 부정행위·무효+다음 해 응시 정지·1312곳 전담요원·연세대 논술 적발)+한 장면4(뿔테를 메탈테로 바꾸러 간 학부모)+대상5(수능·안경)+유행3=31 / [후보] 새콤달콤 1황(더쿠 819, 이유 사실 약함 3점) / 쌀먹세 게임 아이템 업종코드(대상 좁음) / 젠슨황(외국 인물 사생활 제외) / 세무사 수석 의혹(특정 개인 의혹이라 제외, 현상만 다룸)\n유행: AI안경 (커뮤니티 동시 단어 디시·엠팍, 11/8~13 앞 대본 유행 줄에 여러 번 — ROUTINE '유행을 사건 없다고 버리지 않는다'로 07시에도 우리 얘기 레인. 이번 주 첫 AI 안경 편)\n구조: 발단=수능 앞두고 고3 아들 뿔테를 메탈테로 바꾸러 안경원 간 학부모, '뿔테 포비아' / 반응=뿔테 학부모 \"괜한 오해 생길 수도\"→\"안경 자주 만지는데 설마 내가 부정행위?\"→\"차라리 렌즈\" vs 눈 뻑뻑해 못 낌 / 이유=2027학년도 수능부터 스마트안경 착용만 해도 부정행위, 적발 시 시험 무효+다음 해 응시자격 1년 정지, 겉은 평범한 뿔테에 소형 카메라, 10월 연세대 논술 적발, 시험장 1312곳 전담요원 1명씩, 감독관 요청 시 벗어서 책상에 / 갈림=수험생 카페 \"철저히 단속해 달라\" vs 오해 걱정, 교사는 물으면 민원·놓치면 책임 / 한 방=수능 엿새 앞두고 안경테까지 바꾸는 중, \"안경 쓴 게 죄가 된 수능\"\n댓글거리: 수능 날 안경·렌즈 뭐 끼고 갔는지, 시험 중 안경 만지는 버릇, 뿔테 vs 메탈테, 감독관 해 본 교사 경험\n첫장면: 사람 (아들 뿔테 바꾸러 간 학부모)\n훅 3안: ①\"고3 아들 두꺼운 뿔테를 얇은 메탈테로 바꿔 달라고 함.\"(선택: 구체 장면, 제목보다 한 발) ②\"수능 엿새 앞두고 안경원에 뿔테 바꾸러 오는 집이 생김.\" ③\"안경 쓴 수험생들이 시험장에서 안경을 벗어야 할 수도 있음.\" / 제목 3안: \"결국 수능 앞두고 안경테 바꾼다는 뿔테 수험생들\"(선택: 집단+행동) · \"뿔테 안경 쓴 수험생들이 수능 전 하는 걱정\" · \"수능 앞두고 렌즈 고민하는 안경 쓴 고3들\"\n이해검사: 올해 수능부터 AI 스마트안경은 쓰기만 해도 부정행위라, 평범한 뿔테 안경을 쓰는 수험생과 학부모들이 오해받을까 봐 렌즈나 메탈테로 바꾸는 등 걱정하고 있고, 시험장마다 안경 보는 요원까지 배치됨.\n그림대조: 완료 (안경원·교실·감독관·렌즈·카메라 렌즈 장면, 사람 검색어 없음, 실존 대학은 캠퍼스 풍경만)\n주의: 특정 개인(세무사 수석) 의혹은 다루지 않음. 일반 안경은 써도 된다는 줄을 넣어 겁주기 과장 피함. '안 그런 사람' 줄=단속해 달라는 수험생 글. 대통령 언급(이티뉴스 제목)은 정치 소재라 뺌. 메탈테 수요는 수치 확인 안 됨 → '이런 집이 한둘이 아님'/'뿔테 포비아'(파이낸셜뉴스 표현)까지만.\n출처: 파이낸셜뉴스 2026-11-03 https://www.fnnews.com/news/202611031359326029 (메탈테로 바꾸러 간 학부모, 뿔테 포비아, 시험 무효+다음 해 응시자격 1년 정지) / SBS Biz https://biz.sbs.co.kr/amp/article/20000340222 ('학생 안경 좀 벗어봐' 걸리면 수능 2년, 착용만 해도 부정행위, 벗어서 책상 위) / 이티뉴스 2026-11-07 https://m.etnews.com/20261107000027 (뿔테 학부모 \"괜한 오해\") / 아주경제·twig24 2026-10-26 https://www.twig24.com/news/2026/10/26/20261026500272 (\"안경 자주 만지는데 설마 내가 부정행위?\" \"차라리 렌즈를\", 눈 뻑뻑) / 연합 계열 [수능 D-10] https://supple.kr/news/cmw6zl2lbvmdial9pt5drs66m (시험장 1312곳 전담요원) / 주간경향 2026-10-13 https://weekly.khan.co.kr/article/202610131916001 (연세대 논술 뿔테로 보인 스마트안경 적발) / 더팩트 https://news.tf.co.kr/read/life/2369816.htm (수험생 카페 \"철저히 단속했으면\") / 세계일보 https://www.segye.com/newsView/20260802504559 (교사 민원·책임 부담)\n증거: 유의사항 doc(스마트안경 반입 금지·착용 시 부정행위 — 평가원 유의사항 보도), 학부모 sms(이티뉴스 인용 축약)"
+}
