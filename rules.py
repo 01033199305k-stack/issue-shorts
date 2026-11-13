@@ -512,7 +512,12 @@ def lint(script: dict) -> list[str]:
         p.append("youtube.title ends on '~것/거' (@짧은주녑: 0.47x the median) - end on the thing itself, '~한 이유' or '~의 진실'")
     brief = str(script.get("brief", ""))
     if "구조:" not in brief:   # 2026-11-02: every video is told in stages (ROUTINE 구성)
-        p.append("brief has no 구조: line - write 구조: 시작 / 커짐 / 뒤집힘 / 정체 / 그 뒤")
+        p.append("brief has no 구조: line - write 구조: 시작 / 커짐 / 뒤집힘 / 정체 / 그 뒤 "
+                 "(우리 얘기 레인: 구조: 발단 / 반응 / 이유 / 갈림 / 한 방)")
+    if "레인:" not in brief:   # 2026-11-13 네 번째 전환: 12·18시는 우리 얘기, 07시는 사건 (ROUTINE 맨 위) - 레인별 조회수 비교용
+        p.append("brief has no '레인:' line - write '레인: 우리얘기' or '레인: 사건' (ROUTINE 2026-11-13: 12시·18시 = 우리 얘기)")
+    elif "레인: 우리얘기" in brief and "댓글거리:" not in brief:
+        p.append("우리 얘기 레인 brief has no '댓글거리:' line - what would a viewer add from their own life?")
     if "이해검사:" not in brief:
         p.append("brief has no '이해검사:' line - write who / what / how it ended in one sentence using only the script's words")
     if "유행:" not in brief:   # 2026-10-27 사용자: "유행에 민감하게 반응은 해야지" - ROUTINE 유행 레인
