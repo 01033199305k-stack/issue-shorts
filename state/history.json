@@ -7792,5 +7792,83 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-14_1800_korea-phone-shutter-sound/video.mp4"
   },
   "seconds": 3305
+ },
+ {
+  "key": "2026-11-15-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-15T07:00:00+09:00",
+  "started": "2026-11-15T04:18:12.957250+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-7012/",
+   "https://pixabay.com/photos/hands-phone-smartphone-electronics-1851218/",
+   "https://pixabay.com/videos/id-197974/",
+   "https://pixabay.com/videos/id-34767/",
+   "https://pixabay.com/videos/id-3176/",
+   "https://pixabay.com/videos/id-12126/",
+   "https://pixabay.com/photos/iphone-hand-screen-smartphone-apps-410311/",
+   "https://pixabay.com/videos/id-7315/",
+   "https://pixabay.com/photos/fire-truck-fire-fighting-rosenbauer-4665013/",
+   "https://pixabay.com/photos/police-police-station-sign-1530531/"
+  ],
+  "cc_clips": [],
+  "duration": 51.06,
+  "matches": [
+   0.86,
+   0.95,
+   1.0,
+   0.98,
+   0.98,
+   0.98,
+   0.97,
+   0.9,
+   0.9,
+   1.0,
+   1.0,
+   1.0,
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.95,
+   0.99,
+   0.99,
+   0.92,
+   0.96,
+   0.96,
+   0.91
+  ],
+  "sfx": 22,
+  "illustrations": 16,
+  "cuts": 23,
+  "layout_issues": [],
+  "caption_breaks": [
+   "평균 / 열다섯 (55)"
+  ],
+  "title": "119에 8710번 건 다섯 명의 요구사항 #shorts",
+  "source_post": "https://www.khan.co.kr/article/202611130600091/",
+  "facts_used": [
+   "서울시는 2025년 9월~2026년 8월 119에 총 8,710건을 반복 신고해 상황관리 업무에 지장을 준 상습신고자 5명을 형사고발했다고 11월 13일 밝힘 — 경향신문 2026-11-13 https://www.khan.co.kr/article/202611130600091/ , 아시아경제 https://view.asiae.co.kr/article/2026111308462339662 , 서울신문 https://go.seoul.co.kr/news/newsView.php?id=20261113500238",
+   "올해 6~8월 석 달 동안에만 4,034건 — 아시아경제, OBS https://www.obsnews.co.kr/news/articleView.html?idxno=1543636",
+   "주요 유형: 전화를 건 뒤 응답하지 않음, 신고와 무관한 사진 전송, 횡설수설, 술에 취해 귀가 요청 — 아시아경제, 서울경제 https://m.sedaily.com/article/20113711",
+   "개인별 최다 신고 건수 전화 2,661건·문자 2,886건(합 5,547건) — 파이낸셜뉴스 https://www.fnnews.com/news/202611130926032643 , 허프포스트코리아 https://www.huffingtonpost.kr/article/262069 ; 하루 약 15번꼴은 5,547÷365 계산값",
+   "서울종합방재센터가 최근 3개월 119 업무와 무관한 신고가 가장 많았던 10명을 분석, 고령자 생활민원·기기 결함 가능성 사례는 제외 — 아시아경제, 국제뉴스 https://www.gukjenews.com/news/articleView.html?idxno=3750715",
+   "수차례 경고 문자를 보냈지만 신고가 계속돼 형사고발 — 아시아경제, 데일리안 https://www.dailian.co.kr/news/view/1714495",
+   "반복적인 비응급 신고가 접수 인력과 출동 자원을 소모해 화재·사고·응급환자 대응을 늦출 수 있다는 서울시 설명 — 국제뉴스, 뉴스핌 https://newspim.com/news/view/20261112001425",
+   "홍영근 서울시 소방재난본부장: '반복적인 신고로 정상적인 업무가 방해받는 일이 없어야 한다', 올바른 신고문화 정착에 시민 협조 당부 — 허프포스트코리아, 국제뉴스"
+  ],
+  "slug": "2026-11-15_0700_seoul-119-repeat-callers",
+  "late": false,
+  "video_id": "kuUAA6P0Gzc",
+  "url": "https://youtube.com/shorts/kuUAA6P0Gzc",
+  "privacy": "private",
+  "scheduled_for": "2026-11-14T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af8bc8fe5a113497aa547ee",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-14T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-15_0700_seoul-119-repeat-callers/video.mp4"
+  },
+  "seconds": 2204
  }
 ]
