@@ -1,71 +1,46 @@
 {
- "detected_at": "2026-11-14T15:10+09:00",
+ "detected_at": "2026-11-14T19:14+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "[싱갤] 싱글벙글 스시자로 근황.jpg",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=478606&_dcbest=1&page=1",
-   "board": "디시 실베",
-   "why": "커뮤니티 3곳 동시 화제",
-   "news": []
+   "kind": "news",
+   "title": "[속보] \"트럼프, 지난해 엔비디아 주식 사고 AI칩 수출통제 완화\"",
+   "url": "https://n.news.naver.com/article/448/0000651039",
+   "press": "TV조선",
+   "why": "[속보] 기사",
+   "related": []
   },
   {
    "kind": "news",
-   "title": "[속보]“한동훈 거짓말 마라”…최민희, ‘尹-李 재판 달라’ 입장표명",
-   "url": "https://n.news.naver.com/article/029/0003059027",
+   "title": "[속보]탈압박 나선 최민희 “통일교·신천지 제보 받았다…문제 삼지 않아”",
+   "url": "https://n.news.naver.com/article/029/0003059037",
    "press": "디지털타임스",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] “장동혁 암살하겠다” 112 협박 문자 보낸 20대…신고 30분 만에 체포",
-   "url": "https://n.news.naver.com/article/022/0004175092",
-   "press": "세계일보",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "동아일보",
-     "title": "‘장동혁 암살’ 협박문자 보낸 20대…“대표 역할 제대로 못해서 화나”",
-     "url": "https://n.news.naver.com/article/020/0003762461"
-    }
-   ]
+   "title": "[속보] 조폐공사 \"모바일 지역사랑상품권 플랫폼서 개인정보 유출\"",
+   "url": "https://n.news.naver.com/article/082/0001407102",
+   "press": "부산일보",
+   "why": "[속보] 기사",
+   "related": []
   },
   {
    "kind": "news",
-   "title": "[단독] 인하대 이승만 동상 복원, 온라인 서명 사흘 만에 1만2500명",
-   "url": "https://n.news.naver.com/article/023/0004009621",
-   "press": "조선일보",
+   "title": "중기중앙회 \"노란우산 주민번호 등 개인정보 유출 가능성\"",
+   "url": "https://n.news.naver.com/article/374/0000543674",
+   "press": "SBS Biz",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "문화일보",
-     "title": "[속보]인하대 ‘이승만 동상 복원’ 놓고 찬반 맞불 집회…후문서 5m 거리 두고 대치",
-     "url": "https://n.news.naver.com/article/021/0002832760"
+     "press": "노컷뉴스",
+     "title": "[속보] 중소기업중앙회 \"해킹으로 노란우산 개인정보 유출 가능성\"",
+     "url": "https://n.news.naver.com/article/079/0004209797"
     },
     {
-     "press": "매일신문",
-     "title": "\"극우 발붙이지 마라\" vs \"복원 당연\"…인하대 이승만 동상 놓고 맞불",
-     "url": "https://n.news.naver.com/article/088/0001040202"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[단독] 세무사 수석 합격자 한원석씨 \"AI 안경? 말도 안 된다\"",
-   "url": "https://n.news.naver.com/article/015/0005353792",
-   "press": "한국경제",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "전자신문",
-     "title": "'AI 안경' 논란에 카메라 켠 세무사 차석 합격자… 해진 교재 보여주며 “안경 자체를 안 썼다”",
-     "url": "https://n.news.naver.com/article/030/0003485539"
-    },
-    {
-     "press": "매일경제",
-     "title": "‘AI 안경 의혹’ 세무사 수석 “고득점이 의심받을 일인가…찍는 것도 기술”",
-     "url": "https://n.news.naver.com/article/009/0005763634"
+     "press": "대전일보",
+     "title": "가입자 192만 명 노란우산서 개인정보 유출 의심…중기중앙회 조사",
+     "url": "https://n.news.naver.com/article/656/0000192373"
     }
    ]
   }
