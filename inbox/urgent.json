@@ -1,46 +1,71 @@
 {
- "detected_at": "2026-11-14T11:42+09:00",
+ "detected_at": "2026-11-14T15:10+09:00",
  "candidates": [
   {
+   "kind": "community",
+   "title": "[싱갤] 싱글벙글 스시자로 근황.jpg",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=478606&_dcbest=1&page=1",
+   "board": "디시 실베",
+   "why": "커뮤니티 3곳 동시 화제",
+   "news": []
+  },
+  {
    "kind": "news",
-   "title": "배우 고경표, 음주 교통사고… 만취 운전 중 청소차 들이받아",
-   "url": "https://n.news.naver.com/article/081/0003699362",
-   "press": "서울신문",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "title": "[속보]“한동훈 거짓말 마라”…최민희, ‘尹-李 재판 달라’ 입장표명",
+   "url": "https://n.news.naver.com/article/029/0003059027",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] “장동혁 암살하겠다” 112 협박 문자 보낸 20대…신고 30분 만에 체포",
+   "url": "https://n.news.naver.com/article/022/0004175092",
+   "press": "세계일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스TV",
-     "title": "[단독] 배우 고경표 음주사고…면허취소 만취상태",
-     "url": "https://n.news.naver.com/article/422/0000926068"
-    },
-    {
-     "press": "매일경제",
-     "title": "고경표, 음주운전 사고…청소차 들이받아",
-     "url": "https://n.news.naver.com/article/009/0005763610"
-    },
-    {
-     "press": "KBS",
-     "title": "배우 고경표, 서울 마포구서 음주운전하다 청소차 들이받아",
-     "url": "https://n.news.naver.com/article/056/0012293903"
-    },
-    {
-     "press": "부산일보",
-     "title": "배우 고경표, 만취 상태 음주운전 중 청소차 들이받아… “깊이 반성”",
-     "url": "https://n.news.naver.com/article/082/0001407090"
+     "press": "동아일보",
+     "title": "‘장동혁 암살’ 협박문자 보낸 20대…“대표 역할 제대로 못해서 화나”",
+     "url": "https://n.news.naver.com/article/020/0003762461"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]“李 시한부 빼박, 尹과 다르죠”…한동훈, 최민희 발언으로 또 공세",
-   "url": "https://n.news.naver.com/article/029/0003059016",
-   "press": "디지털타임스",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "[단독] 인하대 이승만 동상 복원, 온라인 서명 사흘 만에 1만2500명",
+   "url": "https://n.news.naver.com/article/023/0004009621",
+   "press": "조선일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "세계일보",
-     "title": "[속보] 한동훈 “李, 확정적 ‘시한부 대통령’…尹 재판보다 더 빼박” 여당과 SNS 설전",
-     "url": "https://n.news.naver.com/article/022/0004175065"
+     "press": "문화일보",
+     "title": "[속보]인하대 ‘이승만 동상 복원’ 놓고 찬반 맞불 집회…후문서 5m 거리 두고 대치",
+     "url": "https://n.news.naver.com/article/021/0002832760"
+    },
+    {
+     "press": "매일신문",
+     "title": "\"극우 발붙이지 마라\" vs \"복원 당연\"…인하대 이승만 동상 놓고 맞불",
+     "url": "https://n.news.naver.com/article/088/0001040202"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[단독] 세무사 수석 합격자 한원석씨 \"AI 안경? 말도 안 된다\"",
+   "url": "https://n.news.naver.com/article/015/0005353792",
+   "press": "한국경제",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "전자신문",
+     "title": "'AI 안경' 논란에 카메라 켠 세무사 차석 합격자… 해진 교재 보여주며 “안경 자체를 안 썼다”",
+     "url": "https://n.news.naver.com/article/030/0003485539"
+    },
+    {
+     "press": "매일경제",
+     "title": "‘AI 안경 의혹’ 세무사 수석 “고득점이 의심받을 일인가…찍는 것도 기술”",
+     "url": "https://n.news.naver.com/article/009/0005763634"
     }
    ]
   }
