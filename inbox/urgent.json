@@ -1,51 +1,48 @@
 {
- "detected_at": "2026-11-14T07:10+09:00",
+ "detected_at": "2026-11-14T11:42+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李대통령, 주가조작 범LG 3세 검거에 \"새로운 韓에선 법지켜야\"",
-   "url": "https://n.news.naver.com/article/001/0016441373",
-   "press": "연합뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "배우 고경표, 음주 교통사고… 만취 운전 중 청소차 들이받아",
+   "url": "https://n.news.naver.com/article/081/0003699362",
+   "press": "서울신문",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "조선비즈",
-     "title": "李 대통령, ‘주가조작 혐의’ 범LG家 3세 검거에… “이제 새 한국에선 법·질서 지켜야”",
-     "url": "https://n.news.naver.com/article/366/0001204709"
+     "press": "연합뉴스TV",
+     "title": "[단독] 배우 고경표 음주사고…면허취소 만취상태",
+     "url": "https://n.news.naver.com/article/422/0000926068"
     },
     {
-     "press": "뉴스1",
-     "title": "李대통령, '8년 도피' 범LG가 3세 검거에 \"해외도 안전한 도피처 못 돼\"",
-     "url": "https://n.news.naver.com/article/421/0009288631"
+     "press": "매일경제",
+     "title": "고경표, 음주운전 사고…청소차 들이받아",
+     "url": "https://n.news.naver.com/article/009/0005763610"
+    },
+    {
+     "press": "KBS",
+     "title": "배우 고경표, 서울 마포구서 음주운전하다 청소차 들이받아",
+     "url": "https://n.news.naver.com/article/056/0012293903"
+    },
+    {
+     "press": "부산일보",
+     "title": "배우 고경표, 만취 상태 음주운전 중 청소차 들이받아… “깊이 반성”",
+     "url": "https://n.news.naver.com/article/082/0001407090"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "손흥민·96라인 손잡았지만... 사우디에 21년 만의 충격패",
-   "url": "https://n.news.naver.com/article/023/0004009527",
-   "press": "조선일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "[속보]“李 시한부 빼박, 尹과 다르죠”…한동훈, 최민희 발언으로 또 공세",
+   "url": "https://n.news.naver.com/article/029/0003059016",
+   "press": "디지털타임스",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "중앙일보",
-     "title": "손흥민·96라인 손잡았지만...모레노호 42년만 사우디전 3실점 패",
-     "url": "https://n.news.naver.com/article/025/0003565094"
-    },
-    {
-     "press": "동아일보",
-     "title": "불화설 털어내고 나섰지만…한국 축구, 사우디에 21년 만의 충격패",
-     "url": "https://n.news.naver.com/article/020/0003762449"
+     "press": "세계일보",
+     "title": "[속보] 한동훈 “李, 확정적 ‘시한부 대통령’…尹 재판보다 더 빼박” 여당과 SNS 설전",
+     "url": "https://n.news.naver.com/article/022/0004175065"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 아들이 저지른 성범죄 피해 15세 소녀 만취 상태서 살해한 50대 남성’ 구속…경찰, 파손된 피해자 휴대전화 포렌식 의뢰",
-   "url": "https://n.news.naver.com/article/087/0001230736",
-   "press": "강원일보",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
