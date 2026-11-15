@@ -1,43 +1,92 @@
 {
- "detected_at": "2026-11-15T15:12+09:00",
+ "detected_at": "2026-11-15T17:26+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "[세갤] 세무사 시험 만점자 부정행위 자수함ㄷㄷ",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=478757&_dcbest=1&page=1",
-   "board": "디시 실베",
-   "why": "커뮤니티 2곳 동시 화제 + 기사화(세계일보)",
-   "news": [
+   "kind": "news",
+   "title": "이 대통령 \"개혁 이름 빌려 개혁 방해하는 건 용납 어렵다\"",
+   "url": "https://n.news.naver.com/article/055/0001403132",
+   "press": "SBS",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
     {
-     "url": "https://n.news.naver.com/article/022/0004175177",
-     "headline": "세무사 시험 수석, 부정행위 자수… 공단 “대책 마련 중”"
+     "press": "MBN",
+     "title": "이 대통령 \"진정한 개혁은 인기 없는 일…개혁 방해, 용납 어려워\"",
+     "url": "https://n.news.naver.com/article/057/0001978257"
+    },
+    {
+     "press": "연합뉴스",
+     "title": "李대통령 \"부화뇌동하고 개혁의 이름빌려 개혁방해…용납어렵다\"",
+     "url": "https://n.news.naver.com/article/001/0016442513"
+    },
+    {
+     "press": "경기일보",
+     "title": "이재명 대통령 “개혁 이름 빌려 개혁 방해하는 것 용납 어렵다”",
+     "url": "https://n.news.naver.com/article/666/0000132097"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "최민희 \"신천지 논란은 내 잘못과 별개…덮고 갈 수 없다\"",
-   "url": "https://n.news.naver.com/article/119/0003155289",
-   "press": "데일리안",
+   "title": "수능 코앞인데 'AI 부정행위' 파문… 靑 \"사안 엄중, 오후 대책회의\"",
+   "url": "https://n.news.naver.com/article/469/0000965624",
+   "press": "한국일보",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "경기일보",
-     "title": "최민희 “신천지 3자 비밀연합 논란 더 못 덮어…내 잘못과는 별개”",
-     "url": "https://n.news.naver.com/article/666/0000132083"
+     "press": "서울경제",
+     "title": "[속보] 靑 “AI 부정행위 엄중히 봐…오늘 정책실장 주재 대책회의”",
+     "url": "https://n.news.naver.com/article/011/0004682286"
     },
     {
-     "press": "서울경제",
-     "title": "‘李도 尹 탄핵 반대’ 발언 파장에도…최민희 “제 잘못과 신천지 논란 별개”",
-     "url": "https://n.news.naver.com/article/011/0004682251"
+     "press": "뉴시스",
+     "title": "[속보]靑, AI 부정행위에 \"사안 엄중…정책실장 주재 대책회의 예정\"",
+     "url": "https://n.news.naver.com/article/003/0014322975"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 청와대, 오늘 정책실장 주재 AI 부정행위 대책 회의",
-   "url": "https://n.news.naver.com/article/052/0002433060",
-   "press": "YTN",
+   "title": "윤상현 긴급 기자회견 “장동혁, 결단의 시간이다” [현장영상]",
+   "url": "https://n.news.naver.com/article/449/0000367553",
+   "press": "채널A",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "동아일보",
+     "title": "윤상현 “갈라진 보수로는 이길 수 없어…장동혁 결단해 달라”",
+     "url": "https://n.news.naver.com/article/020/0003762495"
+    },
+    {
+     "press": "조선비즈",
+     "title": "윤상현, 장동혁에 “갈라진 보수로 승리 못 해...보수 대통합 위한 결단 해달라”",
+     "url": "https://n.news.naver.com/article/366/0001204867"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "최민희 \"대통령께 깊이 사죄…신천지 의혹 보고서는 공개해야\"",
+   "url": "https://n.news.naver.com/article/079/0004209884",
+   "press": "노컷뉴스",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "JTBC",
+     "title": "최민희, '이 대통령 언급 논란' 또 사과…\"'반·분·신' 신천지 의혹은 규명해야\"",
+     "url": "https://n.news.naver.com/article/437/0000520784"
+    },
+    {
+     "press": "MBC",
+     "title": "최민희 \"기억 착오로 대통령님께 누를 끼쳐‥깊이 사죄\"",
+     "url": "https://n.news.naver.com/article/214/0001535665"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 靑 “범정부 역량 총동원해 국민안전 위협 범죄 강력대응”",
+   "url": "https://n.news.naver.com/article/025/0003565236",
+   "press": "중앙일보",
    "why": "[속보] 기사",
    "related": []
   }
