@@ -1,53 +1,45 @@
 {
- "detected_at": "2026-11-15T09:10+09:00",
+ "detected_at": "2026-11-15T15:12+09:00",
  "candidates": [
   {
-   "kind": "news",
-   "title": "李대통령 \"가장 힘든 건 등 뒤서 날아오는 화살\"…與천준호 격려",
-   "url": "https://n.news.naver.com/article/001/0016441969",
-   "press": "연합뉴스",
-   "why": "언론사 7곳이 댓글 많은 기사 1위로",
-   "related": [
+   "kind": "community",
+   "title": "[세갤] 세무사 시험 만점자 부정행위 자수함ㄷㄷ",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=478757&_dcbest=1&page=1",
+   "board": "디시 실베",
+   "why": "커뮤니티 2곳 동시 화제 + 기사화(세계일보)",
+   "news": [
     {
-     "press": "경향신문",
-     "title": "이 대통령, 천준호에 “고생 많았다···등 뒤에서 날아오는 화살 가장 힘들어”",
-     "url": "https://n.news.naver.com/article/032/0003482644"
-    },
-    {
-     "press": "국민일보",
-     "title": "李 “가장 힘든 일은 등뒤서 날아오는 화살”…'尹탄핵 반대' 발언 겨냥?",
-     "url": "https://n.news.naver.com/article/005/0001885092"
-    },
-    {
-     "press": "한국일보",
-     "title": "이 대통령 \"가장 힘든 일은 등 뒤에서 날아오는 화살\"... 친청계 겨냥했나",
-     "url": "https://n.news.naver.com/article/469/0000965569"
-    },
-    {
-     "press": "MBC",
-     "title": "이 대통령 \"가장 힘든 건 등 뒤에서 날아오는 화살\"",
-     "url": "https://n.news.naver.com/article/214/0001535633"
+     "url": "https://n.news.naver.com/article/022/0004175177",
+     "headline": "세무사 시험 수석, 부정행위 자수… 공단 “대책 마련 중”"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "국힘, 부산역서 ‘이재명 탈옥법’ 규탄…“죽은 법에 근거한 특검”",
-   "url": "https://n.news.naver.com/article/028/0002832219",
-   "press": "한겨레",
+   "title": "최민희 \"신천지 논란은 내 잘못과 별개…덮고 갈 수 없다\"",
+   "url": "https://n.news.naver.com/article/119/0003155289",
+   "press": "데일리안",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "부산일보",
-     "title": "국힘, 부산역서 규탄 집회 \"특검 의결하면 국무위원도 감옥행\"",
-     "url": "https://n.news.naver.com/article/082/0001407111"
+     "press": "경기일보",
+     "title": "최민희 “신천지 3자 비밀연합 논란 더 못 덮어…내 잘못과는 별개”",
+     "url": "https://n.news.naver.com/article/666/0000132083"
     },
     {
-     "press": "채널A",
-     "title": "국민의힘, 부산서 “李 탈옥법 저지”…민주당 “명분 없는 투쟁”",
-     "url": "https://n.news.naver.com/article/449/0000367519"
+     "press": "서울경제",
+     "title": "‘李도 尹 탄핵 반대’ 발언 파장에도…최민희 “제 잘못과 신천지 논란 별개”",
+     "url": "https://n.news.naver.com/article/011/0004682251"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 청와대, 오늘 정책실장 주재 AI 부정행위 대책 회의",
+   "url": "https://n.news.naver.com/article/052/0002433060",
+   "press": "YTN",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
