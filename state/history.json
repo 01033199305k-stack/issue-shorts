@@ -7951,5 +7951,81 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-15_1200_suneung-listening-flights-halt/video.mp4"
   },
   "seconds": 2736
+ },
+ {
+  "key": "2026-11-15-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-15T18:00:00+09:00",
+  "started": "2026-11-15T15:18:35.551915+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-6410/",
+   "https://pixabay.com/photos/bath-oil-oil-lavender-fragrance-oil-2510783/",
+   "https://pixabay.com/videos/id-336755/",
+   "https://pixabay.com/videos/id-1191/",
+   "https://pixabay.com/photos/beer-bottles-bottles-empty-brown-3151245/",
+   "https://pixabay.com/videos/id-223624/",
+   "https://pixabay.com/videos/id-43658/",
+   "https://pixabay.com/videos/id-180618/",
+   "https://pixabay.com/photos/wines-bottles-caps-bottle-caps-1652455/",
+   "https://pixabay.com/videos/id-72935/"
+  ],
+  "cc_clips": [],
+  "duration": 53.49,
+  "matches": [
+   1.0,
+   1.0,
+   0.97,
+   0.99,
+   0.99,
+   0.99,
+   0.95,
+   1.0,
+   1.0,
+   1.0,
+   0.92,
+   0.99,
+   0.93,
+   0.93,
+   1.0,
+   1.0,
+   0.97,
+   0.97,
+   0.97,
+   1.0,
+   0.99,
+   0.99,
+   1.0
+  ],
+  "sfx": 22,
+  "illustrations": 15,
+  "cuts": 23,
+  "layout_issues": [],
+  "caption_breaks": [
+   "처음처럼도 / 병은 (55)"
+  ],
+  "title": "한국 술자리마다 있는 초록 소주병의 진실 #shorts",
+  "source_post": "https://www.insight.co.kr/news/473134",
+  "facts_used": [
+   "1990년대 초반까지 소주병은 투명하거나 푸른빛이 대부분, 1994년 1월 두산경월(현 롯데)이 서울·수도권 공략 위해 초록색 병 '그린소주' 출시해 깨끗한 이미지로 성공, 진로도 병을 초록색으로 바꾸고 다른 업체도 따라 90년대 중후반 사실상 표준 — 인사이트 https://www.insight.co.kr/news/473134 , 위키트리 https://www.wikitree.co.kr/articles/1134235 , 경향 https://www.khan.co.kr/article/202511091735001",
+   "2009년 환경부·7개 주류업체 360ml 초록색 소주병을 표준용기로 하는 공병 공용화 자율협약 — 비즈워치 https://news.bizwatch.co.kr/article/consumer/2020/09/07/0004 , 데일리안 https://www.dailian.co.kr/news/view/834949/",
+   "빈 병 재사용 평균 8회(2017), 제품에 따라 8~10회(2025 환경부·업계 추산) — 헤럴드 https://www.heraldk.com/article/2025082701400006034 , 시대 https://www.sidae.com/article/2017080217088055456",
+   "2019년 4월 하이트진로 하늘색 투명병 진로이즈백 출시, 4050은 추억에 반가워하고 2030은 새 브랜드로 받아들임(인터뷰), 7개월 만에 1억53만 병 — 시대 https://www.sidae.com/article/2019103010268048031 , 데일리안 https://m.dailian.co.kr/news/view/847873",
+   "롯데주류가 진로이즈백 빈 병을 돌려주지 않아 창고에 200만 개 넘게 쌓임, 롯데 '1위 업체가 자율규약을 깨면 시장질서 무너질 수 있다', 하이트진로 '협약 대상은 녹색병 한정' — 다음(2019-10-04) https://v.daum.net/v/20191004044349744 , 데일리안 https://www.dailian.co.kr/news/view/834949/",
+   "2019년 11월 병당 10.5원 수수료로 공병 반납 합의, 2020년 녹색병·이형병 1대1 맞교환 합의로 공용병 협약 사실상 백지화 평가 — 아이뉴스24 https://www.inews24.com/view/1221727 , 비즈워치 https://news.bizwatch.co.kr/article/consumer/2020/09/07/0004 , 더팩트 https://news.tf.co.kr/read/ogmeta/1765126.htm"
+  ],
+  "slug": "2026-11-15_1800_green-soju-bottle-origin",
+  "late": false,
+  "video_id": "ca146kjuWT8",
+  "url": "https://youtube.com/shorts/ca146kjuWT8",
+  "privacy": "private",
+  "scheduled_for": "2026-11-15T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6af957b8b9a106584c914bc0",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-15T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-15_1800_green-soju-bottle-origin/video.mp4"
+  },
+  "seconds": 2302
  }
 ]
