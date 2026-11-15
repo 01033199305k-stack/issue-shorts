@@ -1,46 +1,51 @@
 {
- "detected_at": "2026-11-14T19:14+09:00",
+ "detected_at": "2026-11-15T09:10+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] \"트럼프, 지난해 엔비디아 주식 사고 AI칩 수출통제 완화\"",
-   "url": "https://n.news.naver.com/article/448/0000651039",
-   "press": "TV조선",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "李대통령 \"가장 힘든 건 등 뒤서 날아오는 화살\"…與천준호 격려",
+   "url": "https://n.news.naver.com/article/001/0016441969",
+   "press": "연합뉴스",
+   "why": "언론사 7곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "경향신문",
+     "title": "이 대통령, 천준호에 “고생 많았다···등 뒤에서 날아오는 화살 가장 힘들어”",
+     "url": "https://n.news.naver.com/article/032/0003482644"
+    },
+    {
+     "press": "국민일보",
+     "title": "李 “가장 힘든 일은 등뒤서 날아오는 화살”…'尹탄핵 반대' 발언 겨냥?",
+     "url": "https://n.news.naver.com/article/005/0001885092"
+    },
+    {
+     "press": "한국일보",
+     "title": "이 대통령 \"가장 힘든 일은 등 뒤에서 날아오는 화살\"... 친청계 겨냥했나",
+     "url": "https://n.news.naver.com/article/469/0000965569"
+    },
+    {
+     "press": "MBC",
+     "title": "이 대통령 \"가장 힘든 건 등 뒤에서 날아오는 화살\"",
+     "url": "https://n.news.naver.com/article/214/0001535633"
+    }
+   ]
   },
   {
    "kind": "news",
-   "title": "[속보]탈압박 나선 최민희 “통일교·신천지 제보 받았다…문제 삼지 않아”",
-   "url": "https://n.news.naver.com/article/029/0003059037",
-   "press": "디지털타임스",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 조폐공사 \"모바일 지역사랑상품권 플랫폼서 개인정보 유출\"",
-   "url": "https://n.news.naver.com/article/082/0001407102",
-   "press": "부산일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "중기중앙회 \"노란우산 주민번호 등 개인정보 유출 가능성\"",
-   "url": "https://n.news.naver.com/article/374/0000543674",
-   "press": "SBS Biz",
+   "title": "국힘, 부산역서 ‘이재명 탈옥법’ 규탄…“죽은 법에 근거한 특검”",
+   "url": "https://n.news.naver.com/article/028/0002832219",
+   "press": "한겨레",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "노컷뉴스",
-     "title": "[속보] 중소기업중앙회 \"해킹으로 노란우산 개인정보 유출 가능성\"",
-     "url": "https://n.news.naver.com/article/079/0004209797"
+     "press": "부산일보",
+     "title": "국힘, 부산역서 규탄 집회 \"특검 의결하면 국무위원도 감옥행\"",
+     "url": "https://n.news.naver.com/article/082/0001407111"
     },
     {
-     "press": "대전일보",
-     "title": "가입자 192만 명 노란우산서 개인정보 유출 의심…중기중앙회 조사",
-     "url": "https://n.news.naver.com/article/656/0000192373"
+     "press": "채널A",
+     "title": "국민의힘, 부산서 “李 탈옥법 저지”…민주당 “명분 없는 투쟁”",
+     "url": "https://n.news.naver.com/article/449/0000367519"
     }
    ]
   }
