@@ -8027,5 +8027,81 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-15_1800_green-soju-bottle-origin/video.mp4"
   },
   "seconds": 2302
+ },
+ {
+  "key": "2026-11-16-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-16T07:00:00+09:00",
+  "started": "2026-11-16T04:18:44.392058+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-29507/",
+   "https://pixabay.com/photos/hands-phone-smartphone-electronics-1851218/",
+   "https://pixabay.com/videos/id-11018/",
+   "https://pixabay.com/videos/id-7012/",
+   "https://pixabay.com/photos/clocks-time-idea-concept-257911/",
+   "https://pixabay.com/videos/id-31961/",
+   "https://pixabay.com/videos/id-43613/",
+   "https://pixabay.com/videos/id-32000/",
+   "https://pixabay.com/videos/id-72883/",
+   "https://pixabay.com/photos/police-police-station-sign-1530531/"
+  ],
+  "cc_clips": [],
+  "duration": 52.62,
+  "matches": [
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   0.97,
+   0.97,
+   0.92,
+   0.92,
+   0.97,
+   1.0,
+   1.0,
+   0.93,
+   0.97,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 21,
+  "illustrations": 16,
+  "cuts": 21,
+  "layout_issues": [],
+  "caption_breaks": [
+   "대학생 / 커뮤니티 (55)"
+  ],
+  "title": "터미널 폭탄 예고 글 쓴 대학생들이 간 곳 #shorts",
+  "source_post": "https://www.news1.kr/local/gwangju-jeonnam/6354598",
+  "facts_used": [
+   "11월 15일 오후 4시 58분께 광주 서구 유·스퀘어 종합버스터미널 폭발물 의심 신고 접수, 신고자는 대학생 커뮤니티 에브리타임에 '오후 8시에 폭탄이 터진다'는 글이 올라왔다고 알림 — 뉴스1 https://www.news1.kr/local/gwangju-jeonnam/6354598 , 국민일보 https://www.kmib.co.kr/article/20261115501241 , 매일신문 https://www.imaeil.com/page/view/2026111519390619747",
+   "글 내용 '터미널에 설치된 폭발물이 오후 8시에 터진다' — 네이트(종합) https://m.news.nate.com/view/20261115n14977 , 한국경제 https://www.hankyung.com/article/2026111576717",
+   "경찰 초동 대응팀과 경찰특공대 투입, 터미널 내부·주변 수색; 소방 인력 28명·장비 6대 투입, 폭발물이나 특이사항 발견 안 됨 — 뉴스1, 한국경제, 네이트 https://m.news.nate.com/view/20261115n16615",
+   "오후 7시께 20대 남성 2명이 광주 서구 한 지구대를 찾아 폭발 예고 글을 자신들이 작성했다고 밝힘, 광주 지역 대학 재학생 — 뉴스1, 매일신문, 전남일보 https://www.jnilbo.com/news/articleView.html?idxno=90000082929",
+   "터미널에서 경찰이 수색하는 모습을 보고 불안감을 느껴 자수 — 한국경제('겁먹은 대학생들 자수'), 서플 https://supple.kr/news/cmwhto3ujr3xnal9pjv9skxvt",
+   "게시글은 삭제된 상태, 경찰은 작성 경위·동기 조사 중이며 광주경찰청 사이버수사대로 넘겨 공중협박 혐의 적용 검토 — 뉴스1, 네이트(종합)",
+   "공중협박죄: 2025년 3월 18일 시행, 불특정·다수 생명·신체 위해를 공연히 협박하면 5년 이하 징역 또는 2천만 원 이하 벌금 — 뉴시스 https://mobile.newsis.com/view/NISX20250818_0003293695 , 뉴스토마토 https://newstomato.com/ReadNews.aspx?no=1259413",
+   "'3시간 남짓'은 신고 4시 58분~예고 8시 계산값, '한 시간 먼저'는 자수 오후 7시께~8시 계산값"
+  ],
+  "slug": "2026-11-16_0700_gwangju-terminal-bomb-post-students",
+  "late": false,
+  "video_id": "zdYqnpfb5Hs",
+  "url": "https://youtube.com/shorts/zdYqnpfb5Hs",
+  "privacy": "private",
+  "scheduled_for": "2026-11-15T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6afa12beff465c57daacd8a2",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-15T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-16_0700_gwangju-terminal-bomb-post-students/video.mp4"
+  },
+  "seconds": 3372
  }
 ]
