@@ -1,92 +1,43 @@
 {
- "detected_at": "2026-11-15T17:26+09:00",
+ "detected_at": "2026-11-16T09:10+09:00",
  "candidates": [
   {
-   "kind": "news",
-   "title": "이 대통령 \"개혁 이름 빌려 개혁 방해하는 건 용납 어렵다\"",
-   "url": "https://n.news.naver.com/article/055/0001403132",
-   "press": "SBS",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
+   "kind": "community",
+   "title": "[단독] \"어려도 너무 어려\" 13살도 데뷔…아이돌 인권 \"내년 첫 전수조사\"",
+   "url": "https://theqoo.net/hot/4407505975",
+   "board": "더쿠 HOT",
+   "why": "커뮤니티 2곳 동시 화제 + 기사화(SBS)",
+   "news": [
     {
-     "press": "MBN",
-     "title": "이 대통령 \"진정한 개혁은 인기 없는 일…개혁 방해, 용납 어려워\"",
-     "url": "https://n.news.naver.com/article/057/0001978257"
-    },
-    {
-     "press": "연합뉴스",
-     "title": "李대통령 \"부화뇌동하고 개혁의 이름빌려 개혁방해…용납어렵다\"",
-     "url": "https://n.news.naver.com/article/001/0016442513"
-    },
-    {
-     "press": "경기일보",
-     "title": "이재명 대통령 “개혁 이름 빌려 개혁 방해하는 것 용납 어렵다”",
-     "url": "https://n.news.naver.com/article/666/0000132097"
+     "url": "https://n.news.naver.com/article/055/0001403180",
+     "headline": "[단독] \"어려도 너무 어려\" 13살도 데뷔…아이돌 인권 \"내년 첫 전수조사\""
     }
    ]
   },
   {
    "kind": "news",
-   "title": "수능 코앞인데 'AI 부정행위' 파문… 靑 \"사안 엄중, 오후 대책회의\"",
-   "url": "https://n.news.naver.com/article/469/0000965624",
-   "press": "한국일보",
+   "title": "[아경-리얼미터 여론조사]李대통령 지지율, 0.5%P 올라 36.4%",
+   "url": "https://n.news.naver.com/article/277/0005842810",
+   "press": "아시아경제",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "서울경제",
-     "title": "[속보] 靑 “AI 부정행위 엄중히 봐…오늘 정책실장 주재 대책회의”",
-     "url": "https://n.news.naver.com/article/011/0004682286"
+     "press": "매일경제",
+     "title": "[속보] 이 대통령 지지율 36.4%…국힘 43.0%·민주 34.6% [리얼미터]",
+     "url": "https://n.news.naver.com/article/009/0005764122"
     },
     {
-     "press": "뉴시스",
-     "title": "[속보]靑, AI 부정행위에 \"사안 엄중…정책실장 주재 대책회의 예정\"",
-     "url": "https://n.news.naver.com/article/003/0014322975"
+     "press": "kbc광주방송",
+     "title": "[속보]李대통령 지지율 36.4%, 12주 연속 30%대…민주 34.6%·국힘 43.0%",
+     "url": "https://n.news.naver.com/article/660/0000121437"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "윤상현 긴급 기자회견 “장동혁, 결단의 시간이다” [현장영상]",
-   "url": "https://n.news.naver.com/article/449/0000367553",
-   "press": "채널A",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "동아일보",
-     "title": "윤상현 “갈라진 보수로는 이길 수 없어…장동혁 결단해 달라”",
-     "url": "https://n.news.naver.com/article/020/0003762495"
-    },
-    {
-     "press": "조선비즈",
-     "title": "윤상현, 장동혁에 “갈라진 보수로 승리 못 해...보수 대통합 위한 결단 해달라”",
-     "url": "https://n.news.naver.com/article/366/0001204867"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "최민희 \"대통령께 깊이 사죄…신천지 의혹 보고서는 공개해야\"",
-   "url": "https://n.news.naver.com/article/079/0004209884",
-   "press": "노컷뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "JTBC",
-     "title": "최민희, '이 대통령 언급 논란' 또 사과…\"'반·분·신' 신천지 의혹은 규명해야\"",
-     "url": "https://n.news.naver.com/article/437/0000520784"
-    },
-    {
-     "press": "MBC",
-     "title": "최민희 \"기억 착오로 대통령님께 누를 끼쳐‥깊이 사죄\"",
-     "url": "https://n.news.naver.com/article/214/0001535665"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 靑 “범정부 역량 총동원해 국민안전 위협 범죄 강력대응”",
-   "url": "https://n.news.naver.com/article/025/0003565236",
-   "press": "중앙일보",
+   "title": "[속보]조정식 국회의장 10시 '개헌' 긴급 기자회견...시간표 나올까",
+   "url": "https://n.news.naver.com/article/008/0005441412",
+   "press": "머니투데이",
    "why": "[속보] 기사",
    "related": []
   }
