@@ -8103,5 +8103,75 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-16_0700_gwangju-terminal-bomb-post-students/video.mp4"
   },
   "seconds": 3372
+ },
+ {
+  "key": "2026-11-16-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-16T12:00:00+09:00",
+  "started": "2026-11-16T09:17:51.139739+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-11616/",
+   "https://pixabay.com/photos/braised-pork-belly-gourmet-8568606/",
+   "https://pixabay.com/videos/id-11632/",
+   "https://pixabay.com/videos/id-120385/",
+   "https://pixabay.com/photos/ground-meat-meat-food-minced-1747910/",
+   "https://pixabay.com/videos/id-15641/",
+   "https://pixabay.com/videos/id-2712/"
+  ],
+  "cc_clips": [],
+  "duration": 51.04,
+  "matches": [
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.98,
+   1.0,
+   0.96,
+   0.95,
+   0.95,
+   0.95,
+   0.87,
+   0.94,
+   1.0,
+   0.95,
+   0.95,
+   0.97,
+   0.96,
+   0.96,
+   1.0,
+   0.95
+  ],
+  "sfx": 21,
+  "illustrations": 17,
+  "cuts": 22,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "한국인 삼겹살에 꼭 섞인 비계 덩어리의 정체 #shorts",
+  "source_post": "https://bbs.ruliweb.com/family/4526/board/300143/read/77404575",
+  "facts_used": [
+   "2024년 4월 한 흑돼지 식당에서 15만 원 상당 삼겹살 대부분이 비계라는 손님 글, 직원이 '이 정도면 고기가 많은 편'이라 했다고 주장 — 서울신문 https://m.seoul.co.kr/news/2024/04/29/20240429500198 , 세계 https://www.segye.com/newsView/20240501510848",
+   "사장 사과, 한 달간 모든 손님에게 오겹살 200g 추가 제공 — SBS Biz https://biz.sbs.co.kr/amp/article/20000169480 , 세계 https://www.segye.com/newsView/20240501510848",
+   "다른 지역(대구)에서도 '이걸로 불판 닦으면 되나요?' 비계 삼겹살 논란 — 서울신문 2024-05-03 https://www.twig24.com/news/world/2024/05/03/20240503500108",
+   "2026년 1월 13일 농식품부 축산물 유통구조 개선방안: 삼겹살(흉추 5번~요추 6번)을 앞삼겹(흉추 5~11, 적정)·돈차돌(흉추 12~14, 지방 최다)·뒷삼겹(요추 1~6, 저지방)으로 세분화, 1+등급 지방 비율 22~42% → 25~40% 조정 — 주간경향 https://weekly.khan.co.kr/article/202601131529001 , 뉴시스 https://www.newsis.com/view/NISX20260116_0003480291 , 네이트 https://m.news.nate.com/view/20260113n31350",
+   "업계는 인력·설비·포장 비용 증가로 가격 상승 우려 — 뉴시스 https://www.newsis.com/view/NISX20260116_0003480291",
+   "2026년 7월 식약처가 수급 불균형·가격 상승·비선호 부위 재고 증가 우려로 재검토 의견, 고시 개정 사실상 멈춤 — 머니투데이 https://www.mt.co.kr/economy/2026/07/22/2026072214532519721"
+  ],
+  "slug": "2026-11-16_1200_pork-belly-fat-donchadol",
+  "late": false,
+  "video_id": "kfeiebNTaXw",
+  "url": "https://youtube.com/shorts/kfeiebNTaXw",
+  "privacy": "private",
+  "scheduled_for": "2026-11-16T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6afa58288e87c256a3a36b3d",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-16T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-16_1200_pork-belly-fat-donchadol/video.mp4"
+  },
+  "seconds": 3196
  }
 ]
