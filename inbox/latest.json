@@ -1,32 +1,34 @@
 {
- "generated_at": "2026-11-16T16:55+09:00",
+ "generated_at": "2026-11-17T03:26+09:00",
  "warnings": [
   "에펨 포텐: HTTPError HTTP Error 430: Unknown",
-  "개드립: HTTPError HTTP Error 403: Forbidden"
+  "개드립: HTTPError HTTP Error 403: Forbidden",
+  "루리웹 베스트: URLError <urlopen error timed out>",
+  "엠팍 불펜: RemoteDisconnected Remote end closed connection without response"
  ],
  "posts": [
   {
-   "title": "수능 시험장 '전파 차단' 대신 와이파이 끈다",
-   "url": "https://theqoo.net/hot/4408030248",
-   "views": 41237,
-   "comments": 347,
-   "board": "더쿠 HOT",
-   "heat": 0.75,
+   "title": "[잡갤] 전북, 2036 올림픽 '단독 개최' 결정…서울과 공동개최 접었다",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479283&_dcbest=1&page=1",
+   "views": 7573,
+   "comments": 296,
+   "board": "디시 실베",
+   "heat": 0.8979591836734694,
    "also_on": [],
-   "score": 1.05,
-   "in_news": "전자신문",
+   "score": 1.198,
+   "in_news": "매일신문",
    "news": [
     {
-     "url": "https://n.news.naver.com/article/030/0003486106",
-     "headline": "수능 시험장 '전파 차단'은 불가…학교 와이파이만 끈다"
+     "url": "https://n.news.naver.com/article/088/0001040581",
+     "headline": "전북, 2036 올림픽 '단독개최' 추진…서울과 공동개최 접었다"
     }
    ]
   },
   {
-   "title": "[세갤] 수 능 미드오픈함 ㄷㄷㄷ...jpg",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479098&_dcbest=1&page=1",
-   "views": 33128,
-   "comments": 536,
+   "title": "[스갤] 오늘 결혼한 사람인데..blind",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479269&_dcbest=1&page=1",
+   "views": 21622,
+   "comments": 550,
    "board": "디시 실베",
    "heat": 1.0,
    "also_on": [],
@@ -36,7 +38,7 @@
   {
    "title": "그 시절, 우리가 사랑했던 디시인사이드...manhwa",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17806&page=1",
-   "views": 145277,
+   "views": 145331,
    "comments": 925,
    "board": "디시 HIT",
    "heat": 1.0,
@@ -45,10 +47,10 @@
    "news": []
   },
   {
-   "title": "세무냥이 AI사태로 또 여자만 유리하다고 한탄하는 한국남자들",
-   "url": "https://theqoo.net/hot/4408031397",
-   "views": 35235,
-   "comments": 635,
+   "title": "방금 발표된 새 제임스 본드",
+   "url": "https://theqoo.net/hot/4408609338",
+   "views": 48049,
+   "comments": 772,
    "board": "더쿠 HOT",
    "heat": 1.0,
    "also_on": [],
@@ -56,21 +58,10 @@
    "news": []
   },
   {
-   "title": "대치동쪽 음모론 돌고있네 ㄷㄷ",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77406943",
-   "views": 37950,
-   "comments": 109,
-   "board": "루리웹 베스트",
-   "heat": 1.0,
-   "also_on": [],
-   "score": 1.0,
-   "news": []
-  },
-  {
-   "title": "방금뜬 카리나 부쉐론 화보",
-   "url": "https://pann.nate.com/talk/375720411",
-   "views": 60273,
-   "comments": 163,
+   "title": "방금 올라온 치어리더 옷 입은 김채원",
+   "url": "https://pann.nate.com/talk/375721909",
+   "views": 9425,
+   "comments": 35,
    "board": "네이트판",
    "heat": 1.0,
    "also_on": [],
@@ -78,10 +69,10 @@
    "news": []
   },
   {
-   "title": "원수까지 마력 11점 남았습니다.",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047852",
-   "views": 0,
-   "comments": 103,
+   "title": "허위사실 유포하고 당원들 모욕한 김민석 사퇴하라! / 개혁을 요구하는 민주당 전국대의원들 성명서",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047977",
+   "views": 4580,
+   "comments": 45,
    "board": "보배드림 베스트",
    "heat": 1.0,
    "also_on": [],
@@ -89,10 +80,10 @@
    "news": []
   },
   {
-   "title": "[싱갤] 할랄 급식 내놓아도 되는 이유",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479134&_dcbest=1&page=1",
-   "views": 14998,
-   "comments": 413,
+   "title": "[싱갤] 안싱글벙글 최근 일본 교토에서 한국인 진상고객 논란",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479255&_dcbest=1&page=1",
+   "views": 22268,
+   "comments": 483,
    "board": "디시 실베",
    "heat": 0.9795918367346939,
    "also_on": [],
@@ -100,10 +91,10 @@
    "news": []
   },
   {
-   "title": "아파서 김장 못간다했더니 시댁에서 ㅋㅋㅋ...",
-   "url": "https://pann.nate.com/talk/375720452",
-   "views": 71594,
-   "comments": 133,
+   "title": "강해린 홍은채 김숙",
+   "url": "https://pann.nate.com/talk/375721659",
+   "views": 1905,
+   "comments": 24,
    "board": "네이트판",
    "heat": 0.98,
    "also_on": [],
@@ -113,7 +104,7 @@
   {
    "title": "메피스토펠레스 완성 + 제작 과정",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17809&page=1",
-   "views": 133928,
+   "views": 133999,
    "comments": 840,
    "board": "디시 HIT",
    "heat": 0.9787234042553191,
@@ -122,21 +113,10 @@
    "news": []
   },
   {
-   "title": "중국 짭프라 통수의 통수의 통수 근황.jpg",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77406201",
-   "views": 29809,
-   "comments": 102,
-   "board": "루리웹 베스트",
-   "heat": 0.967741935483871,
-   "also_on": [],
-   "score": 0.968,
-   "news": []
-  },
-  {
-   "title": "18살 20살 커플 고민좀 들어주세요",
-   "url": "https://pann.nate.com/talk/375720305",
-   "views": 23325,
-   "comments": 122,
+   "title": "친정엄마가 사위 눈치를 너무 봐서 정떨어져요",
+   "url": "https://pann.nate.com/talk/375721328",
+   "views": 8457,
+   "comments": 23,
    "board": "네이트판",
    "heat": 0.96,
    "also_on": [],
@@ -144,10 +124,10 @@
    "news": []
   },
   {
-   "title": "[한갤] 大 미미미누: 수능 무조건 연기해야 된다",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479052&_dcbest=1&page=1",
-   "views": 25963,
-   "comments": 396,
+   "title": "[싱갤] 훌쩍훌쩍 중국인도 안타까워하는 조선왕조의 만행",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479277&_dcbest=1&page=1",
+   "views": 12097,
+   "comments": 412,
    "board": "디시 실베",
    "heat": 0.9591836734693877,
    "also_on": [],
@@ -157,7 +137,7 @@
   {
    "title": "전에 주워서 키웠던 응애참새",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17763&page=1",
-   "views": 99878,
+   "views": 99883,
    "comments": 759,
    "board": "디시 HIT",
    "heat": 0.9574468085106383,
@@ -166,10 +146,10 @@
    "news": []
   },
   {
-   "title": "ai 부정 조용하다는 의견에 대한 대치맘들 반응",
-   "url": "https://theqoo.net/hot/4408115274",
-   "views": 38812,
-   "comments": 436,
+   "title": "댓글창 살벌한 이선민이 바라는 아내상",
+   "url": "https://theqoo.net/hot/4408403901",
+   "views": 75398,
+   "comments": 513,
    "board": "더쿠 HOT",
    "heat": 0.95,
    "also_on": [],
@@ -177,10 +157,10 @@
    "news": []
   },
   {
-   "title": "길냥이 밥 주는 사람을 본 주민 반응",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047815",
+   "title": "이재명과 민주당이 왜 지지율 십창난지 몰라?",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047960",
    "views": 0,
-   "comments": 43,
+   "comments": 32,
    "board": "보배드림 베스트",
    "heat": 0.95,
    "also_on": [],
@@ -188,10 +168,10 @@
    "news": []
   },
   {
-   "title": "여자들 진짜 음식한다고 유세 부리는거 보면 기도안참..",
-   "url": "https://pann.nate.com/talk/375720438",
-   "views": 23167,
-   "comments": 113,
+   "title": "ai 사태보면 이 사회는 결국 남자가 문제야",
+   "url": "https://pann.nate.com/talk/375721859",
+   "views": 1473,
+   "comments": 21,
    "board": "네이트판",
    "heat": 0.94,
    "also_on": [],
@@ -199,10 +179,10 @@
    "news": []
   },
   {
-   "title": "[러갤] 수학 7등급 유튜버, AI 안경 쓰고 수능 봤더니 '충격 결과'",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479127&_dcbest=1&page=1",
-   "views": 23522,
-   "comments": 354,
+   "title": "[시갤] 실시간 수능 감독관 근황.jpg",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479247&_dcbest=1&page=1",
+   "views": 28315,
+   "comments": 355,
    "board": "디시 실베",
    "heat": 0.9387755102040817,
    "also_on": [],
@@ -212,7 +192,7 @@
   {
    "title": "야쿠르트 아줌마의 비밀병기",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17808&page=1",
-   "views": 127757,
+   "views": 127876,
    "comments": 533,
    "board": "디시 HIT",
    "heat": 0.9361702127659575,
@@ -221,100 +201,72 @@
    "news": []
   },
   {
-   "title": "서울 놀러가는데 성심당 빵 뭐 사가야함??",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77406178",
-   "views": 22862,
-   "comments": 91,
-   "board": "루리웹 베스트",
-   "heat": 0.9354838709677419,
-   "also_on": [],
-   "score": 0.935,
-   "news": []
-  },
-  {
-   "title": "원룸고양이 신고한 사람이 남친이라네요.",
-   "url": "https://pann.nate.com/talk/375721070",
-   "views": 20876,
-   "comments": 100,
+   "title": "날 개무시하는 형님..",
+   "url": "https://pann.nate.com/talk/375721219",
+   "views": 9296,
+   "comments": 18,
    "board": "네이트판",
    "heat": 0.92,
    "also_on": [],
-   "score": 0.92
+   "score": 0.92,
+   "news": []
   },
   {
-   "title": "[싱갤] 싱글벙글 평가원,, AI치팅 특단의 조치",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479110&_dcbest=1&page=1",
-   "views": 23219,
-   "comments": 334,
+   "title": "[싱갤] 싱글벙글 AI안경 컨닝사태보다 1557배 심각할거라는 \"그것\"",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479280&_dcbest=1&page=1",
+   "views": 17965,
+   "comments": 328,
    "board": "디시 실베",
    "heat": 0.9183673469387755,
    "also_on": [],
-   "score": 0.918
+   "score": 0.918,
+   "news": []
   },
   {
    "title": "하와이안 미트 피자",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17776&page=1",
-   "views": 75616,
+   "views": 75639,
    "comments": 458,
    "board": "디시 HIT",
    "heat": 0.9148936170212766,
    "also_on": [],
-   "score": 0.915
+   "score": 0.915,
+   "news": []
   },
   {
-   "title": "모건스탠리 \"코스피 1만 이상 가능\"…한국 르네상스 온다\"",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77410055",
-   "views": 5297,
-   "comments": 33,
-   "board": "루리웹 베스트",
-   "heat": 0.9032258064516129,
-   "also_on": [],
-   "score": 0.903
-  },
-  {
-   "title": "ai 안경 잡아내는거 누구보다 자신있다는 공공기관",
-   "url": "https://theqoo.net/hot/4407940584",
-   "views": 69819,
-   "comments": 410,
+   "title": "사실상 우리나라 국회의원들이 스스로 불러온 재앙인 초소형 카메라를 이용한 컨닝",
+   "url": "https://theqoo.net/hot/4408438533",
+   "views": 65482,
+   "comments": 485,
    "board": "더쿠 HOT",
    "heat": 0.9,
    "also_on": [],
    "score": 0.9
   },
   {
-   "title": "장원영 오늘",
-   "url": "https://pann.nate.com/talk/375720405",
-   "views": 29399,
-   "comments": 67,
+   "title": "결혼 10년차인데 시댁 가서 김장 안 함",
+   "url": "https://pann.nate.com/talk/375721220",
+   "views": 16400,
+   "comments": 17,
    "board": "네이트판",
    "heat": 0.9,
    "also_on": [],
    "score": 0.9
   },
   {
-   "title": "윤어게인 세력에 사죄의 말을 올립니다.",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047850",
+   "title": "조희대에게 작살나고 있는 민주당",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047942",
    "views": 0,
-   "comments": 41,
+   "comments": 30,
    "board": "보배드림 베스트",
    "heat": 0.9,
    "also_on": [],
    "score": 0.9
   },
   {
-   "title": "[싱갤] ㅅㄱㅂㄱ 부정행위 냉정한 현실",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479074&_dcbest=1&page=1",
-   "views": 20929,
-   "comments": 316,
-   "board": "디시 실베",
-   "heat": 0.8979591836734694,
-   "also_on": [],
-   "score": 0.898
-  },
-  {
    "title": "전 특수부대 저격수 예비군 갔다 온 만화",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17764&page=1",
-   "views": 88041,
+   "views": 88047,
    "comments": 456,
    "board": "디시 HIT",
    "heat": 0.8936170212765957,
@@ -322,20 +274,20 @@
    "score": 0.894
   },
   {
-   "title": "예쁜여자+못생긴남자 커플은 진짜 많은데",
-   "url": "https://pann.nate.com/talk/375720283",
-   "views": 11688,
-   "comments": 62,
+   "title": "서로를 위한 선택이었음을",
+   "url": "https://pann.nate.com/talk/375721485",
+   "views": 1956,
+   "comments": 16,
    "board": "네이트판",
    "heat": 0.88,
    "also_on": [],
    "score": 0.88
   },
   {
-   "title": "[현갤] 찢 근황 ㅋㅋㅋㅋㅋㅋ",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479148&_dcbest=1&page=1",
-   "views": 12460,
-   "comments": 297,
+   "title": "[힙갤] 키작남이 더 예쁜여자 만나기 쉬운 이유.jpg",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479297&_dcbest=1&page=1",
+   "views": 26997,
+   "comments": 274,
    "board": "디시 실베",
    "heat": 0.8775510204081632,
    "also_on": [],
@@ -344,7 +296,7 @@
   {
    "title": "추석 .MANHWA",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17802&page=1",
-   "views": 158479,
+   "views": 158528,
    "comments": 442,
    "board": "디시 HIT",
    "heat": 0.8723404255319149,
@@ -352,30 +304,20 @@
    "score": 0.872
   },
   {
-   "title": "공기업 마갤 ai안경 필기시험 후기...",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77410125",
-   "views": 6284,
-   "comments": 27,
-   "board": "루리웹 베스트",
-   "heat": 0.8709677419354839,
-   "also_on": [],
-   "score": 0.871
-  },
-  {
-   "title": "파혼이 맞을까요?",
-   "url": "https://pann.nate.com/talk/375721018",
-   "views": 18098,
-   "comments": 59,
+   "title": "볼래?",
+   "url": "https://pann.nate.com/talk/375722316",
+   "views": 827,
+   "comments": 14,
    "board": "네이트판",
    "heat": 0.86,
    "also_on": [],
    "score": 0.86
   },
   {
-   "title": "[현갤] 속보) 통신사에서 교육부 손절",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479140&_dcbest=1&page=1",
-   "views": 18123,
-   "comments": 292,
+   "title": "[싱갤] 싱글벙글 해외에서 ㅈㄴ 까이는 K-웹툰 그림체",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479289&_dcbest=1&page=1",
+   "views": 16929,
+   "comments": 267,
    "board": "디시 실베",
    "heat": 0.8571428571428571,
    "also_on": [],
@@ -384,7 +326,7 @@
   {
    "title": "세트병) 프리큐어 20년 즈언통의 굿즈모음",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17768&page=1",
-   "views": 51000,
+   "views": 51023,
    "comments": 403,
    "board": "디시 HIT",
    "heat": 0.851063829787234,
@@ -392,231 +334,123 @@
    "score": 0.851
   },
   {
-   "title": "AI로 난리난 와중에 얼굴부터 장원급제상이라는 최연소 행정직 수석",
-   "url": "https://theqoo.net/hot/4408095984",
-   "views": 49504,
-   "comments": 397,
+   "title": "ai사용 부정행위로 의심/ 확정된 사안에서 행위자가 전부 남성이라는 점이 진짜 섬뜩",
+   "url": "https://theqoo.net/hot/4408561709",
+   "views": 45132,
+   "comments": 461,
    "board": "더쿠 HOT",
    "heat": 0.85,
    "also_on": [],
    "score": 0.85
   },
   {
-   "title": "교육부장관",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047853",
-   "views": 0,
-   "comments": 31,
+   "title": "이재명 싫어하고 민주당 망하길 바라면서 왜 민주당 지지하는 척 하지?",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1047973",
+   "views": 2238,
+   "comments": 18,
    "board": "보배드림 베스트",
    "heat": 0.85,
    "also_on": [],
    "score": 0.85
   },
   {
-   "title": "코르티스 무대보는데 왜저럼?",
-   "url": "https://pann.nate.com/talk/375720435",
-   "views": 39135,
-   "comments": 51,
+   "title": "그 사람 특징 써보자",
+   "url": "https://pann.nate.com/talk/375722366",
+   "views": 837,
+   "comments": 13,
    "board": "네이트판",
    "heat": 0.84,
    "also_on": [],
    "score": 0.84
   },
   {
-   "title": "일베 물타기할때 꼭 지켜줬으면 하는것들",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77410138",
-   "views": 4232,
-   "comments": 25,
-   "board": "루리웹 베스트",
-   "heat": 0.8387096774193549,
+   "title": "[로갤] Ufc 눈 혐주의",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479238&_dcbest=1&page=1",
+   "views": 27681,
+   "comments": 238,
+   "board": "디시 실베",
+   "heat": 0.8367346938775511,
    "also_on": [],
-   "score": 0.839
+   "score": 0.837
+  },
+  {
+   "title": "대보협 Mr.YMCA 대회 참가 후기",
+   "url": "https://gall.dcinside.com/board/view/?id=hit&no=17779&page=1",
+   "views": 67085,
+   "comments": 374,
+   "board": "디시 HIT",
+   "heat": 0.8297872340425532,
+   "also_on": [],
+   "score": 0.83
+  },
+  {
+   "title": "너 진짜 배우해봐",
+   "url": "https://pann.nate.com/talk/375722332",
+   "views": 892,
+   "comments": 13,
+   "board": "네이트판",
+   "heat": 0.82,
+   "also_on": [],
+   "score": 0.82
+  },
+  {
+   "title": "[스갤] 남편 주변사람들이 모두 한심해.blind",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479317&_dcbest=1&page=1",
+   "views": 12261,
+   "comments": 229,
+   "board": "디시 실베",
+   "heat": 0.8163265306122449,
+   "also_on": [],
+   "score": 0.816
+  },
+  {
+   "title": "싱글벙글 내 작은 정원",
+   "url": "https://gall.dcinside.com/board/view/?id=hit&no=17766&page=1",
+   "views": 58240,
+   "comments": 356,
+   "board": "디시 HIT",
+   "heat": 0.8085106382978723,
+   "also_on": [],
+   "score": 0.809
+  },
+  {
+   "title": "아직도 사태파악 못한 교육부 장관.jpg",
+   "url": "https://theqoo.net/hot/4408612577",
+   "views": 41430,
+   "comments": 457,
+   "board": "더쿠 HOT",
+   "heat": 0.8,
+   "also_on": [],
+   "score": 0.8
+  },
+  {
+   "title": "잊어야 하는데",
+   "url": "https://pann.nate.com/talk/375722481",
+   "views": 399,
+   "comments": 11,
+   "board": "네이트판",
+   "heat": 0.8,
+   "also_on": [],
+   "score": 0.8
   }
  ],
  "news_hot": [
   {
-   "title": "정부, 세무사 수석 합격자 ‘시험 무효·5년간 응시 금지’ 처분 절차 개시",
-   "url": "https://n.news.naver.com/article/366/0001205103",
-   "press": "조선비즈",
-   "rank": 1
-  },
-  {
-   "title": "만취 30대男 뺑소니에 60대 숨져… 한밤중 오토바이 충돌 후 도주했다 체포",
-   "url": "https://n.news.naver.com/article/081/0003699749",
-   "press": "서울신문",
-   "rank": 1
-  },
-  {
-   "title": "“내일 증거 푼다”…‘한동훈 조작 징계’ 추가 폭로 예고에 국힘 전운",
-   "url": "https://n.news.naver.com/article/009/0005764285",
-   "press": "매일경제",
-   "rank": 1
-  },
-  {
-   "title": "‘단추 카메라’ 품절대란…수능 사흘 앞 “연기하자” AI 커닝 쇼크",
-   "url": "https://n.news.naver.com/article/025/0003565424",
-   "press": "중앙일보",
-   "rank": 1
-  },
-  {
-   "title": "최민희, 사과 끝에 \"신천지도 책임져라\"…계파갈등 분출된 민주당 최고위",
-   "url": "https://n.news.naver.com/article/437/0000520896",
-   "press": "JTBC",
-   "rank": 1
-  },
-  {
-   "title": "정부, 수능일 공공 와이파이 차단 추진한다",
-   "url": "https://n.news.naver.com/article/005/0001885395",
-   "press": "국민일보",
-   "rank": 1
-  },
-  {
-   "title": "교육부 “수능때 통신 차단 협의해 추진”",
-   "url": "https://n.news.naver.com/article/023/0004009855",
-   "press": "조선일보",
-   "rank": 1
-  },
-  {
-   "title": "친명-친청 정면충돌…“최민희 발언, 정부 정당성 흔들어” “신천지 진상규명”",
-   "url": "https://n.news.naver.com/article/028/0002832393",
-   "press": "한겨레",
-   "rank": 1
-  },
-  {
-   "title": "이 대통령 오늘 필리핀으로 출국...아세안·APEC 참석",
-   "url": "https://n.news.naver.com/article/052/0002433387",
-   "press": "YTN",
-   "rank": 1
-  },
-  {
-   "title": "“집값 판도 바뀌나” 경기, 서울 첫 역전",
-   "url": "https://n.news.naver.com/article/050/0000113299",
-   "press": "한경비즈니스",
-   "rank": 1
-  },
-  {
-   "title": "[속보]교육부 “수능 연기 없다…초소형 카메라 대책 마련할 것”",
-   "url": "https://n.news.naver.com/article/016/0002724046",
-   "press": "헤럴드경제",
-   "rank": 1
-  },
-  {
-   "title": "최민희 \"기억 착오로 대통령께 누 끼쳐…다시 한번 깊이 사과\"",
-   "url": "https://n.news.naver.com/article/003/0014324178",
-   "press": "뉴시스",
-   "rank": 1
-  },
-  {
-   "title": "이재명 대통령의 이주노동자 발언, 꼼꼼히 따져보니",
-   "url": "https://n.news.naver.com/article/308/0000038984",
-   "press": "시사IN",
-   "rank": 1
-  },
-  {
-   "title": "[속보] 코스피, 3% 넘게 하락해 5000선으로…5거래일 만",
-   "url": "https://n.news.naver.com/article/011/0004682647",
-   "press": "서울경제",
-   "rank": 1
-  },
-  {
-   "title": "교육부 \"수능 연기 없다…초소형 카메라 감독 방안 검토 중\"",
-   "url": "https://n.news.naver.com/article/055/0001403325",
-   "press": "SBS",
-   "rank": 1
-  },
-  {
-   "title": "무면허 음주운전 집유 의사, 면허취소 소송 패소…'의사면허취소법' 첫 합헌 취지 판결",
-   "url": "https://n.news.naver.com/article/088/0001040521",
-   "press": "매일신문",
-   "rank": 1
-  },
-  {
-   "title": "정부, 수능 스마트기기 반납·공공 와이파이 차단 추진(종합)",
-   "url": "https://n.news.naver.com/article/001/0016444203",
-   "press": "연합뉴스",
-   "rank": 1
-  },
-  {
-   "title": "AI 시험 부정 막는다...정부, 수능 범정부 긴급대응팀 구성",
-   "url": "https://n.news.naver.com/article/092/0002445383",
-   "press": "지디넷코리아",
-   "rank": 1
-  },
-  {
-   "title": "일어서서 사과한 최민희‥민주당 최고위 회의 '긴장 팽팽'",
-   "url": "https://n.news.naver.com/article/214/0001535829",
-   "press": "MBC",
-   "rank": 1
-  },
-  {
-   "title": "코스피 5100선까지 밀려…SK하이닉스 6%대 급락",
-   "url": "https://n.news.naver.com/article/018/0006410463",
+   "title": "\"말이 안 된다\" 22번…李대통령 앞에서 진땀 뺀 장관들",
+   "url": "https://n.news.naver.com/article/018/0006410188",
    "press": "이데일리",
    "rank": 1
   },
   {
-   "title": "황경성측 “17일 韓 조작징계 증거 공개”… 국힘, 내홍 분수령",
-   "url": "https://n.news.naver.com/article/021/0002833120",
-   "press": "문화일보",
+   "title": "교육부 “수능 연기 없다”",
+   "url": "https://n.news.naver.com/article/366/0001205041",
+   "press": "조선비즈",
    "rank": 1
   },
   {
-   "title": "[속보] 수능날 '전파 차단' 검토... 교육부 장관 \"과기부와 협의해 17일 발표\"",
-   "url": "https://n.news.naver.com/article/469/0000965781",
-   "press": "한국일보",
-   "rank": 1
-  },
-  {
-   "title": "[속보] 정부, 수능 스마트기기 반납·공공 와이파이 차단 추진",
-   "url": "https://n.news.naver.com/article/057/0001978408",
-   "press": "MBN",
-   "rank": 1
-  },
-  {
-   "title": "'AI 부정행위' 세무사 수석 곧 소환…\"공범 여부도 수사\"",
-   "url": "https://n.news.naver.com/article/655/0000033591",
-   "press": "CJB청주방송",
-   "rank": 1
-  },
-  {
-   "title": "\"매일매일 무섭게 팔린다\" 조용하던 백종원, 직접 나서 소통까지…'빽다방' 中 진출 속도",
-   "url": "https://n.news.naver.com/article/277/0005842874",
-   "press": "아시아경제",
-   "rank": 1
-  },
-  {
-   "title": "[속보] 정부, 수능일 ‘시험장 공공 와이파이’ 차단 추진…스마트기기 반납도",
-   "url": "https://n.news.naver.com/article/032/0003482933",
-   "press": "경향신문",
-   "rank": 1
-  },
-  {
-   "title": "\"조작 드러나면 장동혁 사퇴\" \"한동훈 복당 시기상조\"…친한계-당권파 충돌",
-   "url": "https://n.news.naver.com/article/586/0000142342",
-   "press": "시사저널",
-   "rank": 1
-  },
-  {
-   "title": "친청·친석, 또 설전…\"김민석, 결자해지하라\" \"최민희에 엄정 판단\"",
-   "url": "https://n.news.naver.com/article/421/0009291207",
-   "press": "뉴스1",
-   "rank": 1
-  },
-  {
-   "title": "정부, 수능 시험장 공공 와이파이 차단 검토…부정행위 신고센터 가동",
-   "url": "https://n.news.naver.com/article/056/0012294590",
-   "press": "KBS",
-   "rank": 1
-  },
-  {
-   "title": "계단도 뛰어오른다는데…\"김정은 2년 내 사망\" 예언한 무속인",
-   "url": "https://n.news.naver.com/article/015/0005354136",
-   "press": "한국경제",
-   "rank": 1
-  },
-  {
-   "title": "어떻게 '기자'를 아끼고 사랑하겠어, 다만 최민희가 명심해야 할 것 [신필규의 아직도 적응 중]",
-   "url": "https://n.news.naver.com/article/047/0002535917",
-   "press": "오마이뉴스",
+   "title": "장동혁 \"수능 연기 검토해야…시험 핵심은 공정성\"",
+   "url": "https://n.news.naver.com/article/055/0001403293",
+   "press": "SBS",
    "rank": 1
   },
   {
@@ -626,379 +460,535 @@
    "rank": 1
   },
   {
-   "title": "\"수능 연기 없다\" 못 박은 교육부...검사장비 도입도 '불가능'",
-   "url": "https://n.news.naver.com/article/008/0005441610",
-   "press": "머니투데이",
+   "title": "최민희, 사과 끝에 \"신천지도 책임져라\"…계파갈등 분출된 민주당 최고위",
+   "url": "https://n.news.naver.com/article/437/0000520896",
+   "press": "JTBC",
    "rank": 1
   },
   {
-   "title": "'AI 커닝 쇼크'에 수능장 와이파이 차단 검토… 전파차단은 한계",
-   "url": "https://n.news.naver.com/article/656/0000192504",
-   "press": "대전일보",
-   "rank": 1
-  },
-  {
-   "title": "李대통령 지지율 ‘36.4%’…민주당, 李 정부 출범 후 지지율 최저 [리얼미터]",
-   "url": "https://n.news.naver.com/article/029/0003059258",
+   "title": "빚내서 빚 갚는 경기…추미애 “내년 공무원 월급 9개월분뿐 ”",
+   "url": "https://n.news.naver.com/article/029/0003059420",
    "press": "디지털타임스",
    "rank": 1
   },
   {
-   "title": "'징계 위기' 최민희 최고위서 사과…김민석 \"당의 판단 이뤄질 것\"[영상]",
-   "url": "https://n.news.naver.com/article/079/0004210214",
-   "press": "노컷뉴스",
+   "title": "정부, 수능일 공공 와이파이 차단 추진한다",
+   "url": "https://n.news.naver.com/article/005/0001885395",
+   "press": "국민일보",
    "rank": 1
   },
   {
-   "title": "[속보] 60대 오토바이 운전자 음주운전 차량에 치여 숨져…승용차 운전자 현장 이탈했다가 경찰에 붙잡혀",
-   "url": "https://n.news.naver.com/article/087/0001231080",
+   "title": "\"임신 중 흡연하면 자녀 사춘기 때 ADHD 가능성\"",
+   "url": "https://n.news.naver.com/article/584/0000040165",
+   "press": "동아사이언스",
+   "rank": 1
+  },
+  {
+   "title": "李 지지율 36.4%…국힘 43%, 민주 34.6% 오차 밖 [리얼미터]",
+   "url": "https://n.news.naver.com/article/023/0004009826",
+   "press": "조선일보",
+   "rank": 1
+  },
+  {
+   "title": "\"코스피 1만 이상 가능…한국 르네상스 온다\" 전망 내놓은 모건스탠리",
+   "url": "https://n.news.naver.com/article/277/0005843240",
+   "press": "아시아경제",
+   "rank": 1
+  },
+  {
+   "title": "계단도 뛰어오른다는데…\"김정은 2년 내 사망\" 예언한 무속인",
+   "url": "https://n.news.naver.com/article/015/0005354136",
+   "press": "한국경제",
+   "rank": 1
+  },
+  {
+   "title": "대법원, 19일 한덕수 내란중요임무종사 혐의 선고…김건희 선고도 같은 날",
+   "url": "https://n.news.naver.com/article/028/0002832364",
+   "press": "한겨레",
+   "rank": 1
+  },
+  {
+   "title": "李 “개똥밭에 뒹굴어도 이승이 낫다…자살 상담전화 증원 서두를것”",
+   "url": "https://n.news.naver.com/article/020/0003762680",
+   "press": "동아일보",
+   "rank": 1
+  },
+  {
+   "title": "나경원 “이재명 죄 지우기에만 몰두한다면 역사에 불가역적 죄 짓는 일⋯‘범죄자 대통령’ 한 사람의 죄 지우기보다 5천만 국민의 안보가 먼저”",
+   "url": "https://n.news.naver.com/article/087/0001231063",
    "press": "강원일보",
    "rank": 1
   },
   {
-   "title": "[속보] 수능 D-3, ‘AI 커닝’ 비상…정부, 스마트기기 반납·공공 와이파이 차단 추진",
-   "url": "https://n.news.naver.com/article/022/0004175517",
+   "title": "주말 도로가 자기들 안방인가…민원 7배 폭증한 ‘K-마라톤’의 민낯 [권준영의 머니볼]",
+   "url": "https://n.news.naver.com/article/022/0004175349",
    "press": "세계일보",
    "rank": 1
   },
   {
-   "title": "李 \"개똥밭에 뒹굴어도 이승이 낫다…자살 상담전화 증원 서두를 것\"",
-   "url": "https://n.news.naver.com/article/448/0000651314",
-   "press": "TV조선",
+   "title": "강성태 \"이번 수능도 AI에 뚫릴 것…뿔테 안경 말고도 많아\"",
+   "url": "https://n.news.naver.com/article/422/0000926491",
+   "press": "연합뉴스TV",
    "rank": 1
   },
   {
-   "title": "엘리베이터에 사과·단호박·감 한가득…봉투까지 놓인 상자의 정체",
-   "url": "https://n.news.naver.com/article/422/0000926535",
-   "press": "연합뉴스TV",
+   "title": "“이러면 도대체 뭘 먹고 사나”…국민 간식이었던 ‘이것’, 2년 새 싹 사라진 이유",
+   "url": "https://n.news.naver.com/article/011/0004682638",
+   "press": "서울경제",
+   "rank": 1
+  },
+  {
+   "title": "이 대통령 오늘 필리핀으로 출국...아세안·APEC 참석",
+   "url": "https://n.news.naver.com/article/052/0002433387",
+   "press": "YTN",
+   "rank": 1
+  },
+  {
+   "title": "교육부, 수능 시험장 전파 차단 검토 철회 “법적·기술적 한계”",
+   "url": "https://n.news.naver.com/article/081/0003699923",
+   "press": "서울신문",
+   "rank": 1
+  },
+  {
+   "title": "LH “도심복합사업 지연은 서울시 내부 검토·심의 때문”",
+   "url": "https://n.news.naver.com/article/056/0012294106",
+   "press": "KBS",
+   "rank": 1
+  },
+  {
+   "title": "'44세, 딸 둘 아빠' 남대문 스카프리오 \"10년간 사람 빼고 다 팔아 봤다\"",
+   "url": "https://n.news.naver.com/article/421/0009290340",
+   "press": "뉴스1",
+   "rank": 1
+  },
+  {
+   "title": "교육부 “수능 연기 없다…초소형 카메라 대책 마련할 것”",
+   "url": "https://n.news.naver.com/article/016/0002724046",
+   "press": "헤럴드경제",
+   "rank": 1
+  },
+  {
+   "title": "전북, 2036 올림픽 '단독개최' 추진…서울과 공동개최 접었다",
+   "url": "https://n.news.naver.com/article/088/0001040581",
+   "press": "매일신문",
+   "rank": 1
+  },
+  {
+   "title": "박지원 ‘탄핵 반대 녹취록’ 논란에 “최민희, 징계는 피할 수 없는 길”",
+   "url": "https://n.news.naver.com/article/032/0003482848",
+   "press": "경향신문",
+   "rank": 1
+  },
+  {
+   "title": "李 지지율 36.4%로 0.5%p↑…국힘 43.0%·민주 34.6%",
+   "url": "https://n.news.naver.com/article/079/0004210010",
+   "press": "노컷뉴스",
+   "rank": 1
+  },
+  {
+   "title": "최교진 \"수능 연기하면 더 혼란…교육부 운명 걸고 사고 막겠다\"(종합)",
+   "url": "https://n.news.naver.com/article/001/0016444940",
+   "press": "연합뉴스",
+   "rank": 1
+  },
+  {
+   "title": "정부, 3~5년 치 세무사 최종합격자 성적 재점검...필요시 대상 확대",
+   "url": "https://n.news.naver.com/article/660/0000121508",
+   "press": "kbc광주방송",
+   "rank": 1
+  },
+  {
+   "title": "[속보] 이 대통령 지지율 36.4%…국힘 43.0%·민주 34.6% [리얼미터]",
+   "url": "https://n.news.naver.com/article/009/0005764122",
+   "press": "매일경제",
+   "rank": 1
+  },
+  {
+   "title": "“AI커닝 100% 잡겠나” 묻자, 교육장관 “제 나이가 있어서…”",
+   "url": "https://n.news.naver.com/article/025/0003565527",
+   "press": "중앙일보",
+   "rank": 1
+  },
+  {
+   "title": "전쟁이 된 예식장 예약, ‘광클’하는 예비부부들",
+   "url": "https://n.news.naver.com/article/036/0000054460",
+   "press": "한겨레21",
+   "rank": 1
+  },
+  {
+   "title": "지인이 맡긴 반려견으로 '개소주' 만든 70대…\"선물인 줄 알았다\"",
+   "url": "https://n.news.naver.com/article/215/0001272925",
+   "press": "한국경제TV",
+   "rank": 1
+  },
+  {
+   "title": "“라면보다 췌장에 안 좋을 수도”… 믿고 먹었던 의외의 음식 5가지",
+   "url": "https://n.news.naver.com/article/346/0000118923",
+   "press": "헬스조선",
+   "rank": 1
+  },
+  {
+   "title": "서영교 “의원 150석 이상이면 탄핵…다음 사람이 대법원장하면 돼” [정치시그널]",
+   "url": "https://n.news.naver.com/article/449/0000367613",
+   "press": "채널A",
+   "rank": 1
+  },
+  {
+   "title": "“이 정도면 좋은 남편이자 아빠?”…자녀 일상 챙기는 건 여전히 ‘엄마 몫’",
+   "url": "https://n.news.naver.com/article/662/0000108573",
+   "press": "농민신문",
+   "rank": 1
+  },
+  {
+   "title": "李 지지율 36.4%‥민주 34.6%·국힘 43.0% 오차 밖 [리얼미터]",
+   "url": "https://n.news.naver.com/article/214/0001535786",
+   "press": "MBC",
+   "rank": 1
+  },
+  {
+   "title": "조경태 \"조작징계 침묵하는 장동혁 지도부… 민주주의 말할 자격 있나\"",
+   "url": "https://n.news.naver.com/article/656/0000192491",
+   "press": "대전일보",
+   "rank": 1
+  },
+  {
+   "title": "“나만 뒤처져” SK하닉 몰빵한 30대, 10년 모은 4억이 1억으로…“나보다 더 망한 인생 있을까”",
+   "url": "https://n.news.naver.com/article/030/0003486336",
+   "press": "전자신문",
+   "rank": 1
+  },
+  {
+   "title": "최민희 \"기억 착오로 대통령께 누 끼쳐…다시 한번 깊이 사과\"",
+   "url": "https://n.news.naver.com/article/003/0014324178",
+   "press": "뉴시스",
+   "rank": 1
+  },
+  {
+   "title": "[속보] \"수능 부정행위 땐 3년 자격 박탈 추진\"…교육부 장관 \"스마트안경 인력 1명 배치\"",
+   "url": "https://n.news.naver.com/article/469/0000965760",
+   "press": "한국일보",
+   "rank": 1
+  },
+  {
+   "title": "[속보] 정부, 수능 시험장 스마트기기 전면 반납…공공 와이파이도 차단 검토",
+   "url": "https://n.news.naver.com/article/654/0000211532",
+   "press": "강원도민일보",
    "rank": 1
   }
  ],
  "trends": {
   "google": [
    {
-    "keyword": "전국삼성전자노동조합",
-    "traffic": "200+",
+    "keyword": "robert pattinson",
+    "traffic": "500+",
     "news": [
      {
-      "title": "[단독] 삼성전자 노조, 조합원 대상 테슬라 등 억대 경품 이벤트",
-      "url": "https://www.chosun.com/national/labor/2026/11/16/Y4ZJLFQORRAX5N7MH7RUL53GNI/"
+      "title": "Robert Pattinson Named as the Next James Bond",
+      "url": "https://www.nytimes.com/2026/11/16/movies/james-bond-robert-pattinson.html"
      },
      {
-      "title": "성과급 격차 부른 勞勞 갈등…‘삼성 노조공화국’ 오명",
-      "url": "https://www.dnews.co.kr/uhtml/view.jsp?idxno=202611142234106940064"
+      "title": "Robert Pattinson Is Officially James Bond: Meet the New 007 Actor",
+      "url": "https://variety.com/2026/film/global/robert-pattinson-new-james-bond-007-1236946655/"
      }
     ]
    },
    {
-    "keyword": "당구",
-    "traffic": "1000+",
-    "news": [
-     {
-      "title": "조건휘, 시즌 3승 도전…프로당구 PBA-LPBA 6차 투어 열린다",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02187766645646376&mediaCodeNo=257"
-     },
-     {
-      "title": "PBA 시즌 후반부 돌입…21일부터 휴온스 챔피언십 개최",
-      "url": "https://www.dailysportshankook.co.kr/news/articleView.html?idxno=435552"
-     }
-    ]
-   },
-   {
-    "keyword": "신유열",
-    "traffic": "200+",
-    "news": [
-     {
-      "title": "‘롯데 3세’ 신유열 롯데지주 부사장, 사장 승진… 그룹 전략 총괄 맡는다",
-      "url": "https://www.chosun.com/economy/market_trend/2026/11/16/CJULONS2TNETZL7ICZYE6RLNFQ/"
-     },
-     {
-      "title": "신동빈과 닮은꼴 행보 신유열 사장 승진…롯데, '젊은 피' 수혈",
-      "url": "https://stock.mk.co.kr/news/view/1199622"
-     }
-    ]
-   },
-   {
-    "keyword": "카카오뱅크 애플페이",
-    "traffic": "1000+",
-    "news": [
-     {
-      "title": "[단독]카카오뱅크, 애플페이 서비스 시작",
-      "url": "https://www.etnews.com/20261116000304"
-     },
-     {
-      "title": "“애플 지갑에 등록만 하면 바로 결제”…카뱅 애플페이 써보니",
-      "url": "https://www.mk.co.kr/news/economy/12209953"
-     }
-    ]
-   },
-   {
-    "keyword": "위메이드",
-    "traffic": "200+",
-    "news": [
-     {
-      "title": "[기자수첩] 위메이드 창업주의 무책임한 침묵",
-      "url": "https://dealsite.co.kr/articles/172677"
-     },
-     {
-      "title": "박관호(최대주주), 위메이드 보유주식 계약 변경",
-      "url": "http://www.dailyinvest.kr/news/articleView.html?idxno=72552"
-     }
-    ]
-   },
-   {
-    "keyword": "hiv",
+    "keyword": "다시보기",
     "traffic": "100+",
     "news": [
      {
-      "title": "Zimbabwe’s HIV gains face a test among young people",
-      "url": "https://www.aljazeera.com/news/2026/11/15/zimbabwes-hiv-gains-face-a-test-among-young-people"
+      "title": "[다시보기] 11월 16일 (월) 오후 사이언스 투데이",
+      "url": "https://science.ytn.co.kr/program/program_view.php?s_mcd=0082&key=202611161604549260&s_hcd=0023"
      },
      {
-      "title": "Zimbabwe’s HIV Gains Face Test as Youth Infections Hit 4,400",
-      "url": "https://journalarta.com/en/2026/11/15/zimbabwes-hiv-gains-face-test-young-people/"
+      "title": "[이시각헤드라인] 11월 16일 뉴스현장",
+      "url": "https://www.yonhapnewstv.co.kr/news/MYH20261116132324DuC"
      }
     ]
    },
    {
-    "keyword": "낙상",
-    "traffic": "200+",
-    "news": [
-     {
-      "title": "\"낙상 위험 미리 포착해 약사가 예방\"…새로운 약료 모델 '눈길'",
-      "url": "https://www.kpanews.co.kr/news/articleView.html?idxno=549019"
-     },
-     {
-      "title": "노인 낙상·섬망 위험 예측하는 약물 평가도구 개발…75만명 의료정보 분석",
-      "url": "https://www.mdtoday.co.kr/news/articleView.html?idxno=623526"
-     }
-    ]
-   },
-   {
-    "keyword": "서영교",
-    "traffic": "200+",
-    "news": [
-     {
-      "title": "서영교 “의원 150석 이상이면 탄핵…다음 사람이 대법원장하면 돼” [정치시그널]",
-      "url": "https://ichannela.com/news/detail/000000560122.do"
-     },
-     {
-      "title": "민주당 박희승 의원 나리, 권력에 취한 겐가 [아침햇발]",
-      "url": "https://www.hani.co.kr/arti/opinion/column/1287400.html"
-     }
-    ]
-   },
-   {
-    "keyword": "임현주",
+    "keyword": "로버트 패틴슨",
     "traffic": "1000+",
     "news": [
      {
-      "title": "임현주, MBC 퇴사 \"13년 8개월 재직…회사 밖 탐험할 것\"",
-      "url": "https://www.hankyung.com/article/202611169179H"
+      "title": "로버트 패틴슨, 7대 제임스 본드 된다…'007시리즈' 주인공 낙점",
+      "url": "https://www.yna.co.kr/view/AKR20261117002400075"
      },
      {
-      "title": "임현주 아나운서, MBC 떠난다 \"이제 회사 밖 세계 탐험\"",
-      "url": "https://www.newsis.com/view/NISX20261116_0003869250"
+      "title": "로버트 패틴슨, 다니엘 크레이그 이어 차기 제임스 본드로 선정",
+      "url": "https://www.hankookilbo.com/news/article/A2026111700500000146"
      }
     ]
    },
    {
-    "keyword": "논쟁",
-    "traffic": "1000+",
+    "keyword": "추미애",
+    "traffic": "200+",
     "news": [
      {
-      "title": "파키스탄 실종 여객기 PK404편, 위성 영상 공개로 37년 만의 재조사 논쟁",
-      "url": "https://www.g-enews.com/article/Global-Biz/2026/11/20261116031224791720990b2dc5_1"
+      "title": "추미애 “경기도 가용재원 2조원 줄어···정부·국회 세제 개편 응답해달라”",
+      "url": "https://www.khan.co.kr/article/202611161131021"
+     },
+     {
+      "title": "경기 버스 환승할인 내년 8월 폐지…추미애, 재정 쥐어짜 민생예산만 편성",
+      "url": "https://www.gukjenews.com/news/articleView.html?idxno=3753979"
+     }
+    ]
+   },
+   {
+    "keyword": "최우제",
+    "traffic": "100+",
+    "news": [
+     {
+      "title": "[뉴스워커_스포츠] 롤 인벤·롤갤 뒤집은 제우스 복귀설... 정작 티원은 침묵 중",
+      "url": "https://www.newsworker.co.kr/news/articleView.html?idxno=513543"
+     },
+     {
+      "title": "LCK 스토브리그 일정은?⋯코치 영입 15일ㆍ선수 FA 17일",
+      "url": "https://www.etoday.co.kr/news/view/2647803"
+     }
+    ]
+   },
+   {
+    "keyword": "김주혁",
+    "traffic": "500+",
+    "news": [
+     {
+      "title": "“오빠 생각이 나서” 문근영, 故 김주혁과의 추억이 담긴 노래에 뭉클한 마음",
+      "url": "https://programs.sbs.co.kr/enter/theballad2/clip/89099/OC483613514"
+     },
+     {
+      "title": "우리들의 발라드 2 : 임바다×허채민, 짙은 호소력으로 탑백귀에게 감동 선사한 무대",
+      "url": "https://programs.sbs.co.kr/enter/theballad2/clip/89099/OC483614081"
+     }
+    ]
+   },
+   {
+    "keyword": "드라마",
+    "traffic": "10000+",
+    "news": [
+     {
+      "title": "스푼랩스 ‘비글루’, AI 숏드라마 2차 공모전 연다",
+      "url": "https://zdnet.co.kr/view/?no=20261116165905"
+     },
+     {
+      "title": "\"클링 AI로 만드는 숏드라마\"…비글루, 새 IP 찾는다",
+      "url": "https://www.ddaily.co.kr/page/view/2026111618282434761"
+     }
+    ]
+   },
+   {
+    "keyword": "toki",
+    "traffic": "100+",
+    "news": [
+     {
+      "title": "Isparta'daki 274 TOKİ Konutu Ne Zaman Teslim Edilecek? İşte Yeni Tarih",
+      "url": "https://www.demokrat32.com/ispartadaki-274-toki-konutu-ne-zaman-teslim-edilecek-iste-yeni-tarih"
+     },
+     {
+      "title": "TOKİ'den 405 konutluk dev proje!",
+      "url": "https://www.antalyaekspres.com.tr/tokiden-405-konutluk-dev-proje"
+     }
+    ]
+   },
+   {
+    "keyword": "한국고속철도",
+    "traffic": "500+",
+    "news": [
+     {
+      "title": "퇴역 앞둔 KTX, 고속 화물열차로 변신하나…코레일 사업화 검토",
+      "url": "https://www.news1.kr/realestate/general/6353729"
+     },
+     {
+      "title": "퇴역 앞둔 KTX, 고속 화물열차 변신 검토",
+      "url": "https://news.jtbc.co.kr/article/NB12328254"
+     }
+    ]
+   },
+   {
+    "keyword": "코리아 패싱",
+    "traffic": "200+",
+    "news": [
+     {
+      "title": "[이하경 칼럼] 한·미 동맹은 저주가 아니다",
+      "url": "https://www.joongang.co.kr/article/25478852"
+     },
+     {
+      "title": "트럼프의 '코리아 패싱', 또 드리워지는 '불길한 그림자'",
+      "url": "https://www.newdaily.co.kr/site/data/html/2026/11/16/2026111650286.html"
      }
     ]
    }
   ],
   "buzz": [
    {
+    "word": "있다",
+    "boards": [
+     "네이트판",
+     "더쿠",
+     "디시"
+    ],
+    "titles": [
+     "[러갤] 14살 연하 여친과 결혼 생각 있다는 남캠",
+     "겹겹이찹쌀떡 파는 매장에 내용증명을 보내고 있다는 브랜드",
+     "반년동안 상위권 차트에서 머무르고 있다는 노래"
+    ]
+   },
+   {
+    "word": "시절",
+    "boards": [
+     "디시",
+     "보배드림"
+    ],
+    "titles": [
+     "[유갤] 젠슨황 용산에서 영업하던 시절 90년대 pc 방 후기 ㄷ,,",
+     "그 시절, 우리가 사랑했던 디시인사이드...manhwa",
+     "[폰카] 카메라 없이 폰카만 있던 폰붕이 시절"
+    ]
+   },
+   {
+    "word": "남돌",
+    "boards": [
+     "네이트판",
+     "디시"
+    ],
+    "titles": [
+     "[싱갤] 싱글벙글 일본 남돌 조롱하는 한녀에 대한 일녀들의 반응",
+     "라이브 실력 진짜 미친 거 같은 데뷔 1년차 남돌",
+     "팬한테 다음달에 결혼하자고 한 남돌"
+    ]
+   },
+   {
+    "word": "결혼",
+    "boards": [
+     "네이트판",
+     "디시"
+    ],
+    "titles": [
+     "[러갤] 14살 연하 여친과 결혼 생각 있다는 남캠",
+     "결혼 10년차인데 시댁 가서 김장 안 함",
+     "결혼 전제로 만나는데 데이트 비용 반반 하는 게 맞아?"
+    ]
+   },
+   {
+    "word": "카메라",
+    "boards": [
+     "더쿠",
+     "디시"
+    ],
+    "titles": [
+     "[폰카] 카메라 없이 폰카만 있던 폰붕이 시절",
+     "사실상 우리나라 국회의원들이 스스로 불러온 재앙인 초소형 카메라를 이용한 컨닝",
+     "‘초소형 카메라’ 판매 금지, 불법 촬영엔 눈감더니…뒤늦게 규제론"
+    ]
+   },
+   {
+    "word": "입은",
+    "boards": [
+     "네이트판",
+     "디시"
+    ],
+    "titles": [
+     "[유갤] 메이드복 입은 대학생 만난 홍석천",
+     "방금 올라온 치어리더 옷 입은 김채원"
+    ]
+   },
+   {
+    "word": "AI안경",
+    "boards": [
+     "더쿠",
+     "디시"
+    ],
+    "titles": [
+     "[싱갤] 싱글벙글 AI안경 컨닝사태보다 1557배 심각할거라는 \"그것\"",
+     "AI안경을 써서라도 제발 와달라고 하는 공무원 직렬"
+    ]
+   },
+   {
+    "word": "사람인데",
+    "boards": [
+     "더쿠",
+     "디시"
+    ],
+    "titles": [
+     "[스갤] 오늘 결혼한 사람인데..blind",
+     "서울대 치대수석 리트 만점자 아는 사람인데"
+    ]
+   },
+   {
+    "word": "등장",
+    "boards": [
+     "디시",
+     "보배드림"
+    ],
+    "titles": [
+     "[기갤] 인공지능 모델별 선택 가능한 계산기도 등장? 주판학원 싱글벙글",
+     "수능열사 등장, 직접 수능 뚫은 후 결과 인증하겠다. ㄷㄷㄷ"
+    ]
+   },
+   {
     "word": "수능",
     "boards": [
-     "네이트판",
-     "더쿠",
      "디시",
-     "루리웹",
-     "엠팍"
+     "보배드림"
     ],
     "titles": [
-     "[러갤] 수학 7등급 유튜버, AI 안경 쓰고 수능 봤더니 '충격 결과'",
-     "[시갤] 실시간 수능 만점자 배당 떴냐 ㅋㅋㅋㅋㅋㅋㅋ",
-     "[시갤] 안녕하세요. 2027 수능 만점자 후기입니다."
+     "[시갤] 실시간 수능 감독관 근황.jpg",
+     "수능열사 등장, 직접 수능 뚫은 후 결과 인증하겠다. ㄷㄷㄷ"
     ]
    },
    {
-    "word": "부정행위",
-    "boards": [
-     "더쿠",
-     "디시",
-     "엠팍"
-    ],
-    "titles": [
-     "[세갤] [속보] 경찰, “시험 부정행위 자백, 의심글 추적”",
-     "[싱갤] ㅅㄱㅂㄱ 부정행위 냉정한 현실",
-     "수능 때 가방 교실 밖에 둔다…부정행위 차단 총력"
-    ]
-   },
-   {
-    "word": "경찰",
-    "boards": [
-     "네이트판",
-     "더쿠",
-     "디시"
-    ],
-    "titles": [
-     "[세갤] [속보] 경찰, “시험 부정행위 자백, 의심글 추적”",
-     "[단독] 경찰, '뉴진스 계약 해지' 민희진 업무상 배임 혐의 송치",
-     "경찰로 신분상승한 전직 전과자..jpg"
-    ]
-   },
-   {
-    "word": "만점자",
-    "boards": [
-     "더쿠",
-     "디시",
-     "엠팍"
-    ],
-    "titles": [
-     "[싱갤] 리트 만점자 진우햄 공지 떴다.jpg",
-     "[싱갤] 싱글벙글 세무냥이 다음 타겟으로 지목된 LEET 만점자",
-     "[싱갤] [충격] 리트 만점자, 군대 동기들 등장 ㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷ"
-    ]
-   },
-   {
-    "word": "리트",
-    "boards": [
-     "더쿠",
-     "디시",
-     "엠팍"
-    ],
-    "titles": [
-     "[싱갤] 리트 만점자 진우햄 공지 떴다.jpg",
-     "[싱갤] [충격] 리트 만점자, 군대 동기들 등장 ㄷㄷㄷㄷㄷㄷㄷㄷㄷㄷ",
-     "오늘 리트 만점자 인터뷰 공개 예정이었던 유튜브 채널"
-    ]
-   },
-   {
-    "word": "AI",
-    "boards": [
-     "더쿠",
-     "디시",
-     "엠팍"
-    ],
-    "titles": [
-     "[러갤] 수학 7등급 유튜버, AI 안경 쓰고 수능 봤더니 '충격 결과'",
-     "AI로 난리난 와중에 얼굴부터 장원급제상이라는 최연소 행정직 수석",
-     "[단독] \"모니터 보면서 답 확인\"…AI 안경도 이어폰도 아니었다"
-    ]
-   },
-   {
-    "word": "세무냥",
-    "boards": [
-     "더쿠",
-     "디시",
-     "루리웹"
-    ],
-    "titles": [
-     "[싱갤] 싱글벙글 세무냥이 다음 타겟으로 지목된 LEET 만점자",
-     "[세갤] 세무냥이 도저히 좋게 볼 수가 없는게",
-     "세무냥이 AI사태로 또 여자만 유리하다고 한탄하는 한국남자들"
-    ]
-   },
-   {
-    "word": "서울",
-    "boards": [
-     "네이트판",
-     "디시",
-     "루리웹"
-    ],
-    "titles": [
-     "[잡갤] 12월 서울에 1.100만명 대규모 인파 몰리는 이유",
-     "서울 놀러가는데 성심당 빵 뭐 사가야함??",
-     "[속보] 서울 롯데월드 인근 잠실광역환승센터서 화재…..."
-    ]
-   },
-   {
-    "word": "대한민국",
+    "word": "신상",
     "boards": [
      "디시",
      "보배드림"
     ],
     "titles": [
-     "[싱갤] 대한민국이 진짜 좆된이유",
-     "[싱갤] 싱글벙글 냥이 천국 대한민국",
-     "대한민국 압도적 1등 종목 ! 또 역대최고치 달성"
+     "[기음] [금주의 신상] 11월 3주차 신제품 먹거리 모음.jpg",
+     "하루 한 방울로 노안 끝내버린 미국 신상 안약"
     ]
    },
    {
-    "word": "ai",
+    "word": "누군가",
     "boards": [
-     "더쿠",
+     "네이트판",
      "디시"
     ],
     "titles": [
-     "[해갤] 깜짝 .. ai 딸깍시대에 진짜 대단하신분 ㄹㅇ ..jpg",
-     "ai 부정 조용하다는 의견에 대한 대치맘들 반응",
-     "ai 안경 잡아내는거 누구보다 자신있다는 공공기관"
+     "PBP 1200K 후기 - 完 누군가의 영웅",
+     "누군가를 좋아한다면"
     ]
    },
    {
-    "word": "안경",
+    "word": "방금",
     "boards": [
-     "더쿠",
-     "디시"
+     "네이트판",
+     "더쿠"
     ],
     "titles": [
-     "[러갤] 수학 7등급 유튜버, AI 안경 쓰고 수능 봤더니 '충격 결과'",
-     "[단독] \"모니터 보면서 답 확인\"…AI 안경도 이어폰도 아니었다",
-     "ai 안경 잡아내는거 누구보다 자신있다는 공공기관"
+     "방금 발표된 새 제임스 본드",
+     "방금 올라온 치어리더 옷 입은 김채원"
     ]
    },
    {
-    "word": "공개",
+    "word": "서울대",
     "boards": [
-     "더쿠",
-     "루리웹"
+     "네이트판",
+     "더쿠"
     ],
     "titles": [
-     "오늘 리트 만점자 인터뷰 공개 예정이었던 유튜브 채널",
-     "[마블] 어벤져스: 둠스데이 국내 공식 보도 스틸 공개",
-     "故 황정리 배우 데뷔작 '돌아온 외다리' (1974) 무료 공개 중"
+     "서울대 치대수석 리트 만점자 아는 사람인데",
+     "2027년 서울대 의예과 ot사진"
     ]
    },
    {
-    "word": "인생",
+    "word": "내가",
     "boards": [
-     "디시",
+     "네이트판",
      "보배드림"
     ],
     "titles": [
-     "[싱갤] 훌쩍훌쩍 아빠때문에 인생 망했다는 아들",
-     "문신녀 인생을 바꿔놓은 상남자 전남친"
-    ]
-   },
-   {
-    "word": "공지",
-    "boards": [
-     "더쿠",
-     "디시"
-    ],
-    "titles": [
-     "[싱갤] 리트 만점자 진우햄 공지 떴다.jpg",
-     "리트 만점자 수능 라이브 주관사 공지 인스타"
-    ]
-   },
-   {
-    "word": "되는",
-    "boards": [
-     "디시",
-     "루리웹"
-    ],
-    "titles": [
-     "[싱갤] 할랄 급식 내놓아도 되는 이유",
-     "림버스) 재평가 되는 중국 프문 캐릭터 파밸"
+     "내가 용기내도",
+     "내가 짬통이라는 말은 안썼는데 이젠 씁니다"
     ]
    }
   ]
