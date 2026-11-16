@@ -8249,5 +8249,77 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-16_1800_8090-monster-latte-battle/video.mp4"
   },
   "seconds": 2356
+ },
+ {
+  "key": "2026-11-17-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-17T07:00:00+09:00",
+  "started": "2026-11-17T04:18:18.780950+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-332900/",
+   "https://pixabay.com/videos/id-125627/",
+   "https://pixabay.com/photos/audio-microphone-bokeh-lights-1851517/",
+   "https://pixabay.com/videos/id-5715/",
+   "https://pixabay.com/videos/id-24125/",
+   "https://pixabay.com/videos/id-2029/",
+   "https://pixabay.com/videos/id-11018/",
+   "https://pixabay.com/photos/thank-you-neon-lights-neon-362164/",
+   "https://pixabay.com/photos/japan-osaka-night-asia-landmark-2014617/"
+  ],
+  "cc_clips": [],
+  "duration": 49.42,
+  "matches": [
+   0.97,
+   0.97,
+   1.0,
+   0.99,
+   0.99,
+   0.99,
+   0.97,
+   0.97,
+   0.97,
+   0.96,
+   0.96,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   0.98,
+   0.98,
+   0.97,
+   0.97,
+   0.97,
+   1.0,
+   1.0
+  ],
+  "sfx": 21,
+  "illustrations": 14,
+  "cuts": 22,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "세차비 준다던 승객이 택시 뒷문 열라던 이유 #shorts",
+  "source_post": "https://biz.heraldcorp.com/article/10935029",
+  "facts_used": [
+   "11월 8일 오후 8시께 경기 성남 한 노래방 인근에서 2년째 개인택시를 모는 30대 기사 A씨가 서울로 가는 70대 남성 3명(만취)을 태움, 빗속에서 5분가량 승객을 찾아 헤맴 — JTBC 사건반장 11/11 보도 인용: 헤럴드경제 https://biz.heraldcorp.com/article/10935029 , 매일신문 https://www.imaeil.com/page/view/2026111210561541587 , 아이뉴스24 https://www.inews24.com/view/2025337",
+   "승객 한 명은 이미 바지에 소변이 묻은 상태, 기사가 시트가 젖었으면 세차비를 내야 한다고 하자 '알겠다'고 답함 — 파이낸셜뉴스 https://www.fnnews.com/news/202611120726229758 , 헤럴드경제, 네이트 https://m.news.nate.com/view/20261112n04506",
+   "약 30분 뒤 도착, 기사가 시트를 확인하러 뒤로 가자 그 남성이 '뒷문을 좀 열어 봐'라고 했고 열린 문을 가림막 삼아 차 문을 향해 소변을 봄 — 헤럴드경제, 매일신문, 위키트리 https://www.wikitree.co.kr/articles/1174030",
+   "세차비를 요구하자 조수석 일행이 '당신한테 피해준 것 없잖아'라며 거부 — 아이뉴스24, 매일신문",
+   "기사가 신고, 출동한 경찰은 민사소송으로 청구해야 한다고 안내, 경찰이 떠나자 일행은 다른 노래방으로 들어감, 기사는 세차비보다 소송 비용이 더 들 수 있어 소송 포기 — 헤럴드경제, 파이낸셜뉴스, 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=484624",
+   "실제 세차 비용·운행 중단 여부는 보도에 없음 — 대본에 금액 안 씀. '세차비 0원'은 받지 못했다는 보도 내용의 표현"
+  ],
+  "slug": "2026-11-17_0700_taxi-car-wash-fee-rear-door",
+  "late": false,
+  "video_id": "CScmmk6S3Bc",
+  "url": "https://youtube.com/shorts/CScmmk6S3Bc",
+  "privacy": "private",
+  "scheduled_for": "2026-11-16T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6afb62df3e6202be87867607",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-16T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-17_0700_taxi-car-wash-fee-rear-door/video.mp4"
+  },
+  "seconds": 3047
  }
 ]
