@@ -1,0 +1,725 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "8090-monster-latte-battle",
+ "title_lines": [
+  "8090 괴물설에 달린",
+  "70년대생 반박 댓글"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "토요일에도 학교 간 8090년생은 괴물?",
+   "say": "토요일에도 학교 간 팔공구공년생은 괴물?",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "토요일에도 학교 간\n8090년생은 괴물?",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white"
+   }
+  },
+  {
+   "text": "8090년생은 괴물이라는 글이 퍼졌는데,",
+   "say": "팔공구공년생은 괴물이라는 글이 퍼졌는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "items": [
+     {
+      "type": "sms",
+      "from": "인기글",
+      "lines": [
+       "8090년생이",
+       "괴물인 이유"
+      ]
+     },
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマホ 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "'10개 다 해당하는데요' 댓글이 줄 섰음.",
+   "say": "십 개 다 해당하는데요 댓글이 줄 섰음.",
+   "sfx": "punch",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "手を挙げる 男性",
+       "手を挙げる 人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙋",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "office",
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "토요일에도 학교 가고,",
+   "say": "토요일에도 학교 가고,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "登校 男の子",
+       "登校 小学生",
+       "ランドセル"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏫",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "video": [
+     "school classroom desks",
+     "classroom empty",
+     "school hallway"
+    ],
+    "cc": [
+     "korean school classroom"
+    ]
+   }
+  },
+  {
+   "text": "짜장면은 전화로 시켰음.",
+   "say": "짜장면은 전화로 시켰음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "emoji",
+      "text": "☎️",
+      "pos": "center",
+      "size": "l",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "living",
+    "pic": [
+     "noodles black bean",
+     "chinese noodles",
+     "noodle bowl"
+    ],
+    "grok": {
+     "prompt": "Medium shot in a small Korean apartment living room, a teenage boy with short black hair and a striped T-shirt holds a paper flyer in one hand and dials an old beige landline phone with the other, warm afternoon light, slow push-in camera"
+    }
+   }
+  },
+  {
+   "text": "친구 집 전화번호 5개는 외웠다고.",
+   "say": "친구 집 전화번호 다섯 개는 외웠다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男の子",
+       "考える 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "bedroom",
+    "video": [
+     "landline phone dial",
+     "old telephone",
+     "rotary phone"
+    ]
+   }
+  },
+  {
+   "text": "심지어 시급 5000원에 소주는 25도였음.",
+   "say": "심지어 시급 오천 원에 소주는 이십오 도였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "price",
+      "label": "그 시절 시급",
+      "new": "5000원"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "アルバイト 男性",
+       "コンビニ 店員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "여기서 70년대생이 참전함.",
+   "say": "여기서 칠공년대생이 참전함.",
+   "sfx": "exclaim",
+   "tone": "흥분해서 목소리를 확 키우며",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る おじさん",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "red",
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "'시급 5000원? 우린 2000원대였다.'",
+   "say": "시급 오천 원? 우린 이천 원대였다.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "items": [
+     {
+      "type": "sms",
+      "from": "70년대생 댓글",
+      "lines": [
+       "시급 5000원?",
+       "우린 2000원대였다"
+      ]
+     },
+     {
+      "type": "illust",
+      "q": [
+       "おじさん 笑顔",
+       "中年 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "미성년자라고 1800원 준 사장도 있었다고.",
+   "say": "미성년자라고 천팔백 원 준 사장도 있었다고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "社長 悪い",
+       "悪徳 社長",
+       "社長"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "store",
+    "video": [
+     "convenience store shelf",
+     "store counter",
+     "cash register"
+    ],
+    "cc": [
+     "korean convenience store"
+    ]
+   }
+  },
+  {
+   "text": "'병따개로 따는 진로 먹어 봤냐'까지.",
+   "say": "병따개로 따는 진로 먹어 봤냐까지.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "栓抜き",
+       "ビール 栓抜き"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "restaurant",
+    "pic": [
+     "bottle opener",
+     "beer bottle opener"
+    ]
+   }
+  },
+  {
+   "text": "근데 기록을 보면 둘 다 반쯤 맞음.",
+   "say": "근데 기록을 보면 둘 다 반쯤 맞음.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "虫眼鏡 男性",
+       "虫眼鏡"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "night",
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "2000년 최저시급은 1600원이었는데,",
+   "say": "이천 년 최저시급은 천육백 원이었는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "최저시급",
+      "lines": [
+       "2000년 1600원",
+       "2006년 3100원"
+      ],
+      "mark": 0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 女性",
+       "びっくり 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "5000원은 2014년에야 넘었음.",
+   "say": "오천 원은 이천십사 년에야 넘었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "최저시급",
+      "lines": [
+       "2013년 4860원",
+       "2014년 5210원"
+      ],
+      "mark": 1
+     },
+     {
+      "type": "illust",
+      "q": [
+       "ひらめく 男性",
+       "ひらめき"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk",
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "놀토는 2005년 월 1회로 시작해,",
+   "say": "놀토는 이천오 년 월 일 회로 시작해,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "カレンダー 予定"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "video": [
+     "school building exterior",
+     "school building",
+     "school yard"
+    ]
+   }
+  },
+  {
+   "text": "2012년 3월에야 완전히 사라졌다고.",
+   "say": "이천십이 년 삼월에야 완전히 사라졌다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "喜ぶ 小学生",
+       "喜ぶ 子供"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎉",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "park",
+    "video": [
+     "playground children park",
+     "empty playground",
+     "park playground"
+    ]
+   }
+  },
+  {
+   "text": "소주는 20년 넘게 25도였는데,",
+   "say": "소주는 이십 년 넘게 이십오 도였는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "焼酎",
+       "お酒 瓶"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "restaurant",
+    "video": [
+     "glass bottles",
+     "bottle pouring drink",
+     "bar drinks"
+    ],
+    "pic": [
+     "soju bottle",
+     "green bottle"
+    ]
+   }
+  },
+  {
+   "text": "1998년 23도가 나오면서 깨졌음.",
+   "say": "천구백구십팔 년 이십삼 도가 나오면서 깨졌음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "乾杯 男性",
+       "乾杯"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥂",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "restaurant",
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "90년대생까지 묶은 건 갸웃했다고.",
+   "say": "구공년대생까지 묶은 건 갸웃했다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "首をかしげる 男性",
+       "疑問 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "cafe",
+    "video": [
+     "cafe interior",
+     "coffee shop",
+     "cafe table"
+    ]
+   }
+  },
+  {
+   "text": "80년대 초반생은 놀토를 거의 못 겪었음.",
+   "say": "팔공년대 초반생은 놀토를 거의 못 겪었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "制服 学生 男子",
+       "高校生 男子"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😭",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "grok": {
+     "prompt": "Medium shot in a Korean high school classroom on a Saturday morning, a teenage boy in a navy school uniform with short black hair slumps over his desk and sighs while looking out the window at sunshine, soft morning light, slow sideways pan"
+    }
+   }
+  },
+  {
+   "text": "같은 8090인데 겪은 토요일이 다름.",
+   "say": "같은 팔공구공인데 겪은 토요일이 다름.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "text",
+      "style": "row",
+      "text": "같은 8090인데",
+      "pos": "top"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "比べる",
+       "天秤"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white"
+   }
+  },
+  {
+   "text": "괴물 인증도 연도 따라 갈림.",
+   "say": "괴물 인증도 연도 따라 갈림.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "驚く 会社員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👾",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.4,
+      "fx": "sparkle"
+     }
+    ],
+    "bg": "white"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "8090 괴물설에 달린 70년대생 반박 댓글 #shorts",
+  "description": "토요일 등교, 전화 주문, 시급 5000원, 소주 25도를 겪은 8090년생은 괴물이라는 글이 퍼졌다.\n그러자 70년대생은 \"우린 2000원대였다\"며 받아쳤다.\n기록을 보면 최저시급 5000원은 2014년에야 넘었고, 놀토는 2005년에 시작해 2012년에 주 5일이 됐다.\n\n※ AI 음성으로 제작했습니다.\n#8090 #70년대생 #라떼 #놀토 #공감 #shorts",
+  "tags": [
+   "8090",
+   "8090 괴물설",
+   "70년대생",
+   "라떼",
+   "놀토",
+   "최저시급",
+   "소주 25도",
+   "공감",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.fnnews.com/news/202611101624438856",
+ "facts_used": [
+  "8090년생 생활상 10가지(전화 주문·주 6일 등교·친구 집 전화번호 5개 이상 암기·싸이월드·시급 5000원·소주 25도 등) 게시물 화제 — 파이낸셜뉴스 https://www.fnnews.com/news/202611101624438856 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008838053 , 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=483394",
+  "\"10개 다 해당하는데요\" 공감 — 인사이트 https://www.insight.co.kr/news/581155 , 한국경제 https://www.hankyung.com/article/2026110936677",
+  "70년대생 \"2000원대였다\" 반박, 미성년자라고 1800원 받은 경험 — SBS, 스페셜타임스, 파이낸셜뉴스",
+  "\"병따개로 따는 진로를 먹어보기는 했나\" 댓글 — 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=483394",
+  "90년대생까지 같은 세대로 묶은 데 갸웃 — SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008838053",
+  "최저시급 2000년 1600원·2006년 3100원 — 파이낸셜뉴스·스페셜타임스 / 2013년 4860원 — 쿠키뉴스 https://www.kukinews.com/article/view/kuk201307050006 / 2014년 5210원 — 뉴스토마토 https://newstomato.com/ReadNews.aspx?no=379718",
+  "놀토 2005년 월 1회, 2006년 월 2회, 2012년 3월 주 5일 수업 전면 — 파이낸셜뉴스, 매일신문 https://www.imaeil.com/page/view/2012040507302723460 , 한국교육신문 https://www.hangyo.com/mobile/article.html?no=37342",
+  "진로 소주 1973년 25도 이후 '25도 공식' 20년 넘게, 1998년 23도 참이슬로 깨짐 — 한경매거진 https://magazine.hankyung.com/business/article/202206098039b , 데일리안 https://www.dailian.co.kr/news/view/608530/"
+ ],
+ "brief": "레인: 우리얘기\n점수표: [선택] 8090 괴물설 라떼 배틀 — 내 얘기5×2=10(80~90년대생·70년대생·그 자녀 세대 거의 다 당사자)+갈림5(8090 \"10개 다 해당\" vs 70년대생 \"우린 2000원대\" vs 90년대생까지 묶는 데 갸웃)+몰랐던 이유5(최저시급 2000년 1600원·2006년 3100원·2013년 4860원·2014년 5210원, 놀토 2005년 월1회→2006 월2회→2012년 3월 전면 주5일, 소주 1973년 25도→1998년 23도)+한 장면4(전단지 보고 전화 주문, 친구 집 번호 외우기)+대상5(토요 등교·짜장면·소주)=29 / [후보] 수능날 전파 차단(AI 안경 유행, 11/14 07시가 이번 주 다룸·결정 전, 17일 발표 대기) / 점심 후 단체 양치(외국인 반응 기사 한 매체뿐, 이유 숫자 없음) / 30대 알바 인식(디시 글 내용 확인 못 함) / 길냥이 밥(갈등)\n유행: 없음 (찾아본 단어: 수능·AI·안경·부정행위·만점자·교육부 — AI 안경은 11/14 07시가 이번 주 다룸, 전파 차단은 17일 발표 전이라 사실 부족 / 세무냥·미미미누 — 특정 개인 / 삼성sdi·은행 — 주가·기업 / 한동훈 장인 — 정치)\n구조: 발단=8090년생 생활상 10가지 '괴물설' 글이 온라인 확산(2026년 11월 9~10일 보도) / 반응=\"10개 다 해당하는데요\"(8090)→70년대생 \"시급 5000원? 2000원대였다\"→\"미성년자라고 1800원 준 사장\"→\"병따개로 따는 진로를 먹어보기는 했나\" / 이유=최저시급 2000년 1600원·2006년 3100원, 5000원은 2014년 5210원에야 넘음(2013년 4860원), 놀토 2005년 월1회→2012년 3월 주5일 전면, 소주 1973년부터 25도 공식 20년 넘게→1998년 23도 출시로 깨짐 / 갈림=90년대생까지 한 세대로 묶은 데 갸웃(SBS), 80년대 초반생(2002년 무렵 고교 졸업)은 2005년 시작된 놀토를 거의 못 겪음 / 한 방=같은 8090 안에서도 출생 연도 따라 괴물 인증이 갈림\n댓글거리: 내 첫 알바 시급, 놀토 있었냐 없었냐(출생 연도 인증), 외웠던 친구 집 전화번호, 처음 마신 소주 도수, 10개 중 몇 개 해당하는지\n첫장면: 사람 (괴물설 글에 \"10개 다 해당\" 댓글이 줄 섬)\n훅 3안: ①\"8090년생은 괴물이라는 글이 퍼졌는데 '10개 다 해당하는데요' 댓글이 줄 섰음.\"(선택: 가장 센 실제 반응) ②\"시급 5000원에 소주 25도가 괴물의 증거래.\"(목록부터라 장면 약함) ③\"70년대생이 '우린 2000원대였다'며 끼어듦.\"(갈등을 먼저 말해 버림) / 글 카드 3안: \"토요일에도 학교 간 8090년생은 괴물?\"(선택) · \"8090이 괴물이라는 글의 반박\" · \"친구 집 번호 외우던 세대\" / 제목 3안: \"8090 괴물설에 달린 70년대생 반박 댓글\"(선택: 집단 두 개+구체 대상, 직전 '정체'·'진실'·'곳'과 다른 꼬리) · \"결국 70년대생까지 참전했다는 8090 괴물설\"(참전 표현 과장) · \"토요일에도 학교 갔다는 8090년생이 괴물인 이유\"(이유형, 결론이 갈림이라 안 맞음)\n이해검사: 80~90년대생이 토요 등교·전화 주문·시급 5000원·소주 25도를 겪어 '괴물'이라는 글이 퍼지자 70년대생이 \"우린 2000원대였다\"며 반박했는데, 기록을 보면 최저시급 5000원은 2014년에야 넘었고 놀토는 2005~2012년, 소주 25도는 1998년까지라 같은 8090 안에서도 출생 연도에 따라 겪은 게 갈림\n그림대조: 완료 (글 문자+폰 남자, 손 든 사람, 등교 아이·교실, 전화 거는 남자·짜장면 사진, 생각하는 아이·전화기 영상, 시급 가격표+알바, 화난 아저씨, 댓글 문자+중년, 사장+편의점, 병따개 사진, 돋보기, 최저시급 문서 두 장, 달력·학교, 기뻐하는 아이·놀이터, 소주병 사진, 건배, 갸웃 남자·카페, 교복 고교생, 저울, 놀란 남자)\n증거: 최저시급 문서(2000년 1600원·2006년 3100원 / 2013년 4860원·2014년 5210원), 시급 5000원 가격표(원글 항목), 70년대생 댓글 문자(보도 인용 \"2000원대였다\")\n주의: 원글 작성자·커뮤니티 이름 안 씀. 세대를 깎아내리지 않고 서로 웃으며 받아친 '라떼 배틀'로만. '괴물'은 원글 표현. 이홍주 교수 해석은 한 매체에서만 보여 대본에 안 씀. '80자 문자'(실제는 80바이트=한글 40자)는 근거 약해 뺌. 80년대 초반생 놀토 부분은 놀토 2005년 시작(월1회)과 1983년생 고교 졸업 2002년 2월로 계산한 것, 일부 학교 2002~2004 시범운영이 있어 '거의'로 씀. 소주는 진로 25도(1973~) → 1998년 10월 참이슬 23도(일부 기사 1999년 표기, 대부분 1998).\n출처: 파이낸셜뉴스 2026-11-10 https://www.fnnews.com/news/202611101624438856 / SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008838053 / 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=483394 / 아시아경제 2026-11-10 https://view.asiae.co.kr/article/2026111008353494695 / 인사이트 https://www.insight.co.kr/news/581155 / 뉴스1 https://www.news1.kr/society/general-society/6347348 / 한국경제 2026-11-09 https://www.hankyung.com/article/2026110936677 / 최저임금 2014년 5210원 뉴스토마토 https://newstomato.com/ReadNews.aspx?no=379718 , 2013년 4860원 쿠키뉴스 https://www.kukinews.com/article/view/kuk201307050006 / 놀토 매일신문 https://www.imaeil.com/page/view/2012040507302723460 , 한국교육신문 https://www.hangyo.com/mobile/article.html?no=37342 / 소주 도수 한경매거진 https://magazine.hankyung.com/business/article/202206098039b , 데일리안 https://www.dailian.co.kr/news/view/608530/"
+}
