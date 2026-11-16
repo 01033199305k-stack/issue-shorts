@@ -8173,5 +8173,81 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-16_1200_pork-belly-fat-donchadol/video.mp4"
   },
   "seconds": 3196
+ },
+ {
+  "key": "2026-11-16-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-16T18:00:00+09:00",
+  "started": "2026-11-16T15:17:04.314349+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-215475/",
+   "https://pixabay.com/photos/noodles-handmade-chinese-noodles-5628035/",
+   "https://pixabay.com/videos/id-39249/",
+   "https://pixabay.com/videos/id-9728/",
+   "https://pixabay.com/photos/beer-alcohol-drinks-bottle-opener-2618337/",
+   "https://pixabay.com/videos/id-43731/",
+   "https://pixabay.com/videos/id-40822/",
+   "https://pixabay.com/photos/beer-drinks-bottles-beer-bottles-564401/",
+   "https://pixabay.com/videos/id-201947/"
+  ],
+  "cc_clips": [],
+  "duration": 54.21,
+  "matches": [
+   0.94,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.88,
+   1.0,
+   0.91,
+   1.0,
+   0.91,
+   1.0,
+   0.98,
+   0.98,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.89,
+   1.0,
+   1.0,
+   0.92
+  ],
+  "sfx": 21,
+  "illustrations": 16,
+  "cuts": 22,
+  "layout_issues": [],
+  "caption_breaks": [
+   "전화번호 / 5개는 (55)"
+  ],
+  "title": "8090 괴물설에 달린 70년대생 반박 댓글 #shorts",
+  "source_post": "https://www.fnnews.com/news/202611101624438856",
+  "facts_used": [
+   "8090년생 생활상 10가지(전화 주문·주 6일 등교·친구 집 전화번호 5개 이상 암기·싸이월드·시급 5000원·소주 25도 등) 게시물 화제 — 파이낸셜뉴스 https://www.fnnews.com/news/202611101624438856 , SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008838053 , 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=483394",
+   "\"10개 다 해당하는데요\" 공감 — 인사이트 https://www.insight.co.kr/news/581155 , 한국경제 https://www.hankyung.com/article/2026110936677",
+   "70년대생 \"2000원대였다\" 반박, 미성년자라고 1800원 받은 경험 — SBS, 스페셜타임스, 파이낸셜뉴스",
+   "\"병따개로 따는 진로를 먹어보기는 했나\" 댓글 — 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=483394",
+   "90년대생까지 같은 세대로 묶은 데 갸웃 — SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008838053",
+   "최저시급 2000년 1600원·2006년 3100원 — 파이낸셜뉴스·스페셜타임스 / 2013년 4860원 — 쿠키뉴스 https://www.kukinews.com/article/view/kuk201307050006 / 2014년 5210원 — 뉴스토마토 https://newstomato.com/ReadNews.aspx?no=379718",
+   "놀토 2005년 월 1회, 2006년 월 2회, 2012년 3월 주 5일 수업 전면 — 파이낸셜뉴스, 매일신문 https://www.imaeil.com/page/view/2012040507302723460 , 한국교육신문 https://www.hangyo.com/mobile/article.html?no=37342",
+   "진로 소주 1973년 25도 이후 '25도 공식' 20년 넘게, 1998년 23도 참이슬로 깨짐 — 한경매거진 https://magazine.hankyung.com/business/article/202206098039b , 데일리안 https://www.dailian.co.kr/news/view/608530/"
+  ],
+  "slug": "2026-11-16_1800_8090-monster-latte-battle",
+  "late": false,
+  "video_id": "qT9bRWOi6x0",
+  "url": "https://youtube.com/shorts/qT9bRWOi6x0",
+  "privacy": "private",
+  "scheduled_for": "2026-11-16T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6afaa91160a910801c74dbc2",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-16T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-16_1800_8090-monster-latte-battle/video.mp4"
+  },
+  "seconds": 2356
  }
 ]
