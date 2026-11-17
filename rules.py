@@ -224,7 +224,7 @@ def validate(script: dict) -> list[str]:
         p.append(f"{len(segs)} segments (want the title + 14-26 screens)")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
     if not 130 <= total <= 480:
-        p.append(f"narration {total} chars (want 300-450, about 40-60 s - cut sentences that repeat or explain too much)")
+        p.append(f"narration {total} chars (want 170-230, about 25-30 s - cut sentences that repeat or explain too much)")
     queries = {json.dumps(it.get("q"), ensure_ascii=False) for s in segs for it in (s.get("visual") or {}).get("items", [])
                if it.get("type") in ("illust", "crowd") and it.get("q")}
     n_video = sum(1 for s in segs if (s.get("visual") or {}).get("video"))
@@ -391,27 +391,28 @@ def lint(script: dict) -> list[str]:
             p.append(f"segment {i}: more than 2 pictures - one big picture (or two side by side) per scene")
     vids = [bool((s.get("visual") or {}).get("video")) for s in script.get("segments", [])]
     # 2026-10-27 사용자 "영상 좀 많이 넣기로 했는데 왜 조금만 들어가": the routine always wrote the minimum (2)
-    if sum(vids) < 5:   # 2026-10-06~07: six videos in a row went out with no footage at all
-        p.append(f"only {sum(vids)} scenes with stock video - give 5-10 screens a real clip of the place/thing they name "
+    # 2026-11-17: 25-30 s videos have 9-16 screens, so 3-6 clips (was 5-10 for 15-27 screens)
+    if sum(vids) < 3:   # 2026-10-06~07: six videos in a row went out with no footage at all
+        p.append(f"only {sum(vids)} scenes with stock video - give 3-6 screens a real clip of the place/thing they name "
                  "(ROUTINE video: a list of 2-3 English candidates per scene)")
-    if sum(vids) > 10:
-        p.append(f"{sum(vids)} scenes with stock video (max 10)")
+    if sum(vids) > 7:
+        p.append(f"{sum(vids)} scenes with stock video (max 7)")
     if vids and vids[0] and any(it.get("style") == "post" for it in (script["segments"][0].get("visual") or {}).get("items", [])):
         p.append("segment 0: the opening post card takes no stock video")
     # 2026-10-25 (사용자: "실사 사진이 짧주처럼 들어가면 좋을 것 같은데"): 2-3 real photos of the place/object per video
     segs_ = script.get("segments", [])
     pics = [bool((s.get("visual") or {}).get("pic")) for s in segs_]
     n_grok = sum(1 for s in segs_ if (s.get("visual") or {}).get("grok"))
-    if n_grok > 4:   # credits: 3 videos a day x 4 = 12 clips
-        p.append(f"{n_grok} grok scenes - max 4 (the ones a single picture can't tell: someone doing something)")
+    if n_grok > 2:   # 25-30 s since 2026-11-17 (was 4 for 40-60 s)
+        p.append(f"{n_grok} grok scenes - max 2 (the ones a single picture can't tell: someone doing something)")
     media = [a or b or bool((s.get("visual") or {}).get("photo")) for a, b, s in zip(vids, pics, segs_)]
-    if sum(pics) < 3:
-        p.append(f"only {sum(pics)} scenes with a real photo - give 3-5 screens \"pic\": [English words for the place/"
+    if sum(pics) < 1:
+        p.append(f"only {sum(pics)} scenes with a real photo - give 1-3 screens \"pic\": [English words for the place/"
                  "object they name] (ROUTINE pic: stock stills, no people)")
-    if sum(pics) > 5:
-        p.append(f"{sum(pics)} pic scenes - max 5")
-    if sum(media) > 15:
-        p.append(f"{sum(media)} scenes on footage/photos - max 15")
+    if sum(pics) > 3:
+        p.append(f"{sum(pics)} pic scenes - max 3")
+    if sum(media) > 10:
+        p.append(f"{sum(media)} scenes on footage/photos - max 10")
     if any(all(media[i:i + 6]) for i in range(len(media) - 5)):
         p.append("six footage/photo scenes in a row - put an illustrated scene between them")
     if pics and pics[0]:
@@ -447,15 +448,16 @@ def lint(script: dict) -> list[str]:
                 p.append(f"segment {i}: text style {st!r} repeats the caption (two subtitles on screen) - "
                          "use a picture/emoji; panel words only as the post card or the vote board")
     total = sum(len(s.get("say") or s.get("text", "")) for s in segs)
-    # 2026-11-02 듀오링고 편 비교: same story, @쓱삭숏 67 s 17.3만 vs ours 25 s 1.7천 - 30 s has no room for
-    # the rumour growing, the reveal and what happened to the people who spread it
-    if len(segs) > 27 or total > 460:
-        p.append(f"{len(segs)} screens / {total} chars - write the title + 14-26 screens, 300-450 chars (40-60 s)")
-    if len(segs) < 15:
-        p.append(f"only {len(segs)} screens - one short line per screen (a new picture every ~2 s), 15-27 screens")
-    if total < 290:
-        p.append(f"only {total} chars - tell it in stages (how it started, how it grew, the reveal, what happened next), "
-                 "target 300-450 chars; if the story has too few facts pick another one, never pad")
+    # 2026-11-17 back to 25-30 s: our own 83 videos of 10/05-11/01 - <=30 s median 2,500 views vs >30 s 1,500; all
+    # 10 videos over 4,000 were 22-29 s. The 11/02 switch to 40-60 s (one @쓱삭숏 comparison) was followed by
+    # medians of 1.6천 then 1.1천 and no video over 4,000.
+    if len(segs) > 17 or total > 240:
+        p.append(f"{len(segs)} screens / {total} chars - write the title + 8-15 screens, 170-230 chars (25-30 s): "
+                 "hook, one reveal, one punch - cut background and the in-between stages")
+    if len(segs) < 8:   # the 1.7만 112-짜장면 video had 8
+        p.append(f"only {len(segs)} screens - one short line per screen (a new picture every ~2 s), 8-16 screens")
+    if total < 160:
+        p.append(f"only {total} chars - target 170-230 chars; if the story has too few facts pick another one, never pad")
     post = next((it for it in ((segs[0].get("visual") or {}).get("items", []) if segs else [])
                  if it.get("style") == "post"), None)
     if post:   # 2026-10-07: @dolongcha/@군림보 read the title aloud first; ours jumped straight into the story
