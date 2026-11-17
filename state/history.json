@@ -8321,5 +8321,77 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-17_0700_taxi-car-wash-fee-rear-door/video.mp4"
   },
   "seconds": 3047
+ },
+ {
+  "key": "2026-11-17-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-17T12:00:00+09:00",
+  "started": "2026-11-17T09:19:38.876127+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-9458/",
+   "https://pixabay.com/videos/id-171334/",
+   "https://pixabay.com/videos/id-23258/",
+   "https://pixabay.com/photos/football-grass-ball-green-grass-2778583/",
+   "https://pixabay.com/videos/id-3627/",
+   "https://pixabay.com/videos/id-198/",
+   "https://pixabay.com/videos/id-1191/",
+   "https://pixabay.com/photos/escalator-stairs-metal-segments-283448/",
+   "https://pixabay.com/photos/escalator-stairs-metro-subway-769790/"
+  ],
+  "cc_clips": [],
+  "duration": 48.65,
+  "matches": [
+   1.0,
+   0.98,
+   0.98,
+   0.98,
+   0.98,
+   0.94,
+   0.94,
+   1.0,
+   1.0,
+   0.97,
+   0.97,
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.99,
+   0.97,
+   0.92
+  ],
+  "sfx": 19,
+  "illustrations": 14,
+  "cuts": 20,
+  "layout_issues": [],
+  "caption_breaks": [
+   "90년대 / 후반 (55)"
+  ],
+  "title": "한국인 에스컬레이터 왼쪽 비우기의 진실 #shorts",
+  "source_post": "https://www.segye.com/newsView/20260923507488",
+  "facts_used": [
+   "정부(행안부·한국승강기안전공단) 2030년까지 두 줄 서기 정착 캠페인 재추진 — 뉴시스 2026-04-23 https://www.newsis.com/view/NISX20260423_0003603127 , YTN https://www.ytn.co.kr/_ln/0103_202604230947373431",
+   "누리꾼 반응 \"이미 익숙해졌다\", \"바쁜 사람을 위해 한 줄 서기는 필요하다\", \"급하면 일찍 나와라\" — 노컷뉴스 https://www.nocutnews.co.kr/news/6514289",
+   "한 줄 서기 1990년대 후반 시민단체 운동, 2002년 월드컵 계기 대중화, 2007년 한국승강기안전관리원 '한 줄 서기는 안전성이 떨어진다' 발표 후 두 줄 서기 캠페인, 2015년 공식 중단 — 세계일보 https://www.segye.com/newsView/20260827516314 , YTN, 노컷뉴스",
+   "행안부 7개 대도시 성인 1000명 조사: 한쪽 서고 걷기 50.1%·두 줄 정지 49.9% — 세계일보 https://www.segye.com/newsView/20260829505528 , 이코노미스트 https://economist.co.kr/article/view/ecn202608290015",
+   "8월 29일 모두의 토론회 국민 200여 명 참여, 걸으면 발판 충격 커져 설비 무리 발표, 두 줄 찬성 31.4%→45.9% — 더팩트 https://news.tf.co.kr/read/life/2359430.htm , SBS Biz https://biz.sbs.co.kr/amp/article/20000336458",
+   "9월 23일 행안부 두 줄 서기 캠페인·규제 추진 중단, 손잡이 잡기·걷거나 뛰지 않기·안전선 지키기 3대 안전 수칙 중심 — 세계일보 https://www.segye.com/newsView/20260923507488 , 한국일보 https://www.hankookilbo.com/news/article/A2026092313530001861"
+  ],
+  "slug": "2026-11-17_1200_escalator-one-line-nineteen-years",
+  "late": false,
+  "video_id": "nFEt1Q2ERjc",
+  "url": "https://youtube.com/shorts/nFEt1Q2ERjc",
+  "privacy": "private",
+  "scheduled_for": "2026-11-17T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6afba61d797935b975d09af7",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-17T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-17_1200_escalator-one-line-nineteen-years/video.mp4"
+  },
+  "seconds": 2180
  }
 ]
