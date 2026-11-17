@@ -1,0 +1,334 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "india-army-exam-underwear",
+ "title_lines": [
+  "속옷만 입고 들판에서",
+  "시험 친 인도 지원자들"
+ ],
+ "credit": "",
+ "youtube": {
+  "title": "속옷만 입고 들판에서 시험 친 인도 지원자들 #shorts",
+  "description": "2016년 인도 육군 사무직 채용 필기시험에서 지원자 천여 명이 속옷만 입고 들판에 앉아 시험을 쳤다고.\n바지·양말에 쪽지를 숨기는 커닝을 막고 몸수색 시간을 아끼려던 거였는데, 책임자는 다른 방법이 없었다고 함.\n사진이 퍼지자 법원이 국방부에 해명을 요구했고 육군 본부도 새 지침을 냈다고.\n\n※ AI 음성으로 제작했습니다.\n#인도 #커닝 #시험 #부정행위 #썰 #shorts",
+  "tags": [
+   "인도",
+   "인도 육군",
+   "커닝",
+   "부정행위",
+   "채용 시험",
+   "시험 썰",
+   "해외 토픽",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://supple.kr/news/cmwk09c695hjsjkun62ufodwc",
+ "facts_used": [
+  "2016년 2월 28일 인도 비하르주 무자파르푸르에서 육군 사무직(clerical) 채용 필기시험, 지원자 약 1,000~1,160명이 속옷만 입고 들판에서 시험 — Scroll https://scroll.in/latest/804391/scroll_in , Deccan Chronicle https://www.deccanchronicle.com/nation/current-affairs/010316/bihar-candidates-made-to-sit-in-underwear-in-army-recruitment-exam.html , India TV https://www.indiatvnews.com/news/india/candidates-asked-to-appear-in-underwear-army-recruitment-exam-57980.html , Daily Sabah https://www.dailysabah.com/asia/2016/03/02/indian-army-makes-recruits-strip-for-written-test-to-avoid-cheating/amp",
+  "이유: 과거 지원자들이 바지·양말에 쪽지를 숨겨 왔다는 민원, 많은 인원 몸수색 시간을 아끼려고 — Scroll, IBTimes UK https://www.ibtimes.co.uk/hundreds-indian-jobseekers-made-write-exams-underwear-prevent-cheating-1546825 , The Quint https://www.thequint.com/news/india/bare-in-bihar-army-candidates-write-exam-in-underwear",
+  "모집 책임 대령 '이 극단적인 방법 말고는 선택지가 없었다' — Deccan Chronicle, The Quint, Daily Sabah",
+  "지원자 '창피했지만 어쩔 수 없었다'(인디언 익스프레스 인터뷰) — Scroll, IBTimes UK",
+  "파트나 고등법원이 국방차관(국방부)에 답변 요구, 정부는 육군참모총장에게 보고 요구 — Deccan Herald https://www.deccanherald.com/content/532004/bare-body-test-army-aspirants.html , Business Standard https://www.business-standard.com/article/news-ians/defence-ministry-s-reply-sought-on-exam-in-underwear-116030100569_1.html , Oneindia https://www.oneindia.com/india/defence-ministry-s-reply-sought-on-exam-underwear-2028282.html",
+  "육군 본부 '심각하게 본다'며 공정한 시험을 위한 새 지침 — The News Minute https://www.thenewsminute.com/news/entrance-test-underwear-army-hq-takes-serious-note-ensure-fairness-exams-39674 , Recruiter https://www.recruiter.co.uk/news/2016/03/indian-army-defends-testing-seat-recruits%E2%80%99-pants",
+  "2026년 11월 16일 국내 AI 커닝 논란 속 온라인 커뮤니티·SNS에서 당시 사진 재확산 — 서플 https://supple.kr/news/cmwk09c695hjsjkun62ufodwc (재확산 사실은 대본에 안 씀)"
+ ],
+ "segments": [
+  {
+   "text": "시험장 들어가기 전 옷부터 벗으라던 군대",
+   "say": "시험장 들어가기 전 옷부터 벗으라던 군대",
+   "sfx": "exclaim",
+   "visual": {
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "시험장 들어가기 전\n옷부터 벗으라던 군대",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white"
+   },
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서"
+  },
+  {
+   "text": "들판에서 속옷만 입은 남자 천여 명이 시험 침.",
+   "say": "들판에서 속옷만 입은 남자 천여 명이 시험 침.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "crowd",
+      "q": "試験 男性",
+      "count": 12
+     }
+    ],
+    "bg": "field",
+    "cam": "punch",
+    "grok": {
+     "prompt": "Wide shot of hundreds of young South Asian men with short black hair, shirtless and wearing only plain white shorts, sitting cross-legged in neat rows on a dusty open field, each bent over a paper answer sheet on the ground, hazy daylight, a few officers in green uniforms standing at the edge, slow aerial pull-back camera"
+    }
+   },
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서"
+  },
+  {
+   "text": "2016년 인도 육군 사무직 채용 시험이었음.",
+   "say": "이천십육 년 인도 육군 사무직 채용 시험이었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "채용 시험",
+      "lines": [
+       "2016년 2월 28일",
+       "인도 비하르주",
+       "육군 사무직",
+       "지원자 천여 명"
+      ],
+      "mark": 2
+     },
+     {
+      "type": "illust",
+      "q": [
+       "インド人 男性",
+       "インド人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "바지랑 양말에 쪽지 숨기는 커닝이 있었는데,",
+   "say": "바지랑 양말에 쪽지 숨기는 커닝이 있었는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カンニング 男性",
+       "カンニング"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📝",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "pic": [
+     "socks pile",
+     "folded socks"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "아니 몸수색 시간까지 아끼려고 다 벗김.",
+   "say": "아니 몸수색 시간까지 아끼려고 다 벗김.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "時計 急ぐ",
+       "ストップウォッチ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⏱️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "field",
+    "video": [
+     "stopwatch timer",
+     "clock ticking",
+     "watch time"
+    ]
+   },
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로"
+  },
+  {
+   "text": "책임자는 다른 방법이 없었다며 버팀.",
+   "say": "책임자는 다른 방법이 없었다며 버팀.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "軍人 男性",
+       "軍人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "field"
+   },
+   "tone": "어이없다는 듯 또박또박 힘주어"
+  },
+  {
+   "text": "한 지원자는 창피했지만 어쩔 수 없었다고.",
+   "say": "한 지원자는 창피했지만 어쩔 수 없었다고.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "恥ずかしい 男性",
+       "落ち込む 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "field",
+    "video": [
+     "dusty field india",
+     "dry field",
+     "open field grass"
+    ],
+    "cc": [
+     "bihar india village",
+     "india rural field"
+    ]
+   }
+  },
+  {
+   "text": "결국 사진이 퍼지자 법원이 해명을 요구했고,",
+   "say": "결국 사진이 퍼지자 법원이 해명을 요구했고,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "裁判官",
+       "裁判所"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⚖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "office",
+    "video": [
+     "courthouse building",
+     "court building",
+     "law court"
+    ],
+    "tr": "whoosh"
+   }
+  },
+  {
+   "text": "육군 본부도 심각하게 본다며 새 지침 냄.",
+   "say": "육군 본부도 심각하게 본다며 새 지침 냄.",
+   "sfx": "stamp",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "emoji",
+      "text": "📋",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "office",
+    "pic": [
+     "military headquarters",
+     "army building"
+    ]
+   }
+  },
+  {
+   "text": "쪽지는 막았는데 망신은 못 막음.",
+   "say": "쪽지는 막았는데 망신은 못 막음.",
+   "sfx": "none",
+   "cap": "react",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "頭を抱える 男性",
+       "困る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🩲",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ],
+    "bg": "field",
+    "cam": "pull"
+   },
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게"
+  }
+ ],
+ "brief": "점수표: [선택] 2016년 2월 28일 인도 비하르주 무자파르푸르 육군 사무직 채용 필기시험, 지원자 천여 명이 속옷만 입고 들판에서 시험(11/16 국내 'AI 커닝' 논의 속 재조명, 서플) — 이게됨5(시험 보러 갔는데 옷부터 벗김)+궁금증4(왜 벗겼나 → 쪽지 + 몸수색 시간 절약 / 그 뒤는 → 법원·육군 본부)+감정3×2=6(굴욕·억울함)+대상3(시험·커닝, 지금 한국 수능 화제와 겹침)+판정5(일을 키운 쪽 = 모집 책임자, 변명 '다른 방법 없었다')=23 / [후보] 대전 지구대 뛰어온 초등생 경찰 면담(위키트리 1곳, 9월 일, 판정 없음 감정2 탈락) / 조개찜 허위 배탈(11/7 이미 다룸) / 울산 비번 경찰관 6세 아이 발견(잔잔, 숨긴 답 없음) / 경기버스 환승할인 폐지(정책·지자체 공방 탈락) / 조국 입국 거부·AI 안경 대통령 지시(정치 탈락).\n레인: 사건 (07시 회차)\n유행: 수능 AI 부정행위 대책 (커뮤니티 동시 단어 '수능' 더쿠·디시·엠팍, 구글 아님) — 이번 주 우리 얘기(11/14 07시 AI 안경)와 각도가 달리 해외 옛 사건의 재조명이라 사건 레인으로 씀. 대본에 한국 정치인·정부 발언은 넣지 않음.\n해외: 인도 1편 (11/18 첫 편, 앞 대본 2개는 국내).\n아이 레인: 이번 회차 아님 (아이 소재 중 확인된 최근 보도 없음).\n욕할 대상: 몸수색 시간 아끼려고 지원자 옷을 벗긴 채용 담당 쪽(실명 안 씀 — 보도엔 모집 책임 대령 이름이 있으나 매체마다 철자가 달라 안 씀). 지원자는 피해자, 놀림 대상 아님(속옷 장면은 웹툰풍 반바지 차림으로만).\n주의: 인원은 매체마다 약 1,000~1,160명 → '천여 명'. 책임자 발언 'left with no option but to resort to this extreme step'을 '다른 방법이 없었다며'로 줄임. 지원자 발언은 인디언 익스프레스 인용('embarrassing but unavoidable'). 법원은 파트나 고등법원, 국방부(국방차관)에 답변 요구 → '법원이 국방부에 해명을 요구'. 국내 기사 사진·외신 사진은 쓰지 않음.\n구조: 시작=들판에 속옷 차림 남자 천여 명이 앉아 시험 / 커짐=육군 사무직 채용 시험 → 전에 바지·양말에 쪽지 → 몸수색 시간까지 아끼려고 다 벗김 / 뒤집힘=책임자 '다른 방법 없었다' 버팀, 지원자 '창피했지만 어쩔 수 없었다' / 정체=쪽지 막으려던 시험 담당이 일을 키운 쪽 / 그 뒤=사진 퍼짐 → 법원이 국방부에 해명 요구 → 육군 본부 '심각하게 본다' 새 지침 → 한 줄 '쪽지는 막았는데 망신은 못 막음'\n공개할 답: ①왜 벗겼나=쪽지·몸수색 시간(3분의 1) ②그 뒤=법원·육군 본부(끝)\n인용(cap quote): 책임자 '다른 방법 없었다' / 지원자 '창피했지만 어쩔 수 없었다' / 육군 본부 '심각하게 본다' — 3화면\n증거: doc 소품 1(2016년 2월 28일·비하르주·육군 사무직·천여 명, 보도된 사실만). warn 없음.\n첫장면: 의외 (들판에 속옷 차림 천여 명)\n훅 3안: ①'들판에 속옷만 입은 남자 천여 명이 앉아 시험을 침.'(선택: 제목보다 한 발 더 나간 구체 장면) ②'인도 육군이 지원자 천여 명 옷을 다 벗겼음.'(답 일부 노출) ③'시험지 받기 전에 바지부터 벗었다고.'(누가인지 늦게 나옴) / 카드 제목 3안: '시험장 들어가기 전 옷부터 벗으라던 군대'(선택: 이상한 지시 + 왜?) · '속옷만 입고 시험 친 천 명'(제목과 겹침) · '커닝 막겠다고 옷을 벗긴 시험'(이유 노출) / 제목 3안: '속옷만 입고 들판에서 시험 친 인도 지원자들'(선택: 사람+무슨 일, 앞 두 편 '진실'·'반전'과 다른 상황형) · '결국 속옷만 입고 시험 쳤다는 인도 군 지원자들'(앞머리 '결국' 쓸 이유 약함) · '인도 군대가 시험 전에 옷 벗긴 이유'('이유'형은 하루 1편, 아껴 둠)\n이해검사: 2016년 인도 육군이 사무직 채용 필기시험에서 바지·양말에 쪽지를 숨겨 오는 커닝을 막고 몸수색 시간을 아끼려고 지원자 천여 명을 속옷만 입혀 들판에서 시험을 치게 했는데, 책임자는 다른 방법이 없었다고 버텼지만 사진이 퍼지자 법원이 국방부에 해명을 요구하고 육군 본부도 새 지침을 냈다는 이야기.\n그림대조: 완료 (인도 이야기 — 한국 풍경 bg(street·apartment·market) 안 씀, 일본 지도·국기·엔화 없음, 군중·인도 남자·커닝·시계·군인·창피한 남자·재판관·머리 감싼 남자, 스톡·사진 검색어에 사람 없음, grok 은 웹툰풍·실존 인물/브랜드/무기 없음, 속옷 장면은 상의 벗고 흰 반바지 차림으로만)"
+}
