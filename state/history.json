@@ -8393,5 +8393,89 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-17_1200_escalator-one-line-nineteen-years/video.mp4"
   },
   "seconds": 2180
+ },
+ {
+  "key": "2026-11-17-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-17T18:00:00+09:00",
+  "started": "2026-11-17T15:19:54.426597+09:00",
+  "stock_clips": [
+   "https://pixabay.com/videos/id-38057/",
+   "https://pixabay.com/videos/id-3160/",
+   "https://pixabay.com/photos/opinion-poll-opinion-polling-survey-1594962/",
+   "https://pixabay.com/videos/id-156/",
+   "https://pixabay.com/videos/id-45358/",
+   "https://pixabay.com/photos/cafe-building-greece-3537801/",
+   "https://pixabay.com/videos/id-27230/",
+   "https://pixabay.com/photos/archive-boxes-shelf-folders-1850170/",
+   "https://pixabay.com/videos/id-201947/",
+   "https://pixabay.com/videos/id-90933/",
+   "https://pixabay.com/photos/apple-computer-desk-workspace-1868496/",
+   "https://pixabay.com/videos/id-159029/"
+  ],
+  "cc_clips": [],
+  "duration": 53.07,
+  "matches": [
+   1.0,
+   0.95,
+   0.99,
+   0.97,
+   0.98,
+   0.98,
+   0.97,
+   0.97,
+   0.92,
+   1.0,
+   1.0,
+   1.0,
+   0.99,
+   0.99,
+   0.94,
+   0.96,
+   0.88,
+   1.0,
+   1.0,
+   0.94,
+   0.93
+  ],
+  "sfx": 19,
+  "illustrations": 18,
+  "cuts": 21,
+  "layout_issues": [
+   {
+    "t": 26.57,
+    "kind": "orphan",
+    "msg": "caption's 2nd line is 31% of the 1st",
+    "text": "금지함.",
+    "seen": 2
+   }
+  ],
+  "caption_breaks": [
+   "8월 / 스타벅스가 (55)",
+   "멀티탭·프린터·칸막이 / 금지함. (55)"
+  ],
+  "title": "카공족 칸막이 금지한 스타벅스의 반전 #shorts",
+  "source_post": "https://biz.sbs.co.kr/amp/article/20000303099",
+  "facts_used": [
+   "한국 카페에서 노트북·지갑 두고 자리 비우는 모습에 외국인들이 놀람, 방송 출연 외국인 '100만 원이 넘는 물건도 그냥 두고 간다' — 위키트리 https://www.wikitree.co.kr/articles/1130640",
+   "2025년 6월 칸막이·키보드·태블릿 설치한 카페 자리 사진 확산, '개인 사무실 같다' 비판 — SBS Biz https://biz.sbs.co.kr/amp/article/20000242008 , 생글생글 https://sgsg.hankyung.com/article/2025082995101",
+   "진학사 캐치 Z세대 2037명 설문 최악 카공 유형 1위 '자리 맡아두고 장시간 외출' 29% — 한경비즈니스 https://magazine.hankyung.com/business/article/202508089193b , 서울신문 https://m.seoul.co.kr/news/2025/08/08/20250808500125",
+   "옹호 측 '몇몇 사례 때문에 카공족 전체가 비판받는 것은 억울' — 생글생글 https://sgsg.hankyung.com/article/2025082995101",
+   "2025년 8월 7일 스타벅스코리아 전국 매장 개인 데스크톱·프린터·멀티탭·칸막이 사용 제한, 장시간 자리 비울 땐 소지품 챙겨 달라는 안내 — 뉴시스 https://www.newsis.com/view/NISX20250807_0003282049 , SBS Biz https://biz.sbs.co.kr/amp/article/20000252027 , 세계일보 https://www.segye.com/newsView/20250808504623",
+   "한 매장 '30분 이상 좌석 비우면 직원이 정리' 안내문, 스타벅스 측 '도난 사고 등으로 예외적으로 부착, 전체 정책과 무관' — SBS Biz https://biz.sbs.co.kr/amp/article/20000230637",
+   "투썸플레이스 카공족 많은 매장 1인 좌석 설치, 메가커피 대형 매장 카공족 전용 공간 계획 — SBS Biz https://biz.sbs.co.kr/amp/article/20000252027",
+   "2026년 4월 9일 스타벅스 대학가 매장 1~2인 전용 '포커스 존' 확대, 1인석·칸막이·스탠드 조명·개별 콘센트, 세종대점·한양대에리카점 등 6개 매장, 카공족 배척이 아니라 다른 고객 불편 줄이려던 것이라는 설명 — SBS Biz https://biz.sbs.co.kr/amp/article/20000303099 , 경향신문 https://www.khan.co.kr/article/202604250900025 , 비즈워치 https://news.bizwatch.co.kr/article/consumer/2026/04/09/0006"
+  ],
+  "slug": "2026-11-17_1800_cafe-study-partition-comeback",
+  "held_for_layout": true,
+  "late": true,
+  "video_id": "r2yaWs9JjLs",
+  "url": "https://youtube.com/shorts/r2yaWs9JjLs",
+  "privacy": "private",
+  "scheduled_for": null,
+  "tiktok": {
+   "skipped": "화면 검수에 걸림 - 틱톡은 올리지 않음"
+  },
+  "seconds": 2410
  }
 ]
