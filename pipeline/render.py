@@ -289,7 +289,15 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     bgm = repo / cfg["bgm"] if cfg.get("bgm") else None
     assemble.mux_final(video, narration, None, out_path, bgm_path=bgm, sfx=sfx,
                        bgm_gain_db=float(cfg.get("bgm_gain_db", -10)))
-    return {"stock_clips": [c["url"] for c in clips if c],
+    from pipeline import sound_qa
+    sound = sound_qa.check(out_path, out_path.parent)
+    for x in sound.get("issues", []):
+        print(f"  ::warning::소리 검수: {x}")
+    if sound.get("cuts_without_sound"):
+        print(f"  소리 없는 컷 전환: {sound['cuts_without_sound']}")
+    if sound.get("skipped") or sound.get("error"):
+        print(f"  소리 검수 건너뜀: {sound.get('skipped') or sound.get('error')}")
+    return {"sound_qa": sound,"stock_clips": [c["url"] for c in clips if c],
             "cc_clips": [{"url": c["url"], "by": c["by"], "license": c["license"]} for c in clips if c and c.get("license")], "duration": round(cursor, 2), "matches": [round(r.match, 2) for r in results],
             "sfx": len(sfx), "illustrations": len(picker.used), "cuts": len(cuts) + 1,
             "layout_issues": issues, "caption_breaks": breaks}

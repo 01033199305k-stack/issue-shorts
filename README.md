@@ -27,6 +27,9 @@ PC가 꺼져 있어도 돈다. 유료 API 없이 Claude 구독 + GitHub Actions(
 - **화면 자동 검수** (2026-10-22): 렌더할 때 크롬이 실제 글꼴로 자막 하나하나와 장면 끝마다 글자를 잰다.
   글자가 상자보다 넓으면 그 자리에서 줄이고(서류 제목·말풍선·가격표·제목줄), 그래도 잘리거나(종이·화면 밖) 자막 상자에 가리거나
   의도치 않게 줄이 바뀌면 **예약 공개하지 않고 비공개로만** 올린 뒤 실행을 실패로 끝낸다(실패 메일). 검사한 프레임은 Artifacts 의 `qa_sheet.jpg`(빨간 테두리 = 문제).
+- **소리 자동 검수** (2026-11-17, [earshot](https://github.com/Leonxlnx/earshot) MIT·CPU): 완성 영상을 듣고 음량(목표 -14±2 LUFS)·순간 최대(-1 dBTP 이하)·클리핑·
+  0.5초 넘는 무음·효과음 없는 컷 전환을 잰다. **경고만** 하고 공개는 막지 않는다. Artifacts 의 `sound_sheet.png`(프레임+스펙트로그램+음량+컷 싱크), `sound_qa.json`.
+  earshot 이 없으면(PC 등) 건너뛴다. PC에서: `uv tool install "earshot[mcp] @ git+https://github.com/Leonxlnx/earshot"` → `earshot doctor --fetch`.
 - 자막 줄바꿈은 형태소 분석기(Kiwi)로 품사를 보고 고른다: '10만 / 원', '불 / 꺼진', '기사님 / 쪽에서', '돌려 / 본' 같은 자리에서는 끊지 않는다.
   자막 상자는 폰의 좋아요·댓글 버튼(x 980 오른쪽)에 걸리지 않게 최대 880px.
 - 대본을 손으로 고쳤으면 푸시 전에 `python preview.py <대본>` (음성 없이 몇 초) → `output/preview/<이름>/qa_sheet.jpg`.

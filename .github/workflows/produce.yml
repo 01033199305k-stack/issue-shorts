@@ -117,6 +117,25 @@ jobs:
           pip install -q -r requirements.txt -c /tmp/torch-cpu.txt
           python -c "import torch, torchaudio; print('torch', torch.__version__, 'torchaudio', torchaudio.__version__)"
 
+      # 2026-11-17 소리 검수 earshot (MIT, CPU). 렌더 파이썬과 따로 venv 에 깔아 패키지 버전이 안 섞이게 한다.
+      # 실패해도 제작은 그대로 진행 (pipeline/sound_qa.py 가 earshot 없으면 건너뜀)
+      - name: 소리 검수 도구 (earshot)
+        if: steps.find.outputs.files != ''
+        continue-on-error: true
+        run: |
+          python -m venv ~/earshot-venv
+          ~/earshot-venv/bin/pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+          ~/earshot-venv/bin/pip install -q "earshot @ git+https://github.com/Leonxlnx/earshot"
+          mkdir -p ~/.local/bin && ln -sf ~/earshot-venv/bin/earshot ~/.local/bin/earshot
+          echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+
+      - name: 소리 검수 모델 캐시 (CLAP·AST 약 1.1GB)
+        if: steps.find.outputs.files != ''
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/earshot
+          key: earshot-clap-ast-v1
+
       # 음성 모델(Qwen3-TTS 1.7B, 약 3.5GB)과 자막 타이밍용 whisper small
       - name: 모델 캐시
         if: steps.find.outputs.files != ''
@@ -184,6 +203,8 @@ jobs:
             output/*/script.json
             output/*/record.json
             output/*/qa_sheet.jpg
+            output/*/sound_sheet.png
+            output/*/sound_qa.json
             output/*/cards/*.png
           retention-days: 7
           if-no-files-found: ignore
