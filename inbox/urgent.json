@@ -1,10 +1,61 @@
 {
- "detected_at": "2026-11-16T16:55+09:00",
+ "detected_at": "2026-11-17T09:12+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 60대 오토바이 운전자 음주운전 차량에 치여 숨져…승용차 운전자 현장 이탈했다가 경찰에 붙잡혀",
-   "url": "https://n.news.naver.com/article/087/0001231080",
+   "title": "李대통령 부부, 필리핀 전통 의상 입고 아세안 정상회의 만찬",
+   "url": "https://n.news.naver.com/article/023/0004009931",
+   "press": "조선일보",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "한국일보",
+     "title": "이 대통령 부부, '특별제작' 필리핀 전통의상 입고 갈라 행사 등장",
+     "url": "https://n.news.naver.com/article/469/0000965934"
+    },
+    {
+     "press": "조선비즈",
+     "title": "李대통령 부부, 필리핀 전통의상 입고 아세안 갈라 만찬 참석",
+     "url": "https://n.news.naver.com/article/366/0001205219"
+    },
+    {
+     "press": "뉴시스",
+     "title": "이 대통령 부부, 필리핀 전통 의상 입고 아세안 만찬 참석",
+     "url": "https://n.news.naver.com/article/003/0014325911"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "러 군용기 여러대 새벽 KADIZ 진입… 軍, 전투기 출격 대응",
+   "url": "https://n.news.naver.com/article/005/0001885581",
+   "press": "국민일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "강원도민일보",
+     "title": "[속보] 러시아 군용기 여러 대 동해 KADIZ 진입…군, 전투기 출격 대응",
+     "url": "https://n.news.naver.com/article/654/0000211689"
+    },
+    {
+     "press": "kbc광주방송",
+     "title": "\"러 군용기, 17일 새벽 카디즈 진입 후 이탈\"...軍 전투기 대응",
+     "url": "https://n.news.naver.com/article/660/0000121531"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 20대 성범죄 피의자 뒤쫓은 형사들, 7km 추격전 끝 실탄 쏴 검거",
+   "url": "https://n.news.naver.com/article/029/0003059484",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보]인천 계양구 빌라서 연인 관계였던 60대 여성 살해한 60대 검거",
+   "url": "https://n.news.naver.com/article/087/0001231310",
    "press": "강원일보",
    "why": "[속보] 기사",
    "related": []
