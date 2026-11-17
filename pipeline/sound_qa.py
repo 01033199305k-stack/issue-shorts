@@ -9,6 +9,7 @@ render goes on as before.
 from __future__ import annotations
 
 import json
+import re
 import shutil
 import subprocess
 from pathlib import Path
@@ -23,16 +24,33 @@ def check(video: Path, out_dir: Path, timeout: int = 600) -> dict:
     exe = shutil.which("earshot")
     if not exe:
         return {"skipped": "earshot 미설치"}
-    js = out_dir / "sound_qa.json"
+    js, wav = out_dir / "sound_qa.json", out_dir / "sound_qa_stereo.wav"
     try:
-        subprocess.run([exe, "timeline", str(video), "--detail", "low", "--out", str(js)],
+        # Our mix is mono. earshot reads a mono file as dual-mono and reports it 3 dB louder than
+        # ffmpeg ebur128 does (11/17: -11.4 vs -14.5 LUFS on the same video), so hand it a stereo copy;
+        # picture cuts still come from the video.
+        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(video), "-vn", "-ac", "2",
+                        "-c:a", "pcm_s16le", str(wav)], check=True, capture_output=True, timeout=timeout)
+        subprocess.run([exe, "timeline", str(wav), "--video", str(video), "--detail", "low", "--out", str(js)],
                        check=True, capture_output=True, timeout=timeout)
-        subprocess.run([exe, "sheet", str(video), "-o", str(out_dir / "sound_sheet.png")],
+        subprocess.run([exe, "sheet", str(wav), "--video", str(video), "-o", str(out_dir / "sound_sheet.png")],
                        check=True, capture_output=True, timeout=timeout)
         data = json.loads(js.read_text(encoding="utf-8"))
+        # Loudness and true peak by the same meter loudnorm uses (ffmpeg ebur128), on the real mono file.
+        data.setdefault("loudness", {}).update(ffmpeg_loudness(video))
     except Exception as ex:     # never let the ear break a render
         return {"error": str(ex)[:300]}
+    finally:
+        wav.unlink(missing_ok=True)
     return summarize(data)
+
+
+def ffmpeg_loudness(video: Path) -> dict:
+    p = subprocess.run(["ffmpeg", "-hide_banner", "-nostats", "-i", str(video), "-vn", "-af", "ebur128=peak=true",
+                       "-f", "null", "-"], capture_output=True, text=True, encoding="utf-8", errors="replace", timeout=300)
+    tail = (p.stderr or "").split("Summary:")[-1]
+    i, tp = re.search(r"I:\s*(-?[\d.]+) LUFS", tail), re.search(r"Peak:\s*(-?[\d.]+) dBFS", tail)
+    return {k: float(m.group(1)) for k, m in (("integrated_lufs", i), ("true_peak_dbtp", tp)) if m}
 
 
 def summarize(data: dict) -> dict:
