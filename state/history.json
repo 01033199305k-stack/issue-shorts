@@ -8477,5 +8477,77 @@
    "skipped": "화면 검수에 걸림 - 틱톡은 올리지 않음"
   },
   "seconds": 2410
+ },
+ {
+  "key": "2026-11-18-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-18T07:00:00+09:00",
+  "started": "2026-11-18T04:21:05.301941+09:00",
+  "sound_qa": {
+   "lufs": -14.2,
+   "true_peak": 0.8,
+   "lra": 2.3,
+   "cuts": 17,
+   "cut_hit_100ms": 0.882,
+   "cuts_without_sound": [
+    3.1,
+    26.3
+   ],
+   "issues": [
+    "순간 최대 0.8 dBTP (기준 -1 이하)"
+   ]
+  },
+  "stock_clips": [
+   "https://pixabay.com/videos/id-7515/",
+   "https://pixabay.com/videos/id-87418/",
+   "https://pixabay.com/videos/id-72883/",
+   "https://pixabay.com/photos/pentagon-washington-dc-military-80394/"
+  ],
+  "cc_clips": [],
+  "duration": 27.38,
+  "matches": [
+   1.0,
+   0.95,
+   0.97,
+   0.99,
+   0.99,
+   0.97,
+   1.0,
+   0.97,
+   0.97,
+   0.97
+  ],
+  "sfx": 9,
+  "illustrations": 7,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [
+   "육군 / 사무직 (55)"
+  ],
+  "title": "속옷만 입고 들판에서 시험 친 인도 지원자들 #shorts",
+  "source_post": "https://supple.kr/news/cmwk09c695hjsjkun62ufodwc",
+  "facts_used": [
+   "2016년 2월 28일 인도 비하르주 무자파르푸르에서 육군 사무직(clerical) 채용 필기시험, 지원자 약 1,000~1,160명이 속옷만 입고 들판에서 시험 — Scroll https://scroll.in/latest/804391/scroll_in , Deccan Chronicle https://www.deccanchronicle.com/nation/current-affairs/010316/bihar-candidates-made-to-sit-in-underwear-in-army-recruitment-exam.html , India TV https://www.indiatvnews.com/news/india/candidates-asked-to-appear-in-underwear-army-recruitment-exam-57980.html , Daily Sabah https://www.dailysabah.com/asia/2016/03/02/indian-army-makes-recruits-strip-for-written-test-to-avoid-cheating/amp",
+   "이유: 과거 지원자들이 바지·양말에 쪽지를 숨겨 왔다는 민원, 많은 인원 몸수색 시간을 아끼려고 — Scroll, IBTimes UK https://www.ibtimes.co.uk/hundreds-indian-jobseekers-made-write-exams-underwear-prevent-cheating-1546825 , The Quint https://www.thequint.com/news/india/bare-in-bihar-army-candidates-write-exam-in-underwear",
+   "모집 책임 대령 '이 극단적인 방법 말고는 선택지가 없었다' — Deccan Chronicle, The Quint, Daily Sabah",
+   "지원자 '창피했지만 어쩔 수 없었다'(인디언 익스프레스 인터뷰) — Scroll, IBTimes UK",
+   "파트나 고등법원이 국방차관(국방부)에 답변 요구, 정부는 육군참모총장에게 보고 요구 — Deccan Herald https://www.deccanherald.com/content/532004/bare-body-test-army-aspirants.html , Business Standard https://www.business-standard.com/article/news-ians/defence-ministry-s-reply-sought-on-exam-in-underwear-116030100569_1.html , Oneindia https://www.oneindia.com/india/defence-ministry-s-reply-sought-on-exam-underwear-2028282.html",
+   "육군 본부 '심각하게 본다'며 공정한 시험을 위한 새 지침 — The News Minute https://www.thenewsminute.com/news/entrance-test-underwear-army-hq-takes-serious-note-ensure-fairness-exams-39674 , Recruiter https://www.recruiter.co.uk/news/2016/03/indian-army-defends-testing-seat-recruits%E2%80%99-pants",
+   "2026년 11월 16일 국내 AI 커닝 논란 속 온라인 커뮤니티·SNS에서 당시 사진 재확산 — 서플 https://supple.kr/news/cmwk09c695hjsjkun62ufodwc (재확산 사실은 대본에 안 씀)"
+  ],
+  "slug": "2026-11-18_0700_india-army-exam-underwear",
+  "late": false,
+  "video_id": "omGPVV_n0ZI",
+  "url": "https://youtube.com/shorts/omGPVV_n0ZI",
+  "privacy": "private",
+  "scheduled_for": "2026-11-17T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6afcb0a5b0028e70d9d203ca",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-17T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-18_0700_india-army-exam-underwear/video.mp4"
+  },
+  "seconds": 1928
  }
 ]
