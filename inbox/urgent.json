@@ -1,30 +1,114 @@
 {
- "detected_at": "2026-11-17T11:05+09:00",
+ "detected_at": "2026-11-17T15:10+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 김민석 “AI 부정행위 적발 땐 최대 10년 응시 제한”…입법 추진",
-   "url": "https://n.news.naver.com/article/022/0004175749",
-   "press": "세계일보",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "정부, 총리 주재 국무회의에서 '조작기소 특검법' 의결",
+   "url": "https://n.news.naver.com/article/214/0001536080",
+   "press": "MBC",
+   "why": "언론사 10곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "조선비즈",
-     "title": "김민석 “AI 부정행위 응시 제한 최대 10년으로…긴급 입법 검토”",
-     "url": "https://n.news.naver.com/article/366/0001205251"
+     "press": "조선일보",
+     "title": "‘조작기소 특검법’ 국무회의 의결⋯대통령 순방 중 총리가 주재",
+     "url": "https://n.news.naver.com/article/023/0004010069"
     },
     {
-     "press": "경기일보",
-     "title": "김민석 “AI 부정행위 적발 땐 최대 10년 응시 제한”…입법 추진",
-     "url": "https://n.news.naver.com/article/666/0000132380"
+     "press": "동아일보",
+     "title": "‘조작기소 특검법’ 국무회의 의결…李 재가해야 공포",
+     "url": "https://n.news.naver.com/article/020/0003763046"
+    },
+    {
+     "press": "국민일보",
+     "title": "韓총리 주재로 ‘조작기소 특검법’ 국무회의 통과",
+     "url": "https://n.news.naver.com/article/005/0001885630"
+    },
+    {
+     "press": "채널A",
+     "title": "‘조작기소 특검법’ 국무회의 의결⋯이 대통령 순방중 총리가 주재",
+     "url": "https://n.news.naver.com/article/449/0000367758"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 'AI커닝 자수' 세무사 수석 경찰 출석…\"잘못에 대한 책임 지겠다\"",
-   "url": "https://n.news.naver.com/article/422/0000926887",
-   "press": "연합뉴스TV",
+   "title": "민주당 초선 55명 “최민희, 최고위원직 사퇴 포함 스스로 거취 판단해야”",
+   "url": "https://n.news.naver.com/article/032/0003483128",
+   "press": "경향신문",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "한겨레",
+     "title": "민주 초선 55명 “최민희 엄중 징계”…최고위원직 사퇴 검토 촉구",
+     "url": "https://n.news.naver.com/article/028/0002832547"
+    },
+    {
+     "press": "시사저널",
+     "title": "민주당 초선 55명 \"최민희 엄중 징계…스스로 거취 판단해야\"",
+     "url": "https://n.news.naver.com/article/586/0000142420"
+    },
+    {
+     "press": "노컷뉴스",
+     "title": "與 초선 55명 \"최민희, 최고위원직 사퇴 검토하라…징계도 엄중해야\"[영상]",
+     "url": "https://n.news.naver.com/article/079/0004210519"
+    },
+    {
+     "press": "미디어오늘",
+     "title": "민주당 초선 55명 \"최민희, 최고위원 거취 결단하라\"",
+     "url": "https://n.news.naver.com/article/006/0000138795"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "'조작기소 특검법' 공포안 국무회의 통과…최대 309명·200일 활동",
+   "url": "https://n.news.naver.com/article/001/0016446080",
+   "press": "연합뉴스",
+   "why": "언론사 10곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "동아일보",
+     "title": "‘조작기소 특검법’ 국무회의 의결…李 재가해야 공포",
+     "url": "https://n.news.naver.com/article/020/0003763046"
+    },
+    {
+     "press": "국민일보",
+     "title": "韓총리 주재로 ‘조작기소 특검법’ 국무회의 통과",
+     "url": "https://n.news.naver.com/article/005/0001885630"
+    },
+    {
+     "press": "뉴스1",
+     "title": "'조작기소 특검법' 국무회의 의결…대장동 등 12개 항목 최장 200일 수사",
+     "url": "https://n.news.naver.com/article/421/0009293441"
+    },
+    {
+     "press": "KBS",
+     "title": "‘조작기소특검법’ 국무회의 통과…순방 대통령 대신 총리 주재",
+     "url": "https://n.news.naver.com/article/056/0012295388"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 2박 3일 일본 방문하려던 조국 전 의원, 당국 불허로 입국 무산",
+   "url": "https://n.news.naver.com/article/469/0000966047",
+   "press": "한국일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보]코스피 장중 5000선 재붕괴..외인 1.1조 매도",
+   "url": "https://n.news.naver.com/article/014/0005605498",
+   "press": "파이낸셜뉴스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 또래 장애학생 집단 폭행하고 나체 촬영...고교생 2명 실형 구형",
+   "url": "https://n.news.naver.com/article/031/0001075755",
+   "press": "아이뉴스24",
    "why": "[속보] 기사",
    "related": []
   }
