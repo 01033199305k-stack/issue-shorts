@@ -1,116 +1,181 @@
 {
- "detected_at": "2026-11-17T15:10+09:00",
+ "detected_at": "2026-11-17T19:38+09:00",
  "candidates": [
   {
-   "kind": "news",
-   "title": "정부, 총리 주재 국무회의에서 '조작기소 특검법' 의결",
-   "url": "https://n.news.naver.com/article/214/0001536080",
-   "press": "MBC",
-   "why": "언론사 10곳이 댓글 많은 기사 1위로",
-   "related": [
+   "kind": "community",
+   "title": "19일 오전 8시반 ‘거부 불가능’ 위급재난문자 울린다…수능 부정행위 대책",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/77422137",
+   "board": "루리웹 베스트",
+   "why": "커뮤니티 2곳 동시 화제 + 기사화(문화일보)",
+   "news": [
     {
-     "press": "조선일보",
-     "title": "‘조작기소 특검법’ 국무회의 의결⋯대통령 순방 중 총리가 주재",
-     "url": "https://n.news.naver.com/article/023/0004010069"
-    },
-    {
-     "press": "동아일보",
-     "title": "‘조작기소 특검법’ 국무회의 의결…李 재가해야 공포",
-     "url": "https://n.news.naver.com/article/020/0003763046"
-    },
-    {
-     "press": "국민일보",
-     "title": "韓총리 주재로 ‘조작기소 특검법’ 국무회의 통과",
-     "url": "https://n.news.naver.com/article/005/0001885630"
-    },
-    {
-     "press": "채널A",
-     "title": "‘조작기소 특검법’ 국무회의 의결⋯이 대통령 순방중 총리가 주재",
-     "url": "https://n.news.naver.com/article/449/0000367758"
+     "url": "https://n.news.naver.com/article/021/0002833492",
+     "headline": "[속보]19일 오전 8시반 ‘거부 불가능’ 위급재난문자 울린다…수능 부정행위 대책"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "민주당 초선 55명 “최민희, 최고위원직 사퇴 포함 스스로 거취 판단해야”",
-   "url": "https://n.news.naver.com/article/032/0003483128",
-   "press": "경향신문",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "title": "조국, 하네다 공항서 입국 거부당해…혁신당 “日 정부 공식 사과해야”",
+   "url": "https://n.news.naver.com/article/016/0002724641",
+   "press": "헤럴드경제",
+   "why": "언론사 7곳이 댓글 많은 기사 1위로",
    "related": [
     {
      "press": "한겨레",
-     "title": "민주 초선 55명 “최민희 엄중 징계”…최고위원직 사퇴 검토 촉구",
-     "url": "https://n.news.naver.com/article/028/0002832547"
+     "title": "조국, 일본 공항서 입국 거부당해…‘징역 2년’ 전력 문제 삼았나?",
+     "url": "https://n.news.naver.com/article/028/0002832592"
     },
     {
-     "press": "시사저널",
-     "title": "민주당 초선 55명 \"최민희 엄중 징계…스스로 거취 판단해야\"",
-     "url": "https://n.news.naver.com/article/586/0000142420"
+     "press": "매일경제",
+     "title": "조국, 일본 도착하자 입국 거부…혁신당 “일본 정부 사과해야”",
+     "url": "https://n.news.naver.com/article/009/0005765021"
     },
-    {
-     "press": "노컷뉴스",
-     "title": "與 초선 55명 \"최민희, 최고위원직 사퇴 검토하라…징계도 엄중해야\"[영상]",
-     "url": "https://n.news.naver.com/article/079/0004210519"
-    },
-    {
-     "press": "미디어오늘",
-     "title": "민주당 초선 55명 \"최민희, 최고위원 거취 결단하라\"",
-     "url": "https://n.news.naver.com/article/006/0000138795"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "'조작기소 특검법' 공포안 국무회의 통과…최대 309명·200일 활동",
-   "url": "https://n.news.naver.com/article/001/0016446080",
-   "press": "연합뉴스",
-   "why": "언론사 10곳이 댓글 많은 기사 1위로",
-   "related": [
     {
      "press": "동아일보",
-     "title": "‘조작기소 특검법’ 국무회의 의결…李 재가해야 공포",
-     "url": "https://n.news.naver.com/article/020/0003763046"
-    },
-    {
-     "press": "국민일보",
-     "title": "韓총리 주재로 ‘조작기소 특검법’ 국무회의 통과",
-     "url": "https://n.news.naver.com/article/005/0001885630"
+     "title": "조국, 日공항서 입국 거부당해…학술대회 등 일정 무산",
+     "url": "https://n.news.naver.com/article/020/0003763091"
     },
     {
      "press": "뉴스1",
-     "title": "'조작기소 특검법' 국무회의 의결…대장동 등 12개 항목 최장 200일 수사",
-     "url": "https://n.news.naver.com/article/421/0009293441"
-    },
-    {
-     "press": "KBS",
-     "title": "‘조작기소특검법’ 국무회의 통과…순방 대통령 대신 총리 주재",
-     "url": "https://n.news.naver.com/article/056/0012295388"
+     "title": "조국, 日공항서 입국 거부당했다…혁신당 \"독도 방문 때문 추정\"(종합2보)",
+     "url": "https://n.news.naver.com/article/421/0009294352"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 2박 3일 일본 방문하려던 조국 전 의원, 당국 불허로 입국 무산",
+   "title": "[단독] '아세안 순방' 이 대통령, AI 부정행위 대응 긴급 화상회의 예정",
+   "url": "https://n.news.naver.com/article/055/0001403670",
+   "press": "SBS",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "세계일보",
+     "title": "李 대통령, 아세안 순방 현지서 ‘수능 AI 커닝 사태 비상점검’ 화상회의 연다",
+     "url": "https://n.news.naver.com/article/022/0004175916"
+    },
+    {
+     "press": "서울경제",
+     "title": "李대통령, 필리핀서 수능 비상 점검회의…AI 부정행위 대응",
+     "url": "https://n.news.naver.com/article/011/0004683177"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "이 대통령, 필리핀 현지서 ‘수능시험 비상 점검회의’ 주재",
+   "url": "https://n.news.naver.com/article/056/0012295584",
+   "press": "KBS",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "YTN",
+     "title": "[속보] 이 대통령, 오늘 저녁 필리핀서 화상으로 수능 비상 점검회의 주재",
+     "url": "https://n.news.naver.com/article/052/0002434101"
+    },
+    {
+     "press": "채널A",
+     "title": "이 대통령, 오늘 필리핀서 ‘수능 비상 점검회의’ 화상 주재",
+     "url": "https://n.news.naver.com/article/449/0000367796"
+    },
+    {
+     "press": "세계일보",
+     "title": "李 대통령, 아세안 순방 현지서 ‘수능 AI 커닝 사태 비상점검’ 화상회의 연다",
+     "url": "https://n.news.naver.com/article/022/0004175916"
+    },
+    {
+     "press": "서울경제",
+     "title": "李대통령, 필리핀서 수능 비상 점검회의…AI 부정행위 대응",
+     "url": "https://n.news.naver.com/article/011/0004683177"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]한성숙 “수능 시작 전 재난문자 발송해 휴대폰 적발···옷 단추마다 스티커 부착”",
+   "url": "https://n.news.naver.com/article/032/0003483183",
+   "press": "경향신문",
+   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "국민일보",
+     "title": "“단추마다 스티커 부착, 안경 전수점검” 수능 이틀 전 나온 정부 대책",
+     "url": "https://n.news.naver.com/article/005/0001885671"
+    },
+    {
+     "press": "JTBC",
+     "title": "수능 전 재난 문자로 휴대전화 적발…옷 단추마다 스티커 붙인다",
+     "url": "https://n.news.naver.com/article/437/0000521104"
+    },
+    {
+     "press": "뉴시스",
+     "title": "韓총리 \"수능 시작 전 옷 단추마다 스티커로 가려…1교시 전 안경 전수조사\"(종합)",
+     "url": "https://n.news.naver.com/article/003/0014328022"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]'오천피'도 깨졌다…코스피 9개월여 만에 최저",
+   "url": "https://n.news.naver.com/article/018/0006411202",
+   "press": "이데일리",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 코스피 5천선 다시 붕괴…4968.48 마감",
+   "url": "https://n.news.naver.com/article/079/0004210725",
+   "press": "노컷뉴스",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "연합뉴스TV",
+     "title": "'5천피'마저 붕괴…코스피, 2.59% 하락 마감",
+     "url": "https://n.news.naver.com/article/422/0000927035"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 안철수 \"세무사 시험 1차 과목 90점 이상 득점자, 올해 66명…정부, 수법 공개해야\"",
+   "url": "https://n.news.naver.com/article/655/0000033608",
+   "press": "CJB청주방송",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 대구 수성구 횡단보도서 40대 어머니·5세 아들 승용차에 치여 숨져",
+   "url": "https://n.news.naver.com/article/082/0001407553",
+   "press": "부산일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "조국 전 대표, 日서 입국 거부당해… '과거 독도 방문' 문제 됐나",
    "url": "https://n.news.naver.com/article/469/0000966047",
    "press": "한국일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보]코스피 장중 5000선 재붕괴..외인 1.1조 매도",
-   "url": "https://n.news.naver.com/article/014/0005605498",
-   "press": "파이낸셜뉴스",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 또래 장애학생 집단 폭행하고 나체 촬영...고교생 2명 실형 구형",
-   "url": "https://n.news.naver.com/article/031/0001075755",
-   "press": "아이뉴스24",
-   "why": "[속보] 기사",
-   "related": []
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "한겨레",
+     "title": "조국, 일본 공항서 입국 거부당해…‘징역 2년’ 전력 문제 삼았나?",
+     "url": "https://n.news.naver.com/article/028/0002832592"
+    },
+    {
+     "press": "동아일보",
+     "title": "조국, 日공항서 입국 거부당해…학술대회 등 일정 무산",
+     "url": "https://n.news.naver.com/article/020/0003763091"
+    },
+    {
+     "press": "뉴스1",
+     "title": "조국, 日공항서 입국 거부당했다…혁신당 \"독도 방문 때문 추정\"(종합2보)",
+     "url": "https://n.news.naver.com/article/421/0009294352"
+    }
+   ]
   }
  ]
 }
