@@ -27,12 +27,22 @@ import stock
 PANEL = stock.PANEL
 CACHE = Path.home() / ".cache" / "issue-shorts" / "cc"
 CC_FILTER = "EgIwAQ%3D%3D"   # YouTube search "Creative Commons" filter
-# not the uploader's own footage, or not footage of a place/thing
-NOT_OWN = re.compile(r"\b(kbs|mbc|sbs|jtbc|ytn|mbn|tv ?chosun|channel ?a|yonhap|연합뉴스|뉴스|news|cnn|bbc|nhk|fox|abc|nbc|"
-                     r"cbs|reuters|ap|afp|sky|reupload|re-upload|full episode|episode|ep\.?\s?\d|clip|highlights?|"
-                     r"trailer|teaser|mv|m/v|music video|official|lyrics?|cover|reaction|react|podcast|interview|"
-                     r"vlog|브이로그|asmr|mukbang|먹방|review|unboxing|tutorial|how to|meme|compilation|funny|prank|"
-                     r"vr|panorama|timelapse|hyperlapse|live ?stream|streaming|gameplay|minecraft|roblox|animation|animated|cartoon|ai)\b")
+# Broadcasters and re-uploads: CC BY on these is almost always someone else's footage. Never taken, also not
+# from an official channel (a company's own channel showing a news broadcast is still the broadcaster's).
+BROADCAST = re.compile(r"\b(kbs|mbc|sbs|jtbc|ytn|mbn|tv ?chosun|channel ?a|yonhap|연합뉴스|뉴스|news|cnn|bbc|nhk|fox|abc|nbc|"
+                       r"cbs|reuters|ap|afp|sky|reupload|re-upload|"
+                       r"lyrics?|cover|reaction|react|compilation|meme|fancam|직캠|gameplay|minecraft|roblox)\b")
+# not footage of a place/thing - fine from the subject's own channel (a keynote, an interview, an AI demo, its own
+# series: '2027 Government Budget Ep. 4' on 대한민국정부)
+NOT_PLACE = re.compile(r"\b(full episode|episode|ep\.?\s?\d|highlights?|"
+                       r"clip|trailer|teaser|mv|m/v|music video|official|podcast|interview|"
+                       r"vlog|브이로그|asmr|mukbang|먹방|review|unboxing|tutorial|how to|funny|prank|"
+                       r"vr|panorama|timelapse|hyperlapse|live ?stream|streaming|animation|animated|cartoon|ai)\b")
+# 2026-11-17 (사용자: "연예인들이랑 뉴스 나온것도 있는데 그사람들이 크리에이티브 커먼즈로 올린 영상 가져와서 재료로"):
+# a scene may name whose channel the clip must come from ("cc_from": ["OpenAI"]) - the company, agency, person or
+# public body the story is about. Then people on camera are allowed (they are the story), but only from that
+# channel, and only a channel YouTube verified or one with this many subscribers (impostor channels copy names).
+OWNER_MIN_SUBS = 50_000
 # 20-25 min videos (1438 s, 1203 s) never finished a 5 s section in 75 s - ffmpeg crawls through their index -
 # while 45-111 s ones took 3-8 s (2026-10-25)
 MIN_S, MAX_S = 20, 600
@@ -78,30 +88,64 @@ def _search(query: str, base: list[str]) -> list[dict]:
 
 
 def _words(query: str) -> tuple[str, list[str]]:
-    ws = re.findall(r"[a-z0-9]+", query.lower())
+    ws = re.findall(r"[a-z0-9가-힣]+", query.lower())   # Korean only with cc_from (rules.py)
     return ws[0], [w for w in ws[1:] if len(w) > 2]
 
 
-def _relevant(text: str, query: str) -> bool:
+def _relevant(text: str, query: str, owned: bool = False) -> bool:
     head, rest = _words(query)
     text = text.lower()
-    if not re.search(r"\b" + re.escape(head), text):
+    start = r"(?<![a-z0-9가-힣])"   # not \b: hashtags glue words with '_' ('#2027_정부예산안', 2026-11-17)
+    if not re.search(start + re.escape(head), text):
         return False
-    if rest and not any(re.search(r"\b" + re.escape(w), text) for w in rest):
+    if rest and not any(re.search(start + re.escape(w), text) for w in rest):
         return False
-    if stock.PEOPLE.search(text) and not stock.PEOPLE.search(query.lower()):
+    if not owned and stock.PEOPLE.search(text) and not stock.PEOPLE.search(query.lower()):
         return False
     return not (stock.ANIMAL.search(text) and not stock.ANIMAL.search(query.lower()))
 
 
-def _passes(entry: dict, query: str) -> bool:
+def _norm(s: str) -> str:
+    return re.sub(r"[\W_]+", "", (s or "").lower())
+
+
+def owner_match(channel: str, owners: list[str]) -> bool:
+    """'OpenAI' matches the channels 'OpenAI' and 'OpenAI Korea' (spaces/case ignored), not 'Fake OpenAI Fan'.
+    A name under 3 characters would match too much, so it must equal the channel."""
+    c = _norm(channel)
+    for o in owners or []:
+        n = _norm(o)
+        if n and (c == n or (len(n) >= 3 and c.startswith(n))):
+            return True
+    return False
+
+
+def _owner_ok(meta: dict, owners: list[str], vid: str) -> bool:
+    who = meta.get("channel") or meta.get("uploader") or ""
+    if not owner_match(who, owners):
+        print(f"    cc: {vid} is by {who!r}, not {owners} - skipped")
+        return False
+    subs = meta.get("channel_follower_count") or 0
+    if not (meta.get("channel_is_verified") or subs >= OWNER_MIN_SUBS):
+        print(f"    cc: {vid} channel {who!r} is not verified ({subs} subscribers) - skipped as a possible impostor")
+        return False
+    return True
+
+
+def _passes(entry: dict, query: str, owners: list[str] | None = None) -> bool:
     who = f"{entry.get('channel') or ''} {entry.get('uploader') or ''}"
     title = entry.get("title") or ""
     dur = entry.get("duration") or 0
-    if "360" in f"{title} {who}" or "vr180" in f"{title} {who}".lower():   # equirectangular, warped in a panel
+    text = f"{title} {who}".lower()
+    if "360" in text or "vr180" in text:   # equirectangular, warped in a panel
         return False
-    return (MIN_S <= dur <= MAX_S and not NOT_OWN.search(f"{title} {who}".lower())
-            and _relevant(f"{title} {' '.join(entry.get('tags') or [])}", query))
+    if not MIN_S <= dur <= MAX_S or BROADCAST.search(title.lower()):
+        return False
+    if owners:   # the subject's own channel: its name may hold 'news'/'official', its videos show people
+        return owner_match(entry.get("channel") or entry.get("uploader") or "", owners) and _relevant(
+            f"{title} {' '.join(entry.get('tags') or [])}", query, owned=True)
+    return not BROADCAST.search(text) and not NOT_PLACE.search(text) and _relevant(
+        f"{title} {' '.join(entry.get('tags') or [])}", query)
 
 
 # What a few seconds cut from the middle of a video often shows instead of its title: 'busan beach' gave
@@ -111,10 +155,25 @@ def _passes(entry: dict, query: str) -> bool:
 NOT_IT = ["a close-up of a person's face", "a person talking to the camera", "a title card or text on a screen",
           "a blurry dark image", "trees and leaves", "the inside of a car", "a room indoors",
           "a map on a screen", "a computer or phone screen", "an airplane cabin"]
+# Someone else's screen inside the clip: a TV broadcast (logo + captions), a game, a cartoon. Checked in every
+# mode - an official channel can still show a news segment it did not make (2026-11-17).
+NOT_OWNED = ["a TV news broadcast with a channel logo and captions", "a television show with a broadcaster logo",
+             "a video game screen", "an animated cartoon"]
+# what an official channel's own footage looks like, so the NOT_OWNED prompts have honest competition
+OWNED_OK = ["a person speaking on a stage", "a person being interviewed", "a product demonstration",
+            "a group of people at an event", "a person talking to the camera"]
+# official promo videos are half motion graphics; the panel crop cuts their numbers and captions in half
+# ('15.4' on a 대한민국정부 budget clip, 2026-11-17) - those frames lose too
+OWNED_BAD = ["an infographic with big numbers and text", "a title card or text on a screen",
+             "a blurry dark image", "a motion blurred image",
+             # its own burned-in subtitles fight ours (a 대한민국정부 vlog had a caption box on every frame)
+             "a video frame with subtitles in a box at the bottom", "a video frame with korean subtitles"]
 _CLIP: list = []
 
 
-def _shows(frames: list[Path], query: str, vid: str) -> bool:
+def _shows(frames: list[Path], query: str, vid: str, owned: bool = False) -> bool:
+    """Place mode: the query must win all 3 frames against NOT_IT + NOT_OWNED.
+    Owned mode: people are expected, so the only test is that no frame looks like someone else's screen."""
     try:
         import torch
         from PIL import Image
@@ -123,13 +182,26 @@ def _shows(frames: list[Path], query: str, vid: str) -> bool:
             name = "openai/clip-vit-base-patch32"
             _CLIP.extend([CLIPModel.from_pretrained(name).eval(), CLIPProcessor.from_pretrained(name)])
         model, proc = _CLIP
-        ims = [Image.open(frames[min(len(frames) - 1, int(len(frames) * k))]).convert("RGB") for k in (0.2, 0.5, 0.8)]
+        # owned clips cut between talking, captions and title cards within a second, so 5 frames from end to end
+        at = (0.02, 0.25, 0.5, 0.75, 0.98) if owned else (0.2, 0.5, 0.8)
+        ims = [Image.open(frames[min(len(frames) - 1, int(len(frames) * k))]).convert("RGB") for k in at]
+        texts = [f"a photo of {query}"] + (OWNED_OK + OWNED_BAD + NOT_OWNED if owned else NOT_IT + NOT_OWNED)
         with torch.no_grad():
-            probs = model(**proc(text=[f"a photo of {query}"] + NOT_IT, images=ims, return_tensors="pt",
+            probs = model(**proc(text=texts, images=ims, return_tensors="pt",
                                  padding=True)).logits_per_image.softmax(-1)
     except Exception as ex:   # no check, no clip: a wrong clip is worse than the stock fallback
         print(f"    cc: picture check unavailable ({ex}) - skipped")
         return False
+    best = probs.argmax(-1).tolist()
+    foreign = [texts[b] for b in best if texts[b] in NOT_OWNED]
+    if foreign:
+        print(f"    cc: {vid} looks like {foreign[0]!r} - skipped")
+        return False
+    if owned:
+        bad = [texts[b] for b in best if texts[b] in OWNED_BAD]
+        if bad:
+            print(f"    cc: {vid} has {len(bad)}/{len(best)} frames of {bad[0]!r} - skipped")
+        return not bad
     hits = int((probs.argmax(-1) == 0).sum())
     if hits < 3:
         print(f"    cc: {vid} shows {query!r} in {hits}/3 frames - skipped")
@@ -154,14 +226,19 @@ def _credit(name: str) -> str:
     return f"영상: {name[:18] + '…' if len(name) > 19 else name} · CC BY"
 
 
-def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: set | None = None) -> dict | None:
+def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: set | None = None,
+                owners: list[str] | None = None) -> dict | None:
+    """owners: the scene's `cc_from` - only clips from that (verified) channel, people on camera allowed."""
     base = _ytdlp()
     if not base or not query.strip():
         return None
     used = used if used is not None else set()
     query = query.strip()
+    owners = [o for o in ([owners] if isinstance(owners, str) else owners or []) if o and o.strip()]
     try:
-        hits = [e for e in _search(query, base) if e.get("id") and f"yt{e['id']}" not in used and _passes(e, query)]
+        # the channel's name in the search keeps its own videos in the top 10 (the topic alone drowns them)
+        found = _search(f"{owners[0]} {query}" if owners else query, base)
+        hits = [e for e in found if e.get("id") and f"yt{e['id']}" not in used and _passes(e, query, owners)]
     except Exception as ex:
         print(f"    cc: search failed for {query!r}: {ex}")
         return None
@@ -182,7 +259,12 @@ def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: 
         if "creative commons" not in lic.lower():
             print(f"    cc: {vid} is not CC BY on its own page ({lic or 'standard licence'}) - skipped")
             continue
-        if not _passes(meta, query):   # full tags/channel now known
+        # full tags/channel now known; the watch page may give the localized title (Korean) where search gave
+        # the English one, so both count for relevance
+        if not _passes({**meta, "title": f"{meta.get('title') or ''} {e.get('title') or ''}"}, query, owners):
+            print(f"    cc: {vid} fails the title/channel check on its own page - skipped")
+            continue
+        if owners and not _owner_ok(meta, owners, vid):
             continue
         dur = float(meta.get("duration") or 0)
         CACHE.mkdir(parents=True, exist_ok=True)
@@ -206,7 +288,7 @@ def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: 
         for at in (0.35, 0.6, 0.2, 0.8):
             start = min(max(2.0, dur * at), max(0.0, dur - 2 - seconds - 0.6))
             frames = _cut(src, start, seconds, out_dir, fps)
-            if frames and not stock._keyed(frames[len(frames) // 2]) and _shows(frames, query, vid):
+            if frames and not stock._keyed(frames[len(frames) // 2]) and _shows(frames, query, vid, bool(owners)):
                 used.add(f"yt{vid}")
                 who = meta.get("channel") or meta.get("uploader") or ""
                 print(f"    cc: clip {vid} @{start:.0f}s by {who!r} for {query!r} ({len(frames)} frames)")
@@ -220,5 +302,10 @@ def clip_frames(query: str, seconds: float, out_dir: Path, fps: int = 30, used: 
 
 if __name__ == "__main__":
     import sys
-    q = " ".join(sys.argv[1:]) or "seoul subway train"
-    print(clip_frames(q, 4.0, Path("output") / "cc_test" / re.sub(r"\W+", "_", q)))
+    args = sys.argv[1:]
+    own = []
+    if "--from" in args:   # python ccvideo.py openai sora demo --from OpenAI
+        k = args.index("--from")
+        own, args = args[k + 1:k + 2], args[:k] + args[k + 2:]
+    q = " ".join(args) or "seoul subway train"
+    print(clip_frames(q, 4.0, Path("output") / "cc_test" / re.sub(r"\W+", "_", q), owners=own))

@@ -233,7 +233,7 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
         cq = (vis or {}).get("cc") or []
         for k, q in enumerate([cq] if isinstance(cq, str) else cq):
             if (clip := ccvideo.clip_frames(q, en - st + motion.LEAD + 0.2, work_dir / f"cc_{i:02d}_{k}",
-                                            motion.FPS, used_clips)):
+                                            motion.FPS, used_clips, (vis or {}).get("cc_from"))):
                 break
         if clip:
             clips.append(clip)

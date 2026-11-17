@@ -65,11 +65,24 @@ def _check_visual(i: int, v: dict) -> list[str]:
         p.append(f"segment {i}: pic must be 2-40 chars of English search words (or a list of 1-3 such candidates), got {pq!r}")
     cq = v.get("cc")   # ccvideo.py: CC BY YouTube footage, credited on screen (2026-10-25)
     cqs = [cq] if isinstance(cq, str) else cq
+    # an official Korean channel titles its videos in Korean, so with cc_from the words may be Korean (2026-11-17)
+    cc_chars = r"[A-Za-z0-9가-힣 ,'_-]{2,40}" if v.get("cc_from") else r"[A-Za-z0-9 ,'-]{2,40}"
     if cq is not None and not (isinstance(cqs, list) and 1 <= len(cqs) <= 3 and all(
-            isinstance(q, str) and re.fullmatch(r"[A-Za-z0-9 ,'-]{2,40}", q) for q in cqs)):
-        p.append(f"segment {i}: cc must be 2-40 chars of English search words (or a list of 1-3 such candidates), got {cq!r}")
+            isinstance(q, str) and re.fullmatch(cc_chars, q) for q in cqs)):
+        p.append(f"segment {i}: cc must be 2-40 chars of English search words (Korean too with cc_from; or a list of "
+                 f"1-3 such candidates), got {cq!r}")
     if cq is not None and not vq:
         p.append(f"segment {i}: cc needs a `video` list too - it is the fallback when no CC BY clip passes")
+    cf = v.get("cc_from")   # ccvideo.py: only from the story subject's own verified channel (2026-11-17)
+    cfs = [cf] if isinstance(cf, str) else cf
+    if cf is not None:
+        if cq is None:
+            p.append(f"segment {i}: cc_from goes with a `cc` search - it names whose channel that clip must come from")
+        if not (isinstance(cfs, list) and 1 <= len(cfs) <= 3 and all(
+                isinstance(o, str) and 2 <= len(o.strip()) <= 30 for o in cfs)):
+            p.append(f"segment {i}: cc_from must be 1-3 channel names (2-30 chars), got {cf!r}")
+        elif any(re.search(r"(?i)\b(kbs|mbc|sbs|jtbc|ytn|mbn|news|뉴스|cnn|bbc)\b", o) for o in cfs):
+            p.append(f"segment {i}: cc_from {cf!r} is a broadcaster - broadcast footage is never taken from cc")
     gk = v.get("grok")   # grokclips.py: a 6 s Grok Imagine clip made on the PC (2026-11-10)
     if gk is not None:
         gp = gk.get("prompt") if isinstance(gk, dict) else None
