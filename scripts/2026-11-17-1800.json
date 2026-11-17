@@ -1,0 +1,707 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "cafe-study-partition-comeback",
+ "title_lines": [
+  "카공족 칸막이 금지한",
+  "스타벅스의 반전"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "스타벅스가 금지했다가 다시 세운 칸막이",
+   "say": "스타벅스가 금지했다가 다시 세운 칸막이",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "스타벅스가 금지했다가\n다시 세운 칸막이",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white"
+   }
+  },
+  {
+   "text": "노트북 두고 화장실 가기, 한국 카페에선 흔함.",
+   "say": "노트북 두고 화장실 가기, 한국 카페에선 흔함.",
+   "sfx": "whoosh",
+   "tone": "재밌는 비밀 털어놓듯 눈을 반짝이며 들뜬 목소리로",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ノートパソコン 女性",
+       "ノートパソコン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚻",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "cafe",
+    "video": [
+     "laptop cafe table",
+     "laptop coffee shop",
+     "cafe table coffee"
+    ],
+    "grok": {
+     "prompt": "Medium shot inside a cozy cafe, A young Korean woman in her twenties with a black ponytail, cream knit sweater and round glasses, stands up from a wooden table leaving her open laptop and phone behind and walks calmly toward the restroom sign, warm afternoon light, slow camera pan following her"
+    }
+   }
+  },
+  {
+   "text": "외국인들은 100만 원짜리도 두고 간다며 놀람.",
+   "say": "외국인들은 백만 원짜리도 두고 간다며 놀람.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "外国人 驚く",
+       "外国人 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😲",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "cafe"
+   }
+  },
+  {
+   "text": "근데 이 습관이 스타벅스를 바꿈.",
+   "say": "근데 이 습관이 스타벅스를 바꿈.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ルール 本",
+       "規則"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "night"
+   }
+  },
+  {
+   "text": "작년엔 칸막이에 키보드까지 깐 자리가 찍혔는데,",
+   "say": "작년엔 칸막이에 키보드까지 깐 자리가 찍혔는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "キーボード",
+       "パソコン 仕事 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🖥️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "cafe",
+    "video": [
+     "keyboard typing desk",
+     "computer keyboard",
+     "office desk computer"
+    ],
+    "grok": {
+     "prompt": "Medium shot inside a busy cafe, A young Korean man in his twenties with short brown hair, gray hoodie and headphones around his neck, unfolds a tall cardboard partition on a small cafe table and lines up a keyboard, mouse and tablet behind it like a private office, other customers glance over, bright cafe light, slow push-in camera"
+    }
+   }
+  },
+  {
+   "text": "'개인 사무실 같다'는 비판이 쏟아졌음.",
+   "say": "'개인 사무실 같다'는 비판이 쏟아졌음.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "items": [
+     {
+      "type": "sms",
+      "from": "댓글",
+      "lines": [
+       "개인 사무실",
+       "같다"
+      ]
+     },
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "スマホ 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "Z세대가 꼽은 카공 최악 매너 1위도",
+   "say": "제트세대가 꼽은 카공 최악 매너 일 위도",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "アンケート",
+       "調査 アンケート"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📊",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "pic": [
+     "survey paper",
+     "questionnaire form"
+    ]
+   }
+  },
+  {
+   "text": "자리 맡아 두고 오래 외출하기였음.",
+   "say": "자리 맡아 두고 오래 외출하기였음.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "최악 매너",
+      "lines": [
+       "자리 맡고 장시간 외출",
+       "29%"
+      ],
+      "mark": 1
+     },
+     {
+      "type": "illust",
+      "q": [
+       "怒る 女性",
+       "怒る 人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk",
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "몇 명 때문에 다 욕먹는 건 억울하단 쪽도 있음.",
+   "say": "몇 명 때문에 다 욕먹는 건 억울하단 쪽도 있음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "勉強 大学生",
+       "勉強 学生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "cafe",
+    "video": [
+     "student studying cafe",
+     "studying notebook",
+     "books coffee table"
+    ]
+   }
+  },
+  {
+   "text": "결국 작년 8월 스타벅스가 칼 뺐는데,",
+   "say": "결국 작년 팔월 스타벅스가 칼 뺐는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "tr": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "店長 男性",
+       "店員 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✂️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "cafe",
+    "video": [
+     "coffee shop counter",
+     "barista coffee machine",
+     "cafe counter"
+    ]
+   }
+  },
+  {
+   "text": "멀티탭·프린터·칸막이 금지함.",
+   "say": "멀티탭, 프린터, 칸막이 금지함.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "매장 안내",
+      "lines": [
+       "멀티탭·프린터",
+       "칸막이 사용 제한"
+      ],
+      "mark": 1
+     },
+     {
+      "type": "illust",
+      "q": [
+       "禁止 マーク",
+       "バツ 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "짐 챙겨 달라는 안내도 붙었음.",
+   "say": "짐 챙겨 달라는 안내도 붙었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🎒",
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ],
+    "bg": "cafe",
+    "pic": [
+     "backpack table",
+     "cafe table"
+    ]
+   }
+  },
+  {
+   "text": "헐, 30분 비우면 치운다는 매장도 나왔는데,",
+   "say": "헐, 삼십 분 비우면 치운다는 매장도 나왔는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "깜짝 놀란 듯 목소리를 확 높여서",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "掃除 店員",
+       "片付け 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⏰",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "cafe",
+    "video": [
+     "cafe table cleaning",
+     "wiping table",
+     "empty cafe chairs"
+    ],
+    "grok": {
+     "prompt": "Medium shot inside a cafe, a cafe worker woman in her thirties with a short bob, black apron and white shirt, checks a wall clock then gently packs a customer's abandoned notebook and pens from an empty table into a basket, soft daylight, camera slowly tracks sideways"
+    }
+   }
+  },
+  {
+   "text": "회사는 도난 때문에 그 매장만 그랬다고.",
+   "say": "회사는 도난 때문에 그 매장만 그랬다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "泥棒",
+       "泥棒 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💼",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "store",
+    "pic": [
+     "lost found box",
+     "storage box shelf"
+    ]
+   }
+  },
+  {
+   "text": "투썸·메가는 반대로 카공석을 늘린다 함.",
+   "say": "투썸, 메가는 반대로 카공석을 늘린다 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カフェ 店",
+       "喫茶店"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "↩️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "street",
+    "video": [
+     "cafe interior seats",
+     "coffee shop interior",
+     "cafe window seats"
+    ],
+    "cc": [
+     "seoul cafe street"
+    ]
+   }
+  },
+  {
+   "text": "와, 그리고 8개월 뒤 반전이 나옴.",
+   "say": "와, 그리고 팔 개월 뒤 반전이 나옴.",
+   "sfx": "none",
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "カレンダー 予定"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "night"
+   }
+  },
+  {
+   "text": "스타벅스가 대학가에 카공 구역을 늘렸음.",
+   "say": "스타벅스가 대학가에 카공 구역을 늘렸음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "大学生 男性",
+       "大学 キャンパス"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "street",
+    "video": [
+     "university campus street",
+     "college campus",
+     "campus students walking"
+    ],
+    "cc": [
+     "korea university campus"
+    ]
+   }
+  },
+  {
+   "text": "세상에, 스탠드, 콘센트, 칸막이까지 있음.",
+   "say": "세상에, 스탠드, 콘센트, 칸막이까지 있음.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "デスクライト",
+       "電気スタンド"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "cafe",
+    "pic": [
+     "desk lamp",
+     "study desk lamp",
+     "power outlet"
+    ],
+    "cam": "punch",
+    "tr": "flash"
+   }
+  },
+  {
+   "text": "이미 6개 매장에 들어갔다고.",
+   "say": "이미 여섯 개 매장에 들어갔다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "勉強 女性",
+       "勉強 集中"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📚",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "cafe",
+    "video": [
+     "study room desk",
+     "library desk study",
+     "reading desk lamp"
+    ],
+    "grok": {
+     "prompt": "Medium shot in a quiet cafe study zone, A young Korean man in his twenties with short brown hair, gray hoodie and headphones around his neck, sits down in a single booth seat with a small partition and desk lamp, plugs in his laptop and smiles with relief, warm lamp light, slow pull-back camera"
+    }
+   }
+  },
+  {
+   "text": "카공족을 쫓아내려던 게 아니었다고 함.",
+   "say": "카공족을 쫓아내려던 게 아니었다고 함.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "説明 男性",
+       "スーツ 男性 説明"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "office"
+   }
+  },
+  {
+   "text": "이젠 칸막이를 직접 세워 줌.",
+   "say": "이젠 칸막이를 직접 세워 줌.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "パーテーション",
+       "ついたて"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙃",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white"
+   }
+  }
+ ],
+ "youtube": {
+  "title": "카공족 칸막이 금지한 스타벅스의 반전 #shorts",
+  "description": "노트북·지갑 두고 자리 비우는 한국 카페 습관, 칸막이까지 세운 카공족 사진이 퍼지자 스타벅스는 2025년 8월 전국 매장에서 멀티탭·프린터·칸막이를 금지했다.\nZ세대가 꼽은 카공 최악 매너 1위는 '자리 맡아두고 장시간 외출'. 그사이 투썸·메가는 오히려 카공석을 늘렸다.\n그리고 2026년 4월, 스타벅스가 대학가 매장에 1인석·스탠드·칸막이를 갖춘 카공 전용 구역을 늘렸다.\n\n※ AI 음성으로 제작했습니다.\n#카공족 #스타벅스 #카페 #칸막이 #공감 #shorts",
+  "tags": [
+   "카공족",
+   "스타벅스",
+   "카페",
+   "칸막이",
+   "포커스 존",
+   "카공",
+   "자리 맡기",
+   "공감",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://biz.sbs.co.kr/amp/article/20000303099",
+ "facts_used": [
+  "한국 카페에서 노트북·지갑 두고 자리 비우는 모습에 외국인들이 놀람, 방송 출연 외국인 '100만 원이 넘는 물건도 그냥 두고 간다' — 위키트리 https://www.wikitree.co.kr/articles/1130640",
+  "2025년 6월 칸막이·키보드·태블릿 설치한 카페 자리 사진 확산, '개인 사무실 같다' 비판 — SBS Biz https://biz.sbs.co.kr/amp/article/20000242008 , 생글생글 https://sgsg.hankyung.com/article/2025082995101",
+  "진학사 캐치 Z세대 2037명 설문 최악 카공 유형 1위 '자리 맡아두고 장시간 외출' 29% — 한경비즈니스 https://magazine.hankyung.com/business/article/202508089193b , 서울신문 https://m.seoul.co.kr/news/2025/08/08/20250808500125",
+  "옹호 측 '몇몇 사례 때문에 카공족 전체가 비판받는 것은 억울' — 생글생글 https://sgsg.hankyung.com/article/2025082995101",
+  "2025년 8월 7일 스타벅스코리아 전국 매장 개인 데스크톱·프린터·멀티탭·칸막이 사용 제한, 장시간 자리 비울 땐 소지품 챙겨 달라는 안내 — 뉴시스 https://www.newsis.com/view/NISX20250807_0003282049 , SBS Biz https://biz.sbs.co.kr/amp/article/20000252027 , 세계일보 https://www.segye.com/newsView/20250808504623",
+  "한 매장 '30분 이상 좌석 비우면 직원이 정리' 안내문, 스타벅스 측 '도난 사고 등으로 예외적으로 부착, 전체 정책과 무관' — SBS Biz https://biz.sbs.co.kr/amp/article/20000230637",
+  "투썸플레이스 카공족 많은 매장 1인 좌석 설치, 메가커피 대형 매장 카공족 전용 공간 계획 — SBS Biz https://biz.sbs.co.kr/amp/article/20000252027",
+  "2026년 4월 9일 스타벅스 대학가 매장 1~2인 전용 '포커스 존' 확대, 1인석·칸막이·스탠드 조명·개별 콘센트, 세종대점·한양대에리카점 등 6개 매장, 카공족 배척이 아니라 다른 고객 불편 줄이려던 것이라는 설명 — SBS Biz https://biz.sbs.co.kr/amp/article/20000303099 , 경향신문 https://www.khan.co.kr/article/202604250900025 , 비즈워치 https://news.bizwatch.co.kr/article/consumer/2026/04/09/0006"
+ ],
+ "brief": "레인: 우리얘기\n점수표: [선택] 카페에 짐 두고 자리 비우는 한국 카공 습관과 스타벅스 칸막이 반전 — 내 얘기5×2=10(카페에 노트북·가방 두고 화장실 가 본 사람·카공족 옆자리에 앉아 본 사람 대부분, Z세대 70%가 주 1회 이상 카페 공부)+갈림5(최악 매너 1위 '자리 맡고 장시간 외출' 29% vs '몇몇 때문에 카공족 전체가 비판받는 건 억울' / 스타벅스 제한 vs 투썸·메가 카공 환영)+몰랐던 이유4(2025년 6월 칸막이 자리 사진 확산→8월 7일 전국 멀티탭·프린터·데스크톱·칸막이 제한, 장시간 자리 비울 땐 소지품 챙기기 안내→2026년 4월 9일 대학가 '포커스 존' 확대, 6개 매장)+한 장면5(노트북 두고 화장실 가는 장면, 칸막이 세운 테이블)+대상5(스타벅스·카페)=29 / [후보] 수능 엿·찹쌀떡과 무즙 파동(이번 주 수능 소재 2편 이미, 구제 인원 38·39·59명 자료마다 달라 탈락) / 김치냉장고 딤채(반응 확인 못 함) / 식기세척기 보급률(최신 수치 없음) / 타일러 한국 불편한 이유(원글 내용 확인 못 함)\n유행: 없음 (찾아본 단어: Ai·카메라·수능 — AI 안경은 11/14 07시가 이번 주 다룸(같은 유행 주 1회), 수능은 이번 주 2편 / 코스피·대통령 — 주가·정치 / 강아지 — 개인 글, 사실 확인 못 함 / 하투하 — 연예)\n구조: 발단=한국 카페에서 노트북·지갑 두고 자리 비우는 습관, 외국인들이 놀람 / 반응='개인 사무실 같다'(칸막이 자리 사진 비판)→Z세대 최악 매너 1위 '자리 맡아두고 장시간 외출' 29%→'몇몇 때문에 카공족 전체가 비판받는 건 억울' / 이유=2025년 8월 7일 스타벅스 전국 매장 멀티탭·프린터·칸막이·데스크톱 제한, 장시간 자리 비울 땐 소지품 챙겨 달라는 안내 · 한 매장의 '30분 이상 비우면 자리 정리' 안내문은 회사가 도난 사고 때문인 예외라고 설명 / 갈림=투썸플레이스 1인 좌석, 메가커피 대형 매장 카공 전용 공간 계획(카공족 환영) / 한 방=2026년 4월 스타벅스가 대학가에 1~2인 전용 '포커스 존'(1인석·스탠드·콘센트·칸막이) 확대, 6개 매장 → 금지했던 칸막이를 직접 세워 줌\n댓글거리: 카페에 노트북·폰 두고 화장실 가 본 적, 몇 분까지 자리 비워도 되는지, 칸막이 카공족 목격담, 포커스 존 가 본 사람\n첫장면: 사람 (노트북 두고 화장실 가는 카페 손님)\n훅 3안: ①\"노트북 두고 화장실 가기, 한국 카페에선 흔함.\"(선택: 시청자 본인 장면이라 당사자가 됨) ②\"멀티탭·프린터·칸막이, 스타벅스가 금지한 물건들임.\"(설정 먼저 나와 반전이 약해짐) ③\"외국인들은 100만 원짜리도 두고 간다며 놀람.\"(외국인 남 얘기로 시작) / 글 카드 3안: \"스타벅스가 금지했다가 다시 세운 칸막이\"(선택) · \"카공족 내쫓던 스타벅스의 반전\" · \"카페에 노트북 두고 가는 한국인\" / 제목 3안: \"카공족 칸막이 금지한 스타벅스의 반전\"(선택: 집단+반전, 앞 두 편 '진실'·'이유' 틀과 다름) · \"결국 카공족한테 칸막이 세워 준 스타벅스\"(답을 다 말함) · \"카페에 노트북 두고 가는 한국인의 진실\"('진실' 오늘 12시와 겹침)\n이해검사: 한국 카페에서는 짐을 두고 자리를 맡는 카공족이 많아 '최악 매너' 논란이 커지자 스타벅스가 2025년 8월 멀티탭·프린터·칸막이를 금지했는데, 투썸·메가가 오히려 카공석을 늘리자 2026년 4월 대학가 매장에 칸막이 달린 카공 전용 구역을 직접 만들었음\n그림대조: 완료 (노트북 여자+카페 영상·grok 노트북 두고 화장실 가는 여자, 놀란 외국인, 규칙 책+👀 밤, 키보드+사무 책상 영상·grok 칸막이 세우는 남자, 댓글 문자+폰 여자, 설문+설문지 사진, 최악 매너 문서+화난 여자, 공부하는 대학생+공부 영상, 점장+카페 카운터 영상, 매장 안내 문서+금지 마크, 가방 사진만(🎒), 치우는 점원+테이블 영상·grok 점원이 놓고 간 물건 정리, 도둑+보관함 사진, 카페 건물+카페 내부 영상, 달력 밤, 대학생+캠퍼스 영상, 스탠드+스탠드 사진, 공부하는 여자+독서실 책상 영상·grok 부스석 앉는 남자, 설명하는 남자, 칸막이)\n증거: 댓글 문자('개인 사무실 같다'), 최악 매너 문서(자리 맡고 장시간 외출 29%), 매장 안내 문서(멀티탭·프린터·칸막이 사용 제한)\n주의: 카공족 전체를 깎아내리지 않게 '억울하다'는 쪽을 한 줄 넣음. 칸막이 사진 속 사람이 '3시간 동안 안 돌아왔다'는 보도와 '자리를 안 비웠다'는 보도가 엇갈려 시간·행동 디테일은 뺌. '30분 정리'는 전국 정책이 아니라 한 매장 안내문이라 '매장도 나왔는데'+회사 설명으로만. 외국인 반응(100만 원 넘는 물건도 두고 간다)은 방송 출연 외국인 발언을 전한 기사 기준, 따옴표 없이 씀. 스타벅스 설명은 경향신문 2026-04 보도 기준. 브랜드명은 자막·제목에만, 그림·검색어·grok 에 로고·브랜드 없음.\n출처: SBS Biz 2025-08-07 https://biz.sbs.co.kr/amp/article/20000252027 / 뉴시스 2025-08-07 https://www.newsis.com/view/NISX20250807_0003282049 / 서울신문 2025-08-08 https://m.seoul.co.kr/news/2025/08/08/20250808500125 / 세계일보 2025-08-08 https://www.segye.com/newsView/20250808504623 / 한경비즈니스 2025-08 https://magazine.hankyung.com/business/article/202508089193b / SBS Biz(칸막이 사진) https://biz.sbs.co.kr/amp/article/20000242008 / SBS Biz(30분 안내문) https://biz.sbs.co.kr/amp/article/20000230637 / 생글생글 https://sgsg.hankyung.com/article/2025082995101 / SBS Biz 2026-04-09 https://biz.sbs.co.kr/amp/article/20000303099 / 경향신문 2026-04-25 https://www.khan.co.kr/article/202604250900025 / 비즈워치 2026-04-09 https://news.bizwatch.co.kr/article/consumer/2026/04/09/0006 / 위키트리 https://www.wikitree.co.kr/articles/1130640"
+}
