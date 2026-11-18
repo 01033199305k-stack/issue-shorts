@@ -8685,5 +8685,70 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-18_1800_dakdoritang-name-origin/video.mp4"
   },
   "seconds": 1396
+ },
+ {
+  "key": "2026-11-19-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-19T07:00:00+09:00",
+  "started": "2026-11-19T04:20:54.626101+09:00",
+  "sound_qa": {
+   "lufs": -14.2,
+   "true_peak": -1.4,
+   "lra": 1.9,
+   "cuts": 18,
+   "cut_hit_100ms": 0.833,
+   "cuts_without_sound": [],
+   "issues": []
+  },
+  "stock_clips": [
+   "https://pixabay.com/photos/phone-android-apps-world-map-1869510/",
+   "https://pixabay.com/videos/id-44927/",
+   "https://pixabay.com/videos/id-736/",
+   "https://pixabay.com/photos/kitchen-glass-bar-restaurant-rack-10005922/"
+  ],
+  "cc_clips": [],
+  "duration": 25.9,
+  "matches": [
+   0.92,
+   0.95,
+   0.99,
+   0.99,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.96,
+   0.97
+  ],
+  "sfx": 9,
+  "illustrations": 7,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "43번 와서 굿 남기고 별점 1점 준 단골 #shorts",
+  "source_post": "https://www.newsis.com/view/NISX20260728_0003725732",
+  "facts_used": [
+   "인천 횟집에 한 이용자가 '43번째 방문'이라며 '굿'·'친절해요' 리뷰와 함께 매번 별점 1점, 욕설·허위 사실이 없어 신고도 어려움 — 뉴시스 2026-07-28 https://www.newsis.com/view/NISX20260728_0003725732 , 머니투데이 2026-07-28 https://www.mt.co.kr/society/2026/07/28/2026072806590456673 , 서울신문 2026-07-15 https://www.seoul.co.kr/news/economy/distribution/2026/07/15/20260715500077",
+   "처음 발견한 사람은 지도 앱에서 단골 횟집 별점이 2점대인 걸 이상하게 본 인천의 한 자영업자 — 뉴시스, 서플 https://supple.kr/news/cms3sziaz001uf20i3mkbwqmu",
+   "작성자 리뷰 5000여 개(뉴시스·서울신문)/5300여 개(머니투데이·서플), 정육식당 등 다른 업장도 피해 — 뉴시스, 머니투데이, 서플",
+   "횟집 사장은 리뷰 스트레스로 건강이 나빠져 가게를 넘기고 떠난 것으로 알려짐 — 뉴시스, 머니투데이",
+   "논란 뒤 리뷰 5천여 개 한꺼번에 삭제(주체 확인 안 됨), 횟집 평점 2.9→5.0, 정육식당 4.9 — 뉴시스, 서플, 머니투데이",
+   "출처 방송: JTBC 사건반장 2026-07-27 — 뉴시스, 머니투데이",
+   "다시 화제 맥락(대본엔 안 씀): 배민 음식·배달 별점 분리 발표 — 시대 2026-11-17 https://www.sidae.com/article/2026111709180272375"
+  ],
+  "slug": "2026-11-19_0700_one-star-regular-raw-fish-shop",
+  "late": false,
+  "video_id": "9W9wKwSTtpA",
+  "url": "https://youtube.com/shorts/9W9wKwSTtpA",
+  "privacy": "private",
+  "scheduled_for": "2026-11-18T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6afe02e2139f3a41839844b1",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-18T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-19_0700_one-star-regular-raw-fish-shop/video.mp4"
+  },
+  "seconds": 2126
  }
 ]
