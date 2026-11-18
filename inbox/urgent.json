@@ -1,65 +1,44 @@
 {
- "detected_at": "2026-11-18T09:11+09:00",
+ "detected_at": "2026-11-18T11:24+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李대통령, 수능 재난문자 우려에 \"방해받은 시간만큼 연장 검토 지시\"",
-   "url": "https://n.news.naver.com/article/014/0005605814",
-   "press": "파이낸셜뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "연합뉴스",
-     "title": "李대통령 \"수능中 재난문자로 시험방해시 그만큼 시간연장 검토\"",
-     "url": "https://n.news.naver.com/article/001/0016447910"
-    },
-    {
-     "press": "서울신문",
-     "title": "[속보] 李대통령 “재난문자로 수능 방해받으면 그만큼 시간 연장 검토”",
-     "url": "https://n.news.naver.com/article/081/0003700568"
-    }
-   ]
+   "title": "[속보]나경원“대통령이 1억 미끼 수험생 감시자로 내몰아”",
+   "url": "https://n.news.naver.com/article/021/0002833626",
+   "press": "문화일보",
+   "why": "[속보] 기사",
+   "related": []
   },
   {
    "kind": "news",
-   "title": "李대통령 “수능 부정 신고 건당 1억 이상 포상”…재난문자 불시 발송",
-   "url": "https://n.news.naver.com/article/011/0004683346",
-   "press": "서울경제",
-   "why": "언론사 8곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "JTBC",
-     "title": "이 대통령 \"수능 부정 신고, 포상금 1억\" 수능 비상점검회의",
-     "url": "https://n.news.naver.com/article/437/0000521210"
-    },
-    {
-     "press": "한국경제",
-     "title": "이 대통령 \"수능 부정행위자 무관용 대응…신고 땐 1억 포상금\"",
-     "url": "https://n.news.naver.com/article/015/0005355020"
-    },
-    {
-     "press": "YTN",
-     "title": "이 대통령, 필리핀서 수능 긴급점검...\"부정신고 1억 포상 검토\"",
-     "url": "https://n.news.naver.com/article/052/0002434254"
-    },
-    {
-     "press": "TV조선",
-     "title": "李 \"수능 AI 커닝 신고 시 건당 1억 포상…가담자 처벌 감면도 추진\"",
-     "url": "https://n.news.naver.com/article/448/0000651680"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 젠슨 황 복귀 의사 밝혔지만…엔비디아 이사회 \"재선임 뜻 없어\"",
-   "url": "https://n.news.naver.com/article/654/0000211928",
-   "press": "강원도민일보",
+   "title": "[속보] 올 수능 시험장에 ‘흑색 연필’만 반입 허용…나머지 필기구 불가",
+   "url": "https://n.news.naver.com/article/016/0002724957",
+   "press": "헤럴드경제",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "비즈워치",
-     "title": "엔비디아 또 깜짝실적… 이사회 \"젠슨 황 복귀는 없다\"",
-     "url": "https://n.news.naver.com/article/648/0000052729"
+     "press": "SBS Biz",
+     "title": "수능 시험장에 '필기구로 흑색 연필'만 반입 허용\"",
+     "url": "https://n.news.naver.com/article/374/0000544405"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "추미애 \"전당대회 혼탁하게 만든 김민석 문제 판단해야\"",
+   "url": "https://n.news.naver.com/article/214/0001536334",
+   "press": "MBC",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "강원도민일보",
+     "title": "추미애, 최민희 징계 수순에 \"김민석 발언부터 엄중 판단해야\"",
+     "url": "https://n.news.naver.com/article/654/0000211938"
+    },
+    {
+     "press": "오마이뉴스",
+     "title": "추미애 \"김민석, 사과로 끝낼 문제 아냐\"... 최민희 엄호?",
+     "url": "https://n.news.naver.com/article/047/0002536244"
     }
    ]
   }
