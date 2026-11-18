@@ -1,44 +1,97 @@
 {
- "detected_at": "2026-11-18T11:24+09:00",
+ "detected_at": "2026-11-18T15:12+09:00",
  "candidates": [
   {
-   "kind": "news",
-   "title": "[속보]나경원“대통령이 1억 미끼 수험생 감시자로 내몰아”",
-   "url": "https://n.news.naver.com/article/021/0002833626",
-   "press": "문화일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 올 수능 시험장에 ‘흑색 연필’만 반입 허용…나머지 필기구 불가",
-   "url": "https://n.news.naver.com/article/016/0002724957",
-   "press": "헤럴드경제",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
+   "kind": "community",
+   "title": "[세갤] [단독] 시대인재, 이진우와 계약해지 결정",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479767&_dcbest=1&page=1",
+   "board": "디시 실베",
+   "why": "커뮤니티 2곳 동시 화제 + 기사화(뉴시스)",
+   "news": [
     {
-     "press": "SBS Biz",
-     "title": "수능 시험장에 '필기구로 흑색 연필'만 반입 허용\"",
-     "url": "https://n.news.naver.com/article/374/0000544405"
+     "url": "https://n.news.naver.com/article/003/0014329342",
+     "headline": "[단독]시대인재, '리트 만점자' 이진우와 계약 해지 결정"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "추미애 \"전당대회 혼탁하게 만든 김민석 문제 판단해야\"",
-   "url": "https://n.news.naver.com/article/214/0001536334",
-   "press": "MBC",
+   "title": "李대통령-시진핑, 中 선전서 정상회담 시작",
+   "url": "https://n.news.naver.com/article/374/0000544455",
+   "press": "SBS Biz",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "SBS",
+     "title": "이 대통령-시진핑, 선전서 세 번째 정상회담…34분 대좌",
+     "url": "https://n.news.naver.com/article/055/0001403913"
+    },
+    {
+     "press": "국민일보",
+     "title": "이 대통령, 시진핑과 34분 정상회담…“한반도 평화, 韓中 공동이익”",
+     "url": "https://n.news.naver.com/article/005/0001885894"
+    },
+    {
+     "press": "KBS",
+     "title": "이 대통령, 중국 선전서 시진핑 주석과 정상회담…34분간 진행",
+     "url": "https://n.news.naver.com/article/056/0012296280"
+    },
+    {
+     "press": "대전일보",
+     "title": "이 대통령 \"한반도 평화와 안정은 韓中 양국의 공동이익\"… 시진핑 주석 회담",
+     "url": "https://n.news.naver.com/article/656/0000192781"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "'차기 적합도' 오세훈 17.9% 선두…장동혁·한동훈·김민석 오차범위 내 추격",
+   "url": "https://n.news.naver.com/article/421/0009295671",
+   "press": "뉴스1",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "강원도민일보",
-     "title": "추미애, 최민희 징계 수순에 \"김민석 발언부터 엄중 판단해야\"",
-     "url": "https://n.news.naver.com/article/654/0000211938"
+     "press": "이데일리",
+     "title": "차기 대선판 오세훈·장동혁·한동훈 '3강 구도'...김민석은 10% 턱걸이[여론 뒤집기]",
+     "url": "https://n.news.naver.com/article/018/0006411734"
     },
     {
-     "press": "오마이뉴스",
-     "title": "추미애 \"김민석, 사과로 끝낼 문제 아냐\"... 최민희 엄호?",
-     "url": "https://n.news.naver.com/article/047/0002536244"
+     "press": "TV조선",
+     "title": "차기 대통령감? 오세훈17.9%·장동혁13.8%·한동훈13.3%·김민석10%",
+     "url": "https://n.news.naver.com/article/448/0000651704"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] '계엄 해제 방해' 혐의 추경호, 1심 '무죄'",
+   "url": "https://n.news.naver.com/article/214/0001536395",
+   "press": "MBC",
+   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "한겨레",
+     "title": "[속보] 추경호 ‘계엄해제 방해’ 1심 무죄…시장직 상실형 피해",
+     "url": "https://n.news.naver.com/article/028/0002832778"
+    },
+    {
+     "press": "kbc광주방송",
+     "title": "[속보]'계엄 해제 표결 방해' 추경호 1심 무죄…특검, 징역 20년 구형",
+     "url": "https://n.news.naver.com/article/660/0000121660"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 이혜훈 '부정 청약' 로또 아파트, 계약 취소되나",
+   "url": "https://n.news.naver.com/article/002/0002466377",
+   "press": "프레시안",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "헤럴드경제",
+     "title": "이혜훈 ‘부정 청약’ 40억 로또아파트, 취소?…국토부, 분양계약 취소 ‘공문’ 보내",
+     "url": "https://n.news.naver.com/article/016/0002725141"
     }
    ]
   }
