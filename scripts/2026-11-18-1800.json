@@ -1,0 +1,352 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "dakdoritang-name-origin",
+ "title_lines": [
+  "닭도리탕 부르는 한국인이",
+  "몰랐던 도리의 정체"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "34년째 끝나지 않은 닭도리탕 이름 싸움",
+   "say": "삼십사 년째 끝나지 않은 닭도리탕 이름 싸움",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "34년째 끝나지 않은\n닭도리탕 이름 싸움",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white"
+   }
+  },
+  {
+   "text": "닭도리탕은 국어원 기준 고쳐 쓸 말임.",
+   "say": "닭도리탕은 국어원 기준 고쳐 쓸 말임.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "순화어",
+      "lines": [
+       "닭도리탕",
+       "→ 닭볶음탕"
+      ],
+      "mark": 1
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "驚く 会社員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "'도리'가 일본말로 새라는 거임.",
+   "say": "'도리'가 일본말로 새라는 거임.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🐔",
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white",
+    "pic": [
+     "hen chicken",
+     "chicken farm"
+    ]
+   }
+  },
+  {
+   "text": "1992년부터 닭볶음탕으로 바꾸라 했는데,",
+   "say": "천구백구십이 년부터 닭볶음탕으로 바꾸라 했는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "公務員 男性",
+       "役所 職員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "office",
+    "tr": "whoosh",
+    "video": [
+     "government office",
+     "office documents desk"
+    ]
+   }
+  },
+  {
+   "text": "국어원 게시판엔 '닭도리탕으로 돌리십시오' 글까지 옴.",
+   "say": "국어원 게시판엔 '닭도리탕으로 돌리십시오' 글까지 옴.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "국어원 게시판",
+      "lines": [
+       "닭볶음탕을 다시",
+       "닭도리탕으로",
+       "돌리십시오"
+      ],
+      "mark": 2
+     },
+     {
+      "type": "illust",
+      "q": [
+       "パソコン 男性",
+       "パソコン 打つ 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   }
+  },
+  {
+   "text": "볶지도 않는데 왜 볶음탕이냐는 거임.",
+   "say": "볶지도 않는데 왜 볶음탕이냐는 거임.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "鍋 料理",
+       "鍋"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍲",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "kitchen",
+    "cam": "push",
+    "video": [
+     "chicken stew pot",
+     "spicy stew pot",
+     "stew boiling"
+    ],
+    "grok": {
+     "prompt": "Close-up in a cozy Korean home kitchen, a woman in her thirties with a ponytail and a green apron lifts the lid of a bubbling red chicken stew pot, steam rises and she shrugs with a puzzled smile, soft warm light, slow zoom-in camera"
+    }
+   }
+  },
+  {
+   "text": "백종원도 토막 낸다는 옛말 '도리 치다'라며 닭도리탕 편을 듦.",
+   "say": "백종원도 토막 낸다는 옛말 '도리 치다'라며 닭도리탕 편을 듦.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "재밌는 비밀 털어놓듯 눈을 반짝이며 들뜬 목소리로",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "料理人 男性",
+       "コック 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "kitchen",
+    "video": [
+     "chicken cutting board",
+     "raw chicken kitchen"
+    ]
+   }
+  },
+  {
+   "text": "근데 국어원은 옛 기록 없인 못 바꾼다는데,",
+   "say": "근데 국어원은 옛 기록 없인 못 바꾼다는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "図書館 本棚",
+       "本棚"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📚",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "paper",
+    "tr": "whoosh",
+    "pic": [
+     "library shelves",
+     "old books"
+    ]
+   }
+  },
+  {
+   "text": "결국 '도리' 정체는 아직 아무도 모름.",
+   "say": "결국 '도리' 정체는 아직 아무도 모름.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "悩む 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "living",
+    "cam": "punch",
+    "video": [
+     "living room evening",
+     "cozy living room"
+    ]
+   }
+  },
+  {
+   "text": "34년째 닭 이름 싸움임.",
+   "say": "삼십사 년째 닭 이름 싸움임.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "にわとり",
+       "鶏"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "✨",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "field",
+    "video": [
+     "chicken farm",
+     "hens walking",
+     "rooster farm"
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "닭도리탕 부르는 한국인이 몰랐던 도리의 정체 #shorts",
+  "description": "국립국어원 기준으로 '닭도리탕'은 '닭볶음탕'으로 고쳐 써야 하는 말이다. '도리'를 일본어 '토리(새)'로 봤기 때문.\n1992년 문화부가 고쳐 쓰라고 권고했지만 볶지도 않는데 왜 볶음탕이냐, 옛말 '도리 치다'에서 왔다는 반론이 이어졌다.\n국어원은 결정적 근거가 없으면 입장을 바꾸기 어렵다고 하고, '도리'의 어원은 지금도 확실히 밝혀지지 않았다.\n\n※ AI 음성으로 제작했습니다.\n#닭도리탕 #닭볶음탕 #국립국어원 #우리말 #공감 #shorts",
+  "tags": [
+   "닭도리탕",
+   "닭볶음탕",
+   "국립국어원",
+   "순화어",
+   "도리치다",
+   "어원",
+   "우리말",
+   "공감",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=479717&_dcbest=1&page=1",
+ "facts_used": [
+  "국어원은 '도리'를 일본어 とり(鳥)로 보고 '닭볶음탕'으로 순화 — 파이낸셜뉴스 2021-02-02 https://www.fnnews.com/news/202102021655069895 , 한국일보 2016-06-01 https://www.hankookilbo.com/News/Read/201606011640492739 , 국립국어원 온라인가나다 https://www.korean.go.kr/front/mcfaq/mcfaqView.do?mn_id=217&mcfaq_seq=8750",
+  "1992년 문화부가 식생활 용어 341개 순화어 발표하며 닭볶음탕으로 고쳐 쓰도록 권고(파뉴: 1992년 11월 순화어로 실음) — 한국일보 2016-06-01 https://www.hankookilbo.com/News/Read/201606011640492739 , 파이낸셜뉴스 https://www.fnnews.com/news/202102021655069895",
+  "국어원 게시판 '참여(닭볶음탕을 다시 닭도리탕으로 돌리십시오)' 글 — https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=315227&pageIndex=1 , 같은 게시판 '닭볶음탕 명칭에대한 수정 건의' https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=&qna_seq=332617&pageIndex=1",
+  "순화 근거가 빈약하고 실제 요리(볶지 않음)와 차이가 있다는 비판 — 파이낸셜뉴스 https://www.fnnews.com/news/202102021655069895 , 위키백과 닭볶음탕 https://ko.wikipedia.org/wiki/%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95",
+  "백종원 MBC '백파더' 마지막 방송: 옛 문헌에서 잘게 토막 치는 걸 '도리 치다'라 했다며 닭도리탕이 바르다고 답함(틀릴 수 있다고 덧붙임) — 위키트리 https://www.wikitree.co.kr/articles/623906 , iMBC 연예 https://enews.imbc.com/News/ViewAmp/307492",
+  "국어원: '도리치다' 유래설은 근거 부족, 기존 입장을 바꿀 결정적 근거가 확인되지 않음 — 파이낸셜뉴스 https://www.fnnews.com/news/202102021655069895 , 국립국어원 온라인가나다 https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=73&qna_seq=319635&pageIndex=1",
+  "'도리'의 어원은 확실히 밝혀지지 않음 — 파이낸셜뉴스 https://www.fnnews.com/news/202102021655069895 , 영문 위키백과 https://en.wikipedia.org/wiki/Dak-bokkeum-tang"
+ ],
+ "brief": "레인: 우리얘기\n점수표: [선택] 닭도리탕 vs 닭볶음탕 '도리' 어원 — 내 얘기5×2=10(한국 사람 거의 전부가 둘 중 하나로 부름)+갈림5(일본어설 vs 도리치다설 vs 볶지도 않는데 볶음탕, 메뉴판마다 다름)+몰랐던 이유4(1992년 문화부 341개 순화어 권고·국어원 '결정적 근거 없으면 못 바꿈'·어원 미확정)+한 장면4(메뉴판·냄비)+대상5(닭도리탕)=28 / [후보] 김장·김포족(구글 '김치' 2000+, 비용 9% 하락 — 11/16 이미 반응 부족으로 탈락, 오늘도 원글 반응 확인 불가) / 엘리베이터 2층 이용(경고문 글 하나뿐, 이유가 되는 제도·숫자 없음) / 수능날 위급재난문자(수능 유행은 이번 주 11/14·11/15 다룸) / 야쿠르트 아줌마(11/14 다룸)\n유행: 없음 (찾아본 단어: 수능·시대인재·만점자 — 특정 개인 의혹·이번 주 수능 각도 다룸 / 김치 — 김장 비용 소식뿐, 반응 확인 못 함 / 병무청·부산광역시 — 썰감 없음). 오늘 디시 실베 '국립국어원이 왜색지우기 실패한 사례'가 발단 계기\n구조: 발단=닭도리탕은 국어원 기준으로 고쳐 써야 하는 말('도리'=일본어 토리) / 반응=국어원 게시판 '닭도리탕으로 돌리십시오'→볶지도 않는데 왜 볶음탕→백종원 '도리 치다' / 이유=1992년 문화부 순화 권고(341개 식생활 용어), 국어원 '옛 기록 같은 결정적 근거 없으면 못 바꿈' / 갈림=일본어설 vs 고유어 '도리 치다'설, 국어원도 어원은 확실히 모름 / 한 방=닭 한 마리 두고 34년째 이름 싸움\n댓글거리: 우리 집·우리 동네 식당은 뭐라고 부르는지, 닭도리탕이라고 했다가 지적받은 경험, 도리의 정체에 대한 자기 설\n첫장면: 의외 (순화어 문서 '닭도리탕 → 닭볶음탕')\n훅 3안: ①\"닭도리탕은 국어원 기준으로 고쳐 써야 하는 말임.\"(선택: 모두가 쓰는 말이 '틀린 말'이라는 의외) ②\"'도리'가 일본말 새라서 닭볶음탕이 맞다고 함.\"(이유를 먼저 다 말함) ③\"사전엔 닭도리탕 대신 닭볶음탕을 쓰라고 나옴.\"(사전 표기 근거 약함) / 글 카드 3안: \"34년째 끝나지 않은 닭도리탕 이름 싸움\"(선택, 1992→2026) · \"닭도리탕의 도리가 일본말이 아니라면\" · \"국어원도 모른다는 닭도리탕의 도리\" / 제목 3안: \"닭도리탕 부르는 한국인이 몰랐던 도리의 정체\"(선택: 집단+대상, 앞 편 '비밀'·'반전'·'진실'과 다른 꼬리) · \"결국 국어원도 모른다는 닭도리탕 도리의 진실\"('진실' 꼬리 반복) · \"34년째 이름 못 정한 닭도리탕의 비밀\"('비밀' 반복)\n이해검사: 국립국어원은 닭도리탕의 '도리'를 일본어 '새'로 보고 1992년부터 닭볶음탕으로 고쳐 쓰라고 했지만 볶지도 않는다·옛말 '도리 치다'라는 반론이 이어졌고, 국어원은 근거가 없으면 못 바꾼다며 어원은 지금도 확실하지 않아 34년째 이름 논쟁 중임\n그림대조: 완료 (순화어 문서+놀란 남자, 닭 사진만(🐔), 공무원+관공서 영상, 국어원 게시판 문서+컴퓨터 남자, 냄비+찌개 영상·grok 뚜껑 열고 어깨 으쓱, 요리사+🍗+닭 손질 영상, 책장+도서관 사진, 고민하는 여자+거실 영상, 닭 sparkle+닭 농장 영상)\n증거: 순화어 문서(닭도리탕 → 닭볶음탕), 국어원 게시판 실제 글 제목(닭볶음탕을 다시 닭도리탕으로 돌리십시오)\n주의: 일본·일본인을 깎아내리는 말은 쓰지 않음. 순화 시점은 자료마다 1992년(문화부 권고)·1997년(국어원 자료집)이 엇갈려 1992년 문화부 권고만 씀, '34년째'는 1992년 기준. 2019~2020년 질문 39건은 근거가 하나라 뺌. 해동죽지(1925) 도리탕 기록은 근거 부족해 뺌. 백종원 발언은 보도된 요지('잘게 토막 치는 걸 도리 치다라 했다')만 쓰고 본인 화면·얼굴은 쓰지 않음(cc_from 없음).\n출처: 파이낸셜뉴스 2021-02-02 https://www.fnnews.com/news/202102021655069895 / 한국일보 2016-06-01 https://www.hankookilbo.com/News/Read/201606011640492739 / 위키트리 https://www.wikitree.co.kr/articles/623906 / iMBC https://enews.imbc.com/News/ViewAmp/307492 / 국립국어원 온라인가나다·게시판 / 위키백과"
+}
