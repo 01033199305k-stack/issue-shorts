@@ -1,179 +1,65 @@
 {
- "detected_at": "2026-11-17T19:38+09:00",
+ "detected_at": "2026-11-18T09:11+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "19일 오전 8시반 ‘거부 불가능’ 위급재난문자 울린다…수능 부정행위 대책",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77422137",
-   "board": "루리웹 베스트",
-   "why": "커뮤니티 2곳 동시 화제 + 기사화(문화일보)",
-   "news": [
-    {
-     "url": "https://n.news.naver.com/article/021/0002833492",
-     "headline": "[속보]19일 오전 8시반 ‘거부 불가능’ 위급재난문자 울린다…수능 부정행위 대책"
-    }
-   ]
-  },
-  {
    "kind": "news",
-   "title": "조국, 하네다 공항서 입국 거부당해…혁신당 “日 정부 공식 사과해야”",
-   "url": "https://n.news.naver.com/article/016/0002724641",
-   "press": "헤럴드경제",
-   "why": "언론사 7곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "한겨레",
-     "title": "조국, 일본 공항서 입국 거부당해…‘징역 2년’ 전력 문제 삼았나?",
-     "url": "https://n.news.naver.com/article/028/0002832592"
-    },
-    {
-     "press": "매일경제",
-     "title": "조국, 일본 도착하자 입국 거부…혁신당 “일본 정부 사과해야”",
-     "url": "https://n.news.naver.com/article/009/0005765021"
-    },
-    {
-     "press": "동아일보",
-     "title": "조국, 日공항서 입국 거부당해…학술대회 등 일정 무산",
-     "url": "https://n.news.naver.com/article/020/0003763091"
-    },
-    {
-     "press": "뉴스1",
-     "title": "조국, 日공항서 입국 거부당했다…혁신당 \"독도 방문 때문 추정\"(종합2보)",
-     "url": "https://n.news.naver.com/article/421/0009294352"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[단독] '아세안 순방' 이 대통령, AI 부정행위 대응 긴급 화상회의 예정",
-   "url": "https://n.news.naver.com/article/055/0001403670",
-   "press": "SBS",
+   "title": "李대통령, 수능 재난문자 우려에 \"방해받은 시간만큼 연장 검토 지시\"",
+   "url": "https://n.news.naver.com/article/014/0005605814",
+   "press": "파이낸셜뉴스",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "세계일보",
-     "title": "李 대통령, 아세안 순방 현지서 ‘수능 AI 커닝 사태 비상점검’ 화상회의 연다",
-     "url": "https://n.news.naver.com/article/022/0004175916"
+     "press": "연합뉴스",
+     "title": "李대통령 \"수능中 재난문자로 시험방해시 그만큼 시간연장 검토\"",
+     "url": "https://n.news.naver.com/article/001/0016447910"
     },
     {
-     "press": "서울경제",
-     "title": "李대통령, 필리핀서 수능 비상 점검회의…AI 부정행위 대응",
-     "url": "https://n.news.naver.com/article/011/0004683177"
+     "press": "서울신문",
+     "title": "[속보] 李대통령 “재난문자로 수능 방해받으면 그만큼 시간 연장 검토”",
+     "url": "https://n.news.naver.com/article/081/0003700568"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "이 대통령, 필리핀 현지서 ‘수능시험 비상 점검회의’ 주재",
-   "url": "https://n.news.naver.com/article/056/0012295584",
-   "press": "KBS",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "title": "李대통령 “수능 부정 신고 건당 1억 이상 포상”…재난문자 불시 발송",
+   "url": "https://n.news.naver.com/article/011/0004683346",
+   "press": "서울경제",
+   "why": "언론사 8곳이 댓글 많은 기사 1위로",
    "related": [
-    {
-     "press": "YTN",
-     "title": "[속보] 이 대통령, 오늘 저녁 필리핀서 화상으로 수능 비상 점검회의 주재",
-     "url": "https://n.news.naver.com/article/052/0002434101"
-    },
-    {
-     "press": "채널A",
-     "title": "이 대통령, 오늘 필리핀서 ‘수능 비상 점검회의’ 화상 주재",
-     "url": "https://n.news.naver.com/article/449/0000367796"
-    },
-    {
-     "press": "세계일보",
-     "title": "李 대통령, 아세안 순방 현지서 ‘수능 AI 커닝 사태 비상점검’ 화상회의 연다",
-     "url": "https://n.news.naver.com/article/022/0004175916"
-    },
-    {
-     "press": "서울경제",
-     "title": "李대통령, 필리핀서 수능 비상 점검회의…AI 부정행위 대응",
-     "url": "https://n.news.naver.com/article/011/0004683177"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보]한성숙 “수능 시작 전 재난문자 발송해 휴대폰 적발···옷 단추마다 스티커 부착”",
-   "url": "https://n.news.naver.com/article/032/0003483183",
-   "press": "경향신문",
-   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "국민일보",
-     "title": "“단추마다 스티커 부착, 안경 전수점검” 수능 이틀 전 나온 정부 대책",
-     "url": "https://n.news.naver.com/article/005/0001885671"
-    },
     {
      "press": "JTBC",
-     "title": "수능 전 재난 문자로 휴대전화 적발…옷 단추마다 스티커 붙인다",
-     "url": "https://n.news.naver.com/article/437/0000521104"
+     "title": "이 대통령 \"수능 부정 신고, 포상금 1억\" 수능 비상점검회의",
+     "url": "https://n.news.naver.com/article/437/0000521210"
     },
     {
-     "press": "뉴시스",
-     "title": "韓총리 \"수능 시작 전 옷 단추마다 스티커로 가려…1교시 전 안경 전수조사\"(종합)",
-     "url": "https://n.news.naver.com/article/003/0014328022"
+     "press": "한국경제",
+     "title": "이 대통령 \"수능 부정행위자 무관용 대응…신고 땐 1억 포상금\"",
+     "url": "https://n.news.naver.com/article/015/0005355020"
+    },
+    {
+     "press": "YTN",
+     "title": "이 대통령, 필리핀서 수능 긴급점검...\"부정신고 1억 포상 검토\"",
+     "url": "https://n.news.naver.com/article/052/0002434254"
+    },
+    {
+     "press": "TV조선",
+     "title": "李 \"수능 AI 커닝 신고 시 건당 1억 포상…가담자 처벌 감면도 추진\"",
+     "url": "https://n.news.naver.com/article/448/0000651680"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]'오천피'도 깨졌다…코스피 9개월여 만에 최저",
-   "url": "https://n.news.naver.com/article/018/0006411202",
-   "press": "이데일리",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 코스피 5천선 다시 붕괴…4968.48 마감",
-   "url": "https://n.news.naver.com/article/079/0004210725",
-   "press": "노컷뉴스",
+   "title": "[속보] 젠슨 황 복귀 의사 밝혔지만…엔비디아 이사회 \"재선임 뜻 없어\"",
+   "url": "https://n.news.naver.com/article/654/0000211928",
+   "press": "강원도민일보",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스TV",
-     "title": "'5천피'마저 붕괴…코스피, 2.59% 하락 마감",
-     "url": "https://n.news.naver.com/article/422/0000927035"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 안철수 \"세무사 시험 1차 과목 90점 이상 득점자, 올해 66명…정부, 수법 공개해야\"",
-   "url": "https://n.news.naver.com/article/655/0000033608",
-   "press": "CJB청주방송",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 대구 수성구 횡단보도서 40대 어머니·5세 아들 승용차에 치여 숨져",
-   "url": "https://n.news.naver.com/article/082/0001407553",
-   "press": "부산일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "조국 전 대표, 日서 입국 거부당해… '과거 독도 방문' 문제 됐나",
-   "url": "https://n.news.naver.com/article/469/0000966047",
-   "press": "한국일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "한겨레",
-     "title": "조국, 일본 공항서 입국 거부당해…‘징역 2년’ 전력 문제 삼았나?",
-     "url": "https://n.news.naver.com/article/028/0002832592"
-    },
-    {
-     "press": "동아일보",
-     "title": "조국, 日공항서 입국 거부당해…학술대회 등 일정 무산",
-     "url": "https://n.news.naver.com/article/020/0003763091"
-    },
-    {
-     "press": "뉴스1",
-     "title": "조국, 日공항서 입국 거부당했다…혁신당 \"독도 방문 때문 추정\"(종합2보)",
-     "url": "https://n.news.naver.com/article/421/0009294352"
+     "press": "비즈워치",
+     "title": "엔비디아 또 깜짝실적… 이사회 \"젠슨 황 복귀는 없다\"",
+     "url": "https://n.news.naver.com/article/648/0000052729"
     }
    ]
   }
