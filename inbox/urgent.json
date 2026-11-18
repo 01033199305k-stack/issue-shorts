@@ -1,97 +1,79 @@
 {
- "detected_at": "2026-11-18T15:12+09:00",
+ "detected_at": "2026-11-18T19:41+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "[세갤] [단독] 시대인재, 이진우와 계약해지 결정",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=479767&_dcbest=1&page=1",
-   "board": "디시 실베",
-   "why": "커뮤니티 2곳 동시 화제 + 기사화(뉴시스)",
-   "news": [
-    {
-     "url": "https://n.news.naver.com/article/003/0014329342",
-     "headline": "[단독]시대인재, '리트 만점자' 이진우와 계약 해지 결정"
-    }
-   ]
-  },
-  {
    "kind": "news",
-   "title": "李대통령-시진핑, 中 선전서 정상회담 시작",
-   "url": "https://n.news.naver.com/article/374/0000544455",
-   "press": "SBS Biz",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "SBS",
-     "title": "이 대통령-시진핑, 선전서 세 번째 정상회담…34분 대좌",
-     "url": "https://n.news.naver.com/article/055/0001403913"
-    },
-    {
-     "press": "국민일보",
-     "title": "이 대통령, 시진핑과 34분 정상회담…“한반도 평화, 韓中 공동이익”",
-     "url": "https://n.news.naver.com/article/005/0001885894"
-    },
-    {
-     "press": "KBS",
-     "title": "이 대통령, 중국 선전서 시진핑 주석과 정상회담…34분간 진행",
-     "url": "https://n.news.naver.com/article/056/0012296280"
-    },
-    {
-     "press": "대전일보",
-     "title": "이 대통령 \"한반도 평화와 안정은 韓中 양국의 공동이익\"… 시진핑 주석 회담",
-     "url": "https://n.news.naver.com/article/656/0000192781"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "'차기 적합도' 오세훈 17.9% 선두…장동혁·한동훈·김민석 오차범위 내 추격",
-   "url": "https://n.news.naver.com/article/421/0009295671",
+   "title": "장인상 마친 한동훈 \"추경호 무죄는 당연…특검, 무리한 수사·기소 탓\"",
+   "url": "https://n.news.naver.com/article/421/0009296761",
    "press": "뉴스1",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "이데일리",
-     "title": "차기 대선판 오세훈·장동혁·한동훈 '3강 구도'...김민석은 10% 턱걸이[여론 뒤집기]",
-     "url": "https://n.news.naver.com/article/018/0006411734"
+     "press": "국민일보",
+     "title": "추경호 1심 무죄에 장동혁 “이런 게 조작 기소”",
+     "url": "https://n.news.naver.com/article/005/0001885936"
     },
     {
-     "press": "TV조선",
-     "title": "차기 대통령감? 오세훈17.9%·장동혁13.8%·한동훈13.3%·김민석10%",
-     "url": "https://n.news.naver.com/article/448/0000651704"
+     "press": "디지털타임스",
+     "title": "‘계엄해제 표결 방해’ 진술거부 한동훈 “추경호 무죄 환영…특검 수사·기소가 무리”",
+     "url": "https://n.news.naver.com/article/029/0003059891"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] '계엄 해제 방해' 혐의 추경호, 1심 '무죄'",
-   "url": "https://n.news.naver.com/article/214/0001536395",
-   "press": "MBC",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "李대통령 \"세상 조금씩 바꾸며 행복…욕먹어도 그 재미로 일해\"",
+   "url": "https://n.news.naver.com/article/001/0016449214",
+   "press": "연합뉴스",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "한겨레",
-     "title": "[속보] 추경호 ‘계엄해제 방해’ 1심 무죄…시장직 상실형 피해",
-     "url": "https://n.news.naver.com/article/028/0002832778"
+     "press": "중앙일보",
+     "title": "李대통령 “온갖 욕 먹어도, 국민 행복 보는 재미로 일한다”",
+     "url": "https://n.news.naver.com/article/025/0003566146"
     },
     {
-     "press": "kbc광주방송",
-     "title": "[속보]'계엄 해제 표결 방해' 추경호 1심 무죄…특검, 징역 20년 구형",
-     "url": "https://n.news.naver.com/article/660/0000121660"
+     "press": "YTN",
+     "title": "이 대통령 \"세상 조금씩 바꿀 때 행복...욕 먹어도 그 재미로 일해\"",
+     "url": "https://n.news.naver.com/article/052/0002434649"
+    },
+    {
+     "press": "매일신문",
+     "title": "李대통령 \"욕 얻어먹어도 사람들 행복 보는 재미로 일해\"",
+     "url": "https://n.news.naver.com/article/088/0001041097"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 이혜훈 '부정 청약' 로또 아파트, 계약 취소되나",
-   "url": "https://n.news.naver.com/article/002/0002466377",
-   "press": "프레시안",
+   "title": "李 “온갖 욕 먹어도, 국민 행복보는 재미로 일한다”",
+   "url": "https://n.news.naver.com/article/023/0004010347",
+   "press": "조선일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "중앙일보",
+     "title": "李대통령 “온갖 욕 먹어도, 국민 행복 보는 재미로 일한다”",
+     "url": "https://n.news.naver.com/article/025/0003566146"
+    },
+    {
+     "press": "매일신문",
+     "title": "李대통령 \"욕 얻어먹어도 사람들 행복 보는 재미로 일해\"",
+     "url": "https://n.news.naver.com/article/088/0001041097"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] \"19일 수능 미뤄달라\"…법원, 수험생 집행정지 신청 기각",
+   "url": "https://n.news.naver.com/article/654/0000212032",
+   "press": "강원도민일보",
    "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "헤럴드경제",
-     "title": "이혜훈 ‘부정 청약’ 40억 로또아파트, 취소?…국토부, 분양계약 취소 ‘공문’ 보내",
-     "url": "https://n.news.naver.com/article/016/0002725141"
+     "press": "서울경제",
+     "title": "수능 D-1…법원, ‘수능 연기해달라’ 수험생 집행정지 기각",
+     "url": "https://n.news.naver.com/article/011/0004683632"
     }
    ]
   }
