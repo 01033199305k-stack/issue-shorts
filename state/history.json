@@ -8618,5 +8618,72 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-18_1200_resident-number-region-code/video.mp4"
   },
   "seconds": 1375
+ },
+ {
+  "key": "2026-11-18-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-18T18:00:00+09:00",
+  "started": "2026-11-18T15:43:22.868552+09:00",
+  "sound_qa": {
+   "lufs": -14.3,
+   "true_peak": -1.4,
+   "lra": 2.5,
+   "cuts": 18,
+   "cut_hit_100ms": 1.0,
+   "cuts_without_sound": [],
+   "issues": []
+  },
+  "stock_clips": [
+   "https://pixabay.com/videos/id-150527/",
+   "https://pixabay.com/videos/id-210336/",
+   "https://pixabay.com/videos/id-173134/",
+   "https://pixabay.com/photos/books-library-read-shelves-shelf-1617327/",
+   "https://pixabay.com/videos/id-167688/",
+   "https://pixabay.com/videos/id-238827/"
+  ],
+  "cc_clips": [],
+  "duration": 24.36,
+  "matches": [
+   0.94,
+   0.91,
+   0.91,
+   0.98,
+   0.98,
+   0.97,
+   0.93,
+   0.95,
+   0.95,
+   1.0
+  ],
+  "sfx": 9,
+  "illustrations": 6,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "닭도리탕 부르는 한국인이 몰랐던 도리의 정체 #shorts",
+  "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=479717&_dcbest=1&page=1",
+  "facts_used": [
+   "국어원은 '도리'를 일본어 とり(鳥)로 보고 '닭볶음탕'으로 순화 — 파이낸셜뉴스 2021-02-02 https://www.fnnews.com/news/202102021655069895 , 한국일보 2016-06-01 https://www.hankookilbo.com/News/Read/201606011640492739 , 국립국어원 온라인가나다 https://www.korean.go.kr/front/mcfaq/mcfaqView.do?mn_id=217&mcfaq_seq=8750",
+   "1992년 문화부가 식생활 용어 341개 순화어 발표하며 닭볶음탕으로 고쳐 쓰도록 권고(파뉴: 1992년 11월 순화어로 실음) — 한국일보 2016-06-01 https://www.hankookilbo.com/News/Read/201606011640492739 , 파이낸셜뉴스 https://www.fnnews.com/news/202102021655069895",
+   "국어원 게시판 '참여(닭볶음탕을 다시 닭도리탕으로 돌리십시오)' 글 — https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=216&qna_seq=315227&pageIndex=1 , 같은 게시판 '닭볶음탕 명칭에대한 수정 건의' https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=&qna_seq=332617&pageIndex=1",
+   "순화 근거가 빈약하고 실제 요리(볶지 않음)와 차이가 있다는 비판 — 파이낸셜뉴스 https://www.fnnews.com/news/202102021655069895 , 위키백과 닭볶음탕 https://ko.wikipedia.org/wiki/%EB%8B%AD%EB%B3%B6%EC%9D%8C%ED%83%95",
+   "백종원 MBC '백파더' 마지막 방송: 옛 문헌에서 잘게 토막 치는 걸 '도리 치다'라 했다며 닭도리탕이 바르다고 답함(틀릴 수 있다고 덧붙임) — 위키트리 https://www.wikitree.co.kr/articles/623906 , iMBC 연예 https://enews.imbc.com/News/ViewAmp/307492",
+   "국어원: '도리치다' 유래설은 근거 부족, 기존 입장을 바꿀 결정적 근거가 확인되지 않음 — 파이낸셜뉴스 https://www.fnnews.com/news/202102021655069895 , 국립국어원 온라인가나다 https://www.korean.go.kr/front/onlineQna/onlineQnaView.do?mn_id=73&qna_seq=319635&pageIndex=1",
+   "'도리'의 어원은 확실히 밝혀지지 않음 — 파이낸셜뉴스 https://www.fnnews.com/news/202102021655069895 , 영문 위키백과 https://en.wikipedia.org/wiki/Dak-bokkeum-tang"
+  ],
+  "slug": "2026-11-18_1800_dakdoritang-name-origin",
+  "late": false,
+  "video_id": "DqsupfXHW0c",
+  "url": "https://youtube.com/shorts/DqsupfXHW0c",
+  "privacy": "private",
+  "scheduled_for": "2026-11-18T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6afd4e7dfac81418136bd482",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-18T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-18_1800_dakdoritang-name-origin/video.mp4"
+  },
+  "seconds": 1396
  }
 ]
