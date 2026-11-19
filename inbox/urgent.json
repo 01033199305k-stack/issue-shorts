@@ -1,121 +1,188 @@
 {
- "detected_at": "2026-11-19T10:28+09:00",
+ "detected_at": "2026-11-19T18:28+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "'리트 만점' 이진우... 실종 신고, 경찰 아차산 일대 수색중",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77442762",
-   "board": "루리웹 베스트",
-   "why": "커뮤니티 3곳 동시 화제",
-   "news": []
+   "kind": "news",
+   "title": "[속보]“용인 모 수능 시험장서 소형카메라·이어폰 발견”",
+   "url": "https://n.news.naver.com/article/021/0002834060",
+   "press": "문화일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "YTN",
+     "title": "[속보] 경기도 용인 수능 시험장에서 초소형카메라 발견",
+     "url": "https://n.news.naver.com/article/052/0002435143"
+    }
+   ]
   },
   {
    "kind": "news",
-   "title": "이 대통령, 조작기소 특검법 재가…공포 즉시 시행",
-   "url": "https://n.news.naver.com/article/056/0012296921",
-   "press": "KBS",
-   "why": "언론사 13곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 대법원, ‘내란 중요 임무 종사’ 혐의 한덕수 사건 파기환송",
+   "url": "https://n.news.naver.com/article/028/0002833047",
+   "press": "한겨레",
+   "why": "[속보] 기사 + 언론사 5곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "JTBC",
-     "title": "이 대통령, 조작기소 특검법 재가…공포 즉시 시행",
-     "url": "https://n.news.naver.com/article/437/0000521398"
+     "press": "KBS",
+     "title": "대법, 한덕수 내란 혐의 일부 무죄로 파기환송",
+     "url": "https://n.news.naver.com/article/056/0012297359"
     },
     {
-     "press": "한겨레",
-     "title": "[속보] 이 대통령, 순방 중 ‘조작기소 특검법’ 재가",
-     "url": "https://n.news.naver.com/article/028/0002832926"
-    },
-    {
-     "press": "한국일보",
-     "title": "이 대통령, 순방 중 조작기소 특검 재가·공포... 즉시 시행",
-     "url": "https://n.news.naver.com/article/469/0000966467"
+     "press": "헤럴드경제",
+     "title": "대법, 한덕수 ‘내란중요임무 종사’ 파기환송…구속 상태는 유지[세상&]",
+     "url": "https://n.news.naver.com/article/016/0002725875"
     },
     {
      "press": "중앙일보",
-     "title": "李대통령, 중국 순방 중 ‘조작기소 특검법’ 재가…공포 즉시 시행",
-     "url": "https://n.news.naver.com/article/025/0003566344"
+     "title": "대법, 한덕수 내란 사건 파기환송…혐의 일부 무죄 취지",
+     "url": "https://n.news.naver.com/article/025/0003566480"
+    },
+    {
+     "press": "매일경제",
+     "title": "[속보] 대법, 한덕수 혐의 중 일부 무죄 취지로 파기환송",
+     "url": "https://n.news.naver.com/article/009/0005766303"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 리트 만점자, 공개검증 약속시간 도착안해…\"폰 꺼져있어\"",
-   "url": "https://n.news.naver.com/article/014/0005606539",
-   "press": "파이낸셜뉴스",
-   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "한덕수 징역 15년 파기환송…“계엄 전 내란 가담 인정 어려워”",
+   "url": "https://n.news.naver.com/article/005/0001886252",
+   "press": "국민일보",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "MBC",
-     "title": "'리트 만점자' 공개검증 불참·연락두절‥주최측 \"경찰에도 협조 요청\"",
-     "url": "https://n.news.naver.com/article/214/0001536573"
+     "press": "KBS",
+     "title": "대법, 한덕수 내란 혐의 일부 무죄로 파기환송",
+     "url": "https://n.news.naver.com/article/056/0012297359"
     },
     {
-     "press": "뉴스1",
-     "title": "'리트 만점자' 수능 공개검증 약속시간 도착 안 해…\"폰 꺼지고 카톡 안 봐\"",
-     "url": "https://n.news.naver.com/article/421/0009297773"
+     "press": "강원도민일보",
+     "title": "[속보] 대법, 한덕수 징역 15년 판결 일부 무죄취지 파기환송",
+     "url": "https://n.news.naver.com/article/654/0000212294"
+    },
+    {
+     "press": "한국일보",
+     "title": "한덕수 징역 23년→15년→파기환송, 왜?… 김건희는 징역 4년 확정",
+     "url": "https://n.news.naver.com/article/469/0000966601"
+    },
+    {
+     "press": "노컷뉴스",
+     "title": "[속보] 대법, 한덕수 계엄 전 국무회의 '무죄 취지'로 파기환송",
+     "url": "https://n.news.naver.com/article/079/0004211808"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "대법, 김건희 '3대 의혹' 징역 4년 확정…한덕수 일부 무죄 취지 파기환송·구속 2개월 연장",
+   "url": "https://n.news.naver.com/article/437/0000521512",
+   "press": "JTBC",
+   "why": "언론사 10곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "KBS",
+     "title": "대법, 한덕수 내란 혐의 일부 무죄로 파기환송",
+     "url": "https://n.news.naver.com/article/056/0012297359"
+    },
+    {
+     "press": "헤럴드경제",
+     "title": "대법, 한덕수 ‘내란중요임무 종사’ 파기환송…구속 상태는 유지[세상&]",
+     "url": "https://n.news.naver.com/article/016/0002725875"
+    },
+    {
+     "press": "중앙일보",
+     "title": "대법, 한덕수 내란 사건 파기환송…혐의 일부 무죄 취지",
+     "url": "https://n.news.naver.com/article/025/0003566480"
+    },
+    {
+     "press": "연합뉴스",
+     "title": "[2보] 대법, 한덕수 일부 무죄 취지 파기환송…구속 유지",
+     "url": "https://n.news.naver.com/article/001/0016452884"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "‘리트 만점자’ 숨진채 발견... 유서엔 “몸과 마음 지쳤다”",
+   "url": "https://n.news.naver.com/article/023/0004010551",
+   "press": "조선일보",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "SBS",
+     "title": "'리트 만점자' 이진우, 모텔서 심정지로 발견…유서 추정 메모엔",
+     "url": "https://n.news.naver.com/article/055/0001404267"
     },
     {
      "press": "강원일보",
-     "title": "[속보] 리트 만점자 이진우씨, 공개검증 장소에 나타나지 않아…휴대전화 어제부터 꺼져 있는 상태",
+     "title": "[속보]리트 만점자 이진우씨, 천호동 모텔서 숨진 채 발견…수능 공개검증 장소에 나타나지 않고 휴대전화 OFF",
      "url": "https://n.news.naver.com/article/087/0001231914"
+    },
+    {
+     "press": "연합뉴스TV",
+     "title": "잠적했던 '리트 만점자' 사망…\"몸과 마음 지쳐\" 메모",
+     "url": "https://n.news.naver.com/article/422/0000927856"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] “수능 생중계” 리트 만점 이진우, 현장 안 나타나…주최 측 ‘검증 중단’",
-   "url": "https://n.news.naver.com/article/009/0005765930",
-   "press": "매일경제",
+   "title": "[속보] 대법 \"김건희 '명태균 여론조사' 2심 무죄판단 정당\"",
+   "url": "https://n.news.naver.com/article/015/0005355909",
+   "press": "한국경제",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "대법 \"계엄 선포 전 한덕수 국헌문란 목적 증명됐나‥전후 행위 별개로 판단해야\"",
+   "url": "https://n.news.naver.com/article/214/0001536721",
+   "press": "MBC",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "노컷뉴스",
+     "title": "[속보] 대법, 한덕수 계엄 전 국무회의 '무죄 취지'로 파기환송",
+     "url": "https://n.news.naver.com/article/079/0004211808"
+    },
+    {
+     "press": "시사저널",
+     "title": "[속보] 대법 \"한덕수, 온건하게나마 계엄 반대 표명\"",
+     "url": "https://n.news.naver.com/article/586/0000142650"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]대법원 “한덕수 국무회의 건의는 국헌문란 목적 인정 어려워”",
+   "url": "https://n.news.naver.com/article/032/0003483780",
+   "press": "경향신문",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "미디어오늘",
+     "title": "[속보] 조희대 대법원, 한덕수 내란혐의 파기환송 \"국헌문란 목적 엄격 증명돼야\"",
+     "url": "https://n.news.naver.com/article/006/0000138838"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] '리트 만점자' 사망 판정…관련 사건 '공소권 없음' 종결 수순",
+   "url": "https://n.news.naver.com/article/057/0001978933",
+   "press": "MBN",
    "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "조선비즈",
-     "title": "‘리트 만점자’ 이진우씨, 공개 검증 현장 안 나타나… 휴대전화도 꺼둬",
-     "url": "https://n.news.naver.com/article/366/0001205828"
+     "press": "세계일보",
+     "title": "LEET 만점자 사망에 ‘공소권 없음’ 수사 종결 수순",
+     "url": "https://n.news.naver.com/article/022/0004176505"
     },
     {
-     "press": "강원일보",
-     "title": "[속보] 리트 만점자 이진우씨, 공개검증 장소에 나타나지 않아…휴대전화 어제부터 꺼져 있는 상태",
-     "url": "https://n.news.naver.com/article/087/0001231914"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "‘리트 만점’ 이진우씨, 생중계 불참·연락두절… “휴대전화 꺼져 있어”",
-   "url": "https://n.news.naver.com/article/081/0003700999",
-   "press": "서울신문",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "조선비즈",
-     "title": "‘리트 만점자’ 이진우씨, 공개 검증 현장 안 나타나… 휴대전화도 꺼둬",
-     "url": "https://n.news.naver.com/article/366/0001205828"
-    },
-    {
-     "press": "강원일보",
-     "title": "[속보] 리트 만점자 이진우씨, 공개검증 장소에 나타나지 않아…휴대전화 어제부터 꺼져 있는 상태",
-     "url": "https://n.news.naver.com/article/087/0001231914"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "리트 만점자, 공개 검증 받겠다더니 결국 '노쇼'…어제부터 연락두절",
-   "url": "https://n.news.naver.com/article/082/0001407933",
-   "press": "부산일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "국민일보",
-     "title": "리트 만점자, ‘생중계 검증’ 노쇼…“어제부터 연락 안돼”",
-     "url": "https://n.news.naver.com/article/005/0001886117"
-    },
-    {
-     "press": "조선비즈",
-     "title": "‘리트 만점자’ 이진우씨, 공개 검증 현장 안 나타나… 휴대전화도 꺼둬",
-     "url": "https://n.news.naver.com/article/366/0001205828"
+     "press": "연합뉴스TV",
+     "title": "잠적했던 '리트 만점자' 사망…\"몸과 마음 지쳐\" 메모",
+     "url": "https://n.news.naver.com/article/422/0000927856"
     }
    ]
   }
