@@ -1,79 +1,121 @@
 {
- "detected_at": "2026-11-18T19:41+09:00",
+ "detected_at": "2026-11-19T10:28+09:00",
  "candidates": [
   {
+   "kind": "community",
+   "title": "'리트 만점' 이진우... 실종 신고, 경찰 아차산 일대 수색중",
+   "url": "https://bbs.ruliweb.com/best/board/300143/read/77442762",
+   "board": "루리웹 베스트",
+   "why": "커뮤니티 3곳 동시 화제",
+   "news": []
+  },
+  {
    "kind": "news",
-   "title": "장인상 마친 한동훈 \"추경호 무죄는 당연…특검, 무리한 수사·기소 탓\"",
-   "url": "https://n.news.naver.com/article/421/0009296761",
-   "press": "뉴스1",
+   "title": "이 대통령, 조작기소 특검법 재가…공포 즉시 시행",
+   "url": "https://n.news.naver.com/article/056/0012296921",
+   "press": "KBS",
+   "why": "언론사 13곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "JTBC",
+     "title": "이 대통령, 조작기소 특검법 재가…공포 즉시 시행",
+     "url": "https://n.news.naver.com/article/437/0000521398"
+    },
+    {
+     "press": "한겨레",
+     "title": "[속보] 이 대통령, 순방 중 ‘조작기소 특검법’ 재가",
+     "url": "https://n.news.naver.com/article/028/0002832926"
+    },
+    {
+     "press": "한국일보",
+     "title": "이 대통령, 순방 중 조작기소 특검 재가·공포... 즉시 시행",
+     "url": "https://n.news.naver.com/article/469/0000966467"
+    },
+    {
+     "press": "중앙일보",
+     "title": "李대통령, 중국 순방 중 ‘조작기소 특검법’ 재가…공포 즉시 시행",
+     "url": "https://n.news.naver.com/article/025/0003566344"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 리트 만점자, 공개검증 약속시간 도착안해…\"폰 꺼져있어\"",
+   "url": "https://n.news.naver.com/article/014/0005606539",
+   "press": "파이낸셜뉴스",
+   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "MBC",
+     "title": "'리트 만점자' 공개검증 불참·연락두절‥주최측 \"경찰에도 협조 요청\"",
+     "url": "https://n.news.naver.com/article/214/0001536573"
+    },
+    {
+     "press": "뉴스1",
+     "title": "'리트 만점자' 수능 공개검증 약속시간 도착 안 해…\"폰 꺼지고 카톡 안 봐\"",
+     "url": "https://n.news.naver.com/article/421/0009297773"
+    },
+    {
+     "press": "강원일보",
+     "title": "[속보] 리트 만점자 이진우씨, 공개검증 장소에 나타나지 않아…휴대전화 어제부터 꺼져 있는 상태",
+     "url": "https://n.news.naver.com/article/087/0001231914"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] “수능 생중계” 리트 만점 이진우, 현장 안 나타나…주최 측 ‘검증 중단’",
+   "url": "https://n.news.naver.com/article/009/0005765930",
+   "press": "매일경제",
+   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선비즈",
+     "title": "‘리트 만점자’ 이진우씨, 공개 검증 현장 안 나타나… 휴대전화도 꺼둬",
+     "url": "https://n.news.naver.com/article/366/0001205828"
+    },
+    {
+     "press": "강원일보",
+     "title": "[속보] 리트 만점자 이진우씨, 공개검증 장소에 나타나지 않아…휴대전화 어제부터 꺼져 있는 상태",
+     "url": "https://n.news.naver.com/article/087/0001231914"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "‘리트 만점’ 이진우씨, 생중계 불참·연락두절… “휴대전화 꺼져 있어”",
+   "url": "https://n.news.naver.com/article/081/0003700999",
+   "press": "서울신문",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "조선비즈",
+     "title": "‘리트 만점자’ 이진우씨, 공개 검증 현장 안 나타나… 휴대전화도 꺼둬",
+     "url": "https://n.news.naver.com/article/366/0001205828"
+    },
+    {
+     "press": "강원일보",
+     "title": "[속보] 리트 만점자 이진우씨, 공개검증 장소에 나타나지 않아…휴대전화 어제부터 꺼져 있는 상태",
+     "url": "https://n.news.naver.com/article/087/0001231914"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "리트 만점자, 공개 검증 받겠다더니 결국 '노쇼'…어제부터 연락두절",
+   "url": "https://n.news.naver.com/article/082/0001407933",
+   "press": "부산일보",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
      "press": "국민일보",
-     "title": "추경호 1심 무죄에 장동혁 “이런 게 조작 기소”",
-     "url": "https://n.news.naver.com/article/005/0001885936"
+     "title": "리트 만점자, ‘생중계 검증’ 노쇼…“어제부터 연락 안돼”",
+     "url": "https://n.news.naver.com/article/005/0001886117"
     },
     {
-     "press": "디지털타임스",
-     "title": "‘계엄해제 표결 방해’ 진술거부 한동훈 “추경호 무죄 환영…특검 수사·기소가 무리”",
-     "url": "https://n.news.naver.com/article/029/0003059891"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "李대통령 \"세상 조금씩 바꾸며 행복…욕먹어도 그 재미로 일해\"",
-   "url": "https://n.news.naver.com/article/001/0016449214",
-   "press": "연합뉴스",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "중앙일보",
-     "title": "李대통령 “온갖 욕 먹어도, 국민 행복 보는 재미로 일한다”",
-     "url": "https://n.news.naver.com/article/025/0003566146"
-    },
-    {
-     "press": "YTN",
-     "title": "이 대통령 \"세상 조금씩 바꿀 때 행복...욕 먹어도 그 재미로 일해\"",
-     "url": "https://n.news.naver.com/article/052/0002434649"
-    },
-    {
-     "press": "매일신문",
-     "title": "李대통령 \"욕 얻어먹어도 사람들 행복 보는 재미로 일해\"",
-     "url": "https://n.news.naver.com/article/088/0001041097"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "李 “온갖 욕 먹어도, 국민 행복보는 재미로 일한다”",
-   "url": "https://n.news.naver.com/article/023/0004010347",
-   "press": "조선일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "중앙일보",
-     "title": "李대통령 “온갖 욕 먹어도, 국민 행복 보는 재미로 일한다”",
-     "url": "https://n.news.naver.com/article/025/0003566146"
-    },
-    {
-     "press": "매일신문",
-     "title": "李대통령 \"욕 얻어먹어도 사람들 행복 보는 재미로 일해\"",
-     "url": "https://n.news.naver.com/article/088/0001041097"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] \"19일 수능 미뤄달라\"…법원, 수험생 집행정지 신청 기각",
-   "url": "https://n.news.naver.com/article/654/0000212032",
-   "press": "강원도민일보",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "서울경제",
-     "title": "수능 D-1…법원, ‘수능 연기해달라’ 수험생 집행정지 기각",
-     "url": "https://n.news.naver.com/article/011/0004683632"
+     "press": "조선비즈",
+     "title": "‘리트 만점자’ 이진우씨, 공개 검증 현장 안 나타나… 휴대전화도 꺼둬",
+     "url": "https://n.news.naver.com/article/366/0001205828"
     }
    ]
   }
