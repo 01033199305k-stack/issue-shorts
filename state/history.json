@@ -8750,5 +8750,78 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-19_0700_one-star-regular-raw-fish-shop/video.mp4"
   },
   "seconds": 2126
+ },
+ {
+  "key": "2026-11-20-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-20T07:00:00+09:00",
+  "started": "2026-11-20T04:29:00.380011+09:00",
+  "sound_qa": {
+   "lufs": -14.4,
+   "true_peak": -1.3,
+   "lra": 4.1,
+   "cuts": 20,
+   "cut_hit_100ms": 0.8,
+   "cuts_without_sound": [
+    2.567,
+    22.633,
+    28.7
+   ],
+   "issues": []
+  },
+  "stock_clips": [
+   "https://pixabay.com/videos/id-202987/",
+   "https://pixabay.com/videos/id-105764/",
+   "https://pixabay.com/photos/homework-school-problem-number-2521144/",
+   "https://pixabay.com/videos/id-215475/",
+   "https://pixabay.com/photos/feet-sneakers-shoes-pedestrians-7181596/",
+   "https://pixabay.com/videos/id-15641/",
+   "https://pixabay.com/videos/id-43731/"
+  ],
+  "cc_clips": [],
+  "duration": 28.83,
+  "matches": [
+   0.97,
+   0.98,
+   0.95,
+   0.95,
+   0.98,
+   0.98,
+   0.94,
+   1.0,
+   0.98,
+   0.98,
+   1.0
+  ],
+  "sfx": 10,
+  "illustrations": 8,
+  "cuts": 11,
+  "layout_issues": [],
+  "caption_breaks": [
+   "수능 / 사상 (55)"
+  ],
+  "title": "수능장 재난경보에 걸린 스마트폰 22대 #shorts",
+  "source_post": "https://www.ytn.co.kr/_ln/0103_202611191229234344",
+  "facts_used": [
+   "11/19 수능 오전 8시 30분 위급재난문자 발송 뒤 오전 10시 기준 9개 시도에서 스마트폰 22대 적발, 스마트폰 외 첨단기기 사례는 없음(교육부 차관) — YTN 2026-11-19 https://www.ytn.co.kr/_ln/0103_202611191229234344 , 파이낸셜뉴스 2026-11-19 https://www.fnnews.com/news/202611191135010026 , 서플 https://supple.kr/news/cmwmzsao18atv3msxh900rudo",
+   "AI 활용 부정행위를 막으려고 수능 사상 처음 위급재난문자 사용, 무음·진동이어도 최대 음량 10.5초, 수신 거부 불가 — 서플(종합2보) https://supple.kr/news/cmwn6xffo2166kwp8b3smyjv3 , 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=487657 , 충청일보 https://www.ccdailynews.com/news/articleView.html?idxno=2452427",
+   "발송 시각 8:30(1교시 10분 전)·14:21(3교시 영어 종료 뒤)·14:57(4교시 한국사 진행 중), 당초 1회라더니 3번 — 매일신문 2026-11-19 https://www.imaeil.com/page/view/2026111915210450287 , 충청일보, 서플, 경향신문 https://www.khan.co.kr/article/202611191707011/",
+   "서울 서초구 한 고교 시험장에서 2교시 도중 수험생 신발 속 휴대전화 발견, 시험 중 소리가 나며 드러난 것으로 경찰은 봄 — MBC https://imnews.imbc.com/news/2026/society/article/6866972_36918.html , 싱글리스트 https://www.slist.kr/news/articleView.html?idxno=783168",
+   "정부 발표(11/17): 미제출 휴대전화를 재난문자로 확인 — 파이낸셜뉴스 https://www.fnnews.com/news/202611171613403317 , YTN https://www.ytn.co.kr/_ln/0101_202611171501178081"
+  ],
+  "slug": "2026-11-20_0700_csat-emergency-alert-phones",
+  "late": false,
+  "video_id": "01w4_TLZABU",
+  "url": "https://youtube.com/shorts/01w4_TLZABU",
+  "privacy": "private",
+  "scheduled_for": "2026-11-19T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6aff53f36eef0cb67e4dc572",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-19T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-20_0700_csat-emergency-alert-phones/video.mp4"
+  },
+  "seconds": 1533
  }
 ]
