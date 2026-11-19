@@ -1,0 +1,392 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "csat-emergency-alert-phones",
+ "title_lines": [
+  "수능장 재난경보에",
+  "걸린 스마트폰 22대"
+ ],
+ "credit": "",
+ "youtube": {
+  "title": "수능장 재난경보에 걸린 스마트폰 22대 #shorts",
+  "description": "AI 커닝을 막으려고 수능 사상 처음 재난경보가 수능장에 울렸다고.\n1교시 10분 전 경보로 숨겨 둔 스마트폰 22대가 들통났고, 신발 깔창 속 휴대폰은 시험 도중 소리가 났다고 함.\n한 번이라던 경보는 하루 세 번, 마지막은 한국사 시험 중이었음.\n\n※ AI 음성으로 제작했습니다.\n#수능 #재난문자 #부정행위 #수험생 #썰 #shorts",
+  "tags": [
+   "수능",
+   "재난문자",
+   "위급재난문자",
+   "수능 부정행위",
+   "스마트폰",
+   "수험생",
+   "AI 커닝",
+   "썰",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.ytn.co.kr/_ln/0103_202611191229234344",
+ "facts_used": [
+  "11/19 수능 오전 8시 30분 위급재난문자 발송 뒤 오전 10시 기준 9개 시도에서 스마트폰 22대 적발, 스마트폰 외 첨단기기 사례는 없음(교육부 차관) — YTN 2026-11-19 https://www.ytn.co.kr/_ln/0103_202611191229234344 , 파이낸셜뉴스 2026-11-19 https://www.fnnews.com/news/202611191135010026 , 서플 https://supple.kr/news/cmwmzsao18atv3msxh900rudo",
+  "AI 활용 부정행위를 막으려고 수능 사상 처음 위급재난문자 사용, 무음·진동이어도 최대 음량 10.5초, 수신 거부 불가 — 서플(종합2보) https://supple.kr/news/cmwn6xffo2166kwp8b3smyjv3 , 스페셜타임스 https://www.specialtimes.co.kr/news/articleView.html?idxno=487657 , 충청일보 https://www.ccdailynews.com/news/articleView.html?idxno=2452427",
+  "발송 시각 8:30(1교시 10분 전)·14:21(3교시 영어 종료 뒤)·14:57(4교시 한국사 진행 중), 당초 1회라더니 3번 — 매일신문 2026-11-19 https://www.imaeil.com/page/view/2026111915210450287 , 충청일보, 서플, 경향신문 https://www.khan.co.kr/article/202611191707011/",
+  "서울 서초구 한 고교 시험장에서 2교시 도중 수험생 신발 속 휴대전화 발견, 시험 중 소리가 나며 드러난 것으로 경찰은 봄 — MBC https://imnews.imbc.com/news/2026/society/article/6866972_36918.html , 싱글리스트 https://www.slist.kr/news/articleView.html?idxno=783168",
+  "정부 발표(11/17): 미제출 휴대전화를 재난문자로 확인 — 파이낸셜뉴스 https://www.fnnews.com/news/202611171613403317 , YTN https://www.ytn.co.kr/_ln/0101_202611171501178081"
+ ],
+ "segments": [
+  {
+   "text": "수능장 재난경보에 걸린 스마트폰 22대",
+   "say": "수능장 재난경보에 걸린 스마트폰 스물두 대",
+   "sfx": "dudung",
+   "visual": {
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "수능장 재난경보에\n걸린 스마트폰 22대",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white"
+   },
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서"
+  },
+  {
+   "text": "정부가 수능장에 일부러 재난경보를 울렸음.",
+   "say": "정부가 수능장에 일부러 재난경보를 울렸음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 警報",
+       "スマートフォン 驚く",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "video": [
+     "smartphone alert",
+     "phone notification",
+     "smartphone screen"
+    ],
+    "cam": "punch"
+   },
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서"
+  },
+  {
+   "text": "무음이어도 최대 소리로 울리는 경보인데,",
+   "say": "무음이어도 최대 소리로 울리는 경보인데,",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スピーカー 音",
+       "大音量"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔊",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "white",
+    "video": [
+     "siren alarm",
+     "alarm sound",
+     "loudspeaker"
+    ]
+   },
+   "join": true
+  },
+  {
+   "text": "AI 커닝 막으려는 수능 사상 첫 방법이었다고.",
+   "say": "에이아이 커닝 막으려는 수능 사상 첫 방법이었다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カンニング",
+       "カンニング 学生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤖",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "pic": [
+     "exam paper",
+     "test paper",
+     "exam desk"
+    ]
+   }
+  },
+  {
+   "text": "1교시 직전 교실마다 경보가 터지자",
+   "say": "일 교시 직전 교실마다 경보가 터지자",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "試験 学生",
+       "テスト 学生",
+       "受験生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "video": [
+     "classroom desks",
+     "empty classroom",
+     "school classroom"
+    ],
+    "grok": {
+     "prompt": "Wide shot of a quiet exam classroom with rows of wooden desks and answer sheets, a smartphone hidden inside a backpack under one desk suddenly lights up and shakes, morning light through tall windows, slow push-in camera"
+    }
+   },
+   "join": true,
+   "tone": "긴장감 있게 낮은 목소리로"
+  },
+  {
+   "text": "숨겨 둔 폰 22대가 한꺼번에 들통남.",
+   "say": "숨겨 둔 폰 스물두 대가 한꺼번에 들통남.",
+   "sfx": "punch",
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "적발 현황",
+      "lines": [
+       "오전 10시 기준",
+       "9개 시도",
+       "스마트폰 22대"
+      ],
+      "mark": 2
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "驚く 学生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   },
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게"
+  },
+  {
+   "text": "심지어 깔창 밑 폰은 시험 중에 울렸다고.",
+   "say": "심지어 깔창 밑 폰은 시험 중에 울렸다고.",
+   "sfx": "exclaim",
+   "visual": {
+    "items": [
+     {
+      "type": "emoji",
+      "text": "👟",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "zoom"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "shake"
+     }
+    ],
+    "bg": "classroom",
+    "pic": [
+     "sneakers shoes",
+     "sneakers pair",
+     "shoes floor"
+    ]
+   }
+  },
+  {
+   "text": "근데 원래 경보는 한 번이라 했었음.",
+   "say": "근데 원래 경보는 한 번이라 했었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "政府 発表",
+       "記者会見"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "☝️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "meeting",
+    "video": [
+     "government building",
+     "office building",
+     "press room"
+    ],
+    "tr": "whoosh"
+   },
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박"
+  },
+  {
+   "text": "와, 알고 보니 세 번 울렸는데,",
+   "say": "와, 알고 보니 세 번 울렸는데,",
+   "sfx": "whoosh",
+   "visual": {
+    "items": [
+     {
+      "type": "doc",
+      "title": "재난경보",
+      "lines": [
+       "오전 8시 30분",
+       "오후 2시 21분",
+       "오후 2시 57분"
+      ],
+      "mark": 2
+     },
+     {
+      "type": "illust",
+      "q": [
+       "時計 男性",
+       "時計"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "bg": "desk"
+   },
+   "join": true
+  },
+  {
+   "text": "세 번째는 한국사 시험 중이었음.",
+   "say": "세 번째는 한국사 시험 중이었음.",
+   "sfx": "stamp",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "テスト 解く",
+       "勉強 学生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "video": [
+     "school hallway",
+     "school building",
+     "classroom chairs"
+    ],
+    "tr": "flash"
+   },
+   "cap": "hit"
+  },
+  {
+   "text": "수험생 심장도 같이 검사함.",
+   "say": "수험생 심장도 같이 검사함.",
+   "sfx": "none",
+   "visual": {
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "心臓 ドキドキ",
+       "ドキドキ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "💓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "bg": "classroom",
+    "cam": "pull"
+   },
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게"
+  }
+ ],
+ "brief": "점수표: [선택] 수능 사상 첫 위급재난문자로 숨긴 스마트폰 22대 적발, 신발 깔창 속 폰은 시험 중 소리로 들통, '1회'라던 경보가 세 번·한국사 시험 중에도 울림 (YTN·파이낸셜뉴스·서플 11/19, 매일신문·경향 11/19, MBC·싱글리스트 11/19) — 이게됨5(수능장에 일부러 재난경보)+궁금증4(경보가 뭘 찾았나 → 22대 / 그 뒤 → 세 번째는 시험 중)+감정3×2=6(수험생 긴장, 제도 대응에 대한 어이없음)+대상5+유행3(수능)+판정4(1회라더니 시험 중에도 울린 정부 대응 vs 숨긴 폰)=27 / [후보] 울산 비번 경찰관 길 잃은 6세(10/5 사건, 숨길 답 약함, 15점) / 공항 아이돌 경호원 여성 밀침(세부 보도 확인 못 함) / 중고거래 부채 무형유산 장인(커뮤니티 글뿐, 보도 확인 못 함) / 광화문 빵축제 혼잡(현장 보도 확인 못 함) / 리트 만점자 사망(사망 — 제외).\n레인: 사건 (07시 회차)\n유행: 수능 (커뮤니티 5곳 동시 단어 '수능'·'부정행위'·'AI') — 이번 주 11/14·11/16 수능 편은 '우리 얘기'(안경테·듣기 비행기), 이번은 11/19 수능 당일 새로 생긴 사건이라 각도가 다름. 특정 개인 의혹·정치인 발언(수능냥이 공방)은 안 씀.\n해외: 아님 (국내).\n아이 레인: 이번 회차 아님 (찾은 아이 소재: 울산 6세 귀가 — 숨길 답이 약해 18점 미만).\n욕할 대상: '한 번'이라더니 시험 도중에도 경보를 울린 운영(제도). 적발된 수험생은 이름·학교·지역 안 씀, 조롱 안 함 (깔창 건은 '서울 서초구 한 고교'지만 대본엔 장소 안 씀).\n주의: 22대는 교육부 오전 10시 기준 발표(9개 시도). 이후 10명·3명 추가 35명은 국회의원 SNS 근거라 안 씀. 깔창 폰이 22대에 들어가는지 확인 안 됨 → '심지어'로 별도 사례로만. 깔창 폰은 '2교시 도중 소리가 나면서 드러난 것으로 경찰은 보고 있음'(MBC) → '소리가 났다고'. 경보는 무음·진동이어도 최대 음량 10.5초, 수신 거부 불가(서플·스페셜타임스). '당초 1회'(매일신문 제목, 정부는 2차 발송 시각을 수험생 지장 없는 시간으로 정했다고 설명). 3차 2시 57분은 4교시 한국사 진행 중(충청일보·매일신문·서플).\n구조: 시작=정부가 수능장에 일부러 재난경보(무음도 최대 소리 10.5초, AI 커닝 막는 첫 방법) / 커짐=1교시 직전 교실마다 경보→숨긴 스마트폰 22대 들통→깔창 속 폰은 시험 중 소리 / 뒤집힘=원래 한 번만 보낸다고 했음 / 정체=알고 보니 하루 세 번 / 그 뒤=세 번째는 한국사 시험 도중 → 한 줄 '수험생 심장도 같이 검사함'\n공개할 답: ①경보가 찾은 것=스마트폰 22대(3분의 1) ②한 번이라더니=세 번, 마지막은 한국사 시험 중(끝)\n인용(cap quote): 없음 — 보도된 직접 발언이 짧게 옮길 만한 게 없어 숫자·시각 소품으로 보여 줌.\n증거: doc 2(적발 현황 오전 10시·9개 시도·22대 / 재난경보 발송 8:30·14:21·14:57) — 모두 보도된 내용. warn 없음(앞 대본 확인).\n첫장면: 의외 (정부가 일부러 수능장에 재난경보 — 경보 울리는 폰 그림 + 영상으로 시작, 앞 대본의 리뷰 카드 시작과 다르게)\n훅 3안: ①'정부가 수능장에 일부러 재난경보를 울렸음.'(선택: 가장 의외의 행동, 짧음) ②'수능 시작 10분 전 전국 휴대폰이 동시에 울렸음.'(시간 배경 시작) ③'무음인데도 최대 소리로 울리는 문자가 수능장에 옴.'(주체가 흐림) / 카드 제목 3안: '수능장 재난경보에 걸린 스마트폰 22대'(선택: 숫자가 핵심) · '수능날 재난문자가 찾아낸 물건'(물건이 흐림) · '한 번이라더니 세 번 울린 수능 경보'(결말 노출) / 제목 3안: 카드와 같은 문장(선택) · '결국 재난경보에 들통났다는 수능장 폰'(앞머리 결국 — 숫자 빠짐) · '수능날 깔창 속에서 울린 스마트폰'(개인 사례 중심이라 조롱 위험)\n이해검사: 정부가 AI 커닝을 막으려고 수능날 무음도 뚫는 재난경보를 처음 울렸는데, 1교시 전 경보로 숨긴 스마트폰 22대가 들통났고 깔창 속 폰은 시험 중 소리가 났으며, 한 번만 보낸다던 경보는 하루 세 번, 마지막은 한국사 시험 도중에 울렸다는 이야기.\n그림대조: 완료 (한국 이야기 — 일본 지도·국기·엔화 없음, 경보 폰·스피커·커닝·시험 보는 학생·놀란 학생·신발 이모지·정부 발표·시계·문제 푸는 학생·두근두근 심장, 스톡·사진 검색어에 사람 없음, grok 은 사람 없는 교실·가방 속 폰, 웹툰풍)"
+}
