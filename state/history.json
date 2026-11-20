@@ -8823,5 +8823,73 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-20_0700_csat-emergency-alert-phones/video.mp4"
   },
   "seconds": 1533
+ },
+ {
+  "key": "2026-11-20-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-20T12:00:00+09:00",
+  "started": "2026-11-20T09:30:00.526099+09:00",
+  "sound_qa": {
+   "lufs": -14.4,
+   "true_peak": 0.7,
+   "lra": 2.8,
+   "cuts": 18,
+   "cut_hit_100ms": 0.944,
+   "cuts_without_sound": [],
+   "issues": [
+    "순간 최대 0.7 dBTP (기준 -1 이하)"
+   ]
+  },
+  "stock_clips": [
+   "https://pixabay.com/videos/id-233024/",
+   "https://pixabay.com/videos/id-134112/",
+   "https://pixabay.com/photos/garbage-bags-waste-plastic-413757/",
+   "https://pixabay.com/videos/id-210140/",
+   "https://pixabay.com/videos/id-33555/"
+  ],
+  "cc_clips": [],
+  "duration": 25.05,
+  "matches": [
+   0.94,
+   1.0,
+   0.97,
+   0.97,
+   0.95,
+   0.95,
+   1.0,
+   1.0,
+   0.95,
+   1.0
+  ],
+  "sfx": 9,
+  "illustrations": 7,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [
+   "1995년 / 종량제 (55)"
+  ],
+  "title": "서울 거리 쓰레기통이 사라진 진짜 이유 #shorts",
+  "source_post": "https://www.hankyung.com/article/2025061050197",
+  "facts_used": [
+   "1995년 쓰레기 종량제 도입 뒤 봉투값을 아끼려 집·가게 쓰레기를 거리 쓰레기통에 버리는 일이 늘어 서울시가 거리 쓰레기통을 줄임, 7,607개 → 2007년 3,707개 — 머니투데이 2023-01-27 https://www.mt.co.kr/society/2023/01/27/2023012515492865608 , 코리아타임스 2023-10-20 https://www.koreatimes.co.kr/southkorea/society/20231020/lack-of-trash-cans-on-seoul-streets-causes-mess-inconvenience , YTN 2023-10-13 https://www.ytn.co.kr/_ln/0103_202310130957593011",
+   "2021년 서울시 시민 3,112명 설문에서 73.3%가 쓰레기통이 '적은 편', '많은 편' 1.5% — 데일리안 https://www.dailian.co.kr/news/view/1289130/ , 머니투데이 2023-01-27 https://www.mt.co.kr/society/2023/01/27/2023012515492865608",
+   "2025년 6월 성수동 카페거리 쓰레기 영상에 누리꾼 다수가 공공 쓰레기통 부족을 문제로 꼽음, 성동구는 쓰레기통 설치가 오히려 쓰레기 배출을 늘린다(역효과)는 입장이었다가 비판 뒤 설치 검토로 바꿈 — 한국경제 2025-06-10 https://www.hankyung.com/article/2025061050197 , YTN 2025-06-11 https://www.ytn.co.kr/_ln/0134_202506111633274767",
+   "서울형 새 가로 쓰레기통 5곳(종로 2·중구 2·동대문 1) 조사에서 5곳 모두 가정용 쓰레기 무단투기 발견 — 헤럴드경제 '지구, 뭐래?' https://heraldk.com/?p=2487856 , 서울시 새 디자인 쓰레기통 시범 설치 https://news.seoul.go.kr/culture/archives/523438",
+   "서울시 2023년 거리 쓰레기통 4,956개에서 단계적으로 늘리는 계획 발표 — 뉴데일리 2023-10-12 https://www.newdaily.co.kr/site/data/html/2023/10/12/2023101200337.amp.html , YTN 2023-10-13"
+  ],
+  "slug": "2026-11-20_1200_seoul-street-trash-cans",
+  "late": false,
+  "video_id": "D3NE_PUf1WI",
+  "url": "https://youtube.com/shorts/D3NE_PUf1WI",
+  "privacy": "private",
+  "scheduled_for": "2026-11-20T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6aff9ac0d5f8acdd0d5cfaf7",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-20T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-20_1200_seoul-street-trash-cans/video.mp4"
+  },
+  "seconds": 1594
  }
 ]
