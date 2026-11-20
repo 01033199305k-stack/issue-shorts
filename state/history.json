@@ -8962,5 +8962,76 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-20_1800_subway-pink-seat-empty/video.mp4"
   },
   "seconds": 1524
+ },
+ {
+  "key": "2026-11-21-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-21T07:00:00+09:00",
+  "started": "2026-11-21T04:21:39.959532+09:00",
+  "sound_qa": {
+   "lufs": -14.3,
+   "true_peak": -1.2,
+   "lra": 1.5,
+   "cuts": 20,
+   "cut_hit_100ms": 0.85,
+   "cuts_without_sound": [
+    2.4
+   ],
+   "issues": []
+  },
+  "stock_clips": [
+   "https://pixabay.com/videos/id-50309/",
+   "https://pixabay.com/photos/cigarette-package-tobacco-to-smoke-1841216/",
+   "https://pixabay.com/videos/id-202987/",
+   "https://pixabay.com/videos/id-9728/",
+   "https://pixabay.com/videos/id-11018/",
+   "https://pixabay.com/videos/id-72883/",
+   "https://pixabay.com/photos/cage-jail-prison-cell-transparent-3301936/"
+  ],
+  "cc_clips": [],
+  "duration": 25.75,
+  "matches": [
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   0.97,
+   1.0,
+   1.0,
+   0.97,
+   0.97,
+   1.0,
+   0.95
+  ],
+  "sfx": 12,
+  "illustrations": 10,
+  "cuts": 13,
+  "layout_issues": [],
+  "caption_breaks": [
+   "정식 / 재판까지 (55)"
+  ],
+  "title": "결국 고등학생한테 신고당한 편의점 사장 #shorts",
+  "source_post": "https://www.fnnews.com/news/202611201433262185",
+  "facts_used": [
+   "인천 17년째 편의점 점주, 지난해 여름 키 크고 건장한 남성에게 담배 판매, 1분 뒤 다른 담배 추가 구매 시도, 신분증 요구에 휴대전화 민간 인증서 캡처본 제시 → 미성년자임을 알고 앞서 판 담배 결제 취소하려 함 — 파이낸셜뉴스 2026-11-20 https://www.fnnews.com/news/202611201433262185 , 머니투데이 2026-11-20 https://www.mt.co.kr/society/2026/11/20/2026112009022547800",
+   "약 4분 뒤 다른 남성과 돌아와 '이미 미성년자에게 담배를 판매했으니 경찰에 신고하면 영업정지를 당할 수 있다'며 담배를 더 달라 협박, 결제 취소하자 점주를 경찰에 신고 — 파이낸셜뉴스·머니투데이 2026-11-20, 서플 https://supple.kr/news/cmwo9va9t3xuqkwp8uorysi4b (JTBC 사건반장 방송 인용)",
+   "검찰 약식기소, 벌금 30만 원 약식명령 → 정식재판 청구, 1심·항소심 모두 무죄. 점주가 고소한 청소년 중 1명 소년원 송치 전해짐. 검찰 상고 기한 앞두고 점주 '끝까지 무죄 다투겠다' — 파이낸셜뉴스·머니투데이 2026-11-20"
+  ],
+  "slug": "2026-11-21_0700_convenience-store-cigarette-threat-acquitted",
+  "late": false,
+  "video_id": "972qmH-e1Jg",
+  "url": "https://youtube.com/shorts/972qmH-e1Jg",
+  "privacy": "private",
+  "scheduled_for": "2026-11-20T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b00a3b96f199ec35b78c166",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-20T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-21_0700_convenience-store-cigarette-threat-acquitted/video.mp4"
+  },
+  "seconds": 1526
  }
 ]
