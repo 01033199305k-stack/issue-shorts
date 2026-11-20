@@ -1,32 +1,107 @@
 {
- "detected_at": "2026-11-20T10:15+09:00",
+ "detected_at": "2026-11-20T15:14+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "\"좋은 형이었는데\"…이진우 서울대 치대 동기들 애도",
-   "url": "https://n.news.naver.com/article/015/0005356198",
-   "press": "한국경제",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 코스피 4%대 급락세...매도 사이드카 발동",
+   "url": "https://n.news.naver.com/article/052/0002435602",
+   "press": "YTN",
+   "why": "[속보] 기사 + 언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
+     "press": "SBS Biz",
+     "title": "코스피, 4%대 급락에 매도 사이드카 발동",
+     "url": "https://n.news.naver.com/article/374/0000544935"
+    },
+    {
+     "press": "조선비즈",
+     "title": "코스피 4%대 하락세에 매도 사이드카…외국인 1조원 넘게 매도",
+     "url": "https://n.news.naver.com/article/366/0001206224"
+    },
+    {
+     "press": "노컷뉴스",
+     "title": "[속보] 코스피 또 '매도 사이드카' 발동…4%대 급락",
+     "url": "https://n.news.naver.com/article/079/0004212064"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "'정권 말 안 듣는' 대법원장 탄핵…독재를 향한 민주당의 폭주 [박영국의 디스]",
+   "url": "https://n.news.naver.com/article/119/0003157646",
+   "press": "데일리안",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "SBS",
+     "title": "[속보] 민주당, '조희대 대법원장 탄핵' 당론 채택",
+     "url": "https://n.news.naver.com/article/055/0001404536"
+    },
+    {
+     "press": "채널A",
+     "title": "[속보]민주당, ‘조희대 대법원장 탄핵’ 당론 채택 “참을 수 없는 임계점 넘어”",
+     "url": "https://n.news.naver.com/article/449/0000368170"
+    },
+    {
      "press": "머니투데이",
-     "title": "\"띄워 올리고 사냥개처럼 몰아붙여\"...서울대 교수, 이진우 논란에 쓴소리",
-     "url": "https://n.news.naver.com/article/008/0005443918"
+     "title": "[속보]민주당, '조희대 대법원장 탄핵 추진' 당론 채택",
+     "url": "https://n.news.naver.com/article/008/0005444164"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 李대통령 “수출 1조 달러 성과, 국민경제 지속발전·포용성장 출발점”",
+   "url": "https://n.news.naver.com/article/022/0004176809",
+   "press": "세계일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 민주당, '조희대 대법원장 탄핵소추' 당론 채택",
+   "url": "https://n.news.naver.com/article/469/0000966773",
+   "press": "한국일보",
+   "why": "[속보] 기사 + 언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "오마이뉴스",
+     "title": "'속전속결' 민주당, 조희대 탄핵추진단 구성",
+     "url": "https://n.news.naver.com/article/047/0002536616"
     },
     {
-     "press": "한국일보",
-     "title": "'이진우 논란' 비판한 서울대 교수… \"열광하다가 사냥개처럼 몰아\"",
-     "url": "https://n.news.naver.com/article/469/0000966703"
+     "press": "SBS",
+     "title": "[속보] 민주당, '조희대 대법원장 탄핵' 당론 채택",
+     "url": "https://n.news.naver.com/article/055/0001404536"
     },
     {
-     "press": "아시아경제",
-     "title": "\"천재라며 띄워놓고…죄는 미워해도 사람은 미워하지 말라\" 이진우 사태에 서울대 교수 쓴소리",
-     "url": "https://n.news.naver.com/article/277/0005845398"
+     "press": "채널A",
+     "title": "[속보]민주당, ‘조희대 대법원장 탄핵’ 당론 채택 “참을 수 없는 임계점 넘어”",
+     "url": "https://n.news.naver.com/article/449/0000368170"
     },
     {
-     "press": "문화일보",
-     "title": "“죽음으로 속죄했는데 마지막까지 손가락질” 서울대 교수, ‘이진우 사태’ 비판",
-     "url": "https://n.news.naver.com/article/021/0002834168"
+     "press": "머니투데이",
+     "title": "[속보]민주당, '조희대 대법원장 탄핵 추진' 당론 채택",
+     "url": "https://n.news.naver.com/article/008/0005444164"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "코스피 또 4%대 급락…'5천피' 무너지고 반도체주 와르르",
+   "url": "https://n.news.naver.com/article/215/0001273377",
+   "press": "한국경제TV",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "SBS Biz",
+     "title": "코스피, 4%대 급락에 매도 사이드카 발동",
+     "url": "https://n.news.naver.com/article/374/0000544935"
+    },
+    {
+     "press": "노컷뉴스",
+     "title": "[속보] 코스피 또 '매도 사이드카' 발동…4%대 급락",
+     "url": "https://n.news.naver.com/article/079/0004212064"
     }
    ]
   }
