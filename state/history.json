@@ -8891,5 +8891,76 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-20_1200_seoul-street-trash-cans/video.mp4"
   },
   "seconds": 1594
+ },
+ {
+  "key": "2026-11-20-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-20T18:00:00+09:00",
+  "started": "2026-11-20T15:29:10.027227+09:00",
+  "sound_qa": {
+   "lufs": -14.6,
+   "true_peak": -1.4,
+   "lra": 3.6,
+   "cuts": 17,
+   "cut_hit_100ms": 0.824,
+   "cuts_without_sound": [
+    14.167,
+    16.1
+   ],
+   "issues": []
+  },
+  "stock_clips": [
+   "https://pixabay.com/photos/subway-republic-of-korea-2599123/",
+   "https://pixabay.com/videos/id-6398/",
+   "https://pixabay.com/videos/id-9005/",
+   "https://pixabay.com/photos/stadium-rows-of-seats-grandstand-2921657/",
+   "https://pixabay.com/videos/id-1003/",
+   "https://pixabay.com/videos/id-110780/"
+  ],
+  "cc_clips": [],
+  "duration": 28.15,
+  "matches": [
+   0.95,
+   1.0,
+   1.0,
+   0.98,
+   1.0,
+   0.98,
+   0.98,
+   0.98,
+   0.98,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 11,
+  "illustrations": 8,
+  "cuts": 12,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "지하철 분홍 의자 비워 두기의 진실 #shorts",
+  "source_post": "https://www.fnnews.com/news/202606040717192627",
+  "facts_used": [
+   "출근길 임산부석이 비었는데 임산부가 일반석에 앉는 걸 봤다는 직장인 글에 '시민들이 비워 두는데 배려 없는 행동' vs '배려석은 선택지일 뿐 그 자리에만 앉아야 하는 법은 없다' 반응이 맞섬 — 파이낸셜뉴스 2026-06-04 https://www.fnnews.com/news/202606040717192627 , 서플 https://supple.kr/news/cmpxp9m8g0025qaze0bt88bk1",
+   "임신 6주차 임산부가 배려석을 찾아 이동하던 중 한 남성에게 '거 더럽게 왔다 갔다 하네' 핀잔을 들었다는 SNS 글 — 머니투데이 2026-07-22 https://www.mt.co.kr/society/2026/07/22/2026072215355319103",
+   "2019년 6월 28일~7월 8일 서울교통공사 설문 6,179명(일반 4,977·임산부 1,202): 비임산부 39.49%가 배려석에 앉아 봄, 이유 '비워져 있기 때문' 54.64%·'배려석이라서' 26.86% — 뉴시스 2019-07-24 https://mobile.newsis.com/view/NISX20190724_0000721357 , 서울신문 2019-07-24 https://m.go.seoul.co.kr/news/2019/07/24/20190724500166",
+   "부산은 2016년 부산김해경전철 시범 뒤 2017년 도시철도 3호선부터 임산부가 비콘 버튼을 누르면 불이 켜지고 양보 안내가 나오는 '핑크라이트' 설치, 현재 1~4호선 576개, 2026년 7월 앱 출시 — 비즈한국 https://bizhankook.com/bk/article/17652 , 코메디닷컴 2026-07-30 https://kormedi.com/1690191/",
+   "서울 지하철 임산부 배려석 2013년 도입, 2015년 분홍 '핑크카펫' 디자인 — 서울시 내 손안에 서울 https://mediahub.seoul.go.kr/archives/953212 (대본엔 안 씀, 배경)",
+   "비워 두기 선호 70%(서울교통공사 2022년 조사) vs 한국리서치 2022년 49% — 머니투데이 2023-10-10 https://www.mt.co.kr/society/2023/10/10/2023101016082432123 (대본엔 안 씀, 갈림 근거)"
+  ],
+  "slug": "2026-11-20_1800_subway-pink-seat-empty",
+  "late": false,
+  "video_id": "gcym8gw8tu0",
+  "url": "https://youtube.com/shorts/gcym8gw8tu0",
+  "privacy": "private",
+  "scheduled_for": "2026-11-20T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6affeea9ca85ebefb00204c9",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-20T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-20_1800_subway-pink-seat-empty/video.mp4"
+  },
+  "seconds": 1524
  }
 ]
