@@ -1,85 +1,32 @@
 {
- "detected_at": "2026-11-20T09:12+09:00",
+ "detected_at": "2026-11-20T10:15+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "與, 조희대 탄핵 추진 급물살…오늘 의총서 당론 모은다",
-   "url": "https://n.news.naver.com/article/421/0009300439",
-   "press": "뉴스1",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "SBS",
-     "title": "민주당 분노 속 의총…'조희대 탄핵 추진' 결론",
-     "url": "https://n.news.naver.com/article/055/0001404342"
-    },
-    {
-     "press": "매일신문",
-     "title": "민주당, 조희대 대법원장 탄핵 추진키로…김민석 \"역사적 사명감으로 추진\"",
-     "url": "https://n.news.naver.com/article/088/0001041382"
-    },
-    {
-     "press": "오마이뉴스",
-     "title": "민주당 '조희대 탄핵' 추진 결론... 김민석 \"이 판결은 역사적 반역\"",
-     "url": "https://n.news.naver.com/article/047/0002536554"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "민주, ‘조희대 탄핵’ 공식화…한덕수 파기환송에 “반역사적 판결”",
-   "url": "https://n.news.naver.com/article/028/0002833111",
-   "press": "한겨레",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "연합뉴스TV",
-     "title": "국힘 \"내란몰이 철퇴 판결…조희대에 보복 탄핵 안 돼\"",
-     "url": "https://n.news.naver.com/article/422/0000927963"
-    },
-    {
-     "press": "YTN",
-     "title": "민주, 끝내 '조희대 탄핵' 공식화...국힘 \"의회 쿠데타\"",
-     "url": "https://n.news.naver.com/article/052/0002435341"
-    },
-    {
-     "press": "서울신문",
-     "title": "“한덕수 판결은 역사적 반역”… 與, 조희대에 쌓였던 불만 폭발",
-     "url": "https://n.news.naver.com/article/081/0003701331"
-    },
-    {
-     "press": "노컷뉴스",
-     "title": "한덕수 파기환송에 현실화된 '조희대 탄핵'…얼어붙는 연말정국",
-     "url": "https://n.news.naver.com/article/079/0004211908"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "김민석 \"조희대 탄핵 역사적 사유\" vs 장동혁 \"탄핵은 역사적 반역\"",
-   "url": "https://n.news.naver.com/article/656/0000193035",
-   "press": "대전일보",
+   "title": "\"좋은 형이었는데\"…이진우 서울대 치대 동기들 애도",
+   "url": "https://n.news.naver.com/article/015/0005356198",
+   "press": "한국경제",
    "why": "언론사 5곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "국민일보",
-     "title": "김민석 “대법원 판결, 역사적 반역…조희대 탄핵해야”",
-     "url": "https://n.news.naver.com/article/005/0001886308"
+     "press": "머니투데이",
+     "title": "\"띄워 올리고 사냥개처럼 몰아붙여\"...서울대 교수, 이진우 논란에 쓴소리",
+     "url": "https://n.news.naver.com/article/008/0005443918"
     },
     {
-     "press": "서울신문",
-     "title": "“한덕수 판결은 역사적 반역”… 與, 조희대에 쌓였던 불만 폭발",
-     "url": "https://n.news.naver.com/article/081/0003701331"
+     "press": "한국일보",
+     "title": "'이진우 논란' 비판한 서울대 교수… \"열광하다가 사냥개처럼 몰아\"",
+     "url": "https://n.news.naver.com/article/469/0000966703"
     },
     {
-     "press": "매일신문",
-     "title": "민주당, 조희대 대법원장 탄핵 추진키로…김민석 \"역사적 사명감으로 추진\"",
-     "url": "https://n.news.naver.com/article/088/0001041382"
+     "press": "아시아경제",
+     "title": "\"천재라며 띄워놓고…죄는 미워해도 사람은 미워하지 말라\" 이진우 사태에 서울대 교수 쓴소리",
+     "url": "https://n.news.naver.com/article/277/0005845398"
     },
     {
-     "press": "오마이뉴스",
-     "title": "민주당 '조희대 탄핵' 추진 결론... 김민석 \"이 판결은 역사적 반역\"",
-     "url": "https://n.news.naver.com/article/047/0002536554"
+     "press": "문화일보",
+     "title": "“죽음으로 속죄했는데 마지막까지 손가락질” 서울대 교수, ‘이진우 사태’ 비판",
+     "url": "https://n.news.naver.com/article/021/0002834168"
     }
    ]
   }
