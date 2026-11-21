@@ -9033,5 +9033,68 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-21_0700_convenience-store-cigarette-threat-acquitted/video.mp4"
   },
   "seconds": 1526
+ },
+ {
+  "key": "2026-11-21-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-21T12:00:00+09:00",
+  "started": "2026-11-21T09:20:31.396339+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-21_1200_milk-carton-japan-import/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-21_1200_milk-carton-japan-import/video.mp4', '--detail', "
+  },
+  "stock_clips": [
+   "https://pixabay.com/photos/toilet-paper-toilet-paper-loo-4974461/",
+   "https://pixabay.com/videos/id-36473/",
+   "https://pixabay.com/videos/id-36472/",
+   "https://pixabay.com/videos/id-38116/",
+   "https://pixabay.com/videos/id-36474/",
+   "https://pixabay.com/videos/id-23544/"
+  ],
+  "cc_clips": [],
+  "duration": 27.16,
+  "matches": [
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.94,
+   0.9,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.96,
+   0.96
+  ],
+  "sfx": 11,
+  "illustrations": 9,
+  "cuts": 12,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "한국 우유팩 두고 일본 우유팩 사는 이유 #shorts",
+  "source_post": "https://www.mt.co.kr/industry/2024/06/30/2024062714053052078",
+  "facts_used": [
+   "국내 화장지 원단업계가 세척 후 배출이 일상화된 일본에서 우유팩을 수입해 화장지 원단으로 재활용, 국내 우유팩은 씻지 않고 버려져 썩어서 폐기 — 머니투데이 2024-06-30 https://www.mt.co.kr/industry/2024/06/30/2024062714053052078 , 경향신문 2025-02-23 https://v.daum.net/v/20250223170016119",
+   "종이팩 재활용률 2013년 35% → 2019년 19% → 2022년 13.7% — 헤럴드경제 https://heraldk.com/?p=2327618 , 2025-10-26 보도 https://v.daum.net/v/20251026184756951",
+   "우유팩은 코팅이 달라 일반 폐지와 재활용 공정이 다르고, 종이류로 배출하면 대부분 소각·매립 — 2025-10-26 보도 https://v.daum.net/v/20251026184756951 , 경향신문 2026-01-02 https://www.khan.co.kr/article/202601020600051",
+   "인천 연수구 아파트 주민(72) '우유팩이 종이가 아닌 줄은 몰랐다', 따로 버리라는 안내를 받은 적 없다 — 2025-10-26 보도 https://v.daum.net/v/20251026184756951",
+   "종이팩은 집 앞 배출이 안 돼 씻고 말려 주민센터 등에 가져가야 함 — 헤럴드경제 https://heraldk.com/?p=2327618",
+   "주민센터·자치구 종이팩 교환(화장지·종량제 봉투·우유) — 서울시 미디어허브 https://mediahub.seoul.go.kr/archives/1272171",
+   "2026년 10월 의무관리 공동주택 자율 시행, 2027년 1월 1일 의무화 예정(지침 개정안 행정예고 단계) — 위키트리 https://www.wikitree.co.kr/articles/1173738 , 2025-10-26 보도 https://v.daum.net/v/20251026184756951"
+  ],
+  "slug": "2026-11-21_1200_milk-carton-japan-import",
+  "late": false,
+  "video_id": "FRLsL_mzaQE",
+  "url": "https://youtube.com/shorts/FRLsL_mzaQE",
+  "privacy": "private",
+  "scheduled_for": "2026-11-21T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b00e9a35e993799d83e900d",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-21T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-21_1200_milk-carton-japan-import/video.mp4"
+  },
+  "seconds": 1495
  }
 ]
