@@ -1,15 +1,16 @@
 {
- "generated_at": "2026-11-22T00:17+09:00",
+ "generated_at": "2026-11-22T04:13+09:00",
  "warnings": [
   "에펨 포텐: HTTPError HTTP Error 430: Unknown",
-  "개드립: HTTPError HTTP Error 403: Forbidden"
+  "개드립: HTTPError HTTP Error 403: Forbidden",
+  "루리웹 베스트: URLError <urlopen error timed out>"
  ],
  "posts": [
   {
    "title": "[만갤] 중국게임 표절 근황.jpg",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480672&_dcbest=1&page=1",
-   "views": 33856,
-   "comments": 1012,
+   "views": 36859,
+   "comments": 1045,
    "board": "디시 실베",
    "heat": 1.0,
    "also_on": [],
@@ -19,7 +20,7 @@
   {
    "title": "그 시절, 우리가 사랑했던 디시인사이드...manhwa",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17806&page=1",
-   "views": 145911,
+   "views": 145931,
    "comments": 925,
    "board": "디시 HIT",
    "heat": 1.0,
@@ -30,8 +31,8 @@
   {
    "title": "이 남자 왜 까였는지 알겠음?",
    "url": "https://theqoo.net/hot/4413991032",
-   "views": 81378,
-   "comments": 1014,
+   "views": 94151,
+   "comments": 1106,
    "board": "더쿠 HOT",
    "heat": 1.0,
    "also_on": [],
@@ -39,21 +40,10 @@
    "news": []
   },
   {
-   "title": "안먹어도 편식이라고 하면 안되는 음식 1위.JPG",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77476126",
-   "views": 14277,
-   "comments": 99,
-   "board": "루리웹 베스트",
-   "heat": 1.0,
-   "also_on": [],
-   "score": 1.0,
-   "news": []
-  },
-  {
-   "title": "워홀녀 거른다는말이 개웃긴이유",
-   "url": "https://pann.nate.com/talk/375729212",
-   "views": 15216,
-   "comments": 64,
+   "title": "우리는 이렇게",
+   "url": "https://pann.nate.com/talk/375729446",
+   "views": 2268,
+   "comments": 27,
    "board": "네이트판",
    "heat": 1.0,
    "also_on": [],
@@ -64,7 +54,7 @@
    "title": "손정의, 하이닉스 1조달러 인수 추진",
    "url": "https://www.bobaedream.co.kr/view?code=best&No=1049232",
    "views": 0,
-   "comments": 98,
+   "comments": 106,
    "board": "보배드림 베스트",
    "heat": 1.0,
    "also_on": [],
@@ -72,10 +62,10 @@
    "news": []
   },
   {
-   "title": "[싱갤] 싱글벙글 국가가 계속 수시 비중을 늘리는 이유",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480650&_dcbest=1&page=1",
-   "views": 23801,
-   "comments": 763,
+   "title": "[싱갤] 싱글벙글 고구려에서 온돌이 발명된 이유",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480674&_dcbest=1&page=1",
+   "views": 32376,
+   "comments": 623,
    "board": "디시 실베",
    "heat": 0.9795918367346939,
    "also_on": [],
@@ -83,10 +73,10 @@
    "news": []
   },
   {
-   "title": "남자들이 요가를 성적으로 보는거 더럽다",
-   "url": "https://pann.nate.com/talk/375729126",
-   "views": 11450,
-   "comments": 47,
+   "title": "리트만점자 너무 안타깝네요",
+   "url": "https://pann.nate.com/talk/375730015",
+   "views": 5770,
+   "comments": 26,
    "board": "네이트판",
    "heat": 0.98,
    "also_on": [],
@@ -96,7 +86,7 @@
   {
    "title": "메피스토펠레스 완성 + 제작 과정",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17809&page=1",
-   "views": 134679,
+   "views": 134702,
    "comments": 842,
    "board": "디시 HIT",
    "heat": 0.9787234042553191,
@@ -105,21 +95,10 @@
    "news": []
   },
   {
-   "title": "일본의 GDP추락을 보도하는 뉴스.gif",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77473913",
-   "views": 32306,
-   "comments": 95,
-   "board": "루리웹 베스트",
-   "heat": 0.967741935483871,
-   "also_on": [],
-   "score": 0.968,
-   "news": []
-  },
-  {
-   "title": "우리는 이렇게",
-   "url": "https://pann.nate.com/talk/375729446",
-   "views": 1356,
-   "comments": 25,
+   "title": "빛나는 공주님에게",
+   "url": "https://pann.nate.com/talk/375730822",
+   "views": 1255,
+   "comments": 17,
    "board": "네이트판",
    "heat": 0.96,
    "also_on": [],
@@ -127,10 +106,10 @@
    "news": []
   },
   {
-   "title": "[싱갤] 싱글벙글 고구려에서 온돌이 발명된 이유",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480674&_dcbest=1&page=1",
-   "views": 30663,
-   "comments": 609,
+   "title": "[시갤] 강남 삼대남 학원장... 초등생 술먹이고 성폭행...",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480696&_dcbest=1&page=1",
+   "views": 19592,
+   "comments": 526,
    "board": "디시 실베",
    "heat": 0.9591836734693877,
    "also_on": [],
@@ -140,7 +119,7 @@
   {
    "title": "전에 주워서 키웠던 응애참새",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17763&page=1",
-   "views": 99950,
+   "views": 99957,
    "comments": 759,
    "board": "디시 HIT",
    "heat": 0.9574468085106383,
@@ -149,10 +128,21 @@
    "news": []
   },
   {
+   "title": "'열혈강호' 30여년만에 마침표",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049229",
+   "views": 0,
+   "comments": 78,
+   "board": "보배드림 베스트",
+   "heat": 0.9523809523809523,
+   "also_on": [],
+   "score": 0.952,
+   "news": []
+  },
+  {
    "title": "딸이랑 힙한 카페 간 부산 아저씨",
    "url": "https://theqoo.net/hot/4413962389",
-   "views": 94140,
-   "comments": 677,
+   "views": 101970,
+   "comments": 716,
    "board": "더쿠 HOT",
    "heat": 0.95,
    "also_on": [],
@@ -160,21 +150,10 @@
    "news": []
   },
   {
-   "title": "'열혈강호' 30여년만에 마침표",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049229",
-   "views": 0,
-   "comments": 69,
-   "board": "보배드림 베스트",
-   "heat": 0.9473684210526315,
-   "also_on": [],
-   "score": 0.947,
-   "news": []
-  },
-  {
-   "title": "바람핀 전남친한테 카톡 보낼건데 무슨 문장이 더 나음?",
-   "url": "https://pann.nate.com/talk/375729271",
-   "views": 3816,
-   "comments": 20,
+   "title": "장원영 카리나 둘다 넘 예쁘다",
+   "url": "https://pann.nate.com/talk/375730937",
+   "views": 617,
+   "comments": 16,
    "board": "네이트판",
    "heat": 0.94,
    "also_on": [],
@@ -182,10 +161,10 @@
    "news": []
   },
   {
-   "title": "[리갤] 속보ㅋㅋㅋㅋ 군지 은퇴 없어지게 생겼다ㅋㅋㅋㅋㅋㅋㅋㅋ",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480662&_dcbest=1&page=1",
-   "views": 41080,
-   "comments": 489,
+   "title": "[싱갤] 의외로 인간이길 포기한 음식들 TOP7",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480687&_dcbest=1&page=1",
+   "views": 34318,
+   "comments": 517,
    "board": "디시 실베",
    "heat": 0.9387755102040817,
    "also_on": [],
@@ -195,7 +174,7 @@
   {
    "title": "야쿠르트 아줌마의 비밀병기",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17808&page=1",
-   "views": 128545,
+   "views": 128568,
    "comments": 534,
    "board": "디시 HIT",
    "heat": 0.9361702127659575,
@@ -204,21 +183,10 @@
    "news": []
   },
   {
-   "title": "댓글 400개 달린 테슬라 게시글.jpg",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77474824",
-   "views": 17910,
-   "comments": 69,
-   "board": "루리웹 베스트",
-   "heat": 0.9354838709677419,
-   "also_on": [],
-   "score": 0.935,
-   "news": []
-  },
-  {
-   "title": "리트만점자 너무 안타깝네요",
-   "url": "https://pann.nate.com/talk/375730015",
-   "views": 1360,
-   "comments": 17,
+   "title": "근데 나이차이",
+   "url": "https://pann.nate.com/talk/375730692",
+   "views": 835,
+   "comments": 15,
    "board": "네이트판",
    "heat": 0.92,
    "also_on": [],
@@ -228,72 +196,65 @@
   {
    "title": "[싱갤] 수능 세계사 문제를 본 중국인 반응",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480698&_dcbest=1&page=1",
-   "views": 22614,
-   "comments": 484,
+   "views": 25730,
+   "comments": 511,
    "board": "디시 실베",
    "heat": 0.9183673469387755,
    "also_on": [],
-   "score": 0.918
+   "score": 0.918,
+   "news": []
   },
   {
    "title": "하와이안 미트 피자",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17776&page=1",
-   "views": 75903,
+   "views": 75913,
    "comments": 458,
    "board": "디시 HIT",
    "heat": 0.9148936170212766,
    "also_on": [],
-   "score": 0.915
+   "score": 0.915,
+   "news": []
   },
   {
-   "title": "[인터뷰] 위쳐4, 주인공은 달라져도 위쳐다움은 변하지 않는다",
-   "url": "https://bbs.ruliweb.com/best/board/300001/read/2366923",
-   "views": 3917,
-   "comments": 25,
-   "board": "루리웹 베스트",
-   "heat": 0.9032258064516129,
+   "title": "영국 처자가 한국 올때마다 느끼는 것",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049228",
+   "views": 0,
+   "comments": 48,
+   "board": "보배드림 베스트",
+   "heat": 0.9047619047619048,
    "also_on": [],
-   "score": 0.903
+   "score": 0.905,
+   "news": []
   },
   {
    "title": "크게 네가지로 나뉜다는 김치찌개 취향....",
    "url": "https://theqoo.net/hot/4413909563",
-   "views": 40391,
-   "comments": 625,
+   "views": 44689,
+   "comments": 665,
    "board": "더쿠 HOT",
    "heat": 0.9,
    "also_on": [],
    "score": 0.9
   },
   {
-   "title": "이번 베몬 루카 앞머리 비주얼 대박이다",
-   "url": "https://pann.nate.com/talk/375729163",
-   "views": 12867,
-   "comments": 17,
+   "title": "남초에서 화제인 ㅋㄹㄴ 짤",
+   "url": "https://pann.nate.com/talk/375730756",
+   "views": 6414,
+   "comments": 15,
    "board": "네이트판",
    "heat": 0.9,
    "also_on": [],
    "score": 0.9
   },
   {
-   "title": "[싱갤] 의외로 인간이길 포기한 음식들 TOP7",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480687&_dcbest=1&page=1",
-   "views": 31199,
-   "comments": 483,
+   "title": "[러갤] 돈 없는 여자와 결혼하면 생지옥인 이유",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480718&_dcbest=1&page=1",
+   "views": 33456,
+   "comments": 463,
    "board": "디시 실베",
    "heat": 0.8979591836734694,
    "also_on": [],
    "score": 0.898
-  },
-  {
-   "title": "영국 처자가 한국 올때마다 느끼는 것",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049228",
-   "views": 0,
-   "comments": 43,
-   "board": "보배드림 베스트",
-   "heat": 0.8947368421052632,
-   "also_on": [],
-   "score": 0.895
   },
   {
    "title": "전 특수부대 저격수 예비군 갔다 온 만화",
@@ -306,9 +267,9 @@
    "score": 0.894
   },
   {
-   "title": "우리오빠랑 남친 보면서 느낀거ㅋㅋㅋ",
-   "url": "https://pann.nate.com/talk/375729148",
-   "views": 4843,
+   "title": "귀한 인연",
+   "url": "https://pann.nate.com/talk/375730137",
+   "views": 2359,
    "comments": 15,
    "board": "네이트판",
    "heat": 0.88,
@@ -318,8 +279,8 @@
   {
    "title": "[싱갤] 된장찌개에 들어가면 ㄹㅇ 좆같은 재료",
    "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480682&_dcbest=1&page=1",
-   "views": 34641,
-   "comments": 422,
+   "views": 37783,
+   "comments": 448,
    "board": "디시 실베",
    "heat": 0.8775510204081632,
    "also_on": [],
@@ -328,7 +289,7 @@
   {
    "title": "추석 .MANHWA",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17802&page=1",
-   "views": 159052,
+   "views": 159069,
    "comments": 442,
    "board": "디시 HIT",
    "heat": 0.8723404255319149,
@@ -336,19 +297,9 @@
    "score": 0.872
   },
   {
-   "title": "중동 무슬림 국가 출장시 꿀팁",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77476616",
-   "views": 3431,
-   "comments": 24,
-   "board": "루리웹 베스트",
-   "heat": 0.8709677419354839,
-   "also_on": [],
-   "score": 0.871
-  },
-  {
-   "title": "빛나는 공주님에게",
-   "url": "https://pann.nate.com/talk/375730822",
-   "views": 457,
+   "title": "장원영이 영원히 원탑이네",
+   "url": "https://pann.nate.com/talk/375729375",
+   "views": 1917,
    "comments": 13,
    "board": "네이트판",
    "heat": 0.86,
@@ -356,11 +307,21 @@
    "score": 0.86
   },
   {
-   "title": "[특갤] 이제 자식을 학교에 보내면 \"범죄\"",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480660&_dcbest=1&page=1",
-   "views": 30271,
-   "comments": 408,
+   "title": "[싱갤] 젠슨황, 직원들에게 상습적 모욕폭언...JPG",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480706&_dcbest=1&page=1",
+   "views": 27407,
+   "comments": 423,
    "board": "디시 실베",
+   "heat": 0.8571428571428571,
+   "also_on": [],
+   "score": 0.857
+  },
+  {
+   "title": "대만에서 한국인과 일본인이 받는 대우 차이",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049243",
+   "views": 0,
+   "comments": 35,
+   "board": "보배드림 베스트",
    "heat": 0.8571428571428571,
    "also_on": [],
    "score": 0.857
@@ -368,7 +329,7 @@
   {
    "title": "세트병) 프리큐어 20년 즈언통의 굿즈모음",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17768&page=1",
-   "views": 51270,
+   "views": 51279,
    "comments": 403,
    "board": "디시 HIT",
    "heat": 0.851063829787234,
@@ -378,27 +339,17 @@
   {
    "title": "핫게갔던 차 브랜드 대표 사과문",
    "url": "https://theqoo.net/hot/4413946307",
-   "views": 89278,
-   "comments": 612,
+   "views": 99256,
+   "comments": 642,
    "board": "더쿠 HOT",
    "heat": 0.85,
    "also_on": [],
    "score": 0.85
   },
   {
-   "title": "요즘 주식 시장에 대한 개인적인 소견",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049202",
-   "views": 0,
-   "comments": 27,
-   "board": "보배드림 베스트",
-   "heat": 0.8421052631578947,
-   "also_on": [],
-   "score": 0.842
-  },
-  {
-   "title": "오늘도",
-   "url": "https://pann.nate.com/talk/375730787",
-   "views": 460,
+   "title": "한남들은 ㄹㅇ이해 안가는게",
+   "url": "https://pann.nate.com/talk/375729389",
+   "views": 499,
    "comments": 12,
    "board": "네이트판",
    "heat": 0.84,
@@ -406,187 +357,81 @@
    "score": 0.84
   },
   {
-   "title": "주인공에게 불행배틀을 거는 빌런.JPG",
-   "url": "https://bbs.ruliweb.com/best/board/300143/read/77476625",
-   "views": 4179,
-   "comments": 22,
-   "board": "루리웹 베스트",
-   "heat": 0.8387096774193549,
-   "also_on": [],
-   "score": 0.839
-  },
-  {
-   "title": "[러갤] 돈 없는 여자와 결혼하면 생지옥인 이유",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480718&_dcbest=1&page=1",
-   "views": 26242,
-   "comments": 401,
+   "title": "[싱갤] 리트냥이는 비비지도 못한다는 전청조 멘탈...jpg",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480726&_dcbest=1&page=1",
+   "views": 32123,
+   "comments": 411,
    "board": "디시 실베",
    "heat": 0.8367346938775511,
    "also_on": [],
    "score": 0.837
+  },
+  {
+   "title": "대보협 Mr.YMCA 대회 참가 후기",
+   "url": "https://gall.dcinside.com/board/view/?id=hit&no=17779&page=1",
+   "views": 67348,
+   "comments": 374,
+   "board": "디시 HIT",
+   "heat": 0.8297872340425532,
+   "also_on": [],
+   "score": 0.83
+  },
+  {
+   "title": "징역 썰 후기 풀겠음",
+   "url": "https://pann.nate.com/talk/375730193",
+   "views": 504,
+   "comments": 12,
+   "board": "네이트판",
+   "heat": 0.82,
+   "also_on": [],
+   "score": 0.82
+  },
+  {
+   "title": "[싱갤] 와들와들 GTA6 근황…jpg",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480746&_dcbest=1&page=1",
+   "views": 32201,
+   "comments": 398,
+   "board": "디시 실베",
+   "heat": 0.8163265306122449,
+   "also_on": [],
+   "score": 0.816
+  },
+  {
+   "title": "요즘 주식 시장에 대한 개인적인 소견",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049202",
+   "views": 0,
+   "comments": 30,
+   "board": "보배드림 베스트",
+   "heat": 0.8095238095238095,
+   "also_on": [],
+   "score": 0.81
+  },
+  {
+   "title": "싱글벙글 내 작은 정원",
+   "url": "https://gall.dcinside.com/board/view/?id=hit&no=17766&page=1",
+   "views": 58493,
+   "comments": 356,
+   "board": "디시 HIT",
+   "heat": 0.8085106382978723,
+   "also_on": [],
+   "score": 0.809
+  },
+  {
+   "title": "리트냥이를 실제로 만났던 사람",
+   "url": "https://theqoo.net/hot/4413899671",
+   "views": 101655,
+   "comments": 464,
+   "board": "더쿠 HOT",
+   "heat": 0.8,
+   "also_on": [],
+   "score": 0.8
   }
  ],
  "news_hot": [
   {
-   "title": "이재명 \"韓 전자정부 1위론 부족…국민 체감 ‘AI 민주정부’ 구축”",
-   "url": "https://n.news.naver.com/article/092/0002446231",
-   "press": "지디넷코리아",
-   "rank": 1
-  },
-  {
-   "title": "이 대통령 \"5,500억 환수한 게 배임인가\"‥대장동 의혹 거듭 반박",
-   "url": "https://n.news.naver.com/article/214/0001537064",
-   "press": "MBC",
-   "rank": 1
-  },
-  {
-   "title": "'100% 못 막아' 발언 논란 최교진 \"사퇴하라면 해야죠\"",
-   "url": "https://n.news.naver.com/article/057/0001979242",
-   "press": "MBN",
-   "rank": 1
-  },
-  {
-   "title": "李대통령 \"수능 신고포상금은 건당 최소 1억원…부정행위자 수만큼 가산\"",
-   "url": "https://n.news.naver.com/article/421/0009302690",
-   "press": "뉴스1",
-   "rank": 1
-  },
-  {
-   "title": "김건희 \"죽어도 이해 못 해\" 울먹이더니…판사에 \"감동\"",
-   "url": "https://n.news.naver.com/article/437/0000521742",
-   "press": "JTBC",
-   "rank": 1
-  },
-  {
-   "title": "국보법 위반자도 뉘우치면 인정? ‘운동권 특혜법’ 통과",
-   "url": "https://n.news.naver.com/article/023/0004010925",
-   "press": "조선일보",
-   "rank": 1
-  },
-  {
-   "title": "李대통령 \"수능 신고포상금, 건당 최소 1억…부정행위자 수만큼 가산\"",
-   "url": "https://n.news.naver.com/article/008/0005444440",
-   "press": "머니투데이",
-   "rank": 1
-  },
-  {
-   "title": "10개월 만에 최저치 찍은 코스피…나경원 “국민들, 계좌 열기도 두려워해”",
-   "url": "https://n.news.naver.com/article/011/0004684603",
-   "press": "서울경제",
-   "rank": 1
-  },
-  {
    "title": "나경원 \"10개월 만에 주가 반토막…결혼·은퇴자금 사라져\"",
    "url": "https://n.news.naver.com/article/015/0005356569",
    "press": "한국경제",
-   "rank": 1
-  },
-  {
-   "title": "이 대통령 \"수능 신고 포상금 건당 최소 1억... 부정행위자 수만큼 가산\"",
-   "url": "https://n.news.naver.com/article/469/0000966936",
-   "press": "한국일보",
-   "rank": 1
-  },
-  {
-   "title": "[속보] 이 대통령 \"수능 부정 신고 포상, 1건당 최소 1억\"",
-   "url": "https://n.news.naver.com/article/052/0002436103",
-   "press": "YTN",
-   "rank": 1
-  },
-  {
-   "title": "이 대통령, 대장동 인터뷰 공유…“5,500억 공익 환수가 배임인가”",
-   "url": "https://n.news.naver.com/article/056/0012298574",
-   "press": "KBS",
-   "rank": 1
-  },
-  {
-   "title": "李, 대장동 업자 인터뷰 공유하며 “5500억 공익환수가 배임이면…”",
-   "url": "https://n.news.naver.com/article/005/0001886510",
-   "press": "국민일보",
-   "rank": 1
-  },
-  {
-   "title": "李대통령 \"수능 재난문자, 의외로 재미있었다는 반응\"…野 \"부끄러움 없는 태도 기막혀\"",
-   "url": "https://n.news.naver.com/article/448/0000652526",
-   "press": "TV조선",
-   "rank": 1
-  },
-  {
-   "title": "이 대통령 \"수능 부정신고 포상금 건당 최소 1억 원\"",
-   "url": "https://n.news.naver.com/article/422/0000928539",
-   "press": "연합뉴스TV",
-   "rank": 1
-  },
-  {
-   "title": "나경원 \"주식 폭락, 결혼·은퇴자금 반토막...李정권, 국민 돈 물어내라\"",
-   "url": "https://n.news.naver.com/article/014/0005607631",
-   "press": "파이낸셜뉴스",
-   "rank": 1
-  },
-  {
-   "title": "[속보] 李 대통령 “수능 부정 신고 포상, 1건당 최소 1억”",
-   "url": "https://n.news.naver.com/article/024/0000109796",
-   "press": "매경이코노미",
-   "rank": 1
-  },
-  {
-   "title": "“남북 국가연합 대통령직 北에 보장”…트럼프 1기 대북대표 파격 통일 제안",
-   "url": "https://n.news.naver.com/article/081/0003701739",
-   "press": "서울신문",
-   "rank": 1
-  },
-  {
-   "title": "“유재석, 198억 땅 전액 현금으로 샀다”…강남 건물 드디어 완공",
-   "url": "https://n.news.naver.com/article/016/0002726165",
-   "press": "헤럴드경제",
-   "rank": 1
-  },
-  {
-   "title": "“주식 어디가 바닥인데요?” 외국인은 이미 탈출…이건 7.4조 샀다는데",
-   "url": "https://n.news.naver.com/article/009/0005766931",
-   "press": "매일경제",
-   "rank": 1
-  },
-  {
-   "title": "\"이러다 진짜 코스피 1만 찍나\"…파격 전망 겹치자 높아지는 기대감[주末머니]",
-   "url": "https://n.news.naver.com/article/277/0005845894",
-   "press": "아시아경제",
-   "rank": 1
-  },
-  {
-   "title": "곽상언 “조희대 대법원장 탄핵 당론에 반대…국민이 어떻게 보겠느냐”",
-   "url": "https://n.news.naver.com/article/032/0003484069",
-   "press": "경향신문",
-   "rank": 1
-  },
-  {
-   "title": "나흘 만에 나온 교육장관…\"사퇴하라면 해야죠\"",
-   "url": "https://n.news.naver.com/article/055/0001404633",
-   "press": "SBS",
-   "rank": 1
-  },
-  {
-   "title": "李대통령 “5500억 공익환수가 배임죄면 일반 개발허가는 어찌할 것인가”",
-   "url": "https://n.news.naver.com/article/666/0000133094",
-   "press": "경기일보",
-   "rank": 1
-  },
-  {
-   "title": "사상 초유 대법원장 탄핵 ‘12월 초’ 추진",
-   "url": "https://n.news.naver.com/article/449/0000368210",
-   "press": "채널A",
-   "rank": 1
-  },
-  {
-   "title": "민주, ‘조희대 탄핵’ 당론 채택했지만…‘기각 역풍’ 우려도 만만찮아",
-   "url": "https://n.news.naver.com/article/028/0002833279",
-   "press": "한겨레",
-   "rank": 1
-  },
-  {
-   "title": "이 대통령 \"수능 부정 신고포상금 1건당 '최소' 1억\"",
-   "url": "https://n.news.naver.com/article/082/0001408277",
-   "press": "부산일보",
    "rank": 1
   },
   {
@@ -596,27 +441,57 @@
    "rank": 1
   },
   {
-   "title": "이 대통령, '대장동 인터뷰' 공유하며 기소 반박 \"5500억 공익환수가 배임인가”",
-   "url": "https://n.news.naver.com/article/002/0002466946",
-   "press": "프레시안",
+   "title": "이 대통령 \"5,500억 환수한 게 배임인가\"‥대장동 의혹 거듭 반박",
+   "url": "https://n.news.naver.com/article/214/0001537064",
+   "press": "MBC",
    "rank": 1
   },
   {
-   "title": "한동훈 “민주당, 대법원장 탄핵은 내란 자백…모두 감옥 갈 것”",
-   "url": "https://n.news.naver.com/article/087/0001232324",
-   "press": "강원일보",
+   "title": "민주, ‘조희대 탄핵’ 당론 채택했지만…‘기각 역풍’ 우려도 만만찮아",
+   "url": "https://n.news.naver.com/article/028/0002833279",
+   "press": "한겨레",
    "rank": 1
   },
   {
-   "title": "[단독] 리트 만점자, 유서에 “죽어도 가려 했지만…조롱 당하겠지”",
-   "url": "https://n.news.naver.com/article/025/0003566859",
-   "press": "중앙일보",
+   "title": "10개월 만에 최저치 찍은 코스피…나경원 “국민들, 계좌 열기도 두려워해”",
+   "url": "https://n.news.naver.com/article/011/0004684603",
+   "press": "서울경제",
    "rank": 1
   },
   {
-   "title": "범여권 186명중 150명 찬성 탄핵안 통과땐 대법원장 직무정지",
-   "url": "https://n.news.naver.com/article/020/0003764097",
-   "press": "동아일보",
+   "title": "이 대통령 \"수능부정, 공직자 부패만큼 심각한 범죄…끝까지 추적해 엄중처벌\"",
+   "url": "https://n.news.naver.com/article/003/0014337326",
+   "press": "뉴시스",
+   "rank": 1
+  },
+  {
+   "title": "\"이러다 진짜 코스피 1만 찍나\"…파격 전망 겹치자 높아지는 기대감[주末머니]",
+   "url": "https://n.news.naver.com/article/277/0005845894",
+   "press": "아시아경제",
+   "rank": 1
+  },
+  {
+   "title": "김건희 \"죽어도 이해 못 해\" 울먹이더니…판사에 \"감동\"",
+   "url": "https://n.news.naver.com/article/437/0000521742",
+   "press": "JTBC",
+   "rank": 1
+  },
+  {
+   "title": "이 대통령 \"수능 신고 포상금 건당 최소 1억... 부정행위자 수만큼 가산\"",
+   "url": "https://n.news.naver.com/article/469/0000966936",
+   "press": "한국일보",
+   "rank": 1
+  },
+  {
+   "title": "“남북 국가연합 대통령직 北에 보장”…트럼프 1기 대북대표 파격 통일 제안",
+   "url": "https://n.news.naver.com/article/081/0003701739",
+   "press": "서울신문",
+   "rank": 1
+  },
+  {
+   "title": "\"주식시장 자신 있다\"던 李…급락장에 날아온 청구서",
+   "url": "https://n.news.naver.com/article/586/0000142771",
+   "press": "시사저널",
    "rank": 1
   },
   {
@@ -626,27 +501,51 @@
    "rank": 1
   },
   {
-   "title": "한동훈이 김민석을 ‘도요토미 히데요시’라 부른 이유",
-   "url": "https://n.news.naver.com/article/029/0003060289",
-   "press": "디지털타임스",
+   "title": "나경원 \"주식 폭락, 결혼·은퇴자금 반토막...李정권, 국민 돈 물어내라\"",
+   "url": "https://n.news.naver.com/article/014/0005607631",
+   "press": "파이낸셜뉴스",
    "rank": 1
   },
   {
-   "title": "나경원 \"코스피 5% 폭락…이재명 정권 무책임엔 바닥 없어\"",
-   "url": "https://n.news.naver.com/article/018/0006413433",
-   "press": "이데일리",
+   "title": "이 대통령, 대장동 인터뷰 공유…“5,500억 공익 환수가 배임인가”",
+   "url": "https://n.news.naver.com/article/056/0012298574",
+   "press": "KBS",
    "rank": 1
   },
   {
-   "title": "“사퇴하라면 해야죠” 최교진 교육장관 발언에…국힘 “당장 물러나라”",
-   "url": "https://n.news.naver.com/article/022/0004176969",
-   "press": "세계일보",
+   "title": "국보법 위반자도 뉘우치면 인정? ‘운동권 특혜법’ 통과",
+   "url": "https://n.news.naver.com/article/023/0004010925",
+   "press": "조선일보",
    "rank": 1
   },
   {
-   "title": "\"헌정사상 최악 저질 탄핵\"... 정점식, 민주당에 \"탄핵냥이\" 조롱",
-   "url": "https://n.news.naver.com/article/047/0002536725",
-   "press": "오마이뉴스",
+   "title": "한동훈 \"與 대법원장 탄핵은 내란 자백…모두 감옥 갈 것\"",
+   "url": "https://n.news.naver.com/article/656/0000193137",
+   "press": "대전일보",
+   "rank": 1
+  },
+  {
+   "title": "“주식 어디가 바닥인데요?” 외국인은 이미 탈출…이건 7.4조 샀다는데",
+   "url": "https://n.news.naver.com/article/009/0005766931",
+   "press": "매일경제",
+   "rank": 1
+  },
+  {
+   "title": "나흘 만에 나온 교육장관…\"사퇴하라면 해야죠\"",
+   "url": "https://n.news.naver.com/article/055/0001404633",
+   "press": "SBS",
+   "rank": 1
+  },
+  {
+   "title": "李, 대장동 업자 인터뷰 공유하며 “5500억 공익환수가 배임이면…”",
+   "url": "https://n.news.naver.com/article/005/0001886510",
+   "press": "국민일보",
+   "rank": 1
+  },
+  {
+   "title": "[단독] 리트 만점자, 유서에 “죽어도 가려 했지만…조롱 당하겠지”",
+   "url": "https://n.news.naver.com/article/025/0003566859",
+   "press": "중앙일보",
    "rank": 1
   },
   {
@@ -656,175 +555,264 @@
    "rank": 1
   },
   {
+   "title": "한동훈 “민주당, 대법원장 탄핵은 내란 자백…모두 감옥 갈 것”",
+   "url": "https://n.news.naver.com/article/087/0001232324",
+   "press": "강원일보",
+   "rank": 1
+  },
+  {
+   "title": "“유재석, 198억 땅 전액 현금으로 샀다”…강남 건물 드디어 완공",
+   "url": "https://n.news.naver.com/article/016/0002726165",
+   "press": "헤럴드경제",
+   "rank": 1
+  },
+  {
+   "title": "곽상언 “조희대 대법원장 탄핵 당론에 반대…국민이 어떻게 보겠느냐”",
+   "url": "https://n.news.naver.com/article/032/0003484069",
+   "press": "경향신문",
+   "rank": 1
+  },
+  {
+   "title": "한동훈이 김민석을 ‘도요토미 히데요시’라 부른 이유",
+   "url": "https://n.news.naver.com/article/029/0003060289",
+   "press": "디지털타임스",
+   "rank": 1
+  },
+  {
+   "title": "[속보] 이 대통령 \"수능 부정 신고 포상, 1건당 최소 1억\"",
+   "url": "https://n.news.naver.com/article/052/0002436103",
+   "press": "YTN",
+   "rank": 1
+  },
+  {
+   "title": "사상 초유 대법원장 탄핵 ‘12월 초’ 추진",
+   "url": "https://n.news.naver.com/article/449/0000368210",
+   "press": "채널A",
+   "rank": 1
+  },
+  {
+   "title": "나경원 \"코스피 5% 폭락…이재명 정권 무책임엔 바닥 없어\"",
+   "url": "https://n.news.naver.com/article/018/0006413433",
+   "press": "이데일리",
+   "rank": 1
+  },
+  {
+   "title": "한동훈 \"장동혁, '한덕수 판결' 환영…제가 잘못 봤나\"",
+   "url": "https://n.news.naver.com/article/031/0001077012",
+   "press": "아이뉴스24",
+   "rank": 1
+  },
+  {
+   "title": "박영선, 58세에도 ‘모델 몸매’ 유지하는 비결… “고기만 먹는다”",
+   "url": "https://n.news.naver.com/article/346/0000119232",
+   "press": "헬스조선",
+   "rank": 1
+  },
+  {
+   "title": "범여권 186명중 150명 찬성 탄핵안 통과땐 대법원장 직무정지",
+   "url": "https://n.news.naver.com/article/020/0003764097",
+   "press": "동아일보",
+   "rank": 1
+  },
+  {
+   "title": "[속보]한동훈 “이제 민주당이 내란정당, 모두 감옥 갈 것” ‘경고’",
+   "url": "https://n.news.naver.com/article/021/0002834472",
+   "press": "문화일보",
+   "rank": 1
+  },
+  {
+   "title": "엔비디아 14% 폭락에 기술주 휘청…나스닥 5.28%↓",
+   "url": "https://n.news.naver.com/article/629/0000554246",
+   "press": "더팩트",
+   "rank": 1
+  },
+  {
+   "title": "이 대통령 \"수능 부정 신고포상금 1건당 '최소' 1억\"",
+   "url": "https://n.news.naver.com/article/082/0001408277",
+   "press": "부산일보",
+   "rank": 1
+  },
+  {
+   "title": "이 대통령, '대장동 인터뷰' 공유하며 기소 반박 \"5500억 공익환수가 배임인가”",
+   "url": "https://n.news.naver.com/article/002/0002466946",
+   "press": "프레시안",
+   "rank": 1
+  },
+  {
+   "title": "李대통령 \"수능 신고포상금, 건당 최소 1억…부정행위자 수만큼 가산\"",
+   "url": "https://n.news.naver.com/article/008/0005444440",
+   "press": "머니투데이",
+   "rank": 1
+  },
+  {
+   "title": "이 대통령 \"수능 부정신고 포상금 건당 최소 1억 원\"",
+   "url": "https://n.news.naver.com/article/422/0000928539",
+   "press": "연합뉴스TV",
+   "rank": 1
+  },
+  {
    "title": "'국민주'에 물린 개미 어쩌나…절반 넘게 '손실'",
    "url": "https://n.news.naver.com/article/215/0001273445",
    "press": "한국경제TV",
    "rank": 1
   },
   {
-   "title": "박지원 \"한동훈, 이재명 시한부 대통령?...헛소리, 입만 벌리면 거짓말, 수사받고 감옥 가자\"[여의도초대석]",
-   "url": "https://n.news.naver.com/article/660/0000121880",
-   "press": "kbc광주방송",
+   "title": "“사퇴하라면 해야죠” 최교진 교육장관 발언에…국힘 “당장 물러나라”",
+   "url": "https://n.news.naver.com/article/022/0004176969",
+   "press": "세계일보",
+   "rank": 1
+  },
+  {
+   "title": "80∼90도 온천탕에 빠진 60대 화상…헬기 이송",
+   "url": "https://n.news.naver.com/article/654/0000212538",
+   "press": "강원도민일보",
    "rank": 1
   }
  ],
  "trends": {
   "google": [
    {
-    "keyword": "첼시 대 리즈 유나이티드",
-    "traffic": "2000+",
-    "news": [
-     {
-      "title": "프리미어 리그 첼시 대 리즈 점수 예측",
-      "url": "https://ko.laodong.vn/bong-da-quoc-te/du-doan-ti-so-chelsea-vs-leeds-tai-premier-league-1803464.ldo"
-     },
-     {
-      "title": "첼시와 알론소 감독이 직면한 어려운 딜레마.",
-      "url": "https://www.vietnam.vn/ko/chelsea-va-bai-toan-nan-giai-cho-hlv-alonso"
-     }
-    ]
-   },
-   {
-    "keyword": "ai 버블",
-    "traffic": "2000+",
-    "news": [
-     {
-      "title": "개미들 덮친 170조 폭탄…패닉셀 부른 '숨은 리스크' 있었다",
-      "url": "https://www.hankyung.com/article/202611211559i"
-     },
-     {
-      "title": "나스닥 5.3% 폭락, 올해 상승분 다 날렸다…월요일이 두려운 개미들",
-      "url": "http://weekly.chosun.com/news/articleView.html?idxno=57350"
-     }
-    ]
-   },
-   {
-    "keyword": "우니온 베를린 대 라이프치히",
+    "keyword": "newcastle vs arsenal",
     "traffic": "200+",
     "news": [
      {
-      "title": "Confirmed lineups: 1.FC Union Berlin vs. RB Leipzig",
-      "url": "https://sports.yahoo.com/articles/confirmed-lineups-1-fc-union-133000412.html"
+      "title": "Newcastle United vs Arsenal: Premier League preview, team news, stats & head-to-head",
+      "url": "https://www.bbc.com/sport/football/live/cqd01ey009rxt"
      },
      {
-      "title": "Union Berlin vs RB Leipzig: German Bundesliga stats & head-to-head",
-      "url": "https://www.bbc.com/sport/football/live/c6vg2pxggjzpt"
+      "title": "Licensable picture: Premier League - Newcastle United v Arsenal",
+      "url": "https://www.reutersconnect.com/item/premier-league-newcastle-united-v-arsenal/dGFnOnJldXRlcnMuY29tLDIwMjY6bmV3c21sX1VQMUVNQkwxQlhLWEY"
      }
     ]
    },
    {
-    "keyword": "그것이 알고싶다",
+    "keyword": "아스날",
     "traffic": "200+",
     "news": [
      {
-      "title": "성노예→학대 사이버 룸살롱 ‘엑셀’ 파헤친다 (그것이 알고싶다)",
-      "url": "https://sports.donga.com/ent/article/all/20261120/135062142/1"
+      "title": "'게임에서 자기 자신을 주장으로 선택했을 뿐인데' 아스날 선발 명단 유출 논란...아르테타 감독 긴급 대응 - 머니투데이",
+      "url": "https://www.mt.co.kr/sports/2026/11/21/202611211124779349O"
+     },
+     {
+      "title": "아스널의 미켈 아르테타 감독은 선수들의 축구 비디오 게임 플레이를 금지했다.",
+      "url": "https://www.vietnam.vn/ko/hlv-mikel-arteta-cam-cau-thu-arsenal-choi-game-bong-da"
+     }
+    ]
+   },
+   {
+    "keyword": "psg",
+    "traffic": "100+",
+    "news": [
+     {
+      "title": "Le PSG gagne à Nice et enchaîne, mais perd Doué sur blessure",
+      "url": "https://www.tufutbolero.com/fr/actualites/le-psg-gagne-a-nice-et-enchaine-mais-perd-doue-sur-blessure-15df30"
+     },
+     {
+      "title": "Luis Enrique : « On a bien fait le boulot »",
+      "url": "https://www.psg.fr/content/luis-enrique-on-a-bien-fait-le-boulot-reactions-ogc-nice-paris-saint-germain-ligue-1-20262027/"
+     }
+    ]
+   },
+   {
+    "keyword": "뉴캐슬 대 아스널",
+    "traffic": "5000+",
+    "news": [
+     {
+      "title": "‘아스널 희소식’ 살리바 복귀 임박! ‘英 대표’ 콘사로 유지한 방패, 더 단단해진다",
+      "url": "https://www.footballist.co.kr/news/articleView.html?idxno=217112"
+     },
+     {
+      "title": "뉴캐슬 복귀와 아스날에서 브루노 기마랑이스의 큰 도전",
+      "url": "https://ko.laodong.vn/bong-da-quoc-te/ngay-tro-lai-newcastle-va-thach-thuc-lon-cua-bruno-guimaraes-tai-arsenal-1803974.ldo"
+     }
+    ]
+   },
+   {
+    "keyword": "nice vs psg",
+    "traffic": "200+",
+    "news": [
+     {
+      "title": "OGC Nice - PSG : les compositions probables",
+      "url": "https://www.footmercato.net/a7492553014966074759-ogc-nice-psg-les-compositions-probables"
+     },
+     {
+      "title": "Mini feux d'artifice, chants, fumigènes : l'ambiance monte d'un cran avant Nice-PSG - Foot - Ligue 1",
+      "url": "https://sports.orange.fr/videos/football/mini-feux-d-artifice-chants-fumigenes-l-ambiance-monte-d-un-cran-avant-nice-psg-foot-ligue-1-CNT000002tWg1g.html"
+     }
+    ]
+   },
+   {
+    "keyword": "토트넘 홋스퍼 fc 대 입스위치 타운 fc 라인업",
+    "traffic": "100+",
+    "news": [
+     {
+      "title": "Tottenham 2-0 Ipswich: Luca Williams-Barnett stars as Spurs win",
+      "url": "https://www.bbc.com/sport/football/live/c699exk99z54t"
+     },
+     {
+      "title": "Match commentary and highlights: Tottenham 2-0 Ipswich",
+      "url": "https://www.skysports.com/football/live-blog/13610687/tottenham-vs-ipswich-live-premier-league-match-updates-news-and-score"
+     }
+    ]
+   },
+   {
+    "keyword": "เชลซี พบ ลีดส์",
+    "traffic": "100+",
+    "news": [
+     {
+      "title": "เอ็มมานูเอล เอเมก้า: ผมจะพร้อมเมื่อโอกาสมาถึง และผมสนุกกับทุกวันที่เชลซี‍‍‌⁠‌‌‍‌​​‌‌​⁠​‌​⁠​​​⁠​​​⁠​​​⁠​‌‌",
+      "url": "https://www.allfootballapp.com/th/articles/6012815"
+     },
+     {
+      "title": "เชลซีและสถานการณ์ที่ยากลำบากสำหรับผู้จัดการทีมอย่างอลอนโซ่",
+      "url": "https://www.vietnam.vn/th/chelsea-va-bai-toan-nan-giai-cho-hlv-alonso"
+     }
+    ]
+   },
+   {
+    "keyword": "como vs cagliari",
+    "traffic": "100+",
+    "news": [
+     {
+      "title": "Nico Paz jugó media hora en el triunfo del Como ante Cagliari por la Serie A :: Olé - ole.com.ar",
+      "url": "https://www.ole.com.ar/futbol-internacional/nico-paz-partido-cagliari-serie_0_eJijvdpDLg.html"
+     },
+     {
+      "title": "EN VIVO: Finaliza la primera parte con ventaja 1-0 para Como 1907 sobre Cagliari",
+      "url": "https://anecdotarios.com/2026/11/21/como-1907-vs-cagliari-previa-horario-y-como-llegan-para-la-fecha-12/"
+     }
+    ]
+   },
+   {
+    "keyword": "권순우",
+    "traffic": "200+",
+    "news": [
+     {
+      "title": "'타이브레이크 역전쇼' 권순우, 시즌 4번째 4강 [ATP 메츠챌린저]",
+      "url": "https://www.tennis.co.kr/news/articleView.html?idxno=54344"
+     },
+     {
+      "title": "권순우, 프랑스 메츠 챌린저 결승 진출…2시간 7분 혈투 뒤 역전승",
+      "url": "http://m.tennispeople.kr/news/articleView.html?idxno=19876"
+     }
+    ]
+   },
+   {
+    "keyword": "엑셀방송",
+    "traffic": "200+",
+    "news": [
+     {
+      "title": "'그것이 알고싶다', 女 줄세워 가학 벌칙…'사이버 룸살롱' 엑셀 방송의 충격 실태 - 머니투데이",
+      "url": "https://www.mt.co.kr/entertainment/2026/11/21/2026112120007264440"
      },
      {
       "title": "'그것이 알고싶다'(그알) 딸의 방송 본 아버지 제보로 드러난 '엑셀 방송' 실태",
       "url": "https://www.gukjenews.com/news/articleView.html?idxno=3759174"
      }
     ]
-   },
-   {
-    "keyword": "tvn",
-    "traffic": "100+",
-    "news": [
-     {
-      "title": "Maciej Pela świętuje 37. urodziny. Tak spędził wyjątkowy dzień. Pokazał nagranie z córkami",
-      "url": "https://tvn.pl/gwiazdy/maciej-pela-swietuje-37-urodziny-st9349276"
-     },
-     {
-      "title": "Jak mieszka Maciej Pela? Pokazał wnętrza swojego \"m4\" [ZDJĘCIA]",
-      "url": "https://jastrzabpost.pl/maciej-pela-jak-mieszka-pokazal-wnetrza-mieszkania-zdjecia,7352990209325056g"
-     }
-    ]
-   },
-   {
-    "keyword": "george munsey",
-    "traffic": "1000+",
-    "news": [
-     {
-      "title": "Final (D/N), Nepal Premier League at Kirtipur, Nov 21 2026",
-      "url": "https://www.espn.com/cricket/series/23081/scorecard/1558613/lumbini-lions-npl-vs-sudur-paschim-royals-npl-final-nepal-premier-league-2026-27"
-     },
-     {
-      "title": "Live Cricket Score, Schedule, Latest News, Stats & Videos",
-      "url": "https://www.cricbuzz.com/player-match-performance/match/177841/player/14220/batting?inningsId=1"
-     }
-    ]
-   },
-   {
-    "keyword": "묀헨글라트바흐 대 도르트문트",
-    "traffic": "500+",
-    "news": [
-     {
-      "title": "'독일 무대에서 사라졌던 태극전사, 마침내 돌아왔다' 옌스 카스트로프, 시즌 22분 출전 설움 딛고 BVB전 선발 - 머니투데이",
-      "url": "https://www.mt.co.kr/sports/2026/11/21/202611212319775906O"
-     },
-     {
-      "title": "‘韓축구 풀백의 희망’ 옌스, BVB전서 첫 선발 출격 전망...“빠르게 투입 가능”",
-      "url": "https://www.fourfourtwo.co.kr/news/articleView.html?idxno=101034"
-     }
-    ]
-   },
-   {
-    "keyword": "김혜윤",
-    "traffic": "100+",
-    "news": [
-     {
-      "title": "김혜윤 능력 알아본 장나라…'굿파트너2' 8.4% 출발",
-      "url": "https://www.yna.co.kr/view/AKR20261121023000005"
-     },
-     {
-      "title": "“인생은 타이밍입니다?” 박해진, 김혜윤에게 파격 조건으로 영입 시도♨",
-      "url": "https://programs.sbs.co.kr/drama/goodpartner2/clip/88592/OC483964180"
-     }
-    ]
-   },
-   {
-    "keyword": "psm makassar vs persija jakarta",
-    "traffic": "100+",
-    "news": [
-     {
-      "title": "PSM Makassar - Persija Jakarta prediction & tips 21.11.2026",
-      "url": "https://www.transfermarkt.com/betting/tips/psm-makassar-vs-persija-jakarta-prediction-21-11-2026/"
-     },
-     {
-      "title": "BRI Super League Schedule November 20–22, 2026: Persib vs Bali United, PSM vs Persija, Check Kick-off Times",
-      "url": "https://aktualita.co/en/sports/bri-super-league-schedule-november-2026"
-     }
-    ]
-   },
-   {
-    "keyword": "맨시티",
-    "traffic": "1000+",
-    "news": [
-     {
-      "title": "Apollo Global Management LLC Class A, 맨시티 구단주 측 20억 달러 대출 철회",
-      "url": "https://kr.investing.com/news/stock-market-news/article-93CH-2182874"
-     },
-     {
-      "title": "맨체스터 시티는 프리미어 리그와의 법적 분쟁에서 매우 불리한 입장에 놓여 있다.",
-      "url": "https://www.vietnam.vn/ko/man-city-gap-bat-loi-lon-trong-cuoc-chien-phap-ly-voi-premier-league"
-     }
-    ]
    }
   ],
   "buzz": [
-   {
-    "word": "GTA6",
-    "boards": [
-     "디시",
-     "루리웹",
-     "엠팍"
-    ],
-    "titles": [
-     "[싱갤] 와들와들 GTA6 근황…jpg",
-     "GTA6)의외로 많은 유저들이 겪은 사망 원인.x",
-     "GTA6 가격이 비싼게 아니라 오히려 혜자인 이유"
-    ]
-   },
    {
     "word": "주식",
     "boards": [
@@ -833,9 +821,9 @@
      "보배드림"
     ],
     "titles": [
+     "[러갤] 주말에 민심 난리난 주식 투자자들 근황 ㄷㄷ",
      "[미갤] 아시아 주식 시장 대참사....JPG",
-     "연봉 1억 남편의 주식 4번, 100만 원 생활비, 그리고 ...",
-     "요즘 주식 시장에 대한 개인적인 소견"
+     "연봉 1억 남편의 주식 4번, 100만 원 생활비, 그리고 ..."
     ]
    },
    {
@@ -851,39 +839,25 @@
     ]
    },
    {
-    "word": "AI",
+    "word": "대만",
+    "boards": [
+     "디시",
+     "보배드림"
+    ],
+    "titles": [
+     "[위갤] 대만 위스키 여행 후기(가품양주, 탑츠바키, 카발란 증류소 ) - 1 (스압주의)",
+     "대만에서 한국인과 일본인이 받는 대우 차이"
+    ]
+   },
+   {
+    "word": "GTA",
     "boards": [
      "디시",
      "엠팍"
     ],
     "titles": [
-     "[주갤] 도쿄대 한국인 수석 AI 의혹, 여초 주작으로 밝혀짐",
-     "[잡갤] 서울대 교수가 말하는 AI로 치대가서 의사 될 수 있는 이유.eu",
-     "AI가 모든 걸 대체하고 돈은 필요없다는 시대 온다는데 정작"
-    ]
-   },
-   {
-    "word": "JPG",
-    "boards": [
-     "디시",
-     "루리웹"
-    ],
-    "titles": [
-     "[싱갤] 젠슨황, 직원들에게 상습적 모욕폭언...JPG",
-     "[미갤] 아시아 주식 시장 대참사....JPG",
-     "안먹어도 편식이라고 하면 안되는 음식 1위.JPG"
-    ]
-   },
-   {
-    "word": "올해",
-    "boards": [
-     "더쿠",
-     "디시"
-    ],
-    "titles": [
-     "홈마카세) 올해 먹은 식사중에 최고였다",
-     "스압) 올해의 마지막 자전거여행",
-     "[2026 MAMA] 올해의 노래 - 코르티스 <RED RED>"
+     "[싱갤] 해외선 정치성향따라 극명하게 갈리는 GTA 반응",
+     "GTA 세계관 최고의 인기 주인공은"
     ]
    },
    {
@@ -898,14 +872,25 @@
     ]
    },
    {
-    "word": "찌라시",
+    "word": "서울대",
     "boards": [
      "디시",
      "엠팍"
     ],
     "titles": [
-     "[정갤] 서강냥이 최신 찌라시",
-     "리만가설 클로드가 증명했다는거 이거 찌라시 며칠전부터 돌았는데"
+     "[잡갤] 서울대 교수가 말하는 AI로 치대가서 의사 될 수 있는 이유.eu",
+     "로스쿨도 5수 해서 서울대 로스쿨 가면 좋나요?"
+    ]
+   },
+   {
+    "word": "기회",
+    "boards": [
+     "네이트판",
+     "디시"
+    ],
+    "titles": [
+     "[잡갤] 트럼프, 젠슨 황 복귀 촉구…\"두 번째 기회 주어져야\"",
+     "언젠가 서로 마주할 기회가 생긴다면"
     ]
    },
    {
@@ -931,36 +916,14 @@
     ]
    },
    {
-    "word": "자식",
+    "word": "간만",
     "boards": [
      "디시",
      "엠팍"
     ],
     "titles": [
-     "[특갤] 이제 자식을 학교에 보내면 \"범죄\"",
-     "자식이 양아치에 고등학교 중퇴에"
-    ]
-   },
-   {
-    "word": "얘기",
-    "boards": [
-     "네이트판",
-     "디시"
-    ],
-    "titles": [
-     "[영갤] 디톡스 잉글리시 김태훈 선생님 얘기도 옳은 말임",
-     "처가 재산 얘기 듣고 온 날 마음이 좀 이상했어요"
-    ]
-   },
-   {
-    "word": "국가",
-    "boards": [
-     "디시",
-     "루리웹"
-    ],
-    "titles": [
-     "[싱갤] 싱글벙글 국가가 계속 수시 비중을 늘리는 이유",
-     "중동 무슬림 국가 출장시 꿀팁"
+     "어휴 간만에 밤새 sff겜기 만들었네 ㅎㅎ",
+     "간만에 먹은것들 올려봅니다~"
     ]
    },
    {
@@ -975,14 +938,47 @@
     ]
    },
    {
-    "word": "프리큐어",
+    "word": "대상",
     "boards": [
-     "디시",
-     "루리웹"
+     "네이트판",
+     "더쿠"
     ],
     "titles": [
-     "세트병) 프리큐어 20년 즈언통의 굿즈모음",
-     "내일 프리큐어에 등장하는 빵순이 누나 특징"
+     "<4회 핑계고 시상식> 대상 후보 7인 공개",
+     "방탄 지금까지 대상만 80개래"
+    ]
+   },
+   {
+    "word": "드라마",
+    "boards": [
+     "더쿠",
+     "엠팍"
+    ],
+    "titles": [
+     "남주가 ㅇㅇ한 드라마 <라이어> (ㅅㅍ주의)",
+     "드라마 라이어 옥자연"
+    ]
+   },
+   {
+    "word": "라이어",
+    "boards": [
+     "더쿠",
+     "엠팍"
+    ],
+    "titles": [
+     "남주가 ㅇㅇ한 드라마 <라이어> (ㅅㅍ주의)",
+     "드라마 라이어 옥자연"
+    ]
+   },
+   {
+    "word": "하이닉스",
+    "boards": [
+     "더쿠",
+     "보배드림"
+    ],
+    "titles": [
+     "밑바닥 뚫고 지하로 향하는 하이닉스",
+     "손정의, 하이닉스 1조달러 인수 추진"
     ]
    }
   ]
