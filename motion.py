@@ -1090,6 +1090,25 @@ def _prop(it: dict, d: dict) -> tuple[int, int, str]:
     return 700, 640, '<div class="tri"></div><div class="tri2"></div><div class="ex" style="font-size:330px">!</div>'
 
 
+def open_clip(clips: list, episode) -> bool:
+    """Opening test (2026-11-21): on odd episodes the title card no longer sits on a blank panel - the first
+    footage of the story (scenes 1-3) plays behind it from frame 0. Studio, 31 videos 11/9-20: the share of
+    feed viewers who stay correlates 0.68 with views (hits 68-80 %, recent median 62 %), and every video,
+    hit or not, opens with 2-3 s of a still white card. Even episodes keep the old opening as the control;
+    render records history "open_bg" so the two can be compared."""
+    try:
+        odd = int(episode) % 2 == 1
+    except (TypeError, ValueError):
+        return False
+    if not odd or not clips or clips[0]:
+        return False
+    for c in clips[1:4]:
+        if c:
+            clips[0] = c
+            return True
+    return False
+
+
 def build(segments, visuals, times, cues, title, credit, picker, font_path, clips=None,
           episode=None) -> tuple[str, list]:
     """segments: [{sfx}], visuals: [{bg, items}], times: [(start, end)],
@@ -1166,12 +1185,18 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                 fs = min(92, int(860 / (0.95 * max(1, longest))))
                 lines = max(1, text.count("\n") + 1)
                 w, h = 1000, int(fs * 1.3 * lines + 280)
+                over = ""
+                if has_clip:   # 2026-11-21 open_clip test: the hook's footage plays behind, the card sits low and smaller
+                    fs = int(fs * 0.8)
+                    w, h = 860, int(fs * 1.3 * lines + 250)
+                    d["y"] = PANEL_H - h / 2 - 36
+                    over = "border-radius:28px;box-shadow:0 14px 40px rgba(0,0,0,.45);"
                 d.update(w=w, h=h, type="text")
                 today = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).strftime("%Y.%m.%d")
                 # the writer is the channel cat with a running episode number: the same face every video
                 # and in the like nudge, so the feed sees one recurring host instead of an anonymous post
                 ep = f"<span>썰 #{int(episode)}</span>" if episode else ""
-                parts.append(f'<div class="it tx post" style="width:{w}px;height:{h}px;z-index:{Z["text"]};display:flex">'
+                parts.append(f'<div class="it tx post" style="width:{w}px;height:{h}px;z-index:{Z["text"]};display:flex;{over}">'
                              f'<div class="board">🔥 썰가챠 썰 게시판 ›</div><div class="ttl" style="font-size:{fs}px">{esc(text)}</div>'
                              f'<div class="meta">{cat_svg("cat ava")}<b>가챠냥</b>{ep}<span>{today}</span></div></div>')
             else:

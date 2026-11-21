@@ -71,6 +71,7 @@ def preview(script_path: Path, cfg: dict) -> dict:
         if i in grokclips.wanted(script) and (gdir / f"scene_{i:02d}.mp4").exists():
             clips[i] = grokclips.clip_frames(gdir / f"scene_{i:02d}.mp4", en - st + motion.LEAD + 0.2,
                                              work / f"grok_{i:02d}", motion.FPS) or clips[i]
+    motion.open_clip(clips, script.get("episode", 1))
     html, _ = motion.build(segments, visuals, times, cues, script["title_lines"], "", Picker(),
                            REPO / "assets" / "fonts" / "BlackHanSans-Regular.ttf", clips,
                            episode=script.get("episode", 1))

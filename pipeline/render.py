@@ -244,6 +244,7 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
                 break
         clips.append(clip)
     print(f"  stock clips: {sum(1 for c in clips if c)}/{sum(1 for v in visuals if (v or {}).get('video') or (v or {}).get('pic'))}")
+    open_bg = motion.open_clip(clips, script.get("episode"))
     html, cuts = motion.build(segments, visuals, times, cues, script["title_lines"], script.get("credit", ""),
                               picker, repo / "assets" / "fonts" / "BlackHanSans-Regular.ttf", clips,
                               episode=script.get("episode"))
@@ -297,7 +298,9 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
         print(f"  소리 없는 컷 전환: {sound['cuts_without_sound']}")
     if sound.get("skipped") or sound.get("error"):
         print(f"  소리 검수 건너뜀: {sound.get('skipped') or sound.get('error')}")
-    return {"sound_qa": sound,"stock_clips": [c["url"] for c in clips if c],
-            "cc_clips": [{"url": c["url"], "by": c["by"], "license": c["license"]} for c in clips if c and c.get("license")], "duration": round(cursor, 2), "matches": [round(r.match, 2) for r in results],
+    return {"sound_qa": sound, "open_bg": open_bg,
+            "stock_clips": [c["url"] for i, c in enumerate(clips) if c and not (open_bg and i == 0)],
+            "cc_clips": [{"url": c["url"], "by": c["by"], "license": c["license"]} for i, c in enumerate(clips)
+                         if c and c.get("license") and not (open_bg and i == 0)], "duration": round(cursor, 2), "matches": [round(r.match, 2) for r in results],
             "sfx": len(sfx), "illustrations": len(picker.used), "cuts": len(cuts) + 1,
             "layout_issues": issues, "caption_breaks": breaks}
