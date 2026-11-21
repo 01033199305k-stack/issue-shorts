@@ -9096,5 +9096,68 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-21_1200_milk-carton-japan-import/video.mp4"
   },
   "seconds": 1495
+ },
+ {
+  "key": "2026-11-21-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-21T18:00:00+09:00",
+  "started": "2026-11-21T15:20:34.060192+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-21_1800_csat-cheating-wifi-tracking/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-21_1800_csat-cheating-wifi-tracking/video.mp4', '--det"
+  },
+  "stock_clips": [
+   "https://pixabay.com/videos/id-14906/",
+   "https://pixabay.com/videos/id-15641/",
+   "https://pixabay.com/videos/id-41263/",
+   "https://pixabay.com/videos/id-3176/",
+   "https://pixabay.com/photos/technology-network-storage-industry-8118380/",
+   "https://pixabay.com/videos/id-60266/"
+  ],
+  "cc_clips": [],
+  "duration": 26.67,
+  "matches": [
+   1.0,
+   0.94,
+   1.0,
+   0.98,
+   0.98,
+   0.98,
+   0.98,
+   0.94,
+   1.0,
+   0.98,
+   0.98,
+   1.0
+  ],
+  "sfx": 11,
+  "illustrations": 10,
+  "cuts": 12,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "수능날 안 걸린 부정행위자들 근황 #shorts",
+  "source_post": "https://www.hankookilbo.com/news/article/A2026112019290005932",
+  "facts_used": [
+   "11/20 범정부 수능 부정행위 대응 TF 1차 회의: 전담 감독관이 시험 당일 의심되는 와이파이·블루투스 신호를 기록·저장, 분석해 수사 의뢰 — 경향신문 2026-11-20 https://www.khan.co.kr/article/202611201532001/ , 국민일보 2026-11-20 https://kmib.co.kr/article/20261120500409 , 한국일보 https://www.hankookilbo.com/news/article/A2026112019290005932 , YTN https://www.ytn.co.kr/_ln/0101_202611202241155630",
+   "정부, 수능 끝난 뒤에도 끝까지 찾아 고발 — 국민일보 https://kmib.co.kr/article/20261120500409 , 월요신문 https://wolyo.co.kr/news/articleView.html?idxno=320829",
+   "AI 기업과 협력해 시험 시간대 수능 문제 입력·이미지 업로드 기록 확인 방침(계획 단계), 이용 기록만으로 응시자 특정 어렵다·제3자 계정 가능성 지적 — 세계일보 https://www.segye.com/newsView/20261120513051 , 글로벌이코노믹 https://www.g-enews.com/article/General-News/2026/11/202611201848552261112616b072_1",
+   "올해 수능 스마트기기 등 전자기기 관련 부정행위 111건 적발(교육부) — 세계일보 https://www.segye.com/newsView/20261120513051 , 글로벌이코노믹 동일 기사",
+   "경찰, 부정행위 자백·예고 글·장비 판매 글 등 13건 내사, 게시물 40건 삭제·차단(11/18) — 연합뉴스 전재 https://www.koreancenter.or.kr/news/articleView.html?idxno=1441531 , 매일신문 https://www.imaeil.com/page/view/2026111716435039214",
+   "시험 부정행위 처벌: 위계공무집행방해·업무방해 각 5년 이하 징역 — 위키트리 https://www.wikitree.co.kr/articles/1175030 , 국민일보 '징역 최대 5년'",
+   "커뮤니티 글 '수능때 안걸린 부정행위자들 ㅈ됐음'(보배드림 댓글 81), '정부, 수능 부정시험자 끝까지 추적한다'(디시 댓글 311) — inbox/latest.json 2026-11-21 15:13"
+  ],
+  "slug": "2026-11-21_1800_csat-cheating-wifi-tracking",
+  "late": false,
+  "video_id": "3vRh7cDuLLI",
+  "url": "https://youtube.com/shorts/3vRh7cDuLLI",
+  "privacy": "private",
+  "scheduled_for": "2026-11-21T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b013e015e993799d85994cd",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-21T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-21_1800_csat-cheating-wifi-tracking/video.mp4"
+  },
+  "seconds": 1489
  }
 ]
