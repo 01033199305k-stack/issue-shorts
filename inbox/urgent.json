@@ -1,59 +1,53 @@
 {
- "detected_at": "2026-11-21T15:13+09:00",
+ "detected_at": "2026-11-22T00:17+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 일반열차 중단 천안~대전에 KTX 등 15대 투입",
-   "url": "https://n.news.naver.com/article/422/0000928492",
-   "press": "연합뉴스TV",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "나경원 \"주식 폭락, 결혼·은퇴자금 반토막...李정권, 국민 돈 물어내라\"",
-   "url": "https://n.news.naver.com/article/014/0005607631",
-   "press": "파이낸셜뉴스",
+   "title": "'100% 못 막아' 발언 논란 최교진 \"사퇴하라면 해야죠\"",
+   "url": "https://n.news.naver.com/article/057/0001979242",
+   "press": "MBN",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "한국경제",
-     "title": "나경원 \"10개월 만에 주가 반토막…결혼·은퇴자금 사라져\"",
-     "url": "https://n.news.naver.com/article/015/0005356569"
+     "press": "SBS",
+     "title": "나흘 만에 나온 교육장관…\"사퇴하라면 해야죠\"",
+     "url": "https://n.news.naver.com/article/055/0001404633"
     },
     {
-     "press": "시사저널",
-     "title": "코스피 4900선 붕괴에…나경원 \"李정권, 국민 돈 물어내라\"",
-     "url": "https://n.news.naver.com/article/586/0000142778"
+     "press": "세계일보",
+     "title": "“사퇴하라면 해야죠” 최교진 교육장관 발언에…국힘 “당장 물러나라”",
+     "url": "https://n.news.naver.com/article/022/0004176969"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "이 대통령 \"5,500억 환수한 게 배임인가\"‥대장동 의혹 거듭 반박",
-   "url": "https://n.news.naver.com/article/214/0001537064",
-   "press": "MBC",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "李대통령 \"수능 신고포상금은 건당 최소 1억원…부정행위자 수만큼 가산\"",
+   "url": "https://n.news.naver.com/article/421/0009302690",
+   "press": "뉴스1",
+   "why": "언론사 7곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "kbc광주방송",
-     "title": "李대통령 \"5,500억 환수한 게 배임죄라면\"…대장동 의혹 정면 반박",
-     "url": "https://n.news.naver.com/article/660/0000121881"
+     "press": "머니투데이",
+     "title": "李대통령 \"수능 신고포상금, 건당 최소 1억…부정행위자 수만큼 가산\"",
+     "url": "https://n.news.naver.com/article/008/0005444440"
     },
     {
-     "press": "KBS",
-     "title": "이 대통령, 대장동 인터뷰 공유…“5,500억 공익 환수가 배임인가”",
-     "url": "https://n.news.naver.com/article/056/0012298574"
+     "press": "한국일보",
+     "title": "이 대통령 \"수능 신고 포상금 건당 최소 1억... 부정행위자 수만큼 가산\"",
+     "url": "https://n.news.naver.com/article/469/0000966936"
+    },
+    {
+     "press": "YTN",
+     "title": "[속보] 이 대통령 \"수능 부정 신고 포상, 1건당 최소 1억\"",
+     "url": "https://n.news.naver.com/article/052/0002436103"
+    },
+    {
+     "press": "연합뉴스TV",
+     "title": "이 대통령 \"수능 부정신고 포상금 건당 최소 1억 원\"",
+     "url": "https://n.news.naver.com/article/422/0000928539"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 李대통령, 울산 AI데이터센터 찾아 “지방 중심 AI 투자로 균형 발전”",
-   "url": "https://n.news.naver.com/article/022/0004176982",
-   "press": "세계일보",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
