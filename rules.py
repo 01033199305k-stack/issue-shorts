@@ -529,6 +529,9 @@ def lint(script: dict) -> list[str]:
     if "구조:" not in brief:   # 2026-11-02: every video is told in stages (ROUTINE 구성)
         p.append("brief has no 구조: line - write 구조: 시작 / 커짐 / 뒤집힘 / 정체 / 그 뒤 "
                  "(우리 얘기 레인: 구조: 발단 / 반응 / 이유 / 갈림 / 한 방)")
+    if "화제:" not in brief:   # 2026-11-21 사용자: "화제성이 있는 거를 걸러 버리면 조회수가 안 나오겠지?" (ROUTINE 맨 위)
+        p.append("brief has no '화제:' line - name the hot topic this rides and why it is hot (trend list / inbox rank / comments), "
+                 "or '화제: 없음 — <why none of the 5 hottest could be used at any angle>'")
     if "레인:" not in brief:   # 2026-11-13 네 번째 전환: 12·18시는 우리 얘기, 07시는 사건 (ROUTINE 맨 위) - 레인별 조회수 비교용
         p.append("brief has no '레인:' line - write '레인: 우리얘기' or '레인: 사건' (ROUTINE 2026-11-13: 12시·18시 = 우리 얘기)")
     elif "레인: 우리얘기" in brief and "댓글거리:" not in brief:
