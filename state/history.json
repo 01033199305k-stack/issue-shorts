@@ -9159,5 +9159,64 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-21_1800_csat-cheating-wifi-tracking/video.mp4"
   },
   "seconds": 1489
+ },
+ {
+  "key": "2026-11-22-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-22T07:00:00+09:00",
+  "started": "2026-11-22T04:20:14.517310+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-22_0700_arsenal-fpl-captain-lineup-leak/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-22_0700_arsenal-fpl-captain-lineup-leak/video.mp4'"
+  },
+  "open_bg": true,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-208387/",
+   "https://pixabay.com/videos/id-4733/",
+   "https://pixabay.com/videos/id-122965/",
+   "https://pixabay.com/photos/iphone-hand-screen-smartphone-apps-410311/"
+  ],
+  "cc_clips": [],
+  "duration": 29.53,
+  "matches": [
+   0.95,
+   0.94,
+   0.94,
+   0.94,
+   0.94,
+   0.96,
+   0.97,
+   0.97,
+   0.93,
+   0.93,
+   1.0,
+   1.0
+  ],
+  "sfx": 11,
+  "illustrations": 7,
+  "cuts": 12,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "자기를 주장 뽑았다가 선발 들킨 아스널 선수 #shorts",
+  "source_post": "https://sports.news.nate.com/view/20261121n09844",
+  "facts_used": [
+   "아스널 공격수 크리스토스 촐리스, 약 한 달(리그 3경기) 햄스트링 부상 결장 뒤 11/1 리버풀전 앞두고 FPL 팀에 자신을 넣고 주장 지정, 유저들이 선발 복귀 예측 — 머니투데이 2026-11-21 https://sports.news.nate.com/view/20261121n09844 , Yahoo Sports https://sports.yahoo.com/articles/arteta-warns-arsenal-players-over-140859212.html , Sportsmole https://www.sportsmole.co.uk/football/arsenal/injury-news/news/not-just-a-game-tzolis-drops-double-liverpool-arsenal-hint-with-fpl-decisions_608175.html",
+   "FPL 주장은 점수 두 배 — 재경일보 https://news.jkn.co.kr/post/1113265",
+   "리버풀 0-1 아스널(11/1, 안필드), 아스널의 안필드 리그 승리는 14년 만, 촐리스 선발 84분 뒤 교체 — 리버풀 공식 경기 보고 https://www.liverpoolfc.com/news/match-report-liverpool-arsenal-premier-league-november-2026 , SI 평점 https://www.si.com/soccer/liverpool-vs-arsenal-player-ratings-11-1-26 , Livescore",
+   "아르테타 뉴캐슬전 기자회견: 기밀 유지는 신뢰의 문제, 선수단·주변에 주의, 아스널 선수들은 FPL에서 자기 선택 제한, '내 아이들도 계속 물어본다' — 재경일보 https://news.jkn.co.kr/post/1113265 , Yahoo Sports https://sports.yahoo.com/articles/arteta-bans-arsenal-players-picking-140223456.html , Sporting Tribune https://sportingtribune.com/fpl-arteta-warns-arsenal-players-against-leaking-team-news/"
+  ],
+  "slug": "2026-11-22_0700_arsenal-fpl-captain-lineup-leak",
+  "late": false,
+  "video_id": "bldDFRITKis",
+  "url": "https://youtube.com/shorts/bldDFRITKis",
+  "privacy": "private",
+  "scheduled_for": "2026-11-21T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b01f624846b0ee907338db7",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-21T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-22_0700_arsenal-fpl-captain-lineup-leak/video.mp4"
+  },
+  "seconds": 1848
  }
 ]
