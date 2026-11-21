@@ -1,59 +1,57 @@
 {
- "detected_at": "2026-11-21T08:58+09:00",
+ "detected_at": "2026-11-21T15:13+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "김건희 \"죽어도 이해 못 해\" 울먹이더니…판사에 \"감동\"",
-   "url": "https://n.news.naver.com/article/437/0000521742",
-   "press": "JTBC",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 일반열차 중단 천안~대전에 KTX 등 15대 투입",
+   "url": "https://n.news.naver.com/article/422/0000928492",
+   "press": "연합뉴스TV",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "나경원 \"주식 폭락, 결혼·은퇴자금 반토막...李정권, 국민 돈 물어내라\"",
+   "url": "https://n.news.naver.com/article/014/0005607631",
+   "press": "파이낸셜뉴스",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "YTN",
-     "title": "'실형 확정' 김건희, 법정서 울분...\"죽어도 이해 못 해\"",
-     "url": "https://n.news.naver.com/article/052/0002435918"
+     "press": "한국경제",
+     "title": "나경원 \"10개월 만에 주가 반토막…결혼·은퇴자금 사라져\"",
+     "url": "https://n.news.naver.com/article/015/0005356569"
     },
     {
-     "press": "강원일보",
-     "title": "김건희, 도이치 유죄 확정에 “죽어도 이해 못 해”…법정서 “정치 눈치 언제까지 볼 건가”",
-     "url": "https://n.news.naver.com/article/087/0001232309"
-    },
-    {
-     "press": "노컷뉴스",
-     "title": "격앙된 김건희 \"주가조작 유죄, 죽어도 이해 못해\"",
-     "url": "https://n.news.naver.com/article/079/0004212291"
+     "press": "시사저널",
+     "title": "코스피 4900선 붕괴에…나경원 \"李정권, 국민 돈 물어내라\"",
+     "url": "https://n.news.naver.com/article/586/0000142778"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "李대통령, 대장동 인터뷰 공유…\"공익환수 배임죄면 일반허가는\"",
-   "url": "https://n.news.naver.com/article/001/0016455384",
-   "press": "연합뉴스",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "이 대통령 \"5,500억 환수한 게 배임인가\"‥대장동 의혹 거듭 반박",
+   "url": "https://n.news.naver.com/article/214/0001537064",
+   "press": "MBC",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "국민일보",
-     "title": "李, 대장동 업자 인터뷰 공유하며 “5500억 공익환수가 배임이면…”",
-     "url": "https://n.news.naver.com/article/005/0001886510"
+     "press": "kbc광주방송",
+     "title": "李대통령 \"5,500억 환수한 게 배임죄라면\"…대장동 의혹 정면 반박",
+     "url": "https://n.news.naver.com/article/660/0000121881"
     },
     {
-     "press": "프레시안",
-     "title": "[속보] 이 대통령, '대장동 인터뷰' 공유하며 기소 반박 \"5500억 공익환수가 배임인가”",
-     "url": "https://n.news.naver.com/article/002/0002466946"
-    },
-    {
-     "press": "조선비즈",
-     "title": "李 대통령 “5500억 공익 환수가 배임이면 일반 개발 허가는?”",
-     "url": "https://n.news.naver.com/article/366/0001206345"
+     "press": "KBS",
+     "title": "이 대통령, 대장동 인터뷰 공유…“5,500억 공익 환수가 배임인가”",
+     "url": "https://n.news.naver.com/article/056/0012298574"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]AI주 투매에 나스닥 5%대 급락…올해 상승분 반납",
-   "url": "https://n.news.naver.com/article/018/0006413398",
-   "press": "이데일리",
+   "title": "[속보] 李대통령, 울산 AI데이터센터 찾아 “지방 중심 AI 투자로 균형 발전”",
+   "url": "https://n.news.naver.com/article/022/0004176982",
+   "press": "세계일보",
    "why": "[속보] 기사",
    "related": []
   }
