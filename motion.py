@@ -402,7 +402,7 @@ body { font-family: BH, 'Malgun Gothic', 'Noto Sans CJK KR', sans-serif; color:#
   font-weight:700; font-size:24px; color:rgba(0,0,0,.42); white-space:nowrap; overflow:hidden; z-index:5; }
 #credit.dark { color:rgba(255,255,255,.55); }
 /* stock footage behind a scene's items, swapped frame by frame; '자료화면' so it never passes as the real event */
-.bgv { position:absolute; left:0; top:0; width:1080px; height:960px; object-fit:cover; z-index:0; }
+.bgv { position:absolute; left:-30px; top:-30px; width:1140px; height:1020px; object-fit:cover; z-index:0; }   /* wider than the panel like .pbg: the pan must not show the panel behind it */
 .tag { position:absolute; right:18px; top:16px; z-index:4; font-family:'Noto Sans CJK KR','Malgun Gothic',sans-serif;
   font-weight:700; font-size:30px; color:#fff; background:rgba(0,0,0,.5); padding:4px 14px; border-radius:8px; }
 /* captions like @dolongcha (2026-10-08): up to 2 big lines in a see-through grey box laid over the
@@ -815,6 +815,19 @@ window.qa = function (t) {
       }
     });
   });
+  // stickers and reaction emoji stay inside the picture panel whatever the camera does (2026-11-22: corner items
+  // rode every push-in out under the title bar - "자꾸 올라가서 보기 불편해"). Reported as a note: QA_NOTES.
+  scenes.forEach((sc, i) => {
+    if (getComputedStyle(sc).visibility === 'hidden' || +(sc.style.opacity || 1) < .99) return;
+    D.scenes[i].items.forEach((d, j) => {
+      const el = sc.children[j];
+      const small = d.type === 'emoji' ? Math.max(d.w, d.h) <= 330 : (d.type === 'illust' && !!D.scenes[i].clip);
+      if (!small || d.fx === 'stamp' || !el || (el._life ?? -1) < .6 || opacityOf(el) < .5) return;
+      const r = el.getBoundingClientRect(), cut = Math.max(P.left - r.left, r.right - P.right, P.top - r.top);
+      if (cut > 10) out.push({t: +t.toFixed(2), kind: 'sticker-cut', msg: `${d.type} ${Math.round(cut)}px past the panel edge`,
+        text: d.type === 'emoji' ? (el.textContent || '').trim().slice(0, 4) : 'scene ' + i + ' sticker'});
+    });
+  });
   // the red circle: the marked words must sit inside the ellipse, the stroke must not run through them
   // (2026-10-25: '04:39 돈통 열고 나감' - the ellipse crossed '나감'), and the whole ring must stay in the panel
   scenes.forEach((sc, i) => {
@@ -965,6 +978,66 @@ def _separate(parts, data, pics, floor, pfloor=None) -> None:
         pd["y"] = max(pd["y"], lo + h / 2)
 
 
+_OPAQUE: dict = {}
+
+
+def _opaque(path) -> bool:
+    """A drawing with no transparent corners (7 % of the いらすとや cache, 2026-11-22): on footage it is a white box."""
+    if not path:
+        return False
+    key = str(path)
+    if key not in _OPAQUE:
+        try:
+            from PIL import Image
+            with Image.open(path) as im:
+                w, h = im.size
+                if im.mode in ("RGBA", "LA", "PA") or "transparency" in im.info:
+                    a = im.convert("RGBA")
+                    _OPAQUE[key] = min(a.getpixel(q)[3] for q in ((1, 1), (w - 2, 1), (1, h - 2), (w - 2, h - 2))) >= 250
+                else:
+                    _OPAQUE[key] = True
+        except Exception:
+            _OPAQUE[key] = False
+    return _OPAQUE[key]
+
+
+def _cam_reach(cam: str, focus, kb, zmax) -> tuple[float, float, float, float]:
+    """The furthest the scene camera goes (JS render): (zoom, origin x, origin y, sideways pan in px)."""
+    if cam == "punch":
+        return 1.3, focus[0], focus[1], 0.0
+    if cam == "detail":
+        return float(zmax), focus[0], focus[1], 0.0
+    if cam == "push":
+        return 1.16, 540, 430, 0.0
+    if cam == "pull":
+        return 1.2, 540, 430, 0.0
+    if kb:
+        return 1.07, 540, 430, 18.0   # KB_Z and half of KB_PAN
+    return 1.05, 540, 430, 0.0
+
+
+def _keep_in_frame(data: list, cam: str, focus, kb, zmax, has_clip: bool) -> None:
+    """Small stickers and reaction emoji stay inside the picture panel whatever the camera does.
+    2026-11-22 (사용자: "이모티콘 같은 애들이 위치가 이상한데 자꾸 올라가서 보기 불편해"): a corner item rides the scene's
+    zoom outwards - a top-right emoji 36 px under the title bar lost 85 px of its 208 to a 1.3x punch. Its
+    resting place is pulled in just far enough that its box is whole at the camera's furthest reach
+    (top, left and right; the bottom is the caption box's side and has its own floor)."""
+    z, ox, oy, pan = _cam_reach(cam, focus, kb, zmax)
+    m = 16   # + the idle bob (6 px) and breathing (1.2 %)
+    for d in data:
+        if d["type"] == "emoji":
+            small = max(d["w"], d["h"]) <= 330      # s / m reaction marks; an xl emoji is the scene's picture
+        else:
+            small = d["type"] == "illust" and has_clip
+        if not small or d["fx"] == "stamp":
+            continue
+        hw, hh = d["w"] / 2, d["h"] / 2
+        lo_x = ox + (m + pan - ox) / z + hw
+        hi_x = ox + (W - m - pan - ox) / z - hw
+        d["x"] = round((lo_x + hi_x) / 2 if lo_x > hi_x else min(max(d["x"], lo_x), hi_x), 1)
+        d["y"] = round(max(d["y"], oy + (m - oy) / z + hh), 1)
+
+
 def title_size(lines) -> int:
     longest = max(len(l) for l in lines)
     return max(64, min(130, int(1000 / (0.76 * max(1, longest)))))
@@ -999,14 +1072,26 @@ def _hero(items: list, has_clip: bool, picker=None, place: bool = False) -> list
             it["size"], it["pos"], it["dx"], it["dy"] = "m", "bottom-right", 0, 0
             prop["dx"] = -110
         return [prop] + pics
-    if has_clip:   # the footage is the scene's picture: one small sticker in a corner, never an xl picture over it
-        pics = [it for it in items if it.get("type") in ("illust", "crowd")]
+    if has_clip:   # the footage is the scene's picture: one small sticker beside the caption, never an xl picture over it
+        drawn = [it for it in items if it.get("type") in ("illust", "crowd")]
+        # a grid of little people over real footage is clutter, and a drawing that carries its own white
+        # background is a white box on the footage - both are left out
+        pics = [it for it in drawn if it.get("type") == "illust"
+                and not (picker and _opaque(picker.fetch(it.get("q", ""))))]
+        # 2026-11-22 사용자: "이모티콘 같은 애들이 위치가 이상한데 자꾸 올라가서 보기 불편해" - the sticker sat in the
+        # top-left corner, where every push-in carried its head out under the title bar. It now stands at the
+        # lower left, resting on this scene's caption box (build() sets the height from the caption floor).
         for it in pics[:1]:
-            it["size"], it["pos"], it["dx"], it["dy"] = "s", "top-left", 0, 0
-        for it in items:   # top-right is the '자료화면' tag's corner
-            if it.get("type") == "emoji" and it.get("pos") == "top-right":
+            it["size"], it["pos"], it["dx"], it["dy"], it["perch"] = "s", "bottom-left", -110, 0, True
+        for it in items:   # reaction marks: the top corners belong to the title bar and the '자료화면' tag
+            if it.get("type") != "emoji":
+                continue
+            pos = it.get("pos", "center")
+            if pos in ("top-right", "top"):
                 it["pos"] = "right"
-        return [it for it in items if not any(it is x for x in pics)] + pics[:1]
+            elif pos in ("top-left", "left", "bottom-left"):
+                it["pos"] = "right" if pics else "left"
+        return [it for it in items if not any(it is x for x in drawn)] + pics[:1]
     extra =[it for it in items if it.get("type") in ("illust", "crowd")][2:]
     items = [it for it in items if not any(it is x for x in extra)]   # 3 pictures = thumbnails; keep two
     pics = [it for it in items if it.get("type") in ("illust", "crowd")]
@@ -1126,12 +1211,18 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
             # a warning sign greys out the place we were just in; papers and phones lie on a desk
             bg_key = last_place if "warn" in kinds and last_place else "desk" if "desk" in PLACES else bg_key
         place = bg_key if bg_key in PLACES and not has_clip else None
+        if place and picker and any(it.get("type") in ("illust", "crowd") and _opaque(picker.fetch(it.get("q", "")))
+                                    for it in items[:4]):
+            place = None   # a drawing with its own white background is a white box on the photo: plain panel instead
+        if has_clip and not vis.get("items"):
+            items = []     # footage needs no stand-in picture
         last_place = place or last_place
+        # footage alone is a complete scene (2026-11-22: the 🤔 stand-in landed on the footage when its only
+        # sticker was left out); a plain panel still gets one
         items = _hero(items, has_clip, picker, bool(place)) or \
-            [{"type": "emoji", "text": "🤔", "pos": "center", "size": "xl", "fx": "pop"}]
+            ([] if has_clip else [{"type": "emoji", "text": "🤔", "pos": "center", "size": "xl", "fx": "pop"}])
         if has_clip and clips[i].get("tag"):   # a real photo (photo.py) stands alone: no cartoon sticker on it
-            items = [it for it in items if it.get("type") not in ("illust", "crowd")] or \
-                [{"type": "emoji", "text": "📸", "pos": "top-left", "size": "s", "fx": "pop"}]
+            items = [it for it in items if it.get("type") not in ("illust", "crowd")]   # may be empty: the photo is enough
         parts, data = [], []
         pics = {}
         floor = _item_floor(cues, st, en)                    # words stay above the caption box
@@ -1191,7 +1282,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                     w, h = 860, int(fs * 1.3 * lines + 250)
                     d["y"] = PANEL_H - h / 2 - 36
                     over = "border-radius:28px;box-shadow:0 14px 40px rgba(0,0,0,.45);"
-                d.update(w=w, h=h, type="text")
+                d.update(w=w, h=h, type="text", style="post")
                 today = dt.datetime.now(dt.timezone(dt.timedelta(hours=9))).strftime("%Y.%m.%d")
                 # the writer is the channel cat with a running episode number: the same face every video
                 # and in the like nudge, so the feed sees one recurring host instead of an anonymous post
@@ -1217,6 +1308,8 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
             # (drop starts 420 px above its resting place, so clamping the rest position is enough)
             fl = pfloor if d["type"] != "text" and d["h"] >= 420 else floor   # small stickers stay in view
             d["y"] = min(max(d["y"], d["h"] / 2 + 24), max(fl - d["h"] / 2, d["h"] / 2 + 24))
+            if it.get("perch"):   # the footage sticker stands on the caption box (ZOOM_ROOM keeps it off the words)
+                d["y"] = max(d["h"] / 2 + 24, floor - d["h"] / 2)
             if it.get("stand") and d["type"] == "illust":
                 d["y"] = PANEL_H - d["h"] / 2 + 70   # standing in the photo: the panel edge cuts the feet
             elif d["type"] == "warn":
@@ -1245,6 +1338,8 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
         cam_mode = vis.get("cam") or ("punch" if seg.get("cap") == "shout" else "")
         hero = next((d for d in data if d["type"] in ("illust", "crowd", "emoji")), None)
         focus = [round(hero["x"]), round(min(hero["y"], 600))] if hero else [540, 430]
+        if clip:   # the footage is the picture: punch into its middle, not into the sticker beside the caption
+            focus = [540, 430]
         # 2026-10-24 (사용자: "사진이 움직이는 표현 좋은데 왜 안 따라 하지?"): @군림보 moves the picture in 10-11 of
         # 11-17 scenes (zoom up to 7-12 %/s, pans), ours in 3-4 (2-3 %/s). Every scene now pushes in or pulls out
         # while it pans, by turns; the place photo slides half as far as the people (parallax); a lone picture drifts
@@ -1275,6 +1370,7 @@ def build(segments, visuals, times, cues, title, credit, picker, font_path, clip
                 cam_mode = ""
                 zmax = 1.0
                 kb = 0
+        _keep_in_frame(data, cam_mode if cam_mode in CAMS else "", focus, kb, zmax, bool(clip))
         scenes_data.append({"start": st, "end": en, "items": data, "bg": BG.get(bg_key, BG["white"]),
                             "dark": bg_key in ("night", "red") or bool(place), "place": place, "shake": seg.get("sfx") in SHAKE_SFX,
                             "cam": cam_mode if cam_mode in CAMS else "", "tr": vis.get("tr") if vis.get("tr") in TRS else "",
@@ -1348,6 +1444,9 @@ def capture(html_path: Path, out_mp4: Path, total: float, qa: dict | None = None
     if ff.wait() != 0:
         raise RuntimeError("ffmpeg encode failed")
     return out_mp4
+
+
+QA_NOTES = {"sticker-cut"}   # reported and recorded, but the video still goes out on schedule
 
 
 def qa_summary(issues: list[dict]) -> list[dict]:

@@ -257,6 +257,10 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
     # at each caption and before each cut - cut/covered/overflowing words are layout_issues (run.py keeps such a
     # video off the public schedule); captions still broken at a bad point are listed as caption_breaks.
     issues = motion.qa_summary(qa.get("issues", []))
+    notes = [x for x in issues if x["kind"] in motion.QA_NOTES]      # e.g. a sticker past the panel edge
+    issues = [x for x in issues if x["kind"] not in motion.QA_NOTES]
+    for x in notes:
+        print(f"  화면 참고 {x['t']}s {x['kind']}: '{x['text']}' - {x['msg']}")
     breaks = motion.bad_breaks(cues, words)
     motion.qa_sheet(qa.get("frames", []), out_path.parent / "qa_sheet.jpg")
     for x in issues:
@@ -303,4 +307,4 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
             "cc_clips": [{"url": c["url"], "by": c["by"], "license": c["license"]} for i, c in enumerate(clips)
                          if c and c.get("license") and not (open_bg and i == 0)], "duration": round(cursor, 2), "matches": [round(r.match, 2) for r in results],
             "sfx": len(sfx), "illustrations": len(picker.used), "cuts": len(cuts) + 1,
-            "layout_issues": issues, "caption_breaks": breaks}
+            "layout_issues": issues, "layout_notes": notes, "caption_breaks": breaks}
