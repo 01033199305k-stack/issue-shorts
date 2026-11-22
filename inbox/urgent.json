@@ -1,54 +1,22 @@
 {
- "detected_at": "2026-11-22T09:12+09:00",
+ "detected_at": "2026-11-22T10:17+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 로또 안 줬다고 식당 女주인 살해한 60대男 ‘감형’… “치료비 532만원 지급 노력” 무기징역→징역 45년",
-   "url": "https://n.news.naver.com/article/081/0003701792",
-   "press": "서울신문",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "\"조희대 탄핵 땐 정권 붕괴\"…국힘, 대구서 대규모 장외 집회",
-   "url": "https://n.news.naver.com/article/015/0005356623",
-   "press": "한국경제",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "한겨레",
-     "title": "국힘 “조희대 탄핵하면 이재명 정권 붕괴” 대구서 장외집회",
-     "url": "https://n.news.naver.com/article/028/0002833311"
-    },
-    {
-     "press": "아이뉴스24",
-     "title": "추미애 \"조희대 대법원장 탄핵, 좌고우면 안 돼\"",
-     "url": "https://n.news.naver.com/article/031/0001077205"
-    },
-    {
-     "press": "JTBC",
-     "title": "조희대 탄핵 시점 '12·3이 딱'…국힘 \"대통령부터 탄핵해야\"",
-     "url": "https://n.news.naver.com/article/437/0000521832"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "한동훈 “與, 조희대 탄핵 발의 12월 3일 꼭 하라... 모두 감옥갈 것”",
-   "url": "https://n.news.naver.com/article/023/0004010973",
-   "press": "조선일보",
+   "title": "추미애 “한덕수 판결 순억지···조희대 탄핵, 좌고우면하면 안 돼”",
+   "url": "https://n.news.naver.com/article/032/0003484136",
+   "press": "경향신문",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스TV",
-     "title": "한동훈 \"與 12·3 曺 탄핵은 내란 자백…모두 감옥 갈 것\"",
-     "url": "https://n.news.naver.com/article/422/0000928568"
+     "press": "디지털타임스",
+     "title": "‘조희대 탄핵 압박’ 추미애 “여당 정치적 유불리 계산할 때 아냐”",
+     "url": "https://n.news.naver.com/article/029/0003060360"
     },
     {
-     "press": "아이뉴스24",
-     "title": "추미애 \"조희대 대법원장 탄핵, 좌고우면 안 돼\"",
-     "url": "https://n.news.naver.com/article/031/0001077205"
+     "press": "연합뉴스TV",
+     "title": "추미애 \"조희대 탄핵, 좌고우면 안돼\"",
+     "url": "https://n.news.naver.com/article/422/0000928566"
     }
    ]
   }
