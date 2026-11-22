@@ -1,0 +1,366 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "downtown-marathon-bus-stuck",
+ "title_lines": [
+  "버스에 2시간 갇히게 한",
+  "주말 도심 마라톤"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "주말 아침 버스에 2시간 갇힌 사람들",
+   "say": "주말 아침 버스에 두 시간 갇힌 사람들",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "주말 아침 버스에\n2시간 갇힌 사람들",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "한 시민은 파출소 가서 항의했다고.",
+   "say": "한 시민은 파출소 가서 항의했다고.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "怒る 人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "3만 명이 뛴 서울마라톤 날이었는데,",
+   "say": "삼만 명이 뛴 서울마라톤 날이었는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "マラソン 大会",
+       "マラソン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏃",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "marathon runners city",
+     "marathon race street",
+     "running race crowd"
+    ],
+    "cc": [
+     "seoul marathon runners",
+     "seoul marathon"
+    ]
+   }
+  },
+  {
+   "text": "버스 190개 노선이 돌아감.",
+   "say": "버스 백구십 개 노선이 돌아감.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "bg": "bus",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🚌",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "city bus",
+     "bus stop"
+    ]
+   }
+  },
+  {
+   "text": "근데 오늘은 인천에서 2만 명이 뜀.",
+   "say": "근데 오늘은 인천에서 이만 명이 뜀.",
+   "sfx": "whoosh",
+   "tr": "whoosh",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "走る 人々",
+       "ランニング 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📍",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "runners road",
+     "marathon road race",
+     "road running group"
+    ],
+    "cc": [
+     "incheon bridge",
+     "incheon yeongjong"
+    ]
+   }
+  },
+  {
+   "text": "한 구간은 10시간 막는데,",
+   "say": "한 구간은 열 시간 막는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "교통통제 안내",
+      "lines": [
+       "11월 22일",
+       "오전 4시~오후 2시",
+       "운서역 일대"
+      ],
+      "mark": 1
+     },
+     {
+      "type": "illust",
+      "q": [
+       "時計 男性",
+       "時計"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "주민들은 열흘 전에야 들었다며 사과하라고 함.",
+   "say": "주민들은 열흘 전에야 들었다며 사과하라고 함.",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "visual": {
+    "bg": "apartment",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "抗議 する人",
+       "怒る 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "apartment complex",
+     "apartment buildings",
+     "residential towers"
+    ]
+   }
+  },
+  {
+   "text": "대회는 좋지만 불편 떠넘기지 말라는 글도 있음.",
+   "say": "대회는 좋지만 불편 떠넘기지 말라는 글도 있음.",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "서울 대회는 4년 새 3배 넘게 늘었는데,",
+   "say": "서울 대회는 사 년 새 세 배 넘게 늘었는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "nightcity",
+    "items": [
+     {
+      "type": "crowd",
+      "q": "マラソン",
+      "count": 12
+     }
+    ],
+    "video": [
+     "night city traffic",
+     "city traffic jam",
+     "traffic road night"
+    ],
+    "grok": {
+     "prompt": "Wide shot of a long line of city buses stuck in traffic behind orange road barriers while hundreds of runners in colorful shirts stream past on a closed downtown avenue, early morning sunlight, slow pan from the buses to the runners"
+    }
+   }
+  },
+  {
+   "text": "알고 보니 마라톤은 허가받는 행사가 아니었음.",
+   "say": "알고 보니 마라톤은 허가받는 행사가 아니었음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tr": "flash",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "公務員 男性",
+       "会社員 困る"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "center",
+      "size": "l",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "시청도 막을 권한이 없던 거임.",
+   "say": "시청도 막을 권한이 없던 거임.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "驚く"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🤷",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "버스에 2시간 갇히게 한 주말 도심 마라톤 #shorts",
+  "description": "3만 명이 뛴 서울마라톤 날, 시내버스 190개 노선이 돌아가고 버스에 2시간 묶인 시민이 파출소까지 찾아가 항의했다.\n오늘(11/22) 인천마라톤에선 영종 일부 구간이 최장 10시간 통제돼 주민들이 '열흘 전 통보'에 사과를 요구했다.\n서울 마라톤 대회는 4년 새 50개에서 154개로 늘었는데, 마라톤은 지자체 허가를 받는 행사가 아니다.\n\n※ AI 음성으로 제작했습니다.\n#마라톤 #교통통제 #서울마라톤 #인천마라톤 #공감 #shorts",
+  "tags": [
+   "마라톤",
+   "교통통제",
+   "서울마라톤",
+   "인천마라톤",
+   "도심 마라톤",
+   "버스 우회",
+   "러닝",
+   "공감",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.incheontoday.com/news/articleView.html?idxno=326480",
+ "facts_used": [
+  "11/1 JTBC 서울마라톤 3만여 명 참가, 시내버스 190개 노선 우회 — 뉴닉 https://newneek.co/@newneek/article/48315 / 연합 계열 https://www.koreancenter.or.kr/news/articleView.html?idxno=1433329",
+  "버스에 2시간 묶인 시민이 파출소·지구대 찾아가 항의(경찰 전언) — 서플 뉴스 https://supple.kr/news/cmvyxvhw9chalclgjezezdr8k / 뉴닉 https://newneek.co/@newneek/article/48315",
+  "11/22 인천마라톤 2만여 명, 영종·서해구 일대 통제 — 디스커버리뉴스 https://www.discoverynews.kr/news/articleView.html?idxno=1107135 / 매일일보 https://www.m-i.kr/news/articleView.html?idxno=2020115",
+  "운서역 일대 22일 오전 4시~오후 2시 10시간 통제, 영종 주민단체 '열흘 전 양해' 비판·공식 사과 요구 — 인천투데이 https://www.incheontoday.com/news/articleView.html?idxno=326480 · https://www.incheontoday.com/news/articleView.html?idxno=326545",
+  "대회는 찬성하지만 불편·비용이 시민에게 떠넘겨지는 구조가 문제라는 커뮤니티 글 — 서플 커뮤니티 https://supple.kr/community/culture/137684808 (글로만 전함)",
+  "서울 마라톤 대회 2021년 50개 → 2025년 154개 — 뉴스핌 2026-11-13 https://www.newspim.com/news/view/20261113001135 / 위키트리 https://www.wikitree.co.kr/articles/1093557",
+  "마라톤 대회는 국민체육진흥법상 지자체 허가·승인 대상 아님, 중앙정부 등 후원을 근거로 경찰이 교통통제 — 서울시 안내 https://mediahub.seoul.go.kr/archives/2019997 / 연합 계열 https://www.koreancenter.or.kr/news/articleView.html?idxno=1434422"
+ ],
+ "brief": "레인: 우리얘기\n화제: 도심 마라톤 교통통제 (inbox 3위 더쿠 HOT '도심 마라톤 때문에 화가 많이 난 시민들' 댓글 883 — 더쿠 최다 댓글 / 커뮤니티 동시 단어 '도심'·'마라톤'·'시민들'(더쿠·엠팍·보배) / 오늘 11/22 인천마라톤 2만 명·영종 최장 10시간 통제 보도)\n지금 가장 뜨거운 5개: ①도심 마라톤 불만(더쿠 883·동시 단어 3개) ②방송 예능 편집 주작법(디시·더쿠 동시, buzz 주작하·예능·편집 — 확인할 사실이 방송사 하나를 겨냥하게 됨) ③수능 AI 부정행위·교육장관 사의(news_hot 다수 — 장관 거취·대통령 발언이 중심이라 정치, 수능 각도는 11/21 18시에 씀) ④로또 1251회 1등 14명(구글 20000+ — 매주 반복, 갈림 약함) ⑤주말 증시 민심(디시 687 — 투자 소재 금지). ①이 내 얘기·갈림 모두 가장 큼.\n점수(우리얘기 30+화제5): 내 얘기 5×2=10(주말 버스·차로 길 막혀 본 사람 많음) · 갈림 4(러너 vs 주민) · 몰랐던 이유 5(허가 대상 아님·154개) · 한 장면 5(버스 2시간·파출소) · 누구나 아는 대상 5 · 화제 +5 = 34\n유행: 마라톤·도심 (커뮤니티 동시 단어)\n구조: 발단=11/1 서울마라톤 날 버스에 2시간 묶인 시민이 파출소 항의, 버스 190개 노선 우회 / 반응=오늘 인천 영종 주민 '열흘 전 통보' 사과 요구 → 대회는 찬성하지만 불편 떠넘기는 구조가 문제라는 글 / 이유=서울 대회 2021년 50개→2025년 154개(3배 넘게), 마라톤은 국민체육진흥법상 지자체 허가·승인 대상 아님(서울시 안내) / 갈림=러너 축제 vs 주민 일상 — 대회 자체엔 찬성하는 사람도 있음 / 한 방=시청도 막을 권한이 없었음\n댓글거리: 마라톤 때문에 버스·택시 갇혀 본 경험, 우리 동네 통제 경험, 반대로 대회 뛰어 본 러너 입장\n첫장면: 사람\n훅 3안: ①'한 시민은 파출소까지 찾아가 항의했다고'(사람+행동, 제목보다 한 발 더) ②'버스 190개 노선이 한꺼번에 돌아감'(규모) ③'주말마다 길 막는 대회가 4년 새 3배'(숫자, 배경형). 처음 듣는 사람에게 장면이 바로 그려지는 ①을 고름. 글 카드는 '주말 아침 버스에 2시간 갇힌 사람들'(사람+손해+숫자), 제목은 '버스에 2시간 갇히게 한 주말 도심 마라톤'.\n이해검사: 주말 도심 마라톤 때문에 버스에 2시간 갇히고 길이 10시간씩 막혀 시민들이 항의하는데, 알고 보니 마라톤은 허가받는 행사가 아니라 시청도 막을 권한이 없었다.\n그림대조: 완료 (한국 이야기 — 일본 지도·국기 없음, 장소 street/bus/road/apartment)\n주의: 정치인 이름(서울시장) 빼고 '시청'으로만. 버스 2시간 시민은 경찰 전언 보도. '대회는 좋은데…' 는 커뮤니티 글로 전함('~라는 글'). 인천 통제 시간은 기사마다 다름(공식 07~15시, 운서역 일대 04~14시) — 대본은 '한 구간'으로 한정.\n출처: 인천투데이 2026-11 https://www.incheontoday.com/news/articleView.html?idxno=326480 · https://www.incheontoday.com/news/articleView.html?idxno=326545 / 디스커버리뉴스 https://www.discoverynews.kr/news/articleView.html?idxno=1107135 / 서플(뉴스) https://supple.kr/news/cmvyxvhw9chalclgjezezdr8k / 뉴닉 https://newneek.co/@newneek/article/48315 / 연합 계열 https://www.koreancenter.or.kr/news/articleView.html?idxno=1433329 / 위키트리 https://www.wikitree.co.kr/articles/1128503 / 서울신문 2026-11-20 https://seoul.co.kr/news/plan/Runner-supply-depot/2026/11/20/20261120035001"
+}
