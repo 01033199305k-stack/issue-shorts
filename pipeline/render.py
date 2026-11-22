@@ -145,6 +145,39 @@ def _pad(path: Path, seconds: float) -> None:
     sf.write(str(path), np.concatenate([a, np.zeros((int(seconds * sr),) + a.shape[1:], dtype=np.float32)]), sr)
 
 
+QUOTE_MARKS = "\"'“”‘’「」『』"
+
+
+def pure_quote(seg: dict) -> bool:
+    """A screen that is nothing but somebody's words: cap 'quote' and the whole line inside quotation marks.
+    '“원래 이 시간쯤 청소한다”고 함.' is the narrator talking and stays in the narrator's voice."""
+    t = str(seg.get("text", "")).strip().rstrip(".!?… ")
+    return seg.get("cap") == "quote" and len(t) > 2 and t[0] in QUOTE_MARKS and t[-1] in QUOTE_MARKS \
+        and not any(c in QUOTE_MARKS for c in t[1:-1])
+
+
+def voice_variant(path: Path, ratio: float) -> None:
+    """Another speaker for a quoted comment, made from the same take: pitch and formants move together
+    (asetrate), the length is put back (atempo) and trimmed to the sample, so word timings stay true.
+    2026-11-23: @쓱삭숏's hits change voice 10-12 times in 45-55 s (a narrator plus the people quoted), ours
+    was one voice from start to end. Tried on Sohee takes: 0.80 reads as a different, lower speaker
+    (earshot: 'a man speaking' over 'a woman speaking'), 1.12 as a lighter one; whisper hears both as well
+    as the untouched take (0.94-1.00)."""
+    import subprocess
+
+    import numpy as np
+    import soundfile as sf
+    a, sr = sf.read(str(path), dtype="float32")
+    tmp = path.with_suffix(".vv.wav")
+    subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(path), "-af",
+                    f"asetrate={int(sr * ratio)},aresample={sr},atempo={1 / ratio:.5f}", "-ac", "1", str(tmp)], check=True)
+    b, _ = sf.read(str(tmp), dtype="float32")
+    tmp.unlink()
+    n = len(a)
+    b = b[:n] if len(b) >= n else np.concatenate([b, np.zeros(n - len(b), dtype=np.float32)])
+    sf.write(str(path), b, sr)
+
+
 def voice_instruct(base: str, tone: str | None, persona: str = "") -> str:
     """The voice instruction for one sentence.
 
@@ -170,6 +203,8 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
         segments.append(motion.egg_segment(egg, egg_q))   # spoken "좋아요 누르면 좋아요가 … 변해요~" over its drawing
 
     wavs, results = [], []
+    quote_voices = [float(x) for x in (cfg.get("quote_voices") or []) if 0.6 <= float(x) <= 1.4]
+    speaker, prev_quote, n_voiced = -1, None, 0
     for run in voice_runs(segments):
         segs, i0 = [segments[i] for i in run], run[0]
         print(f"  voice {i0 + 1}/{len(segments)}: " + " / ".join(s["text"][:40] for s in segs))
@@ -181,6 +216,11 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
             head_pad=HEAD_PAD, tail_pad=TAIL_PAD, takes=int(cfg.get("tts_takes", 1)))
         parts = [res] if len(run) == 1 else split_take(res, segs, [work_dir / f"seg_{i:02d}.wav" for i in run])
         for i, part in zip(run, parts):
+            if quote_voices and pure_quote(segments[i]):   # a quoted comment is read by somebody else
+                if prev_quote != i - 1 or i == run[0]:     # two screens of one joined quote keep their speaker
+                    speaker += 1
+                voice_variant(part.audio_path, quote_voices[speaker % len(quote_voices)])
+                prev_quote, n_voiced = i, n_voiced + 1
             if i == run[-1] and (g := gap_after(i, segments)):   # no beat inside a joined take
                 _pad(part.audio_path, g)
                 part.duration = round(part.duration + g, 3)
@@ -188,6 +228,8 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
             wavs.append(part.audio_path)
             results.append(part)
     tts.release_models()
+    if n_voiced:
+        print(f"  quoted comments in another voice: {n_voiced} screens, {speaker + 1} speakers")
 
     times, words, cursor = [], [], 0.0
     for res in results:
@@ -302,7 +344,7 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
         print(f"  소리 없는 컷 전환: {sound['cuts_without_sound']}")
     if sound.get("skipped") or sound.get("error"):
         print(f"  소리 검수 건너뜀: {sound.get('skipped') or sound.get('error')}")
-    return {"sound_qa": sound, "open_bg": open_bg,
+    return {"sound_qa": sound, "open_bg": open_bg, "quote_voices": n_voiced,
             "stock_clips": [c["url"] for i, c in enumerate(clips) if c and not (open_bg and i == 0)],
             "cc_clips": [{"url": c["url"], "by": c["by"], "license": c["license"]} for i, c in enumerate(clips)
                          if c and c.get("license") and not (open_bg and i == 0)], "duration": round(cursor, 2), "matches": [round(r.match, 2) for r in results],

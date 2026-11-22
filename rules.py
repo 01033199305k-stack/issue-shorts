@@ -355,6 +355,16 @@ NEWSY = re.compile(r"논란|발언|입장|제동|의혹|촉구|비판|공방|파
 POLITICS = re.compile(r"대통령|국회|의원|장관|여당|야당|민주당|국민의힘|대법원장|헌재소장|총리|선거|탄핵|대선|총선|국감|국정감사")
 
 
+_QUOTE_MARKS = "\"'“”‘’「」『』"
+
+
+def _pure_quote(seg: dict) -> bool:
+    """cap 'quote' and the whole line inside one pair of quotation marks (same test as pipeline/render.pure_quote)."""
+    t = str(seg.get("text", "")).strip().rstrip(".!?… ")
+    return seg.get("cap") == "quote" and len(t) > 2 and t[0] in _QUOTE_MARKS and t[-1] in _QUOTE_MARKS \
+        and not any(c in _QUOTE_MARKS for c in t[1:-1])
+
+
 def lint(script: dict) -> list[str]:
     """House style the routine must satisfy (run.py only warns - a script that is already
     written still renders): no hanja anywhere a viewer reads, and a varied set of pictures."""
@@ -451,9 +461,18 @@ def lint(script: dict) -> list[str]:
     # 2026-11-17 back to 25-30 s: our own 83 videos of 10/05-11/01 - <=30 s median 2,500 views vs >30 s 1,500; all
     # 10 videos over 4,000 were 22-29 s. The 11/02 switch to 40-60 s (one @쓱삭숏 comparison) was followed by
     # medians of 1.6천 then 1.1천 and no video over 4,000.
-    if len(segs) > 17 or total > 240:
+    # 2026-11-23 comment battle: @쓱삭숏's hits (3만~60만) are a viral post + 5-6 real replies read in other voices,
+    # 45-55 s; their own five videos without replies got 112-2,940 views. A script that quotes four or more
+    # replies gets room for them (about 35-40 s); everything else stays 25-30 s.
+    n_quote = sum(1 for s in segs if _pure_quote(s))
+    battle = n_quote >= 4
+    if battle and (len(segs) > 25 or total > 380):
+        p.append(f"{len(segs)} screens / {total} chars - a comment-battle video is the title + up to 24 screens, "
+                 "at most 380 chars (35-40 s): post, 4-6 replies, one checked fact, one punch")
+    elif not battle and (len(segs) > 17 or total > 240):
         p.append(f"{len(segs)} screens / {total} chars - write the title + 8-15 screens, 170-230 chars (25-30 s): "
-                 "hook, one reveal, one punch - cut background and the in-between stages")
+                 "hook, one reveal, one punch - cut background and the in-between stages "
+                 "(only a comment battle with 4+ quoted replies, each alone on a cap:quote screen, may run to 380)")
     if len(segs) < 8:   # the 1.7만 112-짜장면 video had 8
         p.append(f"only {len(segs)} screens - one short line per screen (a new picture every ~2 s), 8-16 screens")
     if total < 160:
@@ -467,7 +486,11 @@ def lint(script: dict) -> list[str]:
                      f"{post.get('text', '')!r} (line break -> space), the hook goes to segment 1")
     # caption colours and cuts are accents: used everywhere they stop meaning anything (ROUTINE 자막 색)
     caps = [s.get("cap", "narr") for s in segs]
-    for name, most in (("hit", 3), ("quote", 6), ("shout", 2), ("sweet", 2), ("react", 1)):
+    for i, s in enumerate(segs):   # the renderer reads a quote screen in another voice: it must be only the quoted words
+        if s.get("cap") == "quote" and not _pure_quote(s):
+            p.append(f"segment {i}: cap 'quote' is for a line that is only somebody's words inside quotation marks "
+                     f"(“...”); put '~라고 함/~라는 댓글이 달림' on its own narration screen - got {s.get('text', '')!r}")
+    for name, most in (("hit", 3), ("quote", 8), ("shout", 2), ("sweet", 2), ("react", 1)):
         if caps.count(name) > most:
             p.append(f"cap {name!r} on {caps.count(name)} sentences - max {most} per video")
     if caps and caps[0] != "narr":
@@ -532,6 +555,9 @@ def lint(script: dict) -> list[str]:
     if "화제:" not in brief:   # 2026-11-21 사용자: "화제성이 있는 거를 걸러 버리면 조회수가 안 나오겠지?" (ROUTINE 맨 위)
         p.append("brief has no '화제:' line - name the hot topic this rides and why it is hot (trend list / inbox rank / comments), "
                  "or '화제: 없음 — <why none of the 5 hottest could be used at any angle>'")
+    if "댓글:" not in brief:   # 2026-11-23 comment battle (ROUTINE 맨 위): how many real replies were found, and where
+        p.append("brief has no '댓글:' line - write '댓글: <n>개 (<the articles/post they are quoted from>)'; with 4 or more "
+                 "write the comment-battle format, with fewer '댓글: n개뿐 (<where you looked>)'")
     if "레인:" not in brief:   # 2026-11-13 네 번째 전환: 12·18시는 우리 얘기, 07시는 사건 (ROUTINE 맨 위) - 레인별 조회수 비교용
         p.append("brief has no '레인:' line - write '레인: 우리얘기' or '레인: 사건' (ROUTINE 2026-11-13: 12시·18시 = 우리 얘기)")
     elif "레인: 우리얘기" in brief and "댓글거리:" not in brief:
