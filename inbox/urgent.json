@@ -1,124 +1,37 @@
 {
- "detected_at": "2026-11-22T15:13+09:00",
+ "detected_at": "2026-11-22T17:48+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "李 대통령, 최교진 사의 수락…靑 \"다음 인선 절차대로 진행\"",
-   "url": "https://n.news.naver.com/article/015/0005356680",
-   "press": "한국경제",
+   "title": "이형일, 긴급 F4회의 소집…증시 안정 대책 논의할 듯",
+   "url": "https://n.news.naver.com/article/003/0014338012",
+   "press": "뉴시스",
    "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "경향신문",
-     "title": "[속보]이 대통령, 최교진 교육부 장관 사의 수용…“신임 장관 인선 절차대로”",
-     "url": "https://n.news.naver.com/article/032/0003484181"
+     "press": "MBC",
+     "title": "증시 급락에 정부 긴급 F4 회의‥시장 안정 대책 논의",
+     "url": "https://n.news.naver.com/article/214/0001537213"
     },
     {
-     "press": "국민일보",
-     "title": "李대통령, ‘수능 혼란’ 최교진 교육장관 사의 수락",
-     "url": "https://n.news.naver.com/article/005/0001886619"
+     "press": "디지털타임스",
+     "title": "AI주 투매에 F4 긴급 소집…증시 안정책 논의",
+     "url": "https://n.news.naver.com/article/029/0003060453"
     },
     {
      "press": "뉴스1",
-     "title": "李대통령, 최교진 교육부장관 사의표명 즉시 수락…사실상 경질",
-     "url": "https://n.news.naver.com/article/421/0009303322"
+     "title": "이형일 부총리, 긴급 F4 회의 소집…美 반도체 폭락에 시장 점검",
+     "url": "https://n.news.naver.com/article/421/0009303367"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 이준석 “민주당은 한 방에 무너질 것… 부끄러운 줄 알라”",
-   "url": "https://n.news.naver.com/article/022/0004177118",
-   "press": "세계일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 이 대통령 \"부정행위 막는 법적 근거 정비할 것\"… '시험지 촬영·유출' 기술적으로 막는다",
-   "url": "https://n.news.naver.com/article/469/0000967002",
-   "press": "한국일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "최교진 ‘수능 대혼란’에 사의 표명…李, 약 1시간 만에 수락",
-   "url": "https://n.news.naver.com/article/020/0003764162",
-   "press": "동아일보",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "머니투데이",
-     "title": "최교진 교육부 장관 \"사의 표명...수능 책임 통감\"",
-     "url": "https://n.news.naver.com/article/008/0005444568"
-    },
-    {
-     "press": "국민일보",
-     "title": "李대통령, ‘수능 혼란’ 최교진 교육장관 사의 수락",
-     "url": "https://n.news.naver.com/article/005/0001886619"
-    },
-    {
-     "press": "노컷뉴스",
-     "title": "[속보] 최교진, '수능 대혼란' 책임지고 사의…\"준비 미흡 비판 통감\"",
-     "url": "https://n.news.naver.com/article/079/0004212431"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 李대통령 \"시험 공정성은 결코 타협 못 해…부정행위 끝까지 책임 묻겠다\"",
-   "url": "https://n.news.naver.com/article/666/0000133197",
-   "press": "경기일보",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "미디어오늘",
-     "title": "李대통령 \"시험의 공정성은 결코 타협할 수 없는 원칙\"",
-     "url": "https://n.news.naver.com/article/006/0000138884"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 김영훈 노동장관 \"정년 연장, 여당 특위 결론 안나면 정부안 발표\"",
-   "url": "https://n.news.naver.com/article/655/0000033661",
-   "press": "CJB청주방송",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "강원도민일보",
-     "title": "[속보] 노동장관 \"정년연장, 27일 노사합의 안 될 땐 정부가 나설 시점\"",
-     "url": "https://n.news.naver.com/article/654/0000212601"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] \"사람 시신이…\" 보일러실서 미라화된 시신 발견",
-   "url": "https://n.news.naver.com/article/082/0001408307",
-   "press": "부산일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보]‘AI커닝 난 못잡아’ 최교진 교육장관, 사의 표명…“책임 통감”",
-   "url": "https://n.news.naver.com/article/021/0002834548",
+   "title": "[속보]나경원 “내일 블랙먼데이 우려…피같은 국민 자산 녹는다”",
+   "url": "https://n.news.naver.com/article/021/0002834574",
    "press": "문화일보",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "경향신문",
-     "title": "[속보]이 대통령, 최교진 교육부 장관 사의 수용…“신임 장관 인선 절차대로”",
-     "url": "https://n.news.naver.com/article/032/0003484181"
-    },
-    {
-     "press": "머니투데이",
-     "title": "최교진 교육부 장관 \"사의 표명...수능 책임 통감\"",
-     "url": "https://n.news.naver.com/article/008/0005444568"
-    }
-   ]
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
