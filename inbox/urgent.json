@@ -1,36 +1,56 @@
 {
- "detected_at": "2026-11-23T00:21+09:00",
+ "detected_at": "2026-11-23T07:28+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 정부, 불법 공매도 3개월간 특별 감시…위법행위 엄정 대응",
-   "url": "https://n.news.naver.com/article/421/0009303639",
-   "press": "뉴스1",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "title": "\"검은 월요일 막아라\" 정부도 긴급 대응…18년 잠든 증안펀드 가동 준비",
+   "url": "https://n.news.naver.com/article/008/0005444651",
+   "press": "머니투데이",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
+    {
+     "press": "헤럴드경제",
+     "title": "‘검은 월요일’ 막아라…증안펀드 꺼내든 정부, 자사주 매입 빗장도 푼다",
+     "url": "https://n.news.naver.com/article/016/0002726767"
+    },
     {
      "press": "조선비즈",
      "title": "정부, 증시 급락 우려에 ‘증안펀드’ 가동 준비… 불법 공매도 3개월간 집중 감시",
      "url": "https://n.news.naver.com/article/366/0001206504"
+    },
+    {
+     "press": "JTBC",
+     "title": "정부, 증시 급락에 18년 만에 '증시안정 펀드' 준비",
+     "url": "https://n.news.naver.com/article/437/0000521897"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "이 대통령 \"치아 흔들리고 코피 터져\"... '순방 잦다' 비판에 \"돼지 눈에 돼지만\" 반박",
-   "url": "https://n.news.naver.com/article/469/0000967070",
-   "press": "한국일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "李 “업자와 결탁한 시장이 1100억 추가 부담 시키나”…대장동 의혹 재차 반박",
+   "url": "https://n.news.naver.com/article/011/0004684884",
+   "press": "서울경제",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "노컷뉴스",
-     "title": "잦은 해외순방 비판에…李대통령 \"돼지 눈엔 돼지만\" 반박",
-     "url": "https://n.news.naver.com/article/079/0004212456"
+     "press": "매일신문",
+     "title": "李, 대장동 의혹 이틀 만에 재반박 \"업자와 결탁한 시장이라면 할 수 없는 행동\"",
+     "url": "https://n.news.naver.com/article/088/0001041649"
     },
     {
-     "press": "한겨레",
-     "title": "이 대통령 “치아 흔들리고 코피 터지지만…임기 초 순방은 국정과제”",
-     "url": "https://n.news.naver.com/article/028/0002833349"
+     "press": "연합뉴스TV",
+     "title": "이 대통령, '대장동 의혹' 거듭 반박…\"업자에 1,100억 추가 부담\"",
+     "url": "https://n.news.naver.com/article/422/0000928748"
+    },
+    {
+     "press": "세계일보",
+     "title": "李대통령, ‘대장동 의혹’ 재차 반박…“업자와 결탁된 시장이라면 할 수 있는 행동 아냐”",
+     "url": "https://n.news.naver.com/article/022/0004177188"
+    },
+    {
+     "press": "노컷뉴스",
+     "title": "李대통령, 대장동 의혹 또 반박…\"업자와 결탁한 시장 아니다\"",
+     "url": "https://n.news.naver.com/article/079/0004212491"
     }
    ]
   }

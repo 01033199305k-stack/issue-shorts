@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-23T04:13+09:00",
+ "generated_at": "2026-11-23T07:28+09:00",
  "warnings": [
   "에펨 포텐: HTTPError HTTP Error 430: Unknown",
   "개드립: HTTPError HTTP Error 403: Forbidden",
@@ -7,10 +7,23 @@
  ],
  "posts": [
   {
-   "title": "[싱갤] 오해오해 살자율에 대한 일부 한국인들의 오해",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480873&_dcbest=1&page=1",
-   "views": 33204,
-   "comments": 903,
+   "title": "[무갤] 일본을 무척 싫어하시는 대문호 여성작가님",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480877&_dcbest=1&page=1",
+   "views": 19007,
+   "comments": 591,
+   "board": "디시 실베",
+   "heat": 0.9795918367346939,
+   "also_on": [
+    "보배드림"
+   ],
+   "score": 1.48,
+   "news": []
+  },
+  {
+   "title": "[잡갤] [클리앙] 4050 극우화가 진짜 문제에요",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480977&_dcbest=1&page=1",
+   "views": 14317,
+   "comments": 724,
    "board": "디시 실베",
    "heat": 1.0,
    "also_on": [],
@@ -20,7 +33,7 @@
   {
    "title": "그 시절, 우리가 사랑했던 디시인사이드...manhwa",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17806&page=1",
-   "views": 146055,
+   "views": 146068,
    "comments": 925,
    "board": "디시 HIT",
    "heat": 1.0,
@@ -31,8 +44,8 @@
   {
    "title": "오늘 케톡 온에어 달리면서 난리났던 런닝맨 명품지갑 사연.jpg",
    "url": "https://theqoo.net/hot/4415001623",
-   "views": 70724,
-   "comments": 874,
+   "views": 83371,
+   "comments": 915,
    "board": "더쿠 HOT",
    "heat": 1.0,
    "also_on": [],
@@ -40,10 +53,10 @@
    "news": []
   },
   {
-   "title": "대충격받은 올바른 수면양말 착용법..",
-   "url": "https://pann.nate.com/talk/375732749",
-   "views": 14982,
-   "comments": 57,
+   "title": "엄마가 연애하는거 진짜 너무 싫다",
+   "url": "https://pann.nate.com/talk/375732417",
+   "views": 9862,
+   "comments": 38,
    "board": "네이트판",
    "heat": 1.0,
    "also_on": [],
@@ -51,20 +64,12 @@
    "news": [],
    "best_comments": [
     {
-     "text": "굴 진짜 한번 탈난 뒤로 절대못먹겠음..",
-     "likes": 62
+     "text": "엄마한테 이야기 해. 연애 하는거까지는 뭐라고 할수 없는데 집에는 데려오지 말라고..불편하다고..생각 있는 사람들이면 딸 있는…",
+     "likes": 47
     },
     {
-     "text": "헐 수면양말 진짜 대충격 ㅋㅋㅋㅋ",
-     "likes": 59
-    },
-    {
-     "text": "이제 찐 겨울인거같음 ㅜ",
-     "likes": 57
-    },
-    {
-     "text": "겨울에 피부 건조하게 걍 냅두면 피부장벽 확 박살나고 얼굴 개늙음",
-     "likes": 55
+     "text": "임대아파트면 집크기도 작을거고, 거기에 생판 남인 남자를 사춘기딸있는 집에 데려오는게 정상은 아님. 걍 성인되면 독립해라. 이…",
+     "likes": 25
     }
    ]
   },
@@ -72,7 +77,7 @@
    "title": "발열조끼 부정행위로 퇴실조치ㅜ",
    "url": "https://www.bobaedream.co.kr/view?code=best&No=1049383",
    "views": 0,
-   "comments": 68,
+   "comments": 72,
    "board": "보배드림 베스트",
    "heat": 1.0,
    "also_on": [],
@@ -80,37 +85,20 @@
    "news": []
   },
   {
-   "title": "[잡갤] [클리앙] 4050 극우화가 진짜 문제에요",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480977&_dcbest=1&page=1",
-   "views": 9146,
-   "comments": 641,
-   "board": "디시 실베",
-   "heat": 0.9795918367346939,
+   "title": "좋아하는 마음이",
+   "url": "https://pann.nate.com/talk/375732634",
+   "views": 1534,
+   "comments": 18,
+   "board": "네이트판",
+   "heat": 0.98,
    "also_on": [],
    "score": 0.98,
    "news": []
   },
   {
-   "title": "엄마가 연애하는거 진짜 너무 싫다",
-   "url": "https://pann.nate.com/talk/375732417",
-   "views": 3798,
-   "comments": 25,
-   "board": "네이트판",
-   "heat": 0.98,
-   "also_on": [],
-   "score": 0.98,
-   "news": [],
-   "best_comments": [
-    {
-     "text": "엄마한테 이야기 해. 연애 하는거까지는 뭐라고 할수 없는데 집에는 데려오지 말라고..불편하다고..생각 있는 사람들이면 딸 있는…",
-     "likes": 28
-    }
-   ]
-  },
-  {
    "title": "메피스토펠레스 완성 + 제작 과정",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17809&page=1",
-   "views": 134836,
+   "views": 134849,
    "comments": 842,
    "board": "디시 HIT",
    "heat": 0.9787234042553191,
@@ -119,10 +107,10 @@
    "news": []
   },
   {
-   "title": "좋아하는 마음이",
-   "url": "https://pann.nate.com/talk/375732634",
-   "views": 1012,
-   "comments": 13,
+   "title": "상견례 전에 예비시댁 먼저 인사가는거 이제 안했으면...",
+   "url": "https://pann.nate.com/talk/375731571",
+   "views": 5213,
+   "comments": 12,
    "board": "네이트판",
    "heat": 0.96,
    "also_on": [],
@@ -130,10 +118,10 @@
    "news": []
   },
   {
-   "title": "[무갤] 일본을 무척 싫어하시는 대문호 여성작가님",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480877&_dcbest=1&page=1",
-   "views": 18173,
-   "comments": 630,
+   "title": "[싱갤] 싱글벙글 개박살 나고 있는 주식충들",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480936&_dcbest=1&page=1",
+   "views": 40427,
+   "comments": 416,
    "board": "디시 실베",
    "heat": 0.9591836734693877,
    "also_on": [],
@@ -143,7 +131,7 @@
   {
    "title": "전에 주워서 키웠던 응애참새",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17763&page=1",
-   "views": 99973,
+   "views": 99974,
    "comments": 759,
    "board": "디시 HIT",
    "heat": 0.9574468085106383,
@@ -155,7 +143,7 @@
    "title": "일론 머스크가 구상하는 앞으로 다가올 미래",
    "url": "https://www.bobaedream.co.kr/view?code=best&No=1049381",
    "views": 0,
-   "comments": 47,
+   "comments": 51,
    "board": "보배드림 베스트",
    "heat": 0.9545454545454546,
    "also_on": [],
@@ -163,21 +151,10 @@
    "news": []
   },
   {
-   "title": "2010년도까진 한국 남녀가 서로 혐오하지 않았다",
-   "url": "https://theqoo.net/hot/4414876846",
-   "views": 74629,
-   "comments": 588,
-   "board": "더쿠 HOT",
-   "heat": 0.95,
-   "also_on": [],
-   "score": 0.95,
-   "news": []
-  },
-  {
    "title": "뒤늦게 진짜 사랑이라는 감정을 알게 되었네요",
    "url": "https://pann.nate.com/talk/375732695",
-   "views": 2747,
-   "comments": 11,
+   "views": 5301,
+   "comments": 12,
    "board": "네이트판",
    "heat": 0.94,
    "also_on": [],
@@ -186,15 +163,15 @@
    "best_comments": [
     {
      "text": "그런 사랑을 만났다면 놓치지 마.. 꼭 마음을 표현하길 바래",
-     "likes": 14
+     "likes": 18
     }
    ]
   },
   {
-   "title": "[싱갤] 싱글벙글 개박살 나고 있는 주식충들",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480936&_dcbest=1&page=1",
-   "views": 37581,
-   "comments": 409,
+   "title": "[싱갤] 키작남들이 내세우는 모든게 핑계인 이유",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480882&_dcbest=1&page=1",
+   "views": 27543,
+   "comments": 394,
    "board": "디시 실베",
    "heat": 0.9387755102040817,
    "also_on": [],
@@ -204,7 +181,7 @@
   {
    "title": "야쿠르트 아줌마의 비밀병기",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17808&page=1",
-   "views": 128691,
+   "views": 128704,
    "comments": 534,
    "board": "디시 HIT",
    "heat": 0.9361702127659575,
@@ -213,27 +190,10 @@
    "news": []
   },
   {
-   "title": "[동갤] 최교진 교육장관 사의 표명…“수능 준비 미흡 책임 통감”",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480924&_dcbest=1&page=1",
-   "views": 7590,
-   "comments": 198,
-   "board": "디시 실베",
-   "heat": 0.6326530612244898,
-   "also_on": [],
-   "score": 0.933,
-   "in_news": "동행미디어 시대",
-   "news": [
-    {
-     "url": "https://n.news.naver.com/article/417/0001165170",
-     "headline": "[속보] 최교진 교육부 장관 사의 표명…\"수능 책임 통감\""
-    }
-   ]
-  },
-  {
    "title": "상대방에게 자신있는 약속있어?",
    "url": "https://pann.nate.com/talk/375732853",
-   "views": 386,
-   "comments": 10,
+   "views": 538,
+   "comments": 11,
    "board": "네이트판",
    "heat": 0.92,
    "also_on": [],
@@ -241,10 +201,10 @@
    "news": []
   },
   {
-   "title": "[중갤] 댄 하우저 시절 gta6 극초기 컨셉",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480874&_dcbest=1&page=1",
-   "views": 23815,
-   "comments": 388,
+   "title": "[싱갤] 의외로 현실에 존재한다는 초인적인 능력",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480890&_dcbest=1&page=1",
+   "views": 41502,
+   "comments": 386,
    "board": "디시 실베",
    "heat": 0.9183673469387755,
    "also_on": [],
@@ -254,7 +214,7 @@
   {
    "title": "하와이안 미트 피자",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17776&page=1",
-   "views": 75971,
+   "views": 75978,
    "comments": 458,
    "board": "디시 HIT",
    "heat": 0.9148936170212766,
@@ -263,29 +223,43 @@
    "news": []
   },
   {
-   "title": "시험장 수상한 학생,선생님의 증거 촬영",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049349",
+   "title": "일본을 무척 싫어하는 대문호 여성작가",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049415",
    "views": 0,
-   "comments": 40,
+   "comments": 15,
+   "board": "보배드림 베스트",
+   "heat": 0.4090909090909091,
+   "also_on": [
+    "디시"
+   ],
+   "score": 0.909,
+   "news": []
+  },
+  {
+   "title": "또 마라톤 대회 대학생 사망ㄷㄷ",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049404",
+   "views": 0,
+   "comments": 46,
    "board": "보배드림 베스트",
    "heat": 0.9090909090909091,
    "also_on": [],
-   "score": 0.909
+   "score": 0.909,
+   "news": []
   },
   {
-   "title": "추울까봐 아빠가 입혀준 발열조끼 유에스비 선때문에 부정행위 간주됨",
-   "url": "https://theqoo.net/hot/4414941971",
-   "views": 58465,
-   "comments": 481,
+   "title": "사람마다 다른 핫도그 소스 취향",
+   "url": "https://theqoo.net/hot/4414890383",
+   "views": 28276,
+   "comments": 412,
    "board": "더쿠 HOT",
    "heat": 0.9,
    "also_on": [],
    "score": 0.9
   },
   {
-   "title": "상견례 전에 예비시댁 먼저 인사가는거 이제 안했으면...",
-   "url": "https://pann.nate.com/talk/375731571",
-   "views": 3110,
+   "title": "김원효 트젠바 논란",
+   "url": "https://pann.nate.com/talk/375731833",
+   "views": 12086,
    "comments": 10,
    "board": "네이트판",
    "heat": 0.9,
@@ -293,10 +267,10 @@
    "score": 0.9
   },
   {
-   "title": "[싱갤] 키작남들이 내세우는 모든게 핑계인 이유",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480882&_dcbest=1&page=1",
-   "views": 26457,
-   "comments": 383,
+   "title": "[싱갤] 싱글벙글 Gta 유저평점 테러사건의 충격적 진실.jpg",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480900&_dcbest=1&page=1",
+   "views": 20909,
+   "comments": 332,
    "board": "디시 실베",
    "heat": 0.8979591836734694,
    "also_on": [],
@@ -313,20 +287,20 @@
    "score": 0.894
   },
   {
-   "title": "SK하이닉스 99만원",
-   "url": "https://pann.nate.com/talk/375731880",
-   "views": 7208,
-   "comments": 8,
+   "title": "장원영 안유진 포즈 ;;;",
+   "url": "https://pann.nate.com/talk/375733042",
+   "views": 884,
+   "comments": 9,
    "board": "네이트판",
    "heat": 0.88,
    "also_on": [],
    "score": 0.88
   },
   {
-   "title": "[싱갤] 의외로 현실에 존재한다는 초인적인 능력",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480890&_dcbest=1&page=1",
-   "views": 39925,
-   "comments": 376,
+   "title": "[중갤] 걍 이 짤 하나가 gta6를 다 설명함 ㅋㅋ",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480881&_dcbest=1&page=1",
+   "views": 32299,
+   "comments": 314,
    "board": "디시 실베",
    "heat": 0.8775510204081632,
    "also_on": [],
@@ -335,7 +309,7 @@
   {
    "title": "추석 .MANHWA",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17802&page=1",
-   "views": 159178,
+   "views": 159193,
    "comments": 442,
    "board": "디시 HIT",
    "heat": 0.8723404255319149,
@@ -343,30 +317,30 @@
    "score": 0.872
   },
   {
-   "title": "룸서비스가 대단한 경산 모텔 수준",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049392",
+   "title": "시험장 수상한 학생,선생님의 증거 촬영",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049349",
    "views": 0,
-   "comments": 29,
+   "comments": 42,
    "board": "보배드림 베스트",
    "heat": 0.8636363636363636,
    "also_on": [],
    "score": 0.864
   },
   {
-   "title": "너가",
-   "url": "https://pann.nate.com/talk/375732592",
-   "views": 1024,
-   "comments": 8,
+   "title": "남친 부모님이 민망한 질문을 했어",
+   "url": "https://pann.nate.com/talk/375732975",
+   "views": 2566,
+   "comments": 9,
    "board": "네이트판",
    "heat": 0.86,
    "also_on": [],
    "score": 0.86
   },
   {
-   "title": "[싱갤] 싱글벙글 Gta 유저평점 테러사건의 충격적 진실.jpg",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480900&_dcbest=1&page=1",
-   "views": 20106,
-   "comments": 321,
+   "title": "[중갤] “빨리 죽여줘” 결박된 사형수 비명…1시간 사형집행 끝에 사망 [월드픽]",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480897&_dcbest=1&page=1",
+   "views": 23162,
+   "comments": 293,
    "board": "디시 실베",
    "heat": 0.8571428571428571,
    "also_on": [],
@@ -375,7 +349,7 @@
   {
    "title": "세트병) 프리큐어 20년 즈언통의 굿즈모음",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17768&page=1",
-   "views": 51329,
+   "views": 51335,
    "comments": 403,
    "board": "디시 HIT",
    "heat": 0.851063829787234,
@@ -385,28 +359,28 @@
   {
    "title": "커닝 막겠다고 재난문자까지…\"놀랍다\" 파친코 작가의 일침",
    "url": "https://theqoo.net/hot/4414944821",
-   "views": 64839,
-   "comments": 395,
+   "views": 72573,
+   "comments": 410,
    "board": "더쿠 HOT",
    "heat": 0.85,
    "also_on": [],
    "score": 0.85
   },
   {
-   "title": "수능볼때 화장실때문에 망함....",
-   "url": "https://pann.nate.com/talk/375732486",
-   "views": 580,
-   "comments": 7,
+   "title": "SK하이닉스 99만원",
+   "url": "https://pann.nate.com/talk/375731880",
+   "views": 11769,
+   "comments": 9,
    "board": "네이트판",
    "heat": 0.84,
    "also_on": [],
    "score": 0.84
   },
   {
-   "title": "[중갤] 걍 이 짤 하나가 gta6를 다 설명함 ㅋㅋ",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480881&_dcbest=1&page=1",
-   "views": 30805,
-   "comments": 310,
+   "title": "[싱갤] 난리였던 부산 BTS콘 숙소 바가지 최신근황.jpg",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480947&_dcbest=1&page=1",
+   "views": 23783,
+   "comments": 276,
    "board": "디시 실베",
    "heat": 0.8367346938775511,
    "also_on": [],
@@ -415,7 +389,7 @@
   {
    "title": "대보협 Mr.YMCA 대회 참가 후기",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17779&page=1",
-   "views": 67399,
+   "views": 67405,
    "comments": 374,
    "board": "디시 HIT",
    "heat": 0.8297872340425532,
@@ -423,30 +397,30 @@
    "score": 0.83
   },
   {
-   "title": "그래서 물어보고싶었어",
-   "url": "https://pann.nate.com/talk/375732842",
-   "views": 645,
-   "comments": 7,
+   "title": "너가",
+   "url": "https://pann.nate.com/talk/375732592",
+   "views": 1338,
+   "comments": 9,
    "board": "네이트판",
    "heat": 0.82,
    "also_on": [],
    "score": 0.82
   },
   {
-   "title": "또 마라톤 대회 대학생 사망ㄷㄷ",
-   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049404",
+   "title": "학폭 기록 때문에 수시 전부 떨어진 아들",
+   "url": "https://www.bobaedream.co.kr/view?code=best&No=1049418",
    "views": 0,
-   "comments": 28,
+   "comments": 42,
    "board": "보배드림 베스트",
    "heat": 0.8181818181818182,
    "also_on": [],
    "score": 0.818
   },
   {
-   "title": "[싱갤] 싱글벙글 유명 헐리우드 영화 평가 요약",
-   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480967&_dcbest=1&page=1",
-   "views": 15682,
-   "comments": 293,
+   "title": "[이갤] SBS) 수능 창시자 \"수능 없애는 것이 낫다\"..첫 구상과 뭐가 달라졌길래",
+   "url": "https://gall.dcinside.com/board/view/?id=dcbest&no=480918&_dcbest=1&page=1",
+   "views": 15465,
+   "comments": 256,
    "board": "디시 실베",
    "heat": 0.8163265306122449,
    "also_on": [],
@@ -455,12 +429,22 @@
   {
    "title": "싱글벙글 내 작은 정원",
    "url": "https://gall.dcinside.com/board/view/?id=hit&no=17766&page=1",
-   "views": 58545,
+   "views": 58552,
    "comments": 356,
    "board": "디시 HIT",
    "heat": 0.8085106382978723,
    "also_on": [],
    "score": 0.809
+  },
+  {
+   "title": "조금 촌스러워야 크리스마스맛이남",
+   "url": "https://theqoo.net/hot/4414921472",
+   "views": 82044,
+   "comments": 343,
+   "board": "더쿠 HOT",
+   "heat": 0.8,
+   "also_on": [],
+   "score": 0.8
   }
  ],
  "news_hot": [
@@ -471,147 +455,33 @@
    "rank": 1
   },
   {
-   "title": "이 대통령 “5500억 공익환수가 배임죄?”",
-   "url": "https://n.news.naver.com/article/449/0000368275",
-   "press": "채널A",
-   "rank": 1
-  },
-  {
-   "title": "'순방 잦다' 야당 비판에…청와대 \"해외 정상들의 숨가쁜 외교 보라\"",
-   "url": "https://n.news.naver.com/article/437/0000521862",
-   "press": "JTBC",
-   "rank": 1
-  },
-  {
-   "title": "李, ‘대장동 수사’ 또 비판... ‘조작기소 특검’에 힘 싣기?",
-   "url": "https://n.news.naver.com/article/023/0004011041",
-   "press": "조선일보",
-   "rank": 1
-  },
-  {
-   "title": "대학입시 폐지가 최고의 민생정치다",
-   "url": "https://n.news.naver.com/article/036/0000054488",
-   "press": "한겨레21",
-   "rank": 1
-  },
-  {
-   "title": "이 대통령 “치아 흔들리고 코피 터지지만…임기 초 순방은 국정과제”",
-   "url": "https://n.news.naver.com/article/028/0002833349",
-   "press": "한겨레",
-   "rank": 1
-  },
-  {
-   "title": "이번엔 대구 집결한 국힘 \"몽땅 교도소에\"‥민주 \"그럴 자격 있나\"",
-   "url": "https://n.news.naver.com/article/214/0001537155",
-   "press": "MBC",
-   "rank": 1
-  },
-  {
-   "title": "주말도 못 쉬는 대통령…울산 시장서 단감 직접 깎고 \"맛있네\" [영상]",
-   "url": "https://n.news.naver.com/article/015/0005356697",
-   "press": "한국경제",
-   "rank": 1
-  },
-  {
-   "title": "정점식 “‘이재명 버블’ 증시 심상찮다”…정부에 블랙먼데이 대응책 촉구",
-   "url": "https://n.news.naver.com/article/009/0005767120",
-   "press": "매일경제",
-   "rank": 1
-  },
-  {
-   "title": "부모님이 물려준 아파트 세금 다 냈는데 '날벼락'…\"같은 단지 아파트 실거래가 적용\"",
-   "url": "https://n.news.naver.com/article/277/0005845964",
-   "press": "아시아경제",
-   "rank": 1
-  },
-  {
-   "title": "[속보] 정부, 불법 공매도 3개월간 특별 감시…위법행위 엄정 대응",
-   "url": "https://n.news.naver.com/article/421/0009303639",
-   "press": "뉴스1",
-   "rank": 1
-  },
-  {
-   "title": "이 대통령, '대장동 의혹' 거듭 반박…\"업자에 1,100억 추가 부담\"",
-   "url": "https://n.news.naver.com/article/422/0000928748",
-   "press": "연합뉴스TV",
-   "rank": 1
-  },
-  {
-   "title": "‘추가 폭락’ 美 증시에 월요일이 두려운 개미들…코스피 바닥은 어디 [선데이 머니카페]",
-   "url": "https://n.news.naver.com/article/011/0004684705",
+   "title": "李 “업자와 결탁한 시장이 1100억 추가 부담 시키나”…대장동 의혹 재차 반박",
+   "url": "https://n.news.naver.com/article/011/0004684884",
    "press": "서울경제",
    "rank": 1
   },
   {
-   "title": "폭락한 미 증시에 월요일이 두려운 개미들…4900 무너졌는데 4300까지?",
-   "url": "https://n.news.naver.com/article/082/0001408294",
-   "press": "부산일보",
+   "title": "[단독] 전국법관대표회의 의장 “조희대 탄핵소추 땐 법관들 행동 나서야”",
+   "url": "https://n.news.naver.com/article/028/0002833425",
+   "press": "한겨레",
    "rank": 1
   },
   {
-   "title": "美 반도체주 10% 폭락에 '검은 월요일' 우려…코스피 4700까지 밀리나",
-   "url": "https://n.news.naver.com/article/014/0005607817",
-   "press": "파이낸셜뉴스",
-   "rank": 1
-  },
-  {
-   "title": "국힘, '조작 징계' 파장 확산 촉각…친한계에 '엄정 조치' 예고도",
-   "url": "https://n.news.naver.com/article/003/0014337609",
-   "press": "뉴시스",
-   "rank": 1
-  },
-  {
-   "title": "국민의힘 윤상현 “비상계엄은 내란이라는 대법원 판결 존중…당도 입장 정리해야”",
-   "url": "https://n.news.naver.com/article/032/0003484194",
-   "press": "경향신문",
-   "rank": 1
-  },
-  {
-   "title": "이 대통령 \"수능 부정행위 신고 포상, 1건당 최소 1억\"",
-   "url": "https://n.news.naver.com/article/052/0002436201",
-   "press": "YTN",
-   "rank": 1
-  },
-  {
-   "title": "윤상현 \"'비상계엄은 내란' 대법원 판결 존중…당 입장 정리해야\"",
-   "url": "https://n.news.naver.com/article/088/0001041621",
-   "press": "매일신문",
-   "rank": 1
-  },
-  {
-   "title": "“도와줄 이유가 없다”…日 입국 거부 조국 외면하는 민주, 왜",
-   "url": "https://n.news.naver.com/article/025/0003566905",
-   "press": "중앙일보",
-   "rank": 1
-  },
-  {
-   "title": "청와대, ‘대통령 잦은 순방’ 지적한 야당에 “눈 들어 해외 정상 보라”",
-   "url": "https://n.news.naver.com/article/056/0012298752",
+   "title": "이 대통령 “치아 흔들리고 코피 터져도…임기 초 순방은 국정과제”",
+   "url": "https://n.news.naver.com/article/056/0012298785",
    "press": "KBS",
    "rank": 1
   },
   {
-   "title": "이 대통령 \"치아 흔들리고 코피 터져\"... '순방 잦다' 비판에 \"돼지 눈에 돼지만\" 반박",
-   "url": "https://n.news.naver.com/article/469/0000967070",
-   "press": "한국일보",
+   "title": "李대통령 지지율 0.9%P 오른 37.3%…2주 연속 상승[아경-리얼미터 여론조사]",
+   "url": "https://n.news.naver.com/article/277/0005846106",
+   "press": "아시아경제",
    "rank": 1
   },
   {
-   "title": "\"빚내서 주식 샀다가\"…4050에 닥친 '날벼락'",
-   "url": "https://n.news.naver.com/article/018/0006413609",
-   "press": "이데일리",
-   "rank": 1
-  },
-  {
-   "title": "이 대통령 \"신고 포상금, 최대 1억 아닌 최소 1억 원\"",
-   "url": "https://n.news.naver.com/article/055/0001404792",
-   "press": "SBS",
-   "rank": 1
-  },
-  {
-   "title": "“빚내서 주식했다가 물렸다”…4050 덮친 '빚투 부메랑'",
-   "url": "https://n.news.naver.com/article/030/0003488256",
-   "press": "전자신문",
+   "title": "李 “5500억 공익환수가 배임인가”… 대장동 연일 반박",
+   "url": "https://n.news.naver.com/article/081/0003701924",
+   "press": "서울신문",
    "rank": 1
   },
   {
@@ -621,27 +491,45 @@
    "rank": 1
   },
   {
-   "title": "李대통령, '대장동 의혹' 또 반박…\"업자와 결탁한 시장 아냐\"",
-   "url": "https://n.news.naver.com/article/001/0016456909",
-   "press": "연합뉴스",
+   "title": "李, 대장동 의혹 이틀 만에 재반박 \"업자와 결탁한 시장이라면 할 수 없는 행동\"",
+   "url": "https://n.news.naver.com/article/088/0001041649",
+   "press": "매일신문",
    "rank": 1
   },
   {
-   "title": "이 대통령 \"해외순방이 호화쇼핑 기회라는 이들은 놀러가는 것으로 보일수밖에\"",
-   "url": "https://n.news.naver.com/article/002/0002467008",
-   "press": "프레시안",
+   "title": "\"주식 폭락했다고 다 팔지 마라\"…투자 전문가가 경고한 행동",
+   "url": "https://n.news.naver.com/article/014/0005607946",
+   "press": "파이낸셜뉴스",
    "rank": 1
   },
   {
-   "title": "“내일 블랙 먼데이 막자”…정부, 증안펀드 18년만에 투입 준비",
-   "url": "https://n.news.naver.com/article/020/0003764227",
-   "press": "동아일보",
+   "title": "'순방 잦다' 지적에 李, 또 '돼지 눈' 고사 언급…'대장동' 관련 글 또 올려",
+   "url": "https://n.news.naver.com/article/448/0000652667",
+   "press": "TV조선",
    "rank": 1
   },
   {
-   "title": "민주 “조희대 대법원, 공화국 질서 무너뜨려… 탄핵은 역사적 책무”",
-   "url": "https://n.news.naver.com/article/022/0004177126",
-   "press": "세계일보",
+   "title": "“故 이진우 추정 남성에게 보험사기 당할 뻔”…온라인 커뮤니티서 주장 제기",
+   "url": "https://n.news.naver.com/article/009/0005767321",
+   "press": "매일경제",
+   "rank": 1
+  },
+  {
+   "title": "‘검은 월요일’ 막아라…증안펀드 꺼내든 정부, 자사주 매입 빗장도 푼다",
+   "url": "https://n.news.naver.com/article/016/0002726767",
+   "press": "헤럴드경제",
+   "rank": 1
+  },
+  {
+   "title": "‘블랙먼데이’ 공포 커지는데…증권가 반전 전망 이유는",
+   "url": "https://n.news.naver.com/article/018/0006413814",
+   "press": "이데일리",
+   "rank": 1
+  },
+  {
+   "title": "법관회의 의장 “曺탄핵 도 넘어… 의결한다면 우리도 행동 나서야”",
+   "url": "https://n.news.naver.com/article/023/0004011125",
+   "press": "조선일보",
    "rank": 1
   },
   {
@@ -651,195 +539,304 @@
    "rank": 1
   },
   {
-   "title": "“테슬라, 왜 이렇게 많이 보이냐” 했더니…결국 씁쓸한 최고 기록 찍었다",
-   "url": "https://n.news.naver.com/article/016/0002726682",
-   "press": "헤럴드경제",
+   "title": "[스트레이트] 신이 된 여자‥지리산 '영체님'의 실체",
+   "url": "https://n.news.naver.com/article/214/0001537270",
+   "press": "MBC",
    "rank": 1
   },
   {
-   "title": "증시 급락에 증안펀드 가동 준비…자사주 매수한도 완화",
-   "url": "https://n.news.naver.com/article/029/0003060489",
-   "press": "디지털타임스",
+   "title": "이 대통령, '대장동 의혹' 거듭 반박…\"업자에 1,100억 추가 부담\"",
+   "url": "https://n.news.naver.com/article/422/0000928748",
+   "press": "연합뉴스TV",
    "rank": 1
   },
   {
-   "title": "[속보]나경원 “내일 블랙먼데이 우려…피같은 국민 자산 녹는다”",
-   "url": "https://n.news.naver.com/article/021/0002834574",
-   "press": "문화일보",
+   "title": "“빚내서 주식했다가 물렸다”…4050 덮친 '빚투 부메랑'",
+   "url": "https://n.news.naver.com/article/030/0003488256",
+   "press": "전자신문",
    "rank": 1
   },
   {
-   "title": "잦은 해외순방 비판에…李대통령 \"돼지 눈엔 돼지만\" 반박",
-   "url": "https://n.news.naver.com/article/079/0004212456",
-   "press": "노컷뉴스",
+   "title": "정부, 증시 급락에 18년 만에 '증시안정 펀드' 준비",
+   "url": "https://n.news.naver.com/article/437/0000521897",
+   "press": "JTBC",
    "rank": 1
   },
   {
-   "title": "조국혁신당, 당명 바꾼다…\"범민주진보진영이 좋아할 이름으로\"",
-   "url": "https://n.news.naver.com/article/057/0001979305",
+   "title": "민주 \"조희대 탄핵 12월 처리\"...국힘 \"이게 진짜 내란\"",
+   "url": "https://n.news.naver.com/article/052/0002436444",
+   "press": "YTN",
+   "rank": 1
+  },
+  {
+   "title": "“6개월 지나도 안 썩는다”…지하철역 ‘중국산 1000원빵’ 논란",
+   "url": "https://n.news.naver.com/article/025/0003566944",
+   "press": "중앙일보",
+   "rank": 1
+  },
+  {
+   "title": "李대통령, ‘대장동 의혹’ 재차 반박…“업자와 결탁된 시장이라면 할 수 있는 행동 아냐”",
+   "url": "https://n.news.naver.com/article/022/0004177188",
+   "press": "세계일보",
+   "rank": 1
+  },
+  {
+   "title": "한국 '초유의 상황' 터졌다…중국산 침투에 '섬뜩한 경고'",
+   "url": "https://n.news.naver.com/article/015/0005356765",
+   "press": "한국경제",
+   "rank": 1
+  },
+  {
+   "title": "이 대통령 \"돼지 눈엔 돼지만\"…잦은 순방 비판에 재반박",
+   "url": "https://n.news.naver.com/article/057/0001979355",
    "press": "MBN",
    "rank": 1
   },
   {
-   "title": "李대통령, ‘수능 혼란’ 최교진 교육장관 사의 수락",
-   "url": "https://n.news.naver.com/article/005/0001886619",
+   "title": "김성태 \"'대권 생각' 장동혁, 한동훈 절대 안 받아...국힘 접수, 지지율이 깡패, 근데 그 정도 나올까\"[여의도 중진대담]",
+   "url": "https://n.news.naver.com/article/660/0000121937",
+   "press": "kbc광주방송",
+   "rank": 1
+  },
+  {
+   "title": "18년 만에 '증시안정펀드' 준비…공매도 규제 제외",
+   "url": "https://n.news.naver.com/article/055/0001404938",
+   "press": "SBS",
+   "rank": 1
+  },
+  {
+   "title": "배우 김민 토성면 산불 초기 진화 활약 화제",
+   "url": "https://n.news.naver.com/article/087/0001232413",
+   "press": "강원일보",
+   "rank": 1
+  },
+  {
+   "title": "대법원장 직무정지 현실화 땐… 내란 재판 ‘줄스톱’ 우려",
+   "url": "https://n.news.naver.com/article/005/0001886687",
    "press": "국민일보",
    "rank": 1
   },
   {
-   "title": "[속보] 정점식 \"내일 블랙 먼데이 우려…정부, 증시 폭락 대비책 마련해야\"",
-   "url": "https://n.news.naver.com/article/654/0000212571",
+   "title": "李대통령 \"치아 흔들리고 코피까지 터지는 일이지만…\"",
+   "url": "https://n.news.naver.com/article/006/0000138889",
+   "press": "미디어오늘",
+   "rank": 1
+  },
+  {
+   "title": "코스피 5000선 붕괴에 'F4' 긴급 소집…증안펀드 가동 준비",
+   "url": "https://n.news.naver.com/article/654/0000212666",
    "press": "강원도민일보",
    "rank": 1
   },
   {
-   "title": "“나이 들면 무조건 줄어든다?”…‘회춘 물질’로 알려진 ‘이것’의 반전",
-   "url": "https://n.news.naver.com/article/662/0000109011",
-   "press": "농민신문",
+   "title": "李대통령, 대장동 의혹 또 반박…\"업자와 결탁한 시장 아니다\"",
+   "url": "https://n.news.naver.com/article/079/0004212491",
+   "press": "노컷뉴스",
    "rank": 1
   },
   {
-   "title": "민주당, 조희대 탄핵 속도전…“한덕수 판결, 탄핵 사유 삼지 않겠다”",
-   "url": "https://n.news.naver.com/article/081/0003701820",
-   "press": "서울신문",
+   "title": "이 대통령 \"치아 흔들리고 코피 터져\"... '순방 잦다' 비판에 \"돼지 눈에 돼지만\" 반박",
+   "url": "https://n.news.naver.com/article/469/0000967070",
+   "press": "한국일보",
+   "rank": 1
+  },
+  {
+   "title": "국민의힘 윤상현 “비상계엄은 내란이라는 대법원 판결 존중…당도 입장 정리해야”",
+   "url": "https://n.news.naver.com/article/032/0003484194",
+   "press": "경향신문",
+   "rank": 1
+  },
+  {
+   "title": "조국, 조국혁신당 당명 개정 제안 \"일부는 우리 당 조롱하기도\"",
+   "url": "https://n.news.naver.com/article/657/0000057714",
+   "press": "대구MBC",
+   "rank": 1
+  },
+  {
+   "title": "블랙먼데이 우려에 증안펀드 18년만에 가동되나…F4 \"준비 착수\"(종합)",
+   "url": "https://n.news.naver.com/article/001/0016457004",
+   "press": "연합뉴스",
+   "rank": 1
+  },
+  {
+   "title": "‘대통령픽’ 이광수마저…“주식시장, 완전 망하면 그건 비상이 아냐”",
+   "url": "https://n.news.naver.com/article/021/0002834585",
+   "press": "문화일보",
+   "rank": 1
+  },
+  {
+   "title": "전통시장 찾은 李 코앞서 “재판 안받으시냐” 돌발 외침…장성민 “민심-명심 전쟁”",
+   "url": "https://n.news.naver.com/article/029/0003060494",
+   "press": "디지털타임스",
+   "rank": 1
+  },
+  {
+   "title": "李대통령 “4300억 확정 후 1100억 더 받아”...대장동 배임 의혹 재반박",
+   "url": "https://n.news.naver.com/article/666/0000133254",
+   "press": "경기일보",
+   "rank": 1
+  },
+  {
+   "title": "“내일 블랙 먼데이 막자”…정부, 증안펀드 18년만에 투입 준비",
+   "url": "https://n.news.naver.com/article/020/0003764227",
+   "press": "동아일보",
+   "rank": 1
+  },
+  {
+   "title": "‘한덕수 판결’ 빼고 조희대 탄핵…“외통수” 우려도",
+   "url": "https://n.news.naver.com/article/449/0000368328",
+   "press": "채널A",
    "rank": 1
   }
  ],
  "trends": {
   "google": [
    {
-    "keyword": "밀란 대 프로시노네",
-    "traffic": "500+",
-    "news": [
-     {
-      "title": "Germany 5-0 Netherlands (Nov 16, 2026) Game Analysis",
-      "url": "https://www.espn.com/soccer/report/_/gameId/401861185"
-     },
-     {
-      "title": "Klopp's Germany Routs Xavi's Netherlands To Book Nations League Quarterfinals",
-      "url": "https://www.foxsports.com/stories/soccer/germany-routs-the-netherlands-50-in-nations-league-to-confirm-renaissance-under-klopp"
-     }
-    ]
-   },
-   {
-    "keyword": "liverpool đấu với man utd",
-    "traffic": "200+",
-    "news": [
-     {
-      "title": "Trực tiếp Liverpool vs MU, 23h30 ngày 22/11: Chờ màn ra mắt của tân HLV Pochettino",
-      "url": "https://www.vietnam.vn/truc-tiep-liverpool-vs-mu-23h30-ngay-22-11-cho-man-ra-mat-cua-tan-hlv-pochettino"
-     },
-     {
-      "title": "Gary Neville đặt câu hỏi về quyết định của Mauricio Pochettino",
-      "url": "https://bongda24h.vn/bong-da-anh/gary-neville-dat-cau-hoi-ve-quyet-dinh-cua-mauricio-pochettino-172-465391.html"
-     }
-    ]
-   },
-   {
-    "keyword": "맨유",
-    "traffic": "2000+",
-    "news": [
-     {
-      "title": "“맨유 재건 맡은 포체티노 감독, 선수 육성 능력이 최대 강점”",
-      "url": "https://weekly.donga.com/home/article/all/11/6466651/1"
-     },
-     {
-      "title": "축구의 묘미는 역시 ‘바이시클킥’",
-      "url": "https://news.kbs.co.kr/news/view.do?ncd=8716627"
-     }
-    ]
-   },
-   {
-    "keyword": "빗썸",
-    "traffic": "200+",
-    "news": [
-     {
-      "title": "업비트·빗썸 사상 처음 적자, 뒤따르는 시장 침체의 신호 | 엠블록",
-      "url": "https://www.mk.co.kr/newsletter/page/3575"
-     },
-     {
-      "title": "업비트·빗썸, 사이버 CYBER 입출금 동시 중단…거래는 열고 송금은 막았다",
-      "url": "https://www.wikitree.co.kr/articles/1176751"
-     }
-    ]
-   },
-   {
-    "keyword": "포체티노",
-    "traffic": "200+",
-    "news": [
-     {
-      "title": "‘1000억+연봉 228억 원’ 맨유 또 천문학적 거금 투자해 FW 영입할까 “나이지리아 대표 공격수에 다시 관...",
-      "url": "https://sports.khan.co.kr/article/202611220909003"
-     },
-     {
-      "title": "'미쳤다' 맨체스터 유나이티드 '포체티노 1호 영입' 낙점! 美 대표팀 '주전 레프트백' 러브콜, '최우선 순위' 급부상...\"재회 간절히 원해\"",
-      "url": "https://mydaily.co.kr/page/view/2026112214352236820"
-     }
-    ]
-   },
-   {
-    "keyword": "라싱 산탄데르 대 레알 소시에다드",
-    "traffic": "100+",
-    "news": [
-     {
-      "title": "Racing de Santander vs Real Sociedad: Spanish La Liga stats & head-to-head",
-      "url": "https://www.bbc.com/sport/football/live/c6kgr004pl7rt"
-     },
-     {
-      "title": "Racing Santander vs. Real Sociedad - Game Highlights",
-      "url": "https://www.espn.com/video/clip/_/id/50563056/racing-santander-vs-real-sociedad-game-highlights"
-     }
-    ]
-   },
-   {
-    "keyword": "ลิเวอร์พูล พบ แมนยู",
-    "traffic": "500+",
-    "news": [
-     {
-      "title": "LIVE ดูบอลสด ลิเวอร์พูล พบ แมนยู แดงเดือดวันนี้ (22 พ.ย. 69) 23.30 น. พรีเมียร์ลีก 2026-27",
-      "url": "https://www.thairath.co.th/sport/eurofootball/premierleague/2970069"
-     },
-     {
-      "title": "โปเช็ตติโน่ได้รับข่าวร้ายก่อนเกมสำคัญระหว่างแมนเชสเตอร์ ยูไนเต็ดและลิเวอร์พูล",
-      "url": "https://www.vietnam.vn/th/pochettino-don-tin-khong-vui-truoc-tran-quyet-dau-cua-man-utd-va-liverpool"
-     }
-    ]
-   },
-   {
-    "keyword": "청년문화예술패스",
+    "keyword": "양산시",
     "traffic": "100+",
     "news": []
    },
    {
-    "keyword": "라민 야말",
-    "traffic": "100+",
+    "keyword": "홍창기",
+    "traffic": "1000+",
     "news": [
      {
-      "title": "페이호 \"라민 야말의 활약은 특별하다\", 스페인이 2030 월드컵 결승전 개최해야",
-      "url": "https://www.allfootballapp.com/ko/articles/6037663-2030"
+      "title": "세대교체 필요한 LG, 박동원과 홍창기 잡아야할까",
+      "url": "https://star.ohmynews.com/NWS_Web/OhmyStar/at_pg.aspx?CNTN_CD=A0003287083"
      },
      {
-      "title": "‘스페인 월드컵 개최 포기?’ 불타는 의지, 바르셀로나-레알 마드리드 안방에서? “챔피언이잖아...그렇게 될 것”",
-      "url": "https://www.goal.com/kr/%EB%89%B4%EC%8A%A4/%E1%84%89%E1%85%B3%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%86%AB-%E1%84%8B%E1%85%AF%E1%86%AF%E1%84%83%E1%85%B3%E1%84%8F%E1%85%A5%E1%86%B8-%E1%84%80%E1%85%A2%E1%84%8E%E1%85%AC-%E1%84%91%E1%85%A9%E1%84%80%E1%85%B5-%E1%84%8B%E1%85%B5%E1%86%B8%E1%84%8C%E1%85%A1%E1%86%BC-%E1%84%91%E1%85%B5%E1%84%85%E1%85%A7%E1%86%A8-%E1%84%87%E1%85%AE%E1%86%AF%E1%84%90%E1%85%A1%E1%84%82%E1%85%B3%E1%86%AB-%E1%84%8B%E1%85%B4%E1%84%8C%E1%85%B5-%E1%84%87%E1%85%A1%E1%84%85%E1%85%B3%E1%84%89%E1%85%A6%E1%86%AF%E1%84%85%E1%85%A9%E1%84%82%E1%85%A1-%E1%84%85%E1%85%A6%E1%84%8B%E1%85%A1%E1%86%AF-%E1%84%86%E1%85%A1%E1%84%83%E1%85%B3%E1%84%85%E1%85%B5%E1%84%83%E1%85%B3-%E1%84%8B%E1%85%A1%E1%86%AB%E1%84%87%E1%85%A1%E1%86%BC%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5--%E1%84%8E%E1%85%A2%E1%86%B7%E1%84%91%E1%85%B5%E1%84%8B%E1%85%A5%E1%86%AB%E1%84%8B%E1%85%B5%E1%84%8C%E1%85%A1%E1%86%AD%E1%84%8B%E1%85%A1--%E1%84%80%E1%85%B3%E1%84%85%E1%85%A5%E1%87%82%E1%84%80%E1%85%A6-%E1%84%83%E1%85%AC%E1%86%AF-%E1%84%80%E1%85%A5%E1%86%BA/bltd770ea97e8d68e28"
+      "title": "FA 박동원·김태군·최재훈 뜻밖의 아킬레스건? 포수 수비 탑3에 없다…연쇄이동 제동 걸리나, 장기전 예고인가",
+      "url": "https://mydaily.co.kr/page/view/2026112004102210618"
      }
     ]
    },
    {
-    "keyword": "liverpool vs man utd",
+    "keyword": "삼성전자",
+    "traffic": "5000+",
+    "news": [
+     {
+      "title": "\"삼전 30만원·하닉 200만원 이상에 물린 사람…3년은 마음 비워야\"",
+      "url": "https://www.newsis.com/view/NISX20261118_0003873510"
+     },
+     {
+      "title": "'7만전자·20만닉스' 전망한 전문가...\"AI 거품, 폭락 시작도 안 했다\" - 머니투데이",
+      "url": "https://www.mt.co.kr/society/2026/11/21/2026112110581031975"
+     }
+    ]
+   },
+   {
+    "keyword": "교장",
+    "traffic": "200+",
+    "news": [
+     {
+      "title": "\"지우개 없어? 반으로 잘라!\" 감독관이 전한 ‘초유의 수능’",
+      "url": "https://news.jtbc.co.kr/video/NB12329097"
+     },
+     {
+      "title": "수능날 지우개가 안왔다…“반으로 잘라, 내가 책임” 기지 발휘한 교장",
+      "url": "https://www.donga.com/news/Society/article/all/20261122/135065591/1"
+     }
+    ]
+   },
+   {
+    "keyword": "지스타",
+    "traffic": "200+",
+    "news": [
+     {
+      "title": "[대담한K] 지스타 개막 D-2…부산 게임 산업의 과제는?",
+      "url": "https://news.kbs.co.kr/news/view.do?ncd=8715323"
+     },
+     {
+      "title": "[인터뷰] 김동현 대표 “지휘의 재미와 원작의 특징 살린 ‘디겜폭: LAST STAGE’”",
+      "url": "https://www.viva100.com/article/20261120500584"
+     }
+    ]
+   },
+   {
+    "keyword": "라면",
+    "traffic": "1000+",
+    "news": [
+     {
+      "title": "통상본부장, 굴 수출기업·딸기 농가 찾아 K-푸드 수출지원 논의",
+      "url": "https://www.yna.co.kr/view/AKR20261122033000003"
+     },
+     {
+      "title": "'K-라면 구입해 볼까'",
+      "url": "https://www.news1.kr/photos/8226844"
+     }
+    ]
+   },
+   {
+    "keyword": "엔비디아",
     "traffic": "2000+",
     "news": [
      {
-      "title": "Liverpool 4-0 Manchester United: Nightmare start to Mauricio Pochettino's reign after Anfield hammering",
-      "url": "https://www.bbc.com/sport/football/live/cm62pqqw6d29t"
+      "title": "“엔비디아칩 중국 밀반입망, 앨리스 황과 캄보디아 범죄조직 인사로 이어져”",
+      "url": "https://www.khan.co.kr/article/202611222208001"
      },
      {
-      "title": "Liverpool v Manchester United: Premier League – live",
-      "url": "https://www.theguardian.com/football/live/2026/nov/22/liverpool-v-manchester-united-premier-league-live"
+      "title": "\"반도체 유출·젠슨 황 별개\"‥캄보디아 조직 관여",
+      "url": "https://imnews.imbc.com/replay/2026/nwtoday/article/6867682_37012.html"
+     }
+    ]
+   },
+   {
+    "keyword": "김다현",
+    "traffic": "500+",
+    "news": [
+     {
+      "title": "[ET포토] 권은진. '돋보이는 비율'",
+      "url": "https://www.etnews.com/20261123000044"
+     },
+     {
+      "title": "[ET포토] 와타나베 켄, '부인과 함께 왔어요'",
+      "url": "https://www.etnews.com/20261123000039"
+     }
+    ]
+   },
+   {
+    "keyword": "임영웅",
+    "traffic": "500+",
+    "news": [
+     {
+      "title": "[브랜드평판] 가수 브랜드 2026년 11월 빅데이터 분석결과...1위 리센느, 2위 에이티즈, 3위 임영웅",
+      "url": "https://www.dtoday.co.kr/news/articleView.html?idxno=805422"
+     },
+     {
+      "title": "5년11개월째 아무도 못넘었다…임영웅, 영화관까지 접수하며 71개월 ‘연속 1위’",
+      "url": "https://www.sportsseoul.com/news/read/1651368"
+     }
+    ]
+   },
+   {
+    "keyword": "기관 투자자",
+    "traffic": "100+",
+    "news": [
+     {
+      "title": "美 기관투자자, 비트코인 ETF 3분기 순매수 전환…보유량 사상 최대",
+      "url": "https://zdnet.co.kr/view/?no=20261122091755"
+     },
+     {
+      "title": "은행부터 국부펀드까지…비트코인으로 향한 월가 자금",
+      "url": "https://www.digitaltoday.co.kr/news/articleView.html?idxno=716248"
      }
     ]
    }
   ],
   "buzz": [
+   {
+    "word": "유출",
+    "boards": [
+     "더쿠",
+     "디시",
+     "엠팍"
+    ],
+    "titles": [
+     "[중갤] GTA6 사용자 데이터 유출 논란 뭐노ㅋㅋㅋㅋ",
+     "서울사이버대학 개인정보 유출.jpg",
+     "한전도 해킹당했다…65만명 주민번호·계좌·카드번호 유출.gisa"
+    ]
+   },
    {
     "word": "AI",
     "boards": [
@@ -848,9 +845,9 @@
      "보배드림"
     ],
     "titles": [
+     "[싱갤] 따잇따잇 AI에게 좆된 직업들을 알아보자....png",
      "[대갤] AI 커닝 사태 후폭풍",
-     "[잡갤] MBC) AI 부정행위 논란 후 첫 국가자격시험‥부정행위 5명 적발·1명 무효",
-     "[싱갤] 싱글벙글 AI 컨닝으로 난리난 나라들"
+     "[잡갤] MBC) AI 부정행위 논란 후 첫 국가자격시험‥부정행위 5명 적발·1명 무효"
     ]
    },
    {
@@ -892,18 +889,6 @@
     ]
    },
    {
-    "word": "주식",
-    "boards": [
-     "디시",
-     "엠팍"
-    ],
-    "titles": [
-     "[미갤] 주식 투자자중 가장 위험한 부류....jpg",
-     "근데 주식이 올라갈수가 있나?",
-     "커멘더 지코 아시나요 ㄷㄷ 주식으로 번거 거의 다 날린듯"
-    ]
-   },
-   {
     "word": "리뷰",
     "boards": [
      "더쿠",
@@ -912,17 +897,6 @@
     "titles": [
      "[유갤] 맛상무 세븐일레븐 성시경 바지락 짬뽕라면 리뷰.jpg",
      "전기장판 사고 싶어서 쿠팡 리뷰좀 참고하려고 했는데 AI로 쓴 3천자 짜리 뚱뚱하고 무의미한 리뷰만 있어서 포기했소이다."
-    ]
-   },
-   {
-    "word": "영화",
-    "boards": [
-     "디시",
-     "엠팍"
-    ],
-    "titles": [
-     "[싱갤] 싱글벙글 유명 헐리우드 영화 평가 요약",
-     "영화 보다 보면 제일 신기했던 장면이"
     ]
    },
    {
@@ -937,6 +911,17 @@
     ]
    },
    {
+    "word": "여돌",
+    "boards": [
+     "디시",
+     "엠팍"
+    ],
+    "titles": [
+     "[유갤] 울고 싶을 때도 스케줄 보고 운다는 여돌",
+     "예능감 고트 여돌"
+    ]
+   },
+   {
     "word": "보고",
     "boards": [
      "네이트판",
@@ -948,14 +933,25 @@
     ]
    },
    {
-    "word": "부산",
+    "word": "MBC",
     "boards": [
      "디시",
      "엠팍"
     ],
     "titles": [
-     "[싱갤] 난리였던 부산 BTS콘 숙소 바가지 최신근황.jpg",
-     "부산 택시 기사님 소개팅"
+     "[잡갤] MBC) AI 부정행위 논란 후 첫 국가자격시험‥부정행위 5명 적발·1명 무효",
+     "261123 MBC 뉴스투데이 금채림(전직 기상캐스터)"
+    ]
+   },
+   {
+    "word": "풍경",
+    "boards": [
+     "디시",
+     "엠팍"
+    ],
+    "titles": [
+     "[싱갤] 싱글벙글 브라질 부잣집의 여름 별장 풍경...jpg",
+     "시흥대로의 아침 풍경.."
     ]
    },
    {
@@ -981,36 +977,25 @@
     ]
    },
    {
-    "word": "하나",
+    "word": "JPG",
     "boards": [
      "디시",
-     "보배드림"
+     "엠팍"
     ],
     "titles": [
-     "[중갤] 걍 이 짤 하나가 gta6를 다 설명함 ㅋㅋ",
-     "징역 18년을 무죄로 바꾼 카톡 하나."
+     "[미갤] 젠슨황 복귀여론의 현실...JPG",
+     "한가인 근황. JPG"
     ]
    },
    {
-    "word": "한국인들",
+    "word": "주식",
     "boards": [
-     "더쿠",
-     "디시"
+     "디시",
+     "엠팍"
     ],
     "titles": [
-     "[싱갤] 오해오해 살자율에 대한 일부 한국인들의 오해",
-     "한국인들은 무빙워크를 타도 빨리 걸어간다??? (feat. 이준호)"
-    ]
-   },
-   {
-    "word": "온거",
-    "boards": [
-     "네이트판",
-     "디시"
-    ],
-    "titles": [
-     "대충 조혈모세포 기증하고 온거 썰 풀어준다는 글",
-     "하이브때문에 케이팝 하락세 온거"
+     "[미갤] 주식 투자자중 가장 위험한 부류....jpg",
+     "오늘 주식 무조건 빠지나요?"
     ]
    }
   ]
