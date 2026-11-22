@@ -1,37 +1,38 @@
 {
- "detected_at": "2026-11-22T17:48+09:00",
+ "detected_at": "2026-11-23T00:21+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "이형일, 긴급 F4회의 소집…증시 안정 대책 논의할 듯",
-   "url": "https://n.news.naver.com/article/003/0014338012",
-   "press": "뉴시스",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "[속보] 정부, 불법 공매도 3개월간 특별 감시…위법행위 엄정 대응",
+   "url": "https://n.news.naver.com/article/421/0009303639",
+   "press": "뉴스1",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "MBC",
-     "title": "증시 급락에 정부 긴급 F4 회의‥시장 안정 대책 논의",
-     "url": "https://n.news.naver.com/article/214/0001537213"
-    },
-    {
-     "press": "디지털타임스",
-     "title": "AI주 투매에 F4 긴급 소집…증시 안정책 논의",
-     "url": "https://n.news.naver.com/article/029/0003060453"
-    },
-    {
-     "press": "뉴스1",
-     "title": "이형일 부총리, 긴급 F4 회의 소집…美 반도체 폭락에 시장 점검",
-     "url": "https://n.news.naver.com/article/421/0009303367"
+     "press": "조선비즈",
+     "title": "정부, 증시 급락 우려에 ‘증안펀드’ 가동 준비… 불법 공매도 3개월간 집중 감시",
+     "url": "https://n.news.naver.com/article/366/0001206504"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]나경원 “내일 블랙먼데이 우려…피같은 국민 자산 녹는다”",
-   "url": "https://n.news.naver.com/article/021/0002834574",
-   "press": "문화일보",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "이 대통령 \"치아 흔들리고 코피 터져\"... '순방 잦다' 비판에 \"돼지 눈에 돼지만\" 반박",
+   "url": "https://n.news.naver.com/article/469/0000967070",
+   "press": "한국일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "노컷뉴스",
+     "title": "잦은 해외순방 비판에…李대통령 \"돼지 눈엔 돼지만\" 반박",
+     "url": "https://n.news.naver.com/article/079/0004212456"
+    },
+    {
+     "press": "한겨레",
+     "title": "이 대통령 “치아 흔들리고 코피 터지지만…임기 초 순방은 국정과제”",
+     "url": "https://n.news.naver.com/article/028/0002833349"
+    }
+   ]
   }
  ]
 }
