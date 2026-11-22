@@ -1,0 +1,373 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "heated-vest-exam-dismissed",
+ "title_lines": [
+  "아빠가 입혀준 발열조끼에",
+  "퇴실당했다는 수험생"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "아빠가 입혀준 발열조끼에 퇴실당했다는 수험생",
+   "say": "아빠가 입혀준 발열조끼에 퇴실당했다는 수험생",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "아빠가 입혀준 발열조끼에\n퇴실당했다는 수험생",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "조끼 USB 선이 문제였다는 글임.",
+   "say": "조끼 유에스비 선이 문제였다는 글임.",
+   "sfx": "punch",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "受験生 男の子",
+       "受験生",
+       "試験 学生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔌",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "shake"
+     }
+    ],
+    "pic": [
+     "usb cable",
+     "usb charger",
+     "charging cable"
+    ],
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "추울까 봐 아빠가 챙겨 준 거였는데,",
+   "say": "추울까 봐 아빠가 챙겨 준 거였는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "父親 心配",
+       "お父さん",
+       "父親"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "winter morning house",
+     "snow house door",
+     "winter street morning"
+    ],
+    "grok": {
+     "prompt": "Medium shot of a middle-aged father with short black hair and a gray sweater zipping a dark padded heated vest onto his teenage son in a school uniform at the front door, cold winter morning light, slow push in on the father's hands"
+    }
+   }
+  },
+  {
+   "text": "댓글이 480개 넘게 달림.",
+   "say": "댓글이 사백팔십 개 넘게 달림.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "smartphone screen",
+     "mobile phone",
+     "phone screen"
+    ]
+   }
+  },
+  {
+   "text": "“이건 좀 유도리가 너무 없는 거 아니냐”",
+   "say": "이건 좀 유도리가 너무 없는 거 아니냐",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "red",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "怒る 人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“규정 위반이니까 어쩔 수 없지”",
+   "say": "규정 위반이니까 어쩔 수 없지",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "腕組み 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 올해는 하루 전에 규칙이 바뀜.",
+   "say": "근데 올해는 하루 전에 규칙이 바뀜.",
+   "sfx": "whoosh",
+   "tr": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "필기구 안내",
+      "lines": [
+       "11월 18일 추가 안내",
+       "흑색 연필만 개인 지참",
+       "사인펜은 시험장 지급"
+      ],
+      "mark": 1
+     },
+     {
+      "type": "illust",
+      "q": [
+       "鉛筆",
+       "えんぴつ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "사인펜 썼다고 퇴실된 학생도 있었는데,",
+   "say": "사인펜 썼다고 퇴실된 학생도 있었는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 男性",
+       "落ち込む 学生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✏️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "exam answer sheet",
+     "pencil writing paper",
+     "test paper desk"
+    ]
+   }
+  },
+  {
+   "text": "교육청은 부정행위가 아니라고 함.",
+   "say": "교육청은 부정행위가 아니라고 함.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tr": "flash",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "公務員 男性",
+       "電話 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "center",
+      "size": "l",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "감독관이 혼자 판단한 거였다고.",
+   "say": "감독관이 혼자 판단한 거였다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "先生 困る",
+       "教師 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "school building",
+     "school hallway",
+     "school corridor"
+    ],
+    "cc": [
+     "korean high school",
+     "seoul high school"
+    ]
+   }
+  },
+  {
+   "text": "사인펜 하나로 1년 날아갈 뻔함.",
+   "say": "사인펜 하나로 일 년 날아갈 뻔함.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "驚く"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "😮‍💨",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "아빠가 입혀준 발열조끼에 퇴실당했다는 수험생 #shorts",
+  "description": "수능날 아빠가 챙겨 준 발열조끼의 USB 선 때문에 퇴실됐다는 글에 댓글이 480개 넘게 달리며 의견이 갈렸다.\n올해 수능은 시험 하루 전(11/18) 필기구 기준이 바뀌어 흑색 연필만 개인 지참이 허용됐다.\n개인 사인펜을 썼다고 퇴실된 수험생은 교육청이 부정행위가 아니라고 판단해 다시 시험을 봤다.\n\n※ AI 음성으로 제작했습니다.\n#수능 #발열조끼 #수험생 #퇴실 #사인펜 #shorts",
+  "tags": [
+   "수능",
+   "발열조끼",
+   "수험생",
+   "퇴실",
+   "부정행위",
+   "사인펜",
+   "수능 감독관",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://theqoo.net/hot/4414941971",
+ "facts_used": [
+  "아빠가 입혀준 발열조끼 USB 선 때문에 부정행위 간주됐다는 글 — 더쿠 HOT 댓글 481(inbox) https://theqoo.net/hot/4414941971 · 보배드림 베스트 '발열조끼 부정행위로 퇴실조치' 댓글 68 https://www.bobaedream.co.kr/view?code=best&No=1049383 (커뮤니티 글, '~다는 글'로만 전함)",
+  "댓글 '이건 좀 유도리가 너무 없는거 아니냐' / '규정위반이니까 어쩔수 없지 저런거 봐주면 빈틈이 생기니까' — 같은 글 재게시 https://www.fmkorea.com/best/10584621250 · https://www.dogdrip.net/736055737 (검색 결과 인용, 원문 열람 불가)",
+  "11/18 교육부 추가 안내: 개인 필기구는 흑색 연필만, 사인펜·수정테이프·지우개·샤프심은 시험장 지급 — 정책브리핑 https://www.korea.kr/news/policyNewsView.do?newsId=148975290 / 세계일보 https://www.segye.com/newsView/20261118502871 / 노컷뉴스 https://www.nocutnews.co.kr/news/6609096",
+  "서울 송파 시험장에서 개인 컴퓨터용 사인펜 사용 수험생 퇴실, 교육청 연락 안 닿아 자체 판단, 교육청 '부정행위 아님' 답변 후 다시 불러들임 — MBN 단독 '부정행위 아닌데 수험생 퇴실 시키고 번복…\"학생에게 미안\"' https://www.youtube.com/watch?v=p3_mlCyCtNk / 위키트리 https://www.wikitree.co.kr/articles/1176274 / SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008856535"
+ ],
+ "brief": "레인: 사건\n화제: 수능 퇴실·부정행위 판정 (inbox 22위 더쿠 HOT '추울까봐 아빠가 입혀준 발열조끼 유에스비 선때문에 부정행위 간주됨' 댓글 481 · 5위 보배 '발열조끼 부정행위로 퇴실조치ㅜ' 동시 화제 / 커뮤니티 동시 단어 '부정행위'·'수능'·'커닝'(더쿠·디시·보배·엠팍))\n지금 가장 뜨거운 5개: ①발열조끼 퇴실(더쿠 481+보배, 동시 단어 부정행위·수능) ②런닝맨 명품지갑 사연(더쿠 874 — 방송 한 장면 얘기로 쓸 수 있으나 확인할 사실이 방송분뿐, 30~50대 남성 관심 낮음) ③리버풀 4-0 맨유 포체티노 데뷔전(구글 2000+ — 경기 결과 각도, 해외 축구라 오늘은 ①보다 약함) ④커닝 막겠다고 재난문자(더쿠 395 — 11/21 07시 '재난경보 스마트폰 22대'로 같은 사실 다룸) ⑤증시 폭락·검은 월요일(news_hot 다수 — 투자 소재 금지). ①이 부모·수험생·판정거리 모두 가장 큼.\n점수(사건 30+화제5): 이게됨 4(조끼 선 하나로 퇴실) · 궁금증 4(왜? → 하루 전 바뀐 규칙, 사인펜 번복) · 감정 8(아빠가 챙긴 조끼, 1년 준비) · 대상 5(수능) · 판정 5(유도리 vs 규정) · 화제 +5 = 31\n유행: 수능·부정행위 (커뮤니티 동시 단어)\n댓글: 2개뿐 (발열조끼 글 재게시 fmkorea·dogdrip 검색 인용; 더쿠·보배·위키트리 원문은 WebFetch 막힘 ENOTFOUND, 사인펜 건 댓글은 요약만 있어 인용 안 함)\n구조: 시작=아빠가 입혀준 발열조끼 USB 선 때문에 퇴실됐다는 글 / 커짐=댓글 480개 넘게 → '유도리 없다' → '규정 위반이니 어쩔 수 없다' / 뒤집힘=올해는 시험 하루 전 필기구 규칙이 바뀌었고 사인펜 쓴 학생도 퇴실됨 / 정체=교육청은 부정행위 아니라고 판단, 감독관이 연락 안 닿아 혼자 판단 / 그 뒤=사인펜 하나로 1년 날아갈 뻔함(기사: 다시 불러 시험 마저 봄 — 길이 때문에 대본에선 뺌)\n첫장면: 사람\n훅 3안: ①'조끼에 달린 USB 선이 문제였다는 글임'(물건+이유, 제목보다 한 발 더) ②'추울까 봐 아빠가 챙겨 준 조끼였음'(감정, 제목 반복에 가까움) ③'댓글이 480개 넘게 달림'(규모). ①은 '선 하나?' 하는 의외라 고름. 글 카드·제목은 '아빠가 입혀준 발열조끼에 퇴실당했다는 수험생'(사람+손해, 부모 시청자층).\n이해검사: 아빠가 입혀준 발열조끼의 USB 선 때문에 퇴실됐다는 글에 '유도리 없다'와 '규정 위반'으로 의견이 갈렸는데, 올해는 하루 전 규칙이 바뀌어 사인펜 쓴 학생도 퇴실됐고 교육청은 부정행위가 아니라고 했다 — 감독관 혼자 판단한 것.\n그림대조: 완료 (한국 이야기 — 일본 지도·국기·엔화 없음, 장소 classroom/living/office/desk)\n증거: doc 소품(11/18 필기구 추가 안내, 정책브리핑·세계일보·노컷)\n주의: 발열조끼 건은 언론·당국 확인 안 됨 → '~다는 글', '~라는 글임'으로만 전하고 퇴실 사실을 단정하지 않음. 사인펜 학생 이름·학교 없음(송파도 화면에 안 씀). 감독관 개인 비난 없이 '혼자 판단'까지만. 정치인(장관 사의) 언급 안 함. 사인펜 퇴실 시점(2교시 직후)·영어 별도 응시는 기사마다 표기가 달라 대본에서 뺌.\n출처: MBN 단독 2026-11-20 https://www.youtube.com/watch?v=p3_mlCyCtNk / 위키트리 https://www.wikitree.co.kr/articles/1176274 / SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008856535 / 정책브리핑 https://www.korea.kr/news/policyNewsView.do?newsId=148975290 / 세계일보 https://www.segye.com/newsView/20261118502871"
+}
