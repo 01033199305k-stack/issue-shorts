@@ -9277,5 +9277,68 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-22_1200_delivery-app-chicken-price-gap/video.mp4"
   },
   "seconds": 1462
+ },
+ {
+  "key": "2026-11-22-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-22T18:00:00+09:00",
+  "started": "2026-11-22T15:20:58.456651+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-22_1800_downtown-marathon-bus-stuck/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-22_1800_downtown-marathon-bus-stuck/video.mp4', '--det"
+  },
+  "open_bg": true,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-120450/",
+   "https://pixabay.com/photos/bus-coach-bridge-tourists-tourism-8016675/",
+   "https://pixabay.com/videos/id-83812/",
+   "https://pixabay.com/videos/id-21118/"
+  ],
+  "cc_clips": [],
+  "duration": 25.63,
+  "matches": [
+   1.0,
+   1.0,
+   0.96,
+   0.96,
+   0.97,
+   0.93,
+   0.93,
+   1.0,
+   1.0,
+   1.0,
+   1.0
+  ],
+  "sfx": 10,
+  "illustrations": 8,
+  "cuts": 11,
+  "layout_issues": [],
+  "caption_breaks": [
+   "서울마라톤 / 날이었는데, (55)"
+  ],
+  "title": "버스에 2시간 갇히게 한 주말 도심 마라톤 #shorts",
+  "source_post": "https://www.incheontoday.com/news/articleView.html?idxno=326480",
+  "facts_used": [
+   "11/1 JTBC 서울마라톤 3만여 명 참가, 시내버스 190개 노선 우회 — 뉴닉 https://newneek.co/@newneek/article/48315 / 연합 계열 https://www.koreancenter.or.kr/news/articleView.html?idxno=1433329",
+   "버스에 2시간 묶인 시민이 파출소·지구대 찾아가 항의(경찰 전언) — 서플 뉴스 https://supple.kr/news/cmvyxvhw9chalclgjezezdr8k / 뉴닉 https://newneek.co/@newneek/article/48315",
+   "11/22 인천마라톤 2만여 명, 영종·서해구 일대 통제 — 디스커버리뉴스 https://www.discoverynews.kr/news/articleView.html?idxno=1107135 / 매일일보 https://www.m-i.kr/news/articleView.html?idxno=2020115",
+   "운서역 일대 22일 오전 4시~오후 2시 10시간 통제, 영종 주민단체 '열흘 전 양해' 비판·공식 사과 요구 — 인천투데이 https://www.incheontoday.com/news/articleView.html?idxno=326480 · https://www.incheontoday.com/news/articleView.html?idxno=326545",
+   "대회는 찬성하지만 불편·비용이 시민에게 떠넘겨지는 구조가 문제라는 커뮤니티 글 — 서플 커뮤니티 https://supple.kr/community/culture/137684808 (글로만 전함)",
+   "서울 마라톤 대회 2021년 50개 → 2025년 154개 — 뉴스핌 2026-11-13 https://www.newspim.com/news/view/20261113001135 / 위키트리 https://www.wikitree.co.kr/articles/1093557",
+   "마라톤 대회는 국민체육진흥법상 지자체 허가·승인 대상 아님, 중앙정부 등 후원을 근거로 경찰이 교통통제 — 서울시 안내 https://mediahub.seoul.go.kr/archives/2019997 / 연합 계열 https://www.koreancenter.or.kr/news/articleView.html?idxno=1434422"
+  ],
+  "slug": "2026-11-22_1800_downtown-marathon-bus-stuck",
+  "late": false,
+  "video_id": "m3UEfLiMhds",
+  "url": "https://youtube.com/shorts/m3UEfLiMhds",
+  "privacy": "private",
+  "scheduled_for": "2026-11-22T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b02912b02479690922d2c1f",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-22T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-22_1800_downtown-marathon-bus-stuck/video.mp4"
+  },
+  "seconds": 1890
  }
 ]
