@@ -9340,5 +9340,68 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-22_1800_downtown-marathon-bus-stuck/video.mp4"
   },
   "seconds": 1890
+ },
+ {
+  "key": "2026-11-23-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-23T07:00:00+09:00",
+  "started": "2026-11-23T04:20:21.251548+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-23_0700_heated-vest-exam-dismissed/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-23_0700_heated-vest-exam-dismissed/video.mp4', '--detai"
+  },
+  "open_bg": false,
+  "quote_voices": 2,
+  "stock_clips": [
+   "https://pixabay.com/photos/cable-usb-electricity-computer-1338414/",
+   "https://pixabay.com/videos/id-329719/",
+   "https://pixabay.com/photos/hands-phone-smartphone-electronics-1851218/",
+   "https://pixabay.com/videos/id-8256/",
+   "https://pixabay.com/videos/id-43731/"
+  ],
+  "cc_clips": [],
+  "duration": 22.83,
+  "matches": [
+   1.0,
+   0.96,
+   0.99,
+   0.99,
+   1.0,
+   0.96,
+   1.0,
+   0.98,
+   0.98,
+   0.95,
+   0.97
+  ],
+  "sfx": 10,
+  "illustrations": 9,
+  "cuts": 11,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [
+   "혼자 / 판단한 (55)"
+  ],
+  "title": "아빠가 입혀준 발열조끼에 퇴실당했다는 수험생 #shorts",
+  "source_post": "https://theqoo.net/hot/4414941971",
+  "facts_used": [
+   "아빠가 입혀준 발열조끼 USB 선 때문에 부정행위 간주됐다는 글 — 더쿠 HOT 댓글 481(inbox) https://theqoo.net/hot/4414941971 · 보배드림 베스트 '발열조끼 부정행위로 퇴실조치' 댓글 68 https://www.bobaedream.co.kr/view?code=best&No=1049383 (커뮤니티 글, '~다는 글'로만 전함)",
+   "댓글 '이건 좀 유도리가 너무 없는거 아니냐' / '규정위반이니까 어쩔수 없지 저런거 봐주면 빈틈이 생기니까' — 같은 글 재게시 https://www.fmkorea.com/best/10584621250 · https://www.dogdrip.net/736055737 (검색 결과 인용, 원문 열람 불가)",
+   "11/18 교육부 추가 안내: 개인 필기구는 흑색 연필만, 사인펜·수정테이프·지우개·샤프심은 시험장 지급 — 정책브리핑 https://www.korea.kr/news/policyNewsView.do?newsId=148975290 / 세계일보 https://www.segye.com/newsView/20261118502871 / 노컷뉴스 https://www.nocutnews.co.kr/news/6609096",
+   "서울 송파 시험장에서 개인 컴퓨터용 사인펜 사용 수험생 퇴실, 교육청 연락 안 닿아 자체 판단, 교육청 '부정행위 아님' 답변 후 다시 불러들임 — MBN 단독 '부정행위 아닌데 수험생 퇴실 시키고 번복…\"학생에게 미안\"' https://www.youtube.com/watch?v=p3_mlCyCtNk / 위키트리 https://www.wikitree.co.kr/articles/1176274 / SBS https://news.sbs.co.kr/news/endPage.do?news_id=N1008856535"
+  ],
+  "slug": "2026-11-23_0700_heated-vest-exam-dismissed",
+  "late": false,
+  "video_id": "RNtPJZ8m-V8",
+  "url": "https://youtube.com/shorts/RNtPJZ8m-V8",
+  "privacy": "private",
+  "scheduled_for": "2026-11-22T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b03478fd864a01105eeb2ea",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-22T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-23_0700_heated-vest-exam-dismissed/video.mp4"
+  },
+  "seconds": 1820
  }
 ]
