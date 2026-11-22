@@ -8,6 +8,8 @@ Actions runner can reach 디시(실베·HIT), 더쿠, 루리웹, 네이트판, �
 네이버 뉴스 랭킹 (에펨·개드립·아카라이브는 러너에서 막힌다). Only facts are committed -
 titles, URLs, comment counts and the headlines of news links found in the
 post - never post bodies or article text, since this repository is public.
+One exception, by the owner's decision on 2026-11-23: the 베스트 댓글 of a 네이트판 post (at most 4, cut at
+70 characters, no names, rough words and contacts left out) so that a script can quote what people really said.
 """
 import datetime as dt
 import difflib
@@ -79,13 +81,17 @@ def main() -> int:
     ranked = scrape.rank(posts)
     match_news(ranked, news)
     ranked = sorted((p for p in ranked if p["url"] not in used), key=lambda r: -r["score"])[:40]
-    for p in ranked[:20]:
-        if p.get("news"):
+    for k, p in enumerate(ranked[:30]):
+        pann = scrape.site(p["board"]) == "네이트판"   # its 베스트 댓글 are in the post page (scrape.best_comments)
+        if (p.get("news") or k >= 20) and not pann:
             continue
         time.sleep(0.5)   # 글 본문은 한 사이트에 몰아서 여러 번 들어가니 간격을 둔다
-        links = [l for l in scrape.post_body(p["url"]).get("links", [])
-                 if NEWS.search(l) and not NOT_NEWS.search(l)][:3]
-        p["news"] = [{"url": l, "headline": headline(l)} for l in links]
+        body = scrape.post_body(p["url"])
+        if not p.get("news") and k < 20:
+            links = [l for l in body.get("links", []) if NEWS.search(l) and not NOT_NEWS.search(l)][:3]
+            p["news"] = [{"url": l, "headline": headline(l)} for l in links]
+        if body.get("comments"):
+            p["best_comments"] = body["comments"]
     out = {"generated_at": dt.datetime.now(KST).isoformat(timespec="minutes"),
            "warnings": warns, "posts": ranked,
            "news_hot": news[:40]}
@@ -99,6 +105,7 @@ def main() -> int:
     path.parent.mkdir(exist_ok=True)
     path.write_text(json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
     print(f"{len(ranked)} posts ({', '.join(sorted({p['board'] for p in ranked}))}), "
+          f"best comments on {sum(1 for p in ranked if p.get('best_comments'))} posts, "
           f"{len(out['news_hot'])} news, trends {[t['keyword'] for t in out.get('trends', {}).get('google', [])][:5]} "
           f"buzz {[b['word'] for b in out.get('trends', {}).get('buzz', [])][:5]}; warnings: {warns}")
     try:   # 긴급 소재가 새로 보이면 inbox/urgent.json 을 쓴다 → gather.yml 이 긴급 대본 루틴을 깨운다

@@ -74,7 +74,7 @@ API 키로 돌리는 예전 방식(`python run.py`, editor.py)도 남아 있다.
 | 파일 | 하는 일 |
 |---|---|
 | `scrape.py` | 커뮤니티 4곳 인기글 목록·본문 |
-| `gather.py` | 인기글 순위 + 본문 속 뉴스 제목 → `inbox/latest.json` (공개 저장소라 본문·기사 원문은 안 올림) |
+| `gather.py` | 인기글 순위 + 본문 속 뉴스 제목 → `inbox/latest.json` (공개 저장소라 본문·기사 원문은 안 올림. 2026-11-23부터 네이트판 베스트 댓글만 최대 4개, 70자까지, 닉네임 없이 실음) |
 | `.github/workflows/gather.yml` | 02:30·12:30 KST 수집 |
 | `ROUTINE.md` | 클라우드 예약 작업이 매번 따르는 지침 (소재 기준·취재·음슴체·카드·검사·푸시) |
 | `rules.py` | 대본 JSON 형식과 검사 (`python rules.py <파일>`) |

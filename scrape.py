@@ -198,14 +198,47 @@ BODY_PATTERNS = [
 ]
 
 
+# 2026-11-23 사용자 결정: 네이트판 글 페이지에 그대로 실려 오는 '베스트 댓글'만, 짧게 잘라, 닉네임 없이 싣는다
+# (대본의 댓글 인용용 - ROUTINE 2026-11-23 댓글 배틀형). 글 페이지를 여는 평범한 요청 하나에 들어 있는 것만 읽는다:
+# 댓글을 따로 불러오는 사이트 내부 요청(디시·더쿠·보배)은 쓰지 않는다.
+_ROUGH = re.compile(r"시발|씨발|씨바|ㅅㅂ|ㅆㅂ|병신|ㅂㅅ|지랄|ㅈㄹ|좆|존나|졸라|ㅈㄴ|새끼|새키|색히|개같|개소리|미친년|미친놈|"
+                    r"년아|놈아|니년|그년|저년|니놈|썅|한남|김치녀|된장녀|맘충|틀딱|급식충|줘충|늙남|퀴야|퀴들|빠순|빠돌|"
+                    r"꺼져|닥쳐|뒤져|뒤지|디져|디지네|쳐죽|창녀")
+_PRIVATE = re.compile(r"https?://|www\.|[\w.]+@[\w.]+|@[\w.]{3,}|\d{2,4}[-.\s]\d{3,4}[-.\s]\d{4}")
+
+
+def best_comments(h: str, most: int = 4, width: int = 70) -> list[dict]:
+    """[{text, likes}] from a 네이트판 post page's 베스트 댓글 block ([] on any other page).
+    No names; a line is cut at `width` characters; rough words, links and contacts drop the whole comment."""
+    i = h.find('class="cmt_best"')
+    if i < 0:
+        return []
+    j = h.find("<!-- E : 베스트 댓글", i)
+    out = []
+    for chunk in h[i:j if j > i else i + 30000].split('<dl class="cmt_item')[1:]:
+        m = re.search(r'class="usertxt"[^>]*>(.*?)</dd>', chunk, re.S)
+        if not m:
+            continue
+        said = text(m.group(1))
+        if len(said) < 6 or _ROUGH.search(said) or _PRIVATE.search(said):
+            continue
+        g = re.search(r'class="n_good"[^>]*>\s*([\d,]+)', chunk)
+        out.append({"text": said if len(said) <= width else said[:width].rstrip() + "…",
+                    "likes": num(g.group(1)) if g else 0})
+        if len(out) >= most:
+            break
+    return out
+
+
 def post_body(url: str, limit: int = 1800) -> dict:
     """Plain text of a post plus any links in it (news articles, videos) -
-    the editor needs those to find the original reporting."""
+    the editor needs those to find the original reporting. "comments": best_comments() of the same page."""
     try:
         h = get(url)
     except Exception as ex:
-        return {"text": "", "links": [], "error": str(ex)[:120]}
+        return {"text": "", "links": [], "comments": [], "error": str(ex)[:120]}
     h = re.sub(r"<script.*?</script>|<style.*?</style>", "", h, flags=re.S)
+    comments = best_comments(h)
     chunk = ""
     for pat in BODY_PATTERNS:
         m = re.search(pat, h, re.S)
@@ -216,7 +249,7 @@ def post_body(url: str, limit: int = 1800) -> dict:
                                   r'(?:n\.)?news\.[\w.]+/[^\s"<>]+|v\.daum\.net/v/\d+|[\w.]+\.co\.kr/[^\s"<>]+)', chunk)))
     body = re.sub(r"<br\s*/?>|</p>|</div>", "\n", chunk)
     body = re.sub(r"\n\s*\n+", "\n", text_keep_lines(body)).strip()
-    return {"text": body[:limit], "links": links[:8]}
+    return {"text": body[:limit], "links": links[:8], "comments": comments}
 
 
 def text_keep_lines(s: str) -> str:
