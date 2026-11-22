@@ -9218,5 +9218,64 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-22_0700_arsenal-fpl-captain-lineup-leak/video.mp4"
   },
   "seconds": 1848
+ },
+ {
+  "key": "2026-11-22-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-22T12:00:00+09:00",
+  "started": "2026-11-22T09:19:14.107672+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-22_1200_delivery-app-chicken-price-gap/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-22_1200_delivery-app-chicken-price-gap/video.mp4', "
+  },
+  "open_bg": false,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-200129/",
+   "https://pixabay.com/videos/id-5638/",
+   "https://pixabay.com/videos/id-57770/",
+   "https://pixabay.com/photos/fried-chicken-chicken-fried-crunchy-250863/",
+   "https://pixabay.com/videos/id-11323/"
+  ],
+  "cc_clips": [],
+  "duration": 24.04,
+  "matches": [
+   0.97,
+   0.97,
+   0.92,
+   0.97,
+   0.97,
+   1.0,
+   0.9,
+   0.9,
+   0.9,
+   0.96
+  ],
+  "sfx": 9,
+  "illustrations": 7,
+  "cuts": 10,
+  "layout_issues": [],
+  "caption_breaks": [],
+  "title": "배달앱에서만 치킨이 2천 원 비싼 이유 #shorts",
+  "source_post": "https://m.news.nate.com/view/20261122n01649",
+  "facts_used": [
+   "치킨 2만 5천 원 배달앱 판매 시 중개수수료 1,950원(7.8%), 점주 부담 배달비 3,400원 — 머니투데이 2026-11-22 https://m.news.nate.com/view/20261122n01649 / 뉴시스 2024-11-27 https://www.newsis.com/view/NISX20241127_0002974428",
+   "점주 '팔아도 남는 돈 거의 없다' — 머니투데이 2026-11-22 https://m.news.nate.com/view/20261122n01649",
+   "한 치킨 브랜드 서울 가맹점 90% 이상 배달앱 가격만 2천 원 인상, 매장·전용앱 가격 그대로 — 세계일보 2025-09-29 https://www.segye.com/newsView/20250929506196 / 디지털데일리 https://www.ddaily.co.kr/page/view/2025111816500767221",
+   "배달비 포함 치킨 3만 원 육박 — 헤럴드경제 2026-01 https://biz.heraldcorp.com/article/10658801 / 한국경제 2026-04-28 https://www.hankyung.com/article/2026042828577",
+   "소비자 시장에서 1만 원대 치킨 사 먹음 — 중앙일보 2026-10 (검색 요약) / 한국경제 2026-04-28"
+  ],
+  "slug": "2026-11-22_1200_delivery-app-chicken-price-gap",
+  "late": false,
+  "video_id": "zm3aRg3COag",
+  "url": "https://youtube.com/shorts/zm3aRg3COag",
+  "privacy": "private",
+  "scheduled_for": "2026-11-22T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b023ab702479690921241a9",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-22T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-22_1200_delivery-app-chicken-price-gap/video.mp4"
+  },
+  "seconds": 1462
  }
 ]
