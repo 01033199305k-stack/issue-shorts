@@ -9469,5 +9469,72 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-23_1200_subway-1000won-bread-shelf-life/video.mp4"
   },
   "seconds": 1505
+ },
+ {
+  "key": "2026-11-23-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-23T18:00:00+09:00",
+  "started": "2026-11-23T15:20:13.138623+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-23_1800_seoul-subway-strike-dawn-deal/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-23_1800_seoul-subway-strike-dawn-deal/video.mp4', '-"
+  },
+  "open_bg": false,
+  "quote_voices": 0,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-9005/",
+   "https://pixabay.com/videos/id-1003/",
+   "https://pixabay.com/videos/id-3134/",
+   "https://pixabay.com/photos/glass-facade-building-architecture-8016589/",
+   "https://pixabay.com/videos/id-171238/"
+  ],
+  "cc_clips": [],
+  "duration": 22.77,
+  "matches": [
+   0.96,
+   1.0,
+   0.9,
+   0.94,
+   0.94,
+   0.97,
+   1.0,
+   0.99,
+   0.99,
+   1.0,
+   1.0
+  ],
+  "sfx": 10,
+  "illustrations": 9,
+  "cuts": 11,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [
+   "당일 / 새벽 (55)",
+   "예정일 / 새벽 (55)",
+   "마지막 / 교섭은 (55)"
+  ],
+  "title": "2년 연속 새벽에 철회된 서울 지하철 파업 #shorts",
+  "source_post": "https://www.newsis.com/view/NISX20261122_0003878228",
+  "facts_used": [
+   "24일 3개 노조 최종교섭, 결렬 시 25일 무기한 총파업 — https://biz.heraldcorp.com/article/10945109 / https://www.newsis.com/view/NISX20261122_0003878228",
+   "노조 제시 평일 운행률 1호선 53.5% — https://biz.heraldcorp.com/article/10945109 / https://www.ebn.co.kr/news/articleView.html?idxno=1732590",
+   "쟁점 2212명 감축 계획 철회·1313명 채용 요구 — https://www.korearailroad.kr/news/articleView.html?idxno=215691 / https://biz.heraldcorp.com/article/10945109",
+   "준법투쟁 20일 시작, 10분 이상 지연 3건·민원 160건 — https://www.korearailroad.kr/news/articleView.html?idxno=220746 / https://www.mediainnews.com/news/articleView.html?idxno=49093 / https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02250086645648672",
+   "2024년 12월 6일 새벽 2시께 임단협 서명, 파업 철회 — https://news.nate.com/view/20241206n06496",
+   "2025년 12월 12일 첫차 파업 계획 중 새벽 6시 합의 — https://news.sbs.co.kr/news/endPage.do?news_id=N1008366042 / https://www.newsis.com/view/NISX20261122_0003878228"
+  ],
+  "slug": "2026-11-23_1800_seoul-subway-strike-dawn-deal",
+  "late": false,
+  "video_id": "ndJtIL1JDfk",
+  "url": "https://youtube.com/shorts/ndJtIL1JDfk",
+  "privacy": "private",
+  "scheduled_for": "2026-11-23T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b03e0c7a6de38de9ec5d06e",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-23T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-23_1800_seoul-subway-strike-dawn-deal/video.mp4"
+  },
+  "seconds": 1453
  }
 ]
