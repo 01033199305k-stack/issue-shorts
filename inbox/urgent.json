@@ -1,34 +1,79 @@
 {
- "detected_at": "2026-11-23T09:12+09:00",
+ "detected_at": "2026-11-23T12:06+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 이 대통령 지지율 37.3%…민주 35.6%·국힘 42.5% [리얼미터]",
-   "url": "https://n.news.naver.com/article/009/0005767381",
-   "press": "매일경제",
-   "why": "[속보] 기사 + 언론사 9곳이 댓글 많은 기사 1위로",
+   "title": "법관회의 의장 “조희대 탄핵 도 넘어…의결 땐 우리도 행동해야”",
+   "url": "https://n.news.naver.com/article/025/0003567118",
+   "press": "중앙일보",
+   "why": "언론사 7곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "뉴스1",
-     "title": "[속보] 李대통령 지지율 37.3%로 0.9%↑…2주 연속 상승[리얼미터]",
-     "url": "https://n.news.naver.com/article/421/0009303865"
+     "press": "노컷뉴스",
+     "title": "법관대표회의 의장 \"조희대 탄핵, 도 넘어…의결시 '행동' 나서야\"",
+     "url": "https://n.news.naver.com/article/079/0004212538"
     },
     {
-     "press": "서울경제",
-     "title": "[속보] 李대통령 지지율 37.3%로 0.9%↑…2주 연속 상승[리얼미터]",
-     "url": "https://n.news.naver.com/article/011/0004684956"
+     "press": "연합뉴스",
+     "title": "법관대표회의 의장 \"대법원장 탄핵, 도 넘어…'행동' 나서야\"",
+     "url": "https://n.news.naver.com/article/001/0016457164"
     },
     {
-     "press": "서울신문",
-     "title": "李대통령 지지율 37.3%…국힘 42.5%·민주 35.6% [리얼미터]",
-     "url": "https://n.news.naver.com/article/081/0003702004"
+     "press": "YTN",
+     "title": "법관회의 의장 \"대법원장 탄핵 추진, 도 넘어...행동 나서야\"",
+     "url": "https://n.news.naver.com/article/052/0002436619"
     },
     {
-     "press": "아시아경제",
-     "title": "李대통령 지지율 0.9%P 오른 37.3%…2주 연속 상승[아경-리얼미터 여론조사]",
-     "url": "https://n.news.naver.com/article/277/0005846106"
+     "press": "SBS",
+     "title": "전국법관회의 의장 \"조희대 탄핵 도 넘어…행동으로 나서야\"",
+     "url": "https://n.news.naver.com/article/055/0001405011"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "\"조희대 탄핵 도 넘었다, 판사들 '행동' 나서야\"…법관대표회의 의장 작심 비판",
+   "url": "https://n.news.naver.com/article/437/0000521917",
+   "press": "JTBC",
+   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "노컷뉴스",
+     "title": "법관대표회의 의장 \"조희대 탄핵, 도 넘어…의결시 '행동' 나서야\"",
+     "url": "https://n.news.naver.com/article/079/0004212538"
+    },
+    {
+     "press": "연합뉴스",
+     "title": "법관대표회의 의장 \"대법원장 탄핵, 도 넘어…'행동' 나서야\"",
+     "url": "https://n.news.naver.com/article/001/0016457164"
+    },
+    {
+     "press": "YTN",
+     "title": "법관회의 의장 \"대법원장 탄핵 추진, 도 넘어...행동 나서야\"",
+     "url": "https://n.news.naver.com/article/052/0002436619"
+    },
+    {
+     "press": "SBS",
+     "title": "전국법관회의 의장 \"조희대 탄핵 도 넘어…행동으로 나서야\"",
+     "url": "https://n.news.naver.com/article/055/0001405011"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 판사들 이례적 '집단행동' 시사…\"조희대 탄핵시 우리도 '행동' 나서자\"",
+   "url": "https://n.news.naver.com/article/002/0002467043",
+   "press": "프레시안",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 삼전·닉스, 장초반 나란히 약세…하이닉스 장중 110만원선 밑으로",
+   "url": "https://n.news.naver.com/article/654/0000212793",
+   "press": "강원도민일보",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
