@@ -9403,5 +9403,71 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-23_0700_heated-vest-exam-dismissed/video.mp4"
   },
   "seconds": 1820
+ },
+ {
+  "key": "2026-11-23-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-23T12:00:00+09:00",
+  "started": "2026-11-23T09:21:03.185416+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-23_1200_subway-1000won-bread-shelf-life/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-23_1200_subway-1000won-bread-shelf-life/video.mp4'"
+  },
+  "open_bg": true,
+  "quote_voices": 0,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-9005/",
+   "https://pixabay.com/photos/bread-loaves-food-bakery-craft-8128550/",
+   "https://pixabay.com/videos/id-14239/",
+   "https://pixabay.com/videos/id-76395/",
+   "https://pixabay.com/videos/id-4315/"
+  ],
+  "cc_clips": [],
+  "duration": 24.72,
+  "matches": [
+   0.97,
+   0.92,
+   1.0,
+   0.95,
+   0.98,
+   1.0,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   1.0
+  ],
+  "sfx": 11,
+  "illustrations": 10,
+  "cuts": 12,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [
+   "수입빵 / 104개 (55)"
+  ],
+  "title": "지하철 천원빵이 반년 안 상하는 이유 #shorts",
+  "source_post": "https://n.news.naver.com/article/025/0003566944",
+  "facts_used": [
+   "11/17 영등포 지하상가 판매점 중국산 빵 20여 종, 일부 소비기한 내년 2월, 보존료 2종 표시 — 중앙일보 11/22 인용 https://m.news.nate.com/view/20261122n07366 / https://www.topstarnews.net/news/articleView.html?idxno=16283016",
+   "소비기한 6개월 가까운 중국 빵 적지 않음(식약처 수입식품정보마루) — https://m.news.nate.com/view/20261122n07366",
+   "서울시보건환경연구원 수입 저가빵 104건 중 54건 보존료 검출, 모두 허용 기준 이내 — https://www.topstarnews.net/news/articleView.html?idxno=16283016 / https://www.segye.com/newsView/20261103501144",
+   "자치구 관계자: 상당수 천원빵 우유·계란 미사용, 쉽게 부패하는 재료 없는 게 긴 소비기한의 한 요인 — https://www.wikitree.co.kr/articles/1132313 / https://www.allpackaging.co.kr/88/?bmode=view&idx=170535486",
+   "SNS 프로피온산칼슘 유해 주장 영상, 식약처는 허가 첨가물로 설명 — https://www.seattlen.com/bbs/board.php?bo_table=hot&wr_id=66404 / https://www.weeklyseoul.net/news/articleView.html?idxno=87482",
+   "천원빵에 뭘 기대했냐는 댓글 — https://www.asiae.co.kr/en/article/2024061009104717266"
+  ],
+  "slug": "2026-11-23_1200_subway-1000won-bread-shelf-life",
+  "late": false,
+  "video_id": "e7KgpEyrTO0",
+  "url": "https://youtube.com/shorts/e7KgpEyrTO0",
+  "privacy": "private",
+  "scheduled_for": "2026-11-23T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b038ccec72676f5e97259c5",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-23T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-23_1200_subway-1000won-bread-shelf-life/video.mp4"
+  },
+  "seconds": 1505
  }
 ]
