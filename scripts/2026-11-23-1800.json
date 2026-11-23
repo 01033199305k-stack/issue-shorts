@@ -1,0 +1,372 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "seoul-subway-strike-dawn-deal",
+ "title_lines": [
+  "2년 연속 새벽에 철회된",
+  "서울 지하철 파업"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "2년 연속 새벽에 철회된 서울 지하철 파업",
+   "say": "이 년 연속 새벽에 철회된 서울 지하철 파업",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "2년 연속 새벽에 철회된\n서울 지하철 파업",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "노조가 25일 무기한 파업 예고함.",
+   "say": "노조가 이십오 일 무기한 파업 예고함.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "subway",
+    "items": [
+     {
+      "type": "sms",
+      "from": "교통공사 노조",
+      "lines": [
+       "25일부터",
+       "무기한 총파업"
+      ]
+     },
+     {
+      "type": "illust",
+      "q": [
+       "駅員",
+       "駅 員"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "계획대로면 1호선은 53.5%만 다님.",
+   "say": "계획대로면 일호선은 오십삼 점 오 퍼센트만 다님.",
+   "sfx": "punch",
+   "cap": "hit",
+   "visual": {
+    "bg": "subway",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電車",
+       "通勤電車"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📉",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "subway train",
+     "metro train",
+     "train station"
+    ],
+    "cc": [
+     "seoul subway line 1",
+     "seoul metro train"
+    ]
+   }
+  },
+  {
+   "text": "20일부터 준법투쟁 중인데,",
+   "say": "이십 일부터 준법투쟁 중인데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "subway",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "時計 男性",
+       "腕時計 見る"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⏰",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "subway platform",
+     "metro platform",
+     "subway station"
+    ]
+   }
+  },
+  {
+   "text": "10분 넘게 늦은 열차가 3번임.",
+   "say": "십 분 넘게 늦은 열차가 세 번임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "준법투쟁 나흘",
+      "lines": [
+       "10분 이상 지연 3건",
+       "민원 160건"
+      ],
+      "mark": 0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "電話 オペレーター",
+       "コールセンター"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "공사는 감축, 노조는 충원을 요구함.",
+   "say": "공사는 감축, 노조는 충원을 요구함.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "meeting",
+    "items": [
+     {
+      "type": "price",
+      "label": "인력",
+      "old": "2212명 감축",
+      "new": "1313명 채용"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "会議 ビジネス",
+       "会議"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 끝나는 시간이 이상함.",
+   "say": "근데 끝나는 시간이 이상함.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "考える"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌙",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "재작년엔 파업 당일 새벽 2시에 합의했는데,",
+   "say": "재작년엔 파업 당일 새벽 두 시에 합의했는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "nightcity",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "徹夜",
+       "眠い 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🕑",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "city night",
+     "night city lights",
+     "seoul night"
+    ],
+    "cc": [
+     "seoul city night"
+    ],
+    "grok": {
+     "prompt": "Medium shot of a tired middle-aged man with short gray hair in a navy suit and loosened tie signing a document at a long conference table late at night, empty coffee cups around, dim office light, slow push in"
+    }
+   }
+  },
+  {
+   "text": "작년엔 파업 예정일 새벽 6시에 도장 찍음.",
+   "say": "작년엔 파업 예정일 새벽 여섯 시에 도장 찍음.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "tr": "flash",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "印鑑",
+       "ハンコ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  },
+  {
+   "text": "헐, 올해 마지막 교섭은 24일임.",
+   "say": "헐, 올해 마지막 교섭은 이십사 일임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "📅",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "office building",
+     "conference room",
+     "meeting room"
+    ]
+   }
+  },
+  {
+   "text": "출근길은 이번에도 새벽에 갈림.",
+   "say": "출근길은 이번에도 새벽에 갈림.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "通勤 サラリーマン",
+       "サラリーマン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🚇",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "commuters walking",
+     "city commute",
+     "crosswalk city"
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "2년 연속 새벽에 철회된 서울 지하철 파업 #shorts",
+  "description": "서울교통공사 노조가 인력 감축 철회와 충원을 요구하며 11월 25일 무기한 총파업을 예고했다. 노조 계획대로면 1호선 평일 운행률은 53.5%.\n20일부터 이어진 준법투쟁에선 10분 이상 지연이 3건, 민원이 160건 들어왔다.\n2024년엔 파업 당일 새벽 2시, 2025년엔 파업 예정일 새벽 6시에 합의가 나왔고 올해 마지막 교섭은 24일 오전 10시다.\n\n※ AI 음성으로 제작했습니다.\n#지하철파업 #서울지하철 #출근길 #준법투쟁 #직장인 #shorts",
+  "tags": [
+   "지하철 파업",
+   "서울 지하철",
+   "서울교통공사",
+   "총파업",
+   "준법투쟁",
+   "출근길",
+   "1호선",
+   "직장인",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.newsis.com/view/NISX20261122_0003878228",
+ "facts_used": [
+  "24일 3개 노조 최종교섭, 결렬 시 25일 무기한 총파업 — https://biz.heraldcorp.com/article/10945109 / https://www.newsis.com/view/NISX20261122_0003878228",
+  "노조 제시 평일 운행률 1호선 53.5% — https://biz.heraldcorp.com/article/10945109 / https://www.ebn.co.kr/news/articleView.html?idxno=1732590",
+  "쟁점 2212명 감축 계획 철회·1313명 채용 요구 — https://www.korearailroad.kr/news/articleView.html?idxno=215691 / https://biz.heraldcorp.com/article/10945109",
+  "준법투쟁 20일 시작, 10분 이상 지연 3건·민원 160건 — https://www.korearailroad.kr/news/articleView.html?idxno=220746 / https://www.mediainnews.com/news/articleView.html?idxno=49093 / https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=02250086645648672",
+  "2024년 12월 6일 새벽 2시께 임단협 서명, 파업 철회 — https://news.nate.com/view/20241206n06496",
+  "2025년 12월 12일 첫차 파업 계획 중 새벽 6시 합의 — https://news.sbs.co.kr/news/endPage.do?news_id=N1008366042 / https://www.newsis.com/view/NISX20261122_0003878228"
+ ],
+ "brief": "점수(우리얘기 30): 내 얘기 5+5(서울·수도권 출퇴근 직장인 — 시청자 70% 남성·25~54세) / 갈림 4(감축 vs 충원, 이번에도 타결이냐 진짜 멈추냐) / 몰랐던 이유 5(2024.12.6 새벽 2시·2025.12.12 새벽 6시 타결, 1호선 53.5%) / 한 장면 4(새벽 회의실 도장) / 누구나 아는 대상 5 + 화제 +5 = 33. 비교 후보: 경상도 장녀 글(더쿠 863, 본문 확인 불가 theqoo ENOTFOUND·기사 없음) · 분식집 알바 말투(네이트판 69, 베스트 댓글 4개뿐 본문 없음·'말투'가 핵심인데 확인 불가) · 이부진 아들 성 변경(특정 개인·젊은 자녀 사생활) · 박지윤·최동석 카톡(이혼 사생활) · 천원빵(오늘 12시 다룸)\n화제: 서울지하철 25일 총파업 예고·24일 최종교섭 (구글 급상승 1위 '서울교통공사' 5000+ — '서울지하철, 내일 최종교섭...결렬 땐 25일 총파업' / '경기도 철도 파업 때 버스 증차')\n레인: 우리얘기\n유행: 서울교통공사·지하철 파업 (구글 급상승 5000+)\n구조: 발단=노조 25일 무기한 총파업 예고, 1호선 53.5% 운행 / 반응=준법투쟁 나흘 10분 이상 지연 3건·민원 160건 → 공사 '출근길 이상 없어' / 이유=2024년 12월 6일 파업 당일 새벽 2시 타결, 2025년 12월 12일 첫차 파업 계획인데 새벽 6시 타결 / 갈림=공사 2212명 감축 계획 vs 노조 1313명 채용 요구 / 한 방=올해도 출근길은 24일 밤~새벽에 갈림\n댓글거리: 작년·재작년 파업 예고 때 일찍 나왔다가 허탕 친 경험, 우리 노선 준법투쟁 체감, 파업 때 버스·택시로 출근한 썰\n댓글: 0개 (검색 요약에 시민·누리꾼 원문 발언 없음 — 준법투쟁 현장 기사 이데일리·더페어·한국철도일보는 공사 집계만, 한 직장인 '시간 빠듯했으면 곤란' 발언은 풀어 쓴 요약뿐 / WebFetch heraldcorp·supple·theqoo·pann ENOTFOUND) → 짧은 형식, 인용 화면 없음\n확인된 사실: ① 24일 오전 10시 제1노조부터 3개 노조와 차례로 본교섭, 결렬 시 25일부터 3개 노조 무기한 총파업 — 헤럴드경제·뉴시스(20261122)·서플 ② 노조 제시 평일 운행률 1호선 53.5%, 2호선 72.9%, 3호선 57.9%, 4호선 56.4%, 5~8호선 79.8% (노조 측 수치 → 대본에 '계획대로면') — 헤럴드경제·EBN ③ 쟁점: 공사 2212명 인력 감축 계획 철회·부족 인원 1313명 채용 요구 — 헤럴드경제·한국철도일보 ④ 준법투쟁 20일 오전 6시 시작, 20일 18시~23일 9시 10분 이상 지연 3건(8호선 1, 2호선 2), 누적 민원 160건, 공사 '월요일 출근길 이상 없어' — 이데일리·한국철도일보·미디어인뉴스 ⑤ 2024년 12월 6일 파업 개시 목전 새벽 2시께 임단협 서명 — 네이트뉴스(20241206n06496) ⑥ 2025년 12월 12일 첫차부터 총파업 계획이었는데 새벽 6시 극적 합의(820명 충원·임금 3%) — SBS N1008366042, 같은 사실 뉴시스 20261122 기사 '2024년과 2025년에도 파업 당일 새벽에 타결'\n주의: 노사 어느 편도 들지 않음(감축·충원을 같은 무게로 한 줄). 정치인·서울시장 이름 없음. 올해 결과를 예측하지 않음 — '갈림'으로 끝냄. 운행률은 노조 측 수치라 '계획대로면'. 2023년 경고파업·2022년 하루 파업은 확인됐지만 길이 때문에 뺌. '2년 연속'은 2024·2025 두 해만 가리킴.\n훅 3안: ①\"서울 지하철이 25일 멈출 수도 있음\" ②\"노조가 25일 무기한 파업을 예고함\" ③\"1호선 열차가 절반만 다닐 수도 있음\" → ② 사람+의외가 바로 보이고 문자 소품으로 보여 줄 수 있음, ③은 2번 hit 으로. 제목은 숫자+대상형('~한 이유' 아님 — 12시가 이유형).\n첫장면: 의외\n이해검사: 서울 지하철 노조가 인력 문제로 25일 무기한 파업을 예고했는데, 재작년과 작년에도 파업 직전 새벽에 합의해 철회됐고 올해 마지막 교섭은 24일이라 출근길이 또 새벽에 정해짐.\n그림대조: 완료"
+}
