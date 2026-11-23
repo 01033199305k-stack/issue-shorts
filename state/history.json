@@ -9536,5 +9536,67 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-23_1800_seoul-subway-strike-dawn-deal/video.mp4"
   },
   "seconds": 1453
+ },
+ {
+  "key": "2026-11-24-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-24T07:00:00+09:00",
+  "started": "2026-11-24T04:25:43.990381+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-24_0700_kepco-leak-hacker-forum-first/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-24_0700_kepco-leak-hacker-forum-first/video.mp4', '-"
+  },
+  "open_bg": true,
+  "quote_voices": 0,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-134112/",
+   "https://pixabay.com/videos/id-6395/",
+   "https://pixabay.com/photos/business-computer-mobile-smartphone-2846221/",
+   "https://pixabay.com/videos/id-197974/",
+   "https://pixabay.com/videos/id-14214/",
+   "https://pixabay.com/photos/electric-meter-electricity-meter-5229750/"
+  ],
+  "cc_clips": [],
+  "duration": 26.67,
+  "matches": [
+   1.0,
+   0.99,
+   0.92,
+   0.92,
+   0.97,
+   0.97,
+   0.97,
+   0.97,
+   0.99,
+   0.99,
+   0.92
+  ],
+  "sfx": 10,
+  "illustrations": 6,
+  "cuts": 11,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [],
+  "title": "한전 고객 정보 유출이 처음 알려진 곳 #shorts",
+  "source_post": "https://n.news.naver.com/article/665/0000008627",
+  "facts_used": [
+   "한전ON 65만487명 고객번호·이름·주민·외국인등록번호·전화번호·주소·은행명·계좌번호·예금주·카드사·카드번호·카드 명의자·요금·청구정보 12개 항목 유출, SRM 86만9761명(기업 대표 42만6827명, 한전·기업 직원 44만여 명) 합쳐 152만248명 — 경향 https://www.khan.co.kr/article/202611221907001 · 뉴스1 https://www.news1.kr/economy/trend/6362156 · MBC https://imnews.imbc.com/news/2026/econo/article/6867629_36932.html · 더스쿠프(네이버) https://n.news.naver.com/article/665/0000008627",
+   "10월 1일 직원 정보 외부 웹페이지 노출, 국정원(광주지부)이 먼저 발견해 한전에 통보 — YTN https://www.ytn.co.kr/_ln/0102_202610042213417353 · 아주경제 https://ajunews.com/view/20261019111801292",
+   "11월 19일 해외 해킹 포럼 '다크포럼스'에 한전 이용자 개인정보·입찰 자료 확보했다는 글, 최초 탈취 사실은 한전 자체 보안망이 아닌 해킹 포럼 글로 알려짐 — 테크42 https://www.tech42.co.kr/%EC%9D%80%ED%96%89%C2%B7%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EC%9D%B4%EC%96%B4-%ED%95%9C%EC%A0%84%EB%A7%88%EC%A0%80%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-152%EB%A7%8C%EB%AA%85%EB%B6%84/ · 콕스뉴스 https://www.coxnews.co.kr/news/articleView.html?idxno=6895",
+   "한전은 20일 유출 확인, 22일 발표 / 23일 개인정보위 조사 착수 — 경향·뉴스1 / 전자신문 https://www.etnews.com/20261123000481"
+  ],
+  "slug": "2026-11-24_0700_kepco-leak-hacker-forum-first",
+  "late": false,
+  "video_id": "ajHgL-htiOM",
+  "url": "https://youtube.com/shorts/ajHgL-htiOM",
+  "privacy": "private",
+  "scheduled_for": "2026-11-23T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b04990d768ab8d8e40d7332",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-23T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-24_0700_kepco-leak-hacker-forum-first/video.mp4"
+  },
+  "seconds": 1495
  }
 ]
