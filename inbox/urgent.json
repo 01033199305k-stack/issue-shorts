@@ -1,77 +1,68 @@
 {
- "detected_at": "2026-11-23T12:06+09:00",
+ "detected_at": "2026-11-23T15:12+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "법관회의 의장 “조희대 탄핵 도 넘어…의결 땐 우리도 행동해야”",
-   "url": "https://n.news.naver.com/article/025/0003567118",
-   "press": "중앙일보",
-   "why": "언론사 7곳이 댓글 많은 기사 1위로",
+   "title": "5%대 급락 코스피 4600선 사수전…사이드카 발동",
+   "url": "https://n.news.naver.com/article/005/0001886828",
+   "press": "국민일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "노컷뉴스",
-     "title": "법관대표회의 의장 \"조희대 탄핵, 도 넘어…의결시 '행동' 나서야\"",
-     "url": "https://n.news.naver.com/article/079/0004212538"
+     "press": "조선비즈",
+     "title": "코스피 5% 하락에 매도 사이드카 발동…4600선 사수전",
+     "url": "https://n.news.naver.com/article/366/0001206649"
     },
     {
-     "press": "연합뉴스",
-     "title": "법관대표회의 의장 \"대법원장 탄핵, 도 넘어…'행동' 나서야\"",
-     "url": "https://n.news.naver.com/article/001/0016457164"
-    },
-    {
-     "press": "YTN",
-     "title": "법관회의 의장 \"대법원장 탄핵 추진, 도 넘어...행동 나서야\"",
-     "url": "https://n.news.naver.com/article/052/0002436619"
-    },
-    {
-     "press": "SBS",
-     "title": "전국법관회의 의장 \"조희대 탄핵 도 넘어…행동으로 나서야\"",
-     "url": "https://n.news.naver.com/article/055/0001405011"
+     "press": "머니투데이",
+     "title": "\"외인도 팔자\" 매도 사이드카 터졌다…4600선 밀린 코스피, 반등 조건은",
+     "url": "https://n.news.naver.com/article/008/0005444927"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "\"조희대 탄핵 도 넘었다, 판사들 '행동' 나서야\"…법관대표회의 의장 작심 비판",
-   "url": "https://n.news.naver.com/article/437/0000521917",
-   "press": "JTBC",
-   "why": "언론사 6곳이 댓글 많은 기사 1위로",
+   "title": "민주당 “조희대 탄핵은 역사적 소명”…국민의힘 “정권 자멸할 것”",
+   "url": "https://n.news.naver.com/article/056/0012299170",
+   "press": "KBS",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "노컷뉴스",
-     "title": "법관대표회의 의장 \"조희대 탄핵, 도 넘어…의결시 '행동' 나서야\"",
-     "url": "https://n.news.naver.com/article/079/0004212538"
+     "press": "오마이뉴스",
+     "title": "조희대 탄핵 결정한 민주당, 최선의 시나리오는?",
+     "url": "https://n.news.naver.com/article/047/0002536809"
     },
     {
-     "press": "연합뉴스",
-     "title": "법관대표회의 의장 \"대법원장 탄핵, 도 넘어…'행동' 나서야\"",
-     "url": "https://n.news.naver.com/article/001/0016457164"
-    },
-    {
-     "press": "YTN",
-     "title": "법관회의 의장 \"대법원장 탄핵 추진, 도 넘어...행동 나서야\"",
-     "url": "https://n.news.naver.com/article/052/0002436619"
-    },
-    {
-     "press": "SBS",
-     "title": "전국법관회의 의장 \"조희대 탄핵 도 넘어…행동으로 나서야\"",
-     "url": "https://n.news.naver.com/article/055/0001405011"
+     "press": "세계일보",
+     "title": "한병도 “조희대 탄핵에 내란 청산이라는 역사적 소명 담겨”",
+     "url": "https://n.news.naver.com/article/022/0004177303"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 판사들 이례적 '집단행동' 시사…\"조희대 탄핵시 우리도 '행동' 나서자\"",
-   "url": "https://n.news.naver.com/article/002/0002467043",
-   "press": "프레시안",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "“신천지 4만3000명 입당” 친명 폭로에 뒤집힌 민주당",
+   "url": "https://n.news.naver.com/article/023/0004011162",
+   "press": "조선일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "중앙일보",
+     "title": "“신천지 당원 4만3000명 추산” 친명 발언에 與최고위 또 충돌",
+     "url": "https://n.news.naver.com/article/025/0003567174"
+    },
+    {
+     "press": "동아일보",
+     "title": "친명 박선원 “신천지 당원 4만3000명 추산”…친청 최민희, 최고위 박차고 나가",
+     "url": "https://n.news.naver.com/article/020/0003764351"
+    }
+   ]
   },
   {
    "kind": "news",
-   "title": "[속보] 삼전·닉스, 장초반 나란히 약세…하이닉스 장중 110만원선 밑으로",
-   "url": "https://n.news.naver.com/article/654/0000212793",
-   "press": "강원도민일보",
+   "title": "[속보] 김어준의 ‘꽃’, 조희대 탄핵 6번째 설문…전화면접 반대 50% 첫 돌파",
+   "url": "https://n.news.naver.com/article/029/0003060597",
+   "press": "디지털타임스",
    "why": "[속보] 기사",
    "related": []
   }
