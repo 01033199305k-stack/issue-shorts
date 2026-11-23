@@ -1,70 +1,67 @@
 {
- "detected_at": "2026-11-23T15:12+09:00",
+ "detected_at": "2026-11-23T21:24+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "5%대 급락 코스피 4600선 사수전…사이드카 발동",
-   "url": "https://n.news.naver.com/article/005/0001886828",
-   "press": "국민일보",
+   "title": "\"9급 시험은 고졸 수준\"…부산시 인재개발원장 발언 논란 확산",
+   "url": "https://n.news.naver.com/article/079/0004212932",
+   "press": "노컷뉴스",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "조선비즈",
-     "title": "코스피 5% 하락에 매도 사이드카 발동…4600선 사수전",
-     "url": "https://n.news.naver.com/article/366/0001206649"
+     "press": "경향신문",
+     "title": "“9급 시험은 고졸 수준, 그런 직원과 일 하려니 멘붕” 부산시인재개발원장 ‘막말 논란’에···“채용 개선 필요성 강조하려했다” 해명",
+     "url": "https://n.news.naver.com/article/032/0003484485"
     },
     {
-     "press": "머니투데이",
-     "title": "\"외인도 팔자\" 매도 사이드카 터졌다…4600선 밀린 코스피, 반등 조건은",
-     "url": "https://n.news.naver.com/article/008/0005444927"
+     "press": "부산일보",
+     "title": "\"9급 시험은 고졸 수준\"…부산시 인재개발원장 발언 논란",
+     "url": "https://n.news.naver.com/article/082/0001408597"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "민주당 “조희대 탄핵은 역사적 소명”…국민의힘 “정권 자멸할 것”",
-   "url": "https://n.news.naver.com/article/056/0012299170",
-   "press": "KBS",
+   "title": "조희대 탄핵 추진에 커지는 판사들 목소리…\"침묵하면 입법부 산하 사법위\"",
+   "url": "https://n.news.naver.com/article/421/0009305699",
+   "press": "뉴스1",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "오마이뉴스",
-     "title": "조희대 탄핵 결정한 민주당, 최선의 시나리오는?",
-     "url": "https://n.news.naver.com/article/047/0002536809"
+     "press": "국민일보",
+     "title": "조희대 탄핵 추진에 판사들 ‘부글부글’… 30일 법관회의 촉각",
+     "url": "https://n.news.naver.com/article/005/0001886935"
     },
     {
-     "press": "세계일보",
-     "title": "한병도 “조희대 탄핵에 내란 청산이라는 역사적 소명 담겨”",
-     "url": "https://n.news.naver.com/article/022/0004177303"
+     "press": "더팩트",
+     "title": "\"도를 넘어섰다\"…조희대 탄핵 추진에 판사들 '술렁'",
+     "url": "https://n.news.naver.com/article/629/0000554769"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "“신천지 4만3000명 입당” 친명 폭로에 뒤집힌 민주당",
-   "url": "https://n.news.naver.com/article/023/0004011162",
-   "press": "조선일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "李대통령, 국정원장 후보자로 강금실 전 장관 지명",
+   "url": "https://n.news.naver.com/article/022/0004177393",
+   "press": "세계일보",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "중앙일보",
-     "title": "“신천지 당원 4만3000명 추산” 친명 발언에 與최고위 또 충돌",
-     "url": "https://n.news.naver.com/article/025/0003567174"
+     "press": "미디어오늘",
+     "title": "李, 국정원장 강금실·행안부장관 한준호·문체부장관 강유정 지명",
+     "url": "https://n.news.naver.com/article/006/0000138899"
     },
     {
-     "press": "동아일보",
-     "title": "친명 박선원 “신천지 당원 4만3000명 추산”…친청 최민희, 최고위 박차고 나가",
-     "url": "https://n.news.naver.com/article/020/0003764351"
+     "press": "조선일보",
+     "title": "국정원장 후보 강금실... 첫 여성 정보기관 수장",
+     "url": "https://n.news.naver.com/article/023/0004011203"
+    },
+    {
+     "press": "강원일보",
+     "title": "[속보] 李대통령, 국정원장 후보자 강금실 파격 발탁…외교장관 후보자에 임웅순, 통일장관 후보자에 홍익표 등 중폭 개각 단행",
+     "url": "https://n.news.naver.com/article/087/0001232749"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 김어준의 ‘꽃’, 조희대 탄핵 6번째 설문…전화면접 반대 50% 첫 돌파",
-   "url": "https://n.news.naver.com/article/029/0003060597",
-   "press": "디지털타임스",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
