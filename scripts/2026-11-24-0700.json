@@ -1,0 +1,371 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "kepco-leak-hacker-forum-first",
+ "title_lines": [
+  "한전 고객 정보 유출이",
+  "처음 알려진 곳"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "카드번호까지 털린 한전 고객 65만 명",
+   "say": "카드번호까지 털린 한전 고객 육십오만 명",
+   "sfx": "punch",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "카드번호까지 털린\n한전 고객 65만 명",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "주민번호에 집 주소, 전기요금까지 같이 나감.",
+   "say": "주민번호에 집 주소, 전기요금까지 같이 나감.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "유출 항목",
+      "lines": [
+       "주민등록번호",
+       "주소·전화번호",
+       "계좌·카드번호",
+       "요금·청구 정보"
+      ],
+      "mark": 2
+     },
+     {
+      "type": "illust",
+      "q": [
+       "パソコン 悪者",
+       "ハッカー",
+       "パソコン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "직원까지 합치면 무려 152만 명임.",
+   "say": "직원까지 합치면 무려 백오십이만 명임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "会社員 男性",
+       "サラリーマン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "office building night",
+     "office lights night",
+     "city office building"
+    ]
+   }
+  },
+  {
+   "text": "근데 이걸 알게 된 경로가 더 황당함.",
+   "say": "근데 이걸 알게 된 경로가 더 황당함.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "腕組み 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "fade"
+     }
+    ]
+   }
+  },
+  {
+   "text": "한 달 전에도 직원 정보가 샜는데,",
+   "say": "한 달 전에도 직원 정보가 샜는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "会社員 女性",
+       "OL"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📱",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "office computer screen",
+     "computer keyboard office",
+     "keyboard typing"
+    ],
+    "cc": [
+     "korean office building",
+     "seoul office building"
+    ]
+   }
+  },
+  {
+   "text": "아니 그때도 국정원이 먼저 찾아서 알려 줬다고.",
+   "say": "아니 그때도 국정원이 먼저 찾아서 알려 줬다고.",
+   "sfx": "exclaim",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "電話 男性",
+       "電話をかける 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "☎️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "office telephone",
+     "desk telephone",
+     "telephone office"
+    ]
+   }
+  },
+  {
+   "text": "근데 이번엔 11월 19일,",
+   "say": "근데 이번엔 십일월 십구일,",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "긴장감 있게 낮은 목소리로",
+   "tr": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "日めくり カレンダー"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "calendar pages",
+     "calendar desk",
+     "calendar flipping"
+    ]
+   }
+  },
+  {
+   "text": "해외 해킹 포럼에 글이 하나 올라옴.",
+   "say": "해외 해킹 포럼에 글이 하나 올라옴.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ハッカー",
+       "パソコン 悪者"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💻",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "computer code screen",
+     "code screen dark",
+     "programming code"
+    ],
+    "grok": {
+     "prompt": "Close-up of a person in a dark gray hoodie with the hood up, face hidden in shadow, typing fast on a laptop keyboard in a dark room lit only by the blue screen glow, slow push in on the glowing screen"
+    }
+   }
+  },
+  {
+   "text": "한전 정보를 확보했다는 글이었는데,",
+   "say": "한전 정보를 확보했다는 글이었는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "해킹 포럼 글",
+      "lines": [
+       "11월 19일",
+       "한전 이용자 정보",
+       "확보했다"
+      ],
+      "mark": 1
+     }
+    ]
+   }
+  },
+  {
+   "text": "한전이 유출을 확인한 건 그다음 날이었다고.",
+   "say": "한전이 유출을 확인한 건 그다음 날이었다고.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tr": "flash",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "center",
+      "size": "l",
+      "at": 0.3,
+      "fx": "stamp"
+     }
+    ],
+    "pic": [
+     "electric meter",
+     "power meter",
+     "electricity meter"
+    ]
+   }
+  },
+  {
+   "text": "보안팀보다 해커가 빨랐음.",
+   "say": "보안팀보다 해커가 빨랐음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警備員",
+       "ガードマン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "💨",
+      "pos": "top-left",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "한전 고객 정보 유출이 처음 알려진 곳 #shorts",
+  "description": "한전ON 고객 65만 명의 주민번호·주소·계좌·카드번호·요금 정보가 유출됐고, 전자조달시스템까지 합치면 152만 명분이다.\n한전은 10월에도 직원 정보가 외부에 노출됐는데, 그때는 국정원이 먼저 발견해 알려 줬다.\n이번에는 11월 19일 해외 해킹 포럼에 한전 이용자 정보를 확보했다는 글이 올라왔고, 한전은 다음 날 유출을 확인했다. 유출 여부는 한전ON 홈페이지와 고객센터 123에서 확인할 수 있다.\n\n※ AI 음성으로 제작했습니다.\n#한전 #개인정보유출 #해킹 #한전ON #카드번호 #shorts",
+  "tags": [
+   "한전",
+   "한국전력",
+   "개인정보 유출",
+   "한전ON",
+   "해킹",
+   "카드번호",
+   "주민번호",
+   "개인정보위",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/665/0000008627",
+ "facts_used": [
+  "한전ON 65만487명 고객번호·이름·주민·외국인등록번호·전화번호·주소·은행명·계좌번호·예금주·카드사·카드번호·카드 명의자·요금·청구정보 12개 항목 유출, SRM 86만9761명(기업 대표 42만6827명, 한전·기업 직원 44만여 명) 합쳐 152만248명 — 경향 https://www.khan.co.kr/article/202611221907001 · 뉴스1 https://www.news1.kr/economy/trend/6362156 · MBC https://imnews.imbc.com/news/2026/econo/article/6867629_36932.html · 더스쿠프(네이버) https://n.news.naver.com/article/665/0000008627",
+  "10월 1일 직원 정보 외부 웹페이지 노출, 국정원(광주지부)이 먼저 발견해 한전에 통보 — YTN https://www.ytn.co.kr/_ln/0102_202610042213417353 · 아주경제 https://ajunews.com/view/20261019111801292",
+  "11월 19일 해외 해킹 포럼 '다크포럼스'에 한전 이용자 개인정보·입찰 자료 확보했다는 글, 최초 탈취 사실은 한전 자체 보안망이 아닌 해킹 포럼 글로 알려짐 — 테크42 https://www.tech42.co.kr/%EC%9D%80%ED%96%89%C2%B7%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EC%9D%B4%EC%96%B4-%ED%95%9C%EC%A0%84%EB%A7%88%EC%A0%80%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-152%EB%A7%8C%EB%AA%85%EB%B6%84/ · 콕스뉴스 https://www.coxnews.co.kr/news/articleView.html?idxno=6895",
+  "한전은 20일 유출 확인, 22일 발표 / 23일 개인정보위 조사 착수 — 경향·뉴스1 / 전자신문 https://www.etnews.com/20261123000481"
+ ],
+ "brief": "레인: 사건\n화제: 한전 152만 명 개인정보 유출 (inbox news_hot 더스쿠프 '집주소·카드번호·전기료까지 털렸다…한전 152만명 개인정보 유출' — 네이버 언론사별 댓글 많은 기사 / 11/22 발표, 11/23 개인정보위 조사 착수로 이틀째 보도)\n지금 가장 뜨거운 5개: ①남녀 임금 '100만원 vs 72만원'(디시 405·기사화 — 성별 대결 각도라 생활 질문으로 바꿀 사실이 없음) ②장가계 패키지 부모님 협박·감금 글(보배·더쿠 동시 단어 '패키지' — 보도 검색 0건, 커뮤니티 주장뿐이고 가이드 국적 각도 위험) ③젠슨 황 CEO 복귀(더쿠 709 — 실제 보도는 사생활 스캔들로 사임·이사회 복귀 거부, 개인 의혹 중심) ④한전 152만 명 유출(news_hot 댓글 많은 기사, 주요 매체 다수 보도) ⑤일본 상점 한국 동전 반지 체험(디시 299 — KNN 보도 하나뿐, 실제 동전인지 미확인). ④가 30~50대 집·돈 문제이고 사실이 가장 단단함.\n점수(사건 30+화제5): 이게됨 4(유출을 해커 쪽 글로 알게 됨) · 궁금증 4(어떻게 알았나 → 해킹 포럼 글·다음 날 확인) · 감정 7(내 주민번호·카드번호, 한 달 만에 또) · 대상 5(전기요금·한전) · 판정 5(보안 약속 한 달 뒤 또 뚫림) · 화제 +5 = 30\n유행: 개인정보 유출·한전 (네이버 댓글 많은 기사). 구글 급상승·커뮤니티 동시 단어엔 없음 (그쪽은 주가·엔비디아·패키지 — 위 5개에서 검토)\n댓글: 0개 (검색 요약에 누리꾼 원문 반응 없음 — '누리꾼 반응 댓글' 검색 1회, 기사 본문 WebFetch news1·imbc·khan·etoday·creditnews 모두 ENOTFOUND) → 짧은 형식, 인용 화면 없음\n구조: 시작=한전ON 고객 65만 명 주민번호·주소·계좌·카드번호·요금 정보 유출 / 커짐=기업 대표·직원 합쳐 152만 명 → 한 달 전(10월)에도 직원 정보 유출, 그때도 국정원이 먼저 발견해 통보 / 뒤집힘=이번엔 11/19 해외 해킹 포럼에 '한전 이용자 정보 확보' 글 / 정체=한전이 유출을 확인한 건 그다음 날(11/20) / 그 뒤=11/22 발표, 11/23 개인정보위 현장점검(길이 때문에 대본에선 빼고 설명란에)\n첫장면: 손해\n훅 3안: ①'주민번호에 집 주소, 전기요금까지 같이 나감'(유출 항목 종이 — 내 일로 느낌) ②'기업 대표·직원까지 152만 명'(규모로 열기 — 금융권 편처럼 샘) ③'한 달 전에도 샜음'(답을 너무 일찍 씀). ①이 제목보다 한 발 더 나간 손해라 고름. 제목은 '처음 알려진 곳'으로 답(해킹 포럼)을 숨기는 장소형, 글 카드는 '카드번호까지 털린 한전 고객 65만 명'(손해+숫자).\n이해검사: 한전 고객 65만 명(합치면 152만 명)의 주민번호·카드번호가 털렸는데, 한 달 전 직원 정보 유출도 국정원이 먼저 찾았고, 이번에도 해킹 포럼에 '정보 확보' 글이 올라온 다음 날에야 한전이 유출을 확인했다.\n그림대조: 완료 (한국 이야기 — 일본 지도·국기·엔화 없음, 장소 office/meeting/desk, 해커는 얼굴 없는 후드 인물)\n증거: doc 소품 2개(유출 항목 12개 중 4묶음 — 보도 그대로 / 11월 19일 해킹 포럼 글 '한전 이용자 정보 확보' — 테크42 보도 내용)\n주의: 해커가 협박 메일을 보냈다는 건 콕스뉴스 한 곳뿐이라 안 씀. 인지 날짜는 한전 발표(20일) 기준. 10월 직원 유출 인원은 2만4천(초기)·3만5528(이후) 보도가 갈려 숫자 안 씀. 2차 피해는 아직 확인 안 됨 — 겁주는 말 안 씀. 사장 실명·'국감' 단어 안 씀(정치 단어 검사). \n출처: 한전 발표 11/22 — 뉴스1 https://www.news1.kr/economy/trend/6362156 · 경향신문 https://www.khan.co.kr/article/202611221907001 · MBC https://imnews.imbc.com/news/2026/econo/article/6867629_36932.html / 해킹 포럼 19일 — 테크42 https://www.tech42.co.kr/%EC%9D%80%ED%96%89%C2%B7%EA%B3%B5%EA%B3%B5%EA%B8%B0%EA%B4%80-%EC%9D%B4%EC%96%B4-%ED%95%9C%EC%A0%84%EB%A7%88%EC%A0%80%EA%B0%9C%EC%9D%B8%EC%A0%95%EB%B3%B4-152%EB%A7%8C%EB%AA%85%EB%B6%84/ · 콕스뉴스 https://www.coxnews.co.kr/news/articleView.html?idxno=6895 / 10월 직원 유출 국정원 통보 — YTN https://www.ytn.co.kr/_ln/0102_202610042213417353 · 아주경제 https://ajunews.com/view/20261019111801292 / 개인정보위 조사 — 전자신문 https://www.etnews.com/20261123000481"
+}
