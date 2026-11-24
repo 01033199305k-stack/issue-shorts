@@ -1,132 +1,66 @@
 {
- "detected_at": "2026-11-24T15:12+09:00",
+ "detected_at": "2026-11-24T19:25+09:00",
  "candidates": [
   {
-   "kind": "news",
-   "title": "이재명 \"사이비 종교단체 해산, 실효적 조치 검토할 때 됐다\"",
-   "url": "https://n.news.naver.com/article/006/0000138910",
-   "press": "미디어오늘",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
-   "related": [
+   "kind": "community",
+   "title": "젠슨황, 추가 불륜 사실 공개",
+   "url": "https://theqoo.net/hot/4416430719",
+   "board": "더쿠 HOT",
+   "why": "커뮤니티 2곳 동시 화제 + 기사화(CJB청주방송)",
+   "news": [
     {
-     "press": "국민일보",
-     "title": "李 “사이비 종교단체 해산, 검토·계획 보고하라” 지시",
-     "url": "https://n.news.naver.com/article/005/0001887071"
-    },
-    {
-     "press": "연합뉴스TV",
-     "title": "이 대통령 \"종교활동 빙자 불법행위…실효적 조치 검토\"",
-     "url": "https://n.news.naver.com/article/422/0000929324"
-    },
-    {
-     "press": "조선일보",
-     "title": "李대통령 “사이비 종교단체 해산, 실효적인 조치 검토할 때”",
-     "url": "https://n.news.naver.com/article/023/0004011394"
+     "url": "https://n.news.naver.com/article/655/0000033686",
+     "headline": "[속보] 돌아온 젠슨황, 이사회에 추가 불륜 사실 고백"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "윤서인 “이승환에 ‘이혼당한 선동꾼’ 발언, 모욕 의도 없었다”",
-   "url": "https://n.news.naver.com/article/366/0001206953",
-   "press": "조선비즈",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "[속보]장동혁 “한동훈, 보수 궤멸의 중심…발붙일 곳 없어”",
+   "url": "https://n.news.naver.com/article/021/0002835191",
+   "press": "문화일보",
+   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
+    {
+     "press": "동아일보",
+     "title": "장동혁 “한동훈, 보수 궤멸 중심…국힘에 발붙일 곳 없다” 복당 일축",
+     "url": "https://n.news.naver.com/article/020/0003764752"
+    },
+    {
+     "press": "뉴스1",
+     "title": "장동혁 \"한동훈은 보수 궤멸 중심…복당 불가\"…조작 징계 의혹 정면 반박",
+     "url": "https://n.news.naver.com/article/421/0009307680"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "오세훈 입 떼자 회의 끝낸 이 대통령?... \"특검·탄핵 말하려 하자 의사봉 3번 치고 끝내\"",
+   "url": "https://n.news.naver.com/article/469/0000967455",
+   "press": "한국일보",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "한겨레",
+     "title": "오세훈, 특검·탄핵 발언하려 하자…이 대통령 “국무회의 마치겠다”",
+     "url": "https://n.news.naver.com/article/028/0002833713"
+    },
+    {
+     "press": "시사저널",
+     "title": "국무회의서 특검·탄핵 꺼낸 오세훈…\"李, 의사봉 3번 내리치고 자리 떠\"",
+     "url": "https://n.news.naver.com/article/586/0000142956"
+    },
     {
      "press": "중앙일보",
-     "title": "이승환에 “이혼 당하고 정치 망상”…윤서인 측 “모욕 의도 없었다”",
-     "url": "https://n.news.naver.com/article/025/0003567518"
+     "title": "오세훈 “특검·탄핵 민심 전달” 꺼내자…李대통령 “회의 마치겠다”",
+     "url": "https://n.news.naver.com/article/025/0003567560"
     },
     {
-     "press": "MBN",
-     "title": "이승환에 \"이혼이나 당한 선동꾼 인생\"…윤서인 측 \"모욕 의도 없어\"",
-     "url": "https://n.news.naver.com/article/057/0001979627"
+     "press": "조선비즈",
+     "title": "오세훈 “특검·탄핵 얘기하자, 李대통령 의사봉 3번 치고 자리 떠”",
+     "url": "https://n.news.naver.com/article/366/0001206985"
     }
    ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 신세계백화점 폭파, 협박범 검거…울산 사는 중학생으로 확인",
-   "url": "https://n.news.naver.com/article/016/0002727718",
-   "press": "헤럴드경제",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "서울신문",
-     "title": "신세계백화점 폭파 협박범, 중학생으로 확인…“폭발물 설치했다” 경찰에 협박 팩스 보내",
-     "url": "https://n.news.naver.com/article/081/0003702592"
-    },
-    {
-     "press": "부산일보",
-     "title": "신세계백화점 폭파 협박범, 울산 사는 중학생으로 확인",
-     "url": "https://n.news.naver.com/article/082/0001408677"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 이 대통령 “사이비 종교단체 해산, 검토 내용·향후 계획 보고해달라”",
-   "url": "https://n.news.naver.com/article/032/0003484621",
-   "press": "경향신문",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "국민일보",
-     "title": "李 “사이비 종교단체 해산, 검토·계획 보고하라” 지시",
-     "url": "https://n.news.naver.com/article/005/0001887071"
-    },
-    {
-     "press": "조선일보",
-     "title": "李대통령 “사이비 종교단체 해산, 실효적인 조치 검토할 때”",
-     "url": "https://n.news.naver.com/article/023/0004011394"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "'12·3 국민주권의 날' 기념일 지정…정부·국회 첫 공동 기념식",
-   "url": "https://n.news.naver.com/article/001/0016460409",
-   "press": "연합뉴스",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "채널A",
-     "title": "이 대통령 “12·3 ‘국민주권의 날’ 지정…빛의 혁명은 국민의 승리”",
-     "url": "https://n.news.naver.com/article/449/0000368489"
-    },
-    {
-     "press": "세계일보",
-     "title": "매년 12월3일 ‘국민주권의 날’로 지정…국무회의 통과",
-     "url": "https://n.news.naver.com/article/022/0004177675"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "안철수 “중국 간첩이 국정원 접수했다고 보지 않겠나”…강금실 지명 맹공",
-   "url": "https://n.news.naver.com/article/009/0005767990",
-   "press": "매일경제",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "프레시안",
-     "title": "[속보] 안철수 \"'강금실=중국 간첩'이라 생각할 것…단순 친중 아니고 시진핑 찬양\"",
-     "url": "https://n.news.naver.com/article/002/0002467270"
-    },
-    {
-     "press": "경기일보",
-     "title": "안철수 “미국, ‘中 간첩’이 대한민국 국정원 접수했다 판단할 것”",
-     "url": "https://n.news.naver.com/article/666/0000133530"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 선관위 특검, '투표지 분류기 납품 비리' 관련 압수수색",
-   "url": "https://n.news.naver.com/article/052/0002437320",
-   "press": "YTN",
-   "why": "[속보] 기사",
-   "related": []
   }
  ]
 }
