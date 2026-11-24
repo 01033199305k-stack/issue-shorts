@@ -203,6 +203,7 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
         segments.append(motion.egg_segment(egg, egg_q))   # spoken "좋아요 누르면 좋아요가 … 변해요~" over its drawing
 
     wavs, results = [], []
+    n_takes = int(cfg.get("tts_takes", 1))
     quote_voices = [float(x) for x in (cfg.get("quote_voices") or []) if 0.6 <= float(x) <= 1.4]
     speaker, prev_quote, n_voiced = -1, None, 0
     for run in voice_runs(segments):
@@ -213,7 +214,10 @@ def render(script: dict, cfg: dict, repo: Path, work_dir: Path, out_path: Path) 
             work_dir / (f"seg_{i0:02d}.wav" if len(run) == 1 else f"run_{i0:02d}.wav"),
             engine=cfg["engine"], voice=cfg["voice"], instruct=voice_instruct(cfg.get("instruct", ""), run_tone(segs), cfg.get("instruct_persona", "")),
             speed=float(cfg.get("speed", 1.0)), display=" ".join(s["text"] for s in segs), seed=7 + i0,
-            head_pad=HEAD_PAD, tail_pad=TAIL_PAD, takes=int(cfg.get("tts_takes", 1)))
+            head_pad=HEAD_PAD, tail_pad=TAIL_PAD,
+            # the title (screen 0) is picked from more takes, by pitch band (config title_pitch / title_takes)
+            takes=max(n_takes, int(cfg.get("title_takes", n_takes))) if i0 == 0 and n_takes > 1 else n_takes,
+            pitch_band=tuple(cfg["title_pitch"]) if i0 == 0 and cfg.get("title_pitch") else None)
         parts = [res] if len(run) == 1 else split_take(res, segs, [work_dir / f"seg_{i:02d}.wav" for i in run])
         for i, part in zip(run, parts):
             if quote_voices and pure_quote(segments[i]):   # a quoted comment is read by somebody else

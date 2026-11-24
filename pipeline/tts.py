@@ -255,6 +255,27 @@ def pitch_spread(path: Path) -> float:
     return float(np.std(12 * np.log2(f0 / np.median(f0))))
 
 
+def pitch_median(path: Path) -> float:
+    """Median pitch of the voice in Hz (0.0 when it cannot be measured)."""
+    import numpy as np
+    try:
+        import librosa
+    except ImportError:
+        return 0.0
+    f0, voiced, _ = librosa.pyin(_load16k(path), fmin=80, fmax=600, sr=16000, frame_length=1024)
+    f0 = f0[voiced & ~np.isnan(f0)]
+    return float(np.median(f0)) if len(f0) >= 10 else 0.0
+
+
+def _off_band(hz: float, band) -> float:
+    """Semitones outside the wanted pitch band (0 inside it, or when there is no band / no measurement)."""
+    import math
+    if not band or not hz:
+        return 0.0
+    lo, hi = band
+    return 12 * math.log2(lo / hz) if hz < lo else 12 * math.log2(hz / hi) if hz > hi else 0.0
+
+
 def _similarity(heard: str, *scripts: str) -> float:
     h = _norm(heard)
     return max(difflib.SequenceMatcher(None, h, _norm(s)).ratio() for s in scripts if s)
@@ -273,6 +294,7 @@ def synthesize(
     head_pad: float = 0.05,
     tail_pad: float = 0.12,
     takes: int = 1,
+    pitch_band: tuple | None = None,
 ) -> TTSResult:
     """Render one segment, trimmed of dead air, with word timings.
 
@@ -290,7 +312,8 @@ def synthesize(
     # Same sentence, same voice settings -> reuse the take (re-renders and retries skip TTS)
     import hashlib
     import shutil
-    key = hashlib.sha1(json.dumps([TTS_VERSION, engine, voice, instruct, speed, seed, text, display, takes],
+    key = hashlib.sha1(json.dumps([TTS_VERSION, engine, voice, instruct, speed, seed, text, display, takes]
+                                             + ([list(pitch_band)] if pitch_band else []),
                                   ensure_ascii=False).encode()).hexdigest()[:20]
     cdir = Path(__file__).resolve().parent.parent / "cache" / "tts"
     if (cdir / f"{key}.json").exists() and (cdir / f"{key}.wav").exists():
@@ -298,7 +321,8 @@ def synthesize(
         shutil.copyfile(cdir / f"{key}.wav", out_wav)
         return TTSResult(out_wav, [Word(*w) for w in meta["words"]], meta["duration"], meta["match"])
     res = _synthesize_fresh(text, out_wav, gen=gen, voice=voice, instruct=instruct, speed=speed,
-                            display=display, seed=seed, head_pad=head_pad, tail_pad=tail_pad, takes=takes)
+                            display=display, seed=seed, head_pad=head_pad, tail_pad=tail_pad, takes=takes,
+                            pitch_band=pitch_band)
     cdir.mkdir(parents=True, exist_ok=True)
     shutil.copyfile(out_wav, cdir / f"{key}.wav")
     (cdir / f"{key}.json").write_text(json.dumps(
@@ -330,7 +354,7 @@ def hear(path: Path) -> list[Word]:
 
 
 def _synthesize_fresh(text, out_wav, *, gen, voice, instruct, speed, display, seed, head_pad, tail_pad,
-                      takes=1) -> TTSResult:
+                      takes=1, pitch_band=None) -> TTSResult:
 
     best = None
     if takes > 1:
@@ -339,8 +363,14 @@ def _synthesize_fresh(text, out_wav, *, gen, voice, instruct, speed, display, se
         ok = [c for c in cands if c[0] >= PICK_MATCH] or [max(cands, key=lambda c: c[0])]
         med = sorted(c[3] for c in ok)[len(ok) // 2]
         spread = {id(c): pitch_spread(c[1]) for c in ok}
-        pick = max(ok, key=lambda c: spread[id(c)] - 2.0 * abs(c[3] - med) / med)
-        print("    takes " + " ".join(f"[m{c[0]:.2f} {spread.get(id(c), 0):.1f}st {c[3]:.1f}s]" for c in cands)
+        # 2026-11-24 the title: 132 videos - a flat title read (median under 230 Hz) kept 3.4 points fewer feed
+        # viewers than its week's median, a lively one (290-320 Hz) 3.2 more; above 320 it falls again.
+        # With a band the take closest to it wins (1 point per semitone outside), liveliness breaks ties.
+        level = {id(c): pitch_median(c[1]) for c in ok} if pitch_band else {}
+        pick = max(ok, key=lambda c: spread[id(c)] - 2.0 * abs(c[3] - med) / med
+                   - 1.0 * _off_band(level.get(id(c), 0.0), pitch_band))
+        print("    takes " + " ".join(f"[m{c[0]:.2f} {spread.get(id(c), 0):.1f}st {c[3]:.1f}s"
+                                      + (f" {level[id(c)]:.0f}Hz" if id(c) in level else "") + "]" for c in cands)
               + f" -> {cands.index(pick) + 1}")
         for c in cands:
             if c is not pick:
