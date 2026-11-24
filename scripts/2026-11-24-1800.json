@@ -1,0 +1,623 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "apartment-delivery-bike-ban",
+ "title_lines": [
+  "왕복 20분 걸어서",
+  "배달하라는 강남 아파트"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "배달 오토바이 막고 걸어오라는 강남 아파트",
+   "say": "배달 오토바이 막고 걸어오라는 강남 아파트",
+   "sfx": "absurd",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "배달 오토바이 막고\n걸어오라는 강남 아파트",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "정문에서 안쪽까지 걸으면 왕복 20분인데,",
+   "say": "정문에서 안쪽까지 걸으면 왕복 이십 분인데,",
+   "sfx": "punch",
+   "join": true,
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "apartment",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "配達 自転車",
+       "配達員",
+       "出前"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⏱️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "apartment complex korea",
+     "apartment buildings",
+     "apartment complex aerial"
+    ],
+    "cc": [
+     "seoul apartment complex",
+     "korean apartment complex"
+    ]
+   }
+  },
+  {
+   "text": "배달 오토바이는 단지 밖에 세우라고 함.",
+   "say": "배달 오토바이는 단지 밖에 세우라고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バイク 駐車",
+       "バイク",
+       "オートバイ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "center",
+      "size": "l",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ],
+    "video": [
+     "motorbike parked street",
+     "scooter parked",
+     "motorcycle parking"
+    ]
+   }
+  },
+  {
+   "text": "입주민 쪽 요구는 딱 이거였음.",
+   "say": "입주민 쪽 요구는 딱 이거였음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "apartment",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "マンション 住民",
+       "マンション 管理人",
+       "管理人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“걸어서 단지로 들어와 배달하라”",
+   "say": "걸어서 단지로 들어와 배달하라",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "딱 잘라 말하듯 단호하게",
+   "visual": {
+    "bg": "apartment",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "歩く 男性",
+       "歩く"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "grok": {
+     "prompt": "Wide shot of a young delivery rider in a black helmet and blue windbreaker carrying an insulated food bag, walking alone along a very long path between tall new apartment towers, evening light, camera slowly tracking sideways"
+    }
+   }
+  },
+  {
+   "text": "작년 11월 입주 땐 오토바이도 들어갔는데,",
+   "say": "작년 십일월 입주 땐 오토바이도 들어갔는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "バイク 配達",
+       "オートバイ 男性",
+       "バイク 乗る"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏍️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "delivery motorbike",
+     "scooter riding city",
+     "motorbike road"
+    ]
+   }
+  },
+  {
+   "text": "지금은 입구에서 막혀 버린 거임.",
+   "say": "지금은 입구에서 막혀 버린 거임.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "通行止め",
+       "立入禁止",
+       "バリケード"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "⛔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그러자 라이더들도 맞섬.",
+   "say": "그러자 라이더들도 맞섬.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "怒る"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“차라리 지하로 가겠으니 지하를 열어달라”",
+   "say": "차라리 지하로 가겠으니 지하를 열어달라",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "답답해서 목소리 높여 따지듯",
+   "visual": {
+    "bg": "parking",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "駐車場 地下",
+       "駐車場"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🅿️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "underground parking garage",
+     "parking garage",
+     "car park underground"
+    ]
+   }
+  },
+  {
+   "text": "단지 앞엔 이런 현수막까지 걸렸다고.",
+   "say": "단지 앞엔 이런 현수막까지 걸렸다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "doc",
+      "title": "현수막",
+      "lines": [
+       "라이더는 거부하면서",
+       "배달음식은",
+       "받고 싶습니까?"
+      ],
+      "mark": 0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性",
+       "驚く"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이 얘기가 퍼지자 댓글이 쏟아짐.",
+   "say": "이 얘기가 퍼지자 댓글이 쏟아짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“돈 많으신데 좀 더 내세요”",
+   "say": "돈 많으신데 좀 더 내세요",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "비꼬듯 능청스럽게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "💸",
+      "pos": "center",
+      "size": "l",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "food delivery",
+     "delivery bag",
+     "takeout food"
+    ]
+   }
+  },
+  {
+   "text": "지하까지 막았단 말엔 이런 댓글이 붙음.",
+   "say": "지하까지 막았단 말엔 이런 댓글이 붙음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 男性",
+       "考える"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“막으면 안 먹겠다는 얘기네”",
+   "say": "막으면 안 먹겠다는 얘기네",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 피식 웃으며",
+   "visual": {
+    "bg": "kitchen",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "空腹 男性",
+       "お腹が空いた",
+       "空腹"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🍽️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "takeout food box",
+     "food delivery box",
+     "fried chicken box"
+    ]
+   }
+  },
+  {
+   "text": "근데 지인이 라이더라는 사람은 좀 달랐음.",
+   "say": "근데 지인이 라이더라는 사람은 좀 달랐음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "road",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "配達員 男性",
+       "宅配便 配達員",
+       "宅配"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“제한을 두는 건 그럴 만하지만”",
+   "say": "제한을 두는 건 그럴 만하지만",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "차분하게 고개 끄덕이듯",
+   "visual": {
+    "bg": "apartment",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "警備員",
+       "警備員 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🦺",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "너무 과하면 안 된다며 합의점을 찾자고 함.",
+   "say": "너무 과하면 안 된다며 합의점을 찾자고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "meeting",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "握手 ビジネス",
+       "握手"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤝",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "결국 이 단지 콜은 아예 안 받는 라이더까지 나옴.",
+   "say": "결국 이 단지 콜은 아예 안 받는 라이더까지 나옴.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "nightcity",
+    "tr": "flash",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 通知",
+       "スマホ 断る",
+       "断る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📵",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "city night traffic",
+     "night street scooter",
+     "city lights night"
+    ]
+   }
+  },
+  {
+   "text": "이제 음식이 걸어와야 할 판임.",
+   "say": "이제 음식이 걸어와야 할 판임.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "apartment",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "弁当 配達",
+       "出前 料理",
+       "ラーメン 出前"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "😮‍💨",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "왕복 20분 걸어서 배달하라는 강남 아파트 #shorts",
+  "description": "강남의 한 대단지 아파트가 배달 오토바이를 단지 밖에 세우고 걸어서 들어오라고 했다.\n정문에서 안쪽까지 걸으면 왕복 20분 걸린다는 단지에서, 라이더들은 차라리 지하주차장을 열어 달라고 맞섰다.\n댓글은 배달비를 더 내라는 쪽과 제한은 이해한다는 쪽으로 갈렸고, 이 단지 콜을 아예 안 받는 라이더도 나왔다.\n\n※ AI 음성으로 제작했습니다.\n#배달 #배달라이더 #아파트 #강남 #갑론을박 #shorts",
+  "tags": [
+   "배달",
+   "배달라이더",
+   "배달 오토바이",
+   "아파트",
+   "강남 아파트",
+   "아파트 출입",
+   "갑론을박",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/056/0012299736",
+ "facts_used": [
+  "KBS '“오토바이 막고 음식은 받나”…강남 아파트 ‘배달 갈등’ [잇슈 키워드]' — 네이버 언론사별 댓글 많은 기사, inbox/latest.json 2026-11-24 15:12 https://n.news.naver.com/article/056/0012299736",
+  "단지 측: 오토바이 단지 밖 주차·걸어서 배달 요구 / 라이더: '차라리 지하로 가겠으니 지하를 열어달라. 아니면 배달을 거부하겠다' — https://m.news.nate.com/view/20261124n19332 / https://supple.kr/news/cmwu87dzdjgfikwp8wiznr6fx",
+  "입주민 측 요구 '아파트 외부에 오토바이를 주차하고 걸어서 단지로 들어와 배달하라' — https://m.news.nate.com/view/20261124n19332 / https://supple.kr/news/cmwu87dzdjgfikwp8wiznr6fx",
+  "단지 폭 약 500m, 걸어서 왕복 약 20분(전해짐), 지난해 11월 입주 초기 오토바이 진입 허용 — https://m.news.nate.com/view/20261124n19332 / https://www.wikitree.co.kr/articles/1177069",
+  "현수막 '라이더는 거부하면서 배달음식은 받고 싶습니까?' — https://www.wikitree.co.kr/articles/1177069 / https://supple.kr/news/cmwu87dzdjgfikwp8wiznr6fx",
+  "누리꾼 댓글 '배달료만 많이 주면 1500m도 걸어갈 수 있지. 돈 많으신데 좀 더 내세요' '지하 주차장으로 가는 것도 막으면 안 먹겠다는 얘기네', 라이더 지인 '안전 문제 때문에 단지에서 제한을 두는 건 그럴 만하지만 너무 과해지면 안 된다. 서로 합의점을 찾아가는 수밖에 없다' — https://m.news.nate.com/view/20261124n19332",
+  "일부 라이더가 해당 단지 배달 콜을 아예 받지 않음 — https://supple.kr/news/cmwu87dzdjgfikwp8wiznr6fx",
+  "9개 동 1,261가구, 지난해 11월 입주 시작 — https://biz.heraldcorp.com/article/10463632 / https://www.newspim.com/news/view/20250729000964"
+ ],
+ "brief": "점수(우리얘기 30): 내 얘기 5+5(배달 시키는 사람 전부 + 아파트 사는 사람·배달 일 해 본 사람 — 시청자 70% 남성·25~54세의 집·이웃·일 문제) / 갈림 5(입주민 안전·사유지 vs 라이더 시간·돈, 댓글이 실제로 갈림) / 몰랐던 이유 3(단지 폭 500m·왕복 20분·작년 11월 입주 초기엔 허용 — '전해졌다' 수준) / 한 장면 5(음식 들고 단지를 20분 걷는 라이더) / 누구나 아는 대상 5 + 화제 +5 = 33\n지금 가장 뜨거운 5개: ①강남 아파트 배달 오토바이 출입 거부(네이버 언론사별 댓글 많은 기사 KBS '“오토바이 막고 음식은 받나”…강남 아파트 배달 갈등' + 헤럴드·위키트리·서플·이데일리계 다수 보도, 루리웹·개드립·에펨 '현재 실시간 청담르엘 배달관련이슈') ②9급 신규·부산인재개발원장 막말(디시 실베 949 + JTBC news_hot — 특정 공직자 막말이 중심, 사람 이름 빼면 남는 사실이 '막말' 하나라 각도 약함) ③대마도 마운자로 근황(더쿠 483·루리웹 동시 — 비만약 원정 구매, 의료·약 구매 권유로 읽힐 위험·기사 미확인) ④퇴직(구글 20000+ — 퇴직연금 수수료 개편 보도자료성) ⑤수능 세계사 2번(네이트판·루리웹·엠팍 동시 — 이번 주 수능 편 이미 여러 편, 12시 판단 그대로 뒤로). ①이 댓글 원문이 가장 많고 집·이웃 화제.\n화제: 강남 초고가 아파트 배달 오토바이 출입 거부 (inbox news_hot KBS '오토바이 막고 음식은 받나…강남 아파트 배달 갈등' — 네이버 언론사별 댓글 많은 기사, 커뮤니티 '현재 실시간 청담르엘 배달관련이슈' 루리웹·개드립·에펨 동시)\n레인: 우리얘기\n유행: 아파트 배달 갈등 (네이버 댓글 많은 기사·커뮤니티 3곳). 구글 급상승(농심·장기 기증·퇴직·12월 3일·김서형·강호동·치이카와 클리닉)·커뮤니티 동시 단어(신작·스코틀랜드·수능·젠슨황)엔 없음 — 치이카와 클리닉은 '예약 하루 연기' 소식뿐이라 숨긴 답 없음\n구조: 발단=정문~안쪽 왕복 20분 단지가 배달 오토바이를 단지 밖에 세우라고 함 / 반응=입주민 '걸어서 들어와 배달하라'→라이더 '차라리 지하로 가겠으니 지하를 열어달라'→현수막→누리꾼 '돈 많으신데 좀 더 내세요'·'막으면 안 먹겠다는 얘기네' / 이유=작년 11월 입주 초기엔 오토바이 진입 허용, 단지 폭 약 500m / 갈림=라이더 지인 '제한을 두는 건 그럴 만하지만' 과하면 안 된다·합의점 / 한 방=이 단지 콜을 아예 안 받는 라이더까지 나옴\n댓글거리: 우리 아파트 배달 출입 규칙(지상 금지·지하 허용·정문 픽업), 배달 일 해 본 사람의 단지 걷기 경험, 배달비 더 낼 테니 문 앞까지 vs 내가 정문까지 나감\n댓글: 5개 (라이더 측 '차라리 지하로 가겠으니 지하를 열어달라' · 입주민 측 요구 '걸어서 단지로 들어와 배달하라' · 누리꾼 '배달료만 많이 주면 1500m도 걸어갈 수 있지. 돈 많으신데 좀 더 내세요' · '지하 주차장으로 가는 것도 막으면 안 먹겠다는 얘기네' · 라이더 지인 '안전 문제 때문에 단지에서 제한을 두는 건 그럴 만하지만 너무 과해지면 안 된다. 서로 합의점을 찾아가는 수밖에 없다' — 네이트뉴스 20261124n19332(원 기사 인용)·위키트리 1177069·서플 검색 인용. 기사 본문 WebFetch 는 m.news.nate.com·wikitree 둘 다 ENOTFOUND 라 검색 인용문으로 확인, 앞뒤만 잘랐고 말은 안 바꿈) — '있는 집처럼 보이려고 저러는 거 맞냐?'는 입주민 조롱이라 안 씀\n확인된 사실: ① 단지 측은 라이더에게 오토바이를 단지 밖에 세우고 걸어서 배달하라고 요구, 라이더는 지하주차장 출입 허용 요구 — 네이트뉴스·위키트리·서플 ② 단지 폭 약 500m, 정문에서 안쪽까지 걸어서 왕복 약 20분 '전해졌다' — 네이트뉴스·서플(원글 작성자 주장 기반 보도라 대본은 '걸으면 왕복 20분'까지만) ③ 지난해(2025년) 11월 입주 초기엔 오토바이 진입 허용 — 네이트뉴스·위키트리 / 9개 동 1,261가구, 지난해 11월 입주 시작 — 헤럴드경제·뉴스핌 ④ 단지 앞 현수막 '라이더는 거부하면서 배달음식은 받고 싶습니까?' 취지, 지하주차장 출입 허용을 바라는 뜻 — 위키트리 제목·서플 ⑤ 일부 라이더가 해당 단지 콜을 아예 받지 않음 — 서플·네이트뉴스\n주의: 단지 이름(청담르엘)·시공사는 대본·화면·설명란에 안 씀('강남 아파트'). 입주민·라이더 어느 쪽이 옳다고 결론 안 냄. 입주민 측이 왜 바꿨는지(과속·사고 위험설)는 익명 커뮤니티 글뿐이라 안 씀. 현수막을 누가 걸었는지 보도에 없어 '걸렸다고'로만 씀.\n훅 3안: ①'정문에서 안쪽까지 걸으면 왕복 20분인데' ②'배달 오토바이를 단지 밖에 세우라는 아파트' ③'라이더들이 이 단지 콜을 안 받기 시작함' → ① 숫자로 장면을 바로 그리고 ③은 마지막 한 방으로 아낌. 제목은 숫자 대비형 '왕복 20분 걸어서 배달하라는 강남 아파트'(12시 '~의 진실', 07시 '~처음 알려진 곳'과 다른 틀).\n첫장면: 손해\n이해검사: 강남의 한 대단지 아파트가 배달 오토바이를 단지 밖에 세우고 왕복 20분을 걸어서 배달하라고 하자 라이더들이 지하를 열어 달라고 맞섰고, 댓글이 갈린 가운데 결국 그 단지 콜을 아예 안 받는 라이더까지 나옴.\n그림대조: 완료"
+}
