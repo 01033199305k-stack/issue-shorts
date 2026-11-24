@@ -1,0 +1,404 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "mixed-soy-sauce-label-ratio",
+ "title_lines": [
+  "양조간장 1%만 넣어도",
+  "된다는 혼합간장의 진실"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "간장 가격 천차만별인데 도대체 뭘 사야 됨?",
+   "say": "간장 가격 천차만별인데 도대체 뭘 사야 됨?",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "간장 가격 천차만별인데\n도대체 뭘 사야 됨?",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이 질문에 댓글이 1천 개 넘게 달림.",
+   "say": "이 질문에 댓글이 천 개 넘게 달림.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "kitchen",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "soy sauce bottle",
+     "soy sauce pouring",
+     "soy sauce dish"
+    ]
+   }
+  },
+  {
+   "text": "마트 진간장은 대부분 혼합간장인데,",
+   "say": "마트 진간장은 대부분 혼합간장인데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "買い物 女性",
+       "スーパー 買い物",
+       "買い物"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🛒",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "supermarket shelf",
+     "grocery shelf",
+     "supermarket aisle"
+    ],
+    "cc": [
+     "korean supermarket",
+     "korean grocery store"
+    ]
+   }
+  },
+  {
+   "text": "염산으로 분해한 간장을 섞은 거임.",
+   "say": "염산으로 분해한 간장을 섞은 거임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "化学 実験",
+       "実験 科学者",
+       "科学者"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🧪",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "laboratory chemistry",
+     "chemistry lab",
+     "test tubes"
+    ]
+   }
+  },
+  {
+   "text": "근데 진짜 문제는 섞는 비율임.",
+   "say": "근데 진짜 문제는 섞는 비율임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "kitchen",
+    "items": [
+     {
+      "type": "warn"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "考える"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "양조간장이 7%뿐인 제품도 있고,",
+   "say": "양조간장이 칠 퍼센트뿐인 제품도 있고,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "양조간장 함량",
+      "lines": [
+       "A 제품 7%",
+       "B 제품 75%"
+      ],
+      "mark": 0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "驚く 女性",
+       "驚く"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "75%인 제품도 이름은 같음.",
+   "say": "칠십오 퍼센트인 제품도 이름은 같음.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🍶",
+      "pos": "center",
+      "size": "l",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "soy sauce",
+     "soy sauce bottle",
+     "soy bottle"
+    ]
+   }
+  },
+  {
+   "text": "와, 1%만 넣어도 혼합간장임.",
+   "say": "와, 일 퍼센트만 넣어도 혼합간장임.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "kitchen",
+    "tr": "flash",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "소비자원 조사 땐 값도 두 배 차이 났음.",
+   "say": "소비자원 조사 땐 값도 두 배 차이 났음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "100mL당 값",
+      "lines": [
+       "혼합간장 381원",
+       "양조간장 771원",
+       "2016 소비자원"
+      ],
+      "mark": 1
+     },
+     {
+      "type": "illust",
+      "q": [
+       "財布 主婦",
+       "財布"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "결국 볼 건 뒷면 한 줄인데,",
+   "say": "결국 볼 건 뒷면 한 줄인데,",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "store",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "料理 女性",
+       "料理"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "grocery shopping",
+     "shopping cart supermarket",
+     "supermarket shopping"
+    ],
+    "grok": {
+     "prompt": "Close-up of a woman in her thirties with a low ponytail and a gray cardigan turning a dark sauce bottle around in a supermarket aisle and squinting at the small label on its back, bright store lighting, slow push in"
+    }
+   }
+  },
+  {
+   "text": "원재료명 옆 혼합 비율이었음.",
+   "say": "원재료명 옆 혼합 비율이었음.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "虫眼鏡",
+       "虫眼鏡 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "food label",
+     "ingredients label",
+     "nutrition label"
+    ]
+   }
+  },
+  {
+   "text": "가격표보다 뒷면이 먼저임.",
+   "say": "가격표보다 뒷면이 먼저임.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "kitchen",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "主婦 笑顔",
+       "笑顔 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "👍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "양조간장 1%만 넣어도 된다는 혼합간장의 진실 #shorts",
+  "description": "간장 가격이 천차만별인데 뭘 사야 하냐는 글에 댓글이 1천 개 넘게 달렸다.\n마트 진간장 대부분은 염산으로 분해한 산분해간장을 섞은 혼합간장인데, 현행 표시제에선 양조간장이 1%만 들어가도 혼합간장으로 표기할 수 있다.\n소비자단체 조사에선 혼합간장 속 양조간장 비율이 7%부터 75%까지 제각각이었다. 병 뒷면 원재료명의 혼합 비율을 보면 알 수 있다.\n\n※ AI 음성으로 제작했습니다.\n#간장 #진간장 #양조간장 #혼합간장 #장보기 #shorts",
+  "tags": [
+   "간장",
+   "진간장",
+   "양조간장",
+   "혼합간장",
+   "산분해간장",
+   "간장 고르는 법",
+   "장보기",
+   "살림",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://theqoo.net/hot/4415913087",
+ "facts_used": [
+  "더쿠 HOT '간장, 고추장, 조청 가격대가 천차만별인데 도대체 뭘 사야 되냐?' 댓글 1,094개 — inbox/latest.json 2026-11-24 09:12 https://theqoo.net/hot/4415913087",
+  "산분해간장 99%에 양조간장 1%만 넣어도 혼합간장 표기 가능 — https://biz.newdaily.co.kr/site/data/html/2025/07/10/2025071000117.amp.html / https://www.insight.co.kr/news/194259",
+  "산분해간장은 단백질 원료를 염산으로 분해, 시중 진간장 대부분이 혼합간장 — https://news.bizwatch.co.kr/article/consumer/2020/12/03/0008 / https://sateconomy.co.kr/news/view/1065597414950358 / https://news.bizwatch.co.kr/article/consumer/2026/02/24/0020",
+  "소비자주권시민회의 조사 혼합간장 양조간장 함량 7%~75% — https://www.foodtoday.or.kr/news/article.html?no=207551 / https://sateconomy.co.kr/news/view/1065597414950358",
+  "한국소비자원 16개 간장 비교 100mL당 평균 혼합간장 381원·일반 양조간장 771원 — https://www.korea.kr/news/policyNewsView.do?newsId=156153008 / https://www.sidae.com/article/2016090417218079785",
+  "혼합간장은 뒷면 원재료명에서 혼합 비율 확인 — https://www.insight.co.kr/news/194259 / https://sateconomy.co.kr/news/view/1065597414950358"
+ ],
+ "brief": "점수(우리얘기 30): 내 얘기 5+5(집에서 밥하는 사람 누구나 마트 간장 고름) / 갈림 4(싼 거 써도 된다 vs 양조만 쓴다) / 몰랐던 이유 5(1%만 넣어도 혼합간장 표기·양조 함량 7%~75%·100mL당 381원 대 771원) / 한 장면 4(마트 간장 코너에서 뒷면 보기) / 누구나 아는 대상 5 + 화제 +5 = 33. 비교 후보(뜨거운 것 5개): 울릉도 경계경보(구글 5000+, 군사·외교 — 확인 중인 안보 사안이라 우리 얘기 각도 없음) · 지하철 파업(구글 200+, 어제 18시 편과 같은 화제 — 오늘 교섭 결과 전이라 새 사실 없음) · 수능 부정 신고 포상금 5억(네이버 댓글 많은 기사, 이번 주 수능 편 4편째라 뒤로) · 성시경 유튜브 채령편 댓글(더쿠 748·네이트판, 특정 개인 비난 댓글이 중심이라 각도 잡기 어려움) · 더쿠 마라톤 피해(969, 11/22 18시 다룸)\n화제: 간장·고추장·조청 뭘 사야 하나 (inbox 4위 더쿠 HOT '간장, 고추장, 조청 가격대가 천차만별인데 도대체 뭘 사야 되냐?' 댓글 1,094 — 이번 inbox 커뮤니티 글 중 댓글 최다)\n레인: 우리얘기\n유행: 없음 (구글 급상승 김범수·울릉도·김호령·정우성·지하철 파업·이유비 — 정치·안보·연예 개인사이거나 어제 다룸 / 커뮤니티 동시 단어 없음). 화제는 inbox 댓글 최다 글로 잡음\n구조: 발단=간장 뭘 사냐는 글에 댓글 1천 개 넘음 / 반응=마트 진간장 대부분 혼합간장(염산 분해 간장 섞음)→양조 7% 제품과 75% 제품이 같은 혼합간장 이름 / 이유=양조간장 1%만 넣어도 혼합간장 표기 가능(현행 표시제) + 소비자원 조사 100mL당 혼합 381원·양조 771원 / 갈림=비율 7%부터 75%까지 같은 이름 / 한 방=볼 건 뒷면 혼합 비율, 가격표보다 뒷면이 먼저\n댓글거리: 우리 집 간장 뒷면에 적힌 식품유형·혼합 비율, 진간장·양조간장 구분해서 쓰는지, 비싼 간장 써 본 차이, 엄마가 쓰던 간장 브랜드\n댓글: 0개 (더쿠 원글 WebFetch ENOTFOUND, 검색 요약에 원글 댓글 원문 없음 — 'TN 1.3' 류 댓글은 다른 옛 더쿠 글의 요약이라 안 씀 / 기사 bizwatch·korea.kr WebFetch ENOTFOUND, '누리꾼 반응 댓글' 검색 1회) → 짧은 형식, 인용 화면 없음\n확인된 사실: ① 현행 표시제상 산분해간장 99%에 양조간장 1%만 넣어도 '혼합간장' 표기 가능 — 뉴데일리 2025-07-10, 인사이트(검색 인용 2곳) ② 산분해간장은 단백질 원료를 염산으로 분해해 만듦, 시중 진간장 대부분이 산분해간장 섞인 혼합간장 — 비즈워치 2020-12-03·2026-02-24, 세이프타임즈 경제(sateconomy) ③ 소비자주권시민회의 조사: 혼합간장 양조간장 함량 최소 7%~최대 75% (샘표 '진간장S' 7%·몽고 '송표 간장' 75%) — 푸드투데이 207551·sateconomy ④ 한국소비자원 16개 제품 비교(2016-09): 100mL당 평균 가격 혼합간장 381원·일반 양조간장 771원, 총질소 평균 1.3% 전 제품 기준 적합 — 정책브리핑 korea.kr 156153008·시대뉴스 2016-09\n주의: 업체·제품 이름은 대본·화면에 안 씀(doc 소품은 'A 제품·B 제품'). 산분해간장이 해롭다고 말하지 않음(소비자원 시험 전 제품 기준 적합 — 안전 얘기는 안 꺼냄). 가격은 2016년 조사라 화면 doc에 '2016 소비자원'을 적고 대본도 '소비자원 조사 땐'으로 과거형. 'KS 등급 1.3/1.5'는 위키만 근거라 안 씀. 더쿠 글 내용·댓글은 확인 못 해 '이 질문에 댓글 1천 개 넘게 달림'(inbox 사실)까지만 씀.\n훅 3안: ①'마트 진간장 대부분이 혼합간장임' ②'이 질문 하나에 댓글이 1천 개 넘게 달림' ③'1%만 넣어도 혼합간장임' → ② 사람·숫자로 열고 ③은 3분의 2 지점 공개로 아낌. 제목은 '~의 진실'(오늘 07시는 '~처음 알려진 곳', 어제 12시 '~이유'와 다른 틀).\n첫장면: 사람\n이해검사: 간장 뭘 사냐는 질문에 댓글이 1천 개 달렸는데, 마트 진간장 대부분은 염산 분해 간장을 섞은 혼합간장이고 양조간장이 1%만 들어가도 같은 이름을 쓸 수 있어서, 결국 뒷면 혼합 비율을 봐야 함.\n그림대조: 완료"
+}
