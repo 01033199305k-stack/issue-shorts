@@ -1,0 +1,351 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "jemulpo-unsupervised-exam-70years",
+ "title_lines": [
+  "AI 커닝에도",
+  "감독 없는 학교의 비밀"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "AI 커닝 난리인데 70년째 감독 없는 학교",
+   "say": "에이아이 커닝 난리인데 칠십 년째 감독 없는 학교",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "AI 커닝 난리인데\n70년째 감독 없는 학교",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "시험지만 주고 선생님이 나가 버림.",
+   "say": "시험지만 주고 선생님이 나가 버림.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "先生 男性",
+       "先生 教室",
+       "先生"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚪",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "classroom desks",
+     "classroom empty",
+     "school classroom"
+    ],
+    "cc": [
+     "korean high school classroom",
+     "korean classroom"
+    ],
+    "grok": {
+     "prompt": "Medium shot of a middle-aged male teacher with short black hair, white shirt and dark tie, placing a stack of exam papers on the front desk, then calmly walking out of a classroom full of students in navy uniforms bent over their tests, door closing behind him, slow pan following him to the door"
+    },
+    "cam": "punch"
+   }
+  },
+  {
+   "text": "끝나기 10분 전에 돌아오는데,",
+   "say": "끝나기 십 분 전에 돌아오는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "⏰",
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "wall clock",
+     "clock wall",
+     "clock classroom"
+    ]
+   }
+  },
+  {
+   "text": "1956년부터 이렇게 시험 봄.",
+   "say": "천구백오십육 년부터 이렇게 시험 봄.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "인천 제물포고",
+      "lines": [
+       "1956년 1학기부터",
+       "감독 교사 없음",
+       "종료 10분 전 입실"
+      ],
+      "mark": 0
+     },
+     {
+      "type": "illust",
+      "q": [
+       "学校 校舎",
+       "学校"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "스마트안경 커닝 시대에도 그대로라고.",
+   "say": "스마트안경 커닝 시대에도 그대로라고.",
+   "sfx": "whoosh",
+   "tr": "whoosh",
+   "tone": "기가 막혀 피식 헛웃음 섞인 어이없는 말투로",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "メガネ 男性",
+       "眼鏡 男性",
+       "メガネ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🕶️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "glasses closeup",
+     "eyeglasses desk",
+     "glasses table"
+    ]
+   }
+  },
+  {
+   "text": "근데 첫 시험 결과가 반전임.",
+   "say": "근데 첫 시험 결과가 반전임.",
+   "sfx": "question",
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "warn"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "テスト 答案",
+       "テスト"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "전교생 569명 중 53명이 낙제한 거임.",
+   "say": "전교생 오백육십구 명 중 오십삼 명이 낙제한 거임.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tr": "flash",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 学生",
+       "落ち込む 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📉",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "exam paper",
+     "test paper",
+     "exam desk"
+    ],
+    "cam": "pull"
+   }
+  },
+  {
+   "text": "교장은 혼내는 대신 이 말을 함.",
+   "say": "교장은 혼내는 대신 이 말을 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "校長先生",
+       "校長"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❗",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“제군들이야말로 믿음직한 한국의 학도”",
+   "say": "제군들이야말로 믿음직한 한국의 학도",
+   "sfx": "stamp",
+   "cap": "quote",
+   "tone": "어른스럽고 힘 있게 또박또박 힘주어",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "crowd",
+      "q": "学生 男子",
+      "count": 12
+     }
+    ]
+   }
+  },
+  {
+   "text": "그 학생들은 다음 학기에 다 통과했다는데,",
+   "say": "그 학생들은 다음 학기에 다 통과했다는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ガッツポーズ 学生",
+       "ガッツポーズ 男性",
+       "ガッツポーズ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎉",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "그래서 70년째 감독이 없음.",
+   "say": "그래서 칠십 년째 감독이 없음.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "classroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "校長先生",
+       "校長"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "📝",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "AI 커닝에도 감독 없는 학교의 비밀 #shorts",
+  "description": "인천 제물포고는 1956년부터 시험 때 감독 교사가 교실을 비우고 종료 10분 전에 돌아온다.\nAI·스마트안경 커닝이 문제가 된 요즘에도 스마트 기기 반입만 막고 무감독 시험을 이어 간다.\n처음 감독 없이 본 시험에서는 전교생 569명 중 53명이 낙제했는데, 초대 교장은 이들을 전교생 앞에서 격려했다고 전해진다.\n\n※ AI 음성으로 제작했습니다.\n#제물포고 #무감독시험 #AI커닝 #양심 #고등학교 #shorts",
+  "tags": [
+   "제물포고",
+   "무감독 시험",
+   "AI 커닝",
+   "스마트안경",
+   "양심 시험",
+   "인천",
+   "고등학교",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.wikitree.co.kr/articles/1175319",
+ "facts_used": [
+  "제물포고 1956년 무감독 시험 도입, 70년째·개교 72주년, 교사가 시험지 배부 후 교실 비우고 종료 10분 전 복귀, 스마트기기 반입 차단하며 무감독 유지 — 위키트리 https://www.wikitree.co.kr/articles/1175319 · 한국교육신문 https://www.hangyo.com/mobile/article.html?no=61213 · 인천시 https://www.incheon.go.kr/IC040314/1518231",
+  "1956년 1학기 중간고사 전교생 569명 중 53명 60점 이하 낙제, 길영희 교장 '제군들이야말로 믿음직한 한국의 학도', 다음 학기 모두 통과 일화 — 서울신문 2016-03-09 https://seoul.co.kr/news/society/2016/03/09/20160309500059 · 위키트리 https://www.wikitree.co.kr/articles/1175319",
+  "AI 커닝 화제 — 커뮤니티 동시 단어 'AI'(MBC 무감독 시험 글) · 농민신문 고교 내신 AI 커닝 0점 https://n.news.naver.com/article/662/0000109171"
+ ],
+ "brief": "레인: 사건\n화제: AI 커닝·시험 부정행위 (커뮤니티 동시 단어 'AI' — 네이트판·더쿠·디시 3곳, 예시 제목 '[더갤] MBC) \"AI 커닝 알빠노?\"....70년째 무감독 시험중' / news_hot 농민신문 '고교 내신도 수능처럼 감독…AI 커닝땐 당일 모든 과목 0점' / news_hot 강원일보 대통령 '시험 부정행위는 중대 범죄')\n지금 가장 뜨거운 5개: ①사이비 종교단체 해산 검토(디시 401·기사화 — 대통령 발언, 정치) ②성시경 채널 좌표(디시 475 — 성별 대결 각도) ③AI 커닝 vs 70년 무감독 시험(커뮤니티 3곳 동시 단어 + 댓글 많은 기사 2건) ④헌혈 피 51만 팩 폐기(디시 227 — 숫자는 크지만 국감 자료·해명 공방 중심) ⑤KTX 표 없이 '내 자리' 우긴 승객 강제 하차(news_hot 파이낸셜 — 영상 하나짜리 소식). ③이 유일하게 3곳 동시이고 30~50대(학부모·자격시험 응시자)가 자기 일로 여기며, 숨긴 답(첫 시험 결과)이 있음.\n점수(사건 30+화제5): 이게됨 5(AI 시대에 감독 없는 시험) · 궁금증 4(첫 무감독 시험 결과 → 53명 낙제 → 교장의 한마디) · 감정 7(믿어 준 어른, 정직한 낙제) · 대상 5(학교 시험) · 판정 3(믿음 vs 감시) · 화제 +5 = 29\n유행: AI 커닝 (커뮤니티 동시 단어 'AI' 3곳 + news_hot 2건). 구글 급상승(제우스·에릭 페디·무시알라·시그널2 등)은 스포츠 이적·드라마 캐스팅 소식뿐이라 숨긴 답 없음\n댓글: 0개 (위키트리 본문·한국교육신문 2건 WebFetch, '제물포고 무감독 시험 누리꾼 반응' 검색 1회 — 기사에 누리꾼 반응 없음, inbox 원글은 posts 에 없어 URL 없음) → 짧은 형식, 인용은 1956년 교장 발언 1개뿐\n구조: 시작=시험지 나눠 주고 교사가 나감, 종료 10분 전 복귀, 1956년부터 / 커짐=스마트안경 커닝까지 나오는 요즘에도 폰 반입만 막고 무감독 유지 / 뒤집힘=첫 무감독 시험에서 전교생 569명 중 53명 낙제 / 정체=교장(길영희)은 혼내는 대신 '제군들이야말로 믿음직한 한국의 학도' / 그 뒤=다음 학기 전원 통과(전해지는 일화) → 그래서 70년째 무감독\n첫장면: 의외\n훅 3안: ①'시험지만 나눠 주고 선생님이 교실을 나가 버림'(장면 — 제목보다 한 발 더 나감) ②'시험 전에 양심 선서부터 함'(설명형, 약함) ③'1956년부터 이어짐'(숫자뿐, 제목 반복). ①을 고름. 제목은 'AI 커닝에도 감독 없는 학교의 비밀' — 학교 이름 대신 비밀(첫 시험 결과)을 숨김.\n이해검사: 인천 제물포고(소품 카드)는 1956년부터 시험 때 감독 교사가 나가 있는데, 처음 감독 없이 본 시험에서 전교생 569명 중 53명이 낙제하자 교장이 혼내는 대신 '믿음직한 학도'라고 했고, 그 뒤로 70년째 감독 없이 시험을 본다.\n그림대조: 완료 (한국 학교 — 일본 지도·국기 없음, 교실 classroom, 교장·학생 그림, 스마트안경은 안경 그림+🕶️, 사람 검색어 없는 스톡)\n증거: doc 소품 1개(1956년 1학기부터 · 감독 교사 없음 · 종료 10분 전 입실 — 위키트리·한국교육신문 보도 그대로)\n주의: '다음 학기 전원 통과'는 기사도 '전해진다'는 일화라 '~했다고'로 전함. 세무사 수석 AI 부정 의혹 개인 얘기는 뺌. 스마트안경 12건 적발은 위키트리 한 곳뿐이라 숫자 안 씀. 시작 연도 1960년이라는 기사 하나 있으나 2026 위키트리·2010 한국교육신문·인천시사 모두 1956년.\n출처: 위키트리 2026-11 https://www.wikitree.co.kr/articles/1175319 (1956년 도입·70년·교사 종료 10분 전 복귀·스마트기기 반입 차단 유지·569명 중 53명 낙제·길 교장 발언) / 서울신문 2016-03-09 https://seoul.co.kr/news/society/2016/03/09/20160309500059 (569명 중 53명 60점 이하 낙제·'제군들이야말로 믿음직한 한국의 학도'·다음 학기 모두 통과 일화) / 한국교육신문 2010-04-06 https://www.hangyo.com/mobile/article.html?no=61213 (1954년 개교·1956년 1학기 중간고사부터) / 인천시 길영희 https://www.incheon.go.kr/IC040314/1518231 (1956년 무감독 시험 창안)"
+}
