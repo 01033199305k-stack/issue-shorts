@@ -9664,5 +9664,80 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-24_1200_mixed-soy-sauce-label-ratio/video.mp4"
   },
   "seconds": 2004
+ },
+ {
+  "key": "2026-11-24-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-24T18:00:00+09:00",
+  "started": "2026-11-24T15:46:52.890684+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-24_1800_apartment-delivery-bike-ban/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-24_1800_apartment-delivery-bike-ban/video.mp4', '--det"
+  },
+  "open_bg": true,
+  "quote_voices": 5,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-156471/",
+   "https://pixabay.com/videos/id-292930/",
+   "https://pixabay.com/videos/id-377149/",
+   "https://pixabay.com/videos/id-131033/",
+   "https://pixabay.com/photos/fast-food-delivery-online-service-6974507/",
+   "https://pixabay.com/videos/id-11323/",
+   "https://pixabay.com/videos/id-21118/"
+  ],
+  "cc_clips": [],
+  "duration": 42.97,
+  "matches": [
+   0.97,
+   0.97,
+   0.97,
+   0.88,
+   1.0,
+   0.97,
+   0.97,
+   1.0,
+   0.97,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.93,
+   0.96,
+   0.97,
+   0.91
+  ],
+  "sfx": 18,
+  "illustrations": 15,
+  "cuts": 19,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [],
+  "title": "왕복 20분 걸어서 배달하라는 강남 아파트 #shorts",
+  "source_post": "https://n.news.naver.com/article/056/0012299736",
+  "facts_used": [
+   "KBS '“오토바이 막고 음식은 받나”…강남 아파트 ‘배달 갈등’ [잇슈 키워드]' — 네이버 언론사별 댓글 많은 기사, inbox/latest.json 2026-11-24 15:12 https://n.news.naver.com/article/056/0012299736",
+   "단지 측: 오토바이 단지 밖 주차·걸어서 배달 요구 / 라이더: '차라리 지하로 가겠으니 지하를 열어달라. 아니면 배달을 거부하겠다' — https://m.news.nate.com/view/20261124n19332 / https://supple.kr/news/cmwu87dzdjgfikwp8wiznr6fx",
+   "입주민 측 요구 '아파트 외부에 오토바이를 주차하고 걸어서 단지로 들어와 배달하라' — https://m.news.nate.com/view/20261124n19332 / https://supple.kr/news/cmwu87dzdjgfikwp8wiznr6fx",
+   "단지 폭 약 500m, 걸어서 왕복 약 20분(전해짐), 지난해 11월 입주 초기 오토바이 진입 허용 — https://m.news.nate.com/view/20261124n19332 / https://www.wikitree.co.kr/articles/1177069",
+   "현수막 '라이더는 거부하면서 배달음식은 받고 싶습니까?' — https://www.wikitree.co.kr/articles/1177069 / https://supple.kr/news/cmwu87dzdjgfikwp8wiznr6fx",
+   "누리꾼 댓글 '배달료만 많이 주면 1500m도 걸어갈 수 있지. 돈 많으신데 좀 더 내세요' '지하 주차장으로 가는 것도 막으면 안 먹겠다는 얘기네', 라이더 지인 '안전 문제 때문에 단지에서 제한을 두는 건 그럴 만하지만 너무 과해지면 안 된다. 서로 합의점을 찾아가는 수밖에 없다' — https://m.news.nate.com/view/20261124n19332",
+   "일부 라이더가 해당 단지 배달 콜을 아예 받지 않음 — https://supple.kr/news/cmwu87dzdjgfikwp8wiznr6fx",
+   "9개 동 1,261가구, 지난해 11월 입주 시작 — https://biz.heraldcorp.com/article/10463632 / https://www.newspim.com/news/view/20250729000964"
+  ],
+  "slug": "2026-11-24_1800_apartment-delivery-bike-ban",
+  "late": false,
+  "video_id": "aj2wKhESuOY",
+  "url": "https://youtube.com/shorts/aj2wKhESuOY",
+  "privacy": "private",
+  "scheduled_for": "2026-11-24T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b053b47f1f04351232b2742",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-24T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-24_1800_apartment-delivery-bike-ban/video.mp4"
+  },
+  "seconds": 2157
  }
 ]
