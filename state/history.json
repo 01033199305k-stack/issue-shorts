@@ -9598,5 +9598,71 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-24_0700_kepco-leak-hacker-forum-first/video.mp4"
   },
   "seconds": 1495
+ },
+ {
+  "key": "2026-11-24-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-24T12:00:00+09:00",
+  "started": "2026-11-24T09:19:32.990992+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-24_1200_mixed-soy-sauce-label-ratio/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-24_1200_mixed-soy-sauce-label-ratio/video.mp4', '--det"
+  },
+  "open_bg": false,
+  "quote_voices": 0,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-377745/",
+   "https://pixabay.com/videos/id-20910/",
+   "https://pixabay.com/videos/id-197483/",
+   "https://pixabay.com/photos/sushi-take-away-food-meal-seafood-1858696/",
+   "https://pixabay.com/videos/id-31960/"
+  ],
+  "cc_clips": [],
+  "duration": 25.99,
+  "matches": [
+   0.94,
+   1.0,
+   0.99,
+   0.99,
+   0.93,
+   0.98,
+   0.98,
+   1.0,
+   0.88,
+   0.96,
+   0.96,
+   1.0
+  ],
+  "sfx": 11,
+  "illustrations": 10,
+  "cuts": 12,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [
+   "혼합 / 비율이었음. (55)"
+  ],
+  "title": "양조간장 1%만 넣어도 된다는 혼합간장의 진실 #shorts",
+  "source_post": "https://theqoo.net/hot/4415913087",
+  "facts_used": [
+   "더쿠 HOT '간장, 고추장, 조청 가격대가 천차만별인데 도대체 뭘 사야 되냐?' 댓글 1,094개 — inbox/latest.json 2026-11-24 09:12 https://theqoo.net/hot/4415913087",
+   "산분해간장 99%에 양조간장 1%만 넣어도 혼합간장 표기 가능 — https://biz.newdaily.co.kr/site/data/html/2025/07/10/2025071000117.amp.html / https://www.insight.co.kr/news/194259",
+   "산분해간장은 단백질 원료를 염산으로 분해, 시중 진간장 대부분이 혼합간장 — https://news.bizwatch.co.kr/article/consumer/2020/12/03/0008 / https://sateconomy.co.kr/news/view/1065597414950358 / https://news.bizwatch.co.kr/article/consumer/2026/02/24/0020",
+   "소비자주권시민회의 조사 혼합간장 양조간장 함량 7%~75% — https://www.foodtoday.or.kr/news/article.html?no=207551 / https://sateconomy.co.kr/news/view/1065597414950358",
+   "한국소비자원 16개 간장 비교 100mL당 평균 혼합간장 381원·일반 양조간장 771원 — https://www.korea.kr/news/policyNewsView.do?newsId=156153008 / https://www.sidae.com/article/2016090417218079785",
+   "혼합간장은 뒷면 원재료명에서 혼합 비율 확인 — https://www.insight.co.kr/news/194259 / https://sateconomy.co.kr/news/view/1065597414950358"
+  ],
+  "slug": "2026-11-24_1200_mixed-soy-sauce-label-ratio",
+  "late": false,
+  "video_id": "Hda8lQOrSeA",
+  "url": "https://youtube.com/shorts/Hda8lQOrSeA",
+  "privacy": "private",
+  "scheduled_for": "2026-11-24T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b04dfe69a4bd32ca3e02118",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-24T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-24_1200_mixed-soy-sauce-label-ratio/video.mp4"
+  },
+  "seconds": 2004
  }
 ]
