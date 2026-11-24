@@ -9739,5 +9739,64 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-24_1800_apartment-delivery-bike-ban/video.mp4"
   },
   "seconds": 2157
+ },
+ {
+  "key": "2026-11-25-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-25T07:00:00+09:00",
+  "started": "2026-11-25T04:23:17.636544+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-25_0700_jemulpo-unsupervised-exam-70years/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-25_0700_jemulpo-unsupervised-exam-70years/video."
+  },
+  "open_bg": false,
+  "quote_voices": 1,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-215475/",
+   "https://pixabay.com/photos/clocks-time-idea-concept-257911/",
+   "https://pixabay.com/videos/id-172098/",
+   "https://pixabay.com/videos/id-8851/"
+  ],
+  "cc_clips": [],
+  "duration": 25.3,
+  "matches": [
+   0.92,
+   0.97,
+   1.0,
+   1.0,
+   0.96,
+   0.96,
+   0.94,
+   0.97,
+   0.95,
+   1.0,
+   1.0
+  ],
+  "sfx": 10,
+  "illustrations": 8,
+  "cuts": 11,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [],
+  "title": "AI 커닝에도 감독 없는 학교의 비밀 #shorts",
+  "source_post": "https://www.wikitree.co.kr/articles/1175319",
+  "facts_used": [
+   "제물포고 1956년 무감독 시험 도입, 70년째·개교 72주년, 교사가 시험지 배부 후 교실 비우고 종료 10분 전 복귀, 스마트기기 반입 차단하며 무감독 유지 — 위키트리 https://www.wikitree.co.kr/articles/1175319 · 한국교육신문 https://www.hangyo.com/mobile/article.html?no=61213 · 인천시 https://www.incheon.go.kr/IC040314/1518231",
+   "1956년 1학기 중간고사 전교생 569명 중 53명 60점 이하 낙제, 길영희 교장 '제군들이야말로 믿음직한 한국의 학도', 다음 학기 모두 통과 일화 — 서울신문 2016-03-09 https://seoul.co.kr/news/society/2016/03/09/20160309500059 · 위키트리 https://www.wikitree.co.kr/articles/1175319",
+   "AI 커닝 화제 — 커뮤니티 동시 단어 'AI'(MBC 무감독 시험 글) · 농민신문 고교 내신 AI 커닝 0점 https://n.news.naver.com/article/662/0000109171"
+  ],
+  "slug": "2026-11-25_0700_jemulpo-unsupervised-exam-70years",
+  "late": false,
+  "video_id": "rVkOim55sKU",
+  "url": "https://youtube.com/shorts/rVkOim55sKU",
+  "privacy": "private",
+  "scheduled_for": "2026-11-24T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b05ea37a94a2d4a75792528",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-24T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-25_0700_jemulpo-unsupervised-exam-70years/video.mp4"
+  },
+  "seconds": 1556
  }
 ]
