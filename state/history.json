@@ -9861,5 +9861,76 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-25_1200_young-golfers-leave-courses/video.mp4"
   },
   "seconds": 1463
+ },
+ {
+  "key": "2026-11-25-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-25T18:00:00+09:00",
+  "started": "2026-11-25T15:22:13.737435+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-25_1800_gyms-closing-weight-loss-shots/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-25_1800_gyms-closing-weight-loss-shots/video.mp4', "
+  },
+  "open_bg": false,
+  "quote_voices": 5,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-148196/",
+   "https://pixabay.com/photos/vaccination-impfspritze-medicine-2722937/",
+   "https://pixabay.com/videos/id-135162/",
+   "https://pixabay.com/videos/id-21118/",
+   "https://pixabay.com/photos/home-workout-gym-exercise-fitness-5031689/",
+   "https://pixabay.com/videos/id-148208/",
+   "https://pixabay.com/videos/id-15748/",
+   "https://pixabay.com/photos/glass-facade-building-architecture-8016589/"
+  ],
+  "cc_clips": [],
+  "duration": 39.06,
+  "matches": [
+   0.94,
+   0.95,
+   0.95,
+   0.95,
+   0.98,
+   0.98,
+   0.97,
+   0.92,
+   0.96,
+   1.0,
+   0.97,
+   1.0,
+   0.92,
+   1.0,
+   0.97,
+   0.97
+  ],
+  "sfx": 16,
+  "illustrations": 13,
+  "cuts": 16,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [
+   "헬스장 / 점장은 (55)"
+  ],
+  "title": "마운자로 때문에 망한다는 동네 헬스장의 진실 #shorts",
+  "source_post": "https://www.bobaedream.co.kr/view?code=best&No=1050004",
+  "facts_used": [
+   "머니투데이 '올해만 600곳 문 닫았다…비만약 열풍에 설 자리 좁아진 헬스장' (2026-11-05) — 행정안전부 11월 5일 기준 올해 폐업 체력단련장 601곳, 지난해 연간 규모 이미 넘음 / 트레이너 김모씨 '위고비가 인기를 끈 이후 많이 줄어든 건 사실' / 광화문 헬스장 점장 이모씨 '코로나19 때보다 오히려 상황이 좋지 않다' / 다른 점장 박모씨 '가장 큰 부담은 임대료' / 20대 A씨(헬스장 2년 이용 후 마운자로 투약) '어느 정도 체지방을 줄인 뒤에는 다시 시작할 생각이 생겼다' — https://supple.kr/news/cmw35c52c00btal9pdi02t49v",
+   "파이낸셜뉴스 '또 망했다 폐업 딱지 붙은 동네 헬스장…마운자로 돈의 흐름까지 바꿨다' (2026-11-16) — 행안부 헬스장 폐업 2025년 577곳(1990년 집계 이후 최다), 심평원 위고비·마운자로 처방 2024년 약 5만 건 → 2025년 122만 건, 마운자로 2025년 8월 국내 출시 — https://www.fnnews.com/news/202611051731258806",
+   "보배드림 베스트 '마운자로때문에 장사안된다는 헬스장에 일침' 댓글(WebFetch 확인): '운동기구 사용법 알려준다 쳐도 옆에서 숫자만 세어주는데 회당 10만원은…' / '운동은 자기가 하는데 돈은 왜 내고그래' — https://www.bobaedream.co.kr/view?code=best&No=1050004",
+   "커뮤니티 동시 단어 '마운자' 더쿠·디시·보배드림 3곳 (inbox/latest.json 2026-11-25 15:14)"
+  ],
+  "slug": "2026-11-25_1800_gyms-closing-weight-loss-shots",
+  "late": false,
+  "video_id": "mwRFUZ64LZ4",
+  "url": "https://youtube.com/shorts/mwRFUZ64LZ4",
+  "privacy": "private",
+  "scheduled_for": "2026-11-25T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b0686ab22dfb7833a89a368",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-25T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-25_1800_gyms-closing-weight-loss-shots/video.mp4"
+  },
+  "seconds": 2072
  }
 ]
