@@ -1,27 +1,19 @@
 {
- "detected_at": "2026-11-25T15:14+09:00",
+ "detected_at": "2026-11-25T23:21+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보] 삼성전자 10%대 급락…시총 1000조 깨져",
-   "url": "https://n.news.naver.com/article/011/0004686038",
-   "press": "서울경제",
+   "title": "[속보]여권 조희대 탄핵 추진에···창원 판사들 “법관 정치적 제재 안돼” 첫 입장문",
+   "url": "https://n.news.naver.com/article/032/0003485001",
+   "press": "경향신문",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] 노소영, 최태원 '9440억원 지급' 화해 요청 거부…\"상고 취하하라\"",
-   "url": "https://n.news.naver.com/article/654/0000213332",
-   "press": "강원도민일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 올공 시위서 \"가짜 경찰\" 조롱한 20대들…항소심서 \"뼈저리게 반성\"",
-   "url": "https://n.news.naver.com/article/031/0001078293",
-   "press": "아이뉴스24",
+   "title": "[속보] 美, 한국 등 14개 경제주체에 ‘과잉생산 관세’ 예고",
+   "url": "https://n.news.naver.com/article/016/0002728531",
+   "press": "헤럴드경제",
    "why": "[속보] 기사",
    "related": []
   }
