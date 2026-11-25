@@ -1,66 +1,40 @@
 {
- "detected_at": "2026-11-24T19:25+09:00",
+ "detected_at": "2026-11-25T09:14+09:00",
  "candidates": [
   {
-   "kind": "community",
-   "title": "젠슨황, 추가 불륜 사실 공개",
-   "url": "https://theqoo.net/hot/4416430719",
-   "board": "더쿠 HOT",
-   "why": "커뮤니티 2곳 동시 화제 + 기사화(CJB청주방송)",
-   "news": [
+   "kind": "news",
+   "title": "5·18 진압경찰 등 포상 취소에 이 대통령 \"너무 당연한 조치\"",
+   "url": "https://n.news.naver.com/article/057/0001979721",
+   "press": "MBN",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
     {
-     "url": "https://n.news.naver.com/article/655/0000033686",
-     "headline": "[속보] 돌아온 젠슨황, 이사회에 추가 불륜 사실 고백"
+     "press": "연합뉴스",
+     "title": "李대통령, 5·18 진압경찰 등 포상취소에 \"당연…역사교정 계속\"",
+     "url": "https://n.news.naver.com/article/001/0016461627"
+    },
+    {
+     "press": "매일신문",
+     "title": "李 대통령, 5·18 진압 경찰 포상 취소에 \"너무 당연한 조치\"",
+     "url": "https://n.news.naver.com/article/088/0001042134"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]장동혁 “한동훈, 보수 궤멸의 중심…발붙일 곳 없어”",
-   "url": "https://n.news.naver.com/article/021/0002835191",
+   "title": "[속보]한동훈 “조희대 탄핵 ‘100%’라는 서영교, 의원직 걸라”",
+   "url": "https://n.news.naver.com/article/021/0002835289",
    "press": "문화일보",
-   "why": "[속보] 기사 + 언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "동아일보",
-     "title": "장동혁 “한동훈, 보수 궤멸 중심…국힘에 발붙일 곳 없다” 복당 일축",
-     "url": "https://n.news.naver.com/article/020/0003764752"
-    },
-    {
-     "press": "뉴스1",
-     "title": "장동혁 \"한동훈은 보수 궤멸 중심…복당 불가\"…조작 징계 의혹 정면 반박",
-     "url": "https://n.news.naver.com/article/421/0009307680"
-    }
-   ]
+   "why": "[속보] 기사",
+   "related": []
   },
   {
    "kind": "news",
-   "title": "오세훈 입 떼자 회의 끝낸 이 대통령?... \"특검·탄핵 말하려 하자 의사봉 3번 치고 끝내\"",
-   "url": "https://n.news.naver.com/article/469/0000967455",
-   "press": "한국일보",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "한겨레",
-     "title": "오세훈, 특검·탄핵 발언하려 하자…이 대통령 “국무회의 마치겠다”",
-     "url": "https://n.news.naver.com/article/028/0002833713"
-    },
-    {
-     "press": "시사저널",
-     "title": "국무회의서 특검·탄핵 꺼낸 오세훈…\"李, 의사봉 3번 내리치고 자리 떠\"",
-     "url": "https://n.news.naver.com/article/586/0000142956"
-    },
-    {
-     "press": "중앙일보",
-     "title": "오세훈 “특검·탄핵 민심 전달” 꺼내자…李대통령 “회의 마치겠다”",
-     "url": "https://n.news.naver.com/article/025/0003567560"
-    },
-    {
-     "press": "조선비즈",
-     "title": "오세훈 “특검·탄핵 얘기하자, 李대통령 의사봉 3번 치고 자리 떠”",
-     "url": "https://n.news.naver.com/article/366/0001206985"
-    }
-   ]
+   "title": "[속보] 31.5% 폭등했던 엔비디아, 하루 만에 급락…뉴욕증시 혼조 마감",
+   "url": "https://n.news.naver.com/article/654/0000213303",
+   "press": "강원도민일보",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
