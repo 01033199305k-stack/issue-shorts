@@ -9932,5 +9932,78 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-25_1800_gyms-closing-weight-loss-shots/video.mp4"
   },
   "seconds": 2072
+ },
+ {
+  "key": "2026-11-26-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-26T07:00:00+09:00",
+  "started": "2026-11-26T04:24:33.200801+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-26_0700_whole-onion-chinese-delivery/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-26_0700_whole-onion-chinese-delivery/video.mp4', '--d"
+  },
+  "open_bg": true,
+  "quote_voices": 7,
+  "stock_clips": [
+   "https://pixabay.com/photos/onion-bulbs-food-fresh-healthy-84722/",
+   "https://pixabay.com/videos/id-105688/",
+   "https://pixabay.com/videos/id-11592/",
+   "https://pixabay.com/videos/id-1498/",
+   "https://pixabay.com/photos/spring-onion-farm-vegetables-fresh-10175415/",
+   "https://pixabay.com/videos/id-66670/",
+   "https://pixabay.com/videos/id-4730/"
+  ],
+  "cc_clips": [],
+  "duration": 39.71,
+  "matches": [
+   1.0,
+   0.9,
+   0.92,
+   1.0,
+   1.0,
+   1.0,
+   0.93,
+   1.0,
+   1.0,
+   0.93,
+   0.95,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   0.97
+  ],
+  "sfx": 19,
+  "illustrations": 17,
+  "cuts": 19,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [],
+  "title": "양파 많이 달란 단골한테 중국집이 보낸 서비스 #shorts",
+  "source_post": "https://n.news.naver.com/article/421/0009308318",
+  "facts_used": [
+   "머니투데이 '통 큰 인심? 불쾌감?…\"양파 많이\" 요청에 통양파 보낸 중국집 사장' (2026-11-25, 네이트뉴스 원문 확인) — 23일 JTBC 사건반장, 요청 '자주 시켜 먹는다. 단무지, 특히 양파를 많이 달라', 껍질 벗긴 통양파 한 개, A씨 '식당 사장님한테 양파 좀 많이 달라고 했더니 왕건이 통양파를 하나 보내셨다. 호연지기 짱이다', 누리꾼 '양파 좀 많이 달라고 했다고 손님한테 썰지도 않은 통양파 보내는 건 비꼰 거 아니냐' / '서비스 의미면 썬 양파를 넉넉히 줬겠지. 저건 기분 나쁘다는 걸 표현한 것 같다' / '네가 직접 썰어 먹으라는 뜻 아닐까' / '귀찮고 열 받아서 그런 것 같다' — https://m.news.nate.com/view/20261125n08768",
+   "헤럴드경제 (2026-11-25) — 요청사항 '자주 시켜 먹어요. 단무지, 특히 양파 많이 주세요' — https://biz.heraldcorp.com/article/10948684",
+   "파이낸셜뉴스 (2026-11-25) — A씨 발언 동일 — https://www.fnnews.com/news/202611251121306348",
+   "뉴스1 (2026-11-25) 네이버 댓글 많은 기사 — https://n.news.naver.com/article/421/0009308318",
+   "위키트리 (2026-11-25) — 중국집 생양파는 과거 생대파, 양파 재배량이 늘며 대체, 양파는 여러 요리에 쓰여 준비가 쉬움 — https://www.wikitree.co.kr/articles/1177595",
+   "일간스포츠 (2009) — 자장면 반찬은 굵게 썬 대파와 첨장, 1960년대 말 양파 재배면적이 늘며 양파가 대파 자리 차지 — https://isplus.com/article/view/isp200904290002"
+  ],
+  "slug": "2026-11-26_0700_whole-onion-chinese-delivery",
+  "late": false,
+  "video_id": "YICXOUOSM3s",
+  "url": "https://youtube.com/shorts/YICXOUOSM3s",
+  "privacy": "private",
+  "scheduled_for": "2026-11-25T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b073ed3df7fc6365a2965d7",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-25T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-26_0700_whole-onion-chinese-delivery/video.mp4"
+  },
+  "seconds": 2276
  }
 ]
