@@ -1,38 +1,56 @@
 {
- "detected_at": "2026-11-25T09:14+09:00",
+ "detected_at": "2026-11-25T13:09+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "5·18 진압경찰 등 포상 취소에 이 대통령 \"너무 당연한 조치\"",
-   "url": "https://n.news.naver.com/article/057/0001979721",
-   "press": "MBN",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "김민석 “조희대 탄핵 신속 추진 5당 연대 공식 제안”",
+   "url": "https://n.news.naver.com/article/020/0003765004",
+   "press": "동아일보",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스",
-     "title": "李대통령, 5·18 진압경찰 등 포상취소에 \"당연…역사교정 계속\"",
-     "url": "https://n.news.naver.com/article/001/0016461627"
+     "press": "부산일보",
+     "title": "김민석 \"조희대 대법원장 탄핵 위한 5당 연대 공식 제안\"",
+     "url": "https://n.news.naver.com/article/082/0001408857"
     },
     {
-     "press": "매일신문",
-     "title": "李 대통령, 5·18 진압 경찰 포상 취소에 \"너무 당연한 조치\"",
-     "url": "https://n.news.naver.com/article/088/0001042134"
+     "press": "한국일보",
+     "title": "[속보] 김민석 \"조희대 탄핵 신속 추진 위한 5당 연대 공식 제안\"",
+     "url": "https://n.news.naver.com/article/469/0000967606"
+    },
+    {
+     "press": "경향신문",
+     "title": "김민석 “조희대 대법원장 탄핵 신속 추진 위한 5당 연대 공식 제안”",
+     "url": "https://n.news.naver.com/article/032/0003484914"
+    },
+    {
+     "press": "뉴스1",
+     "title": "김민석 \"조희대 탄핵 위한 '5당 연대' 제안…내란 청산 결의 모으자\"",
+     "url": "https://n.news.naver.com/article/421/0009308691"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보]한동훈 “조희대 탄핵 ‘100%’라는 서영교, 의원직 걸라”",
-   "url": "https://n.news.naver.com/article/021/0002835289",
-   "press": "문화일보",
+   "title": "[속보] 李대통령 “가정폭력, 피해자가 처벌 원치 않아도 책임 묻도록 법 개정”",
+   "url": "https://n.news.naver.com/article/016/0002728326",
+   "press": "헤럴드경제",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] 31.5% 폭등했던 엔비디아, 하루 만에 급락…뉴욕증시 혼조 마감",
-   "url": "https://n.news.naver.com/article/654/0000213303",
-   "press": "강원도민일보",
+   "title": "[속보] “내가 죽이지 못한 사람이 있을 경우 대신 죽이고 뒤처리 해줄 사람들에게 일 맡기고 작전 시작”⋯‘항공사 기장 살해’ 김동환 항소심서 최후진술 15분 보장 요구",
+   "url": "https://n.news.naver.com/article/087/0001233277",
+   "press": "강원일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] ‘조희대 탄핵’ 추진에 법조계 맞불…창원지법 “이젠 나설 때” 전체 판사회의 연다",
+   "url": "https://n.news.naver.com/article/029/0003061029",
+   "press": "디지털타임스",
    "why": "[속보] 기사",
    "related": []
   }
