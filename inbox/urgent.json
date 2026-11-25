@@ -1,56 +1,27 @@
 {
- "detected_at": "2026-11-25T13:09+09:00",
+ "detected_at": "2026-11-25T15:14+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "김민석 “조희대 탄핵 신속 추진 5당 연대 공식 제안”",
-   "url": "https://n.news.naver.com/article/020/0003765004",
-   "press": "동아일보",
-   "why": "언론사 5곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "부산일보",
-     "title": "김민석 \"조희대 대법원장 탄핵 위한 5당 연대 공식 제안\"",
-     "url": "https://n.news.naver.com/article/082/0001408857"
-    },
-    {
-     "press": "한국일보",
-     "title": "[속보] 김민석 \"조희대 탄핵 신속 추진 위한 5당 연대 공식 제안\"",
-     "url": "https://n.news.naver.com/article/469/0000967606"
-    },
-    {
-     "press": "경향신문",
-     "title": "김민석 “조희대 대법원장 탄핵 신속 추진 위한 5당 연대 공식 제안”",
-     "url": "https://n.news.naver.com/article/032/0003484914"
-    },
-    {
-     "press": "뉴스1",
-     "title": "김민석 \"조희대 탄핵 위한 '5당 연대' 제안…내란 청산 결의 모으자\"",
-     "url": "https://n.news.naver.com/article/421/0009308691"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 李대통령 “가정폭력, 피해자가 처벌 원치 않아도 책임 묻도록 법 개정”",
-   "url": "https://n.news.naver.com/article/016/0002728326",
-   "press": "헤럴드경제",
+   "title": "[속보] 삼성전자 10%대 급락…시총 1000조 깨져",
+   "url": "https://n.news.naver.com/article/011/0004686038",
+   "press": "서울경제",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] “내가 죽이지 못한 사람이 있을 경우 대신 죽이고 뒤처리 해줄 사람들에게 일 맡기고 작전 시작”⋯‘항공사 기장 살해’ 김동환 항소심서 최후진술 15분 보장 요구",
-   "url": "https://n.news.naver.com/article/087/0001233277",
-   "press": "강원일보",
+   "title": "[속보] 노소영, 최태원 '9440억원 지급' 화해 요청 거부…\"상고 취하하라\"",
+   "url": "https://n.news.naver.com/article/654/0000213332",
+   "press": "강원도민일보",
    "why": "[속보] 기사",
    "related": []
   },
   {
    "kind": "news",
-   "title": "[속보] ‘조희대 탄핵’ 추진에 법조계 맞불…창원지법 “이젠 나설 때” 전체 판사회의 연다",
-   "url": "https://n.news.naver.com/article/029/0003061029",
-   "press": "디지털타임스",
+   "title": "[속보] 올공 시위서 \"가짜 경찰\" 조롱한 20대들…항소심서 \"뼈저리게 반성\"",
+   "url": "https://n.news.naver.com/article/031/0001078293",
+   "press": "아이뉴스24",
    "why": "[속보] 기사",
    "related": []
   }
