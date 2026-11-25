@@ -1,0 +1,604 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "whole-onion-chinese-delivery",
+ "title_lines": [
+  "양파 많이 달란 단골한테",
+  "중국집이 보낸 서비스"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "양파 많이 달랬더니 중국집이 보낸 서비스",
+   "say": "양파 많이 달랬더니 중국집이 보낸 서비스",
+   "sfx": "absurd",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "양파 많이 달랬더니\n중국집이 보낸 서비스",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "썬 양파 대신 껍질만 깐 통양파 한 개가 왔음.",
+   "say": "썬 양파 대신 껍질만 깐 통양파 한 개가 왔음.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🧅",
+      "pos": "center",
+      "size": "l",
+      "at": 0.4,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "whole onion",
+     "peeled onion",
+     "onion white"
+    ]
+   }
+  },
+  {
+   "text": "단골 손님이 배달 요청사항에 이렇게 적었음.",
+   "say": "단골 손님이 배달 요청사항에 이렇게 적었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "sms",
+      "lines": [
+       "자주 시켜 먹어요",
+       "단무지, 특히",
+       "양파 많이 주세요"
+      ],
+      "from": "배달 요청사항"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“특히 양파 많이 주세요”",
+   "say": "특히 양파 많이 주세요",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "出前 ラーメン",
+       "出前",
+       "配達"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙏",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "noodles delivery",
+     "food delivery bag",
+     "delivery motorbike"
+    ]
+   }
+  },
+  {
+   "text": "근데 받은 손님은 오히려 감탄했다고.",
+   "say": "근데 받은 손님은 오히려 감탄했다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "喜ぶ 男性",
+       "笑顔 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😮",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "grok": {
+     "prompt": "Medium shot of a man in his thirties with short black hair and a navy hoodie opening a plastic delivery bag on a living room table and lifting out a whole peeled white onion, eyebrows raised in delight, warm indoor lighting, camera slowly pushing in"
+    }
+   }
+  },
+  {
+   "text": "“왕건이 통양파를 하나 보내셨다”",
+   "say": "왕건이 통양파를 하나 보내셨다",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "신나서 자랑하듯 들뜬 목소리로",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "玉ねぎ 大きい",
+       "玉ねぎ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👑",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“호연지기 짱이다”",
+   "say": "호연지기 짱이다",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "グッドサイン 男性",
+       "親指を立てる 男性",
+       "グッドサイン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👍",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 이 사연이 방송에 나가자",
+   "say": "근데 이 사연이 방송에 나가자",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "긴장감 있게 낮은 목소리로",
+   "visual": {
+    "bg": "living",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "テレビ ニュース",
+       "テレビを見る 人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📺",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "댓글 해석은 정반대였음.",
+   "say": "댓글 해석은 정반대였음.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "スマホ 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“통양파 보내는 건 비꼰 거 아니냐”",
+   "say": "통양파 보내는 건 비꼰 거 아니냐",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 男性",
+       "怒る"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“서비스 의미면 썬 양파를 넉넉히 줬겠지”",
+   "say": "서비스 의미면 썬 양파를 넉넉히 줬겠지",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "kitchen",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "包丁 玉ねぎ",
+       "玉ねぎ 切る",
+       "包丁"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "chopping onion",
+     "onion slicing",
+     "cutting onion"
+    ]
+   }
+  },
+  {
+   "text": "심지어 이런 해석도 붙었음.",
+   "say": "심지어 이런 해석도 붙었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 女性",
+       "考える"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“네가 직접 썰어 먹으라는 뜻 아닐까”",
+   "say": "네가 직접 썰어 먹으라는 뜻 아닐까",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "kitchen",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "料理 男性",
+       "料理する 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔪",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“귀찮고 열 받아서 그런 것 같다”",
+   "say": "귀찮고 열 받아서 그런 것 같다",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "中華料理 料理人",
+       "料理人 中華",
+       "コック"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😤",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "wok cooking fire",
+     "chinese kitchen wok",
+     "wok stir fry"
+    ],
+    "cc": [
+     "korean chinese restaurant kitchen",
+     "jajangmyeon cooking"
+    ]
+   }
+  },
+  {
+   "text": "사실 중국집 생양파 자리는 원래 대파였는데,",
+   "say": "사실 중국집 생양파 자리는 원래 대파였는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "restaurant",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ネギ",
+       "長ネギ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🌿",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "green onion",
+     "spring onion",
+     "scallion"
+    ]
+   }
+  },
+  {
+   "text": "60년대 말 양파 농사가 늘면서 바뀌었다고.",
+   "say": "육십년대 말 양파 농사가 늘면서 바뀌었다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "field",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "玉ねぎ 収穫",
+       "農家 収穫",
+       "農家"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "onion field",
+     "onion harvest",
+     "farm field"
+    ]
+   }
+  },
+  {
+   "text": "요리마다 들어가니 중국집엔 늘 넉넉한 재료인 셈.",
+   "say": "요리마다 들어가니 중국집엔 늘 넉넉한 재료인 셈.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "restaurant",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "中華料理",
+       "チャーハン",
+       "ラーメン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "onions market",
+     "onion pile",
+     "vegetable market onions"
+    ]
+   }
+  },
+  {
+   "text": "결국 사장님 속뜻은 아무도 모르는데,",
+   "say": "결국 사장님 속뜻은 아무도 모르는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "소곤소곤 비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "店主 男性",
+       "店長",
+       "エプロン 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "손님 멘탈 하나는 통양파급임.",
+   "say": "손님 멘탈 하나는 통양파급임.",
+   "sfx": "stamp",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "living",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "ガッツポーズ 男性",
+       "ガッツポーズ"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "sparkle"
+     },
+     {
+      "type": "emoji",
+      "text": "🧅",
+      "pos": "center",
+      "size": "l",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "양파 많이 달란 단골한테 중국집이 보낸 서비스 #shorts",
+  "description": "단골 중국집 배달 요청사항에 '단무지, 특히 양파 많이 주세요'라고 적은 손님이 껍질만 깐 통양파 한 개를 받았다.\n손님은 '호연지기 짱이다'라며 감탄했지만, 누리꾼들은 사장이 비꼰 것 아니냐는 해석을 내놓았다.\n중국집 생양파는 원래 대파 자리였다는 내력도 있다.\n\n※ AI 음성으로 제작했습니다.\n#중국집 #양파 #배달 #요청사항 #shorts",
+  "tags": [
+   "중국집",
+   "통양파",
+   "양파",
+   "배달 요청사항",
+   "단골",
+   "사건반장",
+   "자장면",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://n.news.naver.com/article/421/0009308318",
+ "facts_used": [
+  "머니투데이 '통 큰 인심? 불쾌감?…\"양파 많이\" 요청에 통양파 보낸 중국집 사장' (2026-11-25, 네이트뉴스 원문 확인) — 23일 JTBC 사건반장, 요청 '자주 시켜 먹는다. 단무지, 특히 양파를 많이 달라', 껍질 벗긴 통양파 한 개, A씨 '식당 사장님한테 양파 좀 많이 달라고 했더니 왕건이 통양파를 하나 보내셨다. 호연지기 짱이다', 누리꾼 '양파 좀 많이 달라고 했다고 손님한테 썰지도 않은 통양파 보내는 건 비꼰 거 아니냐' / '서비스 의미면 썬 양파를 넉넉히 줬겠지. 저건 기분 나쁘다는 걸 표현한 것 같다' / '네가 직접 썰어 먹으라는 뜻 아닐까' / '귀찮고 열 받아서 그런 것 같다' — https://m.news.nate.com/view/20261125n08768",
+  "헤럴드경제 (2026-11-25) — 요청사항 '자주 시켜 먹어요. 단무지, 특히 양파 많이 주세요' — https://biz.heraldcorp.com/article/10948684",
+  "파이낸셜뉴스 (2026-11-25) — A씨 발언 동일 — https://www.fnnews.com/news/202611251121306348",
+  "뉴스1 (2026-11-25) 네이버 댓글 많은 기사 — https://n.news.naver.com/article/421/0009308318",
+  "위키트리 (2026-11-25) — 중국집 생양파는 과거 생대파, 양파 재배량이 늘며 대체, 양파는 여러 요리에 쓰여 준비가 쉬움 — https://www.wikitree.co.kr/articles/1177595",
+  "일간스포츠 (2009) — 자장면 반찬은 굵게 썬 대파와 첨장, 1960년대 말 양파 재배면적이 늘며 양파가 대파 자리 차지 — https://isplus.com/article/view/isp200904290002"
+ ],
+ "brief": "점수(사건 30): 이게됨 4(양파 더 달랬더니 통양파 한 개) / 궁금증 4(호의냐 비꼼이냐 — 답이 갈림, 마지막에 생양파 내력) / 감정 8(4×2 — 손님 감탄 vs 댓글 '비꼰 거' 판정 거리, 배달 요청사항 누구나 써 봄) / 대상 5(중국집·배달·양파) / 판정 5(사장 호의 vs 불쾌 표시, 시청자가 편을 듦) + 화제 +5 = 31\n지금 가장 뜨거운 5개: ①통양파 중국집(네이버 댓글 많은 기사 뉴스1 + 머니투데이·헤럴드·파이낸셜·위키트리 11/25 동시 보도, JTBC 사건반장 11/23) ②축의금 엄마랑 싸움(네이트판 댓글 59, 베스트 댓글 4개 — 엄마 쪽 일방이라 갈림이 약하고 12·18시 우리얘기 레인에 더 맞음) ③홈플러스 27일부터 67개점 영업 중단(CJB 기사 + 디시 실베 '마지막 떨이 세일' 358 — 기업 경영·회생 절차 설명이 필요하고 반응 인용 미확보) ④마운자로 대마도 원정(디시 실베 375·421, 네이트 랭킹 — 어제 18시 마운자로 헬스장 편과 같은 유행, 특정 국적 원정 망신 각도라 위험) ⑤9급시험 막말 인사조치(디시 실베 528 — 원글·기사 미확인). ①이 07시 사건 레인에 맞고 실제 댓글 4개·당사자 발언 2개가 기사 원문에 있음.\n화제: 통양파 보낸 중국집 사장 (네이버 댓글 많은 기사 뉴스1, 머니투데이·헤럴드경제·파이낸셜뉴스·위키트리 11/25 동시 보도)\n레인: 사건\n유행: 없음 (구글 급상승 다나와·바르셀로나·시그널·성시경은 연예·해외축구·쇼핑 서비스라 이 사연과 무관, 커뮤니티 동시 단어 이상형·AI·GTA6는 이번 회차 썰감 없음 — 마운자로는 어제 18시에 씀)\n구조: 시작=단골이 배달 요청사항에 '단무지, 특히 양파 많이 주세요' / 커짐=썬 양파 대신 껍질 깐 통양파 한 개 도착→손님 '왕건이 통양파'·'호연지기 짱이다' 감탄→사건반장 방송 뒤 댓글 정반대 / 뒤집힘=누리꾼 '비꼰 거 아니냐'·'서비스면 썬 양파를 넉넉히 줬겠지' / 정체=중국집 생양파는 원래 대파 자리, 60년대 말 양파 재배가 늘며 바뀜 — 요리마다 쓰여 늘 넉넉한 재료 / 그 뒤=사장 속뜻은 아무도 모르고 손님 멘탈만 남음\n댓글: 6개 (머니투데이 2026-11-25 기사 속 누리꾼 반응 4개 — 네이트뉴스 원문 curl 로 확인, 첫 댓글은 앞부분 '양파 좀 많이 달라고 했다고 손님한테 썰지도 않은' 을 잘라 뒷부분만 / 손님 A씨 발언 2개 — 같은 기사·파이낸셜뉴스·한국사회복지저널, 첫 발언은 앞부분 '식당 사장님한테 양파 좀 많이 달라고 했더니' 를 잘라 뒷부분만. 요청사항 인용은 헤럴드경제 '자주 시켜 먹어요. 단무지, 특히 양파 많이 주세요' 의 뒷부분). 뉴스1·네이버 원문은 WebFetch 막힘, 커뮤니티 원글 없음(방송 제보 사연)\n확인된 사실: ① 11/23 JTBC 사건반장 방송, 요청사항·통양파 한 개·A씨 감탄(머니투데이·헤럴드경제·파이낸셜뉴스·위키트리 일치) ② 중국집 생양파는 원래 생대파, 양파 재배가 늘며 대체(위키트리 11/25 + 일간스포츠 2009 '1960년대 말 양파 재배면적 늘며 대파 자리 차지') ③ 양파는 여러 요리에 쓰여 중국집이 늘 갖춰 두는 재료(위키트리 해설)\n주의: 가게 이름·지역 없음(보도에도 없음). 사장 의도를 단정하지 않음 — 손님 해석과 누리꾼 해석을 둘 다 따옴표로만 전하고 '아무도 모름'으로 닫음. 커뮤니티 이름·닉네임 없음. sms 소품은 배달 요청사항(작성자 없음). 방송 캡처 사진 안 씀.\n증거: sms 배달 요청사항('자주 시켜 먹어요/단무지, 특히/양파 많이 주세요' — 헤럴드경제 인용 그대로)\n훅 3안: ①'썬 양파 대신 껍질만 깐 통양파 한 개가 왔음' ②'양파 많이 달랬더니 사장님이 통째로 한 알' ③'받은 손님은 호연지기 짱이라며 감탄함' → ① 제목이 숨긴 '서비스'의 정체를 바로 한 발 더 나간 사실로 보여 줌, 위급·폭력 없음, 감탄사로 시작 안 함. 글 카드 3안: '양파 많이 달랬더니 중국집이 보낸 서비스' / '양파 더 달란 단골한테 온 한 알' / '중국집 요청사항에 양파 썼다가 생긴 일'('생긴 일'은 약함) → 첫째. 제목은 사람 아닌 '서비스'로 끝냄, 앞 대본(진실·비밀·진짜 이유)과 다른 물건형, 앞머리 없음.\n첫장면: 의외\n이해검사: 단골 손님이 중국집 배달 요청사항에 양파를 많이 달라고 했다가 껍질만 깐 통양파 한 개를 받고 감탄했는데, 방송 뒤 누리꾼들은 사장이 비꼰 거라고 해석해 갈렸고 사장 속뜻은 아무도 모름.\n그림대조: 완료"
+}
