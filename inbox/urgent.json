@@ -1,81 +1,11 @@
 {
- "detected_at": "2026-11-26T14:26+09:00",
+ "detected_at": "2026-11-27T00:45+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "대법원, '한덕수 재판 위증' 윤석열 무죄 확정‥상고 기각",
-   "url": "https://n.news.naver.com/article/214/0001538179",
-   "press": "MBC",
-   "why": "언론사 9곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "연합뉴스TV",
-     "title": "[속보] 대법, 윤석열 '한덕수 재판 위증' 무죄 확정",
-     "url": "https://n.news.naver.com/article/422/0000930054"
-    },
-    {
-     "press": "한국경제",
-     "title": "대법, 윤석열 '한덕수 재판 위증' 무죄 확정…특검 상고 기각",
-     "url": "https://n.news.naver.com/article/015/0005358491"
-    },
-    {
-     "press": "MBN",
-     "title": "윤석열 '한덕수 재판 위증' 무죄 확정…특검 '완패'",
-     "url": "https://n.news.naver.com/article/057/0001979953"
-    },
-    {
-     "press": "경향신문",
-     "title": "[속보]윤석열 ‘한덕수 재판 위증 혐의’ 대법서 무죄 확정",
-     "url": "https://n.news.naver.com/article/032/0003485208"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "'조작징계' 의혹에 국민의힘 지도부 정면충돌…우재준 \"장동혁, 탈당·창당 거론\"",
-   "url": "https://n.news.naver.com/article/119/0003159753",
-   "press": "데일리안",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "동아일보",
-     "title": "‘친한’ 우재준 “조작징계 사과하라” vs 장동혁 “탈당-창당 좋은 제도 있다”",
-     "url": "https://n.news.naver.com/article/020/0003765354"
-    },
-    {
-     "press": "서울신문",
-     "title": "친한 우재준 최고위 반발…장동혁 “탈당·창당 좋은 제도 있다”",
-     "url": "https://n.news.naver.com/article/081/0003703361"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 이 대통령 지지율 43%…민주 35%·국힘 23% [NBS]",
-   "url": "https://n.news.naver.com/article/009/0005769309",
-   "press": "매일경제",
-   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
-   "related": [
-    {
-     "press": "뉴시스",
-     "title": "이 대통령 국정지지율 43%…2주 전보다 1%p↓[NBS]",
-     "url": "https://n.news.naver.com/article/003/0014346515"
-    }
-   ]
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 한준호 행안장관 후보자 첫 출근… 수사기관 중립성 우려에 \"국민 눈높이 맞는 실용주의 실현\"",
-   "url": "https://n.news.naver.com/article/469/0000967865",
-   "press": "한국일보",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] '조작징계 의혹 제기' 국힘 황경성 윤리위원 해임",
-   "url": "https://n.news.naver.com/article/079/0004214127",
-   "press": "노컷뉴스",
+   "title": "[속보]조국 “공공기관 이전하는 서울 알짜땅에 공공주택 짓자”",
+   "url": "https://n.news.naver.com/article/021/0002835646",
+   "press": "문화일보",
    "why": "[속보] 기사",
    "related": []
   }
