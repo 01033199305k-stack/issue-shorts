@@ -10140,5 +10140,67 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-26_1800_survivor-pension-thirty-percent/video.mp4"
   },
   "seconds": 1944
+ },
+ {
+  "key": "2026-11-27-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-27T07:00:00+09:00",
+  "started": "2026-11-27T04:21:28.716078+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-27_0700_free-gukbap-two-star-review/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-27_0700_free-gukbap-two-star-review/video.mp4', '--det"
+  },
+  "open_bg": false,
+  "quote_voices": 3,
+  "stock_clips": [
+   "https://pixabay.com/photos/kimchi-dish-food-korean-kimchi-5939198/",
+   "https://pixabay.com/videos/id-5638/",
+   "https://pixabay.com/videos/id-142754/",
+   "https://pixabay.com/videos/id-14419/"
+  ],
+  "cc_clips": [],
+  "duration": 24.97,
+  "matches": [
+   0.96,
+   1.0,
+   0.96,
+   1.0,
+   0.93,
+   0.9,
+   0.95,
+   0.95,
+   0.95,
+   0.98,
+   1.0,
+   1.0
+  ],
+  "sfx": 12,
+  "illustrations": 8,
+  "cuts": 12,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [],
+  "title": "결국 공짜 순댓국 40번 먹고 남겼다는 후기 #shorts",
+  "source_post": "https://gall.dcinside.com/board/view/?id=dcbest&no=481846&_dcbest=1&page=1",
+  "facts_used": [
+   "파이낸셜뉴스 '40번 넘게 무료음식 줬더니 \"깍두기 맛없고, 순대 비려\" 악성리뷰...사장 허탈' (2026-11-26, 본문 확인) — 리뷰 '깍두기는 맛없고, 순대 맛이 비리고, 배달도 늦게 오고, 마늘인지 양파인지도 빠졌네요', 답글 '지금까지 고객님께서 무료로 드신 횟수가 40회 이상입니다', 기사들 귀띔·사비, 무료 중단 — https://www.fnnews.com/news/202611260921464935",
+   "매일신문 '40번 넘게 공짜 순댓국 먹더니 별점 2점…참다못한 사장 결국' (2026-11-26, 본문 확인) — 사랑의 밥차 불우이웃 정식, 별점 5점 만점에 2점, 누리꾼 '맛없는데 40번을 시켜 먹냐' — https://www.imaeil.com/page/view/2026112620031260347",
+   "이데일리 (2026-11-26, 본문 확인) — 25일 커뮤니티·SNS 확산, 별점 2점, 무료 제공 중단 — https://edaily.co.kr/News/Read?mediaCodeNo=257&newsId=04513286645649656",
+   "KBS [잇슈 키워드] '40번 넘게 공짜로…순댓국집 사장이 분노한 이유' 네이버 댓글 많은 기사 — https://n.news.naver.com/article/056/0012301406",
+   "연합뉴스TV ''무료 식사' 40번 먹고 별점 테러…참다못한 사장의 결단' 네이버 댓글 많은 기사 — https://n.news.naver.com/article/422/0000930099"
+  ],
+  "slug": "2026-11-27_0700_free-gukbap-two-star-review",
+  "late": false,
+  "video_id": "U-pfL_ZI5ms",
+  "url": "https://youtube.com/shorts/U-pfL_ZI5ms",
+  "privacy": "private",
+  "scheduled_for": "2026-11-26T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b088c843accdac92cf645e0",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-26T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-27_0700_free-gukbap-two-star-review/video.mp4"
+  },
+  "seconds": 1486
  }
 ]
