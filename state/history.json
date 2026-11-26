@@ -10077,5 +10077,68 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-26_1200_wedding-gift-money-whose/video.mp4"
   },
   "seconds": 2869
+ },
+ {
+  "key": "2026-11-26-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-26T18:00:00+09:00",
+  "started": "2026-11-26T15:22:38.625421+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-26_1800_survivor-pension-thirty-percent/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-26_1800_survivor-pension-thirty-percent/video.mp4'"
+  },
+  "open_bg": true,
+  "quote_voices": 0,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-144490/",
+   "https://pixabay.com/videos/id-231259/",
+   "https://pixabay.com/videos/id-83812/",
+   "https://pixabay.com/photos/piggy-bank-money-savings-financial-970340/",
+   "https://pixabay.com/videos/id-15641/",
+   "https://pixabay.com/videos/id-50622/"
+  ],
+  "cc_clips": [],
+  "duration": 23.63,
+  "matches": [
+   0.96,
+   0.95,
+   0.92,
+   0.92,
+   1.0,
+   0.91,
+   0.91,
+   1.0,
+   0.96,
+   0.96,
+   0.96,
+   1.0
+  ],
+  "sfx": 11,
+  "illustrations": 9,
+  "cuts": 12,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [],
+  "title": "부부 둘 다 부었는데 30%만 준다는 유족연금 #shorts",
+  "source_post": "https://www.jnilbo.com/news/articleView.html?idxno=90000085445",
+  "facts_used": [
+   "전남일보·연합뉴스 '부부 함께 낸 노후자금인데…배우자 사망하면 연금 최대 70% 삭감' (2026-11-23) — 국회예산정책처 2027년도 예산안 분석: 중복수급권자 2021년 12만3994명 → 2025년 20만8242명, 본인 연금 선택 82%(17만1547명), 유족연금 선택 18%(3만6695명), 본인 연금 선택 시 유족연금 30% 추가(2007년 20% → 2016년 30%), 유족연금 선택 시 본인 연금 지급 정지, 직역연금은 50% — https://www.jnilbo.com/news/articleView.html?idxno=90000085445",
+   "재경일보 '유족연금 택하면 내 연금 0원…20만8천명 선택의 갈림길' (2026-11-23) — 같은 수치, 공무원·사학·군인연금 유족연금 50% — https://news.jkn.co.kr/post/1114803",
+   "SBS Biz '누구는 다 받는데 누구는 30%만?…유족연금 형평성 논란' / 메트로·경북매일 (2026-10-30) — 국민연금연구원 보고서: 국민연금+공무원연금 부부는 유족연금도 전액, 국민연금 부부는 30%, 직역연금 부부는 50% — https://biz.sbs.co.kr/amp/article/20000343170 , https://kbmaeil.com/article/20261030500010",
+   "국민연금연구원(서플·SBS Biz 인용): 유족연금이 본인 노령연금보다 많으면 유족연금을 택하게 됨 — https://supple.kr/news/cmt3gi1u3000mk31gqj3qbeuf"
+  ],
+  "slug": "2026-11-26_1800_survivor-pension-thirty-percent",
+  "late": false,
+  "video_id": "H5k8GV6BmWM",
+  "url": "https://youtube.com/shorts/H5k8GV6BmWM",
+  "privacy": "private",
+  "scheduled_for": "2026-11-26T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b07d7c4aca8612480880460",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-26T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-26_1800_survivor-pension-thirty-percent/video.mp4"
+  },
+  "seconds": 1944
  }
 ]
