@@ -10005,5 +10005,77 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-26_0700_whole-onion-chinese-delivery/video.mp4"
   },
   "seconds": 2276
+ },
+ {
+  "key": "2026-11-26-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-26T12:00:00+09:00",
+  "started": "2026-11-26T09:20:54.150944+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-26_1200_wedding-gift-money-whose/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-26_1200_wedding-gift-money-whose/video.mp4', '--detail', "
+  },
+  "open_bg": false,
+  "quote_voices": 5,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-189020/",
+   "https://pixabay.com/videos/id-204803/",
+   "https://pixabay.com/photos/american-bills-business-cheque-1239040/",
+   "https://pixabay.com/videos/id-83812/",
+   "https://pixabay.com/photos/keyboard-apple-input-keys-hardware-338510/",
+   "https://pixabay.com/videos/id-72883/",
+   "https://pixabay.com/videos/id-34258/",
+   "https://pixabay.com/photos/bookkeeping-accounting-taxes-615384/"
+  ],
+  "cc_clips": [],
+  "duration": 43.48,
+  "matches": [
+   0.92,
+   0.96,
+   0.96,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   0.92,
+   0.99,
+   0.99,
+   0.99,
+   0.98,
+   0.98,
+   0.96
+  ],
+  "sfx": 17,
+  "illustrations": 13,
+  "cuts": 18,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [
+   "서울행정법원 / 판결이 (55)"
+  ],
+  "title": "결혼식 엄마 손님 축의금의 진짜 주인 #shorts",
+  "source_post": "https://pann.nate.com/talk/375736386",
+  "facts_used": [
+   "네이트판 '축의금 누가 가져가냐로 엄마랑 싸웟는데..' (2026-11-26 inbox, WebFetch 확인) — 본문 '엄마손님 축의는 엄마꺼래', 추천 6·반대 94·댓글 98, 베스트 댓글 '그 분들이 너 보고 왔겠냐?'(138)·'그동안 니 어머니가 뿌리신 축의금 회수하는건데'(107)·'엄마를 축하하러 오신거다'(88), 일반 댓글 '집집마다 다 다르지 않나?'·'우리는 반대로 부모님이 다 가져가서 정리한 다음 누나손님 축의금은 누나 줌' — https://pann.nate.com/talk/375736386",
+   "서울행정법원 1999.10.1 선고 99구928 판결요지: 결혼 당사자에게 직접 건네진 부분을 제외한 나머지는 전액 혼주인 부모에게 귀속 — https://www.law.go.kr/LSW//precInfoP.do?precSeq=212485",
+   "서울신문 [세테크] '결혼식 하객 방명록을 보겠어?' (2026-06-22) — 축의금은 관행상 혼주(부모) 귀속, 조사 시 국세청이 방명록 원본·축의금 접수 대장 요구, 자녀 하객 입증 못 하면 증여세 추징 — https://m.go.seoul.co.kr/news/plan/taxtech/2026/06/22/20260622500176"
+  ],
+  "slug": "2026-11-26_1200_wedding-gift-money-whose",
+  "late": false,
+  "video_id": "Tk0mNgUfXhM",
+  "url": "https://youtube.com/shorts/Tk0mNgUfXhM",
+  "privacy": "private",
+  "scheduled_for": "2026-11-26T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b078698d4eda4b659c68a77",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-26T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-26_1200_wedding-gift-money-whose/video.mp4"
+  },
+  "seconds": 2869
  }
 ]
