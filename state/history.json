@@ -10275,5 +10275,77 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-27_1200_exam-cheating-reward-five-hundred-million/video.mp4"
   },
   "seconds": 2687
+ },
+ {
+  "key": "2026-11-27-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-27T18:00:00+09:00",
+  "started": "2026-11-27T15:20:58.472233+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-27_1800_young-forty-hoodie-ban-list/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-27_1800_young-forty-hoodie-ban-list/video.mp4', '--det"
+  },
+  "open_bg": false,
+  "quote_voices": 5,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-57770/",
+   "https://pixabay.com/photos/iphone-smartphone-apps-apple-inc-410324/",
+   "https://pixabay.com/videos/id-53431/",
+   "https://pixabay.com/videos/id-12876/",
+   "https://pixabay.com/videos/id-1006/"
+  ],
+  "cc_clips": [],
+  "duration": 37.43,
+  "matches": [
+   1.0,
+   0.96,
+   0.96,
+   0.96,
+   0.96,
+   1.0,
+   1.0,
+   1.0,
+   0.9,
+   0.95,
+   0.96,
+   0.94,
+   0.98,
+   0.98,
+   0.99,
+   1.0,
+   1.0,
+   0.9
+  ],
+  "sfx": 17,
+  "illustrations": 14,
+  "cuts": 18,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [
+   "소비 / 82조 (55)"
+  ],
+  "title": "40대는 입지 말라는 후드티 금지령의 진실 #shorts",
+  "source_post": "https://biz.heraldcorp.com/article/10950712",
+  "facts_used": [
+   "헤럴드경제 2026-11-27 '“영포티, 후드티 금지”…복장 단속까지 나온 혐오의 시대' — 40대 이상 금지 목록(후드티·성수동 등), 영포티 원래 뜻 — https://biz.heraldcorp.com/article/10950712",
+   "세계일보 2026-11-24 '유통가 큰손인데…영포티는 후드티·미니스커트 금지?' — 금지 목록 항목, 2026-11-23 기준 조회 61만·댓글 570여 개, 2015년 김용섭 소장이 처음 쓴 말, 섬산련 패션 소비 40대 22.8%·30대 18.0%·20대 15.8%(82조 8,828억 원) — https://www.segye.com/newsView/20261124510151",
+   "헤럴드경제 2025-11-23 '영포티 논란이 불편한 패션 브랜드, 왜?' — 섬산련 패션 소비 실태조사 40대 22.8%, 82조 8,828억 원 — https://www.heraldk.com/article/2025112317040845755",
+   "한국경제 2026-11-20 '모자부터 신발까지 다 걸렸다…올겨울 영포티룩에 발끈' — 누리꾼 '난 몇 년째 저 스타일인데 억울하네', '근데 저렇게 입고 다니는 게 왜 문제지?' — https://www.hankyung.com/article/202611200185v",
+   "클리앙 게시글 댓글 — '나이가 좀 들면 후드쪽은 피하는게 좋긴 합니다', '영포티고 뭐고 내가 좋으면 됬죠' — https://www.clien.net/service/board/park/19177197",
+   "클리앙 게시글 댓글 — '후드티만 입어야 겠어요' — https://www.clien.net/service/board/park/19292016"
+  ],
+  "slug": "2026-11-27_1800_young-forty-hoodie-ban-list",
+  "late": false,
+  "video_id": "q85VxO57znU",
+  "url": "https://youtube.com/shorts/q85VxO57znU",
+  "privacy": "private",
+  "scheduled_for": "2026-11-27T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b0929ea658222306ced100d",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-27T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-27_1800_young-forty-hoodie-ban-list/video.mp4"
+  },
+  "seconds": 2210
  }
 ]
