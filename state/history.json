@@ -10202,5 +10202,78 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-27_0700_free-gukbap-two-star-review/video.mp4"
   },
   "seconds": 1486
+ },
+ {
+  "key": "2026-11-27-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-27T12:00:00+09:00",
+  "started": "2026-11-27T09:31:07.548040+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-27_1200_exam-cheating-reward-five-hundred-million/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-27_1200_exam-cheating-reward-five-hundre"
+  },
+  "open_bg": true,
+  "quote_voices": 5,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-215475/",
+   "https://pixabay.com/photos/money-cash-dollars-finance-7881948/",
+   "https://pixabay.com/videos/id-172779/",
+   "https://pixabay.com/videos/id-1191/",
+   "https://pixabay.com/videos/id-100816/"
+  ],
+  "cc_clips": [],
+  "duration": 38.45,
+  "matches": [
+   0.9,
+   1.0,
+   0.93,
+   0.93,
+   1.0,
+   0.95,
+   0.98,
+   1.0,
+   1.0,
+   0.92,
+   1.0,
+   1.0,
+   0.95,
+   0.95,
+   0.96,
+   0.96,
+   0.95,
+   0.95
+  ],
+  "sfx": 18,
+  "illustrations": 15,
+  "cuts": 18,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [
+   "파티원 / 모집하려고 (55)"
+  ],
+  "title": "현재 커닝 잡으면 5억 준다는 수능 포상금 #shorts",
+  "source_post": "https://n.news.naver.com/article/421/0009313238",
+  "facts_used": [
+   "뉴스1 2026-11-27 '수능 커닝 신고 포상금 최대 5억에…\"친구랑 짜고 반씩 나눌 것\" 자조' — 수능 당일 최대 1억이 나흘 만에 5억, 누리꾼 '돈 나눌 파티원 모집하려고 한다', 수험생 '자수와 동시에 다른 공동 부정 행위자를 신고해야 포상금 지급 대상'·'솔직히 이런 글을 보면 기운 빠지는 게 사실이다' — https://n.news.naver.com/article/421/0009313238",
+   "한국경제 2026-11-27 '수능 부정행위 신고 포상금에…\"친구랑 2.5억씩 나누자\"' — 같은 누리꾼·수험생 발언 — https://n.news.naver.com/mnews/article/015/0005358892",
+   "이데일리 2026-11-26 '\"내년엔 나도 수능 볼까\"…부정행위 신고 5억 포상금에 술렁' — '수능이 아니라 5억짜리 로또 시험 됐네', '이 나이에 수능 원서 내야 하나', 지급은 처분 결과 확인 뒤 보상심의위원회 심의·의결 — https://n.news.naver.com/mnews/article/018/0006415734",
+   "뉴시스 2026-11-26 \"'수능 커닝' 신고하면 최대 5억?…'내년 수능 볼까' 누리꾼들 쓴웃음\" — '자수해도 왜 포상금 줘?' — https://n.news.naver.com/mnews/article/003/0014345606",
+   "연합뉴스 2026-11-23 '권익위, 수능 부정행위 신고 포상금 최대 5억 지급' — 건당 최소 1억·최대 5억, 1명당 1억 가산, 자수하며 공동 부정행위자 신고 시 감경+포상금 — https://n.news.naver.com/mnews/article/001/0016459189",
+   "조선일보 2026-11-23 '권익위 \"수능 부정행위 신고 포상금 건당 최대 5억원\"' — 사건당 최대 5억, 1인 연간 10건, 권익위 관계자 '산술적으로 연간 최대 50억' — https://n.news.naver.com/mnews/article/023/0004011243",
+   "조선일보 2026-11-24 '수능 커닝 신고 포상 최대 5억원으로 확대' — 같은 50억 설명 — https://n.news.naver.com/mnews/article/023/0004011326"
+  ],
+  "slug": "2026-11-27_1200_exam-cheating-reward-five-hundred-million",
+  "late": false,
+  "video_id": "dVOU1B3H7ro",
+  "url": "https://youtube.com/shorts/dVOU1B3H7ro",
+  "privacy": "private",
+  "scheduled_for": "2026-11-27T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b08d9c99131f7416c615ecf",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-27T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-27_1200_exam-cheating-reward-five-hundred-million/video.mp4"
+  },
+  "seconds": 2687
  }
 ]
