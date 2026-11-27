@@ -1,13 +1,24 @@
 {
- "detected_at": "2026-11-27T00:45+09:00",
+ "detected_at": "2026-11-27T09:32+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "[속보]조국 “공공기관 이전하는 서울 알짜땅에 공공주택 짓자”",
-   "url": "https://n.news.naver.com/article/021/0002835646",
-   "press": "문화일보",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "역대 대통령 호감도 1위는 노무현…이재명 4위, 꼴찌는 누구?",
+   "url": "https://n.news.naver.com/article/666/0000134021",
+   "press": "경기일보",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "한겨레",
+     "title": "노무현, 역대 대통령 호감도 1위…이재명 4위·윤석열 ‘꼴찌’",
+     "url": "https://n.news.naver.com/article/028/0002834153"
+    },
+    {
+     "press": "MBN",
+     "title": "이 대통령 역대 대통령 호감도 '4위'…1위는?",
+     "url": "https://n.news.naver.com/article/057/0001980096"
+    }
+   ]
   }
  ]
 }
