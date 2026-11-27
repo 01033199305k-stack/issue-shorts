@@ -10347,5 +10347,72 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-27_1800_young-forty-hoodie-ban-list/video.mp4"
   },
   "seconds": 2210
+ },
+ {
+  "key": "2026-11-28-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-28T07:00:00+09:00",
+  "started": "2026-11-28T04:21:12.935182+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-28_0700_parental-leave-tax-exam-report/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-28_0700_parental-leave-tax-exam-report/video.mp4', "
+  },
+  "open_bg": true,
+  "quote_voices": 5,
+  "stock_clips": [
+   "https://pixabay.com/photos/bundestag-german-flag-parliament-2463236/",
+   "https://pixabay.com/videos/id-142766/",
+   "https://pixabay.com/photos/graduation-diploma-education-1449488/",
+   "https://pixabay.com/videos/id-186537/"
+  ],
+  "cc_clips": [],
+  "duration": 41.35,
+  "matches": [
+   0.92,
+   1.0,
+   0.94,
+   0.97,
+   0.93,
+   1.0,
+   0.92,
+   0.97,
+   0.92,
+   0.96,
+   1.0,
+   0.96,
+   0.99,
+   0.99,
+   0.99,
+   0.94,
+   0.97
+  ],
+  "sfx": 17,
+  "illustrations": 12,
+  "cuts": 17,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [],
+  "title": "결국 신고까지 당했다는 육아휴직 합격 수기 #shorts",
+  "source_post": "https://n.news.naver.com/article/055/0001406270",
+  "facts_used": [
+   "SBS 2026-11-27 '세무사 합격한 워킹맘…\"육휴 내고 공부\" 말했다 날벼락' — 26일 디시인사이드에 국민신문고로 고용노동부에 신고했다는 글, 수기 '2025년 5월부터 7월까지 자녀를 부모님 댁에 맡기고 주 70에서 80시간 시험을 준비', 신고자 '집중 수험기간과 실제 육아휴직 기간의 중첩 여부 및 급여 수령 여부가 확인되지 않는다', 반박 '법 위반 소지가 없다'·'마련된 제도를 활용했을 뿐'·'열심히 노력한 정당한 대가' — https://n.news.naver.com/article/055/0001406270",
+   "아시아경제 2026-11-26 '\"육아휴직 내고 공부, 세무사 합격했어요\"…합격 수기 두고 논란' — 대학병원 행정직 12년, 육아휴직 연장, 지난해 5~7월 오전 6시30분~오후 10시30분 학원·주당 70~80시간, '아기는 아예 부모님 댁에 맡겼고, 일요일에 2시간 정도만 아기를 봤다', 누리꾼 '저러라고 준 육아휴직인가'·'육아휴직이지 연수휴직이 아니다'·'육아를 안 할 거면 휴직도 하지 말았어야지', 동료 업무 공백 지적, 학업 금지 규정 없음, 남녀고용평등법 시행령 제14조 자녀와 동거·양육 기여 안 하면 7일 이내 사업주 통보(휴직 종료 사유), 대법원 2017년 해외 8개월 체류 휴직자 수급요건 불충족(부정수급 처분은 취소 취지) — https://view.asiae.co.kr/article/2026112608414287978",
+   "한국경제 2026-11-26 '\"육아휴직 중 주 80시간 공부\"…세무사 합격 수기 논란' — 제63회 세무사 시험, 같은 수기 발언, 누리꾼 '자녀 양육을 위해 마련된 제도를 악용했다' vs '있는 제도를 활용했고…' — https://www.hankyung.com/article/2026112608567",
+   "인사이트 2026-11-27 '“육휴 중 세무사 준비” 30대 여성 합격 수기에 부정수급 논란... 고용부에 신고 접수까지' — 고용부 본부 고용문화개선정책과 처리부서 지정, '법적으로 마련된 제도를 활용했을 뿐' — https://www.insight.co.kr/news/583721",
+   "트위그뉴스 2026-11-25 '“육아휴직 중 세무사 공부?”…워킹맘 합격 후기에 시끌' — 약 2년 수험, 같은 수기 발언, '육아휴직이지 공부하라고 주는 휴직이 아니다' — https://www.twig24.com/news/world/2026/11/25/20261125500338"
+  ],
+  "slug": "2026-11-28_0700_parental-leave-tax-exam-report",
+  "late": false,
+  "video_id": "hwUWbftAIyk",
+  "url": "https://youtube.com/shorts/hwUWbftAIyk",
+  "privacy": "private",
+  "scheduled_for": "2026-11-27T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b09e0702ea34800c28d62ba",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-27T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-28_0700_parental-leave-tax-exam-report/video.mp4"
+  },
+  "seconds": 2121
  }
 ]
