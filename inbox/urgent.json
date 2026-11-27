@@ -1,24 +1,74 @@
 {
- "detected_at": "2026-11-27T09:32+09:00",
+ "detected_at": "2026-11-27T15:12+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "역대 대통령 호감도 1위는 노무현…이재명 4위, 꼴찌는 누구?",
-   "url": "https://n.news.naver.com/article/666/0000134021",
-   "press": "경기일보",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "장동혁 “한동훈 복당하면 다시 징계하면 돼…추가 사유 있어”",
+   "url": "https://n.news.naver.com/article/366/0001207759",
+   "press": "조선비즈",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "한겨레",
-     "title": "노무현, 역대 대통령 호감도 1위…이재명 4위·윤석열 ‘꼴찌’",
-     "url": "https://n.news.naver.com/article/028/0002834153"
+     "press": "뉴시스",
+     "title": "장동혁 \"한동훈, 복당해도 다시 징계할 수 있어…추가 사유 있다\"",
+     "url": "https://n.news.naver.com/article/003/0014348727"
+    },
+    {
+     "press": "연합뉴스TV",
+     "title": "장동혁 \"韓 복당돼도 다시 징계\"…의총 요구엔 \"갈 이유 없어\"",
+     "url": "https://n.news.naver.com/article/422/0000930451"
+    },
+    {
+     "press": "뉴스1",
+     "title": "장동혁, '조작 징계' 주장 작심 비판…\"한동훈 징계 다시 하면 된다\"",
+     "url": "https://n.news.naver.com/article/421/0009313579"
     },
     {
      "press": "MBN",
-     "title": "이 대통령 역대 대통령 호감도 '4위'…1위는?",
-     "url": "https://n.news.naver.com/article/057/0001980096"
+     "title": "장동혁 \"한동훈, 복당해도 다시 징계하면 된다\"",
+     "url": "https://n.news.naver.com/article/057/0001980137"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 최휘영 장관 “잘못된 보도 바로잡고 내려야”…‘기습 통보’ 기사 반박",
+   "url": "https://n.news.naver.com/article/022/0004178630",
+   "press": "세계일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 철원 민통선 이북서 철책으로 이동 30대 탈북민 적발",
+   "url": "https://n.news.naver.com/article/654/0000213831",
+   "press": "강원도민일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 남경주, 제자와 성관계 시도 인정⋯'위력행사·간음' 혐의는 부인",
+   "url": "https://n.news.naver.com/article/031/0001079081",
+   "press": "아이뉴스24",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 유승민 “대통령 믿고 주식 샀으면 재산 탕진, 집 안 샀으면 ‘월세 거지’”",
+   "url": "https://n.news.naver.com/article/666/0000134077",
+   "press": "경기일보",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 윤석열 정부 ‘관저 이전 예산 전용’ 김대기 1심 징역형 집유…이상민 무죄",
+   "url": "https://n.news.naver.com/article/032/0003485494",
+   "press": "경향신문",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
