@@ -10483,5 +10483,67 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-28_1200_office-cough-coworker-month/video.mp4"
   },
   "seconds": 2067
+ },
+ {
+  "key": "2026-11-28-1800",
+  "slot": "1800",
+  "publish_at": "2026-11-28T18:00:00+09:00",
+  "started": "2026-11-28T15:21:31.054055+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-28_1800_night-callback-400-employees/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-28_1800_night-callback-400-employees/video.mp4', '--d"
+  },
+  "open_bg": true,
+  "quote_voices": 2,
+  "stock_clips": [
+   "https://pixabay.com/photos/glass-facade-building-architecture-8016589/",
+   "https://pixabay.com/videos/id-1191/",
+   "https://pixabay.com/videos/id-5405/",
+   "https://pixabay.com/videos/id-21118/",
+   "https://pixabay.com/photos/meeting-calendar-saturday-weekend-273857/",
+   "https://pixabay.com/videos/id-3134/"
+  ],
+  "cc_clips": [],
+  "duration": 22.96,
+  "matches": [
+   1.0,
+   0.97,
+   0.93,
+   1.0,
+   0.99,
+   0.99,
+   0.92,
+   0.92,
+   1.0,
+   1.0,
+   0.96
+  ],
+  "sfx": 10,
+  "illustrations": 8,
+  "cuts": 11,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [],
+  "title": "퇴근한 직원 400명이 밤 10시 재출근한 이유 #shorts",
+  "source_post": "https://www.ytn.co.kr/_ln/0103_202611280721404224",
+  "facts_used": [
+   "YTN 2026-11-28 07:21 단독 '한밤중 직원들 집합시킨 DL그룹 회장...성과 부진 탓하며 보직 해임' — 금요일 밤 10시 전후 퇴근한 설계실 직원 수백 명 호출, 새벽 2시 넘어 사무실 불 켜짐, 직원 '회장이 지시해서 전 설계실 직원을 출근시켰다', 사업 부진·적자 질책, 팀장급 2~3명씩 회장실 들어가 보직 해임 증언, 주말 출근 지시·업무 테스트 퀴즈 예고 전언, 회사 연락 안 닿음 — https://www.ytn.co.kr/_ln/0103_202611280721404224",
+   "한국일보 2026-11-28 '간부 회의 중 뿔난 DL그룹 회장, 밤 10시에 직원 수백 명 불렀다' — 27일 오후 회의 중 오후 10시쯤 지시, 플랜트 설계실 약 400명, 귀가자도 출근, 이튿날 새벽 퇴근, 회사 인사 조치 '확인이 어렵다' — https://www.hankookilbo.com/news/article/A2026112812580004309",
+   "위키트리 2026-11-28 — 직원 '왜 불렀는지도 모르겠다', '지금 회사 10년 넘게 다닌 사람들도 이런 경험이 처음이라…', '한두 명씩, 서너 명씩 회장이 있는 방으로 들어갔고 그 자리에서 팀장을 해임했다', 새벽 2시 넘어 퇴근 행렬, 주말 출근 지시 — https://www.wikitree.co.kr/articles/1178542",
+   "진일보 — 플랜트 설계실 약 400명, DL그룹 입장 '…최적의 해결 방안을 마련하기 위해 치열하게 노력하고 있다', 보직 해임은 '확인이 어렵다' — https://www.jnilbo.com/news/articleView.html?idxno=90000087537"
+  ],
+  "slug": "2026-11-28_1800_night-callback-400-employees",
+  "late": false,
+  "video_id": "CU6Oa9MNmWo",
+  "url": "https://youtube.com/shorts/CU6Oa9MNmWo",
+  "privacy": "private",
+  "scheduled_for": "2026-11-28T09:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b0a78b9d718580fbd65778d",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-28T09:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-28_1800_night-callback-400-employees/video.mp4"
+  },
+  "seconds": 1489
  }
 ]
