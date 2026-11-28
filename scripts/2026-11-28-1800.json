@@ -1,0 +1,372 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "night-callback-400-employees",
+ "title_lines": [
+  "퇴근한 직원 400명이",
+  "밤 10시 재출근한 이유"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "밤 10시에 회사로 다시 불려 간 400명",
+   "say": "밤 열 시에 회사로 다시 불려 간 사백 명",
+   "sfx": "dudung",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "밤 10시에 회사로\n다시 불려 간 400명",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "집에 있던 직원들까지 전부 다시 출근함.",
+   "say": "집에 있던 직원들까지 전부 다시 출근함.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "심야 호출",
+      "lines": [
+       "오후 10시께",
+       "설계실 약 400명",
+       "귀가자도 출근"
+      ],
+      "mark": 1
+     },
+     {
+      "type": "illust",
+      "q": [
+       "会社員 驚く",
+       "驚く 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“왜 불렀는지도 모르겠다”",
+   "say": "왜 불렀는지도 모르겠다",
+   "sfx": "question",
+   "cap": "quote",
+   "tone": "황당해서 허탈하게, 말끝은 분명하게",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "困る 会社員",
+       "困る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "새벽 2시 넘어도 불이 다 켜져 있었음.",
+   "say": "새벽 두 시 넘어도 불이 다 켜져 있었음.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "nightcity",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🏢",
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "office building",
+     "skyscraper night",
+     "city night"
+    ],
+    "cc": [
+     "seoul office building night",
+     "seoul city night"
+    ],
+    "video": [
+     "office building night",
+     "city skyline night",
+     "skyscraper night"
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 대기업 회장이 회의하다가",
+   "say": "알고 보니 대기업 회장이 회의하다가",
+   "sfx": "whoosh",
+   "tone": "비밀 털어놓듯 낮게, 발음은 또박또박",
+   "join": true,
+   "visual": {
+    "bg": "meeting",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "会議 社長",
+       "社長",
+       "会議"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "meeting room table",
+     "conference room",
+     "boardroom table"
+    ]
+   }
+  },
+  {
+   "text": "적자를 질책하며 전원 출근을 지시한 거임.",
+   "say": "적자를 질책하며 전원 출근을 지시한 거임.",
+   "sfx": "punch",
+   "cap": "hit",
+   "tone": "기가 막혀 목소리를 확 높여서",
+   "visual": {
+    "bg": "meeting",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "怒る 社長",
+       "怒る 上司",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "grok": {
+     "prompt": "Medium shot of a stern Korean executive in his fifties with slicked gray hair and a dark suit, slamming a folder on a long meeting table and pointing at the door, dim boardroom at night, quick push-in camera"
+    }
+   }
+  },
+  {
+   "text": "팀장들은 그 자리에서 해임됐다는 증언도 나옴.",
+   "say": "팀장들은 그 자리에서 해임됐다는 증언도 나옴.",
+   "sfx": "stamp",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 会社員",
+       "落ち込む 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ],
+    "grok": {
+     "prompt": "Medium shot of a tired Korean team leader in his forties with short hair and a white shirt, walking out of an executive office with his head down holding his ID badge, quiet office corridor at night, slow tracking camera"
+    },
+    "video": [
+     "office corridor",
+     "office hallway",
+     "corridor door"
+    ]
+   }
+  },
+  {
+   "text": "“10년 넘게 다닌 사람들도 처음이라”",
+   "say": "십 년 넘게 다닌 사람들도 처음이라",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "疲れた 会社員",
+       "疲れた 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💦",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "city street night",
+     "night road cars",
+     "street lights night"
+    ]
+   }
+  },
+  {
+   "text": "회사는 확인이 어렵다고 함.",
+   "say": "회사는 확인이 어렵다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "warn"
+     },
+     {
+      "type": "illust",
+      "q": [
+       "電話 会社員",
+       "電話 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "남은 직원들은 주말에도 출근하라 했다고.",
+   "say": "남은 직원들은 주말에도 출근하라 했다고.",
+   "sfx": "exclaim",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "📅",
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "calendar weekend",
+     "calendar desk",
+     "wall calendar"
+    ]
+   }
+  },
+  {
+   "text": "불금이 진짜로 불타 버림.",
+   "say": "불금이 진짜로 불타 버림.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "nightcity",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "燃え尽きる 会社員",
+       "疲れた サラリーマン",
+       "疲れた 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "city lights night",
+     "night traffic city",
+     "skyline night"
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "퇴근한 직원 400명이 밤 10시 재출근한 이유 #shorts",
+  "description": "금요일 밤 10시께, 이미 퇴근한 설계실 직원 약 400명이 회장 지시로 다시 회사에 나왔다.\n회의에서 사업 부진과 적자를 질책한 뒤였고, 새벽 2시가 넘어서도 사무실 불이 켜져 있었다.\n현장에서 팀장급 보직 해임이 있었다는 직원 증언이 나왔지만 회사는 \"확인이 어렵다\"고 밝혔다.\n\n※ AI 음성으로 제작했습니다.\n#직장인 #야근 #회사 #주말출근 #shorts",
+  "tags": [
+   "직장인",
+   "야근",
+   "심야 호출",
+   "주말 출근",
+   "보직 해임",
+   "회사 생활",
+   "불금",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.ytn.co.kr/_ln/0103_202611280721404224",
+ "facts_used": [
+  "YTN 2026-11-28 07:21 단독 '한밤중 직원들 집합시킨 DL그룹 회장...성과 부진 탓하며 보직 해임' — 금요일 밤 10시 전후 퇴근한 설계실 직원 수백 명 호출, 새벽 2시 넘어 사무실 불 켜짐, 직원 '회장이 지시해서 전 설계실 직원을 출근시켰다', 사업 부진·적자 질책, 팀장급 2~3명씩 회장실 들어가 보직 해임 증언, 주말 출근 지시·업무 테스트 퀴즈 예고 전언, 회사 연락 안 닿음 — https://www.ytn.co.kr/_ln/0103_202611280721404224",
+  "한국일보 2026-11-28 '간부 회의 중 뿔난 DL그룹 회장, 밤 10시에 직원 수백 명 불렀다' — 27일 오후 회의 중 오후 10시쯤 지시, 플랜트 설계실 약 400명, 귀가자도 출근, 이튿날 새벽 퇴근, 회사 인사 조치 '확인이 어렵다' — https://www.hankookilbo.com/news/article/A2026112812580004309",
+  "위키트리 2026-11-28 — 직원 '왜 불렀는지도 모르겠다', '지금 회사 10년 넘게 다닌 사람들도 이런 경험이 처음이라…', '한두 명씩, 서너 명씩 회장이 있는 방으로 들어갔고 그 자리에서 팀장을 해임했다', 새벽 2시 넘어 퇴근 행렬, 주말 출근 지시 — https://www.wikitree.co.kr/articles/1178542",
+  "진일보 — 플랜트 설계실 약 400명, DL그룹 입장 '…최적의 해결 방안을 마련하기 위해 치열하게 노력하고 있다', 보직 해임은 '확인이 어렵다' — https://www.jnilbo.com/news/articleView.html?idxno=90000087537"
+ ],
+ "brief": "점수(사건 30): 이게됨 4(퇴근한 직원 400명을 밤 10시에 전원 다시 출근시킴) / 궁금증 4(왜? → 회장이 회의하다 적자·부진 질책, 팀장 즉석 해임 증언, 주말 출근·퀴즈) / 감정 8(시청자 70% 남성·78% 25~54세 직장인 — 퇴근 뒤 회사 호출은 누구나 겪을까 겁나는 일, 억울함) / 대상 5(회사·야근·불금) / 판정 5(일을 키운 쪽이 분명) + 화제 +5 = 31\n화제: 대기업 회장 심야 직원 400명 호출 (news_hot MBN '밤 10시 회사로 직원 400명 호출…DL그룹 회장 또 구설' + YTN 단독, 한국일보·위키트리·진일보 등 11/28 하루에 연속 보도)\n지금 가장 뜨거운 5개 (inbox 2026-11-28 15:12 — gather 수동 실행은 failure 로 끝났지만 inbox 는 15:12 로 갱신됨): ①서빙로봇에 부딪힌 아이 갈비탕 화상(더쿠 951·657 + 루리웹 + news_hot 한국경제 — 아이 2도 화상이 중심이라 첫 장면이 부상, 식당 측 입장·누리꾼 댓글을 기사 4개에서 하나도 못 구함, 고소 진행 중이라 한쪽 주장뿐) ②요즘 기혼유자녀는 아무것도 포기 안 함(더쿠 1001 — 원글 403, 기사·댓글 확인 못 함, 기혼 vs 비혼 대결 각도) ③심야 직원 400명 호출(news_hot MBN·YTN 단독) ④쓰러진 70대 살린 여중생 패딩(buzz 더쿠·보배 — 검색해 보니 2018년 무렵 보도가 재확산, 최근 보도 없음) ⑤FC서울 10년 만의 우승 대관식(구글 5000+ — 경기가 오늘이라 18시 공개 시점에 결과 미확정). ③을 고름\n레인: 사건 — 18시는 우리 얘기 자리지만 11/21 절대로 화제에 맞는 레인을 고름(직장인 시청자가 자기 일로 여기는 직장 화제). 이름은 빼고 '대기업 회장'으로만 씀\n유행: 심야 소집 (news_hot MBN·YTN)\n구조: 시작=퇴근해 집에 있던 설계실 직원들까지 전부 다시 출근 / 커짐=“왜 불렀는지도 모르겠다”→새벽 2시 넘어도 불 켜짐→팀장 즉석 해임 증언 / 뒤집힘=대기업 회장이 회의하다 적자·부진 질책하며 전원 출근 지시 / 정체=회사는 '확인이 어렵다' / 그 뒤=남은 직원 주말 출근 지시 → 불금이 불탐 (업무 퀴즈 예고는 길이 때문에 뺌)\n댓글: 2개 (YTN·위키트리에 실린 직원 발언 — '왜 불렀는지도 모르겠다', '지금 회사 10년 넘게 다닌 사람들도 이런 경험이 처음이라…'에서 앞 '지금 회사'와 '이런 경험이' 잘라 '10년 넘게 다닌 사람들도 처음이라'). 누리꾼 댓글은 한국일보·위키트리·진일보(댓글 0개)·검색 2번에서 못 찾음 → 짧은 형식\n확인된 사실: 위 facts_used — 금요일(27일) 밤 10시께 호출(YTN '10시 전후', 한국일보 '오후 10시쯤'), 플랜트 설계실 약 400명(한국일보·진일보, YTN·위키트리는 '수백 명'), 귀가자도 다시 출근, 새벽 2시 넘어 사무실 불(YTN·위키트리), 적자·부진 질책(YTN·한국일보), 팀장 즉석 보직 해임은 직원 증언(YTN·위키트리), 회사 '확인이 어렵다'(한국일보·진일보), 주말 출근 지시(YTN·위키트리), 업무 테스트 퀴즈 예고는 '전해졌다'(YTN·위키트리)\n주의: 회장·회사 실명은 화면·자막·설명란·태그에 안 씀(특정 개인 의혹 → 현상으로). 보직 해임은 '증언'으로, 퀴즈는 안 씀. 회사 설명 중 사망사고 언급은 위급 장면이라 안 씀. 2016년 과거 논란 안 씀. 소품 doc 은 보도에 나온 숫자만(오후 10시께·약 400명·귀가자 출근)\n증거: doc 심야 호출(오후 10시께 / 설계실 약 400명 / 귀가자도 출근, mark 400명)\n훅 3안: ①'집에 있던 직원들까지 전부 다시 출근함' ②'새벽 2시 넘어도 400명이 퇴근을 못 함' ③'회장 한 마디에 400명이 밤에 출근함' → ① 제목보다 한 발 나간 장면(집에 있던 사람까지), 답(회장)을 숨김. 제목 3안: '퇴근한 직원 400명이 밤 10시 재출근한 이유' / '밤 10시에 다시 불려 갔다는 400명의 새벽' / '현재 퇴근 후 회사로 불려 간 설계실 400명' → 궁금한 '이유'로 끝나고 오늘 '~한 이유' 첫 사용, 앞 두 회차('결국'·'한 달째')·'~의 진실'과 겹치지 않는 ①\n첫장면: 사람\n이해검사: 대기업 회장이 회의하다 적자를 질책하며 퇴근한 설계실 직원 400명까지 밤 10시에 다시 출근시켰고, 새벽 2시 넘게 붙잡힌 그날 팀장 보직 해임 증언과 주말 출근 지시까지 나왔음.\n그림대조: 완료"
+}
