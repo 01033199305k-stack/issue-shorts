@@ -1,0 +1,591 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "office-cough-coworker-month",
+ "title_lines": [
+  "한 달째 안 멈춘다는",
+  "옆자리 기침의 진실"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "한 달째 기침하는 옆자리 동료",
+   "say": "한 달째 기침하는 옆자리 동료",
+   "sfx": "exclaim",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "한 달째 기침하는\n옆자리 동료",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "1미터 옆에서 마스크도 없이 한 달째 콜록거림.",
+   "say": "일 미터 옆에서 마스크도 없이 한 달째 콜록거림.",
+   "sfx": "punch",
+   "tone": "기가 막혀 목소리를 확 높여서",
+   "visual": {
+    "bg": "office",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "咳 男性",
+       "風邪 男性",
+       "咳"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😷",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "grok": {
+     "prompt": "Medium shot of a Korean office worker in his thirties with short black hair and a navy cardigan, coughing loudly into the air at his desk while a coworker beside him flinches, quiet bright open-plan office, slow push-in camera"
+    }
+   }
+  },
+  {
+   "text": "병원은 초반에 딱 한 번 갔는데,",
+   "say": "병원은 초반에 딱 한 번 갔는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "hospital",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "病院 受付",
+       "病院"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "hospital corridor",
+     "hospital hallway",
+     "clinic waiting room"
+    ]
+   }
+  },
+  {
+   "text": "상사까지 시끄럽다고 병원 가라 했다고.",
+   "say": "상사까지 시끄럽다고 병원 가라 했다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "上司 怒る",
+       "上司",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💢",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이 글 하나에 조회 4만 5천, 댓글이 92개 달림.",
+   "say": "이 글 하나에 조회 사만 오천, 댓글이 구십이 개 달림.",
+   "sfx": "punch",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 男性",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💬",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "smartphone hand",
+     "smartphone screen",
+     "mobile phone"
+    ]
+   }
+  },
+  {
+   "text": "근데 베스트 댓글 1위는 편을 들어 줌.",
+   "say": "근데 베스트 댓글 일 위는 편을 들어 줌.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "cafe",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "スマートフォン 女性",
+       "スマートフォン"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤔",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“그런 기침 옮기진 않아요”",
+   "say": "그런 기침 옮기진 않아요",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "차분하게 타이르듯, 말끝은 분명하게",
+   "visual": {
+    "bg": "living",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "説明 女性",
+       "医者 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙆",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“감기 끝나도 기관이 좁아져서 기침 오래가요”",
+   "say": "감기 끝나도 기관이 좁아져서 기침 오래가요",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🫁",
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "throat lozenges",
+     "cough syrup",
+     "medicine bottle"
+    ]
+   }
+  },
+  {
+   "text": "그러자 바로 반박이 쏟아짐.",
+   "say": "그러자 바로 반박이 쏟아짐.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "red",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "反論 男性",
+       "怒る 会社員",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🔥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“마스크를 안 하고 불안감 주는 행동이 문제”",
+   "say": "마스크를 안 하고 불안감 주는 행동이 문제",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "マスク 男性",
+       "マスク"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🚫",
+      "pos": "center",
+      "size": "l",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ],
+    "video": [
+     "face mask",
+     "surgical mask",
+     "medical mask"
+    ]
+   }
+  },
+  {
+   "text": "“이런 애들 특, 자기한테는 엄청 관대함”",
+   "say": "이런 애들 특, 자기한테는 엄청 관대함",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "呆れる 女性",
+       "会社員 女性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🙄",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "근데 비염 있는 사람들이 등판함.",
+   "say": "근데 비염 있는 사람들이 등판함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "bedroom",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "鼻炎",
+       "くしゃみ 男性",
+       "花粉症"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🤧",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“찬바람만 쐬도 돌발성 기침이 나올 수 있다”",
+   "say": "찬바람만 쐬도 돌발성 기침이 나올 수 있다",
+   "sfx": "whoosh",
+   "cap": "quote",
+   "visual": {
+    "bg": "street",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "寒い 男性",
+       "冬 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🥶",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "winter wind street",
+     "cold winter city",
+     "snow street"
+    ],
+    "grok": {
+     "prompt": "Wide shot of a young Korean woman with a long ponytail in a beige winter coat stepping out of a building into a cold wind, she covers her mouth with her sleeve and coughs, gray winter street, slow pan camera"
+    }
+   }
+  },
+  {
+   "text": "알고 보니 감기 뒤 기침은",
+   "say": "알고 보니 감기 뒤 기침은",
+   "sfx": "whoosh",
+   "tone": "비밀 털어놓듯 낮게, 발음은 또박또박",
+   "join": true,
+   "visual": {
+    "bg": "night",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "医者 男性",
+       "医者"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "👀",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "길면 8주까지 간다고 함.",
+   "say": "길면 팔 주까지 간다고 함.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "기침 기간",
+      "lines": [
+       "3주 미만: 급성",
+       "3~8주: 아급성",
+       "8주 넘음: 만성"
+      ],
+      "mark": 2
+     },
+     {
+      "type": "illust",
+      "q": [
+       "医者 女性",
+       "医者"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "8주를 넘겨야 만성 기침으로 친다는데,",
+   "say": "팔 주를 넘겨야 만성 기침으로 친다는데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "カレンダー",
+       "カレンダー めくる"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "📅",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "calendar page",
+     "wall calendar",
+     "calendar desk"
+    ]
+   }
+  },
+  {
+   "text": "한 달이면 아직 절반 온 거임.",
+   "say": "한 달이면 아직 절반 온 거임.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "office",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "落ち込む 会社員",
+       "落ち込む 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "office desk",
+     "office workspace",
+     "office computer"
+    ]
+   }
+  },
+  {
+   "text": "옆자리 버티기, 이제 반환점임.",
+   "say": "옆자리 버티기, 이제 반환점임.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "イヤホン 男性",
+       "疲れる 会社員",
+       "疲れた 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏃",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "office window city",
+     "office building",
+     "city office"
+    ]
+   }
+  }
+ ],
+ "youtube": {
+  "title": "한 달째 안 멈춘다는 옆자리 기침의 진실 #shorts",
+  "description": "조용한 사무실, 1미터 옆자리 동료가 마스크 없이 한 달째 기침한다는 글에 댓글 92개가 달렸다.\n'그런 기침은 옮지 않는다'는 댓글과 '마스크를 안 하고 불안감 주는 게 문제'라는 반박이 엇갈렸다.\n감기 뒤 기침은 3~8주 이어질 수 있고, 8주가 넘어야 만성 기침으로 본다.\n\n※ AI 음성으로 제작했습니다.\n#기침 #직장인 #사무실 #옆자리 #shorts",
+  "tags": [
+   "기침",
+   "직장인",
+   "사무실",
+   "옆자리 동료",
+   "마스크",
+   "만성 기침",
+   "감기",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://pann.nate.com/talk/375739503",
+ "facts_used": [
+  "네이트판 '한달째 기침하는 옆자리 직원' (2026-11-28 WebFetch, inbox best_comments) — 1미터 옆자리·한 달째·마스크 안 씀·병원 초반 1번·상사도 병원 가라 함, 조회 45,613·댓글 92, 베스트 댓글 4개 — https://pann.nate.com/talk/375739503",
+  "코메디닷컴 2026-10-19 '감기 나았는데 계속 콜록콜록⋯기침 오래가는 뜻밖의 원인 4가지' — 감염 후 기침 보통 3~8주, 8주 이상이면 진료로 원인 확인 — https://kormedi.com/2885243",
+  "마이닥터 건강랩 '잔기침 오래가는 이유' (2026-09-01) — 3~8주 아급성, 8주 넘으면 만성 — https://my-doctor.io/healthLab/info/3782/잔기침-오래가는-이유"
+ ],
+ "brief": "점수(우리얘기 30): 내 얘기 5+5(시청자 70% 남성·78% 25~54세 직장인 — 사무실 옆자리 기침은 겨울마다 누구나 겪음, 기침하는 쪽도 듣는 쪽도 당사자) / 갈림 5('옮기진 않아요' 비염·기관지 편 vs '마스크 안 하는 게 문제'·'자기한테 관대함') / 몰랐던 이유 4(감기 뒤 기침은 3~8주 갈 수 있고 8주 넘어야 만성 — 코메디닷컴 2026-10-19, 마이닥터 건강랩) / 한 장면 5(1미터 옆, 조용한 사무실, 마스크 없이 콜록, 이어폰도 못 낌) / 누구나 아는 대상 5 + 화제 +5 = 34\n지금 가장 뜨거운 5개 (inbox 2026-11-28 09:12, gather 수동 실행은 실패해 직전 자동 수집본 사용): ①영포티 후드티 금지(디시 실베 721 — 어제 18시에 씀, 오늘 07시도 같은 이유로 제외, 같은 사실 반복이라 제외) ②한달째 기침하는 옆자리 직원(네이트판 랭킹 1위 점수 1.0, 조회 45,613·댓글 92, best_comments 4개가 서로 다른 입장) ③손편지 논란 뮤지컬 배우 새 인스타(더쿠 562 — 특정 배우 사생활·논란 캐기라 미확인 루머 각도 위험) ④이서진 '노처녀' 발언 논란(디시 실베 652 — 성별·나이 비하 논쟁이 중심이라 대결 구도를 빼면 남는 게 없음) ⑤의사고시 만점자 20명→137명(디시+보배 동시 화제 — 채널A 한 곳 보도, 의정 갈등·정치 해석으로 번짐). ②가 시청자 직장 얘기이고 실제 댓글 4개를 양쪽으로 읽을 수 있어 댓글 배틀형에 맞음.\n화제: 한달째 기침하는 옆자리 직원 (inbox 네이트판 랭킹 1위·점수 1.0, 원글 조회 45,613·댓글 92·추천 36 반대 49)\n레인: 우리얘기\n유행: 없음 (구글 급상승 삼성 라이온즈·선우용여·오픈ai·과징금·가죽 재킷·단체교섭 — 야구 FA·연예인 사생활 일침·기업 소송·정치 외교라 이 회차와 안 겹침. 커뮤니티 동시 단어 만점자·결혼·쌍둥이 지갑 중 쌍둥이 지갑은 2018년 일이라 07시에 이미 제외. 대신 질병관리청 11/6 독감 다시 증가 발표로 기침 철이라는 시기성은 있음)\n구조: 발단=1미터 옆 동료가 마스크 없이 한 달째 기침, 병원은 초반 한 번, 상사까지 병원 가라 함 → 조회 4.5만·댓글 92 / 반응='그런 기침 옮기진 않아요'→'감기 끝나도 기관이 좁아져서 기침 오래가요'→'마스크를 안 하고 불안감 주는 행동이 문제'→'자기한테는 엄청 관대함' / 이유=감기 뒤 기침은 3~8주 갈 수 있고 8주 넘어야 만성 기침 / 갈림=비염 있는 사람들 '찬바람만 쐬도 돌발성 기침이 나올 수 있다' / 한 방=한 달이면 8주의 절반, 옆자리 버티기 반환점\n댓글거리: 우리 사무실에도 있다는 사례, 나도 기침 한 달 가 봤다는 고백(비염·천식), 마스크 써 달라고 어떻게 말했는지, 기침 사탕 몰래 놓고 온 경험\n댓글: 5개 (네이트판 '한달째 기침하는 옆자리 직원' 베스트 댓글 4개 — inbox best_comments + WebFetch 원글로 같은 문장 확인. '그런 기침 옮기진 않아요. 기관지 약한 사람이 감기 끝나도 기관이 좁아져서 기침 오래가요'(두 화면으로 나누고 '기관지 약한 사람이' 뺌) / '기침이 문제가 아니라 병원 안가고 낫겠단 의지가없는 것과 마스크를 안하고 불안감 주는 행동이 문제인거지'(뒷부분 '마스크를 안하고 불안감 주는 행동이 문제인거지'만 잘라 씀, 띄어쓰기·어미만 고침) / '이런애들 특 -자기한테는 엄청 관대함ㅋㅋ…'(ㅋ 자모 뺌, 띄어쓰기만 고침) / '비염.천식있는 사람들은 … 밖에서 찬바람만 쐬도 돌발성 기침이 심하게 나올수 있다'(앞 잘라 '찬바람만 쐬도 돌발성 기침이 나올 수 있다', '심하게' 뺌)). 닉네임·커뮤니티 이름 화면에 안 씀\n확인된 사실: ① 원글 — 조용한 사무실 1미터 남짓 옆자리, 한 달째 기침, 마스크 안 씀, 병원은 초반 한 번, 상사도 시끄럽다며 병원 가라 함, 조회 45,613·댓글 92(WebFetch 원글 2026-11-28 확인, 글쓴이 말로 전함) ② 감염 후 기침은 보통 감염 뒤 3~8주 이어지며 대부분 호전, 8주 이상이면 다른 원인 확인 — 코메디닷컴 2026-10-19 \"감기 나았는데 계속 콜록콜록⋯기침 오래가는 뜻밖의 원인 4가지\" ③ 3주 미만 급성·3~8주 아급성·8주 넘으면 만성 — 마이닥터 건강랩 '잔기침 오래가는 이유'(2026-09-01), 코메디닷컴 같은 기사 ④ (안 씀) 질병관리청 2026-11-06 독감 의사환자 외래 1천 명당 22.8명으로 다시 증가, 기침할 때 옷소매로 가리기·마스크 착용 당부\n주의: 동료가 무슨 병인지 단정하지 않음(비염이라고 했다는 말도 안 씀). '옮긴다/안 옮긴다'는 댓글 주장으로만 전하고 내레이터는 편 안 듦. 의학 조언(약·치료) 없음. 위급·질병 장면으로 열지 않게 '병명' 대신 '기침 소리'로 씀. 회사·인물 특정 정보 없음\n증거: doc 기침 기간(3주 미만 급성 / 3~8주 아급성 / 8주 넘음 만성, mark 만성)\n훅 3안: ①'1미터 옆에서 마스크도 없이 한 달째 콜록거림' ②'상사까지 병원 가라고 한 옆자리 기침' ③'조회 4만 5천 넘은 옆자리 기침 글' → ① 거리·기간·마스크 숫자와 장면이 한 번에. 제목 3안: '한 달째 안 멈춘다는 옆자리 기침의 진실' / '진짜 한 달째 기침하는 옆자리 동료' / '사무실 옆자리 기침에 갈린 댓글' → 사람이 아니라 '진실'로 끝나고 앞 두 회차 '40대는…'·'결국'과 앞머리가 겹치지 않는 ①.\n첫장면: 사람\n이해검사: 조용한 사무실 1미터 옆자리 동료가 마스크 없이 한 달째 기침한다는 글에 댓글 92개가 '옮기진 않는다·비염은 어쩔 수 없다' vs '마스크 안 하고 불안감 주는 게 문제'로 갈렸는데, 감기 뒤 기침은 8주까지 갈 수 있어 한 달이면 아직 절반임.\n그림대조: 완료"
+}
