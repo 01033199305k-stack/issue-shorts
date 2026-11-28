@@ -1,32 +1,86 @@
 {
- "detected_at": "2026-11-27T18:03+09:00",
+ "detected_at": "2026-11-28T09:12+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "특검, 'SNS 내란 선동' 혐의 황교안에 징역 10년 구형",
-   "url": "https://n.news.naver.com/article/082/0001409324",
-   "press": "부산일보",
+   "title": "국제변호사협회도 \"조희대 탄핵 우려\"… \"판결 이견이 파면 사유 돼선 안 돼\"",
+   "url": "https://n.news.naver.com/article/469/0000968240",
+   "press": "한국일보",
    "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "KBS",
-     "title": "특검, ‘SNS 내란선동 혐의’ 황교안 징역 10년 구형",
-     "url": "https://n.news.naver.com/article/056/0012302718"
+     "press": "JTBC",
+     "title": "세계변호사협회도 조희대 탄핵 추진에 우려…\"위험한 선례\"",
+     "url": "https://n.news.naver.com/article/437/0000522888"
     },
     {
-     "press": "국민일보",
-     "title": "12·3 계엄 당시 ‘내란 선동’ 혐의…특검 황교안 징역 10년 구형",
-     "url": "https://n.news.naver.com/article/005/0001887881"
+     "press": "아시아경제",
+     "title": "세계변호사협회, 조희대 탄핵 우려…\"중대한 후폭풍\"",
+     "url": "https://n.news.naver.com/article/277/0005849021"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 공소청, ‘대장동 비리’ 민간업자 2심서 항소기각 요청",
-   "url": "https://n.news.naver.com/article/011/0004686932",
-   "press": "서울경제",
-   "why": "[속보] 기사",
-   "related": []
+   "title": "최민희 '당원권 정지 2년' 중징계‥내홍 고조",
+   "url": "https://n.news.naver.com/article/214/0001538621",
+   "press": "MBC",
+   "why": "언론사 5곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "한겨레",
+     "title": "최민희 ‘당원 정지 2년’ 중징계에 “수용 하기 어렵다”…민주 내홍 격화",
+     "url": "https://n.news.naver.com/article/028/0002834351"
+    },
+    {
+     "press": "강원일보",
+     "title": "민주당, 최민희 ‘당원권 2년 정지’ 중징계…친청계 반발",
+     "url": "https://n.news.naver.com/article/087/0001233957"
+    },
+    {
+     "press": "더팩트",
+     "title": "최민희 중징계에 김민석도 징계 심사…與, 내홍 출구는",
+     "url": "https://n.news.naver.com/article/629/0000556423"
+    },
+    {
+     "press": "부산일보",
+     "title": "與, 최민희 당원권 2년 정지 중징계…민주당 내홍 격화(종합)",
+     "url": "https://n.news.naver.com/article/082/0001409337"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보]李대통령 “김용범에 자본시장 개혁 전권 부여…핵심 국정과제”",
+   "url": "https://n.news.naver.com/article/021/0002836120",
+   "press": "문화일보",
+   "why": "[속보] 기사 + 언론사 2곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "SBS Biz",
+     "title": "李대통령 \"자본시장대전환위원장에 전권 부여…직접 보고 지시\"",
+     "url": "https://n.news.naver.com/article/374/0000546404"
+    }
+   ]
+  },
+  {
+   "kind": "news",
+   "title": "세계변호사협회 \"조희대 탄핵은 위험한 선례…중대한 후폭풍 낳을 것\"",
+   "url": "https://n.news.naver.com/article/088/0001042810",
+   "press": "매일신문",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "related": [
+    {
+     "press": "JTBC",
+     "title": "세계변호사협회도 조희대 탄핵 추진에 우려…\"위험한 선례\"",
+     "url": "https://n.news.naver.com/article/437/0000522888"
+    },
+    {
+     "press": "아시아경제",
+     "title": "세계변호사협회, 조희대 탄핵 우려…\"중대한 후폭풍\"",
+     "url": "https://n.news.naver.com/article/277/0005849021"
+    }
+   ]
   }
  ]
 }
