@@ -10414,5 +10414,74 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-28_0700_parental-leave-tax-exam-report/video.mp4"
   },
   "seconds": 2121
+ },
+ {
+  "key": "2026-11-28-1200",
+  "slot": "1200",
+  "publish_at": "2026-11-28T12:00:00+09:00",
+  "started": "2026-11-28T09:19:37.044704+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-28_1200_office-cough-coworker-month/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-28_1200_office-cough-coworker-month/video.mp4', '--det"
+  },
+  "open_bg": false,
+  "quote_voices": 5,
+  "stock_clips": [
+   "https://pixabay.com/photos/iphone-smartphone-apps-apple-inc-410324/",
+   "https://pixabay.com/photos/lozenges-white-mint-shape-tablet-166975/",
+   "https://pixabay.com/videos/id-63241/",
+   "https://pixabay.com/videos/id-32116/",
+   "https://pixabay.com/photos/calendar-date-time-month-week-660670/",
+   "https://pixabay.com/videos/id-137186/",
+   "https://pixabay.com/videos/id-45985/"
+  ],
+  "cc_clips": [],
+  "duration": 40.47,
+  "matches": [
+   1.0,
+   0.91,
+   1.0,
+   1.0,
+   0.97,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   1.0,
+   0.95,
+   1.0,
+   0.92,
+   0.92,
+   1.0,
+   1.0,
+   0.94
+  ],
+  "sfx": 17,
+  "illustrations": 15,
+  "cuts": 18,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [],
+  "title": "한 달째 안 멈춘다는 옆자리 기침의 진실 #shorts",
+  "source_post": "https://pann.nate.com/talk/375739503",
+  "facts_used": [
+   "네이트판 '한달째 기침하는 옆자리 직원' (2026-11-28 WebFetch, inbox best_comments) — 1미터 옆자리·한 달째·마스크 안 씀·병원 초반 1번·상사도 병원 가라 함, 조회 45,613·댓글 92, 베스트 댓글 4개 — https://pann.nate.com/talk/375739503",
+   "코메디닷컴 2026-10-19 '감기 나았는데 계속 콜록콜록⋯기침 오래가는 뜻밖의 원인 4가지' — 감염 후 기침 보통 3~8주, 8주 이상이면 진료로 원인 확인 — https://kormedi.com/2885243",
+   "마이닥터 건강랩 '잔기침 오래가는 이유' (2026-09-01) — 3~8주 아급성, 8주 넘으면 만성 — https://my-doctor.io/healthLab/info/3782/잔기침-오래가는-이유"
+  ],
+  "slug": "2026-11-28_1200_office-cough-coworker-month",
+  "late": false,
+  "video_id": "2Bc-Db6F1dc",
+  "url": "https://youtube.com/shorts/2Bc-Db6F1dc",
+  "privacy": "private",
+  "scheduled_for": "2026-11-28T03:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b0a262a41454797eada322b",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-28T03:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-28_1200_office-cough-coworker-month/video.mp4"
+  },
+  "seconds": 2067
  }
 ]
