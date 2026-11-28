@@ -1,24 +1,45 @@
 {
- "detected_at": "2026-11-28T10:57+09:00",
+ "detected_at": "2026-11-28T15:12+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "최민희 중징계 이튿날 '김민석 사퇴' 집회…與 복잡해지는 통합 과제",
-   "url": "https://n.news.naver.com/article/421/0009315049",
-   "press": "뉴스1",
-   "why": "언론사 3곳이 댓글 많은 기사 1위로",
+   "title": "동해에 아시아 최대 AI 데이터센터…이 대통령 “정부 모든 역량 동원”",
+   "url": "https://n.news.naver.com/article/081/0003704091",
+   "press": "서울신문",
+   "why": "언론사 4곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "한국일보",
-     "title": "최민희 중징계에 김민석 겨눈 정청래… 與 계파갈등 기폭제 되나",
-     "url": "https://n.news.naver.com/article/469/0000968256"
+     "press": "연합뉴스",
+     "title": "아시아 최대 규모 동해 GS AI데이터센터 첫 삽…최대 120조원",
+     "url": "https://n.news.naver.com/article/001/0016468742"
     },
     {
-     "press": "더팩트",
-     "title": "최민희 중징계에 김민석도 징계 심사…與, 내홍 출구는",
-     "url": "https://n.news.naver.com/article/629/0000556423"
+     "press": "SBS Biz",
+     "title": "李대통령 \"AI 경쟁서 선도국가 되도록 모든 역량 동원\"",
+     "url": "https://n.news.naver.com/article/374/0000546439"
+    },
+    {
+     "press": "매경이코노미",
+     "title": "[속보] 李대통령 “동해 AI 데이터센터, 투자 마중물…선도국가 위해 모든 역량 동원”",
+     "url": "https://n.news.naver.com/article/024/0000109958"
     }
    ]
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 을왕리 앞바다서 카약 전복…40대 부자 구조, 반려견은 미발견",
+   "url": "https://n.news.naver.com/article/029/0003061606",
+   "press": "디지털타임스",
+   "why": "[속보] 기사",
+   "related": []
+  },
+  {
+   "kind": "news",
+   "title": "[속보] 국정원, 김정은 추가 방중 가능성에 \"여러 동향을 주시 중\"",
+   "url": "https://n.news.naver.com/article/654/0000213882",
+   "press": "강원도민일보",
+   "why": "[속보] 기사",
+   "related": []
   }
  ]
 }
