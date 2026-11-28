@@ -1,43 +1,30 @@
 {
- "detected_at": "2026-11-28T15:12+09:00",
+ "detected_at": "2026-11-28T19:19+09:00",
  "candidates": [
   {
    "kind": "news",
-   "title": "동해에 아시아 최대 AI 데이터센터…이 대통령 “정부 모든 역량 동원”",
-   "url": "https://n.news.naver.com/article/081/0003704091",
-   "press": "서울신문",
-   "why": "언론사 4곳이 댓글 많은 기사 1위로",
+   "title": "환자가 쓴 줄 알았던 성형 후기에 이 대통령 “국민 기만해 돈 버는 범죄 엄정 대응”",
+   "url": "https://n.news.naver.com/article/009/0005770263",
+   "press": "매일경제",
+   "why": "언론사 3곳이 댓글 많은 기사 1위로",
    "related": [
     {
-     "press": "연합뉴스",
-     "title": "아시아 최대 규모 동해 GS AI데이터센터 첫 삽…최대 120조원",
-     "url": "https://n.news.naver.com/article/001/0016468742"
+     "press": "조선일보",
+     "title": "李대통령 “성형후기 조작 기막혀... 국민 기만 범죄 엄정 대응”",
+     "url": "https://n.news.naver.com/article/023/0004012267"
     },
     {
-     "press": "SBS Biz",
-     "title": "李대통령 \"AI 경쟁서 선도국가 되도록 모든 역량 동원\"",
-     "url": "https://n.news.naver.com/article/374/0000546439"
-    },
-    {
-     "press": "매경이코노미",
-     "title": "[속보] 李대통령 “동해 AI 데이터센터, 투자 마중물…선도국가 위해 모든 역량 동원”",
-     "url": "https://n.news.naver.com/article/024/0000109958"
+     "press": "동아일보",
+     "title": "李, 성형 후기 조작에 “국민 기만해 돈 벌어…엄정 대응”",
+     "url": "https://n.news.naver.com/article/020/0003765900"
     }
    ]
   },
   {
    "kind": "news",
-   "title": "[속보] 을왕리 앞바다서 카약 전복…40대 부자 구조, 반려견은 미발견",
-   "url": "https://n.news.naver.com/article/029/0003061606",
-   "press": "디지털타임스",
-   "why": "[속보] 기사",
-   "related": []
-  },
-  {
-   "kind": "news",
-   "title": "[속보] 국정원, 김정은 추가 방중 가능성에 \"여러 동향을 주시 중\"",
-   "url": "https://n.news.naver.com/article/654/0000213882",
-   "press": "강원도민일보",
+   "title": "[속보] 집 찾아온 설치 기사에 10kg 에어컨 집어 던진 40대…법원 판결은?",
+   "url": "https://n.news.naver.com/article/082/0001409370",
+   "press": "부산일보",
    "why": "[속보] 기사",
    "related": []
   }
