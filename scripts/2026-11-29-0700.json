@@ -1,0 +1,390 @@
+{
+ "skip": false,
+ "skip_reason": "",
+ "slug": "army-gta6-reenlist-pass",
+ "title_lines": [
+  "재입대하면 GTA 휴가",
+  "준다는 군부대 결과"
+ ],
+ "credit": "",
+ "segments": [
+  {
+   "text": "재입대하면 GTA 휴가 준다는 군부대 결과",
+   "say": "재입대하면 지티에이 휴가 준다는 군부대 결과",
+   "sfx": "punch",
+   "tone": "흥미진진하게 빠르고 경쾌하게, 끝은 궁금하게 살짝 올려서",
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "text",
+      "style": "post",
+      "text": "재입대하면 GTA 휴가\n준다는 군부대 결과",
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "미군이 재입대 보너스로 게임 휴가를 걸었음.",
+   "say": "미군이 재입대 보너스로 게임 휴가를 걸었음.",
+   "sfx": "whoosh",
+   "tone": "깜짝 놀라 숨을 훅 들이켜며 목소리를 확 높여서",
+   "visual": {
+    "bg": "field",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "兵士",
+       "軍人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🎮",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "military base",
+     "army barracks",
+     "army truck"
+    ]
+   }
+  },
+  {
+   "text": "13년 만에 나온 게임 때문인데,",
+   "say": "십삼 년 만에 나온 게임 때문인데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "white",
+    "items": [
+     {
+      "type": "emoji",
+      "text": "🎮",
+      "pos": "center",
+      "size": "l",
+      "at": 0.2,
+      "fx": "pop"
+     }
+    ],
+    "pic": [
+     "game controller",
+     "gaming console",
+     "video game"
+    ]
+   }
+  },
+  {
+   "text": "영국에선 출시 날 연차 사유 5%가 이거였다고.",
+   "say": "영국에선 출시 날 연차 사유 오 퍼센트가 이거였다고.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "office",
+    "tr": "whoosh",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "休暇 会社員",
+       "喜ぶ 会社員",
+       "喜ぶ 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "🏖️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "empty office",
+     "office chairs",
+     "office desk"
+    ]
+   }
+  },
+  {
+   "text": "신청서에 이렇게 쓴 직원도 나옴.",
+   "say": "신청서에 이렇게 쓴 직원도 나옴.",
+   "sfx": "whoosh",
+   "tone": "어이없다는 듯 기가 막혀 웃으며",
+   "visual": {
+    "bg": "office",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "書く 会社員",
+       "書く 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "✍️",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "“GTA 출시, 안 해 주면 퇴사”",
+   "say": "지티에이 출시, 안 해 주면 퇴사",
+   "sfx": "exclaim",
+   "cap": "quote",
+   "tone": "어이없다는 듯 또박또박 힘주어",
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "연차 신청서",
+      "lines": [
+       "사유: GTA 출시",
+       "안 해 주면 퇴사"
+      ],
+      "mark": 1
+     },
+     {
+      "type": "illust",
+      "q": [
+       "怒る 会社員",
+       "怒る 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     }
+    ]
+   }
+  },
+  {
+   "text": "이걸 군대가 써먹은 거임.",
+   "say": "이걸 군대가 써먹은 거임.",
+   "sfx": "whoosh",
+   "visual": {
+    "bg": "field",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "軍人 敬礼",
+       "敬礼",
+       "軍人"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💡",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "grok": {
+     "prompt": "Medium shot of an American army sergeant in his thirties with a buzz cut and green camouflage uniform, pinning a paper flyer with a cartoon game controller onto a barracks bulletin board and grinning, bright army base hallway, slow push-in camera"
+    }
+   }
+  },
+  {
+   "text": "조건은 2년 더 복무하는 건데,",
+   "say": "조건은 이 년 더 복무하는 건데,",
+   "sfx": "whoosh",
+   "join": true,
+   "visual": {
+    "bg": "desk",
+    "items": [
+     {
+      "type": "doc",
+      "title": "재입대 보너스",
+      "lines": [
+       "최소 2년 재입대",
+       "GTA 휴가 4일"
+      ],
+      "mark": 1
+     }
+    ]
+   }
+  },
+  {
+   "text": "게임 나흘에 2년이면 누가 함?",
+   "say": "게임 나흘에 이 년이면 누가 함?",
+   "sfx": "question",
+   "tone": "고개를 갸웃하며 못 믿겠다는 듯이",
+   "visual": {
+    "bg": "field",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "考える 兵士",
+       "考える 男性"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "❓",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "barracks building",
+     "military barracks",
+     "army base"
+    ]
+   }
+  },
+  {
+   "text": "알고 보니 대상자 130명 중에",
+   "say": "알고 보니 대상자 백삼십 명 중에",
+   "sfx": "whoosh",
+   "join": true,
+   "tone": "비밀 털어놓듯 낮게, 발음은 또박또박",
+   "visual": {
+    "bg": "night",
+    "items": [
+     {
+      "type": "crowd",
+      "q": "兵士",
+      "count": 12
+     }
+    ]
+   }
+  },
+  {
+   "text": "무려 42명이 서류에 사인함.",
+   "say": "무려 사십이 명이 서류에 사인함.",
+   "sfx": "stamp",
+   "cap": "hit",
+   "tone": "결정적 한 방을 터뜨리듯 크고 단호하게",
+   "visual": {
+    "bg": "office",
+    "tr": "flash",
+    "cam": "punch",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "サイン 書類",
+       "署名",
+       "契約"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "💥",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "stamp"
+     }
+    ],
+    "video": [
+     "pen signing",
+     "signing document",
+     "contract signing"
+    ]
+   }
+  },
+  {
+   "text": "셋 중 하나가 게임에 넘어감.",
+   "say": "셋 중 하나가 게임에 넘어감.",
+   "sfx": "none",
+   "cap": "react",
+   "tone": "어이없어 웃음 터지기 직전처럼 짧고 힘 있게",
+   "visual": {
+    "bg": "living",
+    "cam": "pull",
+    "items": [
+     {
+      "type": "illust",
+      "q": [
+       "テレビゲーム 男性",
+       "ゲーム 男性",
+       "テレビゲーム"
+      ],
+      "pos": "center",
+      "at": 0.0,
+      "fx": "pop"
+     },
+     {
+      "type": "emoji",
+      "text": "😎",
+      "pos": "top-right",
+      "size": "s",
+      "at": 0.5,
+      "fx": "pop"
+     }
+    ],
+    "video": [
+     "living room tv",
+     "television living room",
+     "game controller"
+    ],
+    "grok": {
+     "prompt": "Medium shot of a young American soldier in his twenties with a buzz cut wearing a green army t-shirt, sinking into a couch and happily playing a video game with a controller, cozy living room lit by the TV glow, slow pull-out camera"
+    }
+   }
+  }
+ ],
+ "youtube": {
+  "title": "재입대하면 GTA 휴가 준다는 군부대 결과 #shorts",
+  "description": "13년 만에 나온 GTA 6 출시에 맞춰 미군 한 공병대대가 최소 2년 재입대하는 병사에게 게임용 4일 휴가를 내걸었다.\n영국에선 출시일 연차 사유의 약 5%가 GTA였고, 신청서에 '안 해 주면 퇴사'라고 쓴 직원도 있었다.\n대상 병사 130명 중 42명이 이 보너스를 택해 재입대했다.\n\n※ AI 음성으로 제작했습니다.\n#GTA6 #군대 #재입대 #연차 #게임 #shorts",
+  "tags": [
+   "GTA6",
+   "GTA 6",
+   "군대",
+   "재입대",
+   "미군",
+   "연차",
+   "휴가",
+   "게임",
+   "쇼츠"
+  ]
+ },
+ "source_post": "https://www.forcesnews.com/usa/offer-four-day-pass-play-gta-6-convinces-dozens-us-army-personnel-re-enlist",
+ "facts_used": [
+  "Forces News 2026-11-19 'Offer of four-day pass to play GTA 6 convinces dozens of US Army personnel to re-enlist' — 조지아주 포트 스튜어트 제9여단 공병대대, 대상 130명 중 42명(사진 설명은 43명) 선택, 최소 2년 재입대, 대변인 'connects to what soldiers are interested in' — https://www.forcesnews.com/usa/offer-four-day-pass-play-gta-6-convinces-dozens-us-army-personnel-re-enlist",
+  "PC Gamer 'US Army confirms it's offering 4 days to play GTA 6 to soldiers who reenlist for at least 2 years' — https://pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years",
+  "Dexerto·Task & Purpose·games.gg 미 육군 대대 GTA 6 재입대 휴가 보도 (11/20~23 휴가, 8/1~11/14 재입대자) — https://dexerto.com/gta/us-army-battalion-reportedly-offers-troops-days-off-to-play-gta-6-if-they-re-enlist-3399447",
+  "인벤글로벌 (BrightHR 11/9 발표) — 영국 출시일 연차 사유 중 GTA 약 5%, 신혼여행의 두 배 이상, 사유 'GTA release, deny it and I quit' — https://www.invenglobal.com/articles/28403/deny-my-leave-and-i-quit-uk-workers-book-83000-days-off-for-gta-6",
+  "서울신문 2026-11-18 '13년 기다렸다… GTA 6 게임하러 휴가 낼게요' — GTA 5 이후 13년 만, 18일 자정 국내 발매 — https://www.seoul.co.kr/news/newsView.php?id=20261119032001",
+  "게임메카 'GTA 6 발매 맞춰 전 직원 휴가 주는 회사 속속 등장' — 미 육군 한 대대 재입대 병사 4일 휴가 — https://www.gamemeca.com/view.php?gid=1783486"
+ ],
+ "brief": "점수(사건 30): 이게됨 5(게임 휴가 나흘 걸고 군인 재입대를 받음) / 궁금증 4(그래서 몇 명이 사인했나 → 130명 중 42명) / 감정 6(직장인·군필 남성이 연차·복무 기간을 자기 일로 대입, 웃긴 통쾌함) / 대상 5(GTA·군대·연차) / 판정 3(게임 나흘에 2년이 남는 장사냐 갈림) + 화제 +5 = 28\n지금 가장 뜨거운 5개: ①서빙로봇에 부딪힌 아이 갈비탕 2도 화상(디시 실베 410 + news_hot 한국경제 + buzz '화상' — 아이 부상이 중심이고 댓글이 아이·부모 탓으로 흘러 아이 보호 규칙과 첫 장면 위급 규칙에 걸림, 이번엔 제외) ②GTA 6 출시 열풍(구글 급상승 '플레이스테이션' 기사 '출시 첫날 매출 5조원, 직장선 GTA 휴가' — 채택) ③DL그룹 회장 심야 호출(news_hot YTN·노컷·강원일보 — 어제 18시에 씀) ④삼성전자 4만 원 전망·증시 폭락(news_hot 여럿 — 주가 소재라 제외) ⑤학교 비정규직 급식 파업 빵(구글 급상승 '비정규직' — 노사 공방·제도라 각도 고민했으나 이유·답이 약함). 시청자 70% 남성·25~54세라 군대·직장 연차가 겹치는 ②를 고름.\n화제: GTA 6 출시 연차·휴가 열풍 (구글 급상승 '플레이스테이션' 200+ 기사 '출시 첫날 매출 5조원, 직장선 GTA 휴가', 서울신문 11/19 '13년 기다렸다… GTA 6 게임하러 휴가 낼게요')\n레인: 사건 — 07시 사건 레인. 해외 소재지만 한국에서 급상승 중인 화제(해외 1편 제한은 유행 밖 토픽에만). 최근 대본 3개는 모두 국내.\n유행: GTA 6 (구글 급상승)\n구조: 시작=미군 부대가 재입대 보너스로 게임 휴가 / 커짐=13년 만에 나온 게임(GTA 6) → 영국 출시일 연차 사유 5% → 신청서에 '안 해 주면 퇴사' → 군대도 써먹음 / 뒤집힘=조건은 최소 2년 더 복무 / 정체=대상자 130명 중 42명이 사인 / 그 뒤=셋 중 하나가 게임에 넘어감\n댓글: 1개뿐 (인벤글로벌 11/10·BrightHR 발표에 실린 연차 신청 사유 'GTA release, deny it and I quit' 를 옮김. 다른 사유 'GTA Day. Game on, losers'·'a week on the couch in my underwear' 는 길이·어감 때문에 안 씀. 한국 누리꾼 반응을 실은 기사는 검색 2번으로 못 찾음 — 짧은 형식으로 씀)\n첫장면: 의외\n훅 3안: ①'미군 부대가 재입대 보너스로 게임 휴가를 걸었음'(채택 — 제목보다 한 발 나간 구체 행동, 배경 설명 없음) ②'게임 나흘 주면 2년 더 군대 있겠냐는 질문'(질문형이라 약함) ③'영국 연차 사유 5%가 GTA였음'(군대 얘기와 멀어짐). 글 카드·제목: '재입대하면 GTA 휴가 준다는 군부대 결과'(카드 24자 제한으로 '미군 부대'→'군부대', 미군은 1번 훅에서 바로 말함)(채택, @짧은주녑 '~준다는 ~ 결과' 틀, 앞 회차 '퇴근한'·'한 달째'·'결국'과 다른 앞머리, 사람이 아닌 '결과'로 끝남) / '게임 휴가 나흘에 2년 더 남은 군인들'(사람으로 끝남) / 'GTA 하려고 연차 낸 직장인들의 사유'.\n이해검사: 미군 한 부대가 GTA 6 출시에 맞춰 최소 2년 재입대하면 게임 휴가 나흘을 주겠다고 했는데, 대상자 130명 중 42명이 실제로 재입대 서류에 사인했다.\n그림대조: 완료 (군인=兵士·軍人 그림 + 들판·군부대 스톡, 연차=사무실·회사원, 신청서·보너스=doc 소품, 게임=컨트롤러 사진·TV 거실, 일본 지도·국기·엔화 없음, 해외 이야기라 street·apartment·market 안 씀)\n증거: doc 2개(영국 연차 신청 사유 문구, 재입대 조건 2년·4일)\n주의: 42명(포시스뉴스 본문·부대 발표) vs 43명(같은 기사 사진 설명·games.gg) 엇갈림 — 부대 발표 42명을 씀. 부대는 조지아주 포트 스튜어트 제9여단 공병대대, 육군 전체 정책 아님(대본은 '미군 부대'로만 씀). WebFetch 는 네이버 뉴스만 막혔고 나머지는 열림."
+}
