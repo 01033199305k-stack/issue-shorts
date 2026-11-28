@@ -10545,5 +10545,69 @@
    "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-28_1800_night-callback-400-employees/video.mp4"
   },
   "seconds": 1489
+ },
+ {
+  "key": "2026-11-29-0700",
+  "slot": "0700",
+  "publish_at": "2026-11-29T07:00:00+09:00",
+  "started": "2026-11-29T04:22:31.166773+09:00",
+  "sound_qa": {
+   "error": "Command '['/home/runner/.local/bin/earshot', 'timeline', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-29_0700_army-gta6-reenlist-pass/sound_qa_stereo.wav', '--video', '/home/runner/work/issue-shorts/issue-shorts/output/2026-11-29_0700_army-gta6-reenlist-pass/video.mp4', '--detail', 'l"
+  },
+  "open_bg": false,
+  "quote_voices": 1,
+  "stock_clips": [
+   "https://pixabay.com/videos/id-145737/",
+   "https://pixabay.com/photos/game-console-sony-video-games-6603120/",
+   "https://pixabay.com/videos/id-96805/",
+   "https://pixabay.com/videos/id-94131/",
+   "https://pixabay.com/videos/id-121926/"
+  ],
+  "cc_clips": [],
+  "duration": 26.34,
+  "matches": [
+   0.97,
+   0.91,
+   0.98,
+   0.98,
+   0.98,
+   1.0,
+   1.0,
+   0.95,
+   0.95,
+   0.96,
+   0.96,
+   0.96
+  ],
+  "sfx": 11,
+  "illustrations": 8,
+  "cuts": 12,
+  "layout_issues": [],
+  "layout_notes": [],
+  "caption_breaks": [],
+  "title": "재입대하면 GTA 휴가 준다는 군부대 결과 #shorts",
+  "source_post": "https://www.forcesnews.com/usa/offer-four-day-pass-play-gta-6-convinces-dozens-us-army-personnel-re-enlist",
+  "facts_used": [
+   "Forces News 2026-11-19 'Offer of four-day pass to play GTA 6 convinces dozens of US Army personnel to re-enlist' — 조지아주 포트 스튜어트 제9여단 공병대대, 대상 130명 중 42명(사진 설명은 43명) 선택, 최소 2년 재입대, 대변인 'connects to what soldiers are interested in' — https://www.forcesnews.com/usa/offer-four-day-pass-play-gta-6-convinces-dozens-us-army-personnel-re-enlist",
+   "PC Gamer 'US Army confirms it's offering 4 days to play GTA 6 to soldiers who reenlist for at least 2 years' — https://pcgamer.com/games/grand-theft-auto/us-army-confirms-its-offering-4-days-to-play-gta-6-to-soldiers-who-reenlist-for-at-least-2-years",
+   "Dexerto·Task & Purpose·games.gg 미 육군 대대 GTA 6 재입대 휴가 보도 (11/20~23 휴가, 8/1~11/14 재입대자) — https://dexerto.com/gta/us-army-battalion-reportedly-offers-troops-days-off-to-play-gta-6-if-they-re-enlist-3399447",
+   "인벤글로벌 (BrightHR 11/9 발표) — 영국 출시일 연차 사유 중 GTA 약 5%, 신혼여행의 두 배 이상, 사유 'GTA release, deny it and I quit' — https://www.invenglobal.com/articles/28403/deny-my-leave-and-i-quit-uk-workers-book-83000-days-off-for-gta-6",
+   "서울신문 2026-11-18 '13년 기다렸다… GTA 6 게임하러 휴가 낼게요' — GTA 5 이후 13년 만, 18일 자정 국내 발매 — https://www.seoul.co.kr/news/newsView.php?id=20261119032001",
+   "게임메카 'GTA 6 발매 맞춰 전 직원 휴가 주는 회사 속속 등장' — 미 육군 한 대대 재입대 병사 4일 휴가 — https://www.gamemeca.com/view.php?gid=1783486"
+  ],
+  "slug": "2026-11-29_0700_army-gta6-reenlist-pass",
+  "late": false,
+  "video_id": "ZL0_-iZZg6s",
+  "url": "https://youtube.com/shorts/ZL0_-iZZg6s",
+  "privacy": "private",
+  "scheduled_for": "2026-11-28T22:00:00Z",
+  "tiktok": {
+   "buffer_id": "6b0b31ac5d4376bde3d39e42",
+   "status": "scheduled",
+   "mode": "customScheduled",
+   "due": "2026-11-28T22:00:00.000Z",
+   "video_url": "https://github.com/01033199305k-stack/issue-shorts/releases/download/tt-2026-11-29_0700_army-gta6-reenlist-pass/video.mp4"
+  },
+  "seconds": 1975
  }
 ]
